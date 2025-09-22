@@ -7,12 +7,11 @@ from tkinter import filedialog, messagebox
 import os
 
 
-# Replace ONLY this class in your script.
+# This is the updated CoreAnalyser class with integrated edge detection.
 class CoreAnalyser:
     """
     The core interactive analysis engine. Measures rotational angle by manually
     selecting points, correcting for geometric and perspective distortions.
-    This class is instantiated by a specific analyser (e.g., PictureAnalyser).
     """
 
     def __init__(self, image, real_catheter_diameter_mm, real_feature_width_mm, filename_prefix="capture"):
@@ -26,6 +25,8 @@ class CoreAnalyser:
 
         # --- Image and display state ---
         self.original_image = image
+        # NEW: Create an edge-detected version for the interactive display
+        self.edge_display_image = self._create_edge_display(self.original_image)
         self.display_image = None
         self.window_name = "Manual Catheter Analysis"
         self.filename_prefix = filename_prefix
@@ -33,6 +34,7 @@ class CoreAnalyser:
 
         # --- Interaction state ---
         self.phase = "ALIGNMENT"
+        self.show_edges = True  # New: Flag to control which image is shown
         self.clicked_points = []
         self.point_history = []
         self.zoom_level = 1.0
@@ -41,21 +43,7 @@ class CoreAnalyser:
         self.pan_start = np.array([0, 0])
 
         self.info_panel_height = 120
-
-        # --- MINIMAL CHANGE: Re-introduced corrected scaling logic ---
-        max_display_width = 1200
-        max_display_height = 800
-        h, w = self.original_image.shape[:2]
-
-        # Calculate scale factor to fit the image in the window, but do not enlarge it.
-        scale = min(max_display_width / w, max_display_height / h, 1.0)
-        self.initial_scale_factor = scale
-
-        # Create a scaled version of the image that will be used for display.
-        new_w = int(w * self.initial_scale_factor)
-        new_h = int(h * self.initial_scale_factor)
-        self.scaled_image = cv2.resize(self.original_image, (new_w, new_h), interpolation=cv2.INTER_AREA)
-        self.scaled_h, self.scaled_w = self.scaled_image.shape[:2]
+        self.h, self.w = self.original_image.shape[:2]
 
     def _calculate_real_angular_width(self):
         if self.real_catheter_diameter_mm <= 0 or self.real_feature_width_mm <= 0:
@@ -65,28 +53,45 @@ class CoreAnalyser:
         real_radius = self.real_catheter_diameter_mm / 2.0
         return 2 * math.asin((self.real_feature_width_mm / 2.0) / real_radius)
 
+    def _create_edge_display(self, image):
+        """Creates a 3-channel BGR edge map from an image using the Sobel operator."""
+        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        blurred = cv2.GaussianBlur(gray, (5, 5), 0)
+
+        sobelx = cv2.Sobel(blurred, cv2.CV_64F, 1, 0, ksize=5)
+        sobely = cv2.Sobel(blurred, cv2.CV_64F, 0, 1, ksize=5)
+
+        magnitude = cv2.magnitude(sobelx, sobely)
+        edges = cv2.normalize(magnitude, None, 0, 255, cv2.NORM_MINMAX, cv2.CV_8U)
+
+        return cv2.cvtColor(edges, cv2.COLOR_GRAY2BGR)
+
     def _update_display(self):
-        # All zooming and panning now happens on the scaled_image.
-        zoomed_w = int(self.scaled_w * self.zoom_level)
-        zoomed_h = int(self.scaled_h * self.zoom_level)
+        # NEW: Choose which image to display based on the toggle state
+        if self.show_edges:
+            base_image = self.edge_display_image
+        else:
+            base_image = self.original_image.copy()  # Use a copy to avoid drawing on the original
 
-        self.pan_offset[0] = np.clip(self.pan_offset[0], 0, max(0, zoomed_w - self.scaled_w))
-        self.pan_offset[1] = np.clip(self.pan_offset[1], 0, max(0, zoomed_h - self.scaled_h))
-        view_x, view_y = int(self.pan_offset[0]), int(self.pan_offset[1])
+        zoomed_w, zoomed_h = int(self.w * self.zoom_level), int(self.h * self.zoom_level)
+        view_x = int(self.pan_offset[0])
+        view_y = int(self.pan_offset[1])
 
-        zoomed_display_image = cv2.resize(self.scaled_image, (zoomed_w, zoomed_h), interpolation=cv2.INTER_LINEAR)
+        view_x = np.clip(view_x, 0, zoomed_w - self.w)
+        view_y = np.clip(view_y, 0, zoomed_h - self.h)
+        self.pan_offset = np.array([float(view_x), float(view_y)])
 
-        visible_region = zoomed_display_image[view_y:view_y + self.scaled_h, view_x:view_x + self.scaled_w]
+        zoomed_image = cv2.resize(base_image, (zoomed_w, zoomed_h), interpolation=cv2.INTER_LINEAR)
+
+        visible_region = zoomed_image[view_y:view_y + self.h, view_x:view_x + self.w]
         self.display_image = visible_region.copy()
 
-        # Points (stored as original coordinates) are converted to display coordinates for drawing.
         for i, (ox, oy) in enumerate(self.clicked_points):
-            sx = ox * self.initial_scale_factor
-            sy = oy * self.initial_scale_factor
-            vx = int(sx * self.zoom_level - view_x)
-            vy = int(sy * self.zoom_level - view_y)
+            vx = int((ox * self.zoom_level) - self.pan_offset[0])
+            vy = int((oy * self.zoom_level) - self.pan_offset[1])
             color = (255, 0, 0) if (self.phase == "ALIGNMENT" or i < 2) else (0, 0, 255)
             cv2.circle(self.display_image, (vx, vy), 5, color, -1)
+            cv2.circle(self.display_image, (vx, vy), 5, (255, 255, 255), 1)
 
         panel = np.zeros((self.info_panel_height, self.display_image.shape[1], 3), dtype=np.uint8)
         self._draw_info_text(panel)
@@ -98,20 +103,25 @@ class CoreAnalyser:
             cv2.putText(panel, text, (10, y_pos), cv2.FONT_HERSHEY_SIMPLEX, font_scale, color, 1, cv2.LINE_AA)
 
         put_text(f"PHASE: {self.phase}", 20, color=(0, 255, 255))
+        put_text("Press 'Tab' to toggle Original/Edge view.", 80)  # New instruction
+
         if self.phase == "ALIGNMENT":
             put_text("Click 2 points to define a horizontal line.", 40)
-            if len(self.clicked_points) > 0: put_text(f"Point 1: {self.clicked_points[0]}", 60)
+            if len(self.clicked_points) > 0:
+                put_text(f"Point 1: {self.clicked_points[0]}", 60)
             if len(self.clicked_points) == 2:
-                put_text(f"Point 2: {self.clicked_points[1]}", 80)
                 put_text("Confirm alignment? (y/n)", 100, color=(0, 255, 0))
         elif self.phase == "MEASUREMENT":
-            instructions = ["1. Catheter Top", "2. Catheter Bottom", "3. Gap Top Edge", "4. Gap Bottom Edge"]
+            instructions = [
+                "1. Catheter Top", "2. Catheter Bottom",
+                "3. Gap Top Edge", "4. Gap Bottom Edge"
+            ]
             put_text(
                 f"Click 4 points: {instructions[len(self.clicked_points)] if len(self.clicked_points) < 4 else 'Done'}",
                 40)
             coords_str = ", ".join(map(str, self.clicked_points))
             put_text(f"Points: [{coords_str}]", 60)
-            put_text("Press 'z' to undo last point. 'r' to reset. 'q' to quit. 's' to restart.", 100)
+            put_text("Press 'z' to undo. 'r' to reset. 'q' to quit. 's' to restart.", 100)
 
     def _mouse_callback(self, event, x, y, flags, _):
         if event == cv2.EVENT_RBUTTONDOWN:
@@ -120,28 +130,28 @@ class CoreAnalyser:
         elif event == cv2.EVENT_RBUTTONUP:
             self.is_panning = False
         elif event == cv2.EVENT_MOUSEMOVE and self.is_panning:
-            delta = self.pan_start - np.array([x, y])
+            delta = (self.pan_start - np.array([x, y]))
             self.pan_offset += delta
             self.pan_start = np.array([x, y])
         elif event == cv2.EVENT_MOUSEWHEEL:
-            cursor_on_scaled_x = (self.pan_offset[0] + x) / self.zoom_level
-            cursor_on_scaled_y = (self.pan_offset[1] + y) / self.zoom_level
             zoom_factor = 1.1 if flags > 0 else 1 / 1.1
-            self.zoom_level = np.clip(self.zoom_level * zoom_factor, 1.0, 20.0)
-            self.pan_offset[0] = (cursor_on_scaled_x * self.zoom_level) - x
-            self.pan_offset[1] = (cursor_on_scaled_y * self.zoom_level) - y
+            cursor_on_original_x = (self.pan_offset[0] + x) / self.zoom_level
+            cursor_on_original_y = (self.pan_offset[1] + y) / self.zoom_level
+            self.zoom_level *= zoom_factor
+            self.zoom_level = np.clip(self.zoom_level, 1.0, 20.0)
+            self.pan_offset[0] = (cursor_on_original_x * self.zoom_level) - x
+            self.pan_offset[1] = (cursor_on_original_y * self.zoom_level) - y
         elif event == cv2.EVENT_LBUTTONDOWN:
-            if y < self.scaled_h:
-                if (self.phase == "ALIGNMENT" and len(self.clicked_points) < 2) or \
-                        (self.phase == "MEASUREMENT" and len(self.clicked_points) < 4):
+            if y < self.h:
+                if self.phase == "ALIGNMENT" and len(self.clicked_points) < 2:
                     self.point_history.append(list(self.clicked_points))
-
-                    # This is the corrected, accurate coordinate transformation
-                    scaled_px = (self.pan_offset[0] + x) / self.zoom_level
-                    scaled_py = (self.pan_offset[1] + y) / self.zoom_level
-                    px = int(scaled_px / self.initial_scale_factor)
-                    py = int(scaled_py / self.initial_scale_factor)
-
+                    px = int((self.pan_offset[0] + x) / self.zoom_level)
+                    py = int((self.pan_offset[1] + y) / self.zoom_level)
+                    self.clicked_points.append((px, py))
+                elif self.phase == "MEASUREMENT" and len(self.clicked_points) < 4:
+                    self.point_history.append(list(self.clicked_points))
+                    px = int((self.pan_offset[0] + x) / self.zoom_level)
+                    py = int((self.pan_offset[1] + y) / self.zoom_level)
                     self.clicked_points.append((px, py))
         self._update_display()
 
@@ -160,15 +170,11 @@ class CoreAnalyser:
         new_h = int((h * cos) + (w * sin))
         rot_mat[0, 2] += (new_w / 2) - center[0]
         rot_mat[1, 2] += (new_h / 2) - center[1]
-
-        # Rotate the original image
         self.original_image = cv2.warpAffine(self.original_image, rot_mat, (new_w, new_h))
+        self.h, self.w = self.original_image.shape[:2]
 
-        # Re-create the scaled image from the newly rotated original
-        new_scaled_w = int(new_w * self.initial_scale_factor)
-        new_scaled_h = int(new_h * self.initial_scale_factor)
-        self.scaled_image = cv2.resize(self.original_image, (new_scaled_w, new_scaled_h), interpolation=cv2.INTER_AREA)
-        self.scaled_h, self.scaled_w = self.scaled_image.shape[:2]
+        # Regenerate the edge map after rotation
+        self.edge_display_image = self._create_edge_display(self.original_image)
 
         self.clicked_points = []
         self.point_history = []
@@ -177,121 +183,91 @@ class CoreAnalyser:
     def _calculate_and_save_results(self):
         y1, y2 = self.clicked_points[0][1], self.clicked_points[1][1]
         y3, y4 = self.clicked_points[2][1], self.clicked_points[3][1]
-
         apparent_radius_px = abs(y1 - y2) / 2.0
         catheter_midpoint_y = (y1 + y2) / 2.0
         if apparent_radius_px == 0:
-            messagebox.showerror("Calculation Error", "Catheter radius is zero.")
+            messagebox.showerror("Calculation Error", "Catheter radius is zero. Cannot divide by zero.")
             return
 
         offset_app_top = y3 - catheter_midpoint_y
         offset_app_bottom = y4 - catheter_midpoint_y
-
         ratio_top = np.clip(offset_app_top / apparent_radius_px, -1.0, 1.0)
         ratio_bottom = np.clip(offset_app_bottom / apparent_radius_px, -1.0, 1.0)
-
         angle_app_top_rad = math.asin(ratio_top)
         angle_app_bottom_rad = math.asin(ratio_bottom)
-
         angle_app_width_rad = abs(angle_app_top_rad - angle_app_bottom_rad)
 
         if angle_app_width_rad == 0:
-            messagebox.showerror("Calculation Error", "Apparent angular width is zero.")
+            messagebox.showerror("Calculation Error", "Apparent angular width is zero. Cannot divide by zero.")
             return
 
         correction_factor_angle = self.real_angular_width / angle_app_width_rad
         angle_app_midpoint_rad = (angle_app_top_rad + angle_app_bottom_rad) / 2.0
         final_angle_rad = angle_app_midpoint_rad * correction_factor_angle
         final_angle_deg = math.degrees(final_angle_rad)
+
+        final_result_image = self.original_image.copy()
+
         corrected_offset_px = apparent_radius_px * math.sin(final_angle_rad)
         true_centerline_y = int(catheter_midpoint_y + corrected_offset_px)
-        img_width = self.original_image.shape[1]
+        img_width = final_result_image.shape[1]
 
-        cv2.line(self.original_image, (0, int(catheter_midpoint_y)), (img_width, int(catheter_midpoint_y)),
+        cv2.line(final_result_image, (0, int(catheter_midpoint_y)), (img_width, int(catheter_midpoint_y)),
                  (255, 255, 0), 2)
-        cv2.line(self.original_image, (0, true_centerline_y), (img_width, true_centerline_y), (0, 255, 255), 2)
+        cv2.line(final_result_image, (0, true_centerline_y), (img_width, true_centerline_y), (0, 255, 255), 2)
 
-        final_panel = np.zeros((self.info_panel_height, self.original_image.shape[1], 3), dtype=np.uint8)
-        text = f"Rotation Angle: {math.degrees(angle_app_midpoint_rad):.2f} degrees"
-
-        font_scale = 3
-        font_thickness = 4
-
-        (w, h), _ = cv2.getTextSize(text, cv2.FONT_HERSHEY_SIMPLEX, font_scale, font_thickness)
+        final_panel = np.zeros((self.info_panel_height, img_width, 3), dtype=np.uint8)
+        text = f"Rotation Angle: {final_angle_deg:.2f} degrees"
+        (w, h), _ = cv2.getTextSize(text, cv2.FONT_HERSHEY_SIMPLEX, 1, 2)
         text_x = (final_panel.shape[1] - w) // 2
         text_y = (self.info_panel_height + h) // 2
-        cv2.putText(final_panel, text, (text_x, text_y), cv2.FONT_HERSHEY_SIMPLEX, font_scale, (0, 255, 0),
-                    font_thickness, cv2.LINE_AA)
-
-        final_image = cv2.vconcat([self.original_image, final_panel])
-
-        print(f"Apparent Radius (px): {apparent_radius_px:.2f}")
-        print(f"Apparent Angular Width (deg): {math.degrees(angle_app_width_rad):.2f}")
-        print(f"Real Angular Width (deg): {math.degrees(self.real_angular_width):.2f}")
-        print(f"Angular Correction Factor: {correction_factor_angle:.4f}")
-        print(f"Apparent Angle Top (deg): {math.degrees(angle_app_top_rad):.2f}")
-        print(f"Apparent Angle Bottom (deg): {math.degrees(angle_app_bottom_rad):.2f}")
-        print(f"Apparent Midpoint Angle (deg): {math.degrees(angle_app_midpoint_rad):.2f}")
-        # print(f"Final Rotation Angle: {final_angle_deg:.2f} degrees")
-
-        # --- MINIMAL CHANGE STARTS HERE ---
-
-        # Define the maximum size for the final results window
-        max_display_width = 1200
-        max_display_height = 800
-        h_final, w_final = final_image.shape[:2]
-
-        # Recalculate the scale factor based on the FINAL image's dimensions
-        final_scale = min(max_display_width / w_final, max_display_height / h_final, 1.0)
-
-        # Use this new, correct scale factor to resize the display image
-        final_image_display = cv2.resize(
-            final_image,
-            (int(w_final * final_scale), int(h_final * final_scale)),
-            interpolation=cv2.INTER_AREA
-        )
-
-        # --- MINIMAL CHANGE ENDS HERE ---
+        cv2.putText(final_panel, text, (text_x, text_y), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
+        final_image = cv2.vconcat([final_result_image, final_panel])
 
         result_window_name = "Final Result"
-        cv2.imshow(result_window_name, final_image_display)
+        cv2.namedWindow(result_window_name, cv2.WINDOW_NORMAL)
+        cv2.imshow(result_window_name, final_image)
 
         while True:
-            if cv2.getWindowProperty(result_window_name, cv2.WND_PROP_VISIBLE) < 1: break
+            if cv2.getWindowProperty(result_window_name, cv2.WND_PROP_VISIBLE) < 1:
+                break
             key = cv2.waitKey(10) & 0xFF
-            if key == ord('q'): break
+            if key == ord('q'):
+                break
             if key == ord('s'):
-                root = tk.Tk()
+                root = tk.Tk();
                 root.withdraw()
-                default_output_dir = os.path.abspath("analysis_output")
-                os.makedirs(default_output_dir, exist_ok=True)
                 output_path = filedialog.asksaveasfilename(
                     defaultextension=".png",
                     filetypes=[("PNG files", "*.png"), ("JPEG files", "*.jpg"), ("All files", "*.*")],
-                    initialdir=default_output_dir,
+                    initialdir=os.path.abspath("analysis_output"),
                     initialfile=f"{self.filename_prefix}_analysis.png",
-                    title="Save Analysis Image"
-                )
+                    title="Save Analysis Image")
                 root.destroy()
                 if output_path:
                     try:
                         cv2.imwrite(output_path, final_image)
+                        messagebox.showinfo("Save Success", f"Result saved to:\n{os.path.abspath(output_path)}")
                     except Exception as e:
-                        messagebox.showerror("Save Error", f"Could not save file.\n\n{e}")
+                        messagebox.showerror("Save Error", f"Could not save the file.\n\n{e}")
 
     def run(self):
-        # The window is sized to the scaled image, not the original.
         cv2.namedWindow(self.window_name, cv2.WINDOW_NORMAL)
-        cv2.resizeWindow(self.window_name, self.scaled_w, self.scaled_h + self.info_panel_height)
+        cv2.resizeWindow(self.window_name, self.w, self.h + self.info_panel_height)
         cv2.setMouseCallback(self.window_name, self._mouse_callback)
         self._update_display()
         while True:
-            if cv2.getWindowProperty(self.window_name, cv2.WND_PROP_VISIBLE) < 1: break
+            if cv2.getWindowProperty(self.window_name, cv2.WND_PROP_VISIBLE) < 1:
+                break
             key = cv2.waitKey(20) & 0xFF
-            if key == ord('q'): break
+            if key == ord('q'):
+                break
             if key == ord('s'):
                 self.restart_requested = True
                 break
+            if key == 9:  # Tab key
+                self.show_edges = not self.show_edges
+                self._update_display()
             if key == ord('z'):
                 if self.point_history:
                     self.clicked_points = self.point_history.pop()
@@ -299,11 +275,17 @@ class CoreAnalyser:
             if self.phase == "ALIGNMENT":
                 if len(self.clicked_points) == 2:
                     if key == ord('y'):
-                        self._align_image(); self._update_display()
+                        self._align_image()
+                        self._update_display()
                     elif key == ord('n'):
-                        self.clicked_points = []; self.point_history = []; self._update_display()
+                        self.clicked_points = []
+                        self.point_history = []
+                        self._update_display()
             elif self.phase == "MEASUREMENT":
-                if key == ord('r'): self.clicked_points = []; self.point_history = []; self._update_display()
+                if key == ord('r'):
+                    self.clicked_points = []
+                    self.point_history = []
+                    self._update_display()
                 if len(self.clicked_points) == 4:
                     self._calculate_and_save_results()
                     self.restart_requested = True
@@ -393,7 +375,7 @@ class AnalysisApp:
         if self.real_electrode_width_mm * 4 >= self.real_catheter_diameter_mm * math.pi:
             raise ValueError("Electrode widths are too large for the given catheter diameter.")
         R_real = self.real_catheter_diameter_mm / 2.0
-        theta_electrode_rad = self.real_electrode_width_mm / R_real
+        theta_electrode_rad = 2 * math.asin((self.real_electrode_width_mm / 2.0) / R_real)
         theta_gap_rad = (2 * math.pi - 4 * theta_electrode_rad) / 4.0
         return 2 * R_real * math.sin(theta_gap_rad / 2.0)
 
@@ -414,38 +396,25 @@ class AnalysisApp:
         camera_button.pack(side=tk.LEFT, padx=5)
 
     def run_picture_mode(self):
-        self.root.withdraw()  # Hide the main GUI window
+        self.root.withdraw()
         file_path = filedialog.askopenfilename(
             title="Select an image file",
-            filetypes=[("Image Files", "*.png;*.jpg;*.jpeg;*.bmp")]
+            filetypes=[("Image Files", "*.png *.jpg *.jpeg *.bmp"), ("All Files", "*.*")]
         )
         if file_path:
-            try:
-                analyser = PictureAnalyser(
-                    image_path=file_path,
-                    real_catheter_diameter_mm=self.real_catheter_diameter_mm,
-                    real_feature_width_mm=self.real_gap_width_mm
-                )
-                restart = analyser.run()
-                if not restart:
-                    self.root.destroy()
-                else:
-                    self.root.deiconify()
-            except (ValueError, FileNotFoundError) as e:
-                messagebox.showerror("Error", f"An error occurred: {e}")
-                self.root.deiconify()
+            self._run_analyser(PictureAnalyser, image_path=file_path)
         else:
             self.root.deiconify()
 
     def run_camera_mode(self):
-        self.root.withdraw()  # Hide the main GUI window
+        self.root.withdraw()
+        self._run_analyser(CameraAnalyser)
+
+    def _run_analyser(self, AnalyserClass, **kwargs):
         try:
-            analyser = CameraAnalyser(
-                real_catheter_diameter_mm=self.real_catheter_diameter_mm,
-                real_feature_width_mm=self.real_gap_width_mm
-            )
-            restart = analyser.run()
-            if not restart:
+            analyser = AnalyserClass(real_catheter_diameter_mm=self.real_catheter_diameter_mm,
+                                     real_feature_width_mm=self.real_gap_width_mm, **kwargs)
+            if not analyser.run():
                 self.root.destroy()
             else:
                 self.root.deiconify()
@@ -458,3 +427,4 @@ if __name__ == "__main__":
     main_root = tk.Tk()
     app = AnalysisApp(main_root)
     main_root.mainloop()
+
