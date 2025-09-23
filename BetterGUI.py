@@ -11,8 +11,10 @@ import csv
 import datetime
 import glob
 import re
+import subprocess
 
 SW_RESTORE = 9
+
 
 def _bring_window_to_front(title, fallback_tk=True, wait=0.05):
     try:
@@ -39,10 +41,11 @@ def _bring_window_to_front(title, fallback_tk=True, wait=0.05):
 
     return False
 
+
 def get_next_daily_csv_path(directory="."):
     """
     Return a path like `DD_MM_N_analysis.csv` in `directory`, where N is the next
-    measurement number for today's date (DD_MM).
+    measurement number for today's date (DD_MM). This is called once per session.
     """
     os.makedirs(directory, exist_ok=True)
     date_str = datetime.datetime.now().strftime("%d_%m")
@@ -62,16 +65,18 @@ def get_next_daily_csv_path(directory="."):
     next_n = max_n + 1
     return os.path.join(directory, f"{date_str}_{next_n}_analysis.csv")
 
-# determine CSV path once at startup so all records in this run go to the same file
+
+# This global is now just a fallback, it will be overridden by session logic.
 ANALYSIS_CSV_PATH = get_next_daily_csv_path()
 
+
 def record_analysis_result(filename, apparent_radius_px, apparent_angular_width_deg, real_angular_width_deg,
-                          correction_factor_angle, angle_app_top_deg, angle_app_bottom_deg, angle_app_midpoint_deg,
-                          csv_path=None):
-    if csv_path is None:
-        csv_path = ANALYSIS_CSV_PATH
-    file_exists = os.path.isfile(csv_path)
-    with open(csv_path, mode='a', newline='') as f:
+                           correction_factor_angle, angle_app_top_deg, angle_app_bottom_deg, angle_app_midpoint_deg,
+                           csv_path=None):
+    # Use the provided csv_path if available, otherwise use the global fallback.
+    target_csv_path = csv_path if csv_path is not None else ANALYSIS_CSV_PATH
+    file_exists = os.path.isfile(target_csv_path)
+    with open(target_csv_path, mode='a', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=[
             "filename",
             "apparent_radius_px",
@@ -95,8 +100,10 @@ def record_analysis_result(filename, apparent_radius_px, apparent_angular_width_
             "angle_app_midpoint_deg": f"{angle_app_midpoint_deg:.2f}"
         })
 
+
 class CoreAnalyser:
-    def __init__(self, image, real_catheter_diameter_mm, real_feature_width_mm, filename_prefix="capture"):
+    def __init__(self, image, real_catheter_diameter_mm, real_feature_width_mm, filename_prefix="capture",
+                 csv_path=None):
         if image is None:
             raise ValueError("Error: Input image cannot be None.")
 
@@ -107,6 +114,8 @@ class CoreAnalyser:
         self.original_image = image
         self.window_name = "Manual Catheter Analysis"
         self.filename_prefix = filename_prefix
+        # Store the session-specific CSV path
+        self.session_csv_path = csv_path
         self.restart_requested = False
 
         self.phase = "ALIGNMENT"
@@ -199,7 +208,7 @@ class CoreAnalyser:
             put_text(f"Click 4 points: {idx_text}", 45)
             coords_str = ", ".join(map(str, self.clicked_points))
             put_text(f"Points: [{coords_str}]", 65, font_scale=0.5)
-            put_text("Press 'z' undo, 'r' reset, 'q' quit, 's' restart.", 85, font_scale=0.5)
+            put_text("Press 'z' undo, 'r' reset, 'q' quit.", 85, font_scale=0.5)
 
     def _mouse_callback(self, event, x, y, flags, _):
         if event == cv2.EVENT_RBUTTONDOWN:
@@ -221,7 +230,7 @@ class CoreAnalyser:
         elif event == cv2.EVENT_LBUTTONDOWN:
             if y < self.scaled_h:
                 if (self.phase == "ALIGNMENT" and len(self.clicked_points) < 2) or \
-                   (self.phase == "MEASUREMENT" and len(self.clicked_points) < 4):
+                        (self.phase == "MEASUREMENT" and len(self.clicked_points) < 4):
                     self.point_history.append(list(self.clicked_points))
                     scaled_px = (self.pan_offset[0] + x) / self.zoom_level
                     scaled_py = (self.pan_offset[1] + y) / self.zoom_level
@@ -297,7 +306,7 @@ class CoreAnalyser:
                  (255, 255, 0), 2)
         cv2.line(final_result_image, (0, true_centerline_y), (img_width, true_centerline_y), (0, 255, 255), 2)
 
-        final_panel = np.zeros(((self.info_panel_height)*2, img_width, 3), dtype=np.uint8)
+        final_panel = np.zeros(((self.info_panel_height) * 2, img_width, 3), dtype=np.uint8)
         text = f"Rotation Angle: {final_angle_deg:.2f} degrees"
         font_scale = 5
         font_thickness = 3
@@ -317,6 +326,7 @@ class CoreAnalyser:
                                          interpolation=cv2.INTER_AREA)
 
         # --- Record results to CSV ---
+        # Explicitly use the session_csv_path stored during initialization
         record_analysis_result(
             filename=self.filename_prefix,
             apparent_radius_px=apparent_radius_px,
@@ -325,7 +335,8 @@ class CoreAnalyser:
             correction_factor_angle=correction_factor_angle,
             angle_app_top_deg=math.degrees(angle_app_top_rad),
             angle_app_bottom_deg=math.degrees(angle_app_bottom_rad),
-            angle_app_midpoint_deg=math.degrees(angle_app_midpoint_rad)
+            angle_app_midpoint_deg=math.degrees(angle_app_midpoint_rad),
+            csv_path=self.session_csv_path
         )
 
         result_window_name = "Final Result"
@@ -334,6 +345,7 @@ class CoreAnalyser:
             if cv2.getWindowProperty(result_window_name, cv2.WND_PROP_VISIBLE) < 1:
                 break
             key = cv2.waitKey(10) & 0xFF
+            # Pressing 'q' now just closes this result window, returning to the Picture Mode loop
             if key == ord('q'):
                 break
             if key == ord('s'):
@@ -352,6 +364,7 @@ class CoreAnalyser:
                         messagebox.showinfo("Save Success", f"Result saved to:\n{os.path.abspath(output_path)}")
                     except Exception as e:
                         messagebox.showerror("Save Error", f"Could not save the file.\n\n{e}")
+        cv2.destroyWindow(result_window_name)
 
     def run(self):
         cv2.namedWindow(self.window_name, cv2.WINDOW_NORMAL)
@@ -365,9 +378,6 @@ class CoreAnalyser:
                 break
             key = cv2.waitKey(20) & 0xFF
             if key == ord('q'):
-                break
-            if key == ord('s'):
-                self.restart_requested = True
                 break
             if key == 9:  # Tab key
                 self.show_edges = not self.show_edges
@@ -393,21 +403,23 @@ class CoreAnalyser:
                     self._update_display()
                 if len(self.clicked_points) == 4:
                     self._calculate_and_save_results()
-                    self.restart_requested = True
+                    # After calculation, break the loop to close the analysis window
+                    # This will return control to the Picture Mode loop
                     break
 
-        cv2.destroyAllWindows()
+        cv2.destroyWindow(self.window_name)
         return self.restart_requested
 
+
 class PictureAnalyser:
-    def __init__(self, image_path, real_catheter_diameter_mm, real_feature_width_mm):
+    def __init__(self, image_path, real_catheter_diameter_mm, real_feature_width_mm, csv_path=None):
         self.image_path = image_path
         self.real_catheter_diameter_mm = real_catheter_diameter_mm
         self.real_feature_width_mm = real_feature_width_mm
+        self.csv_path = csv_path  # Store session csv_path
 
     def run(self):
         if not os.path.exists(self.image_path):
-            print(f"Auto-start: image not found: {self.image_path}")
             raise FileNotFoundError(f"Error: Image not found at {self.image_path}")
         image = cv2.imread(self.image_path)
         if image is None:
@@ -418,61 +430,25 @@ class PictureAnalyser:
             image=image,
             real_catheter_diameter_mm=self.real_catheter_diameter_mm,
             real_feature_width_mm=self.real_feature_width_mm,
-            filename_prefix=filename_prefix
+            filename_prefix=filename_prefix,
+            csv_path=self.csv_path  # Pass session path to CoreAnalyser
         )
         return analyser.run()
 
-class CameraAnalyser:
-    def __init__(self, real_catheter_diameter_mm, real_feature_width_mm):
-        self.real_catheter_diameter_mm = real_catheter_diameter_mm
-        self.real_feature_width_mm = real_feature_width_mm
-
-    def _capture_from_camera(self):
-        cap = cv2.VideoCapture(0)
-        if not cap.isOpened():
-            messagebox.showerror("Camera Error", "Could not open camera.")
-            return None
-        while True:
-            ret, frame = cap.read()
-            if not ret:
-                messagebox.showerror("Camera Error", "Can't receive frame. Exiting ...")
-                break
-            display_frame = frame.copy()
-            cv2.putText(display_frame, "Press 'c' to capture, 'q' to quit", (10, 30),
-                        cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), 2, cv2.LINE_AA)
-            cv2.imshow('Camera Feed', display_frame)
-            key = cv2.waitKey(1) & 0xFF
-            if key == ord('q'):
-                cap.release()
-                cv2.destroyAllWindows()
-                return None
-            elif key == ord('c'):
-                cap.release()
-                cv2.destroyAllWindows()
-                return frame
-        cap.release()
-        cv2.destroyAllWindows()
-        return None
-
-    def run(self):
-        captured_image = self._capture_from_camera()
-        if captured_image is not None:
-            filename_prefix = f"capture_{int(time.time())}"
-            analyser = CoreAnalyser(
-                image=captured_image,
-                real_catheter_diameter_mm=self.real_catheter_diameter_mm,
-                real_feature_width_mm=self.real_feature_width_mm,
-                filename_prefix=filename_prefix
-            )
-            return analyser.run()
 
 class AnalysisApp:
-    def __init__(self, root):
+    def __init__(self, root, session_csv_path):
         self.root = root
         self.root.title("Catheter Analysis Tool")
+
+        # This is the unique CSV file for this entire session
+        self.session_csv_path = session_csv_path
+        print(f"New session started. Logging all results to: {self.session_csv_path}")
+
         self.root.lift()
         self.root.attributes("-topmost", True)
         self.root.after(100, lambda: self.root.attributes("-topmost", False))
+
         self.real_catheter_diameter_mm = 1.4
         self.real_electrode_width_mm = 0.5
         self.real_gap_width_mm = self._calculate_real_gap_width()
@@ -491,43 +467,61 @@ class AnalysisApp:
         frame.pack(padx=10, pady=10)
         title_label = tk.Label(frame, text="Catheter Analysis Tool", font=("Helvetica", 16, "bold"))
         title_label.pack(pady=(0, 15))
-        instruction_label = tk.Label(frame, text="Select an input source for analysis:", font=("Helvetica", 12))
+        instruction_label = tk.Label(frame, text="Select a session mode:", font=("Helvetica", 12))
         instruction_label.pack(pady=(0, 10))
         button_frame = tk.Frame(frame)
         button_frame.pack()
-        photo_button = tk.Button(button_frame, text="Use Picture", command=self.run_picture_mode,
-                                 font=("Helvetica", 10), width=15)
+        photo_button = tk.Button(button_frame, text="Picture Mode Session", command=self.run_picture_mode_session,
+                                 font=("Helvetica", 10), width=20)
         photo_button.pack(side=tk.LEFT, padx=5)
-        camera_button = tk.Button(button_frame, text="Use Camera", command=self.run_camera_mode, font=("Helvetica", 10),
-                                  width=15)
+        camera_button = tk.Button(button_frame, text="Camera Mode Session", command=self.run_camera_mode_session,
+                                  font=("Helvetica", 10),
+                                  width=20)
         camera_button.pack(side=tk.LEFT, padx=5)
 
-    def run_picture_mode(self):
-        self.root.withdraw()
-        file_path = filedialog.askopenfilename(
-            title="Select an image file",
-            filetypes=[("Image Files", "*.png *.jpg *.jpeg *.bmp *.tif *.tiff"), ("All Files", "*.*")]
-        )
-        if file_path:
-            self._run_analyser(PictureAnalyser, image_path=file_path)
-        else:
-            self.root.deiconify()
+    def run_picture_mode_session(self):
+        self.root.withdraw()  # Hide the main menu
 
-    def run_camera_mode(self):
-        self.root.withdraw()
-        self._run_analyser(CameraAnalyser)
+        # Start the continuous Picture Mode loop
+        while True:
+            file_path = filedialog.askopenfilename(
+                title="Select an image file (or Cancel to end session)",
+                filetypes=[("Image Files", "*.png *.jpg *.jpeg *.bmp *.tif *.tiff"), ("All Files", "*.*")]
+            )
+            # If the user cancels the file dialog, end the session.
+            if not file_path:
+                print("Picture Mode session ended by user.")
+                break
 
-    def _run_analyser(self, AnalyserClass, **kwargs):
+            # Run analysis on the selected file
+            try:
+                analyser = PictureAnalyser(
+                    image_path=file_path,
+                    real_catheter_diameter_mm=self.real_catheter_diameter_mm,
+                    real_feature_width_mm=self.real_gap_width_mm,
+                    csv_path=self.session_csv_path
+                )
+                analyser.run()
+            except (ValueError, FileNotFoundError) as e:
+                messagebox.showerror("Error", f"An error occurred: {e}")
+                # After an error, we can choose to continue or break
+                # Here, we continue the loop, asking for the next file
+                continue
+
+        self.root.destroy()  # Close the app when the loop is broken
+
+    def run_camera_mode_session(self):
+        self.root.withdraw()  # Hide the main menu
         try:
-            analyser = AnalyserClass(real_catheter_diameter_mm=self.real_catheter_diameter_mm,
-                                     real_feature_width_mm=self.real_gap_width_mm, **kwargs)
-            if not analyser.run():
-                self.root.destroy()
-            else:
-                self.root.deiconify()
-        except (ValueError, FileNotFoundError) as e:
-            messagebox.showerror("Error", f"An error occurred: {e}")
-            self.root.deiconify()
+            # Launch automation.py and pass the session CSV path as an argument
+            automation_py_path = os.path.join(os.path.dirname(__file__), "automation.py")
+            subprocess.Popen([sys.executable, automation_py_path, self.session_csv_path])
+            # The GUI's job is done, it hands off control to automation.py
+            self.root.destroy()
+        except Exception as e:
+            messagebox.showerror("Error", f"Could not launch automation script.\n\n{e}")
+            self.root.deiconify()  # Show menu again if launch fails
+
 
 def _compute_default_gap(catheter_mm=1.4, electrode_mm=0.5):
     if electrode_mm * 4 >= catheter_mm * math.pi:
@@ -537,20 +531,33 @@ def _compute_default_gap(catheter_mm=1.4, electrode_mm=0.5):
     theta_gap_rad = (2 * math.pi - 4 * theta_electrode_rad) / 4.0
     return 2 * R_real * math.sin(theta_gap_rad / 2.0)
 
+
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
+    # Case 1: Script is launched by automation.py for analysis.
+    # It will have an image path and a csv_path as arguments.
+    if len(sys.argv) >= 3:
         image_path = sys.argv[1]
+        csv_path = sys.argv[2]
         if not os.path.exists(image_path):
             print(f"Auto-start: image not found: {image_path}")
             sys.exit(1)
         try:
             gap = _compute_default_gap()
-            analyser = PictureAnalyser(image_path, real_catheter_diameter_mm=1.4, real_feature_width_mm=gap)
+            # Run the analyser, passing the specific csv_path from the session
+            analyser = PictureAnalyser(image_path,
+                                       real_catheter_diameter_mm=1.4,
+                                       real_feature_width_mm=gap,
+                                       csv_path=csv_path)
             analyser.run()
         except Exception as e:
-            print("Auto-start failed:", e)
+            print(f"Auto-start failed: {e}")
             sys.exit(1)
+
+    # Case 2: Script is launched by the user to start a new session.
     else:
         main_root = tk.Tk()
-        app = AnalysisApp(main_root)
+        # Determine the CSV path for the new session ONCE.
+        session_csv_path = get_next_daily_csv_path()
+        # Pass this unique path to the app.
+        app = AnalysisApp(main_root, session_csv_path)
         main_root.mainloop()

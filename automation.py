@@ -1,4 +1,3 @@
-
 import clr
 import os
 import time
@@ -192,10 +191,12 @@ def wait_for_new_file(folder, start_time, timeout=POLL_TIMEOUT):
         time.sleep(POLL_INTERVAL)
     return None
 
-def launch_bettergui_with_file(path):
+def launch_bettergui_with_file(path, csv_path):
     try:
-        subprocess.Popen([sys.executable, BETTERGUI_PY, path], close_fds=True)
-        print("Launched BetterGUI for", path)
+        # Pass the image path AND the csv path as arguments
+        subprocess.Popen([sys.executable, BETTERGUI_PY, path, csv_path], close_fds=True)
+        print(f"Launched BetterGUI for {path}")
+        print(f"Using session CSV: {csv_path}")
     except Exception as e:
         print("Failed to launch BetterGUI:", e)
 
@@ -219,6 +220,16 @@ def _process_rotation_queue(device):
             print("Rotation failed:", e)
 
 def main():
+    # This script now expects the session CSV path as a command-line argument
+    if len(sys.argv) > 1:
+        session_csv_path = sys.argv[1]
+        print(f"Automation script started with session CSV: {session_csv_path}")
+    else:
+        print("Error: This script must be launched from BetterGUI.py with a session CSV path.")
+        print("Exiting.")
+        time.sleep(3)
+        return
+
     DeviceManagerCLI.BuildDeviceList()
     serial_no = "55000414"   # <--- replace with your rotator serial number
     device = CageRotator.CreateCageRotator(serial_no)
@@ -242,8 +253,8 @@ def main():
     print(" h    Home device")
     print(" ↑    Rotate forward (continuous)")
     print(" ↓    Rotate backward (continuous)")
-    print(" ENTER  Quick Save in Swift Imaging (then BetterGUI will open latest file)")
-    print(" ESC   Exit\n")
+    print(" ENTER  Capture image and launch analyser")
+    print(" ESC   Exit Camera Mode Session\n")
 
     try:
         while True:
@@ -278,7 +289,8 @@ def main():
                 latest = wait_for_new_file(IMAGES_DIR, start_time=t0, timeout=POLL_TIMEOUT)
                 if latest:
                     print("Detected saved file:", latest)
-                    launch_bettergui_with_file(latest)
+                    # Pass both the new image path and the session CSV path
+                    launch_bettergui_with_file(latest, session_csv_path)
                 else:
                     print("No new image detected within timeout.")
                 time.sleep(1)  # debounce
