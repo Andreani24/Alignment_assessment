@@ -203,10 +203,20 @@ class CoreAnalyser:
 
         correction_factor_angle = self.real_angular_width / angle_app_width_rad
         angle_app_midpoint_rad = (angle_app_top_rad + angle_app_bottom_rad) / 2.0
-        final_angle_rad = angle_app_midpoint_rad * correction_factor_angle
+        final_angle_rad = angle_app_midpoint_rad * 1
         final_angle_deg = math.degrees(final_angle_rad)
 
         final_result_image = self.original_image.copy()
+
+        print(f"Apparent Radius (px): {apparent_radius_px:.2f}")
+        print(f"Apparent Angular Width (deg): {math.degrees(angle_app_width_rad):.2f}")
+        print(f"Real Angular Width (deg): {math.degrees(self.real_angular_width):.2f}")
+        print(f"Angular Correction Factor: {correction_factor_angle:.4f}")
+        print(f"Apparent Angle Top (deg): {math.degrees(angle_app_top_rad):.2f}")
+        print(f"Apparent Angle Bottom (deg): {math.degrees(angle_app_bottom_rad):.2f}")
+        print(f"Apparent Midpoint Angle (deg): {math.degrees(angle_app_midpoint_rad):.2f}")
+        print(f"Final Rotation Angle: {final_angle_deg:.2f} degrees")
+
 
         corrected_offset_px = apparent_radius_px * math.sin(final_angle_rad)
         true_centerline_y = int(catheter_midpoint_y + corrected_offset_px)
@@ -292,139 +302,3 @@ class CoreAnalyser:
                     break
         cv2.destroyAllWindows()
         return self.restart_requested
-
-
-class PictureAnalyser:
-    def __init__(self, image_path, real_catheter_diameter_mm, real_feature_width_mm):
-        self.image_path = image_path
-        self.real_catheter_diameter_mm = real_catheter_diameter_mm
-        self.real_feature_width_mm = real_feature_width_mm
-
-    def run(self):
-        if not os.path.exists(self.image_path):
-            raise FileNotFoundError(f"Error: Image not found at {self.image_path}")
-        image = cv2.imread(self.image_path)
-        if image is None:
-            raise ValueError(f"Error: Could not read image from {self.image_path}")
-        base_filename = os.path.basename(self.image_path)
-        filename_prefix = os.path.splitext(base_filename)[0]
-        analyser = CoreAnalyser(
-            image=image,
-            real_catheter_diameter_mm=self.real_catheter_diameter_mm,
-            real_feature_width_mm=self.real_feature_width_mm,
-            filename_prefix=filename_prefix
-        )
-        return analyser.run()
-
-
-class CameraAnalyser:
-    def __init__(self, real_catheter_diameter_mm, real_feature_width_mm):
-        self.real_catheter_diameter_mm = real_catheter_diameter_mm
-        self.real_feature_width_mm = real_feature_width_mm
-
-    def _capture_from_camera(self):
-        cap = cv2.VideoCapture(0)
-        if not cap.isOpened():
-            messagebox.showerror("Camera Error", "Could not open camera.")
-            return None
-        while True:
-            ret, frame = cap.read()
-            if not ret:
-                messagebox.showerror("Camera Error", "Can't receive frame. Exiting ...")
-                break
-            display_frame = frame.copy()
-            cv2.putText(display_frame, "Press 'c' to capture, 'q' to quit", (10, 30),
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2, cv2.LINE_AA)
-            cv2.imshow('Camera Feed', display_frame)
-            key = cv2.waitKey(1) & 0xFF
-            if key == ord('q'):
-                cap.release()
-                cv2.destroyAllWindows()
-                return None
-            elif key == ord('c'):
-                cap.release()
-                cv2.destroyAllWindows()
-                return frame
-        cap.release()
-        cv2.destroyAllWindows()
-        return None
-
-    def run(self):
-        captured_image = self._capture_from_camera()
-        if captured_image is not None:
-            filename_prefix = f"capture_{int(time.time())}"
-            analyser = CoreAnalyser(
-                image=captured_image,
-                real_catheter_diameter_mm=self.real_catheter_diameter_mm,
-                real_feature_width_mm=self.real_feature_width_mm,
-                filename_prefix=filename_prefix
-            )
-            return analyser.run()
-
-
-class AnalysisApp:
-    def __init__(self, root):
-        self.root = root
-        self.root.title("Catheter Analysis Tool")
-        self.real_catheter_diameter_mm = 1.4
-        self.real_electrode_width_mm = 0.5
-        self.real_gap_width_mm = self._calculate_real_gap_width()
-        self.create_widgets()
-
-    def _calculate_real_gap_width(self):
-        if self.real_electrode_width_mm * 4 >= self.real_catheter_diameter_mm * math.pi:
-            raise ValueError("Electrode widths are too large for the given catheter diameter.")
-        R_real = self.real_catheter_diameter_mm / 2.0
-        theta_electrode_rad = 2 * math.asin((self.real_electrode_width_mm / 2.0) / R_real)
-        theta_gap_rad = (2 * math.pi - 4 * theta_electrode_rad) / 4.0
-        return 2 * R_real * math.sin(theta_gap_rad / 2.0)
-
-    def create_widgets(self):
-        frame = tk.Frame(self.root, padx=20, pady=20)
-        frame.pack(padx=10, pady=10)
-        title_label = tk.Label(frame, text="Catheter Analysis Tool", font=("Helvetica", 16, "bold"))
-        title_label.pack(pady=(0, 15))
-        instruction_label = tk.Label(frame, text="Select an input source for analysis:", font=("Helvetica", 12))
-        instruction_label.pack(pady=(0, 10))
-        button_frame = tk.Frame(frame)
-        button_frame.pack()
-        photo_button = tk.Button(button_frame, text="Use Picture", command=self.run_picture_mode,
-                                 font=("Helvetica", 10), width=15)
-        photo_button.pack(side=tk.LEFT, padx=5)
-        camera_button = tk.Button(button_frame, text="Use Camera", command=self.run_camera_mode, font=("Helvetica", 10),
-                                  width=15)
-        camera_button.pack(side=tk.LEFT, padx=5)
-
-    def run_picture_mode(self):
-        self.root.withdraw()
-        file_path = filedialog.askopenfilename(
-            title="Select an image file",
-            filetypes=[("Image Files", "*.png *.jpg *.jpeg *.bmp"), ("All Files", "*.*")]
-        )
-        if file_path:
-            self._run_analyser(PictureAnalyser, image_path=file_path)
-        else:
-            self.root.deiconify()
-
-    def run_camera_mode(self):
-        self.root.withdraw()
-        self._run_analyser(CameraAnalyser)
-
-    def _run_analyser(self, AnalyserClass, **kwargs):
-        try:
-            analyser = AnalyserClass(real_catheter_diameter_mm=self.real_catheter_diameter_mm,
-                                     real_feature_width_mm=self.real_gap_width_mm, **kwargs)
-            if not analyser.run():
-                self.root.destroy()
-            else:
-                self.root.deiconify()
-        except (ValueError, FileNotFoundError) as e:
-            messagebox.showerror("Error", f"An error occurred: {e}")
-            self.root.deiconify()
-
-
-if __name__ == "__main__":
-    main_root = tk.Tk()
-    app = AnalysisApp(main_root)
-    main_root.mainloop()
-

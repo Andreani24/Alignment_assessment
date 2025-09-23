@@ -1,109 +1,52 @@
-import clr
-import os
+import subprocess
 import time
-import sys
-import cv2
+import pyautogui
+import pygetwindow as gw
+import os
 
-# --- Add references to Thorlabs Kinesis DLLs ---
-# Make sure the Kinesis software is installed to this path.
-clr.AddReference("C:\\Program Files\\Thorlabs\\Kinesis\\Thorlabs.MotionControl.DeviceManagerCLI.dll")
-clr.AddReference("C:\\Program Files\\Thorlabs\\Kinesis\\Thorlabs.MotionControl.GenericMotorCLI.dll")
-clr.AddReference("C:\\Program Files\\Thorlabs\\Kinesis\\ThorLabs.MotionControl.IntegratedStepperMotorsCLI.dll")
+# Path to Swift Imaging executable (update if needed)
+APP_PATH = r"C:\Program Files\Swift\Imaging\x64\imaging.exe"
 
-# --- Import functions from the DLLs ---
-from Thorlabs.MotionControl.DeviceManagerCLI import *
-from Thorlabs.MotionControl.GenericMotorCLI import *
-from Thorlabs.MotionControl.IntegratedStepperMotorsCLI import *
-from System import Decimal  # Crucial for sending commands to the rotator
+def ensure_app_running():
+    """Start Swift Imaging if possible, otherwise prompt user."""
+    if os.path.exists(APP_PATH):
+        try:
+            subprocess.Popen([APP_PATH])
+            print("Starting Swift Imaging...")
+            time.sleep(5)  # wait for app to open
+        except Exception as e:
+            print("Could not start app automatically:", e)
+            input("Please open Swift Imaging manually, then press ENTER to continue...")
+    else:
+        print("App not found at", APP_PATH)
+        input("Please open Swift Imaging manually, then press ENTER to continue...")
 
+def focus_window(title="Swift Imaging"):
+    """Try to bring Swift Imaging window to front."""
+    for _ in range(10):  # retry for up to ~10 seconds
+        wins = gw.getWindowsWithTitle(title)
+        if wins:
+            win = wins[0]
+            win.activate()
+            print(f"Activated window: {title}")
+            return True
+        time.sleep(1)
+    print("Could not find window automatically.")
+    return False
 
-def run_experiment():
-    """
-    The main entry point for the automated experiment. This function connects
-    to the hardware, runs the test loop, and ensures disconnection.
-    """
-
-    # --- Configuration ---
-    ROTATOR_SERIAL = "55507804"  # <-- IMPORTANT: Replace with your rotator's serial number
-    CAMERA_INDEX = 0  # Your camera's index (usually 0)
-    OUTPUT_FOLDER = "experiment_run_1"
-    ANGLES_TO_TEST = [0, 10, 20, 30, 45, 60, 75, 90]  # The angles you want to measure
-    SETTLE_TIME_S = 0.5  # Time in seconds to wait for vibrations to stop after moving
-
-    # --- Setup ---
-    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
-    device = None
-    cap = None
-
-    try:
-        # --- Connect to Rotator ---
-        print("Connecting to rotator...")
-        DeviceManagerCLI.BuildDeviceList()
-        device = CageRotator.CreateCageRotator(ROTATOR_SERIAL)
-        device.Connect(ROTATOR_SERIAL)
-
-        if not device.IsSettingsInitialized():
-            device.WaitForSettingsInitialized(10000)
-
-        device.StartPolling(250)
-        device.EnableDevice()
-        time.sleep(1)  # Wait for device to enable
-
-        device.LoadMotorConfiguration(ROTATOR_SERIAL, DeviceConfiguration.DeviceSettingsUseOptionType.UseDeviceSettings)
-
-        print("Homing rotator...")
-        device.Home(60000)  # 60 second timeout for homing
-        print("Rotator connected and homed.")
-
-        # --- Connect to Camera ---
-        print("Connecting to camera...")
-        cap = cv2.VideoCapture(CAMERA_INDEX, cv2.CAP_DSHOW)
-        if not cap.isOpened():
-            raise IOError(f"Could not open camera at index {CAMERA_INDEX}.")
-        print("Camera connected.")
-
-        # --- Automation Loop ---
-        for angle in ANGLES_TO_TEST:
-            print(f"\n--- Processing Angle: {angle} degrees ---")
-
-            # 1. Rotate to the target angle
-            print(f"Moving to {angle} degrees...")
-            target_pos = Decimal(angle)  # Convert to .NET Decimal type
-            device.MoveTo(target_pos, 60000)  # 60 second timeout for move
-            print("Move complete.")
-
-            # 2. Settle
-            print(f"Waiting {SETTLE_TIME_S}s for vibrations to settle...")
-            time.sleep(SETTLE_TIME_S)
-
-            # 3. Capture Image
-            ret, frame = cap.read()
-            if not ret:
-                print(f"Warning: Failed to capture frame at angle {angle}.")
-                continue
-            print("Image captured.")
-
-            # 4. Save Image
-            filename = os.path.join(OUTPUT_FOLDER, f"capture_angle_{angle}.png")
-            cv2.imwrite(filename, frame)
-            print(f"Image saved to {filename}")
-
-        print("\nAutomation complete.")
-
-    except Exception as e:
-        print(f"An error occurred: {e}")
-
-    finally:
-        # --- Disconnect Hardware ---
-        print("\nDisconnecting hardware...")
-        if device and device.IsConnected:
-            device.StopPolling()
-            device.Disconnect(True)
-            print("Disconnected from rotator.")
-        if cap and cap.isOpened():
-            cap.release()
-            print("Camera released.")
-
+def capture_and_save():
+    """Press F8 then F4 inside the app."""
+    pyautogui.press('f8')
+    print("Pressed F8 (capture)")
+    time.sleep(1)
+    pyautogui.press('f4')
+    print("Pressed F4 (quick save)")
 
 if __name__ == "__main__":
-    run_experiment()
+    ensure_app_running()
+
+    if not focus_window("Swift Imaging"):
+        input("Please click on the Swift Imaging window, then press ENTER...")
+
+    time.sleep(1)
+    capture_and_save()
