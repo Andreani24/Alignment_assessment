@@ -230,6 +230,8 @@ def main():
         time.sleep(3)
         return
 
+    ensure_swift_running()
+
     DeviceManagerCLI.BuildDeviceList()
     serial_no = "55000414"   # <--- replace with your rotator serial number
     device = CageRotator.CreateCageRotator(serial_no)
@@ -245,8 +247,6 @@ def main():
 
     homed = False
     print("Device not homed. Press 'h' to home the device when ready.")
-
-    ensure_swift_running()
 
     print("\nControls:")
     print(" Type digits (and optional '.') then press '+' or '-' to rotate that many degrees")
