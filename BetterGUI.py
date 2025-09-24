@@ -513,14 +513,20 @@ class AnalysisApp:
     def run_camera_mode_session(self):
         self.root.withdraw()  # Hide the main menu
         try:
-            # Launch automation.py and pass the session CSV path as an argument
             automation_py_path = os.path.join(os.path.dirname(__file__), "automation.py")
-            subprocess.Popen([sys.executable, automation_py_path, self.session_csv_path])
-            # The GUI's job is done, it hands off control to automation.py
-            self.root.destroy()
+            csv_abs_path = os.path.abspath(self.session_csv_path)
+
+            print("Launching automation.py at:", automation_py_path)
+            print("Session CSV path:", csv_abs_path)
+
+            subprocess.Popen(
+                [sys.executable, automation_py_path, csv_abs_path],
+                cwd=os.path.dirname(__file__)
+            )
+            self.root.iconify()  # minimize
         except Exception as e:
             messagebox.showerror("Error", f"Could not launch automation script.\n\n{e}")
-            self.root.deiconify()  # Show menu again if launch fails
+            self.root.deiconify()
 
 
 def _compute_default_gap(catheter_mm=1.4, electrode_mm=0.5):
