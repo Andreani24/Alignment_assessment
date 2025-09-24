@@ -449,6 +449,8 @@ class AnalysisApp:
         self.root.attributes("-topmost", True)
         self.root.after(100, lambda: self.root.attributes("-topmost", False))
 
+        self.root.protocol("WM_DELETE_WINDOW", self.on_close)
+
         self.real_catheter_diameter_mm = 1.4
         self.real_electrode_width_mm = 0.5
         self.real_gap_width_mm = self._calculate_real_gap_width()
@@ -508,7 +510,7 @@ class AnalysisApp:
                 # Here, we continue the loop, asking for the next file
                 continue
 
-        self.root.destroy()  # Close the app when the loop is broken
+        self.on_close()  # Close the app when the loop is broken
 
     def run_camera_mode_session(self):
         self.root.withdraw()  # Hide the main menu
@@ -527,6 +529,30 @@ class AnalysisApp:
         except Exception as e:
             messagebox.showerror("Error", f"Could not launch automation script.\n\n{e}")
             self.root.deiconify()
+
+    def on_close(self):
+        """
+        Ask the user where to save the session CSV before exiting.
+        """
+        if os.path.isfile(self.session_csv_path):
+            save_path = filedialog.asksaveasfilename(
+                parent=self.root,
+                title="Save Session CSV File",
+                defaultextension=".csv",
+                initialfile=os.path.basename(self.session_csv_path),
+                filetypes=[("CSV files", "*.csv"), ("All files", "*.*")]
+            )
+
+            if save_path:
+                try:
+                    import shutil
+                    shutil.copy2(self.session_csv_path, save_path)
+                    messagebox.showinfo("CSV Saved", f"Session CSV saved to:\n{save_path}", parent=self.root)
+                except Exception as e:
+                    messagebox.showerror("Save Error", f"Could not save CSV file.\n\n{e}", parent=self.root)
+
+        # ✅ Now safely close window after dialogs finish
+        self.root.destroy()
 
 
 def _compute_default_gap(catheter_mm=1.4, electrode_mm=0.5):
