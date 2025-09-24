@@ -529,6 +529,7 @@ class AnalysisApp:
         except Exception as e:
             messagebox.showerror("Error", f"Could not launch automation script.\n\n{e}")
             self.root.deiconify()
+        self.on_close
 
     def on_close(self):
         """
