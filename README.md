@@ -179,6 +179,4 @@ At the end of each session, you will be prompted to save a `.csv` file. This fil
 
 Please feel free to submit issues and enhancement requests!
 
-## License
 
-[Your chosen license here]
