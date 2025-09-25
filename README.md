@@ -73,7 +73,7 @@ serial_no = "55000414"   # <--- replace with your rotator serial number
 To launch the main menu, run the included batch file from the project directory.
 
 ```bash
-run_gui.bat
+CatheterAnalysis.bat
 ```
 
 This will open the main menu where you can choose between "Picture Mode Session" and "Camera Mode Session".
@@ -86,13 +86,11 @@ This mode gives you real-time control over the hardware for live analysis.
 
 Click the "Camera Mode Session" button from the main menu.
 
-The main menu will minimise, and two new windows will appear:
-- A control console (terminal window)
-- The Swift Imaging software window
+The main menu will minimise, The Swift Imaging software window should appear shortly
 
 ### 2. Controls (in the terminal window)
 
-**Homing**: Before you begin, you must home the device. Press `h` to start the homing sequence.
+**Homing**: Before you begin, you must home the device. Press **h** to start the homing sequence.
 
 **Manual Rotation**:
 - Press the **Up Arrow** ↑ to rotate the motor forward continuously
@@ -107,6 +105,7 @@ The main menu will minimise, and two new windows will appear:
 **Capture & Analyse**:
 - Position the catheter as desired
 - Press **Enter**. This automatically triggers a quick save in Swift Imaging (F4) and opens the analysis window with the new image
+- see the full Analysis Loop below
 
 **Exiting**:
 - Press **Esc** to end the Camera Mode session. This will close the control console and bring back the main menu, prompting you to save the session's CSV log.
