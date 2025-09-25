@@ -12,6 +12,7 @@ import datetime
 import glob
 import re
 import subprocess
+import tempfile
 
 SW_RESTORE = 9
 
@@ -79,25 +80,21 @@ def record_analysis_result(filename, apparent_radius_px, apparent_angular_width_
     with open(target_csv_path, mode='a', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=[
             "filename",
-            "apparent_radius_px",
-            "apparent_angular_width_deg",
-            "real_angular_width_deg",
-            "correction_factor_angle",
-            "angle_app_top_deg",
-            "angle_app_bottom_deg",
-            "angle_app_midpoint_deg"
+            "catheter_radius_px",
+            "angular_width_deg",
+            "angle_top_deg",
+            "angle_bottom_deg",
+            "angle_midpoint_deg"
         ])
         if not file_exists:
             writer.writeheader()
         writer.writerow({
             "filename": filename,
-            "apparent_radius_px": f"{apparent_radius_px:.2f}",
-            "apparent_angular_width_deg": f"{apparent_angular_width_deg:.2f}",
-            "real_angular_width_deg": f"{real_angular_width_deg:.2f}",
-            "correction_factor_angle": f"{correction_factor_angle:.4f}",
-            "angle_app_top_deg": f"{angle_app_top_deg:.2f}",
-            "angle_app_bottom_deg": f"{angle_app_bottom_deg:.2f}",
-            "angle_app_midpoint_deg": f"{angle_app_midpoint_deg:.2f}"
+            "catheter_radius_px": f"{apparent_radius_px:.2f}",
+            "angular_width_deg": f"{apparent_angular_width_deg:.2f}",
+            "angle_top_deg": f"{angle_app_top_deg:.2f}",
+            "angle_bottom_deg": f"{angle_app_bottom_deg:.2f}",
+            "angle_midpoint_deg": f"{angle_app_midpoint_deg:.2f}"
         })
 
 
@@ -191,11 +188,11 @@ class CoreAnalyser:
         cv2.imshow(self.window_name, self.display_image)
 
     def _draw_info_text(self, panel):
-        def put_text(text, y_pos, color=(255, 255, 255), font_scale=0.6):
+        def put_text(text, y_pos, color=(255, 255, 255), font_scale=0.5):
             cv2.putText(panel, text, (10, y_pos), cv2.FONT_HERSHEY_SIMPLEX, font_scale, color, 1, cv2.LINE_AA)
 
         put_text(f"PHASE: {self.phase}", 20, color=(0, 255, 255))
-        put_text("Press 'Tab' to toggle Original/Edge view.", 95, font_scale=0.5)
+        put_text("Press 'Tab' to toggle Original/Edge view.", 105, font_scale=0.5)
         if self.phase == "ALIGNMENT":
             put_text("Click 2 points to define a horizontal line.", 45)
             if len(self.clicked_points) > 0:
@@ -205,7 +202,7 @@ class CoreAnalyser:
         elif self.phase == "MEASUREMENT":
             instructions = ["1. Catheter Top", "2. Catheter Bottom", "3. Gap Top Edge", "4. Gap Bottom Edge"]
             idx_text = instructions[len(self.clicked_points)] if len(self.clicked_points) < 4 else "Done"
-            put_text(f"Click 4 points: {idx_text}", 45)
+            put_text(f"Click 4 points: {idx_text}", 45, font_scale= 0.5)
             coords_str = ", ".join(map(str, self.clicked_points))
             put_text(f"Points: [{coords_str}]", 65, font_scale=0.5)
             put_text("Press 'z' undo, 'r' reset, 'q' quit.", 85, font_scale=0.5)
@@ -488,6 +485,7 @@ class AnalysisApp:
         while True:
             file_path = filedialog.askopenfilename(
                 title="Select an image file (or Cancel to end session)",
+                initialdir=os.path.join(os.path.dirname(__file__), "picture mode images"),
                 filetypes=[("Image Files", "*.png *.jpg *.jpeg *.bmp *.tif *.tiff"), ("All Files", "*.*")]
             )
             # If the user cancels the file dialog, end the session.
