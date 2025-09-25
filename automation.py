@@ -11,22 +11,28 @@ import numpy as np
 import queue
 import threading
 
+print(">>> automation.py has started")
+print("sys.argv:", sys.argv)
+
+script_dir = os.path.dirname(__file__)
+
 # --- Add references to Thorlabs Kinesis DLLs ---
-clr.AddReference(r"C:\Program Files\Thorlabs\Kinesis\Thorlabs.MotionControl.DeviceManagerCLI.dll")
-clr.AddReference(r"C:\Program Files\Thorlabs\Kinesis\Thorlabs.MotionControl.GenericMotorCLI.dll")
-clr.AddReference(r"C:\Program Files\Thorlabs\Kinesis\ThorLabs.MotionControl.IntegratedStepperMotorsCLI.dll")
+clr.AddReference(os.path.join(script_dir, "Thorlabs","Kinesis","Thorlabs.MotionControl.DeviceManagerCLI.dll"))
+clr.AddReference(os.path.join(script_dir, "Thorlabs","Kinesis","Thorlabs.MotionControl.GenericMotorCLI.dll"))
+clr.AddReference(os.path.join(script_dir, "Thorlabs","Kinesis","ThorLabs.MotionControl.IntegratedStepperMotorsCLI.dll"))
 
 from Thorlabs.MotionControl.DeviceManagerCLI import *
 from Thorlabs.MotionControl.GenericMotorCLI import *
 from Thorlabs.MotionControl.IntegratedStepperMotorsCLI import *
 
 # --- Swift Imaging Path / Titles (update if needed) ---
-SWIFT_EXE = r"C:\Program Files\Swift\Imaging\x64\imaging.exe"
+
+SWIFT_EXE = os.path.join(script_dir, "Swift", "Imaging", "x64", "imaging.exe")
 SWIFT_TITLE = "Swift Imaging"
 
 # --- Integration with BetterGUI ---
-IMAGES_DIR = r"C:\Users\admin\Desktop\images"
-BETTERGUI_PY = os.path.join(os.path.dirname(__file__), "BetterGUI.py")
+IMAGES_DIR = os.path.join(script_dir, "camera mode images")
+BETTERGUI_PY = os.path.join(script_dir, "BetterGUI.py")
 POLL_TIMEOUT = 15.0  # seconds to wait for saved file
 POLL_INTERVAL = 0.5
 IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff", ".raw"}

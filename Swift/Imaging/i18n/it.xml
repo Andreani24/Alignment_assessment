@@ -1,0 +1,2385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<i18n>
+	<all>
+		<str id="ids_error" val="Errore"/>
+		<str id="ids_true" val="Vero"/>
+		<str id="ids_false" val="Falso"/>
+		<str id="ids_yes" val="Si"/>
+		<str id="ids_folders" val="Cartelle"/>
+		<str id="ids_browse" val="Trova"/>
+		<str id="ids_back" val="Indietro"/>
+		<str id="ids_forward" val="Avanti"/>
+		<str id="ids_backward" val="Indietro"/>
+		<str id="ids_open" val="Apri"/>
+		<str id="ids_width" val="Larghezza"/>
+		<str id="ids_height" val="Altezza"/>
+		<str id="ids_measurement" val="Misurazioni"/>
+		<str id="ids_name" val="Nome"/>
+		<str id="ids_index" val="Indice"/>
+		<str id="ids_version" val="Versione"/>
+		<str id="ids_sample" val="Esempio"/>
+		<str id="ids_avg" val="Media"/>
+		<str id="ids_mean" val="Media"/>
+		<str id="ids_den" val="Rimozione Rumore"/>
+		<str id="ids_capture" val="Acquisisci"/>
+		<str id="ids_stop" val="Arresta"/>
+		<str id="ids_close" val="Chiudi"/>
+		<str id="ids_save" val="Salva"/>
+		<str id="ids_none" val="Nessuno"/>
+		<str id="ids_time" val="Tempo"/>
+		<str id="ids_frame" val="Fotogramma"/>
+		<str id="ids_framerate" val="Frame Rate"/>
+		<str id="ids_target" val="Riferimento"/>
+		<str id="ids_free" val="Libero"/>
+		<str id="ids_date" val="Data"/>
+		<str id="ids_year" val="Anno"/>
+		<str id="ids_month" val="Mese"/>
+		<str id="ids_day" val="Giorno"/>
+		<str id="ids_linear" val="Lineare"/>
+		<str id="ids_log" val="Logaritmico"/>
+		<str id="ids_exp" val="Esponenziale"/>
+		<str id="ids_poly" val="Polinomiale"/>
+		<str id="ids_format" val="Formato"/>
+		<str id="ids_bl" val="Livello del Nero"/>
+		<str id="ids_current" val="Attuale"/>
+		<str id="ids_remove" val="Rimuovi"/>
+		<str id="ids_cancel" val="Annulla"/>
+		<str id="ids_apply" val="Applica"/>
+		<str id="ids_defaults" val="Predefiniti"/>
+		<str id="ids_default" val="Predefinito"/>
+		<str id="ids_refresh" val="Aggiorna"/>
+		<str id="ids_reset" val="Reimposta"/>
+		<str id="ids_option" val="Opzione"/>
+		<str id="ids_options" val="Opzioni"/>
+		<str id="ids_preview" val="Anteprima"/>
+		<str id="ids_size" val="Dimensione"/>
+		<str id="ids_color" val="Colore"/>
+		<str id="ids_label" val="Etichetta"/>
+		<str id="ids_appearance" val="Aspetto"/>
+		<str id="ids_scalebar" val="Righello"/>
+		<str id="ids_rename" val="Rinomina"/>
+		<str id="ids_desc" val="Descrizione"/>
+		<str id="ids_red" val="Rosso"/>
+		<str id="ids_green" val="Verde"/>
+		<str id="ids_blue" val="Blu"/>
+		<str id="ids_radius" val="Raggio"/>
+		<str id="ids_del" val="Elimina"/>
+		<str id="ids_add" val="Aggiungi"/>
+		<str id="ids_hue" val="Tonalità"/>
+		<str id="ids_sat" val="Saturazione"/>
+		<str id="ids_bri" val="Luminosità"/>
+		<str id="ids_con" val="Contrasto"/>
+		<str id="ids_res" val="Risoluzione"/>
+		<str id="ids_compression" val="Compressione"/>
+		<str id="ids_whitebalance" val="Bilanciamento del Bianco"/>
+		<str id="ids_blackbalance" val="Bilanciamento del Nero"/>
+		<str id="ids_zoomin" val="Zoom Su"/>
+		<str id="ids_zoomout" val="Zoom Giù"/>
+		<str id="ids_export" val="Esporta"/>
+		<str id="ids_import" val="Importa"/>
+		<str id="ids_digbin" val="Binning Digitale"/>
+		<str id="ids_thumbnail" val="Galleria"/>
+		<str id="ids_rotate" val="Ruota"/>
+		<str id="ids_meta" val="Metadati"/>
+		<str id="ids_en" val="Abilita"/>
+		<str id="ids_value" val="Valore"/>
+		<str id="ids_expti" val="Tempo di Esposizione"/>
+		<str id="ids_rexpti" val="Tempo di Esposizione Effettivo"/>
+		<str id="ids_observer" val="Osservatore"/>
+		<str id="ids_telescope" val="Telescopio"/>
+		<str id="ids_comment" val="Commenti"/>
+		<str id="ids_edit" val="Modifica"/>
+		<str id="ids_model" val="Modello Camera"/>
+		<str id="ids_type" val="Tipo"/>
+		<str id="ids_author" val="Autore"/>
+		<str id="ids_title" val="Titolo"/>
+		<str id="ids_pxf" val="Formato Pixel"/>
+		<str id="ids_unit" val="Unità"/>
+		<str id="ids_calibrate" val="Calibra"/>
+		<str id="ids_beilv" val="Ingrandimento"/>
+		<str id="ids_dis" val="Disabilita"/>
+		<str id="ids_fset" val="Impostazioni di Fabbrica"/>
+		<str id="ids_srp" val="Nitidezza"/>
+		<str id="ids_focus" val="Fuoco"/>
+		<str id="ids_af" val="Messa a fuoco automatica"/>
+		<str id="ids_mau" val="Manuale"/>
+		<str id="ids_elc" val="Elettrico"/>
+		<str id="ids_up" val="Su"/>
+		<str id="ids_down" val="Giù"/>
+		<str id="ids_revision" val="Revisione"/>
+		<str id="ids_preset" val="Preimpostato"/>
+		<str id="ids_dl" val="Scarica"/>
+		<str id="ids_st" val="Stato"/>
+		<str id="ids_div" val="Dividi"/>
+		<str id="ids_simu" val="Simulato"/>
+		<str id="ids_nrecom" val="Non Consigliato"/>
+		<str id="ids_depre" val="Deprecato"/>
+		<str id="ids_text" val="Testo"/>
+		<str id="ids_mem" val="Memoria"/>
+		<str id="ids_count" val="Conta"/>
+		<str id="ids_perct" val="Percento"/>
+		<str id="ids_total" val="Totale"/>
+		<str id="ids_copy" val="Copia"/>
+		<str id="ids_autoe" val="Auto Esposizione"/>
+		<str id="ids_expta" val="Limite Esposizione"/>
+		<str id="ids_skip" val="Salta"/>
+		<str id="ids_gain" val="Guadagno"/>
+		<str id="ids_stemp" val="Temperatura"/>
+		<str id="ids_fan" val="Ventola"/>
+		<str id="ids_ttemp" val="Limite Temperatura"/>
+		<str id="ids_display" val="Mostra"/>
+		<str id="ids_cut" val="Taglia"/>
+		<str id="ids_pste" val="Incolla"/>
+		<str id="ids_lock" val="Blocca"/>
+		<str id="ids_basic" val="Basico"/>
+		<str id="ids_sk" val="Additivo"/>
+		<str id="ids_neg" val="Negativo"/>
+		<str id="ids_tonem" val="Mappatura Tono"/>
+		<str id="ids_position" val="Posizione"/>
+		<str id="ids_custom" val="Personalizzato"/>
+		<str id="ids_object" val="Oggetto"/>
+		<str id="ids_cobject" val="Oggetto di misura"/>
+		<str id="ids_threshold" val="Soglia"/>
+		<str id="ids_bool" val="Booleana"/>
+		<str id="ids_all" val="Tutti"/>
+		<str id="ids_column" val="Colonna"/>
+		<str id="ids_row" val="Riga"/>
+		<str id="ids_merge" val="Unisci"/>
+		<str id="ids_shape" val="Forma"/>
+		<str id="ids_font" val="Carattere"/>
+		<str id="ids_fontsize" val="Dimensione Carattere"/>
+		<str id="ids_fontweight" val="Peso Carattere"/>
+		<str id="ids_bandw" val="Larghezza di banda"/>
+		<str id="ids_about" val="Info"/>
+		<str id="ids_horz" val="Orizzontale"/>
+		<str id="ids_vert" val="Verticale"/>
+		<str id="ids_polygon" val="Poligono"/>
+		<str id="ids_adv" val="Avanzati"/>
+		<str id="ids_strength" val="Forza"/>
+		<str id="ids_linewidth" val="Larghezza Linea"/>
+		<str id="ids_glauto" val="Automatico Globale"/>
+		<str id="ids_compare" val="Confronta"/>
+		<str id="ids_db" val="Banca dati"/>
+		<str id="ids_new" val="Nuovo"/>
+		<str id="ids_find" val="Trova"/>
+		<str id="ids_imag" val="Immagine"/>
+		<str id="ids_disname" val="Mostra nome"/>
+		<str id="ids_floatn" val="Numero a virgola mobile"/>
+		<str id="ids_fixn" val="Numero in virgola fissa"/>
+		<str id="ids_lnoise" val="Rumore basso"/>
+		<str id="ids_once" val="Una volta"/>
+		<str id="ids_cont" val="Continuo"/>
+		<str id="ids_dye" val="Fluorocromo"/>
+		<str id="ids_dyv" val="Colorazione"/>
+		<str id="ids_tl" val="Time-lapse (Acquisizione Automatica)"/>
+		<str id="ids_xoff" val="Scostamento X"/>
+		<str id="ids_yoff" val="Scostamento Y"/>
+		<str id="ids_ftype" val="Tipo File"/>
+		<str id="ids_starddev" val="Deviazione Standard"/>
+		<str id="ids_samstarddev" val="Deviazione Standard del Campione"/>
+		<str id="ids_max" val="Massimo"/>
+		<str id="ids_min" val="Minimo"/>
+		<str id="ids_mono" val="Monocromo"/>
+		<str id="ids_lightsource" val="Sorgente luminosa"/>
+		<str id="ids_on" val="Acceso"/>
+		<str id="ids_off" val="Spento"/>
+		<str id="ids_high" val="Alto"/>
+		<str id="ids_watermark" val="Filigrana"/>
+		<str id="ids_cate" val="Categoria"/>
+		<str id="ids_settings" val="Impostazioni"/>
+		<str id="ids_llcolor" val="Colore etichetta"/>
+		<str id="ids_ec" val="Compensazione Esposizione"/>
+		<str id="ids_highfw" val="Alta Fullwell Capacity"/>
+		<str id="ids_item" val="Elemento"/>
+		<str id="ids_discard" val="Scartare"/>
+		<str id="ids_plan" val="Piano"/>
+		<str id="ids_network" val="Rete"/>
+		<str id="ids_ip" val="Indirizzo IP"/>
+		<str id="ids_mac" val="Indirizzo MAC"/>
+		<str id="ids_oclock" val="Aumento frequenza"/>
+		<str id="ids_fw" val="Ruota portafiltri"/>
+		<str id="ids_pdpseudocolor" val="Pseudo colori"/>
+		<str id="ids_lowpc" val="Basso consumo energetico"/>
+		<str id="ids_exporm" val="Modalità di lettura"/>
+		<str id="ids_addr" val="Indirizzo"/>
+		<str id="ids_trgs" val="Sorgente Trigger"/>
+		<str id="ids_nosep" val="Revolver"/>
+		<str id="ids_objlen" val="Obiettivo"/>
+		<str id="ids_si" val="Singolo"/>
+		<str id="ids_sq" val="Multiplo"/>
+		<str id="ids_cds" val="Doppio campionamento correlato"/>
+		<str id="ids_antise" val="Effetto Anti Otturatore"/>
+		<str id="ids_speed" val="Velocità"/>
+		<str id="ids_shtt" val="Otturatore"/>
+		<str id="ids_mshtt" val="Otturatore meccanico"/>
+		<str id="ids_mf" val="Mostra Ingrandimento"/>
+	</all>
+
+	<string>
+		<str id="ids_m" val="Metri"/>
+		<str id="ids_cm" val="Centimetri"/>
+		<str id="ids_mm" val="Millimetri"/>
+		<str id="ids_um" val="Micrometri"/>
+		<str id="ids_nm" val="Nanometri"/>
+		<str id="ids_in" val="Pollici"/>
+		<str id="ids_ang" val="Ångström"/>
+		<str id="ids_pm" val="Picometri"/>
+
+		<str id="ids_angle0" val="Radianti"/>
+		<str id="ids_angle1" val="Gradi"/>
+
+		<str id="ids_colorbuttonother" val="Altro..."/>
+		<str id="ids_linestylesolid" val="Piena"/>
+		<str id="ids_linestyledash" val="Linea"/>
+		<str id="ids_linestyledot" val="Punto"/>
+		<str id="ids_linestyledashdot" val="PuntoLinea"/>
+		<str id="ids_intminmax" val="Inserire un numero intero compreso tra %d e %d."/>
+
+		<str id="ids_exposure" val="Esposizione"/>
+
+		<str id="ids_noexcel" val="Errore nell'apertura di Microsoft Excel. Verificare che Microsoft Excel sia stato installato correttamente."/>
+		<str id="ids_noword" val="Errore nell'apertura di Microsoft Word. Verificare che Microsoft Word sia stato installato correttamente."/>
+
+		<str id="ids_outofrange" val="Fuori scala."/>
+		<str id="ids_inputv" val="Il valore inserito non è valido."/>
+		<str id="ids_filenr" val="I caratteri riservati non possono essere usati per i nomi dei file."/>
+
+		<str id="ids_deviceid" val="ID Dispositivo"/>
+		<str id="ids_devicename" val="Nome Dispositivo"/>
+		<str id="ids_stillimagecapture" val="Acquisizione Immagine Fissa"/>
+		<str id="ids_stillimagewidth" val="Larghezza Immagine Fissa"/>
+		<str id="ids_stillimageheight" val="Altezza Immagine Fissa"/>
+		<str id="ids_displaywidth" val="Larghezza Monitor"/>
+		<str id="ids_displayheight" val="Altezza Monitor"/>
+		<str id="ids_videowidth" val="Larghezza Video"/>
+		<str id="ids_videoheight" val="Altezza Video"/>
+		<str id="ids_duration" val="Durata"/>
+		<str id="ids_cameraid" val="ID Camera"/>
+		<str id="ids_productdate" val="Data Produzione"/>
+		<str id="ids_framedropped" val="Fotogramma Soppresso"/>
+		<str id="ids_framesaved" val="Fotogramma Salvato"/>
+		<str id="ids_property" val="Proprietà"/>
+		<str id="ids_errorstop" val="Errore, impossibile arrestare."/>
+		<str id="ids_startfail" val="Impossibile avviare."/>
+		<str id="ids_previewfail" val="Anteprima non consentita, ricollegare il dispositivo e riprovare."/>
+		<str id="ids_stoppreviewfail" val="Errore, impossibile arrestare l'anteprima."/>
+		<str id="ids_noframe" val="La larghezza di banda della porta USB non è sufficiente, abbassare il livello di frame rate o provare con un'altra porta USB. Ricollegare il dispositivo e riprovare."/>
+		<str id="ids_surpriseremoval" val="Il dispositivo è stato scollegato."/>
+		<str id="ids_devicelost" val="Arresto acquisizione (dispositivo perso), ricollegare il dispositivo e riprovare."/>
+		<str id="ids_captureerror" val="Errore durante l'acquisizione, ricollegare il dispositivo o provare con un'altra porta USB e riprovare."/>
+		<str id="ids_toupnamerror" val="Errore, riavviare il dispositivo e riprovare."/>
+		<str id="ids_filtergraph" val="Impossibile specificare il grafico del filtro."/>
+		<str id="ids_noax" val="Impossibile creare la sorgente di cattura video, reinstallare il driver del dispositivo."/>
+		<str id="ids_nosource" val="Errore, impossibile creare la sorgente di cattura video. Ricollegare il dispositivo e riprovare."/>
+
+		<str id="ids_badport" val="La porta specificata è già in uso, usare un'altra porta."/>
+		<str id="ids_bcount" val="Trasmetti Fotogramma"/>
+		<str id="ids_bdroppcnt" val="Trasmetti Fotogramma Soppresso"/>
+		<str id="ids_bcbbps" val="Trasmetti il Bitrate Attuale (Kbps)"/>
+		<str id="ids_baveragebps" val="Trasmetti il Bitrate Medio (Kbps)"/>
+		<str id="ids_bccfr" val="Trasmetti il Frame Rate Attuale"/>
+		<str id="ids_baveragesr" val="Trasmetti il Frame Rate Medio"/>
+		<str id="ids_bandwidth" val="Larghezza di banda (Kbps)"/>
+		<str id="ids_preceived" val="Pacchetti Ricevuti"/>
+		<str id="ids_plost" val="Pacchetti Persi"/>
+		<str id="ids_psize" val="Dimensione Pacchetti"/>
+
+		<str id="ids_encoder" val="Codifica"/>
+		<str id="ids_quality" val="Qualità"/>
+		<str id="ids_keyfs" val="Intervallo Fotogrammi (Secondi)"/>
+		<str id="ids_stepdir" val="Impostare correttamente directory e nome file."/>
+		<str id="ids_stepbpsminmax" val="Impostare correttamente il Bitrate, con un numero compreso tra %s e %s."/>
+		<str id="ids_stepqualityminmax" val="Impostare correttamente la Qualità, con un numero intero compreso tra %u e%u."/>
+		<str id="ids_stepiframe" val="Impostare correttamente l'Intervallo Fotogrammi."/>
+		<str id="ids_stepiframeminmax" val="Impostare correttamente l'Intervallo Fotogrammi, con un numero intero compreso tra %u e %u."/>
+		<str id="ids_stepcodec" val="Selezionare la Codifica."/>
+		<str id="ids_steptimelimit" val="Impostare correttamente il Limite di Tempo di Acquisizione."/>
+		<str id="ids_steptimelapse" val="Impostare correttamente l'Acquisizione in Time-lapse."/>
+		<str id="ids_stepavinone" val="Nessun Compressore"/>
+
+		<str id="ids_recordheader" val="Visualizza Informazioni"/>
+		<str id="ids_recordstep1" val="Formato Video e Codifica"/>
+		<str id="ids_recordstep2" val="File Video"/>
+		<str id="ids_recordstep3" val="Codifica"/>
+		<str id="ids_recordstep4" val="Avvia la Registrazione"/>
+		<str id="ids_broadcastpar" val="Parametri di Trasmissione"/>
+		<str id="ids_recordstep4b" val="Avvia la Trasmissione"/>
+
+		<str id="ids_integerinvalid" val="Inserire un numero intero."/>
+
+		<str id="ids_mosaicimages" val="Mosaico Immagini"/>
+
+		<str id="ids_deleteallitem" val="Eliminare tutti gli oggetti?"/>
+		<str id="ids_deleteitem" val="Eliminare tutti l'oggetto selezionato?"/>
+		<str id="ids_deleteitems" val="Eliminare tutti i %d oggetto selezionato?"/>
+		<str id="ids_magimport" val="L'importazione cancellerà tutti gli oggetti correnti, continuare?"/>
+
+		<str id="ids_toolbarselect" val="Seleziona Oggetto"/>
+		<str id="ids_toolbarcirclehole" val="Cerchio con foro"/>
+		<str id="ids_toolbarrectselect" val="Seleziona Immagine"/>
+		<str id="ids_toolbartrack" val="Segui"/>
+		<str id="ids_toolbargray" val="Calibrazione del Grigio"/>
+		<str id="ids_toolbarcrosshair" val="Crocefilo"/>
+		<str id="ids_toolbargoto" val="Apri Cartella"/>
+		<str id="ids_toolbarcenter" val="Centro"/>
+
+		<str id="ids_stitch" val="Componi"/>
+		<str id="ids_stitchautocrop" val="Ritaglio automatico al termine della composizione (Rettangolo di delimitazione esterno)"/>
+		<str id="ids_stitchscroll" val="Modo Scorrimento"/>
+		<str id="ids_aggr" val="Aggressivo"/>
+		<str id="ids_pasi" val="Passivo"/>
+
+		<str id="ids_built" val="Versione"/>
+
+		<str id="ids_toolbar" val="Barra degli Strumenti"/>
+		<str id="ids_nodevice" val="Nessun Dispositivo"/>
+		<str id="ids_zoom0" val="Adatta alla Larghezza"/>
+		<str id="ids_zoom1" val="Adatta all'Altezza"/>
+		<str id="ids_zoom2" val="Adatta alla Finestra"/>
+		<str id="ids_selection" val="Selezione"/>
+		<str id="ids_undoredo" val="Annulla/Ripeti"/>
+
+		<str id="ids_overlayscale" val="Sovraimpressione Righello"/>
+
+		<str id="ids_customize" val="Personalizza"/>
+		<str id="ids_toolbarcustomize" val="&amp;Personalizza..."/>
+		<str id="ids_angleunitmenu" val="&amp;Unità di Angolo..."/>
+
+		<str id="ids_emptydir" val="La directory non può essere vuota."/>
+		<str id="ids_invaliddir" val="La directory non è valida."/>
+		<str id="ids_filelock" val="Questo file è stato bloccato."/>
+		<str id="ids_imagesizemismatch" val="La dimensione immagine non corrisponde."/>
+		<str id="ids_imagesizenotsame" val="L'immagine: &quot;%s&quot; non è della stessa dimensione."/>
+		<str id="ids_filenofound" val="File non trovato."/>
+		<str id="ids_savefilefail2" val="Errore nel salvataggio del file &quot;%s&quot;."/>
+		<str id="ids_savefilefail3" val="Errore nel salvataggio del file."/>
+		<str id="ids_videofileformat" val="Formato file non supportato."/>
+		<str id="ids_videofilestartfail" val="Errore nell'avvio."/>
+		<str id="ids_videofiles" val="Files Video"/>
+		<str id="ids_allfiles" val="Tutti i File"/>
+
+		<str id="ids_browseshutcut" val="Questa cartella contiene già una scorciatoia chiamata &quot;%s&quot;.\nSovrascrivi, Annulla, o Esci"/>
+
+		<str id="ids_videozoomint" val="Il valore zoom attuale è %u%%. Per ottenere il numero esatto, impostare il valore zoom a 100%%. Continuare comunque?"/>
+		<str id="ids_videozoomfloat" val="Il valore zoom attuale è %.1f%%. Per ottenere il numero esatto, impostare il valore zoom a 100%%. Continuare comunque?"/>
+		<str id="ids_videomarker" val="Marcatore: (%d, %d); Filigrana: Sposta = (%d, %d), Ruota = %.3f"/>
+		<str id="ids_videostartrecord" val="Avvia &amp;Registrazione..."/>
+		<str id="ids_videostoprecord" val="Arresta &amp;Registrazione"/>
+		<str id="ids_videostarttimelapse" val="Avvia &amp;Time-lapse (Acquisizione Automatica)..."/>
+		<str id="ids_videostoptimelapse" val="Arresta &amp;Time-lapse (Acquisizione Automatica)"/>
+		<str id="ids_videoautofail" val="Errore nell'acquisizione automatica."/>
+		<str id="ids_videocalibratemax1" val="Calibrare alla massima dimensione.\r\nDimensione Attuale: %u x %u. Dimensione massima: %u x %u.\r\nUsare la barra laterale camere per impostare la risoluzione."/>
+
+		<str id="ids_memory" val="Memoria insufficiente."/>
+		<str id="ids_memoryx86" val="Memoria insufficiente, usare la versione x64."/>
+
+		<str id="ids_actionfailed" val="Azione fallita."/>
+		<str id="ids_actioncanceld" val="Azione annullata."/>
+
+		<str id="ids_calibratedlgtoobig" val="Troppo grande"/>
+		<str id="ids_calibratedlgtoosmall" val="Troppo piccolo"/>
+		<str id="ids_calibratedlgmagnification" val="Inserire il corretto ingrandimento, come 10, 40, 100, ecc."/>
+		<str id="ids_calibratedlgmagnificationexists" val="L'ingrandimento &quot;%s&quot; esiste già."/>
+
+		<str id="ids_collapseall" val="Riduci Tutto"/>
+		<str id="ids_expandall" val="Espandi Tutto"/>
+		<str id="ids_cameralist" val="Elenco Camere"/>
+		<str id="ids_expandgain" val="Esposizione &amp;&amp; Guadagno"/>
+		<str id="ids_colorgray" val="Colore/Scala di Grigi"/>
+		<str id="ids_capres" val="Acquisizione &amp;&amp; Risoluzione"/>
+		<str id="ids_coloradjust" val="Regolazione Colore"/>
+		<str id="ids_flip" val="Ribalta"/>
+		<str id="ids_sampling" val="Campionamento"/>
+		<str id="ids_histogram" val="Istogramma"/>
+		<str id="ids_power" val="Frequenza Alimentazione (Anti-sfarfallio)"/>
+		<str id="ids_gray" val="Grigio"/>
+		<str id="ids_range" val="Intervallo"/>
+		<str id="ids_exptimeempty" val="Il tempo di esposizione non può essere vuoto."/>
+		<str id="ids_exptimeinvalid" val="Il tempo di esposizione non è valido."/>
+		<str id="ids_exptimeoutofrange" val="Il tempo di esposizione è fuori intervallo [%s, %s]."/>
+		<str id="ids_dfc" val="Correzione Campo Scuro"/>
+		<str id="ids_bitdepth" val="Profondità Bit"/>
+		<str id="ids_propfmt" val="Proprietà &amp;&amp; Formato"/>
+		<str id="ids_cool" val="Raffreddamento"/>
+		<str id="ids_cvtgain" val="Conversione Guadagno"/>
+		<str id="ids_ffc" val="Correzione del Fondo"/>
+		<str id="ids_heat" val="Riscaldamento"/>
+		<str id="ids_dynamicdefect" val="Correzione Dinamica Pixel Difettosi"/>
+		<str id="ids_fpnc" val="Correzione del rumore del pattern fisso"/>
+
+		<str id="ids_preferences" val="Preferenze"/>
+
+		<str id="ids_grids" val="Griglie"/>
+		<str id="ids_misc" val="Varie"/>
+		<str id="ids_cursor" val="Cursore"/>
+		<str id="ids_quicksave" val="Salvataggio Veloce"/>
+		<str id="ids_record" val="Registrazione"/>
+		<str id="ids_quickrecord" val="Registrazione Veloce"/>
+
+		<str id="ids_mosaicimage" val="Elenco Immagini"/>
+		<str id="ids_mosaicpar" val="Parametri"/>
+
+		<str id="ids_filefmtcol0" val="Estensione"/>
+		<str id="ids_filefmtcol2" val="Abbreviazione"/>
+
+		<str id="ids_allsupported" val="Tutti i formati supportati"/>
+		<str id="ids_savedlgreplace" val="%s esiste già.\nSostituirlo?"/>
+		<str id="ids_saveboth" val="L'immagine ed il livello misurazioni sono stati modificati. Salvare i cambiamenti?"/>
+		<str id="ids_saveimage" val="L'immagine è stata modificata. Salvare i cambiamenti?"/>
+		<str id="ids_savelayer" val="Il livello misurazioni è stato modificato. Salvare i cambiamenti?"/>
+
+		<str id="ids_watermarkdlg24bit" val="Sono supportate solo immagini a 24 o 32 bit."/>
+
+		<str id="ids_nameformatnnnn" val="nnnn (sequenza)"/>
+
+		<str id="ids_lefttop" val="Alto a Sinistra"/>
+		<str id="ids_righttop" val="Alto a Destra"/>
+		<str id="ids_leftbottom" val="Basso a Sinistra"/>
+		<str id="ids_rightbottom" val="Basso a Destra"/>
+		<str id="ids_overlaybgtrans" val="Trasparente"/>
+		<str id="ids_black" val="Nero"/>
+		<str id="ids_white" val="Bianco"/>
+		<str id="ids_smallest" val="Minore"/>
+		<str id="ids_smaller" val="Inferiore"/>
+		<str id="ids_small" val="Piccolo"/>
+		<str id="ids_medium" val="Medio"/>
+		<str id="ids_large" val="Grande"/>
+		<str id="ids_larger" val="Superiore"/>
+		<str id="ids_largest" val="Maggiore"/>
+		<str id="ids_fontweightnormal" val="Normale"/>
+		<str id="ids_fontweightbold" val="Grassetto"/>
+		<str id="ids_fontweightheavy" val="Pesante"/>
+		<str id="ids_overlaydatenone" val="Nessuno"/>
+		<str id="ids_overlaydatelong" val="Formato Data Lungo"/>
+		<str id="ids_overlaydateshort" val="Formato Data Corto"/>
+		<str id="ids_overlaydatelong" val="Formato Data e Ora Lungo"/>
+		<str id="ids_overlaydateshort" val="Formato Data e Ora Corto"/>
+
+		<str id="ids_marker" val="Nessuno"/>
+		<str id="ids_markercross" val="Croce"/>
+		<str id="ids_markercircle" val="Cerchio"/>
+		<str id="ids_markercr" val="Croce+Rettangolo"/>
+		<str id="ids_markercc" val="Croce+Cerchio"/>
+		<str id="ids_markercrosswidth" val="Larghezza Croce (%)"/>
+		<str id="ids_markercrossheight" val="Altezza Croce (%)"/>
+		<str id="ids_markerrectwidth" val="Larghezza Rettangolo (%)"/>
+		<str id="ids_markerrectheight" val="Altezza rettangolo (%)"/>
+		<str id="ids_markerradius" val="Raggio del Cerchio (%)"/>
+		<str id="ids_markerx" val="Scostamento x (%)"/>
+		<str id="ids_markery" val="Scostamento y (%)"/>
+
+		<str id="ids_stitchfail" val="Errore nell'incollare."/>
+		<str id="ids_stitchplane" val="Piano"/>
+		<str id="ids_stitchcylindrical" val="Cilindrico"/>
+		<str id="ids_stitchspherical" val="Sferico"/>
+		<str id="ids_stitchfisheye" val="Grandangolo"/>
+		<str id="ids_stitchstereographic" val="Stereografico"/>
+		<str id="ids_stitchmercator" val="Mercator"/>
+		<str id="ids_stitchtransversemercator" val="Mercator Trasverso"/>
+		<str id="ids_stitchseamfindervoronoi" val="Diagramma di Voronoi"/>
+		<str id="ids_stitchseamfindergraphcutcolor" val="Taglio Colore Grafico"/>
+		<str id="ids_stitchseamfindergraphcutcolorgrad" val="Grado di Taglio Colore Grafico"/>
+		<str id="ids_stitchecgain" val="Guadagno"/>
+		<str id="ids_stitchecbg" val="Blocco Guadagno"/>
+		<str id="ids_stitchbaray" val="Regola Raggio"/>
+		<str id="ids_stitchbareproj" val="Errore di riproiezione"/>
+
+		<str id="ids_crosssingle" val="Singolo"/>
+		<str id="ids_cross1" val="Doppio (1 Pixel)"/>
+		<str id="ids_cross3" val="Doppio (3 Pixels)"/>
+		<str id="ids_cross5" val="Doppio (5 Pixels)"/>
+		<str id="ids_cross7" val="Doppio (7 Pixels)"/>
+		<str id="ids_cross9" val="Doppio (9 Pixels)"/>
+		<str id="ids_cursorcross" val="Croce"/>
+		<str id="ids_cursorcrosshair" val="Crocefilo"/>
+		<str id="ids_cursorpoint" val="Punto"/>
+		<str id="ids_cursornull" val="Nessuno"/>
+
+		<str id="ids_videooverlay" val="Sovraimpressione Video"/>
+		<str id="ids_markertxt" val="Sovraimpressione"/>
+		<str id="ids_markergeo" val="Marcatore"/>
+
+		<str id="ids_miscsplash" val="Mostra la schermata iniziale all'avvio"/>
+		<str id="ids_miscscreensaver" val="Non consentire lo screensaver durante anteprima / acquisizione"/>
+		<str id="ids_misctft" val="Formato File"/>
+		<str id="ids_misctftremind" val="Ricordami quando il formato file non supporta oggetti di misurazione"/>
+		<str id="ids_miscsidebar" val="Barre Laterali"/>
+		<str id="ids_miscsidebarmeasurement" val="Attiva automaticamente la barra laterale misurazioni quando si misura"/>
+		<str id="ids_miscsidebarfolders" val="Attiva automaticamente la barra laterale cartelle quando si apre la finestra Trova"/>
+		<str id="ids_miscsidebarbrowse" val="Mostra automaticamente la finestra Trova quando si fa doppio clic sulle cartelle"/>
+		<str id="ids_miscsidebarcamerastartup" val="Attiva automaticamente la barra laterale camera all'avvio"/>
+		<str id="ids_miscuistyle" val="Stile UI"/>
+		<str id="ids_miscrecent" val="Numero massimo di File Recenti"/>
+		<str id="ids_miscclear" val="Cancella i File Recenti all'uscita"/>
+		<str id="ids_miscrestore" val="Ripristina la directory Corrente all'avvio"/>
+		<str id="ids_misclang" val="Lingua"/>
+		<str id="ids_miscte" val="Ha effetto al prossimo riavvio"/>
+
+		<str id="ids_urimploperation" val="Operazione"/>
+
+		<str id="ids_pdmorphologic" val="Operazione Morfologica"/>
+		<str id="ids_pdmuststructure" val="Si deve scegliere una struttura."/>
+		<str id="ids_pdnostructure" val="La struttura non esiste."/>
+		<str id="ids_pdselectstructure" val="Selezionare una struttura."/>
+		<str id="ids_pddeletesure" val="Elimina: Continuare?"/>
+		<str id="ids_pdenhancement" val="Miglioramento Immagine"/>
+		<str id="ids_pdbestfit" val="Adatta"/>
+		<str id="ids_pdequalize" val="Equalizzazione Locale"/>
+		<str id="ids_pdundo" val="Annulla"/>
+		<str id="ids_pdconvertbit" val="Converti a 8bit o 24bit?"/>
+		<str id="ids_pdexceed" val="Eccede la Regione."/>
+		<str id="ids_pdkernel" val="Operazione Kernel"/>
+		<str id="ids_pdmustname" val="Inserire un nome."/>
+		<str id="ids_pdkernelsize" val="Dimensione Kernel non valida."/>
+		<str id="ids_pdinputvalue" val="Inserire un valore."/>
+		<str id="ids_pdoverwrite" val="Struttura esistente. Sovrascrivere?"/>
+		<str id="ids_pdedge" val="Operazione Bordo"/>
+		<str id="ids_pdautolevel" val="Livello Automatico"/>
+		<str id="ids_pdautocontrast" val="Contrasto Automatico"/>
+		<str id="ids_pdbcadj" val="Regolazione Luminosità/Contrasto"/>
+		<str id="ids_pdcoloradj" val="Regolazione Colore"/>
+		<str id="ids_pdhmsadj" val="Regolazione HMS"/>
+		<str id="ids_pdgammaadj" val="Regolazione Gamma"/>
+		<str id="ids_pdhistogram" val="Equalizzazione Istogramma"/>
+		<str id="ids_pdcurve" val="Regolazione Curva"/>
+		<str id="ids_pdcolorquantize" val="Quantizzazione Colore: %d Bit(s)"/>
+		<str id="ids_pdbinary" val="Binario"/>
+		<str id="ids_pdgray" val="Grigio"/>
+		<str id="ids_pdinvert" val="Inverti"/>
+		<str id="ids_pdrotatecw" val="Ruota (Orario)"/>
+		<str id="ids_pdrotateccw" val="Ruota (Antiorario)"/>
+		<str id="ids_pdcrop" val="Ritaglia"/>
+		<str id="ids_pdimagescale" val="Scala Immagine"/>
+		<str id="ids_pdfliphorz" val="Ribalta Orizzontale"/>
+		<str id="ids_pdflipvert" val="Ribalta Verticale"/>
+		<str id="ids_pdrange" val="Intervallo"/>
+		<str id="ids_pdfilters" val="Filtri"/>
+		<str id="ids_pdinvalidheight" val="Altezza non valida."/>
+		<str id="ids_pdfiltercolor" val="Filtra Colore"/>
+		<str id="ids_pdextractcolor" val="Estrai Colore"/>
+		<str id="ids_pdluminosity" val="Luminosità"/>
+		<str id="ids_bilinear" val="Bilineare"/>
+		<str id="ids_bicubic" val="Bicubico"/>
+
+		<str id="ids_filtermorp" val="Morfologico"/>
+		<str id="ids_filterenhance" val="Migliora Immagine"/>
+		<str id="ids_filteredge" val="Migliora Bordo"/>
+
+		<str id="ids_extraopenfail" val="Errore nell'aprire il file di configurazione."/>
+		<str id="ids_extrasaveit" val="Il colorante attuale è stato modificato, salvarlo?"/>
+		<str id="ids_extradyeexist" val="Esiste già un colorante con lo stesso nome."/>
+		<str id="ids_extradeleteitem" val="Eliminare questo oggetto?"/>
+		<str id="ids_extrasavedata" val="Salvare i dati?"/>
+		<str id="ids_extrareloaddata" val="Ricaricare tutti i dati?"/>
+		<str id="ids_extraforfile" val="Per File"/>
+
+		<str id="ids_labelaxis" val="Asse"/>
+		<str id="ids_labelwidthheight" val="Larghezza e Altezza"/>
+
+		<str id="ids_layer" val="Livello"/>
+		<str id="ids_sheet" val="Foglio Misurazioni"/>
+		<str id="ids_sheet2" val="Centro"/>
+		<str id="ids_sheet3" val="Diametro"/>
+		<str id="ids_sheet5" val="Lunghezza"/>
+		<str id="ids_sheet7" val="Inizio"/>
+		<str id="ids_sheet8" val="Fine"/>
+		<str id="ids_sheet9" val="Distanza"/>
+		<str id="ids_pointname" val="Punto%d"/>
+		<str id="ids_intersection" val="Intersezione"/>
+		<str id="ids_foot" val="Piede"/>
+		<str id="ids_slope" val="Pendenza"/>
+		<str id="ids_perimeter" val="Perimetro"/>
+		<str id="ids_center" val="Centro"/>
+		<str id="ids_arclength" val="Perimetro"/>
+		<str id="ids_ratio" val="Rapporto"/>
+		<str id="ids_axes" val="Assi"/>
+		<str id="ids_layer0" val="Visibile"/>
+		<str id="ids_lunit0" val="Unità"/>
+		<str id="ids_lunit2" val="Simbolo"/>
+		<str id="ids_lunit4" val="Scala"/>
+		<str id="ids_noname" val="[Nessun Nome]"/>
+		<str id="ids_layerbackground" val="Fondo"/>
+		<str id="ids_layername" val="Nome Livello"/>
+		<str id="ids_sysunit" val="Sistema"/>
+		<str id="ids_userunit" val="Utente"/>
+		<str id="ids_errorfile" val="Errore Formato File."/>
+		<str id="ids_errordata" val="Errore Dati File."/>
+		<str id="ids_only1layer" val="Impossibile rimuovere l'ultimo livello."/>
+		<str id="ids_removecurrent" val="Impossibile rimuovere il livello Attuale."/>
+		<str id="ids_removelayer" val="Rimuovere questo livello?"/>
+		<str id="ids_removeitem" val="Rimuovere tutti gli oggetti selezionati?"/>
+		<str id="ids_removeunit" val="Questa unità è stata rimossa con successo."/>
+		<str id="ids_unitsymbol" val="Il simbolo non può essere vuoto."/>
+		<str id="ids_invalidratio" val="Rapporto non valido."/>
+		<str id="ids_sameunit" val="Impossibile aggiungere questa unità perché esiste già una unità con lo stesso nome."/>
+		<str id="ids_samesymbol" val="Impossibile aggiungere questa unità perché esiste già una unità con lo stesso simbolo."/>
+		<str id="ids_layersamename" val="Esistono uno o più livelli con lo stesso nome.\nContinuare?"/>
+		<str id="ids_nametolong" val="Il nome è troppo lungo."/>
+		<str id="ids_symboltolong" val="Il simbolo è troppo lungo."/>
+		<str id="ids_toomanyunit" val="Troppe unità definite dall'utente."/>
+		<str id="ids_addunit" val="1. La scala è il rapporto tra metri e la specifica unità. Per esempio:\n   Il metro per millimetro corrisponde a 1000, che può essere espresso anche con la notazione scientifica 1e3.\n Il metro per chilometro corrisponde a 0,001, che si legge come 1e-3.\n\n2. Simbolo: ad esempio &quot;m&quot; per metro, &quot;cm&quot; per centimetro."/>
+		<str id="ids_general" val="Generale"/>
+		<str id="ids_lengthunit" val="Unità di Lunghezza"/>
+		<str id="ids_angleunit" val="Unità di Angolo"/>
+		<str id="ids_measurelist" val="Foglio"/>
+		<str id="ids_angle" val="Angolo"/>
+		<str id="ids_ellipse" val="Ellisse"/>
+		<str id="ids_line" val="Linea"/>
+		<str id="ids_point" val="Punto"/>
+		<str id="ids_rect" val="Rettangolo"/>
+		<str id="ids_parallel" val="Parallele"/>
+		<str id="ids_line3" val="Parallele (3 Punti)"/>
+		<str id="ids_line2" val="Parallele (4 Punti)"/>
+		<str id="ids_line4" val="Parallele (8 Punti)"/>
+		<str id="ids_linea" val="Parallele (Arbitraria)"/>
+		<str id="ids_vertical" val="Verticale"/>
+		<str id="ids_verany" val="Verticale (Arbitrario)"/>
+		<str id="ids_circle" val="Cerchio"/>
+		<str id="ids_arc" val="Arco"/>
+		<str id="ids_annulus" val="Anello"/>
+		<str id="ids_twocircles" val="Due Cerchi"/>
+		<str id="ids_curve" val="Curva"/>
+		<str id="ids_appearance" val="Aspetto"/>
+		<str id="ids_geometry" val="Geometria"/>
+		<str id="ids_coordinates" val="Coordinate"/>
+		<str id="ids_lsize" val="Dimensione"/>
+		<str id="ids_mlinewidth" val="Larghezza Linea Ausiliaria"/>
+		<str id="ids_linecolor" val="Colore Linea"/>
+		<str id="ids_mlinecolor" val="Colore Linea Ausiliaria"/>
+		<str id="ids_linestyle" val="Stile Linea"/>
+		<str id="ids_mlinestyle" val="Stile Linea Ausiliaria"/>
+		<str id="ids_fill" val="Riempimento"/>
+		<str id="ids_mline" val="Mostra Linea Ausiliaria"/>
+		<str id="ids_amarker" val="Mostra Marcatore Angolo"/>
+		<str id="ids_circled" val="Mostra Diametro / Raggio"/>
+		<str id="ids_circlec" val="Mostra Centro"/>
+		<str id="ids_showcp" val="Mostra Punto di Connessione"/>
+		<str id="ids_showmp" val="Mostra Punto di Mezzo"/>
+		<str id="ids_fillcolor" val="Colore Riempimento"/>
+		<str id="ids_arrow" val="Freccia"/>
+		<str id="ids_textcolor" val="Colore Testo"/>
+		<str id="ids_textalign" val="Allineamento Testo"/>
+		<str id="ids_lframe" val="Riquadro"/>
+		<str id="ids_edittext" val="Modifica Testo"/>
+		<str id="ids_textleft" val="Sinistra"/>
+		<str id="ids_textright" val="Destra"/>
+		<str id="ids_lnum" val="Numero"/>
+		<str id="ids_ltoolbarshow" val="Mostra/Nascondi"/>
+		<str id="ids_fontstyle0" val="Normale"/>
+		<str id="ids_fontstyle1" val="Grassetto"/>
+		<str id="ids_fontstyle2" val="Corsivo"/>
+		<str id="ids_fontstyle3" val="Grassetto e Corsivo"/>
+		<str id="ids_decimal" val="Decimali"/>
+		<str id="ids_decimal0" val="0 decimali"/>
+		<str id="ids_decimal1" val="1 decimale"/>
+		<str id="ids_decimal2" val="2 decimali"/>
+		<str id="ids_decimal3" val="3 decimali"/>
+		<str id="ids_decimal4" val="4 decimali"/>
+		<str id="ids_decimal5" val="5 decimali"/>
+		<str id="ids_decimal6" val="6 decimali"/>
+		<str id="ids_labeltype" val="Tipo Etichetta"/>
+		<str id="ids_labelpos" val="Posizione Etichetta"/>
+		<str id="ids_ltrans" val="Fondo Trasparente"/>
+		<str id="ids_lbkclr" val="Colore Fondo"/>
+		<str id="ids_ecce" val="Eccentricità"/>
+		<str id="ids_pdegree" val="Grado del Profilo"/>
+		<str id="ids_hollowness" val="Cavità"/>
+		<str id="ids_chollowness" val="Cavità del Cerchio"/>
+		<str id="ids_phollowness" val="Cavità del Poligono"/>
+		<str id="ids_fratio" val="Rapporto di Planarità"/>
+		<str id="ids_ncr" val="Rapporto Nucleare/Citoplasmatico"/>
+		<str id="ids_showsublabel" val="Mostra le etichette dei sottooggetti"/>
+
+		<str id="ids_rect2p" val="Rettangolo (2 Punti)"/>
+		<str id="ids_rect3p" val="Rettangolo (3 Punti)"/>
+		<str id="ids_angle3p" val="Angolo (3 Punti)"/>
+		<str id="ids_angle4p" val="Angolo (4 Punti)"/>
+		<str id="ids_circle1" val="Cerchi (Centro+Raggio)"/>
+		<str id="ids_circle2" val="Cerchi (2 Punti)"/>
+		<str id="ids_circle3" val="Cerchi (3 Punti)"/>
+		<str id="ids_annulus2" val="Anello (Centro+Raggio)"/>
+		<str id="ids_annulus3" val="Anello (3 Punti)"/>
+		<str id="ids_vertical3p" val="Verticale (3 Punti)"/>
+		<str id="ids_vertical4p" val="Verticale (4 Punti)"/>
+		<str id="ids_ellipse2p" val="Ellisse (2 Punti)"/>
+		<str id="ids_ellipse5p" val="Ellisse (5 Punti)"/>
+		<str id="ids_ellipse3p" val="Ellisse (3 Punti)"/>
+		<str id="ids_vline" val="Linea Verticale"/>
+		<str id="ids_hline" val="Linea Orizzontale"/>
+		<str id="ids_twocircle3p" val="Due Cerchi (Centro+Raggio)"/>
+		<str id="ids_twocircle2p" val="Due Cerchi (3 Punti)"/>
+		<str id="ids_line3p" val="Line (3 Punti)"/>
+		<str id="ids_vline3p" val="Linea Verticale (3 Punti)"/>
+		<str id="ids_hline3p" val="Linea Orizzontale (3 Punti)"/>
+		<str id="ids_linemulti" val="Line (Connessione Multipunto)"/>
+
+		<str id="ids_errgeneric" val="Errore generico."/>
+		<str id="ids_errnullname" val="Il nome non può essere vuoto."/>
+		<str id="ids_errsamename" val="Esiste già lo stesso nome."/>
+		<str id="ids_errsameid" val="Esiste già lo stesso ID."/>
+		<str id="ids_erropenfile" val="Errore nell'apertura del file."/>
+		<str id="ids_errfileformat" val="Formato file non valido."/>
+		<str id="ids_errmsgproduct" val="Il modello del camera non corrisponde."/>
+		<str id="ids_errusb" val="Mancata corrispondenza della versione USB."/>
+		<str id="ids_errmode" val="Modalità non corrispondente."/>
+
+		<str id="ids_resetlayout" val="L'aspetto della finestra verrà reimpostato dopo il riavvio App."/>
+		<str id="ids_startbroadcast" val="Avvia &amp;Trasmissione..."/>
+		<str id="ids_stopbroadcast" val="Arresta &amp;Trasmissione"/>
+
+		<str id="ids_stackingfail" val="Errore nella sovrapposizione delle immagini."/>
+
+		<str id="ids_objcount" val="Segmentazione &amp; Conta"/>
+		<str id="ids_objsplit" val="Dividi Oggetti"/>
+		<str id="ids_objcountosoutline" val="Contorno"/>
+		<str id="ids_objcountosfilled" val="Pieno"/>
+
+		<str id="ids_counthisv" val="Valore"/>
+
+		<str id="ids_edfc" val="Massimo Contrasto"/>
+		<str id="ids_edfw" val="Media Ponderata"/>
+		<str id="ids_edfs" val="Sovrapposizione"/>
+		<str id="ids_edffm" val="Opzioni FFDSSD"/>
+		<str id="ids_edfcapture" val="Acquisisci Immagine"/>
+		<str id="ids_edfmethod" val="Seleziona Metodo"/>
+		<str id="ids_edfself" val="Seleziona Files"/>
+		<str id="ids_edfaa" val="Allineamento Automatico"/>
+		<str id="ids_edfadesc" val="Selezionare l'Allineamento Automatico più adatto se c'è uno spostamento, una scalettatura o una rotazione dell'immagine da elaborare.\n\nIl tempo impiegato dall'EDF è in funzione dell'impostazione del massimo angolo. Il tempo aumenta se aumenta il massimo angolo ed il rapporto tra di loro non è lineare. Il massimo angolo predefinito è 1.0°."/>
+		<str id="ids_edfcaptips" val="Regolare il microscopio per rendere nitide diverse parti del campione in esame. Acquisire un'immagine a diverse regolazioni del fuoco. L'intervallo di messa a fuoco è lasciato all'utilizzatore. Generalmente, più dettagli sono disponibili con piccoli intervalli di messa a fuoco. La posizione relativa del campione rispetto al microscopio deve essere modificata in una sola direzione."/>
+		<str id="ids_edfpdesc" val="I tre valori non sono isolati. La nitidezza dei dettagli influisce sul dettaglio dell'immagine risultante. La luminosità del fondo è il valore di scostamento che viene usato per aggiungere o sottrarre il fondo. Queste due impostazioni influiranno sulla luminosità risultante. Per questa ragione, deve essere regolata anche la luminosità totale."/>
+		<str id="ids_edfmdesc" val="\tIl metodo di Media Ponderata produce una immagine finale dolce ma potrebbe portare ad una perdita dei dettagli. Questo metodo spesso fornisce risultati migliori rispetto al metodo FFDSSD con sovrapposizioni profonde, quali sono le immagini prodotte con un microscopio. Si noti che le immagini da elaborare devono essere in ordine Z (dalla più vicina alla più lontana o viceversa rispetto all'obiettivo del microscopio).\n\tIl metodo Massimo Contrasto è simile al metodo Media Ponderata e le immagini in ingresso devono di nuovo essere in ordine Z. La differenza è che il metodo Massimo Contrasto potrebbe perdere alcuni dettagli. Il metodo Massimo Contrasto è quello preferito per l'EDF.\n\tFFDSSD è un metodo che filtra nel campo delle frequenze usando la Trasformata di Fourier (FFT) ed esegue una sintesi nel campo spaziale. FFDSSD può essere usato per immagini che presentando un disallineamento. L'utilizzatore può selezionare manualmente o automaticamente immagini di riferimento per fare in modo che le immagini vengano allineate."/>
+		<str id="ids_maxedf" val="Troppe immagini. Il numero di immagini non può superare %u."/>
+
+		<str id="ids_panefloating" val="&amp;Mobile"/>
+		<str id="ids_panedocking" val="&amp;Fisso"/>
+		<str id="ids_paneautohide" val="Nascondi &amp;Automaticamente"/>
+		<str id="ids_panehide" val="&amp;Nascondi"/>
+		<str id="ids_scrright" val="Scorri a destra"/>
+		<str id="ids_scrleft" val="Scorri a sinistra"/>
+		<str id="ids_autohideall" val="Nascondi tutto automaticamente"/>
+		<str id="ids_autohide" val="Nascondi automaticamente"/>
+		<str id="ids_winpos" val="Posizione della finestra"/>
+
+		<str id="ids_wmdtitle" val="Finestre"/>
+		<str id="ids_wmdselwin" val="Seleziona Finestra:"/>
+		<str id="ids_wmdactivate" val="Attiva"/>
+		<str id="ids_wmdsave" val="Salva"/>
+		<str id="ids_wmdclose" val="Chiudi Finestra(e)"/>
+		<str id="ids_wmdcasc" val="Sovrapponi"/>
+		<str id="ids_wmdtileh" val="Affianca Orizzontale"/>
+		<str id="ids_wmdtilev" val="Affianca Verticale"/>
+		<str id="ids_wmdmini" val="Minimizza"/>
+
+		<str id="ids_colorcolorscolon" val="Colori:"/>
+		<str id="ids_colorselect" val="Seleziona..."/>
+		<str id="ids_colorhue" val="Tonalità:"/>
+		<str id="ids_colorsaturation" val="Saturazione:"/>
+		<str id="ids_colorluminence" val="Luminanza:"/>
+		<str id="ids_colorred" val="Rosso:"/>
+		<str id="ids_colorgreen" val="Verde:"/>
+		<str id="ids_colorblue" val="Blu:"/>
+
+		<str id="ids_unsupportformat" val="Formato immagine non supportato."/>
+		<str id="ids_hdrfail" val="Errore nella sintetizzazione del processo HDR."/>
+
+		<str id="ids_miscopencl" val="Abilita elaborazione immagine GPU accelerata"/>
+
+		<str id="ids_sharpen" val="Affila"/>
+		<str id="ids_decolor" val="Decolora"/>
+		<str id="ids_detailenhance" val="Migliora Dettaglio"/>
+		<str id="ids_smooth" val="Addolcisci"/>
+
+		<str id="ids_llc" val="Correzione Colore Locale"/>
+
+		<str id="ids_roitosmall" val="La larghezza e l'altezza della ROI devono essere maggiori di 32."/>
+		<str id="ids_recordstep2tipwmv" val="L'estensione file .wmv verrà automaticamente applicata al nome file."/>
+
+		<str id="ids_dfcimportfail" val="Errore nell'importazione."/>
+		<str id="ids_dfcexportfail" val="Errore nell'esportazione."/>
+		<str id="ids_dfcimportmis" val="Errore nell'importazione, mancata corrispondenza."/>
+
+		<str id="ids_deinterlace" val="Deinterlaccia"/>
+
+		<str id="ids_sernext" val="Prossimo Fotogramma"/>
+		<str id="ids_serprev" val="Fotogramma Precedente"/>
+
+		<str id="ids_pxsize" val="Dimensione Pixel"/>
+
+		<str id="ids_extrigger" val="Esterno"/>
+
+		<str id="ids_tecoutofrange" val="Il valore inserito è fuori dall'intervallo [%.1f, %.1f]."/>
+		<str id="ids_tempunit" val="Unità di temperatura"/>
+
+		<str id="ids_batchrecord" val="Registra Gruppo"/>
+		<str id="ids_autocapture" val="Acquisizione Automatica"/>
+		<str id="ids_startacapture" val="&amp;Acquisizione Automatica"/>
+		<str id="ids_stopacapture" val="&amp;Arresta Acquisizione"/>
+		<str id="ids_pause" val="Avvio/Pausa"/>
+
+		<str id="ids_sametarget" val="Il Riferimento &quot;%s&quot; esiste già."/>
+
+		<str id="ids_livestack" val="Sovrapposizione Live"/>
+		<str id="ids_livestackvalfail" val="Non Abbastanza Nitido"/>
+		<str id="ids_livestacknostars" val="Stelle Non Sufficienti"/>
+		<str id="ids_livestacknomatches" val="Corrispondenze Non Sufficienti"/>
+
+		<str id="ids_compatible" val="Compatibile"/>
+
+		<str id="ids_hwver" val="Versione Hardware"/>
+		<str id="ids_fwver" val="Versione Firmware"/>
+		<str id="ids_fpgaver" val="Versione FPGA"/>
+		<str id="ids_mcuver" val="Versione MCU"/>
+
+		<str id="ids_toolbarhtml" val="Esporta su Html"/>
+
+		<str id="ids_background" val="Fondo"/>
+		<str id="ids_saveas" val="Salva con nome"/>
+
+		<str id="ids_calibratebin" val="Impossibile calibrare in modalità binning, il binning attuale è %d."/>
+		<str id="ids_shcsidebar" val="Mostra o nascondi i comandi nella Barra Laterale Camera"/>
+
+		<str id="ids_tctitle" val="Comandi"/>
+		<str id="ids_tckey" val="Tastiera"/>
+		<str id="ids_tccat" val="Categorie:"/>
+		<str id="ids_tccmd" val="Comandi:"/>
+		<str id="ids_tcallcmd" val="Tutti i Comandi"/>
+		<str id="ids_addrbtn" val="&amp;Aggiungi o Rimuovi Tasti"/>
+		<str id="ids_toolbarreset" val="&amp;Reimposta Barra degli Strumenti"/>
+		<str id="ids_resetask" val="Reimpostare la Barra degli Strumenti?"/>
+		<str id="ids_tctip" val="Per aggiungere un tasto, trascinare il tasto di comando dal lato destro nella Barra degli Strumenti.\r\nPer rimuovere un tasto, trascinare il tasto fuori dalla Barra degli Strumenti."/>
+		<str id="ids_kcate" val="&amp;Categoria:"/>
+		<str id="ids_kcmd" val="C&amp;omandi:"/>
+		<str id="ids_krem" val="&amp;Rimuovi"/>
+		<str id="ids_kres" val="Reimpo&amp;sta tutto"/>
+		<str id="ids_kass" val="&amp;Assegna"/>
+		<str id="ids_kato" val="Assegnato a:"/>
+		<str id="ids_knew" val="Premi &amp;nuova combinazione di tasti:"/>
+		<str id="ids_kcur" val="Tasti c&amp;orrenti:"/>
+		<str id="ids_unass" val="[Non assegnato]"/>
+		<str id="ids_kreset" val="Tutte le modifiche andranno perse. Reimpostare le assegnazioni della tastiera?"/>
+		
+		<str id="ids_imagetype" val="Tipo Immagine"/>
+		<str id="ids_lightf" val="Cornice Luminosa"/>
+		<str id="ids_biasf" val="Cornice Diagonale"/>
+		<str id="ids_darkf" val="Cornice Scura"/>
+		<str id="ids_flatf" val="Cornice Piatta"/>
+		<str id="ids_tricolor" val="Immagine Tricolore"/>
+
+		<str id="ids_focal" val="Lunghezza Focale"/>
+		<str id="ids_temp" val="Temperatura del sensore"/>
+		<str id="ids_longitude" val="Longitudine, Intervallo = [-180.0, 180.0], come 15.715, 15.715W, 15°42'9&quot;W"/>
+		<str id="ids_latitude" val="Latitudine, Intervallo = [-90.0, 90.0], come 15.715, 15.715N, 15°42'9&quot;N"/>
+
+		<str id="ids_fitsdateobs" val="data di osservazione"/>
+		<str id="ids_fitsimagetype" val="tipo di immagine: Cornice Luminosa, Cornice Diagonale, Cornice Scura, Cornice Piatta, o Immagine Tricolore"/>
+		<str id="ids_fitsxpixsz" val="Dimensione fisica X del pixel del sensore in microns"/>
+		<str id="ids_fitsypixsz" val="Dimensione fisica Y del pixel del sensore in microns"/>
+		<str id="ids_fitsccdtemp" val="Temperatura del sensore reale misurata all'avvio dell'esposizione in gradi C"/>
+		<str id="ids_fitssettemp" val="Impostazione della temperatura del sensore in gradi C"/>
+		<str id="ids_fitsxbinning" val="Fattore binning usato sull'asse X"/>
+		<str id="ids_fitsybinning" val="Fattore binning usato sull'asse Y"/>
+		<str id="ids_fitsairmass" val="Lunghezza relativa del percorso ottico nell'atmosfera"/>
+		<str id="ids_fitsaptdia" val="Diametro del telescopio in millimetri"/>
+		<str id="ids_fitsaptarea" val="Area di apertura del telescopio in millimetri quadrati"/>
+		<str id="ids_fitscentaz" val="Azimuth nominale del centro dell'immagine in gradi"/>
+		<str id="ids_fitscentalt" val="Altitudine nominale del centro dell'immagine in gradi"/>
+		<str id="ids_fitsfilter" val="Nome del filtro selezionato, se la ruota filtri è connessa"/>
+		<str id="ids_fitsfocal" val="Lunghezza focale del telescopio in millimetri"/>
+		<str id="ids_fitsrotatang" val="Angolo del rotatore in gradi, se il rotatore del piano focale è connesso"/>
+		<str id="ids_fitsorg" val="organizzazione"/>
+		<str id="ids_fitscreator" val="il nome del software che ha creato il file"/>
+		<str id="ids_fitsswcreate" val="stringa che indica il software usato per creare il file"/>
+		<str id="ids_fitsdec" val="declinazione dell'oggetto osservato"/>
+		<str id="ids_fitsdecnom" val="declinazione nominale dell'osservazione"/>
+		<str id="ids_fitsdecobj" val="declinazione dell'oggetto osservato"/>
+		<str id="ids_fitsdecpnt" val="declinazione della direzione di puntamento dello strumento"/>
+		<str id="ids_fitsdecscx" val="declinazione dell'asse X della navicella spaziale"/>
+		<str id="ids_fitsdecscy" val="declinazione dell'asse Y della navicella spaziale"/>
+		<str id="ids_fitsdecscz" val="declinazione dell'asse Z della navicella spaziale"/>
+		<str id="ids_fitsdetnam" val="nome del rilevatore usato per effettuare l'osservazione"/>			
+		<str id="ids_fitsmoonangl" val="angolo tra l'osservazione e la luna"/>
+		<str id="ids_fitssunangle" val="angolo tra l'osservazione e il sole"/>
+		<str id="ids_fitsobjname" val="Nome IAU dell'oggetto osservato"/>
+		<str id="ids_fitsobsid" val="ID unico di osservazione"/>
+		<str id="ids_fitsorientat" val="angolo di posizione dell'asseY dell'immagine (gradi E di N)"/>
+		<str id="ids_fitspapnt" val="angolo di posizione del puntamento"/>
+		<str id="ids_fitsra" val="retta di ascensione dell'osservazione"/>
+		<str id="ids_fitsranom" val="retta di ascensione nominale dell'osservazione"/>
+		<str id="ids_fitsraobj" val="retta di ascensione dell'oggetto osservato"/>
+		<str id="ids_fitsrapnt" val="retta di ascensione della direzione di puntamento dello strumento"/>
+		<str id="ids_fitsrascx" val="retta di ascensione dell'asse X della navicella spaziale"/>
+		<str id="ids_fitsrascy" val="retta di ascensione dell'asse Y della navicella spaziale"/>
+		<str id="ids_fitsrascz" val="retta di ascensione dell'asse Z della navicella spaziale"/>
+
+		<str id="ids_str" val="Stringa"/>
+		<str id="ids_int" val="Intero"/>
+		<str id="ids_real" val="Reale"/>
+
+		<str id="ids_fitsadd" val="Doppio clic per aggiungere proprietà FITS personalizzate"/>
+		<str id="ids_fitssame" val="Alcune FITS esistono già."/>
+
+		<str id="ids_metadescascom" val="Questo foglio di proprietà viene usato per impostare i valori di proprietà per differenti formati files, inclusi FITS ed EXIF, jpg, png, tiff, etc. Le voci vuote nella colonna EXIF indicano che il file EXIF non supporta queste informazioni, esattamente come per la colonna FITS. [Auto] nella colonna dei valori indica che il software riempie automaticamente le informazioni. Per le altre voci dove nella colonna non è indicato [Auto], si può fare doppio clic ed impostare il valore."/>
+		<str id="ids_metadescmicro" val="Questo foglio di proprietà viene usato per impostare i valori di proprietà per differenti formati files, inclusi jpg, png, tiff, etc. [Auto] nella colonna dei valori indica che il software riempie automaticamente le informazioni. Per le altre voci dove nella colonna non è indicato [Auto], si può fare doppio clic ed impostare il valore."/>
+
+		<str id="ids_recordfail1" val="Errore nell'avvio della registrazione."/>
+		<str id="ids_recordfail2" val="Errore nell'avvio della registrazione, probabilmente la risoluzione è troppo elevata per la codifica."/>
+
+		<str id="ids_external" val="Applicazione Esterna"/>
+		<str id="ids_exe" val="Programma"/>
+
+		<str id="ids_temptint" val="Temperatura Colore/Tinta"/>
+		<str id="ids_rgbgain" val="Guadagno RGB"/>
+
+		<str id="ids_even" val="Inserire un numero pari."/>
+			
+		<str id="ids_reportdenied" val="L'accesso al file del modello è negato.\nIl file del modello potrebbe essere bloccato da altre applicazioni, si prega di chiuderle.\nSe il problema persiste, si prega di provare a disconnettersi da Windows e di effettuare nuovamente il login."/>
+		<str id="ids_reporttip" val="1. Il modello del report usa dei segnaposto per rappresentare i diversi contenuti da inserire.\r\n2. {{YYYY}}{{mm}}{{DD}}{{HH}}{{MM}}{{SS}} è un segnaposto data che rappresenta Anno, Mese, Giorno, Ora, Minuti e Secondi. {{LD}}{{SD}} rappresentano rispettivamente una data lunga ed una data corta.\r\n3. L'immagine in questo modello il cui titolo di proprietà di testo alternativo è {{IP}} verrà gestita come segnaposto immagine.\r\n4. Una tabella con righe e colonne riempita con il contenuto di {{MT}} verrà gestita come segnaposto per il Foglio Misurazioni. Le proprietà della Tabella Misurazioni sono le stesse di quelle del segnaposto, quali colore dei bordi, modalità di allineamento ecc. La larghezza di ogni colonna è uguale alla larghezza totale del segnaposto diviso per il numero di colonne. L’altezza della Tabella Misurazioni è uguale all’altezza del segnaposto.\r\n5. Quando viene generato il Report Microsoft Word/Excel il software provvederà a sostituire diversi segnaposto all’interno del modello con il contenuto corrispondente. La sostituzione di immagini multiple dipende dall&apos;ordine di selezione nella UI galleria.\r\n6. La versione di Word/Excel deve essere 2007 o superiore."/>
+		<str id="ids_reportresall" val="Il contenuto del modello verrà cancellato e sostituito dal modello predefinito. Continuare?"/>
+
+		<str id="ids_exportexcel" val="Esporta su Microsoft Excel"/>
+		<str id="ids_exportcsv" val="Esporta su CSV"/>
+		<str id="ids_csvplus" val="Flusso di lavoro"/>
+
+		<str id="ids_affocused" val="Fochettato"/>
+		<str id="ids_affocusing" val="Messa a fuoco"/>
+		<str id="ids_afdefocus" val="Sfocamento"/>
+		<str id="ids_toofar" val="Troppo lontano"/>
+		<str id="ids_tooclose" val="Troppo vicino"/>
+
+		<str id="ids_webppresetphoto" val="Foto"/>
+		<str id="ids_webppresetpicture" val="Immagine"/>
+		<str id="ids_webppresetdrawing" val="Disegno"/>
+		<str id="ids_webppreseticon" val="Icona"/>
+
+		<str id="ids_dlpending" val="Ci sono download in attesa: cancellarli ed uscire?"/>
+		<str id="ids_dlnormal" val="Scaricamento"/>
+		<str id="ids_dlcompleted" val="Completato"/>
+		<str id="ids_dlpaused" val="In pausa"/>
+
+		<str id="ids_gpuwin8" val="La codifica hardware (GPU) è disponibile solamente con Windows 8 o superiore."/>
+		<str id="ids_gpuinsu" val="La codifica hardware (GPU) può ridurre di molto l'utilizzo della CPU, ma se la risoluzione supera le capacità della GPU, verrà automaticamente sostituita con la codifica software."/>
+
+		<str id="ids_cursorcross" val="Croce"/>
+
+		<str id="ids_segts" val="Segmenti"/>
+		<str id="ids_edges" val="Bordi"/>
+		<str id="ids_avgang" val="Angolo Medio"/>
+		<str id="ids_seglength" val="Lunghezza Segmento"/>
+		<str id="ids_avglength" val="Lunghezza Media"/>
+		<str id="ids_ttllength" val="Lunghezza Totale"/>
+		<str id="ids_randomcon" val="Connessione Random"/>
+		<str id="ids_multicon" val="Connessione Multipunto"/>
+		<str id="ids_segdistance" val="Distanza Segmento"/>
+		<str id="ids_avgdistance" val="Distanza Media"/>
+		<str id="ids_ttldistance" val="Distanza Totale"/>
+
+		<str id="ids_stitchexpand" val="Elaborazione, attendere"/>
+		<str id="ids_stitchexpdis" val="Disattiva automaticamente Esposizione Automatica durante la composizione"/>
+		<str id="ids_edfexpdis" val="Disattiva automaticamente Esposizione Automatica durante EDF"/>
+		<str id="ids_edfsize" val="Dimensione area video"/>
+
+		<str id="ids_exportmea" val="Esporta &amp; Unisci"/>
+		<str id="ids_exportshowdlg" val="Mostra la finestra di dialogo &quot;Opzioni Esporta&quot; durante l'esportazione"/>
+
+		<str id="ids_expseglen0" val="Esporta su Appunti"/>
+		<str id="ids_expseglen1" val="Esporta su File CSV"/>
+		<str id="ids_expseglen2" val="Esporta su Microsoft Excel"/>
+
+		<str id="ids_cpucore" val="Nuclei"/>
+		<str id="ids_cputhrd" val="Discussioni"/>
+
+		<str id="ids_fspeed" val="Velocità Fotogramma"/>
+
+		<str id="ids_fastest" val="Più veloce"/>
+		<str id="ids_slowest" val="Più lento"/>
+
+		<str id="ids_edgelen" val="Lunghezza Bordo"/>
+		<str id="ids_avgedge" val="Lunghezza Media Bordo"/>
+
+		<str id="ids_policy" val="Metodo"/>
+		<str id="ids_ae0" val="Sola Esposizione"/>
+		<str id="ids_ae1" val="Esposizione Preferita"/>
+		<str id="ids_ae2" val="Solo Guadagno"/>
+		<str id="ids_ae3" val="Guadagno Preferito"/>
+		<str id="ids_aeexpmax" val="Massimo Tempo di Esposizione"/>
+		<str id="ids_aegainmax" val="Massimo Guadagno"/>
+
+		<str id="ids_stitchres" val="Applica automaticamente la calibrazione dell’immagine attuale alla immagine composta risultante. La precisione di questo valore dipende da molti fattori."/>
+		<str id="ids_edfres" val="Applica automaticamente la calibrazione dell’immagine attuale alla immagine EDF risultante. La precisione di questo valore dipende da molti fattori."/>
+
+		<str id="ids_miscbmp" val="Aggiungi formato BMP alla selezione di tipi di file per &quot;Salvataggio Veloce&quot;, &quot;Salva Gruppi&quot;, etc (il formato BMP non supporta calibrazioni e misurazioni)"/>
+		<str id="ids_csvutf8" val="Usa il set caratteri UTF8 in CSV"/>
+
+		<str id="ids_sensor" val="Sensore"/>
+		<str id="ids_ccdpro" val="Progressiva"/>
+		<str id="ids_ccdint" val="Interlacciata"/>
+									
+		<str id="ids_delay" val="Ritardo"/>
+		<str id="ids_ioctrl" val="Controllo IO"/>
+		<str id="ids_ioctrlii" val="Ingresso Isolato"/>
+		<str id="ids_ioctrlio" val="Uscita Isolata"/>
+		<str id="ids_ioctrlip" val="Ingresso"/>
+		<str id="ids_ioctrlop" val="Uscita"/>
+		<str id="ids_ioctrlnc" val="Non connesso"/>
+		<str id="ids_ioctrlts" val="Tri-stato"/>
+		<str id="ids_ioctrloc" val="Opto-accoppiato"/>
+		<str id="ids_ioctrlpo" val="Bordo crescente"/>
+		<str id="ids_ioctrlne" val="Bordo cadente"/>
+		<str id="ids_ioctrlhl" val="Livello Alto"/>
+		<str id="ids_ioctrlll" val="Livello Basso"/>
+		<str id="ids_ioctrlco" val="Contatore"/>
+		<str id="ids_ioctrlft" val="Attesa Trigger del Frame"/>
+		<str id="ids_ioctrlea" val="Esposizione Attiva"/>
+		<str id="ids_ioctrlsb" val="Strobo"/>
+		<str id="ids_ioctrluo" val="Uscita Utente"/>
+		<str id="ids_ioctrlpd" val="pre-ritardo"/>
+		<str id="ids_ioctrldl" val="ritardo"/>
+		<str id="ids_ioctrlct" val="Uscita Contatore"/>
+		<str id="ids_ioctrlto" val="Uscita Timer"/>
+									
+		<str id="ids_luafilerr" val="Errore file Lua."/>
+		<str id="ids_sameluaerr" val="Lo stesso calcolo esiste già."/>
+
+		<str id="ids_imageid" val="ID Unico Immagine"/>
+		<str id="ids_timestamp" val="Marca temporale"/>
+		<str id="ids_timestamptxt" val="Se l'hardware della telecamera supporta la funzione di Marca temporale, la Marca temporale viene registrata automaticamente in timestamp.txt durante Time-lapse (Acquisizione automatica) e Trigger."/>
+
+		<str id="ids_meanintensity" val="Intensità media"/>
+		<str id="ids_intensity" val="Intensità"/>
+
+		<str id="ids_typemis" val="Tipo mancata corrispondenza"/>
+		<str id="ids_showsub" val="Mostra gli oggetti secondari"/>
+
+		<str id="ids_connection" val="Connessione"/>
+
+		<str id="ids_pbslow" val="Lento"/>
+		<str id="ids_pbfast" val="Veloce"/>
+		<str id="ids_pbstep" val="Passo"/>
+
+		<str id="ids_custommo" val="Misura personalizzata"/>
+
+		<str id="ids_3drender" val="Prospettiva"/>
+		<str id="ids_3dlight" val="Luce"/>
+									
+		<str id="ids_tecpower" val="Alimentazione TEC"/>
+								
+		<str id="ids_zoomnoctrl" val="Ruota la rotella del mouse su e giù"/>
+		<str id="ids_zoomctrl" val="Ctrl +Ruota la rotella del mouse su e giù"/>
+								
+		<str id="ids_lastinput" val="Ultimo Inserimento"/>
+		<str id="ids_goto" val="Vai a"/>
+		<str id="ids_timer" val="Intervallo Tempo"/>
+		<str id="ids_dbstep1" val="Connett a database"/>
+		<str id="ids_dbstep2" val="Definisci tabella"/>
+		<str id="ids_odbchandle" val="ODBC: gestione non valida."/>
+		<str id="ids_dbver" val="Non corrispondenza tra gli schemi dei database."/>
+		<str id="ids_dbdrop" val="AVVISO: cancellare tutti i contenuti e gli schemi del database?"/>
+		<str id="ids_dbdelc" val="AVVISO: cancellare tutto il contenuto di questa colonna?"/>
+		<str id="ids_sqllike" val="%:´zero o più caratteri;\r\n_:´ogni singolo carattere;\r\n[]:´un singolo carattere nell'intervallo specificato ([a-f]) o ([abcdef]);\r\n[^]:´un singolo carattere non nell'intervallo specificato ([^a-f]) o ([^abcdef])"/>
+		<str id="ids_bigint" val="Numero intero a 64 bit"/>
+		<str id="ids_smallint" val="Numero intero a 16 bit"/>
+		<str id="ids_int32" val="Numero intero a 32 bti"/>
+
+		<str id="ids_page" val="Pagina"/>
+		<str id="ids_nextp" val="Pagina successiva"/>
+		<str id="ids_prevp" val="Pagina precedente"/>
+		<str id="ids_firp" val="Prima pagina"/>
+		<str id="ids_lasp" val="Ultima pagina"/>
+
+		<str id="ids_fnew" val="Passa sempre la finestra di messa a fuoco sull'immagine appena catturata"/>
+									
+		<str id="ids_layerclear" val="Cancellare tutti i livelli e gli oggetti di misura?"/>
+		<str id="ids_layerclearobj" val="Cancellare tutti gli oggetti di misura?"/>
+		<str id="ids_layercleartip" val="Cancella tutti i livelli e gli oggetti di misura"/>
+		<str id="ids_layerclearobjtip" val="Cancella tutti gli oggetti di misura"/>
+								
+		<str id="ids_lntip" val="Alto rapporto segnale rumore, basso frame rate"/>
+									
+		<str id="ids_stat" val="Statistiche"/>
+		
+		<str id="ids_hsty" val="Stile H"/>
+		<str id="ids_half" val="Metà"/>
+		<str id="ids_acum" val="Modalità cumulativa"/>
+		<str id="ids_comp" val="Componi"/>
+
+		<str id="ids_powerc" val="Consumo energetico"/>
+
+		<str id="ids_lptips" val="Selezionare l'oggetto di misura, ad esempio linea, curva e poligono. Se l'oggetto di misura richiesto non esiste, crearlo e selezionarlo."/>
+									
+		<str id="ids_writabledir" val="La directory non esiste o non è scrivibile."/>
+
+		<str id="ids_namepre" val="Prefisso del nome"/>
+		
+		<str id="ids_ahd" val="Omogeneità Adattiva Diretta"/>
+		<str id="ids_vng" val="Numero Variabile di Gradienti"/>
+		<str id="ids_ea" val="Attento ai Bordi"/>
+									
+		<str id="ids_cmptip" val="Si prega di selezionare 1 o 3 elementi da confrontare con l'attuale:\r\n&quot;%s&quot;"/>
+
+		<str id="ids_dspz" val="Foto Temporizzata"/>
+		<str id="ids_strtdspz" val="Avvia Foto temporizzata"/>
+		<str id="ids_stopdspz" val="Arresta Foto temporizzata"/>
+		<str id="ids_capspan" val="Intervallo di acquisizione"/>
+		<str id="ids_capnum" val="Numero di immagini acquisite"/>
+		<str id="ids_captt" val="Tempo totale di acquisizione"/>
+		<str id="ids_capls" val="Sorgente luminosa in orario (prima e dopo)"/>
+		<str id="ids_capspanerr" val="Intervallo di acquisizione non corretto."/>
+		<str id="ids_captterr" val="Tempo totale di acquisizione non corretto."/>
+		<str id="ids_capstless" val="Sorgente luminosa in orario deve essere inferiore al tempo di Intervallo di Acquisizione."/>
+									
+		<str id="ids_globalrs" val="Ripristino Globale"/>
+		<str id="ids_expactive0" val="Linee Specificate"/>
+		<str id="ids_expactive1" val="Tempo di esposizione comune"/>
+									
+		<str id="ids_relt" val="Risultato"/>
+		
+		<str id="ids_exsf" val="Esporta le impostazioni correnti su &amp;file..."/>
+		<str id="ids_exse" val="Esporta le impostazioni correnti su &amp;EEPROM"/>
+		<str id="ids_exsa" val="Indirizzo &amp;specificato..."/>
+		<str id="ids_exs0" val="Indirizzo &amp;zero"/>
+		<str id="ids_extemp" val="Esporta &amp;Storia Temperatura..."/>
+		
+		<str id="ids_cpattern" val="Modello a Scacchi"/>
+		
+		<str id="ids_ocws" val="Filigrana"/>
+		<str id="ids_ocsd" val="OTSU Scuro"/>
+		<str id="ids_ocsb" val="OTSU Chiaro"/>
+		
+		<str id="ids_ebusy" val="La telecamera viene utilizzata da altre applicazioni."/>
+		<str id="ids_ecrc" val="L'alimentazione elettrica potrebbe essere insufficiente."/>
+		
+		<str id="ids_exacp" val="Il Time-lapse (acquisizione automatica) è in corso.\r\nInterrompere la acquisizione automatica, scartare tutte le immagini rimanenti e uscire?"/>
+		<str id="ids_exdeq" val="L'applicazione continua a salvare immagini time-lapse (acquisizione automatica) o attivate in background.\r\nScartare tutte le immagini rimanenti e uscire?"/>
+									
+		<str id="ids_squ" val="Sequenza"/>
+		
+		<str id="ids_littleend" val="Endiano Piccolo"/>
+		<str id="ids_bigend" val="Endiano Grande"/>
+		<str id="ids_bnum" val="Numero di byte"/>
+		
+		<str id="ids_deqdepth" val="Lunghezza del buffer di frame"/>
+		<str id="ids_tecam" val="Diventa effetto dopo la riapertura della telecamera"/>
+									
+		<str id="ids_aeotip" val="Suggerimenti: Calcola la luminosità media della percentuale specificata dei pixel più luminosi nell'area di interesse. Attivare questa opzione quando lo sfondo è scuro e l'obiettivo è sovraesposto in modalità media. La frequenza dei fotogrammi può essere influenzata quando questa opzione è attivata a causa di un maggiore consumo di CPU."/>
+		
+		<str id="ids_gridm" val="Griglie: Unisci all'immagine"/>
+		
+		<str id="ids_motion" val="In movimento"/>
+		<str id="ids_idle" val="Inattivo"/>
+									
+		<str id="ids_interp" val="Mostra algoritmo di interpolazione"/>
+		<str id="ids_interpnn" val="Vicino più Prossimo (Preserva Bordi Duri)"/>
+		<str id="ids_interparea" val="Area (ricampionamento in base alla relazione area pixel)"/>
+		<str id="ids_interplanczos" val="Lanczos (8x8 di vicinato)"/>
+		
+		<str id="ids_grc" val="Generico"/>
+		<str id="ids_pta" val="Analisi delle particelle"/>
+		<str id="ids_phc" val="Conta delle fasi"/>
+		<str id="ids_oth" val="Altro"/>
+		
+		<str id="ids_packed" val="Impacchettato"/>
+		
+		<str id="ids_psautumn" val="Autunno"/>
+		<str id="ids_psbone" val="Osso"/>
+		<str id="ids_pswinter" val="Invero"/>
+		<str id="ids_psrainbow" val="Arcobaleno"/>
+		<str id="ids_psdeepgreen" val="Verde profondo"/>
+		<str id="ids_psocean" val="Oceano"/>
+		<str id="ids_pssummer" val="Estate"/>
+		<str id="ids_psspring" val="Primavera"/>
+		<str id="ids_pscool" val="Fresco"/>
+		<str id="ids_pspink" val="Rosa"/>
+		<str id="ids_pshot" val="Caldo"/>
+		<str id="ids_psparula" val="Parula"/>
+		<str id="ids_psmagma" val="Magma"/>
+		<str id="ids_psinferno" val="Inferno"/>
+		<str id="ids_psplasma" val="Plasma"/>
+		<str id="ids_pstwilight" val="Crepuscolo"/>
+		<str id="ids_pstwshifted" val="Crepuscolo Spostato"/>
+		<str id="ids_psred" val="Rosso"/>
+		<str id="ids_psgreen" val="Verde"/>
+		<str id="ids_psblue" val="Blu"/>
+									
+		<str id="ids_farea" val="Zona di Fuoco"/>
+		
+		<str id="ids_lowestcpu" val="Minimo utilizzo della CPU"/>
+		<str id="ids_highcpu" val="Utilizzo elevato della CPU"/>
+		<str id="ids_highercpu" val="Maggiore utilizzo della CPU"/>
+		<str id="ids_highestcpu" val="Utilizzo massimo della CPU"/>
+		
+		<str id="ids_fscr" val="Schermo Intero"/>
+		<str id="ids_xfscr" val="Chiudi schermo intero"/>
+		
+		<str id="ids_iwr" val="IWR (Integra Mentre Leggi)"/>
+		<str id="ids_itr" val="ITR (Integra Poi Leggi)"/>
+									
+		<str id="ids_updategige" val="Completato con successo, spegnere e riavviare la telecamera."/>
+		
+		<str id="ids_gainshow" val="Il guadagno di esposizione è espresso come:"/>
+		
+		<str id="ids_workd" val="Distanza di lavoro"/>
+		<str id="ids_efl" val="Lunghezza Focale Effettiva"/>
+		
+		<str id="ids_notcal" val="Non calibrato"/>
+		
+		<str id="ids_opencom" val="Errore nell'apertura di %s."/>
+		<str id="ids_noseerr" val="Errore di comunicazione con il revolver."/>
+		
+		<str id="ids_chamber" val="Camera"/>
+		<str id="ids_humidity" val="Umidità"/>
+	</string>
+
+	<dialog>
+		<str id="ids_man" val="Gestione"/>
+		<str id="ids_tips" val="Suggerimenti"/>
+		<str id="ids_clear" val="Elimina"/>
+		<str id="ids_snap" val="Acquisisci"/>
+		<str id="ids_reco" val="Registra"/>
+		<str id="ids_qu" val="Quantità"/>
+		<str id="ids_bf" val="Adatta"/>
+		<str id="ids_seq" val="La sequenza inizia con:"/>
+		<str id="ids_number" val="Numero"/>
+		<str id="ids_dbid" val="Lettere (A~Z, a~z) o numeri (0~9); non possono iniziare con le cifre."/>
+		<str id="ids_dbdp" val="Cifre decimali:"/>
+		<str id="ids_mode" val="Modo"/>
+		<str id="ids_qu100" val="Qualità (25-100):"/>
+		<str id="ids_aval" val="Disponibile"/>
+		<str id="ids_sedl" val="Selezionato"/>
+		<str id="ids_adgt" val="Aggiungi&gt;&gt;"/>
+		<str id="ids_aagt" val="Aggiungi tutto&gt;&gt;"/>
+		<str id="ids_v" val="Valore:"/>
+		<str id="ids_border" val="Ordine Byte:"/>
+		<str id="ids_sm" val="Nodo Shutter:"/>
+		<str id="ids_unidir" val="Unidirezionale"/>
+		<str id="ids_defi" val="Definisci..."/>
+		<str id="ids_goto" val="Vai a"/>
+		<str id="ids_tb" val="Tavolozza Colori"/>
+		<str id="ids_conmode" val="Modo Continuo"/>
+		<str id="ids_timeval" val="Intervallo Tempo:"/>
+
+		<dlg id="IDD_ABOUTBOX">
+			<str id="up" val="Aggiornamento software"/>
+		</dlg>
+
+		<dlg id="IDD_AUTO">
+			<str id="for" val="Formato Nome:"/>
+			<str id="pre" val="Prefisso File:"/>
+			<str id="cm" val="Modalità Acquisizione"/>
+			<str id="ef" val="Acquisisci ogni fotogramma"/>
+			<str id="time" val="Periodo di tempo (secondi)"/>
+			<str id="tt" val="Immagini Totali"/>
+			<str id="so" val="Opzioni Sequenza"/>
+			<str id="sv" val="Mostra nella finestra del video"/>
+			<str id="sw" val="Mostra in una nuova finestra"/>
+			<str id="sd" val="Salva su disco"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHSAVE">
+			<str id="tl" val="Salva Gruppi"/>
+			<str id="for" val="Formato Nome:"/>
+			<str id="pre" val="Prefisso File:"/>
+			<str id="show" val="Mostra la finestra di dialogo rinomina"/>
+			<str id="qst" val="1. Le impostazioni saranno applicate al menu &quot;Salvataggio Veloce&quot; ed al tasto corrispondente nella barra degli strumenti. Richiamando &quot;Salvataggio Veloce&quot;, le immagini verranno salvate velocemente nella directory specificata in base alle impostazioni effettuate.\n2. Se è selezionato il RGB48, l'immagine verrà sempre salvata come file tif o png perché solo il file tif e png può supportare il RGB48."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD">
+			<str id="frm" val="Formato Nome:"/>
+			<str id="pf" val="Prefisso File:"/>
+			<str id="sh" val="Mostra la finestra di dialogo rinomina"/>
+			<str id="lm" val="Limite"/>
+			<str id="tl" val="Limite di Tempo (Secondi):"/>
+			<str id="fl" val="Limite di Fotogrammi:"/>
+			<str id="fo" val="Opzioni Nome File..."/>
+			<str id="do" val="Opzioni Directory..."/>
+			<str id="tip" val="Quando Salvataggio veloce è abilitato, la procedura guidata di registrazione non viene mostrata. Quando si avvia Registrazione Veloce:\n1. Il nome file e la directory verranno generate in automatico in accordo a &quot;Opzioni Nome File &quot; e &quot;Opzioni Directory&quot;;\n2. Il bitrate è uguale al bitrate predefinito (calcolato in base ad altezza, larghezza e frame rate del live) moltiplicato per la percentuale di ridimensionamento del bitrate utilizzata per l'ultima registrazione;\n3. Gli altri (codifica, time-lapse, ecc) saranno gli stessi dell'ultima registrazione effettuata."/>
+		</dlg>
+
+		<dlg id="IDD_BATCHRECORD">
+			<str id="num" val="Numero di video:"/>
+			<str id="it" val="Intervallo di Tempo (Secondi):"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_SELECT">
+			<str id="open" val="Apri:"/>
+			<str id="se" val="Selezionato:"/>
+			<str id="pro" val="Elaborazione:"/>
+			<str id="aa" val="Aggiungi tutto"/>
+			<str id="fuse" val="Avvio"/>
+			<str id="m" val="Metodo:"/>
+		</dlg>
+
+		<dlg id="IDD_MAG">
+			<str id="cla" val="Elimina Tutto"/>
+		</dlg>
+
+		<dlg id="IDD_CALIBRATE">
+			<str id="ac" val="Lunghezza Attuale"/>
+			<str id="pm" val="Pixel/Metri"/>
+			<str id="ep" val="Punto Finale"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAEXPOSURE">
+			<str id="ll" val="Compensazione Luce Bassa"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAHISTOGRAM">
+			<str id="l" val="Sinistra:"/>
+			<str id="r" val="Destra:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALS">		
+			<str id="desc" val="La funzione anti-sfarfallio è in grado di eliminare gli effetti collaterali causati dalla frequenza di illuminazione utilizzata durante l'imaging, tra cui la barra di sfarfallio mostrata dal sensore rolling shutter e il problema del lampeggiamento per il sensore global shutter. Il tempo di esposizione sarà limitato solo a multipli di 10 ms per 50 Hz e a multipli di (1000/120) ms per 60 Hz."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAMODE">
+			<str id="color" val="Colore"/>
+			<str id="gray" val="Grigio"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERASPEED">
+			<str id="low" val="Basso"/>
+			<str id="com" val="Spostare il cursore verso destra per assicurarsi che la telecamera riproduca il video in diretta alla frequenza di fotogrammi più veloce supportata dall'hub USB del computer. Se il video in diretta non viene visualizzato, spostare il cursore verso sinistra per diminuire la frequenza dei fotogrammi."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAWB">
+			<str id="tem" val="Temperatura Colore:"/>
+			<str id="tint" val="Tinta:"/>
+			<str id="com" val="Spostare la ROI (contrassegnata da un rettangolo rosso) su un oggetto bianco o grigio puro e fare clic su &quot;Bilanciamento del Bianco&quot; per stabilire il bilanciamento del bianco per i video futurio."/>
+			<str id="auto" val="Bilanciamento del Bianco Automatico"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAPRESET">
+			<str id="load" val="Carica"/>
+			<str id="ov" val="Sovrascrivi"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERTXT">
+			<str id="tl" val="Sovraimpressione"/>
+			<str id="pos" val="Posizione:"/>
+			<str id="bg" val="Fondo:"/>
+			<str id="sc" val="Scala"/>
+			<str id="show" val="Mostra"/>
+			<str id="dt" val="Data Ora"/>
+			<str id="cl" val="Messa a Fuoco"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERGEO">
+			<str id="tl" val="Marcatore"/>
+			<str id="sh" val="Mostra la scala graduata"/>
+		</dlg>
+
+		<dlg id="IDD_OPENDLG">
+			<str id="imag" val="Informazioni Immagine/Anteprima"/>
+			<str id="cur" val="File Attuale:"/>
+		</dlg>
+
+		<dlg id="IDD_PROMTSAVE">
+			<str id="tl" val="Slva Files"/>
+			<str id="com" val="Il file è stato modificato. Salvare i cambiamenti?"/>
+			<str id="yes" val="Si Tutti"/>
+			<str id="no" val="Nessuno"/>
+			<str id="bat" val="Salva Gruppi"/>
+		</dlg>
+
+		<dlg id="IDD_SFT">
+			<str id="tl" val="Formato Immagine con Misurazioni"/>
+			<str id="com" val="Il formato selezionato non supporta la calibrazione e la misurazione. Se si desidera salvare la calibrazione e la misurazione con un'immagine, selezionare i seguenti formati:"/>
+			<str id="re" val="Non ricordarlo più."/>
+			<str id="con" val="Continua"/>
+			<str id="res" val="Riseleziona"/>
+		</dlg>
+
+		<dlg id="IDD_CAPTURE">
+			<str id="mk" val="Acquisisci con Marcatore e Filigrana"/>
+			<str id="mm" val="Acquisisci con Misurazioni:"/>
+			<str id="g" val="Acquisisci con griglie"/>
+			<str id="dpi" val="Impostare il DPI dell'immagine catturata su:"/>
+			<str id="sa" val="Salvare le immagini catturate da telecamere monocromatiche come file a canale singolo (immagine in scala di grigi)"/>
+			<str id="48" val="Imposta automaticamente il formato di acquisizione su RGB48 quando la profondità di bit è superiore a 8"/>
+			<str id="ss" val="(Salva spazio di archiviazione)"/>
+		</dlg>
+
+		<dlg id="IDD_GRID">
+			<str id="ru" val="Colore Righello:"/>
+			<str id="cu" val="Colore Cursore:"/>
+			<str id="gr" val="Griglia"/>
+			<str id="sy" val="Stile:"/>
+			<str id="lis" val="Stile Linea:"/>
+			<str id="lic" val="Colore Linea:"/>
+			<str id="re" val="Reticolo"/>
+			<str id="pm" val="Gestione Preimpostazioni..."/>
+		</dlg>
+
+		<dlg id="IDD_WATERMARK">
+			<str id="tl" val="Filigrana Video"/>
+			<str id="fle" val="File Immagine:"/>
+			<str id="tip" val="Utilizzare Shift + Su/Giù/Tasto freccia sinistra/destra per spostare la filigrana."/>
+			<str id="tip2" val="Per i bmp a 32 bit, utilizzare il canale alfa.\r\nPer i bmp a 24 bit, quando la trasparenza è impostata su 0%, il primo pixel verrà utilizzato come chiave di colore, altrimenti la trasparenza funzionerà se impostata su un altro valore compreso tra 1% e 99%."/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION1">
+			<str id="dr" val="Orientazione Panorama:"/>
+			<str id="wt" val="Tipo Proiezione:"/>
+			<str id="sf" val="Ricerca Giuntura:"/>
+			<str id="ba" val="Regolazione Gruppo:"/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION2">
+			<str id="mc" val="Affidabilità della Corrispondenza:"/>
+			<str id="pc" val="Affidabilità del Panorama:"/>
+			<str id="bs" val="Forza della Corrispondenza:"/>
+			<str id="ms" val="Forza della Fusione:"/>
+		</dlg>
+
+		<dlg id="IDD_PROGRESS">
+			<str id="tl" val="Avanzamento"/>
+		</dlg>
+
+		<dlg id="IDD_IOPT">
+			<str id="r" val="Rapporto compressione"/>
+			<str id="los" val="Senza perdita"/>
+			<str id="qu" val="Qualità immagine"/>
+			<str id="best" val="Migliore\ncompressione"/>
+			<str id="bq" val="Migliore\nqualità"/>
+			<str id="pr" val="Progressivo"/>
+			<str id="sm" val="Addolcimento"/>
+			<str id="op" val="Ottimizza codifica"/>
+			<str id="in" val="Interlaccciato"/>
+			<str id="ap" val="Allega pagine"/>
+			<str id="s" val="Imbottitura zero:"/>
+			<str id="def" val="Salva queste impostazioni come predefinite"/>
+			<str id="cl" val="Livello di compressione"/>
+			<str id="fs" val="Velocissima"/>
+			<str id="fh" val="Intestazione del file:"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_HEADER">
+			<str id="tc" val="Tutte le informazioni di visualizzazione sono opzionali."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP1">
+			<str id="pl" val="Selezionare formato video e codifica"/>
+			<str id="h4" val="Codifiche hardware disponibili (GPU):"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP2">
+			<str id="name" val="1. Impostare il nome del file video acquisito"/>
+			<str id="dir" val="2. Selezionare la directory del file video"/>
+			<str id="tc" val="Le estensioni file .wmv, .mp4 o .avi verranno aggiunte automaticamente al nome file."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP3">
+			<str id="key" val="Intervallo Fotogrammi:"/>
+			<str id="se" val="Secondi"/>
+			<str id="hw" val="Abilita la codifica hardware (GPU)"/>
+			<str id="bb" val="Bitrate Predefinito:"/>
+			<str id="enc" val="Codifica:"/>
+			<str id="cfg" val="Configura..."/>
+			<str id="pa" val="Parametri di Codifica"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP4">
+			<str id="t" val="Limite di Tempo (Secondi):"/>
+			<str id="s" val="Sommario"/>
+			<str id="f" val="Numero di Fotogrammi:"/>
+			<str id="a" val="Tempo (Secondi):"/>
+		</dlg>
+
+		<dlg id="IDD_BROADCAST">
+			<str id="port" val="Porta:"/>
+			<str id="save" val="Salva immediatamente il contenuto su file"/>
+		</dlg>
+
+		<dlg id="IDD_OPENBROADCAST">
+			<str id="tl" val="Apri trasmissione"/>
+			<str id="port" val="Porta:"/>
+		</dlg>
+
+		<dlg id="IDD_MOVE">
+			<str id="tl" val="Sposta"/>
+		</dlg>
+
+		<dlg id="IDD_DIAGNOSE">
+			<str id="tl" val="Diagnosi"/>
+		</dlg>
+
+		<dlg id="IDD_CURVE">
+			<str id="tl" val="Curva"/>
+			<str id="gr" val="Griglia"/>
+		</dlg>
+
+		<dlg id="IDD_RANGE">
+			<str id="tl" val="Intervallo"/>
+			<str id="in" val="Inverti"/>
+			<str id="up" val="Aggiorna"/>
+		</dlg>
+
+		<dlg id="IDD_THRESHOLD">
+			<str id="tl" val="Binario"/>
+		</dlg>
+
+		<dlg id="IDD_PROPPAGE_MOSAICSET">
+			<str id="fo" val="Piè di pagina"/>
+			<str id="ar" val="Disposizione"/>
+			<str id="rows" val="Righe"/>
+			<str id="col" val="Colonne"/>
+			<str id="rs" val="Spazio righe"/>
+			<str id="cs" val="Spazio colonne"/>
+			<str id="ps" val="Dimensione pagina"/>
+			<str id="ds" val="Dim. predefinita"/>
+			<str id="pr" val="Usa dimensione stampante"/>
+			<str id="ch" val="Modifica..."/>
+			<str id="use14" val="Usa Dimensione 1/4"/>
+		</dlg>
+
+		<dlg id="IDD_ADJUSTBC">
+			<str id="tl" val="Regola Luminosità/Contrasto"/>
+		</dlg>
+
+		<dlg id="IDD_AUTOSETUP">
+			<str id="tl" val="Intervallo Automatico"/>
+			<str id="le" val="Livello Automatico"/>
+			<str id="ct" val="Contrasto Automatico"/>
+			<str id="low" val="Ritaglio Basso"/>
+			<str id="high" val="Ritaglio Alto"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR">
+			<str id="tl" val="Regola Colori"/>
+			<str id="mo" val="Moduli Colore"/>
+		</dlg>
+
+		<dlg id="IDD_CLRQUANT">
+			<str id="bits" val="Bit Colore"/>
+		</dlg>
+
+		<dlg id="IDD_COLORBITS">
+			<str id="tl" val="Cambia Bit Colore"/>
+			<str id="new" val="Nuovo Bit Colore"/>
+		</dlg>
+
+		<dlg id="IDD_COLORSELECT">
+			<str id="tl" val="Seleziona Colore"/>
+		</dlg>
+
+		<dlg id="IDD_EDGE">
+			<str id="fil" val="Filtri"/>
+			<str id="sc" val="Scultura"/>
+			<str id="la" val="Laplaciano"/>
+			<str id="va" val="Varianza"/>
+			<str id="h" val="Orizzontale"/>
+			<str id="v" val="Verticale"/>
+			<str id="pa" val="Ripetizioni"/>
+		</dlg>
+
+		<dlg id="IDD_ENHANCE">
+			<str id="fi" val="Filtro"/>
+			<str id="lp" val="Passa Basso"/>
+			<str id="hp" val="Passa Alto"/>
+			<str id="hg" val="Gauss Alto"/>
+			<str id="equ" val="Equalizzazione"/>
+			<str id="fl" val="Appiattisci"/>
+			<str id="me" val="Mediano"/>
+			<str id="rk" val="Ordine"/>
+			<str id="pa" val="Ripetizioni"/>
+			<str id="w" val="Finestre"/>
+		</dlg>
+
+		<dlg id="IDD_FILLDIALOG">
+			<str id="tl" val="Riempi Valore"/>
+		</dlg>
+
+		<dlg id="IDD_GRAY">
+			<str id="tl" val="Scala di Grigi"/>
+			<str id="alg" val="Algoritmo"/>
+			<str id="ave" val="Media"/>
+			<str id="max" val="Massimo"/>
+			<str id="we" val="Peso"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM">
+			<str id="tl" val="Istogramma"/>
+			<str id="ch" val="Canale"/>
+			<str id="le" val="Livello:"/>
+			<str id="co" val="Conta:"/>
+			<str id="per" val="Percentile:"/>
+		</dlg>
+
+		<dlg id="IDD_KERPAGE">
+			<str id="ker" val="Kernels"/>
+			<str id="er" val="Erodi"/>
+			<str id="di" val="Dilata"/>
+			<str id="open" val="Apri"/>
+			<str id="cl" val="Chiudi"/>
+			<str id="pa" val="Ripetizioni"/>
+			<str id="fi" val="Tipo Filtro"/>
+			<str id="conv" val="Convoluzione"/>
+			<str id="morp" val="Morfologico"/>
+		</dlg>
+
+		<dlg id="IDD_KERSTRUCT">
+			<str id="tl" val="Modifica Kernel"/>
+			<str id="size" val="Dimensione Kernel"/>
+			<str id="fill" val="Pieno"/>
+			<str id="bo" val="Incremento"/>
+		</dlg>
+
+		<dlg id="IDD_MORPAGE">
+			<str id="fil" val="Filtri"/>
+			<str id="er" val="Erodi"/>
+			<str id="di" val="Dilata"/>
+			<str id="open" val="Apri"/>
+			<str id="cl" val="Chiudi"/>
+			<str id="gra" val="Gradiente"/>
+			<str id="dis" val="Distanza"/>
+			<str id="thi" val="Assottiglia"/>
+			<str id="wat" val="Filigrana"/>
+			<str id="pa" val="Ripetizioni"/>
+			<str id="2x2" val="2 x 2 Quadrato"/>
+			<str id="3x1" val="3 x 1 Riga"/>
+			<str id="1x3" val="1 x 3 Colonna"/>
+			<str id="3x3" val="3 x 3 Croce"/>
+			<str id="5x5" val="5 x 5 Cerchio"/>
+			<str id="7x7" val="7 x 7 Cerchio"/>
+			<str id="11x11" val="11 x 11 Cerchio"/>
+		</dlg>
+
+		<dlg id="IDD_ROTATE">
+			<str id="tl" val="Ruota Immagine"/>
+			<str id="deg" val="Gradi:"/>
+			<str id="qu" val="Qualità"/>
+			<str id="cw" val="Orario"/>
+			<str id="ccw" val="Antiorario"/>
+			<str id="an" val="Angolo"/>
+		</dlg>
+
+		<dlg id="IDD_SCALE">
+			<str id="tl" val="Dimensione Immagine"/>
+			<str id="con" val="Mantieni Proporzioni"/>
+			<str id="met" val="Metodo Scala"/>
+		</dlg>
+
+		<dlg id="IDD_GAMMA">
+			<str id="tl" val="Regolazione Gamma"/>
+		</dlg>
+
+		<dlg id="IDD_HMS">
+			<str id="tl" val="Luci/Mezzi Toni/Ombre"/>
+		</dlg>
+
+		<dlg id="IDD_CHANNEL">
+			<str id="tl" val="Seleziona Colore"/>
+		</dlg>
+
+		<dlg id="IDD_PROFILE">
+			<str id="t" val="Profilo"/>
+		</dlg>
+
+		<dlg id="IDD_LAYERNAME">
+			<str id="tl" val="Livello"/>
+		</dlg>
+
+		<dlg id="IDD_AUNIT">
+			<str id="all" val="Mostra tutte le unità di angolo nella barra laterale misurazioni."/>
+		</dlg>
+
+		<dlg id="IDD_ADDUNIT">
+			<str id="tl" val="Aggiungi Unità"/>
+			<str id="sc" val="Scala:"/>
+			<str id="sy" val="Simbolo:"/>
+		</dlg>
+
+		<dlg id="IDD_GENERAL">
+			<str id="res" val="Il risultato dei calcoli contiene:"/>
+			<str id="lfs" val="Dimensione carattere etichetta:"/>
+			<str id="unit" val="Dimensioni con unità"/>
+			<str id="a" val="Nomina automaticamente l'oggetto di misurazione"/>
+			<str id="e" val="Abilita Finestra Piccola"/>
+			<str id="hm" val="Nascondi l'etichetta quando si sposta l'oggetto di misura"/>
+			<str id="sp" val="Inserire uno spazio tra il valore numerico e il simbolo dell'unità (&quot;12,34 mm&quot; o &quot;12,34mm&quot;)"/>				
+			<str id="rc" val="Lunghezza minima della connessione casuale:"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_DELETE">
+			<str id="tl" val="Rimuovi Livello"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_CURRENT">
+			<str id="tl" val="Livello Corrente"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_MANAGE">
+			<str id="tl" val="Mostra/Nascondi Livello"/>
+		</dlg>
+
+		<dlg id="IDD_MEASURELIST">
+			<str id="col" val="Definisci le colonne del foglio misurazioni"/>
+			<str id="o" val="Oggetto Personalizzato..."/>
+			<str id="c" val="Colonna Personalizzata..."/>
+			<str id="a" val="Calcolo Personalizzato..."/>
+			<str id="r" val="Riga Personalizzata..."/>
+			<str id="s" val="Statistiche (Aggiungi le seguenti righe al foglio misurazioni)"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR_COMPOSITE">
+			<str id="tl" val="Componi Colori"/>
+			<str id="so" val="Sorgente Immagini:"/>
+			<str id="co" val="Colori:"/>
+			<str id="all" val="Tutti"/>
+			<str id="se" val="Selezionato"/>
+			<str id="adj" val="Regola"/>
+			<str id="reg" val="Registrazione"/>
+		</dlg>
+
+		<dlg id="IDD_COMPOSITE_AVA">
+			<str id="so" val="Sorgente Immagini"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_SELECT_COLOR">
+			<str id="tl" val="Seleziona Colore"/>
+			<str id="fle" val="Per File:"/>
+			<str id="se" val="Selezionato:"/>
+			<str id="back" val="Fondo"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_DYE_LIST">
+			<str id="tl" val="Modifica Elenco Fluorocromi"/>
+			<str id="rel" val="Ricarica Tutti"/>
+			<str id="ext" val="Eccitazione (nm):"/>
+			<str id="em" val="Emissione (nm):"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_NEW_DYE">
+			<str id="tl" val="Nuovo Fluorocromo"/>
+		</dlg>
+
+		<dlg id="IDD_STACKING">
+			<str id="tl" val="Sovrapposizione Immagini"/>
+		</dlg>
+
+		<dlg id="IDD_PROP">
+			<str id="set" val="Impostare le proprietà predefinite per l'oggetto di misurazione:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_OPTION">
+			<str id="tl" val="Opzioni di Conta"/>
+			<str id="os" val="Stile contorno:"/>
+			<str id="ot" val="Stile:"/>
+			<str id="lm" val="Metodo:"/>
+			<str id="wh" val="Riempi i buchi"/>
+			<str id="la" val="Etichetta"/>
+			<str id="min" val="Minimo:"/>
+			<str id="max" val="Massimo:"/>
+			<str id="bo" val="Pulisci bordi"/>
+			<str id="sc" val="Scena:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_HISTORGRAM">
+			<str id="tl" val="Istogramma"/>
+			<str id="sa" val="Mostra Tutti"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_COLORCUBE">
+			<str id="to" val="Tolleranza"/>
+		</dlg>
+
+		<dlg id="IDD_NLM">
+			<str id="tl" val="Medio Non Locale"/>
+			<str id="sw" val="Finestra di Ricerca:"/>
+			<str id="tw" val="Finestra Modello:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYD">
+			<str id="d" val="Nitidezza del Dettaglio:"/>
+			<str id="o" val="Luminosità Totale:"/>
+			<str id="b" val="Luminosità del Fondo:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_ALIGN">
+			<str id="aa" val="Allineamento Automatico"/>
+			<str id="a0" val="Nessuno"/>
+			<str id="a1" val="Sposta + Scala"/>
+			<str id="a2" val="Sposta + Scala + Ruota"/>
+			<str id="ma" val="Angolo Massimo:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_FM">
+			<str id="at" val="Determina automaticamente l'immagine di riferimento"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYDSTACK">
+			<str id="dm" val="Ripristina la Mappa di Profondità:"/>
+			<str id="ri" val="Rimuovi Isole:"/>
+			<str id="lf" val="Filtro Passa Basso:"/>
+			<str id="hf" val="Filtro Passa Alto:"/>
+			<str id="ac" val="Regola Contrasto:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERADFC">
+			<str id="tip" val="Coprire la lente, e premere il tasto &quot;Acquisisci&quot; per acquisire un campo nero. Cliccare sul tasto &quot;Abilita&quot; per abilitare la &quot;Correzione Campo Scuro&quot;."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFFC">
+			<str id="tip" val="Rimuovere il campione dal campo visivo. Cliccare il tasto &quot;Acquisisci&quot; per ottenere un fondo ottimale per la correzione del fondo. Cliccare il tasto &quot;Abilita&quot; per eseguire la funzione di correzione del fondo."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALIVESTACK">
+			<str id="af" val="Allinea Fotogrammi"/>
+			<str id="pl" val="Pianeta"/>
+			<str id="ds" val="SpazioProfondo"/>
+			<str id="in" val="Ingresso:"/>
+			<str id="out" val="Uscita:"/>
+		</dlg>
+
+		<dlg id="IDD_BF">
+			<str id="tt" val="Filtro Bilaterale"/>
+			<str id="size" val="Dominio di Valore:"/>
+			<str id="s" val="Dominio di Spazio:"/>
+		</dlg>
+
+		<dlg id="IDD_CLAHE">
+			<str id="tl" val="Equalizzazione Istogramma"/>
+		</dlg>
+
+		<dlg id="IDD_UNSHARPMASK">
+			<str id="tl" val="Maschera di Contrasto"/>
+			<str id="a" val="Quantità:"/>
+		</dlg>
+
+		<dlg id="IDD_DETAILENHANCE">
+			<str id="tl" val="Migliora Dettaglio"/>
+			<str id="s" val="Sigma Spaziale:"/>
+			<str id="r" val="Intervallo Sigma:"/>
+		</dlg>
+
+		<dlg id="IDD_EDGEPRESERVINGSMOOTH">
+			<str id="tl" val="Leviga Preservando i Bordi"/>
+			<str id="s" val="Sigma Spaziale:"/>
+			<str id="r" val="Intervallo Sigma:"/>
+			<str id="f" val="Filtro"/>
+			<str id="re" val="Ricorsivo"/>
+			<str id="n" val="Convoluzione Normalizzata"/>
+		</dlg>
+
+		<dlg id="IDD_LLC">
+			<str id="tl" val="Correzione Colore Locale"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFORMAT">
+			<str id="v" val="Proprietà"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERACOOL">
+			<str id="po" val="Alimentazione:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERATRIGGER">
+			<str id="vm" val="Modalità Video"/>
+			<str id="tr" val="Modalità Trigger"/>
+		</dlg>
+
+		<dlg id="IDD_EXPORTOPTIONS">
+			<str id="t" val="Opzioni Esporta"/>
+			<str id="d" val="Dimensione predefinita carattere:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERABINNING">
+			<str id="m" val="Metodo:"/>
+		</dlg>
+
+		<dlg id="IDD_FITSADD">
+			<str id="a" val="(1~8 lettere o numeri, A~Z, a~z, 0~9)"/>
+		</dlg>
+
+		<dlg id="IDD_QUICKSAVERENAME">
+			<str id="c" val="Non mostrare più la finestra di dialogo rinomina"/>
+		</dlg>
+
+		<dlg id="IDD_REPORT">
+			<str id="t" val="Modello"/>
+			<str id="l" val="Clona..."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAAF">
+			<str id="c" val="Coniuga Calibrazione"/>
+			<str id="0" val="Passo C 0mm"/>
+			<str id="l" val="Lente"/>
+			<str id="n" val="Vicino"/>
+			<str id="f" val="Lontano"/>
+		</dlg>
+									
+		<dlg id="IDD_COUNT_MANUAL">
+			<str id="tl" val="Conta Manuale"/>
+			<str id="er" val="Elimina"/>
+			<str id="sn" val="Mostra la sequenza"/>
+		</dlg>
+		
+		<dlg id="IDD_IOCONTROL">
+			<str id="gm" val="Modo GPIO:"/>
+			<str id="oi" val="Uscita Inverter:"/>
+			<str id="sd" val="Durata Strobo:"/>
+			<str id="ia" val="Attivazione Ingresso:"/>
+			<str id="dt" val="Tempo di Debouncer:"/>
+			<str id="ls" val="Seleziona Linea:"/>
+			<str id="cs" val="Sorgente Contatore:"/>
+			<str id="ps" val="Sorgente PWM:"/>
+			<str id="cv" val="Valore Contatore:"/>
+			<str id="om" val="Modo Uscita:"/>
+			<str id="uv" val="Valore Utente:"/>
+			<str id="sdm" val="Modo Ritardo Strobo:"/>
+			<str id="sdt" val="Tempo Ritardo Strobo:"/>
+			<str id="cr" val="Reimposta Contatore:"/>
+			<str id="td" val="Ritardo Trigger:"/>
+		</dlg>
+		
+		<dlg id="IDD_LUA">
+			<str id="c" val="Codice:"/>
+		</dlg>
+		
+		<dlg id="IDD_RENDER_MODE">
+			<str id="l" val="Linea"/>
+			<str id="q" val="Quadrati"/>
+			<str id="t" val="Triangolo"/>
+			<str id="s" val="Fettine"/>
+			<str id="c" val="Colori Reali"/>
+		</dlg>
+									
+		<dlg id="IDD_LIGHTING">
+			<str id="e" val="Abilita Luce"/>
+			<str id="a" val="Ambiente"/>
+			<str id="s" val="Speculare"/>
+			<str id="h" val="Lucentezza"/>
+			<str id="l" val="Posizione Luce"/>
+			<str id="p" val="Parametri Luce"/>
+		</dlg>
+		
+		<dlg id="IDD_3DDLG">
+			<str id="t" val="Superficie 3D"/>
+			<str id="s" val="Visualizzato"/>
+			<str id="a" val="Assi"/>
+		</dlg>
+
+		<dlg id="IDD_IOADVANCED">
+			<str id="a" val="Abilita sempre il trigger software"/>
+			<str id="l" val="Modo Linea:"/>
+			<str id="r" val="Ricevere"/>
+			<str id="d" val="Spedire"/>
+			<str id="e" val="Modalità Attiva Esposizione:"/>
+			<str id="x" val="Linea di Inizio Esposizione:"/>
+			<str id="y" val="Linea di Fine Esposizione:"/>
+		</dlg>
+		
+		<dlg id="IDD_DBSTEP1">
+			<str id="t" val="Connessione a database"/>
+			<str id="u" val="Utente:"/>
+			<str id="a" val="Connetti automaticamente all'avvio dell'applicazione"/>
+		</dlg>
+		
+		<dlg id="IDD_DBCOLUMN">
+			<str id="i" val="Crea un indice per velocizzare ricerche e ordinamento"/>
+			<str id="d" val="Tipo dati:"/>
+			<str id="v" val="Valore predefinito:"/>
+			<str id="e" val="Definisci..."/>
+		</dlg>
+						
+		<dlg id="IDD_DBINSERT">
+			<str id="t" val="Inserisci nel database"/>
+		</dlg>
+						
+		<dlg id="IDD_DBVALUE">
+			<str id="e" val="Tipo Enum"/>
+		</dlg>
+		
+		<dlg id="IDD_DBSHOW">
+			<str id="t" val="Mostra/Nascondi Colonna"/>
+		</dlg>
+				
+		<dlg id="IDD_DBOPTION">
+			<str id="m" val="Modo di Ricerca Testo"/>
+			<str id="n" val="Modo normale, utilizzare * come carattere jolly"/>
+			<str id="s" val="Modo SQL, utilizzare la sintassi SQL LIKE"/>
+		</dlg>
+
+		<dlg id="IDD_WAIT">
+			<str id="t" val="Attendere"/>
+			<str id="p" val="Attendere prego:"/>
+		</dlg>
+		
+		<dlg id="IDD_HISTOGRAM_OPTION">
+			<str id="y" val="Asse Y:"/>
+			<str id="s" val="Mostra Avg, Std, etc"/>
+		</dlg>
+		
+		<dlg id="IDD_CAMERAMOTOR">
+			<str id="c" val="Macro:"/>
+			<str id="m" val="Medio:"/>
+			<str id="f" val="Micro:"/>
+		</dlg>
+							
+		<dlg id="IDD_GIGENET">
+			<str id="s" val="Maschera sottorete:"/>
+			<str id="g" val="Gateway predefinito:"/>
+		</dlg>
+		
+		<dlg id="IDD_AEOPTION">
+			<str id="t" val="Opzioni di Auto Esposizione"/>
+			<str id="p" val="Modalità di picco del metodo di calcolo della luminosità"/>
+		</dlg>
+		
+		<dlg id="IDD_FW">
+			<str id="n" val="Numero Fessura:"/>
+		</dlg>
+		
+		<dlg id="IDD_PSEUDOCOLOR">
+			<str id="s" val="Colore di Inizio:"/>
+			<str id="e" val="Colore di Fine:"/>
+		</dlg>
+		
+		<dlg id="IDD_NOSE">
+			<str id="s" val="Venditore:"/>
+			<str id="e" val="Fessura:"/>
+		</dlg>
+									
+		<dlg id="IDD_CAMERADYNAMIC_DEFECT">
+			<str id="d" val="Morti:"/>
+			<str id="h" val="Caldi:"/>
+		</dlg>
+	</dialog>
+
+	<menu>
+		<str id="edt" val="&amp;Modifica"/>
+		<str id="vew" val="&amp;Visualizza"/>
+		<str id="prss" val="&amp;Elabora"/>
+		<str id="opns" val="&amp;Opzioni"/>
+		<str id="wnd" val="&amp;Finestra"/>
+		<str id="hlp" val="&amp;Aiuto"/>
+		<str id="stup" val="&amp;Impostazioni"/>
+		<str id="cptu" val="&amp;Acquisisci"/>
+		<str id="imag" val="&amp;Immagine"/>
+		<str id="layr" val="&amp;Livello"/>
+		<str id="meas" val="&amp;Misurazioni"/>
+		<str id="brws" val="&amp;Trova"/>
+
+		<str id="recf" val="File &amp;Recenti"/>
+		<str id="sdbr" val="Barra &amp;Laterale"/>
+		<str id="sort" val="&amp;Ordina"/>
+		<str id="icns" val="&amp;Icone"/>
+		<str id="grds" val="&amp;Griglie"/>
+		<str id="mvwm" val="&amp;Sposta Filigrana"/>
+		<str id="rtwm" val="&amp;Ruota Filigrana"/>
+		<str id="mode" val="&amp;Modo"/>
+		<str id="adj" val="&amp;Regola"/>
+		<str id="rtt" val="&amp;Ruota"/>
+		<str id="line" val="&amp;Linea"/>
+		<str id="vert" val="&amp;Verticale"/>
+		<str id="crcl" val="&amp;Cerchio"/>
+		<str id="ccleh" val="Cerchio con F&amp;oro"/>
+		<str id="tocls" val="D&amp;ue Cerchi"/>
+		<str id="zodr" val="Ordine &amp;Z"/>
+		<str id="lunit" val="&amp;Unità di Lunghezza"/>
+
+		<str id="oimg" val="&amp;Apri Immagine..."/>
+		<str id="ovid" val="Apri &amp;Video..."/>
+		<str id="obcas" val="Apri Tr&amp;asmissione..."/>
+		<str id="sckin" val="&amp;Sovrapposizione Immagini..."/>
+		<str id="batsv" val="Salva &amp;Gruppi..."/>
+		<str id="qksv" val="Salvataggio &amp;Veloce..."/>
+		<str id="psnew" val="Incolla come &amp;Nuovo File"/>
+		<str id="norec" val="Nessun File Recente"/>
+		<str id="exit" val="E&amp;sci"/>
+		<str id="cut" val="&amp;Taglia"/>
+		<str id="copy" val="&amp;Copia"/>
+		<str id="pste" val="&amp;Incolla"/>
+		<str id="passc" val="Incolla &amp;(Scorciatoia)"/>
+		<str id="selal" val="Seleziona &amp;Tutto"/>
+		<str id="ivsel" val="&amp;Inverti Selezione"/>
+		<str id="mshet" val="Foglio &amp;Misurazioni"/>
+		<str id="fosb" val="Cart&amp;elle"/>
+		<str id="ursb" val="Ann&amp;ulla/Ripeti"/>
+		<str id="lydb" val="&amp;Livelli"/>
+		<str id="msbar" val="&amp;Misurazioni"/>
+		<str id="hsbar" val="&amp;Istogramma"/>
+		<str id="prfs" val="&amp;Preferenze..."/>
+		<str id="mm" val="&amp;Misurazioni..."/>
+		<str id="mf" val="In&amp;grandimento..."/>
+		<str id="clbr" val="&amp;Calibra..."/>
+		<str id="edtdy" val="&amp;Modifica Elenco Fluorocromi..."/>
+		<str id="atcor" val="Correzione &amp;Automatica..."/>
+		<str id="f1" val="&amp;Aiuto"/>
+		<str id="ab" val="&amp;Info"/>
+
+		<str id="save" val="&amp;Salva"/>
+		<str id="svee" val="&amp;Salva..."/>
+		<str id="svas" val="Salva con &amp;Nome..."/>
+		<str id="imgsl" val="&amp;Seleziona Immagine"/>
+		<str id="seln" val="Desele&amp;ziona Tutto"/>
+
+		<str id="gno" val="&amp;Nessuna Griglia"/>
+		<str id="grm" val="Griglia &amp;Manuale"/>
+		<str id="gda" val="Griglia &amp;Automatica"/>
+		<str id="gdl" val="&amp;Rimuovi Tutte le Griglie"/>
+		<str id="rlset" val="Impo&amp;stazioni..."/>
+		<str id="fitwi" val="A&amp;datta"/>
+		<str id="asiz" val="Dimensioni Re&amp;ali"/>
+		<str id="trk" val="Se&amp;gui"/>
+
+		<str id="sith" val="C&amp;omponi..."/>
+		<str id="dldt" val="&amp;Elimina"/>
+		<str id="bbro" val="&amp;Trova"/>
+		<str id="openf" val="Ap&amp;ri"/>
+
+		<str id="sttp" val="&amp;Congelare"/>
+		<str id="fscr" val="&amp;Schermo Intero"/>
+		<str id="vwpp" val="&amp;Diagnosi"/>
+		<str id="vvl" val="S&amp;ovraimpressione Video..."/>
+		<str id="vwm" val="&amp;Filigrana Video..."/>
+		<str id="wmmv" val="&amp;Sposta a..."/>
+		<str id="wmzro" val="Sposta a &amp;zero"/>
+		<str id="wmrot" val="&amp;Ruota a..."/>
+		<str id="wmrz" val="Ruota a &amp;zero"/>
+		<str id="gcal" val="Calibrazione del &amp;Grigio"/>
+		<str id="cpig" val="A&amp;cquisisci Immagine"/>
+		<str id="tmlps" val="Avvia &amp;Time-lapse (Acqusizione Automatica)..."/>
+		<str id="strec" val="Avvia/Arresta &amp;Registrazione..."/>
+		<str id="brec" val="Registrazione &amp;gruppi"/>
+		<str id="acap" val="&amp;Acquisizione Automatica"/>
+		<str id="sttb" val="Avvia/Arresta &amp;Trasmissione..."/>
+
+		<str id="qtiz" val="&amp;Quantizzazione Colore..."/>
+		<str id="gsca" val="Scala di &amp;Grigi"/>
+		<str id="curv" val="C&amp;urva..."/>
+		<str id="alvl" val="&amp;Livello Automatico"/>
+		<str id="acon" val="Contras&amp;to Automatico"/>
+		<str id="eql" val="E&amp;qualizzazione Istogramma..."/>
+		<str id="bc" val="Luminosità/Contr&amp;asto..."/>
+		<str id="imclr" val="C&amp;olore..."/>
+		<str id="fclr" val="&amp;Filtra Colore..."/>
+		<str id="eclr" val="&amp;Estrai Colore..."/>
+		<str id="iclr" val="&amp;Inverti"/>
+		<str id="r90" val="&amp;90(Orario)"/>
+		<str id="r180" val="&amp;180(Orario)"/>
+		<str id="r270" val="&amp;270(Orario)"/>
+		<str id="rotar" val="&amp;Arbitario..."/>
+		<str id="filph" val="Ribalta &amp;Orizzontale"/>
+		<str id="flipv" val="Ribalta &amp;Verticale"/>
+		<str id="crop" val="Rita&amp;glia"/>
+		<str id="imsca" val="&amp;Scala..."/>
+		<str id="hist" val="&amp;Istogramma..."/>
+		<str id="reso" val="&amp;Risoluzione..."/>
+		<str id="ovlsb" val="&amp;Sovraimpressione Righello..."/>
+
+		<str id="fi" val="F&amp;iltro..."/>
+		<str id="rang" val="Inte&amp;rvallo..."/>
+		<str id="biy" val="&amp;Binario..."/>
+		<str id="psud" val="&amp;Pseudo Colori..."/>
+		<str id="sfac" val="Dis&amp;egna Superficie..."/>
+		<str id="prf" val="Profi&amp;lo..."/>
+		<str id="mosc" val="M&amp;osaico..."/>
+		<str id="cmps" val="Co&amp;mponi Colori..."/>
+		<str id="dens" val="&amp;Rimozione Rumore"/>
+		<str id="nlm" val="Medio &amp;Non Locale..."/>
+		<str id="bila" val="Filtro &amp;Bilaterale..."/>
+		<str id="awf" val="Filtro Wiener &amp;Adattivo"/>
+
+		<str id="lnew" val="&amp;Nuovo..."/>
+		<str id="lrem" val="&amp;Rimuovi..."/>
+		<str id="lcur" val="Corren&amp;te..."/>
+		<str id="lshow" val="&amp;Mostra/Nascondi..."/>
+		<str id="len" val="R&amp;inomina..."/>
+		<str id="lexp" val="Unisci all'i&amp;mmagine..."/>
+		<str id="mexp" val="Unisci all'&amp;immagine"/>
+		<str id="ldrem" val="&amp;Rimuovi"/>
+		<str id="ldcur" val="&amp;Corrente"/>
+		<str id="ldshw" val="&amp;Mostra/Nascondi"/>
+
+		<str id="osel" val="&amp;Seleziona Oggetto"/>
+		<str id="angl" val="A&amp;ngolo"/>
+		<str id="point" val="&amp;Punto"/>
+		<str id="arbl" val="&amp;Arbitraria"/>
+		<str id="hline" val="&amp;Orizzontale"/>
+		<str id="vline" val="&amp;Verticale"/>
+		<str id="parl" val="Pa&amp;rallela"/>
+		<str id="pnt8" val="&amp;8 Punti"/>
+		<str id="pnt5" val="&amp;5 Punti"/>
+		<str id="pnt4" val="&amp;4 Punti"/>
+		<str id="pnt3" val="&amp;3 Punti"/>
+		<str id="pnt2" val="&amp;2 Punti"/>
+		<str id="rctg" val="Ret&amp;tangolo"/>
+		<str id="elps" val="Ell&amp;isse"/>
+		<str id="crad" val="&amp;Centro+Raggio"/>
+		<str id="alus" val="An&amp;ello"/>
+		<str id="arc" val="&amp;Arco"/>
+		<str id="text" val="Te&amp;sto"/>
+		<str id="plg" val="Poli&amp;gono"/>
+		<str id="ztop" val="&amp;Alto"/>
+		<str id="zbtm" val="&amp;Basso"/>
+		<str id="zup" val="Sposta &amp;su"/>
+		<str id="zdown" val="Sposta &amp;giù"/>
+		<str id="sbar" val="Righ&amp;ello..."/>
+		<str id="lcv" val="Curv&amp;a"/>
+		<str id="mode1" val="Connessione &amp;Casuale"/>
+		<str id="mode2" val="Connessione &amp;Multipunto"/>
+		<str id="arrw" val="F&amp;reccia"/>
+
+		<str id="call" val="&amp;Chiudi Tutto"/>
+		<str id="rstlo" val="&amp;Reimposta Aspetto Finestra"/>
+		<str id="wnds" val="&amp;Finestre..."/>
+
+		<str id="aunit" val="Unità di &amp;Angolo..."/>
+
+		<str id="nccls" val="&amp;Chiudi"/>
+		<str id="nccla" val="Chiudi &amp;Tutto Tranne Questa"/>
+		<str id="clsth" val="Chiudi le At&amp;ltre"/>
+		<str id="fprop" val="Proprietà &amp;File..."/>
+		<str id="cpath" val="Copia Tutto il &amp;Percorso"/>
+		<str id="brofo" val="&amp;Sfoglia la Cartella Contenente"/>
+		<str id="openfo" val="&amp;Apri la Cartella Contenente"/>
+		<str id="htbgp" val="Nuovo Gruppo di Schede &amp;Orizzontali"/>
+		<str id="vtbgp" val="Nuovo Gruppo di Schede &amp;Verticali"/>
+		<str id="nxtbg" val="Sposta al Pro&amp;ssimo Gruppo di Schede"/>
+		<str id="prebg" val="Sposta al Gruppo di Schede P&amp;recedente"/>
+		<str id="ftwid" val="Adatta alla &amp;Larghezza"/>
+		<str id="fthei" val="Adatta alla &amp;Altezza"/>
+		<str id="fitwi" val="Adatta alla &amp;Finestra"/>
+
+		<str id="bronm" val="Ordina per &amp;Nome"/>
+		<str id="brotp" val="Ordina per &amp;Tipo"/>
+		<str id="brosz" val="Ordina per &amp;Dimensione"/>
+		<str id="browd" val="Ordina per &amp;Larghezza"/>
+		<str id="brohe" val="Ordina per &amp;Altezza"/>
+		<str id="brotx" val="Ordina per &amp;Estensione"/>
+		<str id="brofw" val="&amp;Crescente"/>
+		<str id="brorv" val="&amp;Decrescente"/>
+		<str id="brol" val="Icone &amp;Grandi"/>
+		<str id="bros" val="Icone &amp;Piccole"/>
+		<str id="brorf" val="&amp;Aggiorna"/>
+		<str id="bropo" val="&amp;Proprietà..."/>
+
+		<str id="mimp" val="&amp;Importa File..."/>
+		<str id="msav" val="&amp;Salva File..."/>
+		<str id="mhtm" val="Esporta su &amp;Html"/>
+		<str id="mexc" val="Esporta su Microsoft &amp;Excel..."/>
+
+		<str id="bstf" val="&amp;Adatta"/>
+		<str id="asiz" val="&amp;Dimensioni Reali"/>
+
+		<str id="edpn" val="&amp;Normale"/>
+		<str id="edph" val="Stile &amp;H"/>
+
+		<str id="oc" val="Se&amp;gmentazione &amp;&amp; Conta"/>
+		<str id="ocsd" val="OTSU &amp;Scuro..."/>
+		<str id="ocsb" val="OTSU &amp;Chiaro..."/>
+		<str id="ocrhs" val="Istogramma &amp;RGB..."/>
+		<str id="ochhs" val="Istogramma &amp;HSV..."/>
+		<str id="occc" val="Cubo &amp;Colore..."/>
+		<str id="ocret" val="Risul&amp;tati Conta..."/>
+
+		<str id="chair" val="Croce&amp;filo"/>
+
+		<str id="shpn" val="Aff&amp;ila"/>
+		<str id="lshp" val="Affila &amp;Laplaciano"/>
+		<str id="unshp" val="Maschera di Cont&amp;rasto..."/>
+
+		<str id="dclr" val="Decolora Preservando il &amp;Contrasto"/>
+		<str id="epsm" val="Leviga &amp;Preservando i Bordi..."/>
+		<str id="denh" val="Migliora &amp;Dettaglio..."/>
+
+		<str id="llc" val="Co&amp;rrezione Colore Locale..."/>
+		<str id="cton" val="Tonali&amp;tà Colore"/>
+
+		<str id="deil" val="Deinterl&amp;accia"/>
+
+		<str id="opnrf" val="Apri cartella Registr&amp;azione"/>
+		<str id="opnif" val="Apri Cartella &amp;Immagine"/>
+
+		<str id="lined" val="Linea (&amp;3 Punti)"/>
+
+		<str id="tnal" val="&amp;Galleria"/>
+		<str id="avw" val="Attiva &amp;Finestra Video"/>
+
+		<str id="cust" val="&amp;Personalizza..."/>
+		<str id="ctool" val="&amp;Personalizza Barra degli Strumenti..."/>
+
+		<str id="cent" val="Cent&amp;ro"/>
+		<str id="sernx" val="Prossimo &amp;Fotogramma"/>
+		<str id="serpv" val="Fotogramma &amp;Precedente"/>
+
+		<str id="ext" val="Applicazione &amp;Esterna"/>
+
+		<str id="man" val="&amp;Gestione..."/>
+		<str id="word" val="&amp;Report Attuale"/>
+
+		<str id="gdiv" val="&amp;Dividi..."/>
+		<str id="deep" val="&amp;Copia Completa"/>
+
+		<str id="manuc" val="&amp;Manuale..."/>
+		<str id="expex" val="Esporta su Microsoft &amp;Excel"/>
+		<str id="expcb" val="Esporta su &amp;Appunti"/>
+		<str id="expim" val="Esporta su &amp;Immagine"/>
+
+		<str id="pipe" val="&amp;Pipetta"/>
+		<str id="preset" val="Preimpo&amp;stazioni"/>
+
+		<str id="extr" val="E&amp;xtra"/>
+		<str id="holl" val="Ca&amp;vità"/>
+		<str id="pfdg" val="&amp;Grado Profilo"/>
+		<str id="frat" val="&amp;Rapporto Planarità"/>
+		<str id="ncr" val="Rapporto &amp;Nucleare/Citoplasmatico"/>
+		<str id="choll" val="&amp;Cavità Cerchio"/>
+		<str id="pholl" val="Cavità &amp;Poligono"/>
+		
+		<str id="clhd" val="&amp;Nascondi"/>
+		<str id="clsl" val="&amp;Seleziona..."/>
+
+		<str id="whba" val="&amp;Bilanciamento del Bianco"/>
+			
+		<str id="comb" val="Co&amp;mbina"/>
+		<str id="ucom" val="&amp;Scorpora"/>
+									
+		<str id="arra" val="&amp;Disposizione"/>
+		<str id="cstm" val="&amp;Personalizzato"/>
+
+		<str id="expt" val="&amp;Esporta"/>
+		<str id="expf" val="&amp;Esporta..."/>
+		<str id="impf" val="&amp;Importa..."/>
+
+		<str id="copa" val="&amp;Confrontare"/>
+
+		<str id="dstup" val="&amp;Nuovo..."/>
+		<str id="drop" val="&amp;Abbassa"/>
+		<str id="clea" val="&amp;Elimina"/>
+		<str id="dconn" val="&amp;Collega..."/>
+		<str id="disc" val="&amp;Scollega"/>
+		<str id="inse" val="&amp;Inserire..."/>
+		<str id="modi" val="&amp;Modifica..."/>
+		<str id="add" val="&amp;Aggiungi..."/>
+		<str id="inst" val="&amp;Inserisci nel Database..."/>
+		<str id="opts" val="&amp;Opzioni..."/>
+		<str id="oima" val="&amp;Apri Immagine"/>
+
+		<str id="rena" val="&amp;Rinomina..."/>
+		<str id="dye" val="&amp;Colorazione..."/>
+
+		<str id="item" val="&amp;Elemento"/>
+		<str id="aitem" val="T&amp;utti gli elementi"/>
+		<str id="aimag" val="&amp;Tutte le immagini"/>
+
+		<str id="expg" val="&amp;Esposizione &amp;&amp; Guadagno"/>
+		<str id="load" val="&amp;Carica"/>
+		
+		<str id="clti" val="Chiudi Tutte le Immagini &amp;Temporanee"/>
+		
+		<str id="defu" val="&amp;Predefiniti"/>
+		<str id="rest" val="&amp;Reimposta"/>
+		
+		<str id="disa" val="&amp;Disabilita"/>
+		<str id="b1" val="&amp;1 Byte"/>
+		<str id="b2" val="&amp;2 Byte"/>
+		<str id="b4" val="&amp;4 Byte"/>
+		
+		<str id="ipm" val="Indirizzo &amp;IP..."/>
+		<str id="rtm" val="&amp;Tempo reale"/>
+		
+		<str id="nosep" val="&amp;Revolver..."/>
+	</menu>
+</i18n>

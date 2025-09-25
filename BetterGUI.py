@@ -48,7 +48,7 @@ def get_next_daily_csv_path(directory="."):
     measurement number for today's date (DD_MM). This is called once per session.
     """
     os.makedirs(directory, exist_ok=True)
-    date_str = datetime.datetime.now().strftime("%d_%m")
+    date_str = datetime.datetime.now().strftime("%d_%m_%y")
     pattern = os.path.join(directory, f"{date_str}_*_analysis.csv")
     files = glob.glob(pattern)
     max_n = 0
@@ -513,7 +513,6 @@ class AnalysisApp:
         self.on_close()  # Close the app when the loop is broken
 
     def run_camera_mode_session(self):
-        self.root.withdraw()  # Hide the main menu
         try:
             automation_py_path = os.path.join(os.path.dirname(__file__), "automation.py")
             csv_abs_path = os.path.abspath(self.session_csv_path)
@@ -521,15 +520,26 @@ class AnalysisApp:
             print("Launching automation.py at:", automation_py_path)
             print("Session CSV path:", csv_abs_path)
 
-            subprocess.Popen(
+            proc = subprocess.Popen(
                 [sys.executable, automation_py_path, csv_abs_path],
                 cwd=os.path.dirname(__file__)
             )
-            self.root.iconify()  # minimize
+
+            # Wait for automation.py in a background thread, then trigger on_close
+            import threading
+            def check_proc():
+                proc.wait()  # block until automation.py exits
+                print("Automation finished, prompting Save As")
+                self.root.after(0, self.on_close)  # schedule on_close on the Tk main loop
+
+            threading.Thread(target=check_proc, daemon=True).start()
+
+            # Minimize the main GUI but keep it alive
+            self.root.iconify()
+
         except Exception as e:
             messagebox.showerror("Error", f"Could not launch automation script.\n\n{e}")
             self.root.deiconify()
-        self.on_close
 
     def on_close(self):
         """

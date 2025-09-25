@@ -1,0 +1,2256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<i18n>
+	<all>
+		<str id="ids_error" val="Ошибка"/>
+		<str id="ids_true" val="Да"/>
+		<str id="ids_false" val="Нет"/>
+		<str id="ids_yes" val="Да"/>
+		<str id="ids_no" val="Нет"/>
+		<str id="ids_ok" val="Ок"/>
+		<str id="ids_camera" val="Камера"/>
+		<str id="ids_folders" val="Папки"/>
+		<str id="ids_video" val="Видео"/>
+		<str id="ids_browse" val="Обзор"/>
+		<str id="ids_back" val="Назад"/>
+		<str id="ids_forward" val="Вперед"/>
+		<str id="ids_backward" val="Назад"/>
+		<str id="ids_open" val="Открыть"/>
+		<str id="ids_pixel" val="Пиксель"/>
+		<str id="ids_width" val="Ширина"/>
+		<str id="ids_height" val="Высота"/>
+		<str id="ids_measurement" val="Измерение"/>
+		<str id="ids_name" val="Название"/>
+		<str id="ids_index" val="Индекс"/>
+		<str id="ids_version" val="Версия"/>
+		<str id="ids_sample" val="Образец"/>
+		<str id="ids_avg" val="Среднее"/>
+		<str id="ids_mean" val="Среднее"/>
+		<str id="ids_den" val="Шумопонижение"/>
+		<str id="ids_capture" val="Захват"/>
+		<str id="ids_stop" val="Остановка"/>
+		<str id="ids_close" val="Закрыть"/>
+		<str id="ids_save" val="Сохранить"/>
+		<str id="ids_none" val="Нет"/>
+		<str id="ids_zoom" val="Масштаб"/>
+		<str id="ids_time" val="Время"/>
+		<str id="ids_frame" val="Кадр"/>
+		<str id="ids_framerate" val="Скорость кадров"/>
+		<str id="ids_target" val="Цель"/>
+		<str id="ids_free" val="Свободно"/>
+		<str id="ids_file" val="Файл"/>
+		<str id="ids_date" val="Дата"/>
+		<str id="ids_year" val="Год"/>
+		<str id="ids_month" val="Месяц"/>
+		<str id="ids_day" val="День"/>
+		<str id="ids_linear" val="Линейный"/>
+		<str id="ids_exp" val="Экспоненциальный"/>
+		<str id="ids_log" val="Логарифмический"/>
+		<str id="ids_poly" val="Многочлен"/>
+		<str id="ids_format" val="Формат"/>
+		<str id="ids_bl" val="Уровень черного"/>
+		<str id="ids_current" val="Текущий"/>
+		<str id="ids_cancel" val="Отмена"/>
+		<str id="ids_apply" val="Применить"/>
+		<str id="ids_defaults" val="По умолчанию"/>
+		<str id="ids_default" val="По умолчанию"/>
+		<str id="ids_refresh" val="Обновить"/>
+		<str id="ids_auto" val="Авто"/>
+		<str id="ids_reset" val="Сбросить"/>
+		<str id="ids_option" val="Параметры"/>
+		<str id="ids_options" val="Параметры"/>
+		<str id="ids_preview" val="Предварительный просмотр"/>
+		<str id="ids_size" val="Размер"/>
+		<str id="ids_color" val="Цвет"/>
+		<str id="ids_label" val="Ярлык"/>
+		<str id="ids_px" val="Пикселей"/>
+		<str id="ids_appearance" val="Отображение"/>
+		<str id="ids_scalebar" val="Полоса масштабирования"/>
+		<str id="ids_rename" val="Переименовать"/>
+		<str id="ids_desc" val="Описание"/>
+		<str id="ids_remove" val="Удалить"/>
+		<str id="ids_red" val="Красный"/>
+		<str id="ids_green" val="Зеленый"/>
+		<str id="ids_blue" val="Синий"/>
+		<str id="ids_radius" val="Радиус"/>
+		<str id="ids_add" val="Добавить"/>
+		<str id="ids_del" val="Удалить"/>
+		<str id="ids_hue" val="Тон"/>
+		<str id="ids_sat" val="Насыщенность"/>
+		<str id="ids_bri" val="Яркость"/>
+		<str id="ids_con" val="Контраст"/>
+		<str id="ids_gamma" val="Гамма"/>
+		<str id="ids_res" val="Разрешение"/>
+		<str id="ids_compression" val="Сжатие"/>
+		<str id="ids_whitebalance" val="Баланс белого"/>
+		<str id="ids_blackbalance" val="Баланс черного"/>
+		<str id="ids_zoomin" val="Крупнее"/>
+		<str id="ids_zoomout" val="Мельче"/>
+		<str id="ids_export" val="Экспорт"/>
+		<str id="ids_import" val="Импорт"/>
+		<str id="ids_hwbin" val="Аппаратное Binning"/>
+		<str id="ids_digbin" val="Цифровой Binning"/>
+		<str id="ids_thumbnail" val="Миниатюры изображений"/>
+		<str id="ids_rotate" val="Повернуть"/>
+		<str id="ids_meta" val="Метаданные"/>
+		<str id="ids_en" val="Запустить"/>
+		<str id="ids_value" val="Значение"/>
+		<str id="ids_expti" val="Время выдержки"/>
+		<str id="ids_rexpti" val="Фактическое время выдержки"/>
+		<str id="ids_observer" val="Наблюдатель"/>
+		<str id="ids_telescope" val="Телескоп"/>
+		<str id="ids_comment" val="Комментарий"/>
+		<str id="ids_edit" val="Редактировать"/>
+		<str id="ids_model" val="Модель камеры"/>
+		<str id="ids_type" val="Тип"/>
+		<str id="ids_cpyrgt" val="Авторские права"/>
+		<str id="ids_author" val="Автор"/>
+		<str id="ids_title" val="Название"/>
+		<str id="ids_pxf" val="Формат пикселей"/>
+		<str id="ids_unit" val="Элемент"/>
+		<str id="ids_calibrate" val="Калибровка"/>
+		<str id="ids_beilv" val="Увеличение"/>
+		<str id="ids_dis" val="Отключить"/>
+		<str id="ids_fset" val="Заводские настройки"/>
+		<str id="ids_srp" val="Резкость"/>
+		<str id="ids_focus" val="Фокус"/>
+		<str id="ids_af" val="Автофокус"/>
+		<str id="ids_mau" val="Ручной"/>
+		<str id="ids_elc" val="Электрический"/>
+		<str id="ids_up" val="Вверх"/>
+		<str id="ids_down" val="Вниз"/>
+		<str id="ids_revision" val="Пересмотр"/>
+		<str id="ids_preset" val="Пресет"/>
+		<str id="ids_dl" val="Скачать"/>
+		<str id="ids_st" val="Статус"/>
+		<str id="ids_div" val="Разделить"/>
+		<str id="ids_sw" val="Программное обеспечение"/>
+		<str id="ids_hw" val="Скобяные изделия"/>
+		<str id="ids_simu" val="Притворный"/>
+		<str id="ids_nrecom" val="Не рекомендуется"/>
+		<str id="ids_depre" val="Устаревшие"/>
+		<str id="ids_text" val="Текст"/>
+		<str id="ids_mem" val="Память"/>
+		<str id="ids_os" val="ОС"/>
+		<str id="ids_cpu" val="ЦП"/>
+		<str id="ids_count" val="Счетчик"/>
+		<str id="ids_perct" val="Процент"/>
+		<str id="ids_total" val="Общая"/>
+		<str id="ids_computer" val="Компьютер"/>
+		<str id="ids_copy" val="Копировать"/>
+		<str id="ids_autoe" val="Автовыдержка"/>
+		<str id="ids_expta" val="Значение выдержки"/>
+		<str id="ids_bin" val="Удалить"/>
+		<str id="ids_skip" val="Пропустить"/>
+		<str id="ids_gain" val="Усиление"/>
+		<str id="ids_stemp" val="Температуры"/>
+		<str id="ids_fan" val="Вентилятор"/>
+		<str id="ids_ttemp" val="Требуемая температура"/>
+		<str id="ids_display" val="Отображение"/>
+		<str id="ids_cut" val="Вырезать"/>
+		<str id="ids_pste" val="Вставить"/>
+		<str id="ids_lock" val="Закрыть"/>
+		<str id="ids_basic" val="Основные"/>
+		<str id="ids_sk" val="Стек"/>
+		<str id="ids_neg" val="Негатив"/>
+		<str id="ids_tonem" val="Отображение тонов"/>
+		<str id="ids_position" val="Положение"/>
+		<str id="ids_custom" val="Спектр"/>
+		<str id="ids_object" val="Объект"/>
+		<str id="ids_cobject" val="Объект измерения"/>
+		<str id="ids_threshold" val="Порог"/>
+		<str id="ids_bool" val="Булева"/>
+		<str id="ids_all" val="Все"/>
+		<str id="ids_column" val="Колонка"/>
+		<str id="ids_row" val="Строка"/>
+		<str id="ids_merge" val="Слияние"/>
+		<str id="ids_shape" val="Форма"/>
+		<str id="ids_font" val="Шрифт"/>
+		<str id="ids_fontsize" val="Размер шрифта"/>
+		<str id="ids_fontweight" val="Толщина шрифта"/>
+		<str id="ids_bandw" val="Полоса пропускания"/>
+		<str id="ids_about" val="О программе"/>
+		<str id="ids_horz" val="По горизонтали"/>
+		<str id="ids_vert" val="По вертикали"/>
+		<str id="ids_polygon" val="Многоугольник"/>
+		<str id="ids_adv" val="Продвинутый"/>
+		<str id="ids_den" val="Удаление шумов"/>
+		<str id="ids_strength" val="Интенсивный"/>
+		<str id="ids_linewidth" val="Ширина линии"/>
+		<str id="ids_glauto" val="Глобальные"/>
+		<str id="ids_compare" val="Сравнить"/>
+		<str id="ids_db" val="База данных"/>
+		<str id="ids_new" val="Новый"/>
+		<str id="ids_find" val="Найти"/>
+		<str id="ids_imag" val="Изображение"/>
+		<str id="ids_lnoise" val="Низкий шума"/>
+		<str id="ids_dye" val="Красителя"/>
+		<str id="ids_dyv" val="Крашение"/>
+		<str id="ids_tl" val="Покадровая съемка (Замедленная киносъёмка)"/>
+		<str id="ids_xoff" val="Смещение по оси X"/>
+		<str id="ids_yoff" val="Смещение по оси Y"/>
+		<str id="ids_ftype" val="Тип файла"/>
+		<str id="ids_starddev" val="Стандартное отклонение"/>
+		<str id="ids_max" val="Максимум"/>
+		<str id="ids_min" val="Минимум"/>
+		<str id="ids_mono" val="Монохромный"/>
+		<str id="ids_lightsource" val="Источник света"/>
+		<str id="ids_on" val="Включить"/>
+		<str id="ids_off" val="Отключить"/>
+		<str id="ids_high" val="Высокая"/>
+		<str id="ids_hdr" val="Высокий динамический диапазон (HDR)"/>
+		<str id="ids_watermark" val="Водяной знак"/>
+        <str id="ids_cate" val="Категория"/>
+		<str id="ids_settings" val="Настройки"/>
+		<str id="ids_llcolor" val="Цвет ярлыка"/>
+		<str id="ids_ec" val="Компенсация экспозиции"/>
+		<str id="ids_item" val="Элемента"/>
+		<str id="ids_discard" val="Отбрасывать"/>
+		<str id="ids_plan" val="План"/>
+		<str id="ids_network" val="Сеть"/>
+		<str id="ids_ip" val="IP-адрес"/>
+		<str id="ids_mac" val="MAC-адрес"/>
+		<str id="ids_oclock" val="Разгон"/>
+		<str id="ids_fw" val="Колесо фильтра"/>
+		<str id="ids_pdpseudocolor" val="Псевдоцвет"/>
+		<str id="ids_lowpc" val="Низкое энергопотребление"/>
+		<str id="ids_exporm" val="Режим считывания"/>
+		<str id="ids_addr" val="Адрес"/>
+		<str id="ids_trg" val="Триггер"/>
+		<str id="ids_trgs" val="Источник триггер"/>
+		<str id="ids_objlen" val="Объектив"/>
+		<str id="ids_si" val="Одноместный"/>
+		<str id="ids_sq" val="Многократный"/>
+		<str id="ids_lp" val="Петля"/>
+		<str id="ids_cds" val="Коррелированная двойная выборка"/>
+		<str id="ids_speed" val="Скорость"/>
+		<str id="ids_shtt" val="Эатвор"/>
+		<str id="ids_mshtt" val="Механический затвор"/>
+		<str id="ids_mf" val="Показать увеличение"/>
+	</all>
+
+	<string>
+		<str id="ids_m" val="Метр"/>
+		<str id="ids_cm" val="Сантиметр"/>
+		<str id="ids_mm" val="Миллиметр"/>
+		<str id="ids_um" val="Микрометр"/>
+		<str id="ids_nm" val="Нанометр"/>
+		<str id="ids_in" val="Дюйм"/>
+		<str id="ids_mil" val="Мил"/>
+		<str id="ids_ang" val="Ангстрем"/>
+		<str id="ids_pm" val="Пикометр"/>
+
+		<str id="ids_angle0" val="Радиан"/>
+		<str id="ids_angle1" val="Градус"/>
+		<str id="ids_angle2" val="Пи"/>
+
+		<str id="ids_celsius" val="По Цельсию"/>
+		<str id="ids_fahrenheit" val="По Фаренгейту"/>
+
+		<str id="ids_colorbuttonother" val="Прочие..."/>
+		<str id="ids_linestylesolid" val="Сплошная"/>
+		<str id="ids_linestyledash" val="Штрих"/>
+		<str id="ids_linestyledot" val="Точки"/>
+		<str id="ids_linestyledashdot" val="Штрихпунктир"/>
+		<str id="ids_intminmax" val="Укажите целое число от %d до %d."/>
+
+		<str id="ids_exposure" val="Выдержка"/>
+
+		<str id="ids_noexcel" val="Не удалось открыть в Microsoft Excel. Пожалуйста, проверьте правильность установки Microsoft Excel."/>
+		<str id="ids_noword" val="Не удалось открыть в Microsoft Word. Пожалуйста, проверьте правильность установки Microsoft Word."/>
+
+		<str id="ids_outofrange" val="Вне диапазона."/>
+		<str id="ids_inputv" val="Недопустимое входное значение."/>
+		<str id="ids_filenr" val="Зарезервированные символы нельзя использовать в именах файлов."/>
+
+		<str id="ids_deviceid" val="ID устройства"/>
+		<str id="ids_devicename" val="Имя устройства"/>
+		<str id="ids_stillimagecapture" val="Захват неподвижного изображения"/>
+		<str id="ids_stillimagewidth" val="Ширина неподвижного изображения"/>
+		<str id="ids_stillimageheight" val="Высота неподвижного изображения"/>
+		<str id="ids_displaywidth" val="Ширина экрана"/>
+		<str id="ids_displayheight" val="Высота экрана"/>
+		<str id="ids_videowidth" val="Ширина видео"/>
+		<str id="ids_videoheight" val="Высота видео"/>
+		<str id="ids_dscapbpp" val="Бит на пиксель"/>
+		<str id="ids_duration" val="Длительность"/>
+		<str id="ids_cameraid" val="ID камеры"/>
+		<str id="ids_productdate" val="Дата производства"/>
+		<str id="ids_framedropped" val="Кадр захвачен"/>
+		<str id="ids_framesaved" val="Кадр сохранен"/>
+		<str id="ids_property" val="Свойства"/>
+		<str id="ids_errorstop" val="Ошибка, невозможно остановить."/>
+		<str id="ids_startfail" val="Невозможно начать."/>
+		<str id="ids_previewfail" val="Невозможно начать предв.просмотр, переподключите устройство и начните снова."/>
+		<str id="ids_stoppreviewfail" val="Ошибка, невозможно остановить просмотр."/>
+		<str id="ids_noframe" val="Диапазона USB недостаточно, снизьте скорость кадров или попробуйте другой USB-порт. Переподключите устройство и начните снова."/>
+		<str id="ids_surpriseremoval" val="Устройство отключилось."/>
+		<str id="ids_devicelost" val="Съемка остановлена (потеря устройства), переподключите устройство и начните снова."/>
+		<str id="ids_captureerror" val="Ошибка съемки, переподключите устройство или попробуйте другой USB-порт и начните снова."/>
+		<str id="ids_toupnamerror" val="Ошибка, переподключите устройство и начните снова."/>
+		<str id="ids_filtergraph" val="Невозможно включить фильтрующий граф."/>
+		<str id="ids_noax" val="Невозможно создать источник видеосъемки, переустановите драйвер устройства."/>
+		<str id="ids_nosource" val="Ошибка, невозможно создать видеопоток. Переподключите устройство и начните снова."/>
+
+		<str id="ids_badport" val="Указанный порт уже занят, используйте другой порт."/>
+		<str id="ids_bcount" val="Кадр широковещания"/>
+		<str id="ids_bdroppcnt" val="Потерянный кадр широковещания"/>
+		<str id="ids_bcbbps" val="Текущая скорость потока (Мбит/с)"/>
+		<str id="ids_baveragebps" val="Средняя скорость потока (Кбит/с)"/>
+		<str id="ids_bccfr" val="Текущая частота кадров"/>
+		<str id="ids_baveragesr" val="Средняя частота кадров"/>
+		<str id="ids_bandwidth" val="Полоса пропускания (Кбит/с)"/>
+		<str id="ids_preceived" val="Получено пакетов"/>
+		<str id="ids_plost" val="Потеряно пакетов"/>
+		<str id="ids_psize" val="Размер пакетов"/>
+
+		<str id="ids_encoder" val="Кодировщик"/>
+		<str id="ids_quality" val="Качество"/>
+		<str id="ids_bitrate" val="Битрейт"/>
+		<str id="ids_keyfs" val="Интервал между ключевыми кадрами (cекунд)"/>
+		<str id="ids_stepdir" val="Укажите имя папки и файла правильно."/>
+		<str id="ids_stepbpsminmax" val="Укажите битрейт правильно: должно быть целое число от %s до %s."/>
+		<str id="ids_stepqualityminmax" val="Укажите качество правильно: должно быть целое число от %u до %u."/>
+		<str id="ids_stepiframe" val="Укажите интервал между ключевыми кадрами правильно."/>
+		<str id="ids_stepiframeminmax" val="Укажите интервал между ключевыми кадрами правильно: должно быть целое число от %u до %u."/>
+		<str id="ids_stepcodec" val="Укажите кодировщик."/>
+		<str id="ids_steptimelimit" val="Укажите лимит времени съемки правильно."/>
+		<str id="ids_steptimelapse" val="Укажите интервал съемки правильно."/>
+		<str id="ids_stepavinone" val="Без сжатия"/>
+
+		<str id="ids_recordheader" val="Информация на экране"/>
+		<str id="ids_recordstep1" val="Формат видео"/>
+		<str id="ids_recordstep2" val="Видеофайл"/>
+		<str id="ids_recordstep3" val="Кодировщик"/>
+		<str id="ids_recordstep4" val="Начать запись"/>
+		<str id="ids_broadcastpar" val="Параметры вещания"/>
+		<str id="ids_recordstep4b" val="Начать трансляцию"/>
+
+		<str id="ids_integerinvalid" val="Введите целое число."/>
+
+		<str id="ids_mosaicimages" val="Мозаика"/>
+
+		<str id="ids_deleteallitem" val="Удалить все объекты?"/>
+		<str id="ids_deleteitem" val="Удалить выбранный объект?"/>
+		<str id="ids_deleteitems" val="Удалить выбранный %d элементов?"/>
+		<str id="ids_magimport" val="При импорте будут удалены все текущие объекты, продолжить?"/>
+
+		<str id="ids_toolbarselect" val="Выбор объекта"/>
+		<str id="ids_toolbarcirclehole" val="Круг с отверстием"/>
+		<str id="ids_toolbarrectselect" val="Выбор изображения"/>
+		<str id="ids_toolbartrack" val="Сдвиг"/>
+		<str id="ids_toolbargray" val="Калибровка серого"/>
+		<str id="ids_toolbarcrosshair" val="Перекрестие"/>
+		<str id="ids_toolbargoto" val="Открыть папку"/>
+		<str id="ids_toolbarcenter" val="Центр"/>
+
+		<str id="ids_stitch" val="Сшить"/>
+		<str id="ids_stitchautocrop" val="Автообрезка после панорамы"/>
+		<str id="ids_stitchscroll" val="Режим прокрутки"/>
+		<str id="ids_aggr" val="Агрессивный"/>
+		<str id="ids_pasi" val="Пассивный"/>
+
+		<str id="ids_built" val="Сборка"/>
+
+		<str id="ids_toolbar" val="Панель инструментов"/>
+		<str id="ids_nodevice" val="Нет устройств"/>
+		<str id="ids_zoom0" val="Подогнать по ширине"/>
+		<str id="ids_zoom1" val="Подогнать по высоте"/>
+		<str id="ids_zoom2" val="Подогнать по размеру окна"/>
+		<str id="ids_selection" val="Выбор"/>
+		<str id="ids_undoredo" val="Отменить/Вернуть"/>
+
+		<str id="ids_overlayscale" val="Наложить полосу масштабирования"/>
+
+		<str id="ids_customize" val="Настройка"/>
+		<str id="ids_toolbarcustomize" val="&amp;Настройка"/>
+		<str id="ids_angleunitmenu" val="&amp;Угловая единица"/>
+
+		<str id="ids_emptydir" val="Папка не может быть пустой."/>
+		<str id="ids_invaliddir" val="Недопустимое имя папки."/>
+		<str id="ids_filelock" val="Файл заблокирован."/>
+		<str id="ids_imagesizemismatch" val="Размер изображения не совпадает."/>
+		<str id="ids_imagesizenotsame" val="Изображение &quot;%s&quot; имеет другой формат."/>
+		<str id="ids_filenofound" val="Файл не найден."/>
+		<str id="ids_savefilefail2" val="Не удалось сохранить файл &quot;%s&quot;."/>
+		<str id="ids_savefilefail3" val="Не удалось сохранить файл."/>
+		<str id="ids_videofileformat" val="Формат файла не поддерживается."/>
+		<str id="ids_videofilestartfail" val="Не удалось начать."/>
+		<str id="ids_videofiles" val="Видеофайлы"/>
+		<str id="ids_allfiles" val="Все файлы"/>
+
+		<str id="ids_browseshutcut" val="Данная папка уже содержит ярлык с именем &quot;%s&quot;.\nПерезаписать, отменить, или выйти?"/>
+		<str id="ids_videozoomint" val="Текущий масштаб %u%%. Чтобы получить точное значение, установить уровень масштабирования на 100%%. Продолжить?"/>
+		<str id="ids_videozoomfloat" val="Текущий масштаб %.1f%%. Чтобы получить точное значение, установите уровень масштабирования на 100%%. Продолжить?"/>
+		<str id="ids_videomarker" val="Маркер: (%d, %d); Водяной знак: Двигать = (%d, %d), Повернуть = %.3f"/>
+		<str id="ids_videostartrecord" val="Начать &amp;Запись"/>
+		<str id="ids_videostoprecord" val="Остановить &amp;Запись"/>
+		<str id="ids_videostarttimelapse" val="Начать &amp;покадровую съемку"/>
+		<str id="ids_videostoptimelapse" val="Остановить &amp;покадровую съемку"/>
+		<str id="ids_videoautofail" val="Не удалось запустить покадровую съемку."/>
+		<str id="ids_videocalibratemax1" val="Калибровать в максимальном размере.\r\nТекущий размер: %u x %u. Максимальный размер: %u x %u.\r\nДля выбора разрешения используйте боковую панель камеры."/>
+
+		<str id="ids_memory" val="Недостаточно памяти."/>
+		<str id="ids_memoryx86" val="Недостаточно памяти, используйте версию x64."/>
+
+		<str id="ids_actionfailed" val="Сбой действия."/>
+		<str id="ids_actioncanceld" val="Действие отменено."/>
+
+		<str id="ids_calibratedlgtoobig" val="Слишком большой"/>
+		<str id="ids_calibratedlgtoosmall" val="Слишком маленький"/>
+		<str id="ids_calibratedlgpixels" val="пикселей"/>
+		<str id="ids_calibratedlgmagnification" val="Укажите правильное увеличение: 10, 40, 100 и т.д."/>
+		<str id="ids_calibratedlgmagnificationexists" val="Увеличение &quot;%s&quot; уже есть."/>
+
+		<str id="ids_collapseall" val="Свернуть все"/>
+		<str id="ids_expandall" val="Развернуть все"/>
+		<str id="ids_cameralist" val="Список камер"/>
+		<str id="ids_expandgain" val="Выдержка и Усиление"/>
+		<str id="ids_colorgray" val="Цвет/Серый"/>
+		<str id="ids_capres" val="Съемка и Разрешение"/>
+		<str id="ids_coloradjust" val="Настройка цвета"/>
+		<str id="ids_flip" val="Отразить"/>
+		<str id="ids_sampling" val="Выборка"/>
+		<str id="ids_histogram" val="Гистограмма"/>
+		<str id="ids_power" val="Частота (Антивспышка)"/>
+		<str id="ids_gray" val="Серый"/>
+		<str id="ids_range" val="Диапазон"/>
+		<str id="ids_exptimeempty" val="Время выдержки не должно быть пустым."/>
+		<str id="ids_exptimeinvalid" val="Недопустимое время выдержки."/>
+		<str id="ids_exptimeoutofrange" val="Время выдержки вне диапазона [%s, %s]."/>
+		<str id="ids_bpsmb" val="Битрейт (Mbps)"/>
+		<str id="ids_dfc" val="Коррекция темного поля"/>
+		<str id="ids_bitdepth" val="Разрядность"/>
+		<str id="ids_propfmt" val="Свойства и Формат"/>
+		<str id="ids_cool" val="Охлаждение"/>
+		<str id="ids_cvtgain" val="Усиление"/>
+		<str id="ids_ffc" val="Коррекция плоского поля"/>
+		<str id="ids_heat" val="Обогрев"/>
+		<str id="ids_fpnc" val="Исправление фиксированного шаблонного шума"/>
+
+		<str id="ids_preferences" val="Предпочтения"/>
+		
+		<str id="ids_grids" val="Cетки"/>
+		<str id="ids_misc" val="Прочие"/>
+		<str id="ids_cursor" val="Курсор"/>
+		<str id="ids_quicksave" val="Сохранить быстро"/>
+		<str id="ids_record" val="Видео"/>
+		<str id="ids_quickrecord" val="Видео быстро"/>
+
+		<str id="ids_mosaicimage" val="Список изображений"/>
+		<str id="ids_mosaicpar" val="Параметры"/>
+
+		<str id="ids_filefmtcol0" val="Расширение"/>
+		<str id="ids_filefmtcol2" val="Аббревиатура"/>
+
+		<str id="ids_allsupported" val="Все поддерживаемые форматы"/>
+		<str id="ids_savedlgreplace" val="%s уже есть.\nЗаменить?"/>
+		<str id="ids_saveboth" val="Изображение и слой измерения изменены. Сохранить?"/>
+		<str id="ids_saveimage" val="Изображение изменено. Сохранить?"/>
+		<str id="ids_savelayer" val="Слой измерения изменен. Сохранить?"/>
+
+		<str id="ids_watermarkdlg24bit" val="Поддерживаются только изображения 24 или 32 бита."/>
+
+		<str id="ids_nameformatnnnn" val="nnnn (последовательность)"/>
+
+		<str id="ids_lefttop" val="Слева вверху"/>
+		<str id="ids_righttop" val="Справа вверху"/>
+		<str id="ids_leftbottom" val="Слева внизу"/>
+		<str id="ids_rightbottom" val="Справа внизу"/>
+		<str id="ids_overlaybgtrans" val="Прозрачный"/>
+		<str id="ids_black" val="Черный"/>
+		<str id="ids_white" val="Белый"/>
+		<str id="ids_smallest" val="Наименьший"/>
+		<str id="ids_smaller" val="Малый"/>
+		<str id="ids_small" val="Меньше"/>
+		<str id="ids_medium" val="Средний"/>
+		<str id="ids_large" val="Больше"/>
+		<str id="ids_larger" val="Большой"/>
+		<str id="ids_largest" val="Наибольший"/>
+		<str id="ids_fontweightnormal" val="Обычный"/>
+		<str id="ids_fontweightbold" val="Полужирный"/>
+		<str id="ids_fontweightheavy" val="Жирный"/>
+		<str id="ids_overlaydatenone" val="Нет"/>
+		<str id="ids_overlaydate1" val="ГГГГ-ММ-ДД ЧЧ:ММ:СС"/>
+		<str id="ids_overlaydatelong" val="Длинный формат даты"/>
+		<str id="ids_overlaydateshort" val="Краткий формат даты"/>
+		<str id="ids_overlaydatetlong" val="Длинный формат даты и времени"/>
+		<str id="ids_overlaydatetshort" val="Краткий формат даты и времени"/>
+
+		<str id="ids_marker" val="Нет"/>
+		<str id="ids_markercross" val="Крест"/>
+		<str id="ids_markercircle" val="Круг"/>
+		<str id="ids_markercr" val="Крест+Прямоугольник"/>
+		<str id="ids_markercc" val="Крест+Круг"/>
+		<str id="ids_markercrosswidth" val="Ширина креста (%)"/>
+		<str id="ids_markercrossheight" val="Высота креста (%)"/>
+		<str id="ids_markerrectwidth" val="Ширина Прямоугольник (%)"/>
+		<str id="ids_markerrectheight" val="Высота Прямоугольник (%)"/>
+		<str id="ids_markerradius" val="Радиус круга (%)"/>
+		<str id="ids_markerx" val="x Смещение (%)"/>
+		<str id="ids_markery" val="y Смещение (%)"/>
+
+		<str id="ids_stitchfail" val="Не удалось сшить."/>
+		<str id="ids_stitchplane" val="Самолет"/>
+		<str id="ids_stitchcylindrical" val="Цилиндрические"/>
+		<str id="ids_stitchspherical" val="Сферические"/>
+		<str id="ids_stitchfisheye" val="Рыбий глаз"/>
+		<str id="ids_stitchstereographic" val="Стереографическая"/>
+		<str id="ids_stitchmercator" val="Меркатор"/>
+		<str id="ids_stitchtransversemercator" val="Поперечной проекции Меркатора"/>
+		<str id="ids_stitchseamfindervoronoi" val="Диаграмма Вороного"/>
+		<str id="ids_stitchseamfindergraphcutcolor" val="Граф вырезать цвет"/>
+		<str id="ids_stitchseamfindergraphcutcolorgrad" val="Граф вырезать цвет Град"/>
+		<str id="ids_stitchecgain" val="Усиление"/>
+		<str id="ids_stitchecbg" val="Усиление блоков"/>
+		<str id="ids_stitchbaray" val="Настройка лучей"/>
+		<str id="ids_stitchbareproj" val="Ошибка перепроецирования"/>
+		<str id="ids_crosssingle" val="Один"/>
+		<str id="ids_cross1" val="Двойной (1 пиксель)"/>
+		<str id="ids_cross3" val="Двойной (3 пикселя)"/>
+		<str id="ids_cross5" val="Двойной (5 пикселей)"/>
+		<str id="ids_cross7" val="Двойной (7 пикселей)"/>
+		<str id="ids_cross9" val="Двойной (9 пикселей)"/>
+		<str id="ids_cursorcross" val="Крест"/>
+		<str id="ids_cursorcrosshair" val="Прицел"/>
+		<str id="ids_cursorpoint" val="Точка"/>
+		<str id="ids_cursornull" val="Нет"/>
+
+		<str id="ids_videooverlay" val="Наложение видео"/>
+		<str id="ids_markertxt" val="Наложить"/>
+		<str id="ids_markergeo" val="Маркер"/>
+
+		<str id="ids_miscsplash" val="Показать заставку при запуске"/>
+		<str id="ids_miscscreensaver" val="Не включать заставку при предв.просмотре/съемке видео"/>
+		<str id="ids_misctft" val="Формат файла"/>
+		<str id="ids_misctftremind" val="Напоминать мне, когда формат файла не поддерживает объекты измерения"/>
+		<str id="ids_miscsidebar" val="Боковую панель"/>
+		<str id="ids_miscsidebarmeasurement" val="Автоматически активировать боковую панель измерения при измерении"/>
+		<str id="ids_miscsidebarfolders" val="Автоматически активируете боковую панель папок при открытии окна обзора"/>
+		<str id="ids_miscsidebarbrowse" val="Автоматически показывать окно поиска при двойном нажатии на папку"/>
+		<str id="ids_miscsidebarcamerastartup" val="Автоматически активировать камеры боковую панель при запуске"/>
+		<str id="ids_miscuistyle" val="Стиль UI"/>
+		<str id="ids_miscprivacy" val="Частный"/>
+		<str id="ids_miscrecent" val="Максимальное число последних файлов"/>
+		<str id="ids_miscclear" val="Очистить последние файлы при выходе из приложения"/>
+		<str id="ids_miscrestore" val="Восстановить текущую папку при запуске"/>
+		<str id="ids_misclang" val="Язык"/>
+		<str id="ids_miscte" val="Вступает в силу после перезапуска приложения"/>
+
+		<str id="ids_urimploperation" val="Использовать"/>
+
+		<str id="ids_pdmorphologic" val="Морфическое преобразование"/>
+		<str id="ids_pdmuststructure" val="Вы должны выбрать структуру."/>
+		<str id="ids_pdnostructure" val="Данная структура не существует."/>
+		<str id="ids_pdselectstructure" val="Выберите структуру."/>
+		<str id="ids_pddeletesure" val="Удалить?"/>
+		<str id="ids_pdenhancement" val="Улучшение изображения"/>
+		<str id="ids_pdbestfit" val="Максимум соответствие"/>
+		<str id="ids_pdequalize" val="Выравнивание области"/>
+		<str id="ids_pdundo" val="Отменить"/>
+		<str id="ids_pdconvertbit" val="Преобразовать в 8бит или 24бит?"/>
+		<str id="ids_pdexceed" val="Область превышена!"/>
+		<str id="ids_pdkernel" val="Операция ядра"/>
+		<str id="ids_pdmustname" val="Укажите имя."/>
+		<str id="ids_pdkernelsize" val="Недопустимый размер ядра."/>
+		<str id="ids_pdinputvalue" val="Укажите значение."/>
+		<str id="ids_pdoverwrite" val="Такая структура уже есть! Перезаписать?"/>
+		<str id="ids_pdedge" val="Выделение краев"/>
+		<str id="ids_pdautolevel" val="Авто уровень"/>
+		<str id="ids_pdautocontrast" val="Авто контраст"/>
+		<str id="ids_pdbcadj" val="Настройка яркости/контраста"/>
+		<str id="ids_pdcoloradj" val="Настройка цвета"/>
+		<str id="ids_pdhmsadj" val="Настройка HMS"/>
+		<str id="ids_pdgammaadj" val="Настройки Гаммы"/>
+		<str id="ids_pdhistogram" val="Выравнивание гистограммы"/>
+		<str id="ids_pdcurve" val="Настройка кривых"/>
+		<str id="ids_pdcolorquantize" val="Разрядность цвета: %d бит"/>
+		<str id="ids_pdbinary" val="Бинарный"/>
+		<str id="ids_pdgray" val="Серый"/>
+		<str id="ids_pdinvert" val="Инвертировать"/>
+		<str id="ids_pdrotatecw" val="Повернуть вправо"/>
+		<str id="ids_pdrotateccw" val="Повернуть влево"/>
+		<str id="ids_pdcrop" val="Обрезать"/>
+		<str id="ids_pdimagescale" val="Масштаб изображения"/>
+		<str id="ids_pdfliphorz" val="Отразить по горизонтали"/>
+		<str id="ids_pdflipvert" val="Отразить по вертикали"/>
+		<str id="ids_pdrange" val="Диапазон"/>
+		<str id="ids_pdfilters" val="Фильтры"/>
+		<str id="ids_pdinvalidheight" val="Недопустимая высота."/>
+		<str id="ids_pdfiltercolor" val="Фильтровать цвет"/>
+		<str id="ids_pdextractcolor" val="Извлечь цвет"/>
+		<str id="ids_pdluminosity" val="Яркость"/>
+		<str id="ids_bilinear" val="Билинейный"/>
+		<str id="ids_bicubic" val="Бикубический"/>
+
+		<str id="ids_filtermorp" val="Морфический"/>
+		<str id="ids_filterkern" val="Ядро"/>
+		<str id="ids_filterenhance" val="Улучшение изображения"/>
+		<str id="ids_filteredge" val="Улучшение края"/>
+
+		<str id="ids_extraopenfail" val="Не удалось открыть файл конфигурации!"/>
+		<str id="ids_extrasaveit" val="Текущий цвет изменен, сохранить?"/>
+		<str id="ids_extradyeexist" val="Такой цвет уже есть."/>
+		<str id="ids_extradeleteitem" val="Удалить этот объект?"/>
+		<str id="ids_extrasavedata" val="Сохранить данные?"/>
+		<str id="ids_extrareloaddata" val="Перезагрузить данные?"/>
+		<str id="ids_extraforfile" val="Для файла"/>
+
+		<str id="ids_labelaxis" val="Ось"/>
+		<str id="ids_labelwidthheight" val="Ширина и высота"/>
+
+		<str id="ids_layer" val="Слой"/>
+		<str id="ids_sheet" val="Лист измерений"/>
+		<str id="ids_sheet2" val="Центр"/>
+		<str id="ids_sheet3" val="Диаметр"/>
+		<str id="ids_sheet4" val="Площадь"/>
+		<str id="ids_sheet5" val="Длина"/>
+		<str id="ids_sheet7" val="Начало"/>
+		<str id="ids_sheet8" val="Конец"/>
+		<str id="ids_sheet9" val="Расстояние"/>
+		<str id="ids_pointname" val="Точка%d"/>
+		<str id="ids_intersection" val="Точка пересечения"/>
+		<str id="ids_foot" val="Основа"/>
+		<str id="ids_slope" val="Уклон"/>
+		<str id="ids_perimeter" val="Периметр"/>
+		<str id="ids_center" val="Центр"/>
+		<str id="ids_arclength" val="Периметр"/>
+		<str id="ids_ratio" val="Коэффициент"/>
+		<str id="ids_axes" val="Оси"/>
+		<str id="ids_layer0" val="Видимый"/>
+		<str id="ids_lunit0" val="Элемент"/>
+		<str id="ids_lunit2" val="Символ"/>
+		<str id="ids_lunit4" val="Масштаб"/>
+		<str id="ids_noname" val="[Без имени]"/>
+		<str id="ids_layerbackground" val="Задний план"/>
+		<str id="ids_layername" val="Имя слоя"/>
+		<str id="ids_sysunit" val="Система"/>
+		<str id="ids_userunit" val="Пользователь"/>
+		<str id="ids_errorfile" val="Ошибка формата файла."/>
+		<str id="ids_errordata" val="Ошибка данных файла."/>
+		<str id="ids_only1layer" val="Невозможно убрать последний слой."/>
+		<str id="ids_removecurrent" val="Невозможно убрать текущий слой."/>
+		<str id="ids_removelayer" val="Убрать этот слой?"/>
+		<str id="ids_removeitem" val="Убрать все выбранные объекты?"/>
+		<str id="ids_removeunit" val="Элемент удален успешно."/>
+		<str id="ids_unitsymbol" val="Символ не может быть пустым."/>
+		<str id="ids_invalidratio" val="Недопустимый коэффициент."/>
+		<str id="ids_sameunit" val="Не удалось добавить этот элемент, так как есть другой элемент с тем же именем."/>
+		<str id="ids_samesymbol" val="Не удалось добавить этот символ, так как есть другой символ с этим же именем."/>
+		<str id="ids_layersamename" val="Слой (слои) с этим именем уже есть.\nПродолжить?"/>
+		<str id="ids_nametolong" val="Имя слишком длинное."/>
+		<str id="ids_symboltolong" val="Имя слишком длинное."/>
+		<str id="ids_toomanyunit" val="Слишком много элементов пользователя"/>
+		<str id="ids_addunit" val="1. Масштаб - это отношение метра и выбранного элемента. Например:\n Отношение метра к миллиметру равно 1000, что иначе записывается выражением 1e3.\n Отношение метра к километру равно 0.001, что записывается выражением 1e-3.\n\n2. Символ: например, 'м' для метра, 'см' для сантиметра."/>
+		<str id="ids_general" val="Общее"/>
+		<str id="ids_lengthunit" val="Единица длины"/>
+		<str id="ids_angleunit" val="Угловой элемент"/>
+		<str id="ids_measurelist" val="Лист измерений"/>
+		<str id="ids_angle" val="Угол"/>
+		<str id="ids_ellipse" val="Эллипс"/>
+		<str id="ids_line" val="Линия"/>
+		<str id="ids_point" val="Точка"/>
+		<str id="ids_rect" val="Прямоугольник"/>
+		<str id="ids_parallel" val="Параллель"/>
+		<str id="ids_line3" val="Параллель (3 точки)"/>
+		<str id="ids_line2" val="Параллель (4 точки)"/>
+		<str id="ids_line4" val="Параллель (8 точки)"/>
+		<str id="ids_linea" val="Параллель (Произвольная)"/>
+		<str id="ids_vertical" val="Вертикаль"/>
+        <str id="ids_verany" val="Вертикаль (Произвольная)"/>
+		<str id="ids_circle" val="Круг"/>
+		<str id="ids_arc" val="Дуга"/>
+		<str id="ids_annulus" val="Кольцо"/>
+		<str id="ids_twocircles" val="Два круга"/>
+		<str id="ids_curve" val="Кривая"/>
+		<str id="ids_appearance" val="Отображение"/>
+		<str id="ids_geometry" val="Геометрия"/>
+		<str id="ids_coordinates" val="Координаты"/>
+		<str id="ids_lsize" val="Размер"/>
+		<str id="ids_mlinewidth" val="Ширина вспомогательная линия"/>
+		<str id="ids_linecolor" val="Цвет линии"/>
+		<str id="ids_mlinecolor" val="Цвет вспомогательная линия"/>
+		<str id="ids_linestyle" val="Стиль линии"/>
+		<str id="ids_mlinestyle" val="Стиль вспомогательная линия"/>
+		<str id="ids_fill" val="Залить"/>
+		<str id="ids_mline" val="Показать вспомогательная линия"/>
+		<str id="ids_amarker" val="Показать маркер угла"/>
+		<str id="ids_circled" val="Показать Диаметр / Радиус"/>
+		<str id="ids_circlec" val="Показать Центр"/>
+		<str id="ids_fillcolor" val="Цвет заливки"/>
+		<str id="ids_arrow" val="Стрелка"/>
+		<str id="ids_textcolor" val="Цвет текста"/>
+		<str id="ids_textalign" val="Выравнивание текста"/>
+		<str id="ids_lframe" val="Рамка"/>
+		<str id="ids_edittext" val="Редактировать текст"/>
+		<str id="ids_textleft" val="По левому краю"/>
+		<str id="ids_textright" val="По правому краю"/>
+		<str id="ids_lnum" val="Нет."/>
+		<str id="ids_ltoolbarshow" val="Показать/Скрыть"/>
+		<str id="ids_fontstyle0" val="Обычный"/>
+		<str id="ids_fontstyle1" val="Полужирный"/>
+		<str id="ids_fontstyle2" val="Курсив"/>
+		<str id="ids_fontstyle3" val="Полужирный курсив"/>
+		<str id="ids_decimal" val="десятичный"/>
+		<str id="ids_decimal0" val="0 десятичный"/>
+		<str id="ids_decimal1" val="1 десятичный"/>
+		<str id="ids_decimal2" val="2 десятичных"/>
+		<str id="ids_decimal3" val="3 десятичных"/>
+		<str id="ids_decimal4" val="4 десятичных"/>
+		<str id="ids_decimal5" val="5 десятичных"/>
+		<str id="ids_decimal6" val="6 десятичных"/>
+		<str id="ids_labeltype" val="Ярлык Тип"/>
+		<str id="ids_labelpos" val="Ярлык Позиция"/>
+		<str id="ids_ltrans" val="Прозрачный фон"/>
+		<str id="ids_lbkclr" val="Цвет фона"/>
+		<str id="ids_ecce" val="Эксцентриситет"/>
+		<str id="ids_pdegree" val="Угол профиля"/>
+		<str id="ids_hollowness" val="Соотношения"/>
+		<str id="ids_chollowness" val="Соотношение окружностей"/>
+		<str id="ids_phollowness" val="Соотношение полигонов"/>
+		<str id="ids_fratio" val="Отношение отрезков"/>
+		<str id="ids_rect2p" val="Прямоугольник (2 точки)"/>
+		<str id="ids_rect3p" val="Прямоугольник (3 точки)"/>
+		<str id="ids_angle3p" val="Angle (3 точки)"/>
+		<str id="ids_angle4p" val="Angle (4 точки)"/>
+		<str id="ids_circle1" val="Круг (Центр+Радиус)"/>
+		<str id="ids_circle2" val="Круг (2 точки)"/>
+		<str id="ids_circle3" val="Круг (3 точки)"/>
+		<str id="ids_annulus2" val="Кольцо (Центр+Радиус)"/>
+		<str id="ids_annulus3" val="Кольцо (3 точки)"/>
+		<str id="ids_vertical3p" val="Вертикаль (3 точки)"/>
+		<str id="ids_vertical4p" val="Вертикаль (4 точки)"/>
+		<str id="ids_ellipse2p" val="Эллипс (2 точки)"/>
+		<str id="ids_ellipse5p" val="Эллипс (5 точки)"/>
+		<str id="ids_ellipse3p" val="Эллипс (3 точки)"/>
+		<str id="ids_vline" val="Вертикальная линия"/>
+		<str id="ids_hline" val="Горизонтальная линия"/>
+		<str id="ids_twocircle3p" val="Два круга (Центр+Радиус)"/>
+		<str id="ids_twocircle2p" val="Два круга (3 точки)"/>
+		<str id="ids_line3p" val="Линия (3 точки)"/>
+		<str id="ids_vline3p" val="Вертикальная линия (3 точки)"/>
+		<str id="ids_hline3p" val="Горизонтальная линия (3 точки)"/>
+		<str id="ids_linemulti" val="Линия (Многоточечное соединение)"/>
+
+		<str id="ids_errgeneric" val="Общая ошибка."/>
+		<str id="ids_errnullname" val="Название не может быть пустым."/>
+		<str id="ids_errsamename" val="Это название уже существует."/>
+		<str id="ids_errsameid" val="Это ID уже существует."/>
+		<str id="ids_erropenfile" val="Невозможно открыть файл."/>
+		<str id="ids_errfileformat" val="Неверный формат файла."/>
+		<str id="ids_errmsgproduct" val="Несовместимая модель камера."/>
+		<str id="ids_errusb" val="Несоответствие версии USB."/>
+		<str id="ids_errmode" val="Несоответствие режимов."/>
+
+		<str id="ids_resetlayout" val="Ориентация окна сбросится после перезапуска."/>
+		<str id="ids_startbroadcast" val="Начать &amp;широковещание..."/>
+		<str id="ids_stopbroadcast" val="Остановить &amp;широковещание"/>
+
+		<str id="ids_stackingfail" val="Не удалось наложить изображение."/>
+
+		<str id="ids_objcount" val="Счетчик &amp; сегментации"/>
+		<str id="ids_objsplit" val="Разделить объект"/>
+		<str id="ids_objcountosoutline" val="Контур"/>
+		<str id="ids_objcountosfilled" val="Заполнен"/>
+
+		<str id="ids_counthisv" val="Значение"/>
+
+		<str id="ids_edfc" val="Максимальный контраст"/>
+		<str id="ids_edfw" val="Взвешенное среднее"/>
+		<str id="ids_edfs" val="Наложение"/>
+		<str id="ids_edffm" val="Параметры FFDSSD"/>
+		<str id="ids_edfcapture" val="Захват изображения"/>
+		<str id="ids_edfmethod" val="Выбрать метод"/>
+		<str id="ids_edfself" val="Выбрать файлы"/>
+		<str id="ids_edfaa" val="Автовыравнивание"/>
+		<str id="ids_edfadesc" val="Выберите правильный режим автовыравнивания в зависимости от наличия сдвига, масштабирования или поворота в обрабатываемых изображениях.\n\nВремя потребления EDF зависит от настроек максимального угла. При увеличении максимума время увеличивается, и связь между ними нелинейна. По умолчанию максимальный угол равен 1,0°."/>
+		<str id="ids_edfcaptips" val="Настройте микроскоп так, чтобы разные части объекта были четкими. Захватите изображение, когда объект находится в разном положении. Шаг настройки определяется пользователем. Обычно, чем меньше шаг, тем больше получится деталей. Положение объекта и микроскопа следует менять в одинаковом направлении."/>
+		<str id="ids_edfpdesc" val="Эти три значения не изолированы. Четкость деталей влияет на четкость результата. Яркость фона - это величина коррекции, используемая для увеличения или уменьшения фона. Регулировка этих двух настроек приведет к изменению общей яркости. Поэтому может потребоваться регулировка и общей яркости."/>
+		<str id="ids_edfmdesc" val="\tМетод взвешенного среднего дает плавное слияние, но часть деталей при этом может теряться. Этот метод часто дает лучший результат, чем метод FFDSSD, использующий глубокие наложения (например, изображения, которые дает микроскоп). Обрабатываемые изображения должны быть упорядочены по Z (от ближнего к дальнему или от дальнего к ближнему, по отношению линзы объектива микроскопа к препарату на предметном столике).\n\tМетод максимального контраста подобен методу взвешенного среднего, и вводимые изображения тоже должны быть упорядочены по Z. Разница заключается в том, что при методе максимального контраста может потеряться часть деталей, хотя оставшиеся детали будут более четкими. Метод максимального контраста является предпочтительным методом EDF.\n\tFFDSSD - это метод, который фильтрует частоты с помощью быстрого преобразования Фурье (FFT) и обеспечивает синтез в пространственной области. FFDSSD можно применять для изображений с неверным выравниванием. Пользователь может вручную или автоматически выбрать опорные изображения для выравнивания входных ихображений."/>
+		<str id="ids_maxedf" val="Слишком много изображений. Количество изображений не может превышать %u."/>
+
+		<str id="ids_panefloating" val="&amp;Плавающее"/>
+		<str id="ids_panedocking" val="&amp;Закрепленное"/>
+		<str id="ids_paneautohide" val="&amp;Автоматически скрывать"/>
+		<str id="ids_panehide" val="&amp;Скрыть"/>
+		<str id="ids_scrright" val="Прокрутить вправо"/>
+		<str id="ids_scrleft" val="Прокрутить влево"/>
+        <str id="ids_autohideall" val="Автоматически скрывать все"/>
+        <str id="ids_autohide" val="Автоматически скрывать"/>
+        <str id="ids_winpos" val="PПоложение окна"/>
+
+		<str id="ids_wmdtitle" val="Окна"/>
+		<str id="ids_wmdselwin" val="Выбрать о&amp;кно:"/>
+		<str id="ids_wmdactivate" val="&amp;Активировать"/>
+		<str id="ids_wmdsave" val="&amp;Сохранить"/>
+		<str id="ids_wmdclose" val="&amp;Закрыть окна"/>
+		<str id="ids_wmdcasc" val="Каска&amp;дом"/>
+		<str id="ids_wmdtileh" val="&amp;Горизонтально"/>
+		<str id="ids_wmdtilev" val="&amp;Вертикально"/>
+		<str id="ids_wmdmini" val="Све&amp;рнуть"/>
+
+		<str id="ids_colorstandard" val="Обычные"/>
+		<str id="ids_colorcolorscolon" val="Цвета:"/>
+		<str id="ids_colorselect" val="В&amp;ыбор..."/>
+		<str id="ids_colorhue" val="О&amp;ттенок:"/>
+		<str id="ids_colorsaturation" val="&amp;Насыщение:"/>
+		<str id="ids_colorluminence" val="&amp;Яркость:"/>
+		<str id="ids_colorred" val="&amp;Красный:"/>
+		<str id="ids_colorgreen" val="&amp;Зеленый:"/>
+		<str id="ids_colorblue" val="&amp;Синий:"/>
+
+		<str id="ids_unsupportformat" val="Неподдерживаемый формат."/>
+		<str id="ids_hdrfail" val="Не удалось синтезировать HDR."/>
+
+		<str id="ids_miscopencl" val="Включение обработки GPU-ускоренного изображений"/>
+
+		<str id="ids_sharpen" val="Резкость"/>
+		<str id="ids_decolor" val="Убрать цвет"/>
+		<str id="ids_detailenhance" val="Улучшить детали"/>
+		<str id="ids_smooth" val="Сглаживание"/>
+
+		<str id="ids_llc" val="Местная цветовая коррекция"/>
+		<str id="ids_toolbar_st4" val="ST4 Тест"/>
+
+		<str id="ids_bits" val="%u бит"/>
+		<str id="ids_roitosmall" val="ROI ширина и высота должна быть больше 32."/>
+		<str id="ids_recordstep2tipwmv" val="К имени файла автоматически будет добавлено расширение .wmv."/>
+
+		<str id="ids_dfcimportfail" val="Не удалось импортировать."/>
+		<str id="ids_dfcexportfail" val="Не удалось экспортировать."/>
+		<str id="ids_dfcimportmis" val="Не удалось импортировать, несовместимая."/>
+
+		<str id="ids_deinterlace" val="Деинтерлейсинг"/>
+
+		<str id="ids_sernext" val="Следующий кадр"/>
+		<str id="ids_serprev" val="Предыдущий кадр"/>
+
+		<str id="ids_pxsize" val="Размер пикселя"/>
+
+		<str id="ids_extrigger" val="Внешние"/>
+
+		<str id="ids_tecoutofrange" val="Входное значение находится вне диапазона [%.1f, %.1f]."/>
+		<str id="ids_tempunit" val="Единицы температуры"/>
+
+		<str id="ids_batchrecord" val="Пакет видео"/>
+		<str id="ids_autocapture" val="Покадровая съемка"/>
+		<str id="ids_startacapture" val="Покадровая &amp;съемка"/>
+		<str id="ids_stopacapture" val="&amp;Остановить съемка"/>
+		<str id="ids_pause" val="Начать/Пауза"/>
+		<str id="ids_sametarget" val="Цель &quot;%s&quot; уже существует."/>
+		<str id="ids_livestack" val="Живой стэк"/>
+		<str id="ids_livestacknormal" val="Ок"/>
+		<str id="ids_livestackvalfail" val="Недостаточно резко"/>
+		<str id="ids_livestacknostars" val="Недостаточно звезд"/>
+		<str id="ids_livestacknomatches" val="Недостаточно совпадений"/>
+
+		<str id="ids_compatible" val="Совместимость"/>
+
+		<str id="ids_hwver" val="Аппаратная версия"/>
+		<str id="ids_fwver" val="Версия прошивки"/>
+		<str id="ids_fpgaver" val="FPGA версия"/>
+		<str id="ids_mcuver" val="MCU версия"/>
+
+		<str id="ids_toolbarhtml" val="Экспорт в Html"/>
+
+		<str id="ids_background" val="Задний план"/>
+		<str id="ids_saveas" val="Сохранить как"/>
+
+		<str id="ids_calibratebin" val="Невозможно откалибровать при биннинге, текущий биннинг %d."/>
+		<str id="ids_shcsidebar" val="Показывать или скрывать панель управления камерой"/>
+		<str id="ids_tctitle" val="Команды"/>
+		<str id="ids_tckey" val="Клавиатура"/>
+		<str id="ids_tccat" val="Категории:"/>
+		<str id="ids_tccmd" val="Команды:"/>
+		<str id="ids_tcallcmd" val="Все команды"/>
+		<str id="ids_addrbtn" val="&amp;Добавить или удалить кнопки"/>
+		<str id="ids_toolbarreset" val="&amp;Сброс панели инструментов"/>
+		<str id="ids_resetask" val="Осуществить сброс панели инструментов?"/>
+		<str id="ids_tctip" val="Чтобы добавить кнопку, перетащите кнопку с правой стороны на панель инструментов.\r\nЧтобы удалить кнопку, перетащите ее из панели инструментов."/>
+		<str id="ids_kcate" val="Кате&amp;гория:"/>
+		<str id="ids_kcmd" val="К&amp;оманды:"/>
+		<str id="ids_krem" val="&amp;Удалить"/>
+		<str id="ids_kres" val="Сбросить &amp;все"/>
+		<str id="ids_kass" val="&amp;Назначить"/>
+		<str id="ids_kato" val="Назначен для:"/>
+		<str id="ids_knew" val="&amp;Новое сочетание клавиш:"/>
+		<str id="ids_kcur" val="Т&amp;екущие клавиши:"/>
+		<str id="ids_unass" val="[Неприсвоенный]"/>
+		<str id="ids_kreset" val="Все изменения будут потеряны. Осуществить сброс назначений клавиатуры?"/>
+
+		<str id="ids_imagetype" val="Тип изображения"/>
+		<str id="ids_lightf" val="Светлый кадр"/>
+		<str id="ids_biasf" val="Средний кадр"/>
+		<str id="ids_darkf" val="Темный кадр"/>
+		<str id="ids_flatf" val="Плоский кадр"/>
+		<str id="ids_tricolor" val="Трехцветное изображение"/>
+
+		<str id="ids_focal" val="Фокусное расстояние"/>
+		<str id="ids_temp" val="Температура датчика"/>
+		<str id="ids_longitude" val="Долгот, Диапазон = [-180.0, 180.0], например, 15.715, 15.715E, 15°42'9&quot;E"/>
+		<str id="ids_latitude" val="Широт, Диапазон = [-90.0, 90.0], например, 15.715, 15.715N, 15°42'9&quot;N"/>
+
+		<str id="ids_str" val="Строка"/>
+		<str id="ids_int" val="Целое число"/>
+		<str id="ids_real" val="Вещественное число"/>
+		<str id="ids_fitsadd" val="Двойной клик добавит пользовательское свойство"/>
+		<str id="ids_fitssame" val="Такой FITS уже существует"/>
+
+		<str id="ids_metadescascom" val="Этот лист свойств используется для установки значений свойств различных форматов файлов, включая файлы FITS и EXIF ​​(включая jpg, png, tiff и т. Д.). Пустой элемент в столбце EXIF ​​означает, что файл EXIF ​​не поддерживает эту информацию, что соответствует столбцу FITS. [Авто] в столбце значений означает, что программное обеспечение автоматически заполнит информацию. Для других элементов, значение столбца которых не равно [Авто], вы можете дважды щелкнуть элементы и установить значение."/>
+		<str id="ids_metadescmicro" val="Этот лист свойств используется для установки значений свойств различных форматов файлов, включая jpg, png, tiff и т. Д. [Авто] в столбце значений означает, что программное обеспечение автоматически заполнит информацию. Для других элементов, для которых столбец значений не является [Авто], вы можете дважды щелкнуть элементы и установить значение."/>
+
+		<str id="ids_recordfail1" val="Не удалось начать запись"/>
+		<str id="ids_recordfail2" val="Не удалось начать запись, возможно разерешние слишком высокое"/>
+
+		<str id="ids_tel" val="Тел."/>
+
+		<str id="ids_external" val="Внешнее приложение"/>
+		<str id="ids_exe" val="Программа"/>
+
+		<str id="ids_temptint" val="Цветовая температура/Тон"/>
+		<str id="ids_rgbgain" val="RGB Усиление"/>
+
+		<str id="ids_even" val="Введите четное число."/>
+
+		<str id="ids_report" val="Отчет"/>
+		<str id="ids_reportdenied" val="В доступе к шаблону отказано.\nВозможно шаблон заблокирован другим приложением.\nЕсли проблема сохранится, попробуте перезагрузить компьютер."/>
+		<str id="ids_reporttip" val="1. Шаблон отчета использует заполнители для представления различного содержимого, подлежащего замене.\r\n2. {{YYYY}} {{mm}} {{DD}} {{HH}} {{MM}} {{SS}} - это местозаполнитель времени, который представляет соответственно год, месяц, день, час, минуты и секунды. {{LD}} {{SD}} соответственно представляет длинную дату и короткую дату. \r\n3. Изображение в этом шаблоне, заголовок или описание альтернативного текста которого {{IP}}, будет считаться заполнителем изображения, число указывает последовательность изображений, например {{IP1}}, {{IP2}} и т. Д. \г\n4. Таблица, заполненная содержимым {{MT}}, будет считаться заполнителем таблицы измерений. {{MH}} представляет заголовок таблицы.\r\n5. {{MT.i.x.y}} является заполнителем для содержимого таблицы измерений. i - индекс изображения, x - индекс строки элемента в таблице измерений. is y - индекс столбца элемента в таблице измерений. Если в отчете есть только одно изображение, i должно быть установлено в 1. Начальное значение i, x, y равно 1. Например, {{MT.1.2.3}} представляет содержимое элемента, которое в строке 2, столбце 3 положение таблицы измерений изображения 1. Когда x является отрицательным значением, оно указывает x-ую строку последнего числа, например, {{MT.1.-2.3}} представляет содержимое предпоследнего вторая строка и третий столбец таблицы измерений первого изображения.\r\n6. {{LU}} {{AU}} {{SU}} являются заполнителями для единиц длины, угла и площади соответственно. {{lu}} {{au}} {{su}} означают сокращения.\r\n7. При создании отчета Word / Excel заполнители изображений будут заменены соответствующим содержимым. Замена нескольких изображений будет зависеть от порядка выбора изображений в пользовательском интерфейсе миниатюр.\r\n8. Версия Word / Excel должна быть 2007 или выше."/>
+		<str id="ids_reportresall" val="Содержимое шаблона будет стерто и заменено шаблоном по умолчанию. Вы готовы продолжить?"/>
+
+		<str id="ids_exportexcel" val="Экспорт в Microsoft Excel"/>
+		<str id="ids_exportcsv" val="Экспорт в CSV"/>
+		<str id="ids_csvplus" val="Рабочий процесс"/>
+
+		<str id="ids_affocused" val="Сфокусировано"/>
+		<str id="ids_affocusing" val="Фокусировка"/>
+		<str id="ids_afdefocus" val="Расфокус"/>
+		<str id="ids_toofar" val="Очень далеко"/>
+		<str id="ids_tooclose" val="Слишком близко"/>
+
+		<str id="ids_webppresetphoto" val="Фото"/>
+		<str id="ids_webppresetpicture" val="Картина"/>
+		<str id="ids_webppresetdrawing" val="Чертежа"/>
+		<str id="ids_webppreseticon" val="Иконка"/>
+
+		<str id="ids_dlpending" val="Загрзука в процессе, вы уверены что хотите отменить?"/>
+		<str id="ids_dlnormal" val="Загрузка"/>
+		<str id="ids_dlcompleted" val="Готово"/>
+		<str id="ids_dlpaused" val="Пауза"/>
+
+		<str id="ids_gpuwin8" val="Аппаратное ускорение (GPU) доступно только в Windows 8 или выше."/>
+		<str id="ids_gpuinsu" val="Аппаратное ускорение (GPU) может снизить производительность ЦП. Если разрешение превысит допустимое, то аппаратная обработка автоматически прекратится."/>
+
+		<str id="ids_cursorcross" val="Крест"/>
+
+		<str id="ids_segts" val="Сегментов"/>
+		<str id="ids_edges" val="Ребро"/>
+		<str id="ids_avgang" val="Средний угол"/>
+		<str id="ids_seglength" val="Длина сегмента"/>
+		<str id="ids_avglength" val="Средняя длина"/>
+		<str id="ids_ttllength" val="Общая длина"/>
+		<str id="ids_randomcon" val="Случайное соединение"/>
+		<str id="ids_multicon" val="Многоточечное соединение"/>
+		<str id="ids_segdistance" val="Расстояние сегмента"/>
+		<str id="ids_avgdistance" val="Средняя расстояние"/>
+		<str id="ids_ttldistance" val="Общая расстояние"/>
+
+		<str id="ids_stitchexpand" val="Обработка в процессе"/>
+		<str id="ids_stitchexpdis" val="Отключать автоматическую выдержку во время панорамирования"/>
+		<str id="ids_edfexpdis" val="Отключать автоматическую выдержку во EDF"/>
+		<str id="ids_edfsize" val="Размер видео"/>
+
+		<str id="ids_exportmea" val="Экспорт и Слияние"/>
+		<str id="ids_exportshowdlg" val="Показывать окно настроек при экспорте или слянии."/>
+
+		<str id="ids_expseglen0" val="Буфер обмена"/>
+		<str id="ids_expseglen1" val="CSV Файл"/>
+		<str id="ids_expseglen2" val="Microsoft Excel"/>
+
+		<str id="ids_cpucore" val="Количество ядер"/>
+		<str id="ids_cputhrd" val="Количество потоков"/>
+
+		<str id="ids_fspeed" val="Скороть кадров"/>
+
+		<str id="ids_fastest" val="Быстрый"/>
+		<str id="ids_slowest" val="Медленный"/>
+
+		<str id="ids_edgelen" val="Длина кромки"/>
+		<str id="ids_avgedge" val="Средняя длина кромки"/>
+
+		<str id="ids_policy" val="Политика"/>
+		<str id="ids_ae0" val="Только выдержка"/>
+		<str id="ids_ae1" val="Предпочтительно выдержка"/>
+		<str id="ids_ae2" val="Только усиление"/>
+		<str id="ids_ae3" val="Предпочтительно усиление"/>
+		<str id="ids_aeexpmax" val="Максимальное время выдержки"/>
+		<str id="ids_aegainmax" val="Максимальное усиление"/>
+
+		<str id="ids_stitchres" val="Автоматически применять калибровку для результирующего изображения панорамы. Точность может отличаться от эталонной"/>
+		<str id="ids_edfres" val="Автоматически применять калибровку для результирующего EDF изображения. Точность может отличаться от эталонной"/>
+
+		<str id="ids_miscbmp" val="Добавить формат BMP в диалог быстрого сохранения файлов."/>
+		<str id="ids_csvutf8" val="Использование кодировки UTF8 в CSV"/>
+
+		<str id="ids_sensor" val="Датчик"/>
+		<str id="ids_ccdpro" val="Прогрессивная"/>
+		<str id="ids_ccdint" val="Чересстрочная"/>
+		<str id="ids_glsh" val="Глобальный-шаттер"/>
+		<str id="ids_rosh" val="Роллинг-шаттер"/>
+		<str id="ids_ddrbuf" val="DDR Кадровый буфер"/>
+		<str id="ids_isp" val="Аппаратная ISP"/>
+
+		<str id="ids_delay" val="Задержка"/>
+		<str id="ids_ioctrl" val="Контроль ввода-вывода"/>
+		<str id="ids_ioctrlii" val="Изолированный ввод"/>
+		<str id="ids_ioctrlio" val="Изолированный вывод"/>
+		<str id="ids_ioctrlip" val="Ввод"/>
+		<str id="ids_ioctrlop" val="Вывод"/>
+		<str id="ids_ioctrlnc" val="Нет соединения"/>
+		<str id="ids_ioctrlts" val="Тройное состояние"/>
+		<str id="ids_ioctrloc" val="Делитель"/>
+		<str id="ids_ioctrlpo" val="Восходящий край"/>
+		<str id="ids_ioctrlne" val="Падающая кромка"/>
+		<str id="ids_ioctrlhl" val="Высокий уровень"/>
+		<str id="ids_ioctrlll" val="Низкий уровень"/>
+		<str id="ids_ioctrlco" val="Счетчик"/>
+		<str id="ids_ioctrlpw" val="ШИМ"/>
+		<str id="ids_ioctrlft" val="Триггер ожидания"/>
+		<str id="ids_ioctrlea" val="Активность экспозиции"/>
+		<str id="ids_ioctrlsb" val="Вспышка"/>
+		<str id="ids_ioctrluo" val="Пользовательский вывод"/>
+		<str id="ids_ioctrlpd" val="Пре-задержка"/>
+		<str id="ids_ioctrldl" val="Задержка"/>
+
+		<str id="ids_luafilerr" val="Ошибка файла LUA"/>
+		<str id="ids_sameluaerr" val="Данное вычисление уже существует"/>
+
+		<str id="ids_imageid" val="ID изображения"/>
+		<str id="ids_timestamp" val="Временная метка"/>
+		<str id="ids_timestamptxt" val="Если камера поддерживает данную функцию, то временная метка автоматически сохраняется в файл timestamp.txt"/>
+
+		<str id="ids_meanintensity" val="Средняя интенсивность"/>
+		<str id="ids_intensity" val="Интенсивность"/>
+
+		<str id="ids_typemis" val="Несоответствие типа"/>
+		<str id="ids_showsub" val="Показать подчиненные объекты"/>
+
+		<str id="ids_connection" val="Соединение"/>
+
+		<str id="ids_pbslow" val="Медленный"/>
+		<str id="ids_pbfast" val="Быстрый"/>
+		<str id="ids_pbstep" val="Шаг"/>
+		
+		<str id="ids_multicast" val="Мультивещание"/>
+
+		<str id="ids_custommo" val="Пользовательские измерения"/>
+
+		<str id="ids_3drender" val="Рендер"/>
+		<str id="ids_3dlight" val="Свет"/>
+
+		<str id="ids_tecpower" val="TEC Мощность"/>
+
+		<str id="ids_zoomnoctrl" val="Колесо мышки"/>
+		<str id="ids_zoomctrl" val="Ctrl + Колесо мышки"/>
+
+		<str id="ids_page" val="Страница"/>
+		<str id="ids_nextp" val="Следующая страница"/>
+		<str id="ids_prevp" val="Предыдущая страница"/>
+		<str id="ids_firp" val="Первая страница"/>
+		<str id="ids_lasp" val="Последняя страница"/>
+
+		<str id="ids_fnew" val="Переключаться на создаваемую фотографию"/>
+
+        <str id="ids_stat" val="Статистика"/>
+        
+		<str id="ids_hsty" val="H Стиль"/>
+		<str id="ids_half" val="Половина"/>
+		<str id="ids_acum" val="Совокупный режим"/>
+		<str id="ids_comp" val="Мультиканальная"/>
+
+		<str id="ids_powerc" val="Энергопотребление"/>
+
+		<str id="ids_writabledir" val="Папка не существует или недоступен для записи."/>
+
+		<str id="ids_namepre" val="Название Префикс"/>
+		
+		<str id="ids_cmptip" val="Выберите 1 или 3 элемента для сравнения с текущим:\r\n&quot;%s&quot;"/>
+
+		<str id="ids_relt" val="Результат"/>
+        
+        <str id="ids_exsf" val="Экспорт текущих настроек в &amp;файл..."/>
+        <str id="ids_exse" val="Экспорт текущих настроек в &amp;EEPROM"/>
+        <str id="ids_exsa" val="&amp;Указанный адрес..."/>
+        <str id="ids_exs0" val="&amp;Нулевой адрес"/>
+		<str id="ids_extemp" val="История экспортных &amp;температур..."/>
+        
+        <str id="ids_cpattern" val="Клетчатый узор"/>
+		
+		<str id="ids_ocws" val="Размытие"/>
+		<str id="ids_ocsd" val="OTSU: Темные"/>
+		<str id="ids_ocsb" val="OTSU: Яркие"/>
+		
+		<str id="ids_ebusy" val="Камера используется другими приложениями."/>
+		<str id="ids_ecrc" val="Блок питания может быть недостаточным."/>
+		
+		<str id="ids_squ" val="Последовательность"/>
+		
+		<str id="ids_littleend" val="Маленький Эндиан"/>
+		<str id="ids_bigend" val="Биг Эндиан"/>
+		<str id="ids_bnum" val="Количество байтов"/>
+		
+		<str id="ids_deqdepth" val="Длина буфера кадров"/>
+		<str id="ids_fend" val="Фронтенд"/>
+		<str id="ids_bend" val="Бэкенд"/>
+		<str id="ids_tecam" val="Вступает в силу после повторного открытия камеры"/>
+			
+		<str id="ids_gridm" val="Cетки: Слияние с изображением"/>
+		
+		<str id="ids_motion" val="В движении"/>
+		<str id="ids_idle" val="Неработающий"/>
+		
+		<str id="ids_grc" val="Общий"/>
+		<str id="ids_pta" val="Анализ частиц"/>
+		<str id="ids_phc" val="Подсчет фаз"/>
+		<str id="ids_oth" val="Другой"/>
+		
+		<str id="ids_farea" val="Зона фокусировки"/>
+		
+		<str id="ids_lowestcpu" val="Самая низкая загрузка CPU"/>
+		<str id="ids_highcpu" val="Высокая загрузка CPU"/>
+		<str id="ids_highercpu" val="Более высокая загрузка CPU"/>
+		<str id="ids_highestcpu" val="Самая высокая загрузка CPU"/>
+		
+		<str id="ids_fscr" val="Полноэкранный режим"/>
+		<str id="ids_xfscr" val="Выйти из полноэкранного режима"/>
+		
+		<str id="ids_updategige" val="Завершено успешно, выключите и перезагрузите камеру."/>
+		
+		<str id="ids_gainshow" val="Прирост воздействия выражается как:"/>
+		<str id="ids_decibel" val="Децибел (dB)"/>
+		
+		<str id="ids_workd" val="Рабочее расстояние"/>
+		<str id="ids_efl" val="Эффективное фокусное расстояние"/>
+		
+		<str id="ids_notcal" val="Не калибровано"/>
+		
+		<str id="ids_opencom" val="Не удалось открыть %s."/>
+		
+		<str id="ids_chamber" val="Камера"/>
+		<str id="ids_humidity" val="Влажность"/>
+		
+		<str id="ids_uptm" val="Аптайм"/>
+	</string>
+
+	<dialog>
+		<str id="ids_man" val="Управление"/>
+		<str id="ids_tips" val="Советы"/>
+		<str id="ids_clear" val="Очистить"/>
+		<str id="ids_snap" val="Кадр"/>
+		<str id="ids_reco" val="Видео"/>
+		<str id="ids_qu" val="Количество"/>
+		<str id="ids_bf" val="Оптимальный"/>
+		<str id="ids_seq" val="Последовательность начинается с:"/>
+		<str id="ids_number" val="Номер"/>
+		<str id="ids_mode" val="Режим"/>
+		<str id="ids_qu100" val="Качество (25-100):"/>
+		<str id="ids_aval" val="Доступные"/>
+		<str id="ids_sedl" val="Выбранные"/>
+		<str id="ids_adgt" val="Добавить&gt;&gt;"/>
+		<str id="ids_aagt" val="Добавить все"/>
+		<str id="ids_v" val="Значение:"/>
+		<str id="ids_border" val="Порядок байтов:"/>
+		<str id="ids_sm" val="Режим затвора:"/>
+		<str id="ids_unidir" val="Однонаправленный"/>
+		<str id="ids_defi" val="Определять..."/>
+		<str id="ids_goto" val="Перейти"/>
+		<str id="ids_tb" val="Таблица цветов"/>
+		<str id="ids_conmode" val="Непрерывный режим"/>
+		<str id="ids_timeval" val="Временной интервал:"/>
+	
+		<dlg id="IDD_ABOUTBOX">
+			<str id="up" val="Обновление программы"/>
+		</dlg>
+
+		<dlg id="IDD_AUTO">
+			<str id="dir" val="Папка:"/>
+			<str id="for" val="Формат имени:"/>
+			<str id="pre" val="Префикс файла:"/>
+			<str id="cm" val="Режим съемки"/>
+			<str id="ef" val="Захватить каждый кадр"/>
+			<str id="time" val="Временной интервал (cекунд)"/>
+			<str id="tt" val="Все изображения"/>
+			<str id="so" val="Последовательность Опция"/>
+			<str id="sv" val="Показать в окне видео"/>
+			<str id="sw" val="Показать в новом окне"/>
+			<str id="sd" val="Сохранить на диск"/>
+			<str id="base" val="База:"/>
+			<str id="sub" val="Подкаталоги:"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHSAVE">
+			<str id="tl" val="Сохранить пакетом"/>
+			<str id="dir" val="Папка:"/>
+			<str id="for" val="Формат:"/>
+			<str id="pre" val="Префикс:"/>
+			<str id="show" val="Показать диалоговое окно Переименовать"/>
+			<str id="base" val="База:"/>
+			<str id="sub" val="Подкаталоги:"/>
+			<str id="qst" val="1. Эти настройки применяются к меню &quot;Сохранить быстро&quot; и к соответствующей кнопке в панели задач. При вызове &quot;Сохранить быстро&quot; изображения будут быстро сохраняться в указанную папку согласно заданным настройкам.\n2. Если выбран RGB48, изображение всегда будет сохранено как файл tif или png, потому что только файл tif и png может поддерживать RGB48."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD">
+			<str id="dir" val="Папка:"/>
+			<str id="frm" val="Формат имени:"/>
+			<str id="pf" val="Префикс файла:"/>
+			<str id="sh" val="Показать диалоговое окно Переименовать"/>
+			<str id="lm" val="Лимит"/>
+			<str id="tl" val="Лимит времени (cекунд):"/>
+			<str id="fl" val="Лимит Кадр:"/>
+			<str id="base" val="База:"/>
+			<str id="sub" val="Подкаталоги:"/>
+			<str id="fo" val="Параметры имени файла..."/>
+			<str id="do" val="Параметры каталога..."/>
+			<str id="tip" val="Когда включена быстрая запись, мастер записи не будет отображаться. Когда начнется быстрая запись:\n1. Имя файла и каталог будут автоматически сгенерированы в соответствии с &quot;Параметрами имени файла&quot; и &quot;Опциями папки&quot;;\n2. Битрейт равен битрейту по умолчанию (рассчитанному на основе ширины, высоты и частоты кадров видео), умноженному на процент масштабирования битрейта, использованный для последней записи"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHRECORD">
+			<str id="num" val="Количество видео:"/>
+			<str id="it" val="Временной интервал (cекунд):"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_SELECT">
+			<str id="tl" val="EDF"/>
+			<str id="open" val="Открыто:"/>
+			<str id="se" val="Выбрано:"/>
+			<str id="pro" val="Выполнено:"/>
+			<str id="aa" val="Добавить все"/>
+			<str id="fuse" val="Начало"/>
+			<str id="m" val="Метод:"/>
+		</dlg>
+
+		<dlg id="IDD_MAG">
+			<str id="cla" val="Очистить все"/>
+		</dlg>
+
+		<dlg id="IDD_CALIBRATE">
+			<str id="ac" val="Действительная длина"/>
+			<str id="pi" val="Пиксель"/>
+			<str id="pm" val="Пиксель/м"/>
+			<str id="ep" val="Конечная точка"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAEXPOSURE">
+			<str id="ll" val="Компенсация низкого освещения"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAHISTOGRAM">
+			<str id="l" val="Слева:"/>
+			<str id="r" val="Справа:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALS">
+			<str id="desc" val="Функция &quot;Антивспышка&quot; действует только для камер с детектором сдвига затвора (большинство датчиков CMOS). Требуется отключить режим автоматической выдержки. При активации этой функции будут доступны только отдельные значения времени выдержки, в зависимостиот выбранной частоты сети."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAMODE">
+			<str id="color" val="Цветное изображение"/>
+			<str id="gray" val="Изображение в градациях серого"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERASPEED">
+			<str id="low" val="Низкая"/>
+			<str id="com" val="Сдвиньте бегунок вправо, чтобы видео проигрывалось на макс. скорости кадров, какую поддерживает USB-хаб компьютера. Если живое видео не отображается, сдвиньте бегунок влево, уменьшив скорость кадров."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAWB">
+			<str id="tem" val="Цветовая температура:"/>
+			<str id="tint" val="Тон:"/>
+			<str id="com" val="Для задания баланса белого будущего видео, переместите ROI (красный прямоугольник) к чисто белому или серому объекту и нажмите 'Баланс белого'."/>
+			<str id="auto" val="Автоматический баланс белого"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAPRESET">
+			<str id="load" val="Загрузить"/>
+			<str id="ov" val="Перезаписать"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERTXT">
+			<str id="tl" val="Наложить"/>
+			<str id="pos" val="Положение:"/>
+			<str id="bg" val="Задний план:"/>
+			<str id="sc" val="Шкала"/>
+			<str id="show" val="Показать"/>
+			<str id="dt" val="Дата время"/>
+			<str id="cl" val="Фактор прозрачности"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERGEO">
+			<str id="tl" val="Маркер"/>
+			<str id="sh" val="Показывать полосу масштабирования"/>
+		</dlg>
+
+		<dlg id="IDD_OPENDLG">
+			<str id="imag" val="Инфо/Предварительный просмотр изображения"/>
+			<str id="cur" val="Текущий файл:"/>
+		</dlg>
+
+		<dlg id="IDD_PROMTSAVE">
+			<str id="tl" val="Сохранить файлы"/>
+			<str id="com" val="Файл изменен. Сохранить?"/>
+			<str id="yes" val="Да для всех"/>
+			<str id="no" val="Нет для всех"/>
+			<str id="bat" val="Сохранить пакетом"/>
+		</dlg>
+
+		<dlg id="IDD_SFT">
+			<str id="tl" val="Форматы изображений, поддерживающие измерения"/>
+			<str id="com" val="Выбранный формат не поддерживает слои и измерения. Если вы хотите сохранить вместе с изображением слои и измерения, выберите формат:"/>
+			<str id="re" val="Больше не напоминать."/>
+			<str id="con" val="Продолжить"/>
+			<str id="res" val="Выбрать снова"/>
+		</dlg>
+
+		<dlg id="IDD_CAPTURE">
+			<str id="mk" val="Съемка с маркером и водяным знаком"/>
+			<str id="mm" val="Съемка с измерениями:"/>
+			<str id="g" val="Съемка с сеткой"/>
+			<str id="dpi" val="Установить DPI для получаемых фото:"/>
+		</dlg>
+
+		<dlg id="IDD_GRID">
+			<str id="ru" val="Цвет линейки:"/>
+			<str id="cu" val="Цвет курсора:"/>
+			<str id="gr" val="Сетка"/>
+			<str id="sy" val="Стиль:"/>
+			<str id="lis" val="Стиль линии:"/>
+			<str id="lic" val="Цвет линии:"/>
+			<str id="re" val="Сетка"/>
+			<str id="pm" val="Управление Пресет..."/>
+		</dlg>
+
+		<dlg id="IDD_WATERMARK">
+			<str id="tl" val="Видео водяной знак"/>
+			<str id="fle" val="Файл изображения:"/>
+            <str id="tra" val="Прозрачный (%):"/>
+			<str id="tip" val="Чтобы переместить водяной знак, используйте Shift + стрелки.\r\nЧтобы повернуть водяной знак, используйте Shift + Ctrl + стрелки влево/вправо."/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION1">
+			<str id="dr" val="Панорама выпрямить:"/>
+			<str id="wt" val="Тип проекции:"/>
+			<str id="sf" val="Шов Поиск:"/>
+			<str id="ba" val="Общая настройка"/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION2">
+			<str id="mc" val="Допуск совпадения:"/>
+			<str id="pc" val="Допуск панорамы:"/>
+			<str id="bs" val="Расплытие:"/>
+			<str id="ms" val="Сила:"/>
+		</dlg>
+
+		<dlg id="IDD_PROGRESS">
+			<str id="tl" val="Выполнено"/>
+		</dlg>
+
+		<dlg id="IDD_IOPT">
+			<str id="r" val="Коэффициент сжатия"/>
+			<str id="los" val="Без потерь"/>
+			<str id="qu" val="Качество изображения"/>
+			<str id="best" val="Максимум\nсжатие"/>
+			<str id="bq" val="Наилучшее\nКачество"/>
+			<str id="pr" val="Прогрессивный"/>
+			<str id="sm" val="Сглаживание"/>
+			<str id="op" val="Оптимизация сжатия"/>
+			<str id="in" val="Чересстрочная"/>
+			<str id="ap" val="Добавить страницы"/>
+			<str id="s" val="Нулевой заполнитель:"/>
+			<str id="def" val="Сохранить как настройки по умолчанию"/>
+			<str id="cl" val="Уровень сжатия"/>
+			<str id="fs" val="Скоростной"/>
+			<str id="hr" val="Ультра"/>
+			<str id="fh" val="Заголовок файла:"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_HEADER">
+			<str id="tc" val="Информация на экране опциональна."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP1">
+			<str id="pl" val="Выберите формат видео"/>
+			<str id="h4" val="Доступные аппаратные ускорители (GPU):"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP2">
+			<str id="name" val="1. Задайте имя записываемого видеофайла"/>
+			<str id="dir" val="2. Выберите папку для видеофайла"/>
+			<str id="tc" val="К имени файла автоматически будет добавлено расширение .wmv или .mp4 или .avi."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP3">
+			<str id="bitr" val="Битрейт:"/>
+			<str id="key" val="Интервал между ключевыми кадрами:"/>
+			<str id="se" val="Секунд"/>
+			<str id="hw" val="Использовать аппаратный ускоритель (GPU)"/>
+			<str id="bb" val="Битрейт по умолчанию:"/>
+			<str id="enc" val="Кодировщик:"/>
+			<str id="cfg" val="Конфиг..."/>
+			<str id="pa" val="Параметр кодировки"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP4">
+			<str id="t" val="Лимит времени (cекунд):"/>
+			<str id="l" val="Интервал"/>
+			<str id="s" val="Информация"/>
+			<str id="f" val="Количество кадров:"/>
+			<str id="a" val="Времени (cекунд):"/>
+		</dlg>
+
+		<dlg id="IDD_BROADCAST">
+			<str id="port" val="Порт:"/>
+			<str id="save" val="Сохранить содержание в файл одновременно"/>
+		</dlg>
+
+		<dlg id="IDD_OPENBROADCAST">
+			<str id="tl" val="Открыть широковещание"/>
+			<str id="port" val="Порт:"/>
+		</dlg>
+
+		<dlg id="IDD_MOVE">
+			<str id="tl" val="Переместить"/>
+		</dlg>
+
+		<dlg id="IDD_DIAGNOSE">
+			<str id="tl" val="Отчет о системе"/>
+		</dlg>
+
+		<dlg id="IDD_CURVE">
+			<str id="tl" val="Кривая"/>
+			<str id="gr" val="Сетка"/>
+		</dlg>
+
+		<dlg id="IDD_RANGE">
+			<str id="tl" val="Диапазон"/>
+			<str id="in" val="Инвертирование"/>
+			<str id="up" val="Обновление"/>
+		</dlg>
+
+		<dlg id="IDD_THRESHOLD">
+			<str id="tl" val="Черно-белое изображение"/>
+		</dlg>
+
+		<dlg id="IDD_PROPPAGE_MOSAICSET">
+			<str id="fo" val="Нижний колонтитул"/>
+			<str id="ar" val="Расположение"/>
+			<str id="rows" val="Ряды"/>
+			<str id="col" val="Столбцы"/>
+			<str id="rs" val="Интервал между строками"/>
+			<str id="cs" val="Интервал между столбцами"/>
+			<str id="ps" val="Размер страницы"/>
+			<str id="ds" val="Размер по умолчанию"/>
+			<str id="pr" val="Как в принтере"/>
+			<str id="ch" val="Изменить..."/>
+			<str id="use14" val="Использовать размер 1/4"/>
+		</dlg>
+
+		<dlg id="IDD_ADJUSTBC">
+			<str id="tl" val="Настройка яркости/контраста"/>
+		</dlg>
+
+		<dlg id="IDD_AUTOSETUP">
+			<str id="tl" val="Авто диапазон"/>
+			<str id="le" val="Авто уровень"/>
+			<str id="ct" val="Авто контраст"/>
+			<str id="low" val="Слабая подрезка"/>
+			<str id="high" val="Сильная подрезка"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR">
+			<str id="tl" val="Настроить цвет"/>
+			<str id="mo" val="Модули цвета"/>
+		</dlg>
+
+		<dlg id="IDD_CLRQUANT">
+			<str id="bits" val="Глубина цвета"/>
+			<str id="24" val="24 бит"/>
+			<str id="8" val="8 бит"/>
+			<str id="1" val="1 бит"/>
+		</dlg>
+
+		<dlg id="IDD_COLORBITS">
+			<str id="tl" val="Изменить глубину цвета"/>
+			<str id="new" val="Новая глубина цвета"/>
+			<str id="24" val="24 бит"/>
+			<str id="8" val="8 бит"/>
+			<str id="1" val="1 бит"/>
+		</dlg>
+
+		<dlg id="IDD_COLORSELECT">
+			<str id="tl" val="Выбрать цвет"/>
+		</dlg>
+
+		<dlg id="IDD_EDGE">
+			<str id="fil" val="Фильтры"/>
+			<str id="sb" val="Собель"/>
+			<str id="ro" val="по Робертсу"/>
+			<str id="sc" val="Барельеф"/>
+			<str id="la" val="по Лапласу"/>
+			<str id="va" val="Отклонение"/>
+			<str id="h" val="По горизонтали"/>
+			<str id="v" val="По вертикали"/>
+			<str id="pa" val="Проходов"/>
+		</dlg>
+
+		<dlg id="IDD_ENHANCE">
+			<str id="fi" val="Фильтр"/>
+			<str id="lp" val="Нижняя частоты"/>
+			<str id="hp" val="Верхний частоты"/>
+			<str id="g" val="Гаусс"/>
+			<str id="hg" val="Строгий Гаусс"/>
+			<str id="equ" val="Выравнивание"/>
+			<str id="fl" val="Плоский"/>
+			<str id="me" val="Серединный"/>
+			<str id="rk" val="Ранговый"/>
+			<str id="pa" val="Проходов"/>
+			<str id="w" val="Окна"/>
+		</dlg>
+
+		<dlg id="IDD_FILLDIALOG">
+			<str id="tl" val="Указать значение"/>
+		</dlg>
+
+		<dlg id="IDD_GRAY">
+			<str id="tl" val="Шкала серого"/>
+			<str id="alg" val="Алгоритм"/>
+			<str id="ave" val="Средний"/>
+			<str id="max" val="Максимум"/>
+			<str id="we" val="Вес"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM">
+			<str id="tl" val="Гистограмма"/>
+			<str id="ch" val="Канал"/>
+			<str id="le" val="Уровень:"/>
+			<str id="co" val="Счетчик:"/>
+			<str id="px" val="Пиксели:"/>
+			<str id="per" val="Процентов:"/>
+		</dlg>
+
+		<dlg id="IDD_KERPAGE">
+			<str id="ker" val="Ядра"/>
+			<str id="er" val="Размыть"/>
+			<str id="di" val="Расширить"/>
+			<str id="open" val="Открыть"/>
+			<str id="cl" val="Закрыть"/>
+			<str id="pa" val="Проходов"/>
+			<str id="fi" val="Тип фильтра"/>
+			<str id="conv" val="Свертка"/>
+			<str id="morp" val="Морфический"/>
+		</dlg>
+
+		<dlg id="IDD_KERSTRUCT">
+			<str id="tl" val="Редактировать ядро"/>
+			<str id="size" val="Размер ядра"/>
+			<str id="fill" val="Залить"/>
+			<str id="bo" val="Усиление"/>
+		</dlg>
+
+		<dlg id="IDD_MORPAGE">
+			<str id="fil" val="Фильтры"/>
+			<str id="er" val="Размыть"/>
+			<str id="di" val="Расширить"/>
+			<str id="open" val="Открыть"/>
+			<str id="cl" val="Закрыть"/>
+			<str id="tph" val="Столбик"/>
+			<str id="well" val="Мембрана"/>
+			<str id="gra" val="Уклон"/>
+			<str id="dis" val="Расстояние"/>
+			<str id="thi" val="Утоньшение"/>
+			<str id="wat" val="Размытие"/>
+			<str id="pa" val="Проходов"/>
+			<str id="2x2" val="Квадрат 2 x 2"/>
+			<str id="3x1" val="Ряд 3 x 1"/>
+			<str id="1x3" val="Столбец 1 x 3"/>
+			<str id="3x3" val="Крест 3 x 3"/>
+			<str id="5x5" val="Круг 5 x 5"/>
+			<str id="7x7" val="Круг 7 x 7"/>
+			<str id="11x11" val="Круг 11 x 11"/>
+		</dlg>
+
+		<dlg id="IDD_ROTATE">
+			<str id="tl" val="Повернуть изображение"/>
+			<str id="deg" val="Градусов:"/>
+			<str id="qu" val="Качество"/>
+			<str id="cw" val="Вправо"/>
+			<str id="ccw" val="Влево"/>
+			<str id="an" val="Угол"/>
+		</dlg>
+
+		<dlg id="IDD_SCALE">
+			<str id="tl" val="Масштаб изображения"/>
+			<str id="con" val="Ограничить пропорции"/>
+			<str id="met" val="Метод масштабирования"/>
+		</dlg>
+
+		<dlg id="IDD_GAMMA">
+			<str id="tl" val="Настройки Гаммы"/>
+		</dlg>
+
+		<dlg id="IDD_HMS">
+			<str id="tl" val="Ярко/Полутон/Тень"/>
+		</dlg>
+
+		<dlg id="IDD_CHANNEL">
+			<str id="tl" val="Выбрать цвет"/>
+		</dlg>
+
+		<dlg id="IDD_PROFILE">
+			<str id="t" val="Профиль"/>
+		</dlg>
+
+		<dlg id="IDD_LAYERNAME">
+			<str id="tl" val="Слой"/>
+		</dlg>
+
+		<dlg id="IDD_AUNIT">
+			<str id="all" val="Показывать все угловые единицы в боковой панели измерения"/>
+		</dlg>
+
+		<dlg id="IDD_ADDUNIT">
+			<str id="tl" val="Добавить элемент"/>
+			<str id="sc" val="Масштаб:"/>
+			<str id="sy" val="Символ:"/>
+		</dlg>
+
+		<dlg id="IDD_GENERAL">
+			<str id="res" val="Хранить результаты вычислений:"/>
+			<str id="lfs" val="Размер шрифта ярлыка:"/>
+			<str id="unit" val="Размеры с элементом"/>
+			<str id="a" val="Автоматически присваивать имена измерениям"/>
+			<str id="e" val="Показывать доп. окно"/>
+			<str id="hm" val="Скрывать имя при перемещении измерения"/>
+            <str id="sp" val="Вставьте пробел между числовым значением и символом единицы («12,34 mm» или «12,34mm»)"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_DELETE">
+			<str id="tl" val="Убрать слой"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_CURRENT">
+			<str id="tl" val="Текущий слой"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_MANAGE">
+			<str id="tl" val="Показать/Скрыть слой"/>
+		</dlg>
+
+		<dlg id="IDD_MEASURELIST">
+			<str id="col" val="Задать столбцы таблицы измерений"/>
+			<str id="o" val="Пользовательский объект..."/>
+			<str id="c" val="Пользовательский столбец..."/>
+			<str id="a" val="Пользовательский расчет..."/>
+			<str id="r" val="Пользовательская строка..."/>
+			<str id="s" val="Статистика (Добавить следующие строки в таблицы измеренийи)"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR_COMPOSITE">
+			<str id="tl" val="Мультиканальная флуоресценция"/>
+			<str id="so" val="Исходные изображения:"/>
+			<str id="co" val="Цвета:"/>
+			<str id="all" val="Все"/>
+			<str id="se" val="Выбранные"/>
+			<str id="adj" val="Настроить"/>
+			<str id="reg" val="Регистрация"/>
+		</dlg>
+
+		<dlg id="IDD_COMPOSITE_AVA">
+			<str id="so" val="Исходные изображения"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_SELECT_COLOR">
+			<str id="tl" val="Выбрать цвет"/>
+			<str id="fle" val="Для файла:"/>
+			<str id="se" val="Выбран:"/>
+			<str id="back" val="Задний фон"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_DYE_LIST">
+			<str id="tl" val="Редактировать список цветов"/>
+			<str id="rel" val="Перезагрузить все"/>
+			<str id="ext" val="Исходная длина волны:"/>
+			<str id="em" val="Длина волны излучения:"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_NEW_DYE">
+			<str id="tl" val="Новый цвет"/>
+		</dlg>
+
+		<dlg id="IDD_STACKING">
+			<str id="tl" val="Наложение изображения"/>
+		</dlg>
+
+		<dlg id="IDD_PROP">
+			<str id="set" val="Установите свойства по умолчанию для измеряемого объекта:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_OPTION">
+			<str id="tl" val="Параметры счетчика"/>
+			<str id="os" val="Стиль kонтур:"/>
+			<str id="ot" val="Стиль:"/>
+			<str id="lm" val="Метод:"/>
+			<str id="wh" val="Заполнить дыры"/>
+			<str id="la" val="Ярлык"/>
+			<str id="min" val="Минимум:"/>
+			<str id="max" val="Максимум:"/>
+			<str id="sc" val="Сцена:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_HISTORGRAM">
+			<str id="tl" val="Гистограмма"/>
+			<str id="sa" val="Показать все"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_COLORCUBE">
+			<str id="to" val="Погрешность"/>
+		</dlg>
+
+		<dlg id="IDD_NLM">
+			<str id="tl" val="Метод взвешенного среднего"/>
+			<str id="sw" val="Окно поиска:"/>
+			<str id="tw" val="Окно шаблона:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYD">
+			<str id="d" val="Четкость деталей:"/>
+			<str id="o" val="Общая яркость:"/>
+			<str id="b" val="Яркость фона:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_ALIGN">
+			<str id="aa" val="Автовыравн."/>
+			<str id="a0" val="Никакой"/>
+			<str id="a1" val="Shift + Масштаб"/>
+			<str id="a2" val="Shift + Масштаб + Повернуть"/>
+			<str id="ma" val="Максимум угол:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_FM">
+			<str id="at" val="Определять опорное изображение автоматически"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYDSTACK">
+			<str id="dm" val="Восстановить карту глубины:"/>
+			<str id="ri" val="Удалить изоляция участки:"/>
+			<str id="lf" val="ФНЧ:"/>
+			<str id="hf" val="ФВЧ:"/>
+			<str id="ac" val="Настроить контраст:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERADFC">
+			<str id="tip" val="Накройте объектив, нажмите кнопку &quot;Захват&quot;, чтобы поймать темное поле. Выберите кнопку &quot;Запустить&quot; для запуска функции &quot;Коррекция темного поля&quot;."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFFC">
+			<str id="tip" val="Удалите образцы из поля зрения. Нажмите на &quot;Захват&quot; для получения фона изображения. Нажмите &quot;Включено&quot; для того чтобы активировать коррецию плоского поля"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALIVESTACK">
+			<str id="af" val="Выравнивание кадров"/>
+			<str id="pl" val="Планета"/>
+			<str id="ds" val="Глубокое небо"/>
+			<str id="in" val="Вход:"/>
+			<str id="out" val="Выход:"/>
+		</dlg>
+
+		<dlg id="IDD_BF">
+			<str id="tt" val="Двусторонний фильтр"/>
+			<str id="size" val="Значение домена:"/>
+			<str id="s" val="Промежуток домена:"/>
+		</dlg>
+
+		<dlg id="IDD_CLAHE">
+			<str id="tl" val="Нормализация гистограммы"/>
+		</dlg>
+
+		<dlg id="IDD_UNSHARPMASK">
+			<str id="tl" val="Маска нерезкости"/>
+			<str id="a" val="Количество:"/>
+		</dlg>
+
+		<dlg id="IDD_DETAILENHANCE">
+			<str id="tl" val="Расширить деталь"/>
+			<str id="s" val="Пространственная Сигма:"/>
+			<str id="r" val="Диапазон Сигма:"/>
+		</dlg>
+
+		<dlg id="IDD_EDGEPRESERVINGSMOOTH">
+			<str id="tl" val="Гладкие края"/>
+			<str id="s" val="Пространственная Сигма:"/>
+			<str id="r" val="Диапазон Сигма:"/>
+			<str id="f" val="Фильтр"/>
+			<str id="re" val="Рекурсивные"/>
+			<str id="n" val="Нормализование"/>
+		</dlg>
+
+		<dlg id="IDD_LLC">
+			<str id="tl" val="Местная коррекция цвета"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFORMAT">
+			<str id="v" val="Свойства"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERACOOL">
+			<str id="po" val="Мощность:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERATRIGGER">
+			<str id="vm" val="Режим видео"/>
+			<str id="tr" val="Режим триггера"/>
+			<str id="live" val="Видео:"/>
+		</dlg>
+
+		<dlg id="IDD_EXPORTOPTIONS">
+			<str id="t" val="Опции экспорта"/>
+			<str id="d" val="Размер шрифта по умолчанию:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERABINNING">
+			<str id="m" val="Метод:"/>
+		</dlg>
+
+		<dlg id="IDD_FITSADD">
+			<str id="a" val="(1~8 алфавитов или цифр, A~Z, a~z, 0~9)"/>
+		</dlg>
+
+		<dlg id="IDD_QUICKSAVERENAME">
+			<str id="c" val="Не показывать диалог переименования в дальнейшем"/>
+		</dlg>
+
+		<dlg id="IDD_REPORT">
+			<str id="t" val="Шаблон"/>
+			<str id="l" val="Клон..."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAAF">
+			<str id="c" val="Калибровка"/>
+			<str id="0" val="C-Mount 0мм"/>
+			<str id="l" val="Объектив:"/>
+			<str id="n" val="Около"/>
+			<str id="f" val="Далеко"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_MANUAL">
+			<str id="tl" val="Ручной Счетчик"/>
+			<str id="er" val="Стереть"/>
+			<str id="sn" val="Показать последовательность"/>
+		</dlg>
+
+		<dlg id="IDD_IOCONTROL">
+			<str id="gm" val="Режим GPIO:"/>
+			<str id="oi" val="Инвертировать значения:"/>
+			<str id="sd" val="Период вспышки:"/>
+			<str id="ia" val="Активация:"/>
+			<str id="dt" val="Таймер:"/>
+			<str id="ls" val="Выбор линии:"/>
+			<str id="cs" val="Источник:"/>
+			<str id="ps" val="Источник ШИМ:"/>
+			<str id="cv" val="Значение счетчика:"/>
+			<str id="om" val="Режим вывода:"/>
+			<str id="uv" val="Пользовательское значение:"/>
+			<str id="sdm" val="Режим вспышки:"/>
+			<str id="sdt" val="Время вспышки:"/>
+			<str id="cr" val="Сбросить таймер:"/>
+			<str id="td" val="Задержка:"/>
+		</dlg>
+
+		<dlg id="IDD_LUA">
+			<str id="c" val="Код:"/>
+		</dlg>
+
+		<dlg id="IDD_RENDER_MODE">
+			<str id="l" val="Линия"/>
+			<str id="q" val="Квадраты"/>
+			<str id="t" val="Треугольник"/>
+			<str id="s" val="Разрез"/>
+			<str id="c" val="Истинный цвет"/>
+		</dlg>
+
+		<dlg id="IDD_LIGHTING">
+			<str id="e" val="Освещение"/>
+			<str id="a" val="Окружающее"/>
+			<str id="s" val="Зеркальное"/>
+			<str id="h" val="Сияние"/>
+			<str id="l" val="Позиция света"/>
+			<str id="p" val="Параметры света"/>
+		</dlg>
+
+		<dlg id="IDD_3DDLG">
+			<str id="t" val="3D поверхность"/>
+			<str id="s" val="Показывать"/>
+			<str id="a" val="Оси"/>
+		</dlg>
+
+		<dlg id="IDD_IOADVANCED">
+			<str id="a" val="Всегда использовать программный переключатель"/>
+		</dlg>
+
+		<dlg id="IDD_WAIT">
+			<str id="t" val="Подождите"/>
+			<str id="p" val="пожалуйста, подождите:"/>
+		</dlg>
+		
+		<dlg id="IDD_GIGENET">
+			<str id="s" val="Маска подсети:"/>
+			<str id="g" val="Шлюз по умолчанию:"/>
+		</dlg>
+		
+		<dlg id="IDD_FW">
+			<str id="n" val="Номер слота:"/>
+		</dlg>
+		
+		<dlg id="IDD_PSEUDOCOLOR">
+			<str id="s" val="Начальный цвет:"/>
+			<str id="e" val="Конечный цвет:"/>
+		</dlg>
+	</dialog>
+
+	<menu>
+		<str id="fle" val="&amp;Файл"/>
+		<str id="edt" val="&amp;Редактировать"/>
+		<str id="vew" val="&amp;Просмотр"/>
+		<str id="prss" val="Обработк&amp;а"/>
+		<str id="opns" val="&amp;Опции"/>
+		<str id="wnd" val="О&amp;кно"/>
+		<str id="hlp" val="Спра&amp;вка"/>
+		<str id="stup" val="&amp;Настройка"/>
+		<str id="cptu" val="&amp;Захват"/>
+		<str id="imag" val="&amp;Изображение"/>
+		<str id="layr" val="&amp;Слой"/>
+		<str id="meas" val="&amp;Измерения"/>
+		<str id="brws" val="О&amp;бзор"/>
+		<str id="db" val="&amp;База данных"/>
+
+		<str id="recf" val="&amp;Последние файлы"/>
+		<str id="sdbr" val="&amp;Боковые панели"/>
+		<str id="sort" val="&amp;Сортировать"/>
+		<str id="icns" val="&amp;Значки"/>
+		<str id="grds" val="&amp;Сетки"/>
+		<str id="mvwm" val="&amp;Переместить водяной знак"/>
+		<str id="rtwm" val="&amp;Повернуть водяной знак"/>
+		<str id="mode" val="&amp;Режим"/>
+		<str id="adj" val="&amp;Настроить"/>
+		<str id="rtt" val="&amp;Повернуть"/>
+		<str id="line" val="&amp;Линия"/>
+		<str id="vert" val="&amp;По вертикали"/>
+		<str id="crcl" val="&amp;Круг"/>
+		<str id="ccleh" val="Круг с &amp;отверстием"/>
+		<str id="tocls" val="&amp;Два круга"/>
+		<str id="zodr" val="&amp;Положение объекта"/>
+		<str id="lunit" val="Единица &amp;длины"/>
+
+		<str id="oimg" val="&amp;Открыть изображение..."/>
+		<str id="ovid" val="Открыть &amp;видео..."/>
+		<str id="obcas" val="Открыть широко&amp;вещание..."/>
+		<str id="sckin" val="Наложение&amp; изображения..."/>
+		<str id="batsv" val="Сохранить пак&amp;етом..."/>
+		<str id="qksv" val="&amp;Сохранить быстро..."/>
+		<str id="psnew" val="Вставить как &amp;новый файл"/>
+		<str id="norec" val="Нет последних файлов"/>
+		<str id="exit" val="Вы&amp;ход"/>
+		<str id="cut" val="Выре&amp;зать"/>
+		<str id="copy" val="&amp;Копировать"/>
+		<str id="pste" val="&amp;Вставить"/>
+		<str id="passc" val="Вставить &amp;ярлык"/>
+		<str id="selal" val="Выбрать &amp;все"/>
+		<str id="ivsel" val="&amp;Инвертировать выделенное"/>
+		<str id="mshet" val="&amp;Лист измерений"/>
+		<str id="camsb" val="&amp;Камера"/>
+		<str id="fosb" val="&amp;Папки"/>
+		<str id="ursb" val="&amp;Отменить/Вернуть"/>
+		<str id="lydb" val="&amp;Слой"/>
+		<str id="msbar" val="&amp;Измерение"/>
+		<str id="hsbar" val="&amp;Гистограмма"/>
+		<str id="prfs" val="&amp;Предпочтения..."/>
+		<str id="mm" val="&amp;Измерение..."/>
+		<str id="mf" val="&amp;Увеличение..."/>
+		<str id="clbr" val="&amp;Калибровка..."/>
+		<str id="edtdy" val="&amp;Редактировать список цветов..."/>
+		<str id="atcor" val="&amp;Автозамена..."/>
+		<str id="f1" val="&amp;Содержание справки"/>
+		<str id="ab" val="&amp;О программе"/>
+
+		<str id="save" val="Сохран&amp;ить"/>
+		<str id="svee" val="Сохран&amp;ить..."/>
+		<str id="svas" val="Сохранить к&amp;ак..."/>
+		<str id="imgsl" val="Выбрать &amp;изображение"/>
+		<str id="seln" val="Снять &amp;выделение"/>
+
+		<str id="gno" val="&amp;Без сеток"/>
+		<str id="grm" val="&amp;Ручные сетки"/>
+		<str id="gda" val="&amp;Авто сетки"/>
+		<str id="gdl" val="&amp;Убрать все сетки"/>
+		<str id="rlset" val="&amp;Настройки..."/>
+		<str id="fitwi" val="&amp;Вписать"/>
+		<str id="asiz" val="&amp;Актуальный размер"/>
+		<str id="trk" val="С&amp;двиг"/>
+
+		<str id="sith" val="С&amp;шить..."/>
+		<str id="dldt" val="&amp;Удалить файл"/>
+		<str id="bbro" val="&amp;Обзор"/>
+		<str id="openf" val="О&amp;ткрыть"/>
+
+		<str id="sttp" val="&amp;Замерзать"/>
+		<str id="fscr" val="&amp;Полноэкранный режим"/>
+		<str id="vwpp" val="&amp;Отчет"/>
+		<str id="vvl" val="Наложение &amp;видео..."/>
+		<str id="vwm" val="Видео &amp;водяной знак..."/>
+		<str id="wmmv" val="&amp;Переместить..."/>
+		<str id="wmzro" val="Переместить &amp;на ноль"/>
+		<str id="wmrot" val="&amp;Повернуть..."/>
+		<str id="wmrz" val="Повернуть &amp;на ноль"/>
+		<str id="gcal" val="&amp;Градуировка серого"/>
+		<str id="cpig" val="&amp;Захват изображения"/>
+		<str id="tmlps" val="Начать &amp;покадровую съемку..."/>
+		<str id="strec" val="Начать/Остановить &amp;запись..."/>
+		<str id="brec" val="&amp;Пакет видео"/>
+		<str id="acap" val="Покадровая &amp;съемка"/>
+		<str id="sttb" val="Начать/Остановить &amp;широковещание..."/>
+
+		<str id="qtiz" val="Глубина &amp;цветности..."/>
+		<str id="gsca" val="&amp;Шкала серого"/>
+		<str id="curv" val="&amp;Кривая..."/>
+		<str id="alvl" val="Авто &amp;уровень"/>
+		<str id="acon" val="Авто контрас&amp;т"/>
+		<str id="eql" val="Выравнивание &amp;гистограммы"/>
+		<str id="bc" val="Яркость/Контр&amp;аст..."/>
+		<str id="imclr" val="Ц&amp;вет..."/>
+		<str id="gamm" val="&amp;Гамма..."/>
+		<str id="fclr" val="&amp;Фильтровать цвет..."/>
+		<str id="eclr" val="&amp;Извлечь цвет..."/>
+		<str id="iclr" val="&amp;Инвертировать"/>
+		<str id="r90" val="&amp;90(вправо)"/>
+		<str id="r180" val="&amp;180(вправо)"/>
+		<str id="r270" val="&amp;270(вправо)"/>
+		<str id="rotar" val="&amp;Произвольно..."/>
+		<str id="filph" val="Отразить &amp;по горизонтали"/>
+		<str id="flipv" val="&amp;вертикали"/>
+		<str id="crop" val="&amp;Обрезать"/>
+		<str id="imsca" val="Масштаб &amp;изображения..."/>
+		<str id="hist" val="&amp;Гистограмма..."/>
+		<str id="reso" val="&amp;Разрешение..."/>
+		<str id="ovlsb" val="&amp;Наложить полосу масштабирования..."/>
+
+		<str id="fi" val="&amp;Фильтр..."/>
+		<str id="rang" val="&amp;Диапазон..."/>
+		<str id="biy" val="&amp;Черно-белый..."/>
+		<str id="psud" val="&amp;Псевдоцвет..."/>
+		<str id="sfac" val="Объемное изо&amp;бражение..."/>
+		<str id="prf" val="&amp;Профиль..."/>
+		<str id="mosc" val="&amp;Мозаика..."/>
+		<str id="cmps" val="&amp;Мультиканальная флуоресценция..."/>
+		<str id="dens" val="&amp;Удаление шумов"/>
+		<str id="nlm" val="&amp;Метод взмешенного среднего..."/>
+		<str id="bila" val="&amp;Двусторонний фильтр..."/>
+		<str id="awf" val="&amp;Адаптивное Винеровский фильтр"/>
+
+		<str id="lnew" val="&amp;Новый..."/>
+		<str id="lrem" val="&amp;Убрать..."/>
+		<str id="lcur" val="Текущи&amp;й..."/>
+		<str id="lshow" val="&amp;Показать/Скрыть..."/>
+		<str id="len" val="Пере&amp;именовать..."/>
+		<str id="lexp" val="Слияние с и&amp;зображением..."/>
+		<str id="mexp" val="Слияние с &amp;изображением"/>
+		<str id="ldrem" val="&amp;Убрать"/>
+		<str id="ldcur" val="&amp;Текущий"/>
+		<str id="ldshw" val="&amp;Показать/Скрыть"/>
+
+		<str id="osel" val="Выбрать &amp;объект"/>
+		<str id="angl" val="&amp;Угол"/>
+		<str id="point" val="&amp;Точка"/>
+		<str id="arbl" val="&amp;Произвольная"/>
+		<str id="hline" val="&amp;Горизонтальная"/>
+		<str id="vline" val="&amp;Вертикальная"/>
+		<str id="parl" val="Парал&amp;лель"/>
+		<str id="pnt8" val="&amp;8 точки"/>
+		<str id="pnt5" val="&amp;5 точки"/>
+		<str id="pnt4" val="&amp;4 точки"/>
+		<str id="pnt3" val="&amp;3 точки"/>
+		<str id="pnt2" val="&amp;2 точки"/>
+		<str id="rctg" val="Пр&amp;ямоугольник"/>
+		<str id="elps" val="&amp;Эллипс"/>
+		<str id="crad" val="&amp;Центр+Радиус"/>
+		<str id="alus" val="Коль&amp;цо"/>
+		<str id="arc" val="&amp;Дуга"/>
+		<str id="text" val="Тек&amp;ст"/>
+		<str id="plg" val="Много&amp;угольник"/>
+		<str id="ztop" val="&amp;Верх"/>
+		<str id="zbtm" val="&amp;Низ"/>
+		<str id="zup" val="Сдвинуть &amp;вверх"/>
+		<str id="zdown" val="Сдвинуть в&amp;низ"/>
+		<str id="sbar" val="Полоса &amp;масштабирования..."/>
+		<str id="lcv" val="&amp;Кривая"/>
+		<str id="mode1" val="&amp;Случайное соединение"/>
+		<str id="mode2" val="&amp;Многоточечное соединение"/>
+		<str id="arrw" val="&amp;Стрелка"/>
+
+		<str id="call" val="&amp;Закрыть все"/>
+		<str id="rstlo" val="&amp;Сбросить ориентацию окна"/>
+		<str id="wnds" val="&amp;Окна..."/>
+
+		<str id="aunit" val="&amp;Угловая единица..."/>
+
+		<str id="nccls" val="&amp;Закрыть"/>
+		<str id="nccla" val="Закрыть &amp;все, кроме этого"/>
+		<str id="clsth" val="Закрыть &amp;другие"/>
+		<str id="fprop" val="&amp;Свойства файла..."/>
+		<str id="cpath" val="&amp;Копировать полный путь"/>
+		<str id="brofo" val="&amp;Обзор папки"/>
+		<str id="openfo" val="О&amp;ткрыть папку"/>
+		<str id="htbgp" val="&amp;Горизонтальная группа закладок"/>
+		<str id="vtbgp" val="&amp;Вертикальная группа закладок"/>
+		<str id="nxtbg" val="Переместить в &amp;следующая группу закладок"/>
+		<str id="prebg" val="Переместить в &amp;предыдущий группу закладок"/>
+		<str id="ftwid" val="Подогнать по &amp;ширине"/>
+		<str id="fthei" val="Подогнать по &amp;высоте"/>
+		<str id="fitwi" val="Подогнать по &amp;размеру окна"/>
+
+		<str id="bronm" val="Сортировать по &amp;имени"/>
+		<str id="brotp" val="Сортировать по &amp;типу"/>
+		<str id="brosz" val="Сортировать по &amp;размеру"/>
+		<str id="browd" val="Сортировать по &amp;ширине"/>
+		<str id="brohe" val="Сортировать по &amp;высоте"/>
+		<str id="brotx" val="Сортировать по р&amp;асширению"/>
+		<str id="brofw" val="По &amp;возрастанию"/>
+		<str id="brorv" val="По &amp;убыванию"/>
+		<str id="brol" val="&amp;Крупные значки"/>
+		<str id="bros" val="&amp;Мелкие значки"/>
+		<str id="brorf" val="&amp;Обновить"/>
+		<str id="bropo" val="&amp;Свойства..."/>
+
+		<str id="mimp" val="&amp;Импортировать файл..."/>
+		<str id="msav" val="&amp;Сохранить файл..."/>
+		<str id="mhtm" val="Экспорт в &amp;Html"/>
+		<str id="mexc" val="Экспорт в Microsoft &amp;Excel..."/>
+
+		<str id="bstf" val="&amp;Оптимальный"/>
+		<str id="asiz" val="&amp;Реальная размер"/>
+
+		<str id="edpn" val="Н&amp;ормальный"/>
+		<str id="edph" val="&amp;H Стиль"/>
+
+		<str id="oc" val="Счетчик &amp;&amp; сегментации"/>
+		<str id="ocws" val="&amp;Размытие..."/>
+		<str id="ocsd" val="OTSU: &amp;Темные..."/>
+		<str id="ocsb" val="OTSU: &amp;Яркие..."/>
+		<str id="ocrhs" val="Гистограмма &amp;RGB..."/>
+		<str id="ochhs" val="Гистограмма &amp;HSV..."/>
+		<str id="occc" val="&amp;Цветной куб..."/>
+
+		<str id="chair" val="&amp;Перекрестие"/>
+		<str id="st4" val="ST&amp;4 Тест..."/>
+
+		<str id="hdr" val="&amp;Высокий динамический диапазон (HDR)..."/>
+
+		<str id="shpn" val="&amp;Резкость"/>
+		<str id="lshp" val="&amp;Лапласиана резкость"/>
+		<str id="unshp" val="&amp;Маска нерезкости..."/>
+
+		<str id="dclr" val="&amp;Градации серого с сохранением контраста"/>
+		<str id="epsm" val="&amp;Сохранить края..."/>
+		<str id="denh" val="&amp;Повысить детализацию..."/>
+
+		<str id="llc" val="&amp;Местная цветовая коррекция..."/>
+		<str id="cton" val="&amp;Отображение цветов"/>
+
+		<str id="deil" val="Деинтерлейсин&amp;г"/>
+
+		<str id="opnrf" val="Открыть папку &amp;d записи"/>
+		<str id="opnif" val="Открыть &amp;папку изображения"/>
+
+		<str id="lined" val="Линия (&amp;3 точки)"/>
+
+		<str id="tnal" val="&amp;Миниатюры изображений"/>
+		<str id="avw" val="&amp;Активировать окно видео"/>
+
+		<str id="cust" val="&amp;Настройка..."/>
+		<str id="ctool" val="&amp;Настройка панели инструментов..."/>
+
+		<str id="cent" val="&amp;Центр"/>
+		<str id="sernx" val="&amp;Следующий кадр"/>
+		<str id="serpv" val="&amp;Предыдущий кадр"/>
+
+		<str id="ext" val="Внешнее&amp; приложение"/>
+
+		<str id="man" val="&amp;Управление..."/>
+		<str id="word" val="Текущий &amp;отчет"/>
+		<str id="wors" val="&amp;Отчет"/>
+
+		<str id="gdiv" val="&amp;Разделить..."/>
+		<str id="deep" val="&amp;Глубокая копия"/>
+
+		<str id="manuc" val="&amp;Вручную..."/>
+		<str id="expex" val="Экспорт в Microsoft &amp;Excel"/>
+		<str id="expcb" val="Экспорт в &amp;Буфер обмена"/>
+		<str id="expim" val="Экспорт в &amp;изображения"/>
+
+		<str id="pipe" val="&amp;Пипетка"/>
+		<str id="preset" val="Пресе&amp;т"/>
+
+		<str id="extr" val="&amp;Экстра"/>
+		<str id="holl" val="&amp;Соотношения"/>
+		<str id="pfdg" val="&amp;Угол профиля"/>
+		<str id="frat" val="Соо&amp;тношение отрезков"/>
+		<str id="choll" val="Соотношения &amp;окружностей"/>
+		<str id="pholl" val="Соотношения &amp;полигонов"/>
+
+		<str id="clhd" val="&amp;Скрыть"/>
+		<str id="clsl" val="&amp;Выбор..."/>
+
+		<str id="whba" val="&amp;Баланс белого"/>
+
+		<str id="comb" val="&amp;Сгруппировать"/>
+		<str id="ucom" val="&amp;Разбить"/>
+
+		<str id="arra" val="&amp;Расположение"/>
+		<str id="cstm" val="&amp;Спектр"/>
+
+		<str id="expt" val="&amp;Экспорт"/>
+		<str id="expf" val="&amp;Экспорт..."/>
+		<str id="impf" val="&amp;Импорт..."/>
+
+		<str id="copa" val="С&amp;равнить"/>
+
+		<str id="dstup" val="&amp;Новый..."/>
+		<str id="drop" val="&amp;Удалить"/>
+		<str id="clea" val="&amp;Очистить"/>
+		<str id="dconn" val="&amp;Подключения..."/>
+		<str id="disc" val="&amp;Отключите"/>
+		<str id="inse" val="&amp;Вставить..."/>
+		<str id="opts" val="&amp;Параметры..."/>
+		<str id="oima" val="&amp;Открыть изображение"/>
+
+		<str id="rena" val="&amp;Переименовать..."/>
+		<str id="dye" val="&amp;Крашение..."/>
+
+		<str id="item" val="&amp;Элемента"/>
+		<str id="aitem" val="В&amp;се элементы"/>
+		<str id="aimag" val="&amp;Все изображения"/>
+
+		<str id="expg" val="&amp;Выдержка и Усиление"/>
+		<str id="load" val="&amp;Загрузить"/>
+
+        <str id="clti" val="Закрыть все временные &amp;изображения"/>
+
+		<str id="auto" val="&amp;Авто..."/>
+		<str id="defu" val="&amp;По умолчанию"/>
+		<str id="rest" val="&amp;Сбросить"/>
+		
+		<str id="disa" val="&amp;Отключить"/>
+		<str id="b1" val="&amp;1 байт"/>
+		<str id="b2" val="&amp;2 байта"/>
+		<str id="b4" val="&amp;4 байта"/>
+		
+		<str id="ipm" val="&amp;IP-адрес..."/>
+		<str id="rtm" val="В реальном &amp;времени"/>
+	</menu>
+</i18n>

@@ -1,0 +1,1950 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<i18n>
+	<all>
+		<str id="ids_error" val="Hata"/>
+		<str id="ids_true" val="Doğru"/>
+		<str id="ids_false" val="Yanlış"/>
+		<str id="ids_yes" val="Evet"/>
+		<str id="ids_no" val="Hayır"/>
+		<str id="ids_ok" val="Tamam"/>
+		<str id="ids_camera" val="Kamera"/>
+		<str id="ids_folders" val="Dosyalar"/>
+		<str id="ids_browse" val="Gözat"/>
+		<str id="ids_back" val="Geri"/>
+		<str id="ids_forward" val="İleri"/>
+		<str id="ids_backward" val="Geri"/>
+		<str id="ids_open" val="Açık"/>
+		<str id="ids_pixel" val="Piksel"/>
+		<str id="ids_width" val="Genişlik"/>
+		<str id="ids_height" val="Yükseklik"/>
+		<str id="ids_measurement" val="Ölçme"/>
+		<str id="ids_name" val="İsim"/>
+		<str id="ids_index" val="İndeks"/>
+		<str id="ids_version" val="Sürüm"/>
+		<str id="ids_sample" val="Örnek"/>
+		<str id="ids_avg" val="Ortalama"/>
+		<str id="ids_mean" val="Ortalama"/>
+		<str id="ids_capture" val="Yakalama"/>
+		<str id="ids_stop" val="Dur"/>
+		<str id="ids_close" val="Kapat"/>
+		<str id="ids_save" val="Kayıt"/>
+		<str id="ids_none" val="Hiçbiri"/>
+		<str id="ids_time" val="Zaman"/>
+		<str id="ids_frame" val="Kare"/>
+		<str id="ids_framerate" val="Kare Yakalama"/>
+		<str id="ids_target" val="Hedef"/>
+		<str id="ids_free" val="Ücretsiz"/>
+		<str id="ids_file" val="Dosya"/>
+		<str id="ids_date" val="Tarihi"/>
+		<str id="ids_year" val="Yıl"/>
+		<str id="ids_month" val="Ay"/>
+		<str id="ids_day" val="Gün"/>
+		<str id="ids_linear" val="Doğrusal"/>
+		<str id="ids_log" val="Logaritmik"/>
+		<str id="ids_exp" val="Üstel"/>
+		<str id="ids_poly" val="Polinom"/>
+		<str id="ids_format" val="Hızı"/>
+		<str id="ids_bl" val="Siyah seviyesi"/>
+		<str id="ids_current" val="Geçerli"/>
+		<str id="ids_remove" val="Kaldır"/>
+		<str id="ids_cancel" val="İptal"/>
+		<str id="ids_apply" val="Uygula"/>
+		<str id="ids_defaults" val="Sabit"/>
+		<str id="ids_default" val="Sabit"/>
+		<str id="ids_refresh" val="Yenile"/>
+		<str id="ids_auto" val="Otomatik"/>
+		<str id="ids_reset" val="Sıfırla"/>
+		<str id="ids_option" val="Opsiyon"/>
+		<str id="ids_options" val="Opsiyon"/>
+		<str id="ids_preview" val="Önizleme"/>
+		<str id="ids_size" val="Size"/>
+		<str id="ids_color" val="Renk"/>
+		<str id="ids_label" val="Etiket"/>
+		<str id="ids_px" val="Piksel"/>
+		<str id="ids_appearance" val="Görünüm"/>
+		<str id="ids_scalebar" val="Ölçek Çubuğu"/>
+		<str id="ids_rename" val="Yeniden Adlandır"/>
+		<str id="ids_desc" val="Açıklama"/>
+		<str id="ids_red" val="Kırmızı"/>
+		<str id="ids_green" val="Yeşil"/>
+		<str id="ids_blue" val="Mavi"/>
+		<str id="ids_radius" val="Radiyus"/>
+		<str id="ids_add" val="Ekle"/>
+		<str id="ids_del" val="Sil"/>
+		<str id="ids_hue" val="Renk"/>
+		<str id="ids_sat" val="Doygunluk"/>
+		<str id="ids_bri" val="Parlaklık"/>
+		<str id="ids_cont" val="Kontrast"/>
+		<str id="ids_res" val="Çözünürlük"/>
+		<str id="ids_compression" val="Sıkıştırma"/>
+		<str id="ids_whitebalance" val="Siyah Beyaz"/>
+		<str id="ids_zoomin" val="Yakınlaştır"/>
+		<str id="ids_zoomout" val="Vınlamak dışarı"/>
+		<str id="ids_export" val="Dışa aktarma"/>
+		<str id="ids_import" val="İçe aktarma"/>
+		<str id="ids_hwbin" val="Donanım Binning"/>
+		<str id="ids_digbin" val="Dijital Binning"/>
+		<str id="ids_thumbnail" val="Başparmak tırnağı"/>
+		<str id="ids_rotate" val="Döndür"/>
+		<str id="ids_meta" val="Meta veri"/>
+		<str id="ids_en" val="Etkinleştir"/>
+		<str id="ids_value" val="Değer"/>
+		<str id="ids_expti" val="Işık Şiddeti Zamanı"/>
+		<str id="ids_rexpti" val="Gerçek Işık Şiddeti Zamanı"/>
+		<str id="ids_observer" val="Gözlemci"/>
+		<str id="ids_telescope" val="Teleskop"/>
+		<str id="ids_comment" val="Yorum"/>
+		<str id="ids_edit" val="Düzenle"/>
+		<str id="ids_model" val="Kamera modeli"/>
+		<str id="ids_type" val="Tip"/>
+		<str id="ids_cpyrgt" val="Telif hakkı"/>
+		<str id="ids_author" val="Yazar"/>
+		<str id="ids_title" val="Baslik"/>
+		<str id="ids_pxf" val="Piksel biçimi"/>
+		<str id="ids_unit" val="Birim"/>
+		<str id="ids_calibrate" val="Kalibre"/>
+		<str id="ids_beilv" val="Büyütme"/>
+		<str id="ids_dis" val="Devre dışı"/>
+		<str id="ids_fset" val="Fabrika ayarları"/>
+		<str id="ids_srp" val="Netlik"/>
+		<str id="ids_focus" val="Odaklama"/>
+		<str id="ids_af" val="Otomatik odaklama"/>
+		<str id="ids_elc" val="Elektrik"/>
+		<str id="ids_up" val="Yukari"/>
+		<str id="ids_down" val="Asagi"/>
+		<str id="ids_revision" val="Revizyon"/>
+		<str id="ids_preset" val="Ön ayar"/>
+		<str id="ids_dl" val="Indir"/>
+		<str id="ids_st" val="Durumu"/>
+		<str id="ids_sw" val="Yazılım"/>
+		<str id="ids_hw" val="Donanım"/>
+		<str id="ids_simu" val="Simüle"/>
+		<str id="ids_nrecom" val="Tavsiye Edilmez"/>
+		<str id="ids_depre" val="Kullanımdan kaldırılan"/>
+		<str id="ids_text" val="Metin"/>
+		<str id="ids_mem" val="Bellek"/>
+		<str id="ids_perct" val="Yüzde"/>
+		<str id="ids_total" val="Toplam"/>
+		<str id="ids_computer" val="Bilgisayar"/>
+		<str id="ids_autoe" val="Otomatik Işık Şiddeti"/>
+		<str id="ids_expta" val="Işık Şiddeti Kaynağı"/>
+		<str id="ids_gain" val="Kazanç"/>
+		<str id="ids_stemp" val="Sıcaklık"/>
+		<str id="ids_ttemp" val="Hedef sıcaklık"/>
+		<str id="ids_display" val="Görüntü"/>
+		<str id="ids_pste" val="Yapıştır"/>
+		<str id="ids_lock" val="Kilit"/>
+		<str id="ids_basic" val="Temel"/>
+		<str id="ids_sk" val="Yığın"/>
+		<str id="ids_neg" val="Negatif"/>
+		<str id="ids_tonem" val="Ton eşleme"/>
+		<str id="ids_position" val="Pozisyon"/>
+		<str id="ids_custom" val="Özel"/>
+		<str id="ids_object" val="Obje"/>
+		<str id="ids_cobject" val="Ölçüm obje"/>
+		<str id="ids_threshold" val="Eşik"/>
+		<str id="ids_bool" val="Boole'ca"/>
+		<str id="ids_all" val="Tüm"/>
+		<str id="ids_column" val="Sütun"/>
+		<str id="ids_row" val="Satır"/>
+		<str id="ids_shape" val="Şekil"/>
+		<str id="ids_font" val="Yazı tipi"/>
+		<str id="ids_fontsize" val="Yazı tipi boyutu"/>
+		<str id="ids_fontweight" val="Yazı tipi ağırlığı"/>
+		<str id="ids_bandw" val="Bant genişliği"/>
+		<str id="ids_about" val="Hakkında"/>
+		<str id="ids_horz" val="Yatay"/>
+		<str id="ids_vert" val="Dikey"/>
+		<str id="ids_polygon" val="Poligon"/>
+		<str id="ids_adv" val="Gelişmiş"/>
+		<str id="ids_strength" val="Kuvvet"/>
+		<str id="ids_linewidth" val="Cizgi Genislik"/>
+		<str id="ids_glauto" val="Küresel"/>
+		<str id="ids_compare" val="Karşılaştırmak"/>
+		<str id="ids_db" val="Veritabanı"/>
+		<str id="ids_new" val="Yeni"/>
+		<str id="ids_find" val="Bulmak"/>
+		<str id="ids_imag" val="Görüntü"/>
+		<str id="ids_lnoise" val="Düşük Gürültü"/>
+		<str id="ids_dye" val="Boya"/>
+		<str id="ids_dyv" val="Boyama"/>
+		<str id="ids_tl" val="Time-lapse (Otomatik yakalama)"/>
+		<str id="ids_xoff" val="X Ofset"/>
+		<str id="ids_yoff" val="Y Ofset"/>
+		<str id="ids_ftype" val="Dosya tipi"/>
+		<str id="ids_starddev" val="Standart sapma"/>
+		<str id="ids_samstarddev" val="Örnek standart sapma"/>
+		<str id="ids_max" val="Maksimum"/>
+		<str id="ids_mono" val="Monokrom"/>
+		<str id="ids_lightsource" val="Işık kaynağı"/>
+		<str id="ids_on" val="Açmak"/>
+		<str id="ids_off" val="Devre Dışı Bırak"/>
+		<str id="ids_high" val="Yuksek"/>
+		<str id="ids_hdr" val="Yüksek dinamik Aralık (HDR)"/>
+		<str id="ids_watermark" val="Filigran"/>
+        <str id="ids_cate" val="Kategori"/>
+		<str id="ids_llcolor" val="Etiket rengi"/>
+		<str id="ids_ec" val="Pozlama telafisi"/>
+		<str id="ids_item" val="Öğe"/>
+		<str id="ids_discard" val="Atmak"/>
+		<str id="ids_network" val="Ağı"/>
+		<str id="ids_ip" val="IP Adresi"/>
+		<str id="ids_mac" val="MAC Adresi"/>
+		<str id="ids_oclock" val="Hız Aşırtma"/>
+		<str id="ids_fw" val="Filtre Tekerleği"/>
+		<str id="ids_pdpseudocolor" val="Sahte renk"/>
+		<str id="ids_lowpc" val="Düşük güç tüketimi"/>
+		<str id="ids_exporm" val="Okuma Modu"/>
+		<str id="ids_addr" val="Adres"/>
+		<str id="ids_trg" val="Tetikleyici"/>
+		<str id="ids_trgs" val="Tetikleyici kaynağı"/>
+		<str id="ids_objlen" val="Objektif lens"/>
+		<str id="ids_si" val="Tek"/>
+		<str id="ids_sq" val="Çoklu"/>
+		<str id="ids_lp" val="Döngü"/>
+		<str id="ids_cds" val="İlişkili çift örnekleme"/>
+		<str id="ids_speed" val="Hız"/>
+		<str id="ids_shtt" val="Kepenk"/>
+		<str id="ids_mshtt" val="Mekanik Kepenk"/>
+		<str id="ids_mf" val="Büyütme"/>
+	</all>
+
+	<string>
+		<str id="ids_m" val="Metre"/>
+		<str id="ids_cm" val="Santimetre"/>
+		<str id="ids_mm" val="Milimetre"/>
+		<str id="ids_um" val="Mikronmetre"/>
+		<str id="ids_nm" val="Nanometre"/>
+		<str id="ids_in" val="İnch"/>
+		<str id="ids_ang" val="Ångström"/>
+		<str id="ids_pm" val="Pikometre"/>
+
+		<str id="ids_angle1" val="Derece"/>
+
+		<str id="ids_celsius" val="Santigrat"/>
+
+		<str id="ids_colorbuttonother" val="Diğer..."/>
+		<str id="ids_linestylesolid" val="Mükemmel"/>
+		<str id="ids_linestyledash" val="Çizgi"/>
+		<str id="ids_linestyledot" val="Nokta"/>
+		<str id="ids_linestyledashdot" val="Nokatlıvirgül"/>
+		<str id="ids_intminmax" val="Lütfen bir sayı giriniz arasında %d ve %d."/>
+
+		<str id="ids_exposure" val="Poz Suresi"/>
+
+		<str id="ids_noexcel" val="Microsoft Excel açılamadı. Lütfen Microsoft Excel düzgün yüklenmiş olduğunu denetleyin."/>
+		<str id="ids_noword" val="Microsoft Word açılamadı. Lütfen Microsoft Word düzgün yüklenmiş olduğunu denetleyin."/>
+
+		<str id="ids_outofrange" val="Aralık dışında."/>
+		<str id="ids_inputv" val="Giriş değeri geçersiz."/>
+		<str id="ids_filenr" val="Ayrılmış karakterler dosya adlarında kullanılamaz."/>
+
+		<str id="ids_deviceid" val="Cihaz Kimliği"/>
+		<str id="ids_devicename" val="Cihaz İsmi"/>
+		<str id="ids_stillimagecapture" val="Hareketsiz Görüntü Yakalama"/>
+		<str id="ids_stillimagewidth" val="Hareketsiz Görüntü Genişliği"/>
+		<str id="ids_stillimageheight" val="Hareketsiz Goruntu Yüksekliği"/>
+		<str id="ids_displaywidth" val="Görüntü Genişiliği"/>
+		<str id="ids_displayheight" val="Görüntü Yüksekliği"/>
+		<str id="ids_videowidth" val="Video Genişlik"/>
+		<str id="ids_videoheight" val="Video Yükseklik"/>
+		<str id="ids_dscapbpp" val="Piksel başina Bit"/>
+		<str id="ids_duration" val="Süre"/>
+		<str id="ids_cameraid" val="Kamera Id"/>
+		<str id="ids_productdate" val="Üretim tarihi"/>
+		<str id="ids_framedropped" val="Kare Düşme"/>
+		<str id="ids_framesaved" val="Kare Kayıt"/>
+		<str id="ids_property" val="Özellik"/>
+		<str id="ids_errorstop" val="Hata, Durmak."/>
+		<str id="ids_startfail" val="Başarısız Başlangıç."/>
+		<str id="ids_previewfail" val="Başarısız Önizleme, Aygıtı yeniden takın ve deneyin."/>
+		<str id="ids_stoppreviewfail" val="Hata, Başarısız önizleme."/>
+		<str id="ids_noframe" val="USB Bant genişliği yeterli değil, kare hız düzeyini düsürün veya baska bir USB noktası deneyin Cihazı yeniden takin ve tekrar deneyin."/>
+		<str id="ids_surpriseremoval" val="Cihaz dışarı çekildi."/>
+		<str id="ids_devicelost" val="Yakalama durdurma cihaz kayip, lütfen aygıtı yeniden takin ve deneyin."/>
+		<str id="ids_captureerror" val="Yakalama esnasında hata, lütfen diger USB aygıtı yeniden takin ve tekrar deneyin."/>
+		<str id="ids_toupnamerror" val="Hata, lütfen aygıtı yeniden başlatın ve yeniden deneyin."/>
+		<str id="ids_filtergraph" val="Filtre Grafigi başlatamazsınız."/>
+		<str id="ids_noax" val="Video Yakalama Kaynağı Oluşturulamıyor, lütfen aygıt sürücüsünü yeniden yükleyin."/>
+		<str id="ids_nosource" val="Hata, Video yakalama kaynagi olusturamazsınız. Lütfen aygıt sürücüsünü yeniden takin ve deneyin."/>
+
+		<str id="ids_badport" val="Belirtilen bağlantı noktası numarası zaten kullanımda, başka bir bağlantı noktası numarasını kullanın lütfen."/>
+		<str id="ids_bcount" val="Yayın Çerçevesi"/>
+		<str id="ids_bdroppcnt" val="Bırakılan kare yayın"/>
+		<str id="ids_bcbbps" val="Geçerli bit hızı yayın (Kbps)"/>
+		<str id="ids_baveragebps" val="Ortalama bit hızı yayın (Kbps)"/>
+		<str id="ids_bccfr" val="Geçerli kare hızı yayın"/>
+		<str id="ids_baveragesr" val="Ortalama çerçeve oranı yayın"/>
+		<str id="ids_bandwidth" val="Bant genişliği (Kbps)"/>
+		<str id="ids_preceived" val="Alınan paketler"/>
+		<str id="ids_plost" val="Kayıp paketler"/>
+		<str id="ids_psize" val="Paketler Boyutu"/>
+
+		<str id="ids_encoder" val="Enkoder"/>
+		<str id="ids_quality" val="Kalite"/>
+		<str id="ids_bitrate" val="Bit Hızı"/>
+		<str id="ids_keyfs" val="Anahtar Kare Araligi (Saniye(s))"/>
+		<str id="ids_stepdir" val="Lütfen Doğru dosya adını ve dizini ayarlayın."/>
+		<str id="ids_stepbpsminmax" val="Lütfen Bit Hızını Doğru Ayarlayın, tam bir sayidir arasinda %s ve %s."/>
+		<str id="ids_stepqualityminmax" val="Lütfen Doğru Kaliteye Ayarlayin, tam bir sayidir arasinda %u ve %u."/>
+		<str id="ids_stepiframe" val="Lütfen Anahtar kare Değerlerini Ayarlayın."/>
+		<str id="ids_stepiframeminmax" val="Lutfen Anahtar kare degerlerini ayarlayin, tam bir sayidir arasinda %u ve %u."/>
+		<str id="ids_stepcodec" val="Lütfen enkoder seçin."/>
+		<str id="ids_steptimelimit" val="Lütfen Yakalama zamanını dogru ayarlayın."/>
+		<str id="ids_steptimelapse" val="Lütfen yakalama zamani zaman aşımı dogru ayarlaın."/>
+		<str id="ids_stepavinone" val="Hiçbiri kompresör"/>
+
+		<str id="ids_recordheader" val="Bilgileri Görüntüleme"/>
+		<str id="ids_recordstep1" val="Video Biçimi"/>
+		<str id="ids_recordstep2" val="Video Dosya"/>
+		<str id="ids_recordstep3" val="Enkoder"/>
+		<str id="ids_recordstep4" val="Başlama ve Kayıt"/>
+		<str id="ids_broadcastpar" val="Yayın Parametreleri"/>
+		<str id="ids_recordstep4b" val="Yayın başlayın"/>
+
+		<str id="ids_integerinvalid" val="Lütfen tam sayılı bir giriş yapın."/>
+
+		<str id="ids_mosaicimages" val="Mozaik Görüntüleri"/>
+
+		<str id="ids_deleteallitem" val="Tüm öğeleri silmek istediğinizden eminmisiniz?"/>
+		<str id="ids_deleteitem" val="Seçili oğeleri silmek istediginizden eminmisiniz?"/>
+		<str id="ids_deleteitems" val="Seçili %d oğeleri silmek istediginizden eminmisiniz?"/>
+		<str id="ids_magimport" val="Transfer edilecek tüm oğeleri silmek istediginizden eminmisiniz?"/>
+
+		<str id="ids_toolbarselect" val="Seçili Nesne"/>
+		<str id="ids_toolbarcirclehole" val="Hol olan daire"/>
+		<str id="ids_toolbarrectselect" val="Görüntü Seçimi"/>
+		<str id="ids_toolbartrack" val="İzlemek"/>
+		<str id="ids_toolbargray" val="Gri Kalibrasyon"/>
+		<str id="ids_toolbarcrosshair" val="Crosshair"/>
+		<str id="ids_toolbargoto" val="Klasörü aç"/>
+		<str id="ids_toolbarcenter" val="Merkezi"/>
+
+		<str id="ids_stitch" val="Dikiş"/>
+		<str id="ids_stitchautocrop" val="Dikiş bittiğinde otomatik kırpma (Dış sınırlayıcı dikdörtgen)"/>
+		<str id="ids_stitchscroll" val="Kaydırma modu"/>
+		<str id="ids_aggr" val="Agresif"/>
+		<str id="ids_pasi" val="Pasif"/>
+
+		<str id="ids_built" val="Yapı"/>
+
+		<str id="ids_toolbar" val="Araç Çubuğu"/>
+		<str id="ids_nodevice" val="Cihaz tanımlı değil"/>
+		<str id="ids_zoom0" val="Genişlik sığdır"/>
+		<str id="ids_zoom1" val="Yükseklik sığdır"/>
+		<str id="ids_zoom2" val="Pencereye sığdır"/>
+		<str id="ids_selection" val="Seçim"/>
+		<str id="ids_undoredo" val="Geri/İleri"/>
+
+		<str id="ids_overlayscale" val="Bindirme Ölçek Çubuğu"/>
+
+		<str id="ids_customize" val="Özelleştir"/>
+		<str id="ids_toolbarcustomize" val="&amp;Özelleştir..."/>
+		<str id="ids_angleunitmenu" val="&amp;Açı Birimi..."/>
+
+		<str id="ids_emptydir" val="Dizin boş olabilir'."/>
+		<str id="ids_invaliddir" val="Dizini geçersiz."/>
+		<str id="ids_filelock" val="Bu dosya kilitlendi."/>
+		<str id="ids_imagesizemismatch" val="Görüntü boyutu uyumsuzluğu."/>
+		<str id="ids_imagesizenotsame" val="Goruntu aynı boyutta değil: &quot;%s&quot;."/>
+		<str id="ids_filenofound" val="Dosya bulunamadı."/>
+		<str id="ids_savefilefail2" val="Dosya kayıt başarısız &quot;%s&quot;."/>
+		<str id="ids_savefilefail3" val="Dosya kayıt başarısız."/>
+		<str id="ids_videofileformat" val="Desteklenmeyen Dosya Biçimi."/>
+		<str id="ids_videofilestartfail" val="Başlatılamadı."/>
+		<str id="ids_videofiles" val="Video Dosyalari"/>
+		<str id="ids_allfiles" val="Bütün dosyalar"/>
+
+		<str id="ids_browseshutcut" val="Bu klasor zaten adinda bir kisayol iceriyor &quot;%s&quot;.\uzerine iptal veya iptal etmek?"/>
+		<str id="ids_saveboth" val="Görüntü ve ölçüm katmanlı modifiye edilmiştir. Değişiklikleri kaydetmek istiyor musunuz?"/>
+		<str id="ids_saveimage" val="Resim değiştirildi. Değişiklikleri kaydetmek istiyor musunuz?"/>
+		<str id="ids_savelayer" val="Ölçüm katman değiştirildi. Değişiklikleri kaydetmek istiyor musunuz?"/>
+
+		<str id="ids_videozoomint" val="Geçerli zoomlama düzeyi %u%%. Tam sayısını almak için, lutfen yakınlaştırma düzeyini ayarlayın 100%%.Devam etmek istiyormusun?"/>
+		<str id="ids_videozoomfloat" val="Geçerli zoomlama duzeyi is %.1f%%. Tam sayısını almak için, yakınlaştırma düzeyini ayarlayın 100%%.Devam etmek istiyormusun?"/>
+		<str id="ids_videomarker" val="İsaretleyici: (%d, %d); Filigran: Hareket = (%d, %d), Dondurmek = %.3f"/>
+		<str id="ids_videostartrecord" val="Başlat &amp;Kayıt..."/>
+		<str id="ids_videostoprecord" val="Durdur &amp;Kayıt"/>
+		<str id="ids_videostarttimelapse" val="Başla &amp;Time-lapse (Otomatik Yakalama)..."/>
+		<str id="ids_videostoptimelapse" val="Dur &amp;Time-lapse (Otomatik yakalama)"/>
+		<str id="ids_videoautofail" val="Başarısız Otomatik Yakalama."/>
+		<str id="ids_videocalibratemax1" val="Maksimum boyutta kalibre edin.\r\nMevcut Boyut: %u x %u. Maksimum boyut: %u x %u.\r\nÇözünürlüğü ayarlamak için kameranın kenar çubuğunu kullanın."/>
+
+		<str id="ids_memory" val="Yetersiz Hafiza."/>
+		<str id="ids_memoryx86" val="Yetersiz Hafiza, x64 surumunu kullanin lutfen."/>
+
+		<str id="ids_actionfailed" val="Eylem başarısız oldu."/>
+		<str id="ids_actioncanceld" val="Eylem iptal."/>
+
+		<str id="ids_calibratedlgtoobig" val="Çok Küçük"/>
+		<str id="ids_calibratedlgtoosmall" val="Çok Küçük"/>
+		<str id="ids_calibratedlgpixels" val="Piksel"/>
+		<str id="ids_calibratedlgmagnification" val="Doğru Büyütme Giriniz, Örneğin gibi 10, 40, 100, vb."/>
+		<str id="ids_calibratedlgmagnificationexists" val="Büyütme &quot;%s&quot; zaten var."/>
+
+		<str id="ids_collapseall" val="Tümünü Daralt"/>
+		<str id="ids_expandall" val="Tümünü Genişlet"/>
+		<str id="ids_cameralist" val="Kamera Listesi"/>
+		<str id="ids_expandgain" val="Poz &amp;&amp; Elde etmek"/>
+		<str id="ids_colorgray" val="Renkli/Gri"/>
+		<str id="ids_capres" val="Yakalama &amp;&amp; Çözünürlük"/>
+		<str id="ids_coloradjust" val="Renk Ayarlama"/>
+		<str id="ids_flip" val="Çevir"/>
+		<str id="ids_sampling" val="Örnekleme"/>
+		<str id="ids_power" val="Güç Frekansı (Anti-flicker)"/>
+		<str id="ids_gray" val="Gri"/>
+		<str id="ids_range" val="Aralık"/>
+		<str id="ids_exptimeempty" val="Pozlama süresi boş olmamalıdır."/>
+		<str id="ids_exptimeinvalid" val="Pozlama süresi geçersiz."/>
+		<str id="ids_exptimeoutofrange" val="Pozlama süresi aralık dışında [%s, %s]."/>
+		<str id="ids_bpsmb" val="Bit Hızı (Mbps)"/>
+		<str id="ids_dfc" val="Karanlık alan düzeltme"/>
+		<str id="ids_bitdepth" val="Bit derinliği"/>
+		<str id="ids_propfmt" val="Özellikleri &amp;&amp; Biçim"/>
+		<str id="ids_cool" val="Soğutma"/>
+		<str id="ids_heat" val="Isıtma"/>
+		<str id="ids_fpnc" val="Sabit Desenli Gürültü Düzeltme"/>
+
+		<str id="ids_preferences" val="Tercihler"/>
+
+		<str id="ids_grids" val="Gridler"/>
+		<str id="ids_cursor" val="İmlec"/>
+		<str id="ids_quicksave" val="Hýzlý Kaydet"/>
+		<str id="ids_record" val="Kayıt"/>
+		<str id="ids_quickrecord" val="Hýzlý Kayıt"/>
+
+		<str id="ids_mosaicimage" val="Görüntü Listesi"/>
+		<str id="ids_mosaicpar" val="Parametre"/>
+
+		<str id="ids_filefmtcol0" val="Uzantı"/>
+		<str id="ids_filefmtcol2" val="Kısaltma"/>
+
+		<str id="ids_allsupported" val="Tüm desteklenen formatlar"/>
+		<str id="ids_savedlgreplace" val="%s zaten var.\nBunu değiştirmek istiyor musunuz?"/>
+
+		<str id="ids_watermarkdlg24bit" val="Desteklenen Yalnizca 24 veya 32 bit goruntu."/>
+
+		<str id="ids_nameformatnnnn" val="nnnn (sekans)"/>
+
+		<str id="ids_lefttop" val="Ust Sol"/>
+		<str id="ids_righttop" val="Ust Sag"/>
+		<str id="ids_leftbottom" val="Sol Alt"/>
+		<str id="ids_rightbottom" val="Sag Alt"/>
+		<str id="ids_overlaybgtrans" val="Şeffaf"/>
+		<str id="ids_black" val="Siyah"/>
+		<str id="ids_white" val="Beyaz"/>
+		<str id="ids_smallest" val="En küçük"/>
+		<str id="ids_smaller" val="Daha küçük"/>
+		<str id="ids_small" val="Küçük"/>
+		<str id="ids_medium" val="Orta"/>
+		<str id="ids_large" val="Büyük"/>
+		<str id="ids_larger" val="Daha büyük"/>
+		<str id="ids_largest" val="En büyük"/>
+		<str id="ids_fontweightbold" val="Koyu"/>
+		<str id="ids_fontweightheavy" val="Agir"/>
+		<str id="ids_overlaydatenone" val="Hicbiri"/>
+		<str id="ids_overlaydatelong" val="Uzun Tarih biçimi"/>
+		<str id="ids_overlaydateshort" val="Kısa Tarih biçimi"/>
+		<str id="ids_overlaydatetlong" val="Uzun Tarih Saat Biçimi"/>
+		<str id="ids_overlaydatetshort" val="Kısa Tarih Saat Biçimi"/>
+
+		<str id="ids_marker" val="Hiçbir"/>
+		<str id="ids_markercross" val="Çapraz"/>
+		<str id="ids_markercircle" val="Daire"/>
+		<str id="ids_markercr" val="Çapraz+Dikdorgen"/>
+		<str id="ids_markercc" val="Çapraz+Daire"/>
+		<str id="ids_markercrosswidth" val="Çapraz Genişlik (%)"/>
+		<str id="ids_markercrossheight" val="Çapraz Yükseklik (%)"/>
+		<str id="ids_markerrectwidth" val="Dikdortgen Genişlik (%)"/>
+		<str id="ids_markerrectheight" val="Dikdortgen Yükseklik (%)"/>
+		<str id="ids_markerradius" val="Daire Radiyus (%)"/>
+		<str id="ids_markerx" val="x Denge (%)"/>
+		<str id="ids_markery" val="y Denge (%)"/>
+
+		<str id="ids_stitchfail" val="Başarısız Stitch."/>
+		<str id="ids_stitchplane" val="Uçak"/>
+		<str id="ids_stitchcylindrical" val="Cylindrical"/>
+		<str id="ids_stitchspherical" val="Küresel"/>
+		<str id="ids_stitchfisheye" val="Balıkgözü"/>
+		<str id="ids_stitchstereographic" val="Sterografik"/>
+		<str id="ids_stitchmercator" val="Mercator"/>
+		<str id="ids_stitchtransversemercator" val="Enine Mercator"/>
+		<str id="ids_stitchseamfindervoronoi" val="Voronoi Şeması"/>
+		<str id="ids_stitchseamfindergraphcutcolor" val="Renk grafik kesmek"/>
+		<str id="ids_stitchseamfindergraphcutcolorgrad" val="Grafik renk Gra kesmek"/>
+		<str id="ids_stitchecgain" val="Kazanç"/>
+		<str id="ids_stitchecbg" val="Blok kazanç"/>
+		<str id="ids_stitchbaray" val="Ray ayarlamak"/>
+		<str id="ids_stitchbareproj" val="Reprojection hata"/>
+
+		<str id="ids_crosssingle" val="Single"/>
+		<str id="ids_cross1" val="Çift (1 Piksel)"/>
+		<str id="ids_cross3" val="Çift (3 Piksel)"/>
+		<str id="ids_cross5" val="Çift (5 Piksel)"/>
+		<str id="ids_cross7" val="Çift (7 Piksel)"/>
+		<str id="ids_cross9" val="Çift (9 Piksel)"/>
+		<str id="ids_cursorcross" val="Çapraz"/>
+		<str id="ids_cursorpoint" val="Nokta"/>
+		<str id="ids_cursornull" val="Boş"/>
+
+		<str id="ids_videooverlay" val="Video Yükleme"/>
+		<str id="ids_markertxt" val="Metin İşaretleyici"/>
+		<str id="ids_markergeo" val="İşaretleme"/>
+
+		<str id="ids_miscsplash" val="Başlangıçta sıçrama pencere göster"/>
+		<str id="ids_miscscreensaver" val="Ekran koruyucu önleyin zaman video önizleme/capture"/>
+		<str id="ids_misctft" val="Dosya formatı"/>
+		<str id="ids_misctftremind" val="Dosya formatının ölçüm nesnelerini desteklemediğinden bana anımsat"/>
+		<str id="ids_miscsidebar" val="Kenar Çubuğu"/>
+		<str id="ids_miscsidebarmeasurement" val="Ölçerken otomatik ölçüm kenar çubuğu etkinleştirmek"/>
+		<str id="ids_miscsidebarfolders" val="Klasörleri kenar çubuğu Gözat penceresini açarken otomatik olarak etkinleştirme"/>
+		<str id="ids_miscsidebarbrowse" val="Çift klasörleri tıkladığınızda otomatik tarama penceresinde göstermek"/>
+		<str id="ids_miscsidebarcamerastartup" val="Zaman başlangıçta otomatik kamera kenar çubuğu etkinleştirmek"/>
+		<str id="ids_miscprivacy" val="Gizlilik"/>
+		<str id="ids_miscrecent" val="Son Dosyalar azami sayısı"/>
+		<str id="ids_miscclear" val="Uygulaması çıktığınızda son dosyaları temizle"/>
+		<str id="ids_miscrestore" val="Geçerli dizini yeniden yükleme zamanı"/>
+		<str id="ids_misclang" val="Dil"/>
+		<str id="ids_miscte" val="Yeniden başlattıktan sonra yürürlüğe girecek"/>
+
+		<str id="ids_urimploperation" val="İşleyiş"/>
+		<str id="ids_urtoolbarcopy" val="Kopyala"/>
+
+		<str id="ids_pdmorphologic" val="Morfolojik Operasyon"/>
+		<str id="ids_pdmuststructure" val="Bir yapi seçmelisiniz."/>
+		<str id="ids_pdnostructure" val="Tasiyici olmayan."/>
+		<str id="ids_pdselectstructure" val="Lütfen bir yapi seçiniz."/>
+		<str id="ids_pddeletesure" val="Silenecek: Eminmisiniz?"/>
+		<str id="ids_pdenhancement" val="Goruntu Gelistirme"/>
+		<str id="ids_pdbestfit" val="En iyi şekilde sığdır"/>
+		<str id="ids_pdequalize" val="Local Equalize"/>
+		<str id="ids_pdundo" val="Geri"/>
+		<str id="ids_pdconvertbit" val="Çevir 8bit veya 24bit?"/>
+		<str id="ids_pdexceed" val="Bölge aşdı!"/>
+		<str id="ids_pdkernel" val="Tane işlemi"/>
+		<str id="ids_pdmustname" val="Bir ad girmek zorundasiniz."/>
+		<str id="ids_pdkernelsize" val="Geçersiz tane boyutu."/>
+		<str id="ids_pdinputvalue" val="Lütfen bir deger girin."/>
+		<str id="ids_pdoverwrite" val="Mevcut yapi! Üzerine yazmak istiyor musunuz?"/>
+		<str id="ids_pdedge" val="Kenar İşleme"/>
+		<str id="ids_pdautolevel" val="Otomatik Seviye"/>
+		<str id="ids_pdautocontrast" val="Otomatik Kontrast"/>
+		<str id="ids_pdbcadj" val="Parlaklık / Kontrast Ayarı"/>
+		<str id="ids_pdcoloradj" val="Renk Ayarlama"/>
+		<str id="ids_pdhmsadj" val="HMS Ayari"/>
+		<str id="ids_pdgammaadj" val="Gamma Ayari"/>
+		<str id="ids_pdhistogram" val="Histogram Denklestirme"/>
+		<str id="ids_pdcurve" val="Eğri Ayarlama"/>
+		<str id="ids_pdcolorquantize" val="Renk Nicele: %d Bit(s)"/>
+		<str id="ids_pdgray" val="Gri Renk Çevirme"/>
+		<str id="ids_pdinvert" val="Ters Görüntü Çevirme"/>
+		<str id="ids_pdrotatecw" val="Döndur CW"/>
+		<str id="ids_pdrotateccw" val="Döndur CCW"/>
+		<str id="ids_pdcrop" val="Kırpmak"/>
+		<str id="ids_pdimagescale" val="Görüntü Ölçeği"/>
+		<str id="ids_pdfliphorz" val="Yatay cevirme"/>
+		<str id="ids_pdflipvert" val="Dikey cevirme"/>
+		<str id="ids_pdrange" val="Aralik"/>
+		<str id="ids_pdfilters" val="Filtre"/>
+		<str id="ids_pdinvalidheight" val="Geçersiz Yükseklik."/>
+		<str id="ids_pdfiltercolor" val="Filtre Renk"/>
+		<str id="ids_pdextractcolor" val="Özü Renk"/>
+		<str id="ids_pdluminosity" val="Parlaklık"/>
+		<str id="ids_bilinear" val="İki Çizgili"/>
+		<str id="ids_bicubic" val="Bikubik"/>
+
+		<str id="ids_filtermorp" val="Morfoloji"/>
+		<str id="ids_filterkern" val="Tane"/>
+		<str id="ids_filterenhance" val="Resim Yükselt"/>
+		<str id="ids_filteredge" val="Kenar Yükselt"/>
+
+		<str id="ids_extraopenfail" val="Yapılandırma Dosyası Açılamadı!"/>
+		<str id="ids_extrasaveit" val="Mevcut Boya Değişmiş, kaydetmek?"/>
+		<str id="ids_extradyeexist" val="Bu boya olmuştur."/>
+		<str id="ids_extradeleteitem" val="Bu öğeyi silmek istediğinizden emin misiniz?"/>
+		<str id="ids_extrasavedata" val="Verileri kaydetmek için emin misiniz?"/>
+		<str id="ids_extrareloaddata" val="Tüm verileri yeniden emin misiniz?"/>
+		<str id="ids_extraforfile" val="Dosya İçin"/>
+
+		<str id="ids_labelaxis" val="Eksen"/>
+		<str id="ids_labelwidthheight" val="Genişlik ve yükseklik"/>
+
+		<str id="ids_layer" val="Katman"/>
+		<str id="ids_sheet" val="Ölçüm Sayfası"/>
+		<str id="ids_sheet2" val="Merkez"/>
+		<str id="ids_sheet3" val="Çap"/>
+		<str id="ids_sheet4" val="Alan"/>
+		<str id="ids_sheet5" val="Uzunluk"/>
+		<str id="ids_sheet7" val="Başlat"/>
+		<str id="ids_sheet8" val="Son"/>
+		<str id="ids_sheet9" val="Mesafe"/>
+		<str id="ids_pointname" val="Nokta%d"/>
+		<str id="ids_intersection" val="Kesişim noktası"/>
+		<str id="ids_foot" val="Adım"/>
+		<str id="ids_slope" val="Eğim"/>
+		<str id="ids_perimeter" val="Çevre"/>
+		<str id="ids_center" val="Merkez"/>
+		<str id="ids_arclength" val="Cevre"/>
+		<str id="ids_ratio" val="Ratio"/>
+		<str id="ids_axes" val="Eksen"/>
+		<str id="ids_layer0" val="Görünür"/>
+		<str id="ids_lunit0" val="Birim"/>
+		<str id="ids_lunit2" val="Sembol"/>
+		<str id="ids_lunit4" val="Skala"/>
+		<str id="ids_noname" val="[İsimsiz]"/>
+		<str id="ids_layerbackground" val="Arkaplan"/>
+		<str id="ids_layername" val="Katman Adı"/>
+		<str id="ids_sysunit" val="Sistem"/>
+		<str id="ids_userunit" val="Kullanıcı"/>
+		<str id="ids_errorfile" val="Dosya uzantasi hatasi."/>
+		<str id="ids_errordata" val="Dosya Hatası."/>
+		<str id="ids_only1layer" val="Son kat kaldırılamıyor."/>
+		<str id="ids_removecurrent" val="Geçerli Katman Kaldırılamıyor."/>
+		<str id="ids_removelayer" val="Bu tabakayı kaldırmak için emin misiniz?"/>
+		<str id="ids_removeitem" val="Tüm seçilen öğeleri kaldırmak istediğinizden emin misiniz?"/>
+		<str id="ids_removeunit" val="Bu birim kaldırmak için basarili."/>
+		<str id="ids_invalidratio" val="Geçersiz oran."/>
+		<str id="ids_sameunit" val="Birim eklenemedi, ayni adi tasiyan birim mevcuttur."/>
+		<str id="ids_samesymbol" val="Birim eklenemedi ayni sembol ile birim mevcuttur."/>
+		<str id="ids_layersamename" val="Ayni katman adi tasiyan var. Devam etmek istiyormuzunuz?"/>
+		<str id="ids_nametolong" val="Bu isim cok uzun."/>
+		<str id="ids_symboltolong" val="Bu isim cok uzun."/>
+		<str id="ids_toomanyunit" val="Çok sayıda kullanıcı tanımlı bir birim."/>
+		<str id="ids_addunit" val="1. Ölçek metre ve spesifik birim arasındaki oran. Ornek:\n  Milimetre Metre Bilimsel gösterim de 1E3 olarak ifade edilebilir 1000.\n	 Meter by kilometer is 0.001, which is noted as 1e-3.\n\n2. Sembol: such as &quot;m&quot; metre, &quot;cm&quot; for santimetre."/>
+		<str id="ids_general" val="Genel"/>
+		<str id="ids_lengthunit" val="Uzunluk Birimi"/>
+		<str id="ids_angleunit" val="Açı Birim"/>
+		<str id="ids_measurelist" val="Ölçüm Sayfası"/>
+		<str id="ids_angle" val="Açı"/>
+		<str id="ids_ellipse" val="Elips"/>
+		<str id="ids_line" val="Çizgi"/>
+		<str id="ids_point" val="Nokta"/>
+		<str id="ids_rect" val="Dikdörtgen"/>
+		<str id="ids_parallel" val="Paralel"/>
+		<str id="ids_line3" val="Paralel (3 Nokta)"/>
+		<str id="ids_line2" val="Paralel (4 Nokta)"/>
+		<str id="ids_line4" val="Paralel (8 Nokta)"/>
+		<str id="ids_linea" val="Paralel (Rasgele)"/>
+		<str id="ids_vertical" val="Dikey"/>
+        <str id="ids_verany" val="Dikey (Rasgele)"/>
+		<str id="ids_circle" val="Daire"/>
+		<str id="ids_arc" val="Kavis"/>
+		<str id="ids_annulus" val="Halka"/>
+		<str id="ids_twocircles" val="İki Daire"/>
+		<str id="ids_curve" val="Eğri"/>
+		<str id="ids_appearance" val="Görünüm"/>
+		<str id="ids_geometry" val="Geometri"/>
+		<str id="ids_coordinates" val="Koordinat"/>
+		<str id="ids_mlinewidth" val="Yardımcı çizgi genişliği"/>
+		<str id="ids_linecolor" val="Cizgi Rengi"/>
+		<str id="ids_mlinecolor" val="YYardımcı çizgi rengi"/>
+		<str id="ids_linestyle" val="Cizgi Stili"/>
+		<str id="ids_mlinestyle" val="Yardımcı çizgi stili"/>
+		<str id="ids_fill" val="Doldurmak"/>
+		<str id="ids_mline" val="Yedek çizgisini göster"/>
+		<str id="ids_amarker" val="Açı işaretçisini göster"/>
+		<str id="ids_circled" val="Yedek Çap / Radiyus"/>
+		<str id="ids_circlec" val="Yedek Merkez"/>
+		<str id="ids_fillcolor" val="Renk Doldur"/>
+		<str id="ids_textcolor" val="Metin Rengi"/>
+		<str id="ids_textalign" val="Metni Hizala"/>
+		<str id="ids_lframe" val="Çerçeve"/>
+		<str id="ids_edittext" val="Metni Duzenle"/>
+		<str id="ids_textleft" val="Sol"/>
+		<str id="ids_textright" val="Sağ"/>
+		<str id="ids_ltoolbarshow" val="Gozter/Gizle"/>
+		<str id="ids_fontstyle1" val="Kalın"/>
+		<str id="ids_fontstyle2" val="İtalik"/>
+		<str id="ids_fontstyle3" val="Kalın and İtalik"/>
+		<str id="ids_decimal" val="Ondalik"/>
+		<str id="ids_decimal0" val="0 Ondalik"/>
+		<str id="ids_decimal1" val="1 Ondalik"/>
+		<str id="ids_decimal2" val="2 Ondalik"/>
+		<str id="ids_decimal3" val="3 Ondalik"/>
+		<str id="ids_decimal4" val="4 Ondalik"/>
+		<str id="ids_decimal5" val="5 Ondalik"/>
+		<str id="ids_decimal6" val="6 Ondalik"/>
+		<str id="ids_labeltype" val="Etiket Tip"/>
+		<str id="ids_labelpos" val="Etiket Konumu"/>
+		<str id="ids_ltrans" val="Saydam arka plan"/>
+		<str id="ids_lbkclr" val="Arka plan rengi"/>
+		<str id="ids_ecce" val="Eksantriklik"/>
+
+		<str id="ids_rect2p" val="Dikdörtgen (2 Nokta)"/>
+		<str id="ids_rect3p" val="Dikdörtgen (3 Nokta)"/>
+		<str id="ids_angle3p" val="Açı (3 Nokta)"/>
+		<str id="ids_angle4p" val="Açı (4 Nokta)"/>
+		<str id="ids_circle1" val="Daire (Merkez+RADIUS)"/>
+		<str id="ids_circle2" val="Daire (2 Nokta)"/>
+		<str id="ids_circle3" val="Daire (3 Nokta)"/>
+		<str id="ids_annulus2" val="Halka (Merkez+RADIUS)"/>
+		<str id="ids_annulus3" val="Halka (3 Nokta)"/>
+		<str id="ids_vertical3p" val="Dikey (3 Nokta)"/>
+		<str id="ids_vertical4p" val="Dikey (4 Nokta)"/>
+		<str id="ids_ellipse2p" val="Elips (2 Nokta)"/>
+		<str id="ids_ellipse5p" val="Elips (5 Nokta)"/>
+		<str id="ids_ellipse3p" val="Elips (3 Nokta)"/>
+		<str id="ids_vline" val="Dikey Çizgi"/>
+		<str id="ids_hline" val="Yatay Çizgi"/>
+		<str id="ids_twocircle3p" val="İki Daire (Merkez+RADIUS)"/>
+		<str id="ids_twocircle2p" val="İki Daire (3 Nokta)"/>
+		<str id="ids_line3p" val="Çizgi (3 Nokta)"/>
+		<str id="ids_vline3p" val="Dikey Çizgi (3 Nokta)"/>
+		<str id="ids_hline3p" val="Yatay Çizgi (3 Nokta)"/>
+		<str id="ids_linemulti" val="Çizgi (Çok Noktadan Bağlantı)"/>
+
+		<str id="ids_errgeneric" val="Genel hata."/>
+		<str id="ids_errnullname" val="Ad boş olamaz."/>
+		<str id="ids_errsamename" val="Aynı adı var."/>
+		<str id="ids_errsameid" val="Aynı ID var."/>
+		<str id="ids_erropenfile" val="Dosya Açılamadı."/>
+		<str id="ids_errfileformat" val="Hatalı dosya bicimi."/>
+		<str id="ids_errmsgproduct" val="Kamera modeli uyumsuzluğu."/>
+		<str id="ids_errusb" val="USB sürüm uyuşmazlığı."/>
+		<str id="ids_errmode" val="Mod uyuşmazlığı."/>
+
+		<str id="ids_resetlayout" val="Pencere düzeni yeniden App sonra sıfırlanır."/>
+		<str id="ids_startbroadcast" val="Başlat &amp;Yayın..."/>
+		<str id="ids_stopbroadcast" val="Durdur &amp;Yayın"/>
+
+		<str id="ids_stackingfail" val="Görüntü İstifleme başarısız oldu."/>
+
+		<str id="ids_objcount" val="Segmentasyon ve sayısı"/>
+		<str id="ids_objsplit" val="Split nesne"/>
+		<str id="ids_objcountosoutline" val="Anahat"/>
+		<str id="ids_objcountosfilled" val="Dolu"/>
+
+		<str id="ids_counthisv" val="Değer"/>
+
+		<str id="ids_edfc" val="Maksimum Kontrast"/>
+		<str id="ids_edfw" val="Ağırlıklı ortalama"/>
+		<str id="ids_edfs" val="Yığın"/>
+		<str id="ids_edffm" val="FFDSSD Seçenekler"/>
+		<str id="ids_edfcapture" val="Yansıma Yakalama"/>
+		<str id="ids_edfmethod" val="Yöntemini seçin"/>
+		<str id="ids_edfself" val="Dosyaları seçin"/>
+		<str id="ids_edfaa" val="Otomatik hizalama"/>
+		<str id="ids_maxedf" val="Birçok görüntüler için. Görüntü sayısını excceed %u olamaz."/>
+
+		<str id="ids_panefloating" val="&amp;Yüzen"/>
+		<str id="ids_paneautohide" val="&amp;Otomatik Gizle"/>
+		<str id="ids_panehide" val="&amp;Gizle"/>
+		<str id="ids_scrright" val="Sağa Kaydır"/>
+		<str id="ids_scrleft" val="Sola Kaydır"/>
+		<str id="ids_autohide" val="Otomatik Gizle"/>
+        <str id="ids_winpos" val="Pencere Konumu"/>
+
+		<str id="ids_wmdtitle" val="Pencereler"/>
+		<str id="ids_wmdselwin" val="Pencere seçin:"/>
+		<str id="ids_wmdactivate" val="Etkinleştirmek"/>
+		<str id="ids_wmdsave" val="Kayıt"/>
+		<str id="ids_wmdclose" val="Pencere Kapat"/>
+		<str id="ids_wmdcasc" val="Çağlayan"/>
+		<str id="ids_wmdtileh" val="Yatay Döşe"/>
+		<str id="ids_wmdtilev" val="Dikey Döşe"/>
+		<str id="ids_wmdmini" val="Küçültmek"/>
+
+		<str id="ids_colorstandard" val="Standart"/>
+		<str id="ids_colorcolorscolon" val="Renkler:"/>
+		<str id="ids_colorselect" val="Seçin..."/>
+		<str id="ids_colorhue" val="Renk:"/>
+		<str id="ids_colorsaturation" val="Doygunluk:"/>
+		<str id="ids_colorluminence" val="Parlaklık:"/>
+		<str id="ids_colorred" val="Kırmızı:"/>
+		<str id="ids_colorgreen" val="Yeşil:"/>
+		<str id="ids_colorblue" val="Mavi:"/>
+
+		<str id="ids_unsupportformat" val="Desteklenmeyen resim biçimi."/>
+		<str id="ids_hdrfail" val="HDR sentezlemek başarısız oldu."/>
+
+		<str id="ids_miscopencl" val="GPU hızlandırılmış görüntü işlemeyi etkinleştir"/>
+
+		<str id="ids_sharpen" val="Keskinleştirme"/>
+		<str id="ids_detailenhance" val="Ayrıntı geliştirmek"/>
+		<str id="ids_smooth" val="Pürüzsüz"/>
+
+		<str id="ids_llc" val="Yerel renk düzeltme"/>
+
+		<str id="ids_bits" val="%u Bits"/>
+		<str id="ids_roitosmall" val="Yatırım Getirisi genişlik ve yükseklik 32 büyük olmalıdır."/>
+		<str id="ids_recordstep2tipwmv" val="Dosya adı uzantısı .wmv dosya adına otomatik olarak eklenir."/>
+
+		<str id="ids_dfcimportfail" val="Alma başarısız oldu."/>
+		<str id="ids_dfcexportfail" val="Dışa alınamadı."/>
+		<str id="ids_dfcimportmis" val="Alma başarısız oldu, uyumsuzluğu."/>
+
+		<str id="ids_sernext" val="Sonraki kare"/>
+		<str id="ids_serprev" val="Önceki çerçeve"/>
+
+		<str id="ids_pxsize" val="Piksel boyutu"/>
+
+		<str id="ids_extrigger" val="Dış"/>
+
+		<str id="ids_tecoutofrange" val="Giriş değeri aralık dışında bu [%.1f, %.1f]."/>
+		<str id="ids_tempunit" val="Sıcaklık birimleri"/>
+
+		<str id="ids_batchrecord" val="Toplu Kayıt"/>
+		<str id="ids_autocapture" val="Otomatik Yakalama"/>
+		<str id="ids_startacapture" val="&amp;Otomatik Yakalama"/>
+		<str id="ids_stopacapture" val="&amp;Durmak Yakalama"/>
+		<str id="ids_pause" val="Başla/PaKullan"/>
+
+		<str id="ids_hwver" val="Donanım sürümü"/>
+		<str id="ids_fwver" val="Bellenim sürümü"/>
+		<str id="ids_fpgaver" val="FPGA sürümü"/>
+		<str id="ids_mcuver" val="MCU sürümü"/>
+
+		<str id="ids_background" val="Arkaplan"/>
+		<str id="ids_saveas" val="Kayıt as"/>
+
+		<str id="ids_tctitle" val="Komutları"/>
+		<str id="ids_tckey" val="Klavye"/>
+		<str id="ids_tccat" val="Kategoriler:"/>
+		<str id="ids_tccmd" val="Komutları:"/>
+		<str id="ids_tcallcmd" val="Tüm Komutları"/>
+		<str id="ids_addrbtn" val="&amp;Düğmeleri Ekleme veya Kaldırma"/>
+		<str id="ids_toolbarreset" val="Araç Çubuğu &amp;Sıfırlama"/>
+		<str id="ids_resetask" val="Araç çubuğu sıfırlamak için emin misiniz?"/>
+		<str id="ids_tctip" val="Düğmesini eklemek için, araç çubuğuna sağ taraftaki komut düğmesini sürükleyin.\r\nKaldırmak için düğmeyi araç çubuğunun dışına sürükleyin."/>
+		<str id="ids_kcate" val="&amp;Kategori:"/>
+		<str id="ids_kcmd" val="K&amp;omutları:"/>
+		<str id="ids_krem" val="Ka&amp;ldır"/>
+		<str id="ids_kres" val="&amp;Tümünü Sıfırla"/>
+		<str id="ids_kass" val="&amp;Atamak"/>
+		<str id="ids_kato" val="Atanan:"/>
+		<str id="ids_knew" val="&amp;Yeni kısayol tuşuna basın:"/>
+		<str id="ids_kcur" val="Ağımdaki Tuşlar:"/>
+		<str id="ids_unass" val="[Tahmin edilmemiş]"/>
+		<str id="ids_kreset" val="Tüm değişiklikleriniz kaybolacaktır. Klavye ödevlerini gerçekten sıfırlamak istiyor musunuz?"/>
+		
+		<str id="ids_imagetype" val="Görüntü türü"/>
+
+		<str id="ids_focal" val="Odak uzaklığı"/>
+		<str id="ids_temp" val="Sensör sıcaklığı"/>
+		<str id="ids_longitude" val="Boylam, Aralığı = [-180.0, 180.0]"/>
+		<str id="ids_latitude" val="Enlem, Aralığı = [-90.0, 90.0]"/>
+
+		<str id="ids_str" val="Sicim"/>
+		<str id="ids_int" val="Tam sayı"/>
+		<str id="ids_real" val="Reel sayılar"/>
+
+		<str id="ids_temptint" val="Renk sıcaklığı/Tint"/>
+		<str id="ids_rgbgain" val="RGB Kazanç"/>
+
+		<str id="ids_even" val="Lütfen bir çift sayı girin."/>
+
+		<str id="ids_report" val="Rapor"/>
+		<str id="ids_reportresall" val="Şablonun içeriği silinir ve varsayılan şablon tarafından değiştirilecektir. Devam etmeye emin misin?"/>
+
+		<str id="ids_csvplus" val="İş akışı"/>
+		
+		<str id="ids_toofar" val="Çok uzak"/>
+		<str id="ids_tooclose" val="Çok yakın"/>
+
+		<str id="ids_webppresetphoto" val="Fotoğraf"/>
+		<str id="ids_webppresetpicture" val="Resim"/>
+		<str id="ids_webppresetdrawing" val="Çizim"/>
+		<str id="ids_webppreseticon" val="Simge"/>
+
+		<str id="ids_gpuwin8" val="Donanım (GPU) kodlaması sadece Windows 8 veya üstü sürümlerde kullanılabilir."/>
+
+		<str id="ids_cursorcross" val="Çapraz"/>
+
+		<str id="ids_segts" val="Segment"/>
+		<str id="ids_edges" val="Kenar"/>
+		<str id="ids_avgang" val="Ortalama açı"/>
+		<str id="ids_seglength" val="Segment uzunluğu"/>
+		<str id="ids_avglength" val="Ortalama uzunluk"/>
+		<str id="ids_ttllength" val="Toplam uzunluğu"/>
+		<str id="ids_randomcon" val="Rasgele Bağlantı"/>
+		<str id="ids_multicon" val="Çok Noktadan Bağlantı"/>
+		<str id="ids_segdistance" val="Segment mesafe"/>
+		<str id="ids_avgdistance" val="Ortalama mesafe"/>
+		<str id="ids_ttldistance" val="Toplam mesafe"/>
+
+		<str id="ids_expseglen0" val="Pano"/>
+		<str id="ids_expseglen1" val="CSV Dosya"/>
+
+		<str id="ids_cpucore" val="Çekirdek Sayısı"/>
+		<str id="ids_cputhrd" val="İş Parçacığı Sayısı"/>
+
+		<str id="ids_fastest" val="Hızlı"/>
+		<str id="ids_slowest" val="Yavaş"/>
+
+		<str id="ids_edgelen" val="Kenar uzunluğu"/>
+		<str id="ids_avgedge" val="Ortalama kenar uzunluğu"/>
+
+		<str id="ids_policy" val="Stratejisi"/>
+		<str id="ids_ae0" val="Sadece Işık Şiddeti"/>
+		<str id="ids_ae1" val="Işık Şiddeti Tercih"/>
+		<str id="ids_ae2" val="Sadece Kazanç"/>
+		<str id="ids_ae3" val="Kazanç Tercih"/>
+		<str id="ids_aeexpmax" val="Maksimum Işık Şiddeti Süresi"/>
+		<str id="ids_aegainmax" val="Maksimum kazanç"/>
+
+		<str id="ids_csvutf8" val="CSV içinde UTF8 charset kullanma"/>
+
+		<str id="ids_sensor" val="Sensör"/>
+		<str id="ids_isp" val="Donanım ISP"/>
+
+		<str id="ids_timestamp" val="Zaman Damgası"/>
+
+		<str id="ids_meanintensity" val="Ortalama Yoğunluk"/>
+		<str id="ids_intensity" val="Yoğunluk"/>
+
+		<str id="ids_typemis" val="Tür uyuşmazlığı"/>
+		<str id="ids_showsub" val="Alt nesneleri göster"/>
+
+		<str id="ids_connection" val="Bağlantı"/>
+
+		<str id="ids_pbslow" val="Yavaş"/>
+		<str id="ids_pbfast" val="Hızlı"/>
+
+		<str id="ids_multicast" val="Çok yöne yayın"/>
+		<str id="ids_unicast" val="Tek yöne yayın"/>
+
+		<str id="ids_custommo" val="Özel ölçüm"/>
+
+		<str id="ids_tecpower" val="TEC Güç"/>
+
+		<str id="ids_page" val="Sayfa"/>
+		<str id="ids_nextp" val="Sonraki sayfa"/>
+		<str id="ids_prevp" val="Önceki sayfa"/>
+		<str id="ids_firp" val="İlk sayfa"/>
+		<str id="ids_lasp" val="Son sayfa"/>
+        
+        <str id="ids_stat" val="İstatistik"/>
+
+		<str id="ids_hsty" val="H Stil"/>
+		<str id="ids_half" val="Yarım"/>
+		<str id="ids_acum" val="Kümülatif Mod"/>
+		<str id="ids_comp" val="Kompozit"/>
+
+		<str id="ids_powerc" val="Güç Tüketimi"/>
+
+		<str id="ids_writabledir" val="Dizin mevcut değil veya yazılabilir değil."/>
+
+		<str id="ids_namepre" val="İsim Öneki"/>
+
+		<str id="ids_ea" val="Kenar algısı"/>
+
+		<str id="ids_cmptip" val="Lütfen geçerli öğe ile karşılaştırmak için 1 veya 3 öğe seçin:\r\n&quot;%s&quot;"/>
+
+		<str id="ids_relt" val="Sonuç"/>
+        
+        <str id="ids_exsf" val="Geçerli Ayarları &amp;Dosyaya Aktar..."/>
+        <str id="ids_exse" val="Geçerli Ayarları &amp;FEEPROM'a Dışa Aktarma"/>
+        <str id="ids_exsa" val="&amp;Belirtilen Adres..."/>
+        <str id="ids_exs0" val="&amp;Sıfır Adres"/>
+		<str id="ids_extemp" val="&amp;Sıcaklık Geçmişini Dışa Aktar..."/>
+        
+        <str id="ids_cpattern" val="Damalı Desen"/>
+		
+		<str id="ids_ocws" val="Havza"/>
+		<str id="ids_ocsd" val="OTSU Karanlık"/>
+		<str id="ids_ocsb" val="OTSU Parlak"/>
+		
+		<str id="ids_ebusy" val="Kamera başka bir uygulama tarafından kullanılır."/>
+		<str id="ids_ecrc" val="Güç kaynağı yetersiz olabilir."/>
+		
+		<str id="ids_squ" val="Sıra"/>
+		
+		<str id="ids_littleend" val="Küçük Endian"/>
+		<str id="ids_bigend" val="Büyük Endian"/>
+		<str id="ids_bnum" val="Bayt sayısı"/>
+		
+		<str id="ids_deqdepth" val="Çerçeve Arabelleğinin Uzunluğu"/>
+		<str id="ids_fend" val="Ön uç"/>
+		<str id="ids_bend" val="Arka uç"/>
+		<str id="ids_tecam" val="Fotoğraf makinesini yeniden açtıktan sonra etkili olun"/>
+		
+		<str id="ids_gridm" val="Gridler: Resme Görüntüleri"/>
+		
+		<str id="ids_motion" val="Hareket halinde"/>
+		<str id="ids_idle" val="Boşta"/>
+		
+		<str id="ids_grc" val="Genel"/>
+		<str id="ids_pta" val="Parçacık Analizi"/>
+		<str id="ids_phc" val="Faz Sayımı"/>
+		<str id="ids_oth" val="Diğer"/>
+		
+		<str id="ids_farea" val="Odak Bölgesi"/>
+		
+		<str id="ids_lowestcpu" val="En düşük CPU kullanımı"/>
+		<str id="ids_highcpu" val="Yüksek CPU kullanımı"/>
+		<str id="ids_highercpu" val="Daha yüksek CPU kullanımı"/>
+		<str id="ids_highestcpu" val="En yüksek CPU kullanımı"/>
+		
+		<str id="ids_fscr" val="Ekranı Kapla"/>
+		<str id="ids_xfscr" val="Tam Ekranı Kapla"/>
+		
+		<str id="ids_updategige" val="Başarıyla tamamlandı, lütfen kamerayı kapatıp yeniden başlatın."/>
+		
+		<str id="ids_gainshow" val="Pozlama kazancı şu şekilde ifade edilir:"/>
+		<str id="ids_decibel" val="Desibel (dB)"/>
+		
+		<str id="ids_workd" val="Çalışma Mesafesi"/>
+		<str id="ids_efl" val="Etkili Odak Uzaklığı"/>
+		
+		<str id="ids_notcal" val="Kalibre Edilmemiş"/>
+		
+		<str id="ids_chamber" val="Oda"/>
+		<str id="ids_humidity" val="Nem"/>
+	</string>
+
+	<dialog>
+		<str id="ids_man" val="Yonetim"/>
+		<str id="ids_clear" val="Temizle"/>
+		<str id="ids_snap" val="Anlik"/>
+		<str id="ids_reco" val="Kayıt"/>
+		<str id="ids_qu" val="Miktar"/>
+		<str id="ids_bf" val="En uygun"/>
+		<str id="ids_seq" val="Sekans ile başlar:"/>
+		<str id="ids_number" val="Numarası"/>
+		<str id="ids_mode" val="Modu"/>
+		<str id="ids_qu100" val="Kalite (25-100):"/>
+		<str id="ids_aval" val="Mevcut"/>
+		<str id="ids_sedl" val="Seçilen"/>
+		<str id="ids_adgt" val="Ekle&gt;&gt;"/>
+		<str id="ids_aagt" val="Tümünü ekle"/>
+		<str id="ids_v" val="Değer:"/>
+		<str id="ids_border" val="Bayt Sırası:"/>
+		<str id="ids_sm" val="Deklanşör Modu:"/>
+		<str id="ids_unidir" val="Tek yönlü"/>
+		<str id="ids_defi" val="Tanımlamak..."/>
+		<str id="ids_goto" val="Git"/>
+		<str id="ids_tb" val="Renk Tablosu"/>
+		<str id="ids_conmode" val="Sürekli mod"/>
+		<str id="ids_timeval" val="Zaman aralığı:"/>
+	
+		<dlg id="IDD_AUTO">
+			<str id="dir" val="Rehber:"/>
+			<str id="for" val="Ad biçimi:"/>
+			<str id="pre" val="Dosya öneki:"/>
+			<str id="cm" val="Çekim modu"/>
+			<str id="ef" val="Her çerçeve yakalama"/>
+			<str id="time" val="Time slot(saniye)"/>
+			<str id="tt" val="Toplam Resimler"/>
+			<str id="so" val="Sıra Opsiyon"/>
+			<str id="sv" val="Video penceresinde göster"/>
+			<str id="sw" val="Yeni bir pencerede göster"/>
+			<str id="sd" val="Diske kaydet"/>
+			<str id="base" val="Bankası:"/>
+			<str id="sub" val="Alt:"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHSAVE">
+			<str id="tl" val="Toplu Kaydet"/>
+			<str id="dir" val="Rehber:"/>
+			<str id="for" val="İsim Format:"/>
+			<str id="pre" val="Dosya öneki:"/>
+			<str id="show" val="Yeniden Adlandır iletişim kutusunu göster"/>
+			<str id="base" val="Bankası:"/>
+			<str id="sub" val="Alt:"/>
+			<str id="qst" val="1. Yukarıdaki ayarları &quot;Hýzlý Kaydet&quot; menü ve araç çubuğundaki ilgili düğmeye uygulanır. &quot;Hýzlý Kaydet&quot; çağrılırken, görüntüleri hızlı bir şekilde Belirtilen dizindeki yukarıdaki ayarlara göre kaydedilir.\n2. RGB48 seçilirse, görüntü her zaman bir tif veya png dosyası olarak kaydedilir çünkü yalnızca tif ve png dosyası RGB48 destekleyebilir."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD">
+			<str id="dir" val="Rehber:"/>
+			<str id="frm" val="İsim Format:"/>
+			<str id="pf" val="Dosya öneki:"/>
+			<str id="sh" val="Yeniden Adlandır iletişim kutusunu göster"/>
+			<str id="lm" val="Sınırı"/>
+			<str id="tl" val="Zaman sınırı (Saniye(s)):"/>
+			<str id="fl" val="Çerçeve sınırı:"/>
+			<str id="base" val="Bankası:"/>
+			<str id="sub" val="Alt:"/>
+			<str id="fo" val="Dosya Adı Seçenekleri..."/>
+			<str id="do" val="Dizin seçenekleri..."/>
+		</dlg>
+
+		<dlg id="IDD_BATCHRECORD">
+			<str id="num" val="Video sayısı:"/>
+			<str id="it" val="Zaman aralığı (Saniye(s)):"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_SELECT">
+			<str id="tl" val="EDF"/>
+			<str id="open" val="Aç:"/>
+			<str id="se" val="Seç:"/>
+			<str id="pro" val="İlerleme:"/>
+			<str id="aa" val="Tümünü ekle"/>
+			<str id="fuse" val="Başlat"/>
+			<str id="m" val="Yöntemi:"/>
+		</dlg>
+
+		<dlg id="IDD_MAG">
+			<str id="cla" val="Tümünü Temizleyin"/>
+		</dlg>
+
+		<dlg id="IDD_CALIBRATE">
+			<str id="ac" val="Gerçek Uzunluk"/>
+			<str id="pi" val="Piksel"/>
+			<str id="pm" val="Piksel/Meter"/>
+			<str id="ep" val="Bitis Noktasi"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAEXPOSURE">
+			<str id="ll" val="Düşük ışık telafisi"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAHISTOGRAM">
+			<str id="l" val="Sol:"/>
+			<str id="r" val="Sağ:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALS">
+			<str id="desc" val="Anti-Titreşim işlevi yalnızca çekim dedektörü (cmos sensörleri çoğunu) haddeleme ile kameralar için kullanılabilir ve otomatik işık şiddeti modu devre dışı bırakılması gerekiyor. Bu fonksiyon seçilen güç frekansına bağlı sadece bazı belirli pozlama zaman değerleri elde edilebilir, yapacak etkinleştir."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAMODE">
+			<str id="color" val="Renkli"/>
+			<str id="gray" val="Gri"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERASPEED">
+			<str id="low" val="Dusuk"/>
+			<str id="com" val="Kamera bilgisayara USB hub destekler hızlı kare hızında canlı video oynatan sağlamak için kaydırıcıyı sağa taşıyın. Canlı video görüntülemek için başarısız olursa, kare hızını azaltmak için sola doğru hareket ettirin."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAWB">
+			<str id="tem" val="Renk sıcaklığı:"/>
+			<str id="com" val="Saf beyaz veya gri nesne ROI (kırmızı bir dikdörtgen ile işaretlenmiş) hareket ettirin ve gelecek video için beyaz dengesini kurmak için &quot;Beyaz Dengesi&quot; butonuna tıklayınız."/>
+			<str id="auto" val="Otomatik beyaz ayarı"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAPRESET">
+			<str id="load" val="Yükle"/>
+			<str id="ov" val="Üstune yazma"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERTXT">
+			<str id="tl" val="Üstüne Kaplamak"/>
+			<str id="pos" val="Pozisyon:"/>
+			<str id="sc" val="Skala"/>
+			<str id="show" val="Göstermek"/>
+			<str id="dt" val="Tarih zaman"/>
+			<str id="cl" val="Berraklık Faktörü"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERGEO">
+			<str id="tl" val="İsaretleyici"/>
+		</dlg>
+
+		<dlg id="IDD_OPENDLG">
+			<str id="imag" val="Resim Bilgileri/Onizleme"/>
+			<str id="cur" val="Güncel Dosya:"/>
+		</dlg>
+
+		<dlg id="IDD_PROMTSAVE">
+			<str id="tl" val="Kayitli Dosyalar"/>
+			<str id="com" val="Dosya modifiye edilmiştir. Kayıt etmek istiyormusunuz?"/>
+			<str id="yes" val="Tümüne Evet"/>
+			<str id="no" val="Tümüne Hayir"/>
+			<str id="bat" val="Toplu Kaydet"/>
+		</dlg>
+
+		<dlg id="IDD_SFT">
+			<str id="tl" val="Ölçümü destekleyen görüntü formatları"/>
+			<str id="com" val="Secilen format don't destek katmani ve olcum. Eğer görüntü ile katmanları ve ölçüm kaydetmek istiyorsanız, biçimini seçiniz:"/>
+			<str id="re" val="Don't daha sonra hatırlatmak."/>
+			<str id="con" val="Devam"/>
+			<str id="res" val="yeniden seçin"/>
+		</dlg>
+
+		<dlg id="IDD_CAPTURE">
+			<str id="mk" val="Yakalama ile Marker ve Filigran"/>
+			<str id="mm" val="Yakalama ile Olcum:"/>
+		</dlg>
+
+		<dlg id="IDD_GRID">
+			<str id="ru" val="Cetvel Renk:"/>
+			<str id="cu" val="İmleç Renk:"/>
+			<str id="sy" val="Stil:"/>
+			<str id="lis" val="Çizgi Stili:"/>
+			<str id="lic" val="Çizgi Rengi:"/>
+			<str id="pm" val="Ön Ayar Yönetimi..."/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION1">
+			<str id="dr" val="Panorama düzelt:"/>
+			<str id="wt" val="Projeksiyon tip:"/>
+			<str id="sf" val="Dikiş bulma:"/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION2">
+			<str id="mc" val="Maç güven:"/>
+			<str id="pc" val="Panorama güven:"/>
+			<str id="bs" val="Karışım gücü:"/>
+			<str id="ms" val="Maç gücü:"/>
+		</dlg>
+
+		<dlg id="IDD_PROGRESS">
+			<str id="tl" val="İlerleme"/>
+		</dlg>
+
+		<dlg id="IDD_WATERMARK">
+			<str id="tl" val="Video Watermark"/>
+			<str id="fle" val="Görüntü Dosyası:"/>
+            <str id="tra" val="Şeffaf (%):"/>
+			<str id="tip" val="Shift + Yukarı / Aşağı / Sol / Sağ ok filigran döndürmek için.\r\nUse Shift + Ctrl + Sağ / Sol ok tuşu filigran geçmek için tuşunu kullanın."/>
+		</dlg>
+
+		<dlg id="IDD_IOPT">
+			<str id="r" val="Sıkıstırma Oranı"/>
+			<str id="los" val="Kayıpsız"/>
+			<str id="qu" val="Resim kalitesi"/>
+			<str id="best" val="En iyi\nSıkıştırma"/>
+			<str id="bq" val="En iyi\nkalite"/>
+			<str id="pr" val="İlerleyen"/>
+			<str id="sm" val="Pürüzsüzlestirici"/>
+			<str id="op" val="Kodlama optimize"/>
+			<str id="ap" val="Sayfa Ekleme"/>
+			<str id="s" val="Sıfır dolgu:"/>
+			<str id="def" val="Varsayılan olarak bu ayarları kaydet"/>
+			<str id="cl" val="Sıkıştırma Düzeyi"/>
+			<str id="fs" val="En\nhızlı"/>
+			<str id="hr" val="Çok\nyüksek"/>
+			<str id="fh" val="Dosya Başlığı:"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_HEADER">
+			<str id="tc" val="Bütün ekran bilgileri isteğe bağlıdır."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP1">
+			<str id="pl" val="Video formatini seciniz"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP2">
+			<str id="name" val="1.Çekilen video dosyasının adını ayarlayın"/>
+			<str id="dir" val="2.Video dosyası için dizin seçin"/>
+			<str id="tc" val="Dosya adı uzantısı .wmv veya .mp4 veya .avi dosya adına otomatik olarak eklenir."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP3">
+			<str id="key" val="Anahtar Çerçeveler Aralığı:"/>
+			<str id="se" val="Saniye(s)"/>
+			<str id="bb" val="Varsayılan bitrate:"/>
+			<str id="cfg" val="Yapilandirma..."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP4">
+			<str id="t" val="Time Limit (Saniye(s)):"/>
+			<str id="s" val="Özet"/>
+			<str id="f" val="Kare sayısı:"/>
+			<str id="a" val="Time (Saniye(s)):"/>
+		</dlg>
+
+		<dlg id="IDD_BROADCAST">
+			<str id="port" val="Liman:"/>
+			<str id="save" val="Aynı anda dosya içeriği kaydedin"/>
+		</dlg>
+
+		<dlg id="IDD_OPENBROADCAST">
+			<str id="tl" val="Açık Yayın"/>
+			<str id="port" val="Liman:"/>
+		</dlg>
+
+		<dlg id="IDD_MOVE">
+			<str id="tl" val="Hareket"/>
+		</dlg>
+
+		<dlg id="IDD_DIAGNOSE">
+			<str id="tl" val="Tanılamak"/>
+		</dlg>
+
+		<dlg id="IDD_CURVE">
+			<str id="tl" val="Eğri"/>
+		</dlg>
+
+		<dlg id="IDD_RANGE">
+			<str id="tl" val="Aralik"/>
+			<str id="in" val="Ters"/>
+			<str id="up" val="Güncellestir"/>
+		</dlg>
+
+		<dlg id="IDD_PROPPAGE_MOSAICSET">
+			<str id="fo" val="Altbilgi"/>
+			<str id="ar" val="Ayarlama"/>
+			<str id="rows" val="Satirlar"/>
+			<str id="col" val="Kolon"/>
+			<str id="rs" val="Satır araligi"/>
+			<str id="cs" val="Kolon Araligi"/>
+			<str id="ps" val="Sayfa Boyutu"/>
+			<str id="ds" val="Standart boyutu"/>
+			<str id="pr" val="Yazici kullanin's size"/>
+			<str id="ch" val="Degistirmek..."/>
+			<str id="use14" val="1/4 Size Kullan"/>
+		</dlg>
+
+		<dlg id="IDD_ADJUSTBC">
+			<str id="tl" val="Ayarlanabilir Brightness/Contrast"/>
+		</dlg>
+
+		<dlg id="IDD_AUTOSETUP">
+			<str id="low" val="Düşük Kirpma"/>
+			<str id="high" val="Yüksek Kirpma"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR">
+			<str id="tl" val="Renk Ayarlama"/>
+			<str id="mo" val="Renk Modülleri"/>
+		</dlg>
+
+		<dlg id="IDD_CLRQUANT">
+			<str id="bits" val="Renk Bitleri"/>
+		</dlg>
+
+		<dlg id="IDD_COLORBITS">
+			<str id="tl" val="Degisebilir Renk Bits"/>
+			<str id="new" val="Yeni renk Bitleri"/>
+		</dlg>
+
+		<dlg id="IDD_COLORSELECT">
+			<str id="tl" val="Renk Secimi"/>
+		</dlg>
+
+		<dlg id="IDD_EDGE">
+			<str id="fil" val="Filtre"/>
+			<str id="h" val="Yatay"/>
+			<str id="v" val="Dikey"/>
+			<str id="pa" val="Geç"/>
+		</dlg>
+
+		<dlg id="IDD_ENHANCE">
+			<str id="fi" val="Filtre"/>
+			<str id="lp" val="Düşük geçiş"/>
+			<str id="hp" val="Yüksek geçiş"/>
+			<str id="g" val="Gauss"/>
+			<str id="hg" val="Yüksek Gauss"/>
+			<str id="equ" val="Eşitleme"/>
+			<str id="fl" val="Düzleştirmek"/>
+			<str id="me" val="Medyan"/>
+			<str id="rk" val="Rütbe"/>
+			<str id="pa" val="Gec"/>
+			<str id="w" val="Pencereler"/>
+		</dlg>
+
+		<dlg id="IDD_FILLDIALOG">
+			<str id="tl" val="Değer doldurun"/>
+		</dlg>
+
+		<dlg id="IDD_GRAY">
+			<str id="tl" val="Gri Skala"/>
+			<str id="alg" val="Algoritma"/>
+			<str id="ave" val="Averaj"/>
+			<str id="max" val="Maksimum"/>
+			<str id="we" val="Yükseklik"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM">
+			<str id="ch" val="Kanal"/>
+			<str id="le" val="Seviye:"/>
+			<str id="co" val="Sayim:"/>
+			<str id="px" val="Piksel:"/>
+			<str id="per" val="Yüzdelik:"/>
+		</dlg>
+
+		<dlg id="IDD_KERPAGE">
+			<str id="ker" val="Tane"/>
+			<str id="open" val="Açık"/>
+			<str id="cl" val="Kapali"/>
+			<str id="pa" val="Gec"/>
+			<str id="fi" val="Filitre tipi"/>
+			<str id="conv" val="Kivrim"/>
+			<str id="morp" val="Morfoloji"/>
+		</dlg>
+
+		<dlg id="IDD_MORPAGE">
+			<str id="fil" val="Filtre"/>
+			<str id="open" val="Acik"/>
+			<str id="cl" val="Kapali"/>
+			<str id="well" val="İyi"/>
+			<str id="pa" val="Geç"/>
+			<str id="3x1" val="3 x 1 Satir"/>
+			<str id="1x3" val="1 x 3 Kolon"/>
+			<str id="3x3" val="3 x 3 Capraz"/>
+			<str id="5x5" val="5 x 5 Daire"/>
+			<str id="7x7" val="7 x 7 Daire"/>
+			<str id="11x11" val="11 x 11 Daire"/>
+		</dlg>
+
+		<dlg id="IDD_ROTATE">
+			<str id="tl" val="Goruntü Döndür"/>
+			<str id="deg" val="Derece:"/>
+			<str id="qu" val="Kalite"/>
+			<str id="an" val="Açı"/>
+		</dlg>
+
+		<dlg id="IDD_SCALE">
+			<str id="tl" val="Görüntü boyutu"/>
+			<str id="con" val="Oranları Koru"/>
+			<str id="met" val="Ölçek yöntemi"/>
+		</dlg>
+
+		<dlg id="IDD_GAMMA">
+			<str id="tl" val="Gamma ayarı"/>
+		</dlg>
+
+		<dlg id="IDD_HMS">
+			<str id="tl" val="Vurgulamak/Orta Ton/Gölge"/>
+		</dlg>
+
+		<dlg id="IDD_CHANNEL">
+			<str id="tl" val="Renk Secimi"/>
+		</dlg>
+
+		<dlg id="IDD_PROFILE">
+			<str id="t" val="Profili"/>
+		</dlg>
+
+		<dlg id="IDD_LAYERNAME">
+			<str id="tl" val="Katman"/>
+		</dlg>
+
+		<dlg id="IDD_AUNIT">
+			<str id="all" val="Ölçüm kenar çubuğundaki tüm açı birimlerini göster"/>
+		</dlg>
+
+		<dlg id="IDD_ADDUNIT">
+			<str id="tl" val="Birim ekle"/>
+			<str id="sc" val="Skala:"/>
+			<str id="sy" val="Sembol:"/>
+		</dlg>
+
+		<dlg id="IDD_GENERAL">
+			<str id="res" val="Hesaplama sonuçları tutmak:"/>
+			<str id="lfs" val="Etiket yazı tipi boyutu:"/>
+			<str id="unit" val="Birim ile birlikte boyutlar"/>
+            <str id="sp" val="Sayısal değer ile birim sembolü arasına boşluk koyun (&quot;12,34 mm&quot; veya &quot;12,34mm&quot;)"/>
+			<str id="rc" val="Rastgele bağlantı minimum uzunluğu:"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_DELETE">
+			<str id="tl" val="Katman kaldır"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_CURRENT">
+			<str id="tl" val="Gecer Katman"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_MANAGE">
+			<str id="tl" val="Göster/Gizle Katman"/>
+		</dlg>
+
+		<dlg id="IDD_MEASURELIST">
+			<str id="col" val="Ölçümü tablo sütun tanımlayın"/>
+			<str id="o" val="Özel nesne..."/>
+			<str id="c" val="Özel sütun..."/>
+			<str id="a" val="Özel hesaplama..."/>
+			<str id="r" val="Özel Satır..."/>
+			<str id="s" val="İstatistik (Aşağıdaki satırları ekleme)"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR_COMPOSITE">
+			<str id="tl" val="Renkli Kompozit"/>
+			<str id="so" val="Kaynak Görüntüler:"/>
+			<str id="co" val="Renkler:"/>
+			<str id="all" val="Hepsi"/>
+			<str id="se" val="Seç"/>
+			<str id="adj" val="Ayarla"/>
+			<str id="reg" val="Kayıt"/>
+		</dlg>
+
+		<dlg id="IDD_COMPOSITE_AVA">
+			<str id="so" val="Kaynak Görüntüler"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_SELECT_COLOR">
+			<str id="tl" val="Renk Seç"/>
+			<str id="fle" val="Dosya için:"/>
+			<str id="se" val="Seç:"/>
+			<str id="back" val="Arkaplan"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_DYE_LIST">
+			<str id="tl" val="Boya Listesini Düzenle"/>
+			<str id="rel" val="Tüm güncelle"/>
+			<str id="ext" val="Ekstraksiyon Dalgaboyu:"/>
+			<str id="em" val="Emisyon Dalgaboyu:"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_NEW_DYE">
+			<str id="tl" val="Yeni Boya"/>
+		</dlg>
+
+		<dlg id="IDD_STACKING">
+			<str id="tl" val="Görüntü İstifleme"/>
+		</dlg>
+
+		<dlg id="IDD_PROP">
+			<str id="set" val="Ölçümü nesne varsayılan özelliklerini ayarlama:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_OPTION">
+			<str id="tl" val="Count seçenekleri"/>
+			<str id="os" val="Anahat Stil:"/>
+			<str id="ot" val="Stil:"/>
+			<str id="lm" val="Yöntemi:"/>
+			<str id="wh" val="Delikleri Doldurun"/>
+			<str id="la" val="Etiket"/>
+			<str id="min" val="En az:"/>
+			<str id="max" val="Maksimum:"/>
+			<str id="sc" val="Sahne:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_HISTORGRAM">
+			<str id="sa" val="Tümünü göster"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_COLORCUBE">
+			<str id="to" val="Tolerans"/>
+		</dlg>
+
+		<dlg id="IDD_NLM">
+			<str id="tl" val="Olmayan yerel anlamına gelir"/>
+			<str id="sw" val="Arama penceresi:"/>
+			<str id="tw" val="Şablonu penceresi:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYD">
+			<str id="d" val="Ayrıntı netlik:"/>
+			<str id="o" val="Toplam parlaklık:"/>
+			<str id="b" val="Arka plan parlaklık:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_ALIGN">
+			<str id="aa" val="Otomatik hizalama"/>
+			<str id="a0" val="Hiçbiri"/>
+			<str id="a1" val="Üst karakter + Ölçek"/>
+			<str id="a2" val="Üst karakter + Ölçek + Döndürme"/>
+			<str id="ma" val="Maksimum açı:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_FM">
+			<str id="at" val="Referans görüntü otomatik olarak belirle"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYDSTACK">
+			<str id="dm" val="Depthmap kurtarmak:"/>
+			<str id="ri" val="Kaldır Adaları:"/>
+			<str id="lf" val="Kurar filtre:"/>
+			<str id="hf" val="Yüksek geçiren Filtre:"/>
+			<str id="ac" val="Karşıtlığı ayarlamak:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERADFC">
+			<str id="tip" val="Objektif kapağı ve karanlık alan yakalamak için &quot;Yakalama&quot; butonuna basın. &quot;Karanlık alan düzeltme&quot; etkinleştirmek için &quot;Etkinleştir&quot; düğmesini kontrol."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALIVESTACK">
+			<str id="af" val="Çerçeveleri hizalama"/>
+			<str id="pl" val="Gezegen"/>
+			<str id="ds" val="Derin uzay"/>
+			<str id="in" val="Giriş:"/>
+			<str id="out" val="Çıkış:"/>
+		</dlg>
+
+		<dlg id="IDD_BF">
+			<str id="tt" val="İkili filtre"/>
+			<str id="size" val="Değer etki alanı:"/>
+			<str id="s" val="Alan etki alanı:"/>
+		</dlg>
+
+		<dlg id="IDD_CLAHE">
+			<str id="tl" val="Histogram eşitleme"/>
+		</dlg>
+
+		<dlg id="IDD_UNSHARPMASK">
+			<str id="tl" val="Keskinliği Azaltma Maskesi"/>
+			<str id="a" val="Tutar:"/>
+		</dlg>
+
+		<dlg id="IDD_DETAILENHANCE">
+			<str id="tl" val="Ayrıntı geliştirmek"/>
+			<str id="s" val="Kayma Sigma:"/>
+			<str id="r" val="Aralığı Sigma:"/>
+		</dlg>
+
+		<dlg id="IDD_EDGEPRESERVINGSMOOTH">
+			<str id="tl" val="Pürüzsüz koruyarak kenar"/>
+			<str id="s" val="Kayma Sigma:"/>
+			<str id="r" val="Aralığı Sigma:"/>
+			<str id="f" val="Filtre"/>
+			<str id="re" val="Özyinelemeli"/>
+			<str id="n" val="Normalleştirilmiş evrişim"/>
+		</dlg>
+
+		<dlg id="IDD_LLC">
+			<str id="tl" val="Yerel renk düzeltme"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFORMAT">
+			<str id="v" val="Özellikleri"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERACOOL">
+			<str id="po" val="Güç:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERATRIGGER">
+			<str id="vm" val="Video modu"/>
+			<str id="tr" val="Tetik modu"/>
+			<str id="live" val="Canlı:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERABINNING">
+			<str id="m" val="Yöntemi:"/>
+		</dlg>
+
+		<dlg id="IDD_FITSADD">
+			<str id="a" val="(1~8 alfabe veya basamak, A~Z, a~z, 0~9)"/>
+		</dlg>
+
+		<dlg id="IDD_REPORT">
+			<str id="t" val="Şablon"/>
+			<str id="l" val="Klon..."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAAF">
+			<str id="c" val="Konjugat kalibrasyon"/>
+			<str id="0" val="C montajı 0mm"/>
+			<str id="n" val="Yakın"/>
+			<str id="f" val="Uzak"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_MANUAL">
+			<str id="tl" val="El ile Kont"/>
+			<str id="er" val="Silmek"/>
+		</dlg>
+
+		<dlg id="IDD_IOADVANCED">
+			<str id="b" val="Baud Oranı:"/>
+			<str id="r" val="Almak"/>
+			<str id="d" val="Gönder"/>
+		</dlg>
+
+		<dlg id="IDD_WAIT">
+			<str id="t" val="Bekle"/>
+			<str id="p" val="Lütfen bekle:"/>
+		</dlg>
+		
+		<dlg id="IDD_GIGENET">
+			<str id="s" val="Alt Ağ Maskesi:"/>
+			<str id="g" val="Varsayılan Ağ Geçidi:"/>
+		</dlg>
+		
+		<dlg id="IDD_FW">
+			<str id="n" val="Yuva Numarası:"/>
+		</dlg>
+		
+		<dlg id="IDD_PSEUDOCOLOR">
+			<str id="s" val="Rengi Başlat:"/>
+			<str id="e" val="Bitiş Rengi:"/>
+		</dlg>
+		
+		<dlg id="IDD_NOSE">
+			<str id="s" val="Satıcı:"/>
+			<str id="e" val="Yuva:"/>
+		</dlg>
+	</dialog>
+
+	<menu>
+		<str id="fle" val="&amp;Dosya"/>
+		<str id="edt" val="Düzen&amp;le"/>
+		<str id="vew" val="Görü&amp;nüm"/>
+		<str id="prss" val="İşle&amp;m"/>
+		<str id="opns" val="&amp;Opsiyon"/>
+		<str id="wnd" val="&amp;Pencere"/>
+		<str id="hlp" val="&amp;Yardım"/>
+		<str id="cptu" val="Ya&amp;kalama"/>
+		<str id="imag" val="&amp;Görüntü"/>
+		<str id="layr" val="Ka&amp;tman"/>
+		<str id="meas" val="Ölçm&amp;e"/>
+		<str id="brws" val="Gö&amp;zat"/>
+		<str id="db" val="&amp;Veritabanı"/>
+
+		<str id="recf" val="Son &amp;Dosyalar"/>
+		<str id="sdbr" val="&amp;Kenar Çubuğu"/>
+		<str id="sort" val="&amp;Tür"/>
+		<str id="icns" val="&amp;Simgeler"/>
+		<str id="grds" val="&amp;Bölüntüler"/>
+		<str id="mvwm" val="&amp;Hareketli Filigran"/>
+		<str id="rtwm" val="&amp;Filigran Döndür"/>
+		<str id="mode" val="&amp;Modu"/>
+		<str id="adj" val="&amp;Ayarlama"/>
+		<str id="rtt" val="&amp;Döndür"/>
+		<str id="line" val="&amp;Çizgi"/>
+		<str id="vert" val="&amp;Dikey"/>
+		<str id="crcl" val="&amp;Daire"/>
+		<str id="ccleh" val="&amp;Hol olan daire"/>
+		<str id="tocls" val="T&amp;wo Daire"/>
+		<str id="zodr" val="&amp;Z Sırası"/>
+		<str id="lunit" val="Uzunluk &amp;Birim"/>
+
+		<str id="oimg" val="&amp;Resim Aç..."/>
+		<str id="ovid" val="Aç &amp;Video..."/>
+		<str id="obcas" val="Açık &amp;Yayın..."/>
+		<str id="sckin" val="&amp;Görüntü İstifleme..."/>
+		<str id="batsv" val="&amp;Toplu Kaydet..."/>
+		<str id="qksv" val="&amp;Hýzlý Kaydet..."/>
+		<str id="psnew" val="Paste as &amp;Yeni Dosya"/>
+		<str id="norec" val="Hiçbir Dosya yok"/>
+		<str id="exit" val="Çı&amp;kış"/>
+		<str id="copy" val="&amp;Kopya"/>
+		<str id="pste" val="&amp;Yapıştır"/>
+		<str id="passc" val="Yapıştır &amp;Kes"/>
+		<str id="selal" val="Select &amp;Hepsini Seç"/>
+		<str id="ivsel" val="&amp;Ters seçim"/>
+		<str id="mshet" val="&amp;Ölçüm Sayfası"/>
+		<str id="camsb" val="&amp;Kamera"/>
+		<str id="fosb" val="&amp;Klasörler"/>
+		<str id="ursb" val="&amp;Geri/İleri"/>
+		<str id="lydb" val="&amp;Katman"/>
+		<str id="msbar" val="Ö&amp;lçme"/>
+		<str id="prfs" val="&amp;Tercihler..."/>
+		<str id="mm" val="Ölç&amp;me..."/>
+		<str id="mf" val="&amp;Büyütme..."/>
+		<str id="clbr" val="&amp;Kalibrasyon..."/>
+		<str id="edtdy" val="&amp;Boya Listesini Duzenle..."/>
+		<str id="atcor" val="&amp;Otomatik Düzeltme..."/>
+		<str id="f1" val="&amp;Yardım İçeriği"/>
+		<str id="ab" val="&amp;Hakkinda"/>
+
+		<str id="save" val="&amp;Kayıt"/>
+		<str id="svee" val="&amp;Kayıt..."/>
+		<str id="svas" val="Kayıt &amp;As..."/>
+		<str id="imgsl" val="Görüntü &amp;Seçim"/>
+		<str id="seln" val="Seçim &amp;Hiçbiri"/>
+
+		<str id="gno" val="&amp;Bölüntü Yok"/>
+		<str id="grm" val="&amp;Manual Bölüntü"/>
+		<str id="gda" val="&amp;Otomatik Bölüntü"/>
+		<str id="gdl" val="&amp;Tüm Girdileri Kaldır"/>
+		<str id="rlset" val="&amp;Ayarlar..."/>
+		<str id="asiz" val="&amp;Gerçek Boyut"/>
+
+		<str id="sith" val="Di&amp;kiş..."/>
+		<str id="dldt" val="&amp;Dosya Sil"/>
+		<str id="bbro" val="&amp;Gözat"/>
+		<str id="openf" val="&amp;Açık"/>
+
+		<str id="sttp" val="&amp;Donmak"/>
+		<str id="fscr" val="&amp;Ekranı Kapla"/>
+		<str id="vwpp" val="&amp;Tanılamak"/>
+		<str id="vvl" val="Video &amp;Bindirme..."/>
+		<str id="vwm" val="Video &amp;Filigran..."/>
+		<str id="wmmv" val="&amp;Hareket et..."/>
+		<str id="wmzro" val="Hareket Et&amp;zero"/>
+		<str id="wmrot" val="&amp;Döndür..."/>
+		<str id="wmrz" val="Döndür&amp;sıfır"/>
+		<str id="gcal" val="&amp;Gri Kalibrasyon"/>
+		<str id="cpig" val="&amp;Görüntü Yakalama"/>
+		<str id="tmlps" val="Başla &amp;Time-lapse (Auto Capture)..."/>
+		<str id="strec" val="Başla/Durdur &amp;Kayıt..."/>
+		<str id="brec" val="&amp;Toplu Kayıt"/>
+		<str id="acap" val="&amp;Otomatik Yakalama"/>
+		<str id="sttb" val="Başla/Durdur &amp;Yayın..."/>
+
+		<str id="qtiz" val="Renk &amp;Quantize..."/>
+		<str id="gsca" val="&amp;Gri Skala"/>
+		<str id="curv" val="&amp;Eğri..."/>
+		<str id="alvl" val="Otomatik&amp;Seviye"/>
+		<str id="acon" val="Otomatik Contras&amp;t"/>
+		<str id="eql" val="Histogram &amp;eşitleme..."/>
+		<str id="bc" val="Parlaklık/Kontras&amp;t..."/>
+		<str id="imclr" val="&amp;Renk..."/>
+		<str id="fclr" val="&amp;Filtre Renk..."/>
+		<str id="eclr" val="&amp;Özü Renk..."/>
+		<str id="iclr" val="&amp;Ters"/>
+		<str id="filph" val="Ters Çevir&amp;Yatay"/>
+		<str id="flipv" val="Ters Çevir&amp;Dikey"/>
+		<str id="crop" val="&amp;Kırpma"/>
+		<str id="imsca" val="&amp;Görüntü boyutu..."/>
+		<str id="reso" val="&amp;Çözünürlük..."/>
+		<str id="ovlsb" val="&amp;Ölçek Çubuğu Bindirme..."/>
+
+		<str id="fi" val="&amp;Filtre..."/>
+		<str id="rang" val="&amp;Aralığı..."/>
+		<str id="biy" val="&amp;İkili..."/>
+		<str id="psud" val="&amp;Sözde renk..."/>
+		<str id="prf" val="Profi&amp;l..."/>
+		<str id="mosc" val="M&amp;ozaik..."/>
+		<str id="cmps" val="&amp;Bileşik renk..."/>
+		<str id="nlm" val="&amp;Olmayan yerel anlamına gelir..."/>
+		<str id="bila" val="&amp;İkili filtre..."/>
+
+		<str id="lnew" val="&amp;Yeni..."/>
+		<str id="lrem" val="&amp;Kaldır..."/>
+		<str id="lcur" val="Güncel..."/>
+		<str id="lshow" val="&amp;Göster/Gizle..."/>
+		<str id="len" val="Yeniad..."/>
+		<str id="lexp" val="Resme &amp;Görüntüleri..."/>
+		<str id="mexp" val="Resme &amp;Görüntüleri"/>
+		<str id="ldrem" val="&amp;Kaldır"/>
+		<str id="ldcur" val="&amp;Güncel"/>
+		<str id="ldshw" val="&amp;Göster/Gizle"/>
+
+		<str id="osel" val="Nesne &amp;Seçimi"/>
+		<str id="angl" val="A&amp;Açı"/>
+		<str id="point" val="&amp;Nokta"/>
+		<str id="arbl" val="&amp;Rasgele"/>
+		<str id="hline" val="&amp;Yatay"/>
+		<str id="vline" val="&amp;Dikey"/>
+		<str id="parl" val="Pa&amp;ralel"/>
+		<str id="pnt8" val="&amp;8 Nokta"/>
+		<str id="pnt5" val="&amp;5 Nokta"/>
+		<str id="pnt4" val="&amp;4 Nokta"/>
+		<str id="pnt3" val="&amp;3 Nokta"/>
+		<str id="pnt3" val="&amp;2 Nokta"/>
+		<str id="rctg" val="Dikdört&amp;gen"/>
+		<str id="elps" val="&amp;Elips"/>
+		<str id="crad" val="&amp;Merkez+RADIUS"/>
+		<str id="alus" val="&amp;Halka"/>
+		<str id="arc" val="&amp;Kavis"/>
+		<str id="text" val="Metin"/>
+		<str id="plg" val="Çokgen"/>
+		<str id="ztop" val="&amp;Üst"/>
+		<str id="zbtm" val="&amp;Alt"/>
+		<str id="zup" val="Move &amp;Yukarı"/>
+		<str id="zdown" val="Move &amp;Aşağı"/>
+		<str id="sbar" val="&amp;Ölçek Çubuğu..."/>
+		<str id="lcv" val="&amp;Eğri"/>
+		<str id="mode1" val="&amp;Rasgele Bağlantı"/>
+		<str id="mode2" val="&amp;Çok Noktadan Bağlantı"/>
+
+		<str id="call" val="&amp;Tümünü Kapat"/>
+		<str id="rstlo" val="Pencere Düzeni &amp;Reset"/>
+		<str id="wnds" val="&amp;Pencereler..."/>
+
+		<str id="aunit" val="&amp;Açı Birimi..."/>
+
+		<str id="nccls" val="&amp;Kapalı"/>
+		<str id="nccla" val="Kapalı &amp;Tüm Ancak Bu"/>
+		<str id="clsth" val="&amp;Diğerlerini kapat"/>
+		<str id="fprop" val="Dos&amp;ya Özellikleri..."/>
+		<str id="cpath" val="Tümünü kopyala &amp;Path"/>
+		<str id="brofo" val="Klasör içeriğini &amp;Göster"/>
+		<str id="openfo" val="K&amp;lasör İçeren aç"/>
+		<str id="htbgp" val="Yeni &amp;Yatay Sekme Grubu"/>
+		<str id="vtbgp" val="Yeni &amp;Dikey Sekme Grubu"/>
+		<str id="nxtbg" val="Tab Grup geri hareket"/>
+		<str id="prebg" val="Tab Grup İleri Hareket"/>
+		<str id="ftwid" val="Uygun &amp;Genişlik"/>
+		<str id="fthei" val="Uygun &amp;Yükseklik"/>
+		<str id="fitwi" val="Uygun &amp;Pencere"/>
+
+		<str id="bronm" val="Sort by &amp;İsim"/>
+		<str id="brotp" val="Sort by &amp;Tip"/>
+		<str id="brosz" val="Sort by &amp;Size"/>
+		<str id="browd" val="Sort by &amp;Genişlik"/>
+		<str id="brohe" val="Sort by &amp;Yükseklik"/>
+		<str id="brotx" val="Sort by &amp;Extension"/>
+		<str id="brofw" val="&amp;Artan"/>
+		<str id="brorv" val="&amp;Azalan"/>
+		<str id="brol" val="&amp;Büyük Simgeler"/>
+		<str id="bros" val="&amp;Küçük Simgeler"/>
+		<str id="brorf" val="&amp;Yenile"/>
+		<str id="bropo" val="&amp;Özellikler..."/>
+
+		<str id="mimp" val="Dosya &amp;İçe aktarma..."/>
+		<str id="msav" val="Dosya &amp;Kayıt..."/>
+		<str id="measurehighlight" val="Otomatik &amp;Hightlight"/>
+		<str id="measuresettings" val="&amp;Ayarlar..."/>
+
+		<str id="bstf" val="&amp;En uygun"/>
+		<str id="asiz" val="&amp;Gerçek Boyut"/>
+
+		<str id="edph" val="&amp;H Stil"/>
+
+		<str id="oc" val="Se&amp;gmentasyon ve Kont"/>
+		<str id="ocws" val="&amp;Havza..."/>
+		<str id="ocsd" val="OTSU &amp;Karanlık..."/>
+		<str id="ocsb" val="OTSU &amp;Parlak..."/>
+		<str id="occc" val="&amp;Renk Küp..."/>
+
+		<str id="hdr" val="&amp;Yüksek dinamik Aralık (HDR)..."/>
+
+		<str id="shpn" val="&amp;Keskinleştirme"/>
+		<str id="lshp" val="&amp;Laplasyen'in Keskinleştir"/>
+		<str id="unshp" val="Keskinliği Azaltma &amp;Maskesi..."/>
+
+		<str id="dclr" val="&amp;Renk giderimi korunması Kontrast"/>
+		<str id="epsm" val="&amp;Kenar Pürüzsüz korunması..."/>
+		<str id="denh" val="&amp;Ayrıntı geliştirmek..."/>
+
+		<str id="llc" val="&amp;Yerel renk düzeltme..."/>
+		<str id="cton" val="&amp;Renk eşleme"/>
+
+		<str id="lined" val="Çizgi (&amp;3 Nokta)"/>
+
+		<str id="tnal" val="&amp;Başparmak tırnağı"/>
+		<str id="avw" val="&amp;Video Penceresini Etkinleştir"/>
+
+		<str id="cust" val="&amp;Özelleştir..."/>
+		<str id="ctool" val="Araç Çubuğu &amp;Özelleştir..."/>
+
+		<str id="cent" val="Merke&amp;zi"/>
+		<str id="sernx" val="&amp;Sonraki kare"/>
+		<str id="serpv" val="&amp;Önceki çerçeve"/>
+
+		<str id="man" val="&amp;Yonetim..."/>
+		<str id="word" val="Geçerli &amp;Rapor"/>
+		<str id="wors" val="Ra&amp;por"/>
+
+		<str id="manpr" val="Ön &amp;Ayar Yönetimi..."/>
+
+		<str id="deep" val="&amp;Derin Kopya"/>
+
+		<str id="pipe" val="&amp;Pipet"/>
+		<str id="preset" val="Ön a&amp;yar"/>
+
+		<str id="clhd" val="&amp;Gizle"/>
+		<str id="clsl" val="&amp;Seçili..."/>
+
+		<str id="whba" val="&amp;Siyah Beyaz"/>
+
+		<str id="arra" val="&amp;Ayarlama"/>
+		<str id="cstm" val="&amp;Özel"/>
+
+		<str id="expt" val="&amp;Dışa aktarma"/>
+		<str id="expf" val="&amp;Dışa aktarma..."/>
+		<str id="impf" val="&amp;İçe aktarma..."/>
+
+		<str id="copa" val="&amp;Karşılaştırmak"/>
+
+		<str id="dstup" val="&amp;Yeni..."/>
+		<str id="drop" val="&amp;Sil"/>
+		<str id="clea" val="&amp;Temizle"/>
+		<str id="dconn" val="&amp;Bağlan..."/>
+		<str id="disc" val="&amp;Kesmek"/>
+		<str id="inse" val="&amp;Ekle..."/>
+		<str id="opts" val="&amp;Opsiyon..."/>
+		<str id="oima" val="&amp;Resim Aç"/>
+
+		<str id="rena" val="&amp;Yeniden Adlandır..."/>
+		<str id="dye" val="Bo&amp;yama..."/>
+
+		<str id="item" val="&amp;Öğe"/>
+		<str id="aitem" val="Tüm Öğe&amp;ler"/>
+		<str id="aimag" val="&amp;Tüm Görüntüler"/>
+
+		<str id="expg" val="&amp;Poz &amp;&amp; Elde etmek"/>
+		<str id="load" val="&amp;Yükle"/>
+
+        <str id="clti" val="Tüm Geçici Görüntüleri K&amp;apat"/>
+
+		<str id="auto" val="&amp;Otomatik..."/>
+		<str id="defu" val="&amp;Sabit"/>
+		<str id="rest" val="&amp;Sıfırla"/>
+		
+		<str id="disa" val="&amp;Devre dışı"/>
+		<str id="b1" val="&amp;1 Bayt"/>
+		<str id="b2" val="&amp;2 Bayt"/>
+		<str id="b4" val="&amp;4 Bayt"/>
+		
+		<str id="ipm" val="&amp;IP Adresi..."/>
+		<str id="rtm" val="&amp;Gerçek zamanlı"/>
+	</menu>
+</i18n>

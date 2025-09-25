@@ -1,0 +1,2405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<i18n>
+	<all>
+		<str id="ids_error" val="خطأ"/>
+		<str id="ids_true" val="صحيح"/>
+		<str id="ids_false" val="خطأ"/>
+		<str id="ids_yes" val="نعم"/>
+		<str id="ids_no" val="لا"/>
+		<str id="ids_ok" val="موافق"/>
+		<str id="ids_na" val="غير متوفر"/>
+		<str id="ids_camera" val="الكاميرا"/>
+		<str id="ids_folders" val="الملفات"/>
+		<str id="ids_video" val="فيديو"/>
+		<str id="ids_browse" val="تصفح"/>
+		<str id="ids_back" val="الرجوع"/>
+		<str id="ids_forward" val="للأمام"/>
+		<str id="ids_backward" val="الرجوع"/>
+		<str id="ids_open" val="فتح"/>
+		<str id="ids_pixel" val="بيكسيل"/>
+		<str id="ids_width" val="العرض"/>
+		<str id="ids_height" val="الإرتفاع"/>
+		<str id="ids_measurement" val="القياس"/>
+		<str id="ids_name" val="الإسم"/>
+		<str id="ids_index" val="الفهرس"/>
+		<str id="ids_version" val="الإصدار"/>
+		<str id="ids_sample" val="عينة"/>
+		<str id="ids_avg" val="متوسط"/>
+		<str id="ids_mean" val="متوسط"/>
+		<str id="ids_den" val="مزيل الضوضاء"/>
+		<str id="ids_capture" val="إلتقاط"/>
+		<str id="ids_stop" val="توقف"/>
+		<str id="ids_close" val="إغلاق"/>
+		<str id="ids_save" val="حفظ"/>
+		<str id="ids_none" val="بدون"/>
+		<str id="ids_zoom" val="تقريب"/>
+		<str id="ids_time" val="الوقت"/>
+		<str id="ids_frame" val="الإطارات"/>
+		<str id="ids_framerate" val="معدل الإطارات"/>
+		<str id="ids_target" val="الهدف"/>
+		<str id="ids_free" val="تحرير"/>
+		<str id="ids_file" val="ملف"/>
+		<str id="ids_date" val="التاريخ"/>
+		<str id="ids_year" val="السنة"/>
+		<str id="ids_month" val="الشهر"/>
+		<str id="ids_day" val="اليوم"/>
+		<str id="ids_linear" val="طولي"/>
+		<str id="ids_log" val="لوغارتمي"/>
+		<str id="ids_exp" val="أسّي"/>
+		<str id="ids_poly" val="متعدد الحدود"/>
+		<str id="ids_format" val="الصيغة"/>
+		<str id="ids_bl" val="مستوى اللون الأسود"/>
+		<str id="ids_current" val="الحالي"/>
+		<str id="ids_remove" val="إزالة"/>
+		<str id="ids_cancel" val="إلغاء"/>
+		<str id="ids_apply" val="تطبيق"/>
+		<str id="ids_defaults" val="الإفتراصي"/>
+		<str id="ids_default" val="إفتراضي"/>
+		<str id="ids_refresh" val="تحديث"/>
+		<str id="ids_auto" val="تلقائي"/>
+		<str id="ids_reset" val="إعادة ضبط"/>
+		<str id="ids_option" val="خيار"/>
+		<str id="ids_options" val="خيارات"/>
+		<str id="ids_preview" val="معاينة"/>
+		<str id="ids_size" val="الحجم"/>
+		<str id="ids_color" val="اللون"/>
+		<str id="ids_label" val="تسمية"/>
+		<str id="ids_px" val="بيكسيل"/>
+		<str id="ids_appearance" val="المظهر"/>
+		<str id="ids_scalebar" val="شريط القياس"/>
+		<str id="ids_rename" val="إعادة تسمية"/>
+		<str id="ids_desc" val="الوصف"/>
+		<str id="ids_red" val="أحمر"/>
+		<str id="ids_green" val="أخضر"/>
+		<str id="ids_blue" val="أزرق"/>
+		<str id="ids_radius" val="نصف القطر"/>
+		<str id="ids_del" val="حذف"/>
+		<str id="ids_add" val="إضافة"/>
+		<str id="ids_hue" val="درجة اللون"/>
+		<str id="ids_sat" val="تشبع اللون"/>
+		<str id="ids_bri" val="السطوع"/>
+		<str id="ids_con" val="التباين"/>
+		<str id="ids_gamma" val="غاما"/>
+		<str id="ids_res" val="الدقة"/>
+		<str id="ids_compression" val="الضغط"/>
+		<str id="ids_whitebalance" val="موازنة اللون الأبيض"/>
+		<str id="ids_blackbalance" val="موازنة اللون الأسود"/>
+		<str id="ids_zoomin" val="تكبير"/>
+		<str id="ids_zoomout" val="تصغير"/>
+		<str id="ids_export" val="تصدير"/>
+		<str id="ids_import" val="استيراد"/>
+		<str id="ids_digbin" val="الربط التشعبي"/>
+		<str id="ids_thumbnail" val="صورة مصغرة"/>
+		<str id="ids_rotate" val="تدوير"/>
+		<str id="ids_meta" val="وصف البيانات"/>
+		<str id="ids_en" val="تفعيل"/>
+		<str id="ids_value" val="القيمة"/>
+		<str id="ids_expti" val="وقت التعريض"/>
+		<str id="ids_rexpti" val="وقت التعرض الفعلي"/>
+		<str id="ids_observer" val="المشاهدة"/>
+		<str id="ids_telescope" val="تيليسكوب"/>
+		<str id="ids_comment" val="تعليق"/>
+		<str id="ids_edit" val="تعديل"/>
+		<str id="ids_model" val="نوع الكاميرا"/>
+		<str id="ids_type" val="النوع"/>
+		<str id="ids_cpyrgt" val="حقوق النشر"/>
+		<str id="ids_author" val="الناشر"/>
+		<str id="ids_title" val="العنوان"/>
+		<str id="ids_pxf" val="صيغة البيكسيل"/>
+		<str id="ids_unit" val="الوحدة"/>
+		<str id="ids_calibrate" val="المعايرة"/>
+		<str id="ids_beilv" val="التكبير"/>
+		<str id="ids_dis" val="تعطيل"/>
+		<str id="ids_fset" val="ضبط المصنع"/>
+		<str id="ids_srp" val="الحدة"/>
+		<str id="ids_focus" val="التركيز"/>
+		<str id="ids_af" val="تركيز تلقائي"/>
+		<str id="ids_mau" val="يدوي"/>
+		<str id="ids_elc" val="كهربائي"/>
+		<str id="ids_up" val="للأعلى"/>
+		<str id="ids_down" val="للأسفل"/>
+		<str id="ids_revision" val="مراجعة"/>
+		<str id="ids_preset" val="إعداد مسبق"/>
+		<str id="ids_dl" val="تنزيل"/>
+		<str id="ids_st" val="الحالة"/>
+		<str id="ids_div" val="تقسيم"/>
+		<str id="ids_sw" val="البرنامج"/>
+		<str id="ids_hw" val="الأجهزة"/>
+		<str id="ids_simu" val="محاكاة"/>
+		<str id="ids_nrecom" val="لا ينصح به"/>
+		<str id="ids_depre" val="إهمال"/>
+		<str id="ids_text" val="نص"/>
+		<str id="ids_mem" val="الذاكرة"/>
+		<str id="ids_count" val="الحساب"/>
+		<str id="ids_perct" val="النسبة"/>
+		<str id="ids_total" val="المجموع"/>
+		<str id="ids_computer" val="الحاسب"/>
+		<str id="ids_copy" val="نسخ"/>
+		<str id="ids_autoe" val="التعرض التلقائي"/>
+		<str id="ids_expta" val="هدف التعرض"/>
+		<str id="ids_bin" val="تثبيت"/>
+		<str id="ids_skip" val="تجاوز"/>
+		<str id="ids_gain" val="إلتقاط"/>
+		<str id="ids_stemp" val="الحرارة"/>
+		<str id="ids_fan" val="المروحة"/>
+		<str id="ids_ttemp" val="درجة حرارة الهدف"/>
+		<str id="ids_display" val="العرض"/>
+		<str id="ids_cut" val="قص"/>
+		<str id="ids_pste" val="لصق"/>
+		<str id="ids_lock" val="إقفال"/>
+		<str id="ids_basic" val="أساسي"/>
+		<str id="ids_sk" val="إضافة"/>
+		<str id="ids_neg" val="التنقل"/>
+		<str id="ids_tonem" val="تعيين التردد"/>
+		<str id="ids_position" val="الموقع"/>
+		<str id="ids_custom" val="مخصص"/>
+		<str id="ids_object" val="كائن"/>
+		<str id="ids_cobject" val="عناصر القياس"/>
+		<str id="ids_threshold" val="العتبة"/>
+		<str id="ids_bool" val="منطقي"/>
+		<str id="ids_all" val="الكل"/>
+		<str id="ids_column" val="العامود"/>
+		<str id="ids_row" val="السطر"/>
+		<str id="ids_merge" val="دمج"/>
+		<str id="ids_shape" val="الشكل"/>
+		<str id="ids_font" val="الخط"/>
+		<str id="ids_fontsize" val="حجم الخط"/>
+		<str id="ids_fontweight" val="سماكة الخط"/>
+		<str id="ids_bandw" val="عرض النطاق"/>
+		<str id="ids_about" val="حول"/>
+		<str id="ids_horz" val="أفقي"/>
+		<str id="ids_vert" val="عامودي"/>
+		<str id="ids_polygon" val="مضلع"/>
+		<str id="ids_adv" val="متقدم"/>
+		<str id="ids_strength" val="السماكة"/>
+		<str id="ids_linewidth" val="عرض الخط"/>
+		<str id="ids_compare" val="مقارنة"/>
+		<str id="ids_db" val="قاعدة البيانات"/>
+		<str id="ids_new" val="جديد"/>
+		<str id="ids_find" val="البحث"/>
+		<str id="ids_imag" val="صورة"/>
+		<str id="ids_disname" val="اسم العرض"/>
+		<str id="ids_enum" val="تعداد"/>
+		<str id="ids_floatn" val="رقم النقطة العائمة"/>
+		<str id="ids_fixn" val="رقم النقطة الثابتة"/>
+		<str id="ids_lnoise" val="تقليل الضوضاء"/>
+		<str id="ids_once" val="مرة واحدة"/>
+		<str id="ids_cont" val="متابعة"/>
+		<str id="ids_dye" val="التصبغ"/>
+		<str id="ids_dyv" val="الصبغات"/>
+		<str id="ids_tl" val="الفاصل الزمني (الالتقاط التلقائي)"/>
+		<str id="ids_xoff" val="X إزاحة المحور"/>
+		<str id="ids_yoff" val="Y إزاحة المحور"/>
+		<str id="ids_ftype" val="نوع الملف"/>
+		<str id="ids_starddev" val="الإنحراف المعياري"/>
+		<str id="ids_samstarddev" val="عينة الإنحراف المعياري"/>
+		<str id="ids_max" val="الحد الأقصى"/>
+		<str id="ids_min" val="الحد الأدنى"/>
+		<str id="ids_mono" val="أحادي اللون"/>
+		<str id="ids_lightsource" val="مصدر الإضاءة"/>
+		<str id="ids_on" val="تشغيل"/>
+		<str id="ids_off" val="إيقاف"/>
+		<str id="ids_high" val="مرتفع"/>
+		<str id="ids_hdr" val="نطاق ديناميكي مرتفع (HDR)"/>
+		<str id="ids_watermark" val="علامة مائية"/>
+		<str id="ids_cate" val="التصنيف"/>
+		<str id="ids_settings" val="الإعدادات"/>
+		<str id="ids_llcolor" val="تمييز باللون"/>
+		<str id="ids_ec" val="تعويض التعرض/الإلتقاط"/>
+		<str id="ids_highfw" val="القدرة الكاملة"/>
+		<str id="ids_item" val="الصنف"/>
+		<str id="ids_discard" val="تجاهل"/>
+		<str id="ids_plan" val="تخطيط"/>
+		<str id="ids_network" val="الشبكة"/>
+		<str id="ids_ip" val="عنوان الشبكة"/>
+		<str id="ids_mac" val="عناون الماك"/>
+		<str id="ids_oclock" val="كسر السرعة"/>
+		<str id="ids_fw" val="التصفية"/>
+		<str id="ids_pdpseudocolor" val="لون مؤقت"/>
+		<str id="ids_lowpc" val="إستهلاك منخفض للطاقة"/>
+		<str id="ids_exporm" val="وضع القراءة"/>
+		<str id="ids_addr" val="عنوان"/>
+		<str id="ids_trg" val="التشغيل"/>
+		<str id="ids_trgs" val="مصدر التشغيل"/>
+		<str id="ids_objlen" val="عدسة موضعيه او شيئيه"/>
+		<str id="ids_si" val="مفرد"/>
+		<str id="ids_sq" val="متعدد"/>
+		<str id="ids_lp" val="متتابع"/>
+		<str id="ids_cds" val="أخذ العينات المزدوجة المرتبطة"/>
+		<str id="ids_antise" val="تأثير مكافحة الغالق"/>
+		<str id="ids_speed" val="سرعة"/>
+		<str id="ids_shtt" val="مصراع"/>
+		<str id="ids_mshtt" val="مصراع ميكانيكي"/>
+		<str id="ids_mf" val="إظهار التكبير"/>
+	</all>
+
+	<string>
+		<str id="ids_m" val="متر"/>
+		<str id="ids_cm" val="سنتيميتر"/>
+		<str id="ids_mm" val="مليميتر"/>
+		<str id="ids_um" val="ميكروميتر"/>
+		<str id="ids_nm" val="نانوميتر"/>
+		<str id="ids_in" val="بوصة"/>
+		<str id="ids_mil" val="مل"/>
+		<str id="ids_ang" val="أنغسروم"/>
+		<str id="ids_pm" val="بيكوميتر"/>
+
+		<str id="ids_anglesym0" val="أحمر"/>
+
+		<str id="ids_angle0" val="راديان"/>
+		<str id="ids_angle1" val="درجة"/>
+
+		<str id="ids_celsius" val="سيليسيوس"/>
+		<str id="ids_fahrenheit" val="فيهرنهايت"/>
+
+		<str id="ids_colorbuttonother" val="أخرى..."/>
+		<str id="ids_linestylesolid" val="معبأ"/>
+		<str id="ids_linestyledash" val="فاصلة"/>
+		<str id="ids_linestyledot" val="نقطة"/>
+		<str id="ids_linestyledashdot" val="فاصلة نقطية"/>
+		<str id="ids_intminmax" val="الرجاء إدخال عدد صحيح بين %d و%d"/>
+
+		<str id="ids_exposure" val="التعريض/إلتقاط"/>
+
+		<str id="ids_noexcel" val="فشل فتح مايكروسوفت إكسل. يرجى التحقق من تثبيت مايكروسوفت إكسل بشكل صحيح"/>
+		<str id="ids_noword" val="فشل فتح مايكروسوفت وورد. يرجى التحقق من تثبيت مايكروسوفت إكسل بشكل صحيح"/>
+
+		<str id="ids_outofrange" val="خارج حدود النطاق"/>
+		<str id="ids_inputv" val="قيمة الإدخال غير صحيحة"/>
+		<str id="ids_filenr" val="لايمكن إستخدام الأسماء أو الأحرف المكررة"/>
+
+		<str id="ids_deviceid" val="تعريف الجهاز"/>
+		<str id="ids_devicename" val="اسم الجهاز"/>
+		<str id="ids_stillimagecapture" val="إلتقاط الصور الثابتة"/>
+		<str id="ids_stillimagewidth" val="عرض الصور الثابتة"/>
+		<str id="ids_stillimageheight" val="إرتفاع الصورالثابتة"/>
+		<str id="ids_displaywidth" val="عرض الشاشة"/>
+		<str id="ids_displayheight" val="إرتفاع العرض"/>
+		<str id="ids_videowidth" val="عرض الفيديو"/>
+		<str id="ids_videoheight" val="إرتفاع الفيديو"/>
+		<str id="ids_productdate" val="تاريخ الإصدار"/>
+		<str id="ids_dscapbpp" val="بايت في البيكسيل"/>
+		<str id="ids_duration" val="المدة"/>
+		<str id="ids_cameraid" val="معرف الكاميرا"/>
+		<str id="ids_framedropped" val="إهمال الإطارات"/>
+		<str id="ids_framesaved" val="حفظ الإطارات"/>
+		<str id="ids_property" val="خصائص"/>
+		<str id="ids_errorstop" val="خطأ. لايمكن المتابعة"/>
+		<str id="ids_startfail" val="لايمكن البدأ"/>
+		<str id="ids_previewfail" val="لايمكن العرض. الرجاء إعادة توصيل الكاميرا"/>
+		<str id="ids_stoppreviewfail" val="خطأ. لايمكن إيقاف العرض"/>
+		<str id="ids_noframe" val="عرض النطاق غير كاف، يرجى خفض مستوى سرعة الإطار أو تجربة منفذ آخر. أعد توصيل الجهاز وحاول مرة أخرى"/>
+		<str id="ids_surpriseremoval" val="تم سحب أو فصل الكاميرا"/>
+		<str id="ids_devicelost" val="توقف إلتقاط العرض. يرجى إعادة تثبيت الكاميرا أو التحقق من التوصيلات"/>
+		<str id="ids_captureerror" val="خطأ أثناء الإلتقاط. يرجى إعادة توصيل الكاميرا أو تجربة منفذ آخر"/>
+		<str id="ids_toupnamerror" val="خطأ. الرجاء إعادة تشغيل الكاميرا والمحاولة مرة أخرى"/>
+		<str id="ids_filtergraph" val="Cannot instantiate filter graph."/>
+		<str id="ids_noax" val="لا يمكن إنشاء مصدر التقاط الفيديو، يرجى إعادة تثبيت برنامج تشغيل الكاميرا"/>
+		<str id="ids_nosource" val="خطأ، لا يمكن إنشاء مصدر التقاط الفيديو. يرجى إعادة توصيل الكاميرا والمحاولة مرة أخرى"/>
+
+		<str id="ids_badport" val="رقم المنفذ المحدد قيد الاستخدام بالفعل، يرجى استخدام رقم منفذ آخر"/>
+		<str id="ids_bcount" val="إطارات البث"/>
+		<str id="ids_bdroppcnt" val="إطارات البث منخفضة"/>
+		<str id="ids_bcbbps" val="معدل البت الحالي للبث (Kbps)"/>
+		<str id="ids_baveragebps" val="متوسط معدل البت للبث (Kbps)"/>
+		<str id="ids_bccfr" val="معدل الإطارات الحالي للبث"/>
+		<str id="ids_baveragesr" val="متوسط معدل إطارات البث"/>
+		<str id="ids_bandwidth" val="عرض النطاق (Kbps)"/>
+		<str id="ids_preceived" val="الحزم المستلمة"/>
+		<str id="ids_plost" val="الحزم المفقودة"/>
+		<str id="ids_psize" val="حجم الحزمة"/>
+
+		<str id="ids_encoder" val="التشفير"/>
+		<str id="ids_quality" val="الجودة"/>
+		<str id="ids_bitrate" val="معدل البث"/>
+		<str id="ids_keyfs" val="تباعد إطارات المفاتيح (ثواني))"/>
+		<str id="ids_stepdir" val="الرجاء تعيين الدليل واسم الملف بشكل صحيح"/>
+		<str id="ids_stepbpsminmax" val="يرجى ضبط معدل البت بشكل صحيح، فهو رقم يقع بين %s و%s"/>
+		<str id="ids_stepqualityminmax" val="يرجى ضبط الجودة بشكل صحيح، فهي عدد صحيح بين %u و%u"/>
+		<str id="ids_stepiframe" val="الرجاء ضبط تباعد مفاتيح الإطارات بشكل صحيح"/>
+		<str id="ids_stepiframeminmax" val="يرجى ضبط تباعد الإطارات الرئيسية بشكل صحيح ، فهو عدد صحيح بين٪ U و٪ u"/>
+		<str id="ids_stepcodec" val="الرجاء اختيار التشفير"/>
+		<str id="ids_steptimelimit" val="يرجى ضبط حد وقت الالتقاط بشكل صحيح"/>
+		<str id="ids_steptimelapse" val="يرجى ضبط الفاصل الزمني للالتقاط بشكل صحيح"/>
+		<str id="ids_stepavinone" val="غير مضغوط"/>
+
+		<str id="ids_recordheader" val="معلومات العرض"/>
+		<str id="ids_recordstep1" val="صيغة الفيديو والتشفير"/>
+		<str id="ids_recordstep2" val="ملف فيديو"/>
+		<str id="ids_recordstep3" val="التشفير"/>
+		<str id="ids_recordstep4" val="بدء التسجيل"/>
+		<str id="ids_broadcastpar" val="معامل البث"/>
+		<str id="ids_recordstep4b" val="بدء البث"/>
+
+		<str id="ids_integerinvalid" val="الرجاء إدخال عدد صحيح"/>
+
+		<str id="ids_mosaicimages" val="صورة مزخرفة"/>
+
+		<str id="ids_deleteallitem" val="هل تريد بالفعل حذف جميع الأصناف؟"/>
+		<str id="ids_deleteitem" val="هل تريد بالفعل حذف جميع الأصناف المختارة؟"/>
+		<str id="ids_deleteitems" val="هل تريد بالفعل حذف الأصناف المختارة التالية؟"/>
+		<str id="ids_magimport" val="سيؤدي الاستيراد إلى مسح كافة العناصر الحالية، هل أنت متأكد؟"/>
+
+		<str id="ids_toolbarselect" val="اختيار عنصر"/>
+		<str id="ids_toolbarcirclehole" val="دائرة مع ثقب"/>
+		<str id="ids_toolbarrectselect" val="اختيار الصورة"/>
+		<str id="ids_toolbartrack" val="مسار"/>
+		<str id="ids_toolbargray" val="معايرة اللون الرمادي"/>
+		<str id="ids_toolbarcrosshair" val="الهدف"/>
+		<str id="ids_toolbargoto" val="فتح المجلد"/>
+		<str id="ids_toolbarcenter" val="المركز"/>
+
+		<str id="ids_stitch" val="التحديد"/>
+		<str id="ids_stitchautocrop" val="الاقتصاص التلقائي عند انتهاء التحديد (المستطيل المحيط الخارجي)"/>
+		<str id="ids_stitchscroll" val="وضع التمرير"/>
+		<str id="ids_aggr" val="قوي"/>
+		<str id="ids_pasi" val="ضعيف"/>
+
+		<str id="ids_built" val="إنشاء"/>
+
+		<str id="ids_toolbar" val="شريط الأدوات"/>
+		<str id="ids_nodevice" val="لايوجد كاميرا"/>
+		<str id="ids_zoom0" val="مناسبة العرض"/>
+		<str id="ids_zoom1" val="مناسبة الإرتفاع"/>
+		<str id="ids_zoom2" val="مناسبة النافذة"/>
+		<str id="ids_selection" val="الإختيارات"/>
+		<str id="ids_undoredo" val="التراجع / الإعادة"/>
+
+		<str id="ids_overlayscale" val="شريط قياس متراكب"/>
+
+		<str id="ids_customize" val="تخصيص"/>
+		<str id="ids_toolbarcustomize" val="&amp;تخصيص..."/>
+		<str id="ids_angleunitmenu" val="&amp;وحدة الزاوية..."/>
+
+		<str id="ids_emptydir" val="لا يمكن أن يكون الدليل فارغا"/>
+		<str id="ids_invaliddir" val="الدليل غير صالح"/>
+		<str id="ids_filelock" val="هذا الملف مقفل"/>
+		<str id="ids_imagesizemismatch" val="عدم تطابق حجم الصورة"/>
+		<str id="ids_imagesizenotsame" val="الصورة: &quot;%s&quot; ليس من نفس الحجم"/>
+		<str id="ids_filenofound" val="الملف غير موجود"/>
+		<str id="ids_savefilefail2" val="فشل حفظ الملف &quot;%s&quot;"/>
+		<str id="ids_savefilefail3" val="فشل حفظ الملف"/>
+		<str id="ids_videofileformat" val="صيغة الملف غير مدعومة"/>
+		<str id="ids_videofilestartfail" val="فشل في البدء"/>
+		<str id="ids_videofiles" val="ملفات الفيديو"/>
+		<str id="ids_allfiles" val="جميع الملفات"/>
+
+		<str id="ids_browseshutcut" val="يحتوي هذا المجلد بالفعل على اختصار يسمى &quot;%s&quot;.\nهل تريد الكتابة فوقه، أو إلغاء الأمر، أو إحباطه؟"/>
+
+		<str id="ids_videozoomint" val="مستوى التكبير/التصغير الحالي هو %u%%. للحصول على الرقم الدقيق، يرجى ضبط مستوى التكبير/التصغير على 100%%. لا يزال لمواصلة؟"/>
+		<str id="ids_videozoomfloat" val="مستوى التكبير/التصغير الحالي هو %.1f%%. للحصول على الرقم الدقيق، يرجى ضبط مستوى التكبير/التصغير على 100%%. لا يزال لمواصلة؟"/>
+		<str id="ids_videostartrecord" val="بدء &amp;التسجيل..."/>
+		<str id="ids_videostoprecord" val="ايقاف &amp;التسجيل"/>
+		<str id="ids_videostarttimelapse" val="بدء والوقت الفاصل (التقاط تلقائي)..."/>
+		<str id="ids_videostoptimelapse" val="الإيقاف والفاصل الزمني (الالتقاط التلقائي)"/>
+		<str id="ids_videoautofail" val="فشل التسجيل التلقائي"/>
+		<str id="ids_videocalibratemax1" val="الرجاء المعايرة بالحجم الأقصى.\r\nالحجم الحالي: %u x %u. الحد الأقصى للحجم: %u x %u.\r\nالرجاء استخدام الشريط الجانبي للكاميرا لتعيين الدقة"/>
+
+		<str id="ids_memory" val="لايوجد ذاكرة كافية"/>
+		<str id="ids_memoryx86" val="لا توجد ذاكرة كافية، يرجى استخدام الإصدار x64"/>
+
+		<str id="ids_actionfailed" val="فشل الإجراء"/>
+		<str id="ids_actioncanceld" val="إلغاء الإجراء"/>
+
+		<str id="ids_calibratedlgtoobig" val="كبير جدا"/>
+		<str id="ids_calibratedlgtoosmall" val="صغير جدا"/>
+		<str id="ids_calibratedlgpixels" val="بيكسيل"/>
+		<str id="ids_calibratedlgmagnification" val="الرجاء إدخال التكبير الصحيح، مثل 10، 40، 100، إلخ"/>
+		<str id="ids_calibratedlgmagnificationexists" val="التكبير &quot;%s&quot; موجود بالفعل"/>
+
+		<str id="ids_collapseall" val="طي الكل"/>
+		<str id="ids_expandall" val="توسيع الكل"/>
+		<str id="ids_cameralist" val="قائمة الكاميرا"/>
+		<str id="ids_expandgain" val="التعرض &amp;&amp; التقاط"/>
+		<str id="ids_colorgray" val="اللون/الرمادي"/>
+		<str id="ids_capres" val="التقاط &amp;&amp; دقة"/>
+		<str id="ids_coloradjust" val="ضبط الألوان"/>
+		<str id="ids_flip" val="إلتفاف"/>
+		<str id="ids_sampling" val="الحصول على عينات"/>
+		<str id="ids_histogram" val="رسم بياني"/>
+		<str id="ids_power" val="تردد الطاقة (مضاد للوميض)"/>
+		<str id="ids_gray" val="الرمادي"/>
+		<str id="ids_range" val="النظاق"/>
+		<str id="ids_exptimeempty" val="يجب ألا يكون وقت التعرض فارغًا."/>
+		<str id="ids_exptimeinvalid" val="وقت التعرض غير صالح"/>
+		<str id="ids_exptimeoutofrange" val="وقت التعرض خارج النطاق [%s, %s]."/>
+		<str id="ids_bpsmb" val="معدل البت (Mbps)"/>
+		<str id="ids_dfc" val="تصحيح المجال الأسود"/>
+		<str id="ids_bitdepth" val="عمق البت"/>
+		<str id="ids_propfmt" val="خصائص &amp;&amp; شكل"/>
+		<str id="ids_cool" val="هادئ"/>
+		<str id="ids_cvtgain" val="التحويل"/>
+		<str id="ids_ffc" val="تصحيح المجال المسطح"/>
+		<str id="ids_heat" val="دافئ"/>
+		<str id="ids_codec" val="ترميز"/>
+		<str id="ids_dynamicdefect" val="تصحيح البكسل الديناميكي"/>
+
+		<str id="ids_preferences" val="التفضيلات"/>
+
+		<str id="ids_grids" val="شبكة"/>
+		<str id="ids_misc" val="متنوع"/>
+		<str id="ids_cursor" val="المؤشر"/>
+		<str id="ids_quicksave" val="حفظ سريع"/>
+		<str id="ids_record" val="تسجيل"/>
+		<str id="ids_quickrecord" val="تسجيل سريع"/>
+
+		<str id="ids_mosaicimage" val="قائمة الصور"/>
+		<str id="ids_mosaicpar" val="الباراميترات"/>
+
+		<str id="ids_filefmtcol0" val="الإمتداد"/>
+		<str id="ids_filefmtcol2" val="الإختصارات"/>
+
+		<str id="ids_allsupported" val="جميع الصيغ المدعومة"/>
+		<str id="ids_savedlgreplace" val="%s موجود بالفعل.\هل تريد استبداله؟"/>
+		<str id="ids_saveboth" val="تم تعديل طبقة الصورة والقياس. هل تريد ان تحفظ التغييرات؟"/>
+		<str id="ids_saveimage" val="تم تعديل الصورة. هل تريد ان تحفظ التغييرات؟"/>
+		<str id="ids_savelayer" val="تم تعديل طبقة القياس. هل تريد ان تحفظ التغييرات؟"/>
+
+		<str id="ids_watermarkdlg24bit" val="يتم دعم صورة 24 أو 32 بت فقط"/>
+
+		<str id="ids_lefttop" val="أعلى اليسار"/>
+		<str id="ids_righttop" val="أعلى اليمين"/>
+		<str id="ids_leftbottom" val="اسفل اليسار"/>
+		<str id="ids_rightbottom" val="أسفل اليمين"/>
+		<str id="ids_overlaybgtrans" val="شفافية"/>
+		<str id="ids_black" val="أسود"/>
+		<str id="ids_white" val="أبيض"/>
+		<str id="ids_smallest" val="صغير جدا"/>
+		<str id="ids_smaller" val="الأصغر"/>
+		<str id="ids_small" val="صغير"/>
+		<str id="ids_medium" val="متوسط"/>
+		<str id="ids_large" val="كبير"/>
+		<str id="ids_larger" val="الأكبر"/>
+		<str id="ids_largest" val="كبير جدا"/>
+		<str id="ids_fontweightnormal" val="عادي"/>
+		<str id="ids_fontweightbold" val="سميك"/>
+		<str id="ids_fontweightheavy" val="ثقيل"/>
+		<str id="ids_overlaydatenone" val="بدون"/>
+		<str id="ids_overlaydatelong" val="صيغة تاريخ طويل"/>
+		<str id="ids_overlaydateshort" val="صيغة تاريخ قصير"/>
+		<str id="ids_overlaydatetlong" val="تنسيق التاريخ والوقت الطويل"/>
+		<str id="ids_overlaydatetshort" val="تنسيق التاريخ والوقت القصير"/>
+
+		<str id="ids_marker" val="بدون"/>
+		<str id="ids_markercross" val="إشارةزائد"/>
+		<str id="ids_markercircle" val="دائرة"/>
+		<str id="ids_markercr" val="زائد+مستطيل"/>
+		<str id="ids_markercc" val="زائد+دائرة"/>
+		<str id="ids_markercrosswidth" val="عرض اشارة الزائد (%)"/>
+		<str id="ids_markercrossheight" val="ارتفاع إشارة الزائد (%)"/>
+		<str id="ids_markerrectwidth" val="عرض المستطيل (%)"/>
+		<str id="ids_markerrectheight" val="ارتفاع المستطيل (%)"/>
+		<str id="ids_markerradius" val="نصف قطر الدائرة (%)"/>
+		<str id="ids_markerx" val="x توازن (%)"/>
+		<str id="ids_markery" val="y توازن (%)"/>
+
+		<str id="ids_stitchfail" val="فشل التحديد"/>
+		<str id="ids_stitchplane" val="فارغ"/>
+		<str id="ids_stitchcylindrical" val="اسطواني"/>
+		<str id="ids_stitchspherical" val="كروي"/>
+		<str id="ids_stitchfisheye" val="عين السمكة"/>
+		<str id="ids_stitchstereographic" val="مجسم"/>
+		<str id="ids_stitchmercator" val="خريطة"/>
+		<str id="ids_stitchtransversemercator" val="استعراض خريطة"/>
+		<str id="ids_stitchseamfindervoronoi" val="مخطط فورونوي"/>
+		<str id="ids_stitchseamfindergraphcutcolor" val="لون الرسم البياني"/>
+		<str id="ids_stitchseamfindergraphcutcolorgrad" val="الرسم البياني ودرجة اللون"/>
+		<str id="ids_stitchecgain" val="النتيجة"/>
+		<str id="ids_stitchecbg" val="نتيجة الكتل"/>
+		<str id="ids_stitchbaray" val="ضبط الأشعة"/>
+		<str id="ids_stitchbareproj" val="خطأ الإسقاط"/>
+
+		<str id="ids_crosssingle" val="مفرد"/>
+		<str id="ids_cross1" val="مزدوج (1 بيكسيل)"/>
+		<str id="ids_cross3" val="مزدوج (3 بيكسيل)"/>
+		<str id="ids_cross5" val="مزدوج (5 بيكسيل)"/>
+		<str id="ids_cross7" val="مزدوج (7 بيكسيل)"/>
+		<str id="ids_cross9" val="مزدوج (9 بيكسيل)"/>
+		<str id="ids_cursorcross" val="إشارز زائد"/>
+		<str id="ids_cursorcrosshair" val="متقاطع"/>
+		<str id="ids_cursorpoint" val="نقطة"/>
+		<str id="ids_cursornull" val="فارغ"/>
+
+		<str id="ids_videooverlay" val="تراكب الفيديو"/>
+		<str id="ids_markertxt" val="تراكب"/>
+		<str id="ids_markergeo" val="تحديد"/>
+
+		<str id="ids_miscsplash" val="إظهار شاشة البداية عند بدء التشغيل"/>
+		<str id="ids_miscscreensaver" val="منع شاشة التوقف عند معاينة / التقاط الفيديو"/>
+		<str id="ids_misctft" val="صيغة الملف"/>
+		<str id="ids_misctftremind" val="ذكّرني عندما لا يدعم تنسيق الملف قياس الكائنات"/>
+		<str id="ids_miscsidebar" val="الشريط الجانبي"/>
+		<str id="ids_miscsidebarmeasurement" val="قم بتنشيط الشريط الجانبي للقياس تلقائيًا عند القياس"/>
+		<str id="ids_miscsidebarfolders" val="قم بتنشيط الشريط الجانبي للمجلدات تلقائيًا عند فتح نافذة الاستعراض"/>
+		<str id="ids_miscsidebarbrowse" val="إظهار نافذة التصفح تلقائيًا عند النقر المزدوج على المجلدات"/>
+		<str id="ids_miscsidebarcamerastartup" val="قم بتنشيط الشريط الجانبي للكاميرا تلقائيًا عند بدء التشغيل"/>
+		<str id="ids_miscuistyle" val="شكل الواجهة"/>
+		<str id="ids_miscprivacy" val="الخصوصية"/>
+		<str id="ids_miscrecent" val="الحد الأقصى لعدد الملفات الأخيرة"/>
+		<str id="ids_miscclear" val="امسح الملفات الأخيرة عند الخروج من التطبيق"/>
+		<str id="ids_miscrestore" val="استعادة الدليل الحالي عند بدء التشغيل"/>
+		<str id="ids_misclang" val="اللغات"/>
+		<str id="ids_miscte" val="ستم التطبيق بعد اعادة التشغيل"/>
+
+		<str id="ids_urimploperation" val="التشغيل"/>
+
+		<str id="ids_pdmorphologic" val="عملية مورفولوجية"/>
+		<str id="ids_pdmuststructure" val="يجب عليك اختيار هيكلة"/>
+		<str id="ids_pdnostructure" val="الهيكلية غير متوفر"/>
+		<str id="ids_pdselectstructure" val="الرجاء اختيار هيكلية"/>
+		<str id="ids_pddeletesure" val="الحذف.هل انت متأكد؟"/>
+		<str id="ids_pdenhancement" val="تحسين الصور"/>
+		<str id="ids_pdbestfit" val="افضل تناسب"/>
+		<str id="ids_pdequalize" val="موازنة محلية"/>
+		<str id="ids_pdundo" val="التراجع"/>
+		<str id="ids_pdconvertbit" val="تحويل إلى 8 بت أو 24 بت؟"/>
+		<str id="ids_pdexceed" val="الوصل للحد"/>
+		<str id="ids_pdkernel" val="النواة"/>
+		<str id="ids_pdmustname" val="يجب عليك إدخال اسم"/>
+		<str id="ids_pdkernelsize" val="حجم النواة غير صالح"/>
+		<str id="ids_pdinputvalue" val="الؤجاء ادخال القيمة"/>
+		<str id="ids_pdoverwrite" val="الهيكلية الحالية موجودة. هل تريد الكتابة فوقها؟"/>
+		<str id="ids_pdedge" val="تشغيل الحواف"/>
+		<str id="ids_pdautolevel" val="مستوى تلقائي"/>
+		<str id="ids_pdautocontrast" val="تباين تلقائي"/>
+		<str id="ids_pdbcadj" val="تعديل السطوع/التباين تلقائيا"/>
+		<str id="ids_pdcoloradj" val="ضبط الألوان"/>
+		<str id="ids_pdhmsadj" val="HMS ضبط"/>
+		<str id="ids_pdgammaadj" val="ضبط غاما"/>
+		<str id="ids_pdhistogram" val="موازنة الرسم البياني"/>
+		<str id="ids_pdcurve" val="ضبط المنحنى"/>
+		<str id="ids_pdcolorquantize" val="حجم اللون: %d بت (بت)"/>
+		<str id="ids_pdbinary" val="ثنائي"/>
+		<str id="ids_pdgray" val="الرمادي"/>
+		<str id="ids_pdinvert" val="عكس"/>
+		<str id="ids_pdrotatecw" val="تدوير مع عقارب الساعة"/>
+		<str id="ids_pdrotateccw" val="تدوير عكس عقارب الساعة"/>
+		<str id="ids_pdcrop" val="اقتصاص"/>
+		<str id="ids_pdimagescale" val="ابعاد الصورة"/>
+		<str id="ids_pdfliphorz" val="تدوير بشكل عرضي"/>
+		<str id="ids_pdflipvert" val="تدوير بشكل عامودي"/>
+		<str id="ids_pdrange" val="المدى"/>
+		<str id="ids_pdfilters" val="الفلاتر"/>
+		<str id="ids_pdinvalidheight" val="ارتفاع خاطئ"/>
+		<str id="ids_pdfiltercolor" val="لون الفلتر"/>
+		<str id="ids_pdextractcolor" val="استخراج اللون"/>
+		<str id="ids_pdluminosity" val="اللمعان"/>
+		<str id="ids_bilinear" val="خطين"/>
+		<str id="ids_bicubic" val="بيكيوبك"/>
+
+		<str id="ids_filtermorp" val="التشكيل"/>
+		<str id="ids_filterkern" val="النواة"/>
+		<str id="ids_filterenhance" val="تحسين الصور"/>
+		<str id="ids_filteredge" val="تحسين الحد"/>
+
+		<str id="ids_extraopenfail" val="فشل في فتح ملف التكوين"/>
+		<str id="ids_extrasaveit" val="تم تغيير الصبغة الحالية، حفظها؟"/>
+		<str id="ids_extradyeexist" val="توجد الصبغة بنفس الاسم"/>
+		<str id="ids_extradeleteitem" val="هل أنت متأكد من حذف هذا العنصر؟"/>
+		<str id="ids_extrasavedata" val="هل أنت متأكد من حفظ البيانات؟"/>
+		<str id="ids_extrareloaddata" val="هل أنت متأكد من إعادة تحميل كافة البيانات؟"/>
+		<str id="ids_extraforfile" val="للملف"/>
+
+		<str id="ids_labelaxis" val="المحاور"/>
+		<str id="ids_labelwidthheight" val="العرض و الإرتفاع"/>
+
+		<str id="ids_layer" val="الطبقة"/>
+		<str id="ids_sheet" val="صفحة القياس"/>
+		<str id="ids_sheet2" val="المركز"/>
+		<str id="ids_sheet3" val="القطر"/>
+		<str id="ids_sheet4" val="Area"/>
+		<str id="ids_sheet5" val="الطول"/>
+		<str id="ids_sheet7" val="البدء"/>
+		<str id="ids_sheet8" val="إنهاء"/>
+		<str id="ids_sheet9" val="المسافة"/>
+		<str id="ids_pointname" val="نقطة%d"/>
+		<str id="ids_intersection" val="التقاطعات"/>
+		<str id="ids_foot" val="أسفل"/>
+		<str id="ids_slope" val="الميل"/>
+		<str id="ids_perimeter" val="الحدود الخارجية"/>
+		<str id="ids_center" val="المركز"/>
+		<str id="ids_arclength" val="الحدود الخارجية"/>
+		<str id="ids_ratio" val="النسب"/>
+		<str id="ids_axes" val="المحاور"/>
+		<str id="ids_layer0" val="مرئي"/>
+		<str id="ids_lunit0" val="الوحدة"/>
+		<str id="ids_lunit2" val="الرمز"/>
+		<str id="ids_lunit4" val="القياس"/>
+		<str id="ids_noname" val="[بدون اسم]"/>
+		<str id="ids_layerbackground" val="الخلفية"/>
+		<str id="ids_layername" val="اسم الطبقة"/>
+		<str id="ids_sysunit" val="النظام"/>
+		<str id="ids_userunit" val="المستخدم"/>
+		<str id="ids_errorfile" val="خطأ في صيغة الملف"/>
+		<str id="ids_errordata" val="خطأ في بيانات الملف"/>
+		<str id="ids_only1layer" val="لا يمكن ازالة آخر طبقة"/>
+		<str id="ids_removecurrent" val="لا يمكن ازالة الطبقة الحالية"/>
+		<str id="ids_removelayer" val="هل انت متأكد من إزالة هذه الطبقة؟"/>
+		<str id="ids_removeitem" val="هل أنت متأكد من إزالة كافة العناصر المحددة؟"/>
+		<str id="ids_removeunit" val="نجح ازالة هذه الوحدة"/>
+		<str id="ids_unitsymbol" val="هذا الرمز لايمكن ان يكون فارغا"/>
+		<str id="ids_invalidratio" val="نسب غير صالحة"/>
+		<str id="ids_sameunit" val="فشلت إضافة هذه الوحدة بسبب وجود الوحدة التي تحمل نفس الاسم"/>
+		<str id="ids_samesymbol" val="فشلت إضافة هذه الوحدة بسبب وجود الوحدة بنفس الرمز"/>
+		<str id="ids_layersamename" val="توجد طبقة (طبقات) بنفس الاسم.\nهل أنت متأكد من المتابعة؟"/>
+		<str id="ids_nametolong" val="هذا الاسم طويل جدا"/>
+		<str id="ids_symboltolong" val="هذا الرمز طويل جدا"/>
+		<str id="ids_toomanyunit" val="عدد كبير جدًا من الوحدات المعرفة من قبل المستخدم"/>
+		<str id="ids_addunit" val="1. عامل القياس هو النسبة بين المتر والوحدة المحددة. على سبيل المثال:\n المتر في المليمتر هو 1000 والذي يمكن التعبير عنه أيضًا بالرمز العلمي 1e3.\n المتر في الكيلومتر هو 0.001، والذي يُشار إليه بالرمز 1e-3.\n\n2. الرمز: مثل &quot;m&quot; للمتر، &quot;سم&quot; للسنتيمتر."/>
+		<str id="ids_general" val="عام"/>
+		<str id="ids_lengthunit" val="وحدة الطول"/>
+		<str id="ids_angleunit" val="وحدة الزاوية"/>
+		<str id="ids_measurelist" val="الصفحة"/>
+		<str id="ids_angle" val="الزاوية"/>
+		<str id="ids_ellipse" val="شكل بيضوي"/>
+		<str id="ids_line" val="الخط"/>
+		<str id="ids_point" val="نقطة"/>
+		<str id="ids_rect" val="مستطيل"/>
+		<str id="ids_parallel" val="متوازي"/>
+		<str id="ids_line3" val="متوازي (3 نقاط)"/>
+		<str id="ids_line2" val="متوازي (4 نقاط)"/>
+		<str id="ids_line4" val="متوازي (8 نقاط)"/>
+		<str id="ids_linea" val="متوازي (اِعتِباطِيّ)"/>
+		<str id="ids_vertical" val="عامودي"/>
+		<str id="ids_verany" val="عامودي (اِعتِباطِيّ)"/>
+		<str id="ids_circle" val="دائرة"/>
+		<str id="ids_arc" val="قوس"/>
+		<str id="ids_annulus" val="حلقة"/>
+		<str id="ids_twocircles" val="دائرتين"/>
+		<str id="ids_curve" val="منحنى"/>
+		<str id="ids_appearance" val="المظهر"/>
+		<str id="ids_geometry" val="هندسي"/>
+		<str id="ids_coordinates" val="الأحداثيات"/>
+		<str id="ids_lsize" val="الحجم"/>
+		<str id="ids_mlinewidth" val="عرض الخط المرادف"/>
+		<str id="ids_linecolor" val="لون الخط"/>
+		<str id="ids_mlinecolor" val="لون الخط المرادف"/>
+		<str id="ids_linestyle" val="شكل الخط"/>
+		<str id="ids_mlinestyle" val="شكل الخط المرادف"/>
+		<str id="ids_fill" val="تعبئة"/>
+		<str id="ids_mline" val="اظهار الخط المرادف"/>
+		<str id="ids_amarker" val="اظهار درجة الزاوية"/>
+		<str id="ids_circled" val="إظهار القطر/نصف الدائرة"/>
+		<str id="ids_circlec" val="إظهار المركز"/>
+		<str id="ids_showcp" val="اظهار نقاط التوصيل"/>
+		<str id="ids_showmp" val="اظهار النقطة المتوسطة"/>
+		<str id="ids_fillcolor" val="تعبئة اللون"/>
+		<str id="ids_arrow" val="سهم"/>
+		<str id="ids_textcolor" val="لون النص"/>
+		<str id="ids_textalign" val="تنسيق النص"/>
+		<str id="ids_lframe" val="اطار"/>
+		<str id="ids_edittext" val="تعديل النص"/>
+		<str id="ids_textleft" val="يسار"/>
+		<str id="ids_textright" val="يمين"/>
+		<str id="ids_lnum" val="لا."/>
+		<str id="ids_ltoolbarshow" val="إظهار/إخفاء"/>
+		<str id="ids_fontstyle0" val="عادي"/>
+		<str id="ids_fontstyle1" val="عريض"/>
+		<str id="ids_fontstyle2" val="مائل"/>
+		<str id="ids_fontstyle3" val="عريض ومائل"/>
+		<str id="ids_decimal" val="منازل عشرية"/>
+		<str id="ids_decimal0" val="0 منازل عشرية"/>
+		<str id="ids_decimal1" val="1 منازل عشرية"/>
+		<str id="ids_decimal2" val="2 منازل عشرية"/>
+		<str id="ids_decimal3" val="3 منازل عشرية"/>
+		<str id="ids_decimal4" val="4 منازل عشرية"/>
+		<str id="ids_decimal5" val="5 منازل عشرية"/>
+		<str id="ids_decimal6" val="6 منازل عشرية"/>
+		<str id="ids_labeltype" val="نوع التسمية"/>
+		<str id="ids_labelpos" val="مكان التسمية"/>
+		<str id="ids_ltrans" val="خلفية شفافة"/>
+		<str id="ids_lbkclr" val="لون الخلفية"/>
+		<str id="ids_ecce" val="إنحراف"/>
+		<str id="ids_pdegree" val="درجة الملف الشخصي"/>
+		<str id="ids_hollowness" val="مجوف"/>
+		<str id="ids_chollowness" val="دائرة مجوفة"/>
+		<str id="ids_phollowness" val="مضلع مجوف"/>
+		<str id="ids_fratio" val="نسبة التسطيح"/>
+		<str id="ids_ncr" val="النسبة النووية/السيتوبلازمية"/>
+		<str id="ids_showsublabel" val="إظهار تسميات الكائنات الفرعية"/>
+
+		<str id="ids_rect2p" val="مستطيل (2 نقاط)"/>
+		<str id="ids_rect3p" val="مستطيل (3 نقاط)"/>
+		<str id="ids_angle3p" val="الزاوية (3 نقاط)"/>
+		<str id="ids_angle4p" val="الزاوية (4 نقاط)"/>
+		<str id="ids_circle1" val="دائرة (المركز + نصف القطر)"/>
+		<str id="ids_circle2" val="دائرة (2 نقاط)"/>
+		<str id="ids_circle3" val="دائرة (3 نقاط)"/>
+		<str id="ids_annulus2" val="حلقة (المركز + نصف القطر)"/>
+		<str id="ids_annulus3" val="حلقة (3 نقاط)"/>
+		<str id="ids_vertical3p" val="عامودي (3 نقاط)"/>
+		<str id="ids_vertical4p" val="عامودي (4 نقاط)"/>
+		<str id="ids_ellipse2p" val="بيضوي (2 نقاط)"/>
+		<str id="ids_ellipse5p" val="بيضوي (5 نقاط)"/>
+		<str id="ids_ellipse3p" val="بيضوي (3 نقاط)"/>
+		<str id="ids_vline" val="خط عامودي"/>
+		<str id="ids_hline" val="خط أفقي"/>
+		<str id="ids_twocircle3p" val="دائرتان (المركز + نصف القطر)"/>
+		<str id="ids_twocircle2p" val="دائرتان (3 نقاط)"/>
+		<str id="ids_line3p" val="خط (3 نقاط)"/>
+		<str id="ids_vline3p" val="الخط العمودي (3 نقاط)"/>
+		<str id="ids_hline3p" val="الخط الأفقي (3 نقاط)"/>
+		<str id="ids_linemulti" val="الخط (اتصال متعدد النقاط)"/>
+
+		<str id="ids_errgeneric" val="خطأ غير معروف"/>
+		<str id="ids_errnullname" val="لا يجب ان يكون الاسم فارغا"/>
+		<str id="ids_errsamename" val="الاسم موجود سابقا"/>
+		<str id="ids_errsameid" val="نفس التعريف موجود سابقا"/>
+		<str id="ids_erropenfile" val="فشل في فتح الملف"/>
+		<str id="ids_errfileformat" val="صيغة الملف تالفة"/>
+		<str id="ids_errmsgproduct" val="نوع الكاميرا غير مدعوم"/>
+		<str id="ids_errusb" val="نوع كيبل التوصيل غير مدعوم"/>
+		<str id="ids_errmode" val="عدم تطابق الوضع"/>
+
+		<str id="ids_resetlayout" val="سيتم إعادة تعيين تخطيط النافذة بعد إعادة تشغيل التطبيق"/>
+		<str id="ids_startbroadcast" val="جاري بدء البث"/>
+		<str id="ids_stopbroadcast" val="ايقاف البث"/>
+
+		<str id="ids_stackingfail" val="فشل تكديس الصور"/>
+
+		<str id="ids_objcount" val="تجزئة العدد"/>
+		<str id="ids_objsplit" val="تقسيم العناصر"/>
+		<str id="ids_objcountosoutline" val="الإخراج"/>
+		<str id="ids_objcountosfilled" val="فشل"/>
+
+		<str id="ids_counthisv" val="القيمة"/>
+
+		<str id="ids_edfc" val="الحد الأعلى للتباين"/>
+		<str id="ids_edfw" val="متوسط الاوزان"/>
+		<str id="ids_edfs" val="تكديس"/>
+		<str id="ids_edffm" val="FFDSSD خيارات"/>
+		<str id="ids_edfcapture" val="التقاط الصور"/>
+		<str id="ids_edfmethod" val="التحديد"/>
+		<str id="ids_edfself" val="اختيار ملف"/>
+		<str id="ids_edfaa" val="تنسيق تلقائي"/>
+		<str id="ids_edfadesc" val="حدد وضع المحاذاة التلقائية المناسب وفقًا لما إذا كان هناك إزاحة أو تغيير حجم أو تدوير بين الصور المراد معالجتها.\n\nيرتبط استهلاك وقت EDF بإعداد الزاوية القصوى. سيزداد الوقت عندما تزيد الزاوية القصوى وتكون العلاقة بينهما غير خطية. الزاوية القصوى الافتراضية هي 1.0 درجة."/>
+		<str id="ids_edfcaptips" val="اضبط المجهر لتوضيح جزء مختلف من الجسم. التقط صورة عندما يكون الكائن في موضع مختلف. خطوة التعديل متروكة للمستخدمين. عادةً، ستتوفر المزيد من التفاصيل إذا تم تحديد خطوة أصغر. يجب تغيير الموضع النسبي للجسم والمجهر في اتجاه واحد."/>
+		<str id="ids_edfpdesc" val="القيم الثلاث ليست معزولة. يؤثر وضوح التفاصيل على التفاصيل الدقيقة للنتيجة. سطوع الخلفية هو قيمة الإزاحة المستخدمة لإضافة الخلفية أو طرحها. سيؤدي هذان الإعدادان إلى تغيير السطوع الإجمالي. ولهذا السبب، قد يلزم أيضًا تعديل السطوع الإجمالي."/>
+		<str id="ids_edfmdesc" val="\تنتج طريقة المتوسط المرجح نتيجة دمج ناعمة ولكنها قد تفوت التفاصيل. غالبًا ما تعطي هذه الطريقة نتائج أفضل من طريقة FFDSSD ذات الأكوام العميقة، مثل الصور التي يتم إنتاجها بواسطة الفحص المجهري. تجدر الإشارة إلى أن الصور المراد معالجتها يجب أن تكون بالترتيب Z (من الأقرب إلى الأبعد أو من الأبعد إلى الأقرب في عدسة المجهر الموضوعية بالنسبة إلى العينة الموجودة على المسرح).\n\tأسلوب الحد الأقصى للتباين مشابه لأسلوب المتوسط المرجح، و يجب أن تكون الصور المدخلة بالترتيب Z أيضًا. الفرق هو أن طريقة التباين الأقصى قد تفقد بعض التفاصيل على الرغم من أن التفاصيل المحفوظة ستكون أكثر وضوحًا. إن أسلوب التباين الأقصى هو أسلوب مفضل لـ EDF.\n\tFFDSSD هو أسلوب يقوم بالتصفية في مجال التردد باستخدام تحويل فورييه السريع (FFT) ويقوم بالتوليف في مجال الفضاء. يمكن استخدام FFDSSD للصور التي تحتوي على محاذاة غير صحيحة. يمكن للمستخدمين تحديد الصور المرجعية يدويًا أو تلقائيًا لمحاذاة الصور المدخلة."/>
+		<str id="ids_maxedf" val="عدد كبير جدًا من الصور. لا يمكن أن يتجاوز عدد الصور %u."/>
+
+		<str id="ids_panefloating" val="&amp;العائمة"/>
+		<str id="ids_panedocking" val="&amp;التوصيل"/>
+		<str id="ids_paneautohide" val="&amp;إخفاء تلقائي"/>
+		<str id="ids_panehide" val="&amp;إخفاء"/>
+		<str id="ids_scrright" val="التمرير لليمين"/>
+		<str id="ids_scrleft" val="التمرير لليسار"/>
+		<str id="ids_autohideall" val="اخفاء الكل تلقائيا"/>
+		<str id="ids_autohide" val="اخفاء تلقائي"/>
+		<str id="ids_winpos" val="موقع النافذة"/>
+
+		<str id="ids_wmdtitle" val="النوافذ"/>
+		<str id="ids_wmdselwin" val="اختيار الزاوية:"/>
+		<str id="ids_wmdactivate" val="تفعيل"/>
+		<str id="ids_wmdsave" val="حفظ"/>
+		<str id="ids_wmdclose" val="اغلاق النافذة(s)"/>
+		<str id="ids_wmdcasc" val="تتالي"/>
+		<str id="ids_wmdtileh" val="امالة افقية"/>
+		<str id="ids_wmdtilev" val="امالة عامودية"/>
+		<str id="ids_wmdmini" val="تصغير"/>
+
+		<str id="ids_colorstandard" val="افتراضي"/>
+		<str id="ids_colorcolorscolon" val="الألوان:"/>
+		<str id="ids_colorselect" val="الاختيار..."/>
+		<str id="ids_colorhue" val="درجة اللون:"/>
+		<str id="ids_colorsaturation" val="تشبع اللون:"/>
+		<str id="ids_colorluminence" val="السطوع:"/>
+		<str id="ids_colorred" val="الأحمر:"/>
+		<str id="ids_colorgreen" val="الأخضر:"/>
+		<str id="ids_colorblue" val="الأزرق:"/>
+
+		<str id="ids_unsupportformat" val="صيغة صور غير مدعومة"/>
+		<str id="ids_hdrfail" val="فشل توليف HDR."/>
+
+		<str id="ids_miscopencl" val="تمكين معالجة الصور المسرعة لوحدة معالجة الرسومات"/>
+
+		<str id="ids_sharpen" val="الحدة"/>
+		<str id="ids_decolor" val="إلغاء الألوان"/>
+		<str id="ids_detailenhance" val="تحسين التفاصيل"/>
+		<str id="ids_smooth" val="ناعم"/>
+
+		<str id="ids_llc" val="تصحيح الألوان"/>
+
+		<str id="ids_toolbar_st4" val="ST4 تجربة"/>
+
+		<str id="ids_bits" val="%u البايت"/>
+		<str id="ids_roitosmall" val="يجب أن يكون عرض وارتفاع ROI أكبر من 32"/>
+		<str id="ids_recordstep2tipwmv" val="سيتم إلحاق ملحق اسم الملف .wmv تلقائيًا باسم الملف"/>
+
+		<str id="ids_dfcimportfail" val="فشل الإستيراد"/>
+		<str id="ids_dfcexportfail" val="فشل التصدير"/>
+		<str id="ids_dfcimportmis" val="فشل الإستيراد، غير متطابق"/>
+
+		<str id="ids_deinterlace" val="فك الإرتباط"/>
+
+		<str id="ids_sernext" val="الإطار التالي"/>
+		<str id="ids_serprev" val="الإطار السابق"/>
+
+		<str id="ids_pxsize" val="حجم البيكسيل"/>
+
+		<str id="ids_extrigger" val="خارجي"/>
+
+		<str id="ids_tecoutofrange" val="القمية القيم المخلة خارج المسموح به [%.1f, %.1f]."/>
+		<str id="ids_tempunit" val="وحدات الحرارة"/>
+
+		<str id="ids_batchrecord" val="السجل"/>
+		<str id="ids_autocapture" val="التقاط تلقائي"/>
+		<str id="ids_startacapture" val="&amp;التقاط تلقائي"/>
+		<str id="ids_stopacapture" val="&amp;ايقاف الالتقاط"/>
+		<str id="ids_pause" val="بدء/ايقاف"/>
+
+		<str id="ids_sametarget" val="الهدف &quot;%s&quot; موجود مسبقا"/>
+
+		<str id="ids_livestack" val="تجميع مباشر"/>
+		<str id="ids_livestacknormal" val="موافق"/>
+		<str id="ids_livestackvalfail" val="ليس حاد بما يكفي"/>
+		<str id="ids_livestacknostars" val="لايوجد بما يكفي"/>
+		<str id="ids_livestacknomatches" val="لا يوجد تطابق بما يكفي"/>
+
+		<str id="ids_compatible" val="متوافق"/>
+
+		<str id="ids_hwver" val="اصدار الجهاز"/>
+		<str id="ids_fwver" val="اصدار برنامج التشغيل"/>
+		<str id="ids_fpgaver" val="FPGA اصدار"/>
+		<str id="ids_mcuver" val="MCU اصدار"/>
+
+		<str id="ids_toolbarhtml" val="تصدير الى Html"/>
+
+		<str id="ids_background" val="الخلفية"/>
+		<str id="ids_saveas" val="الحفظ بإسم"/>
+
+		<str id="ids_calibratebin" val="لا يمكن المعايرة في وضع binning، فإن binning الحالي هو كذلك %d."/>
+		<str id="ids_shcsidebar" val="إظهار التحكم أو إخفاؤه في الشريط الجانبي للكاميرا"/>
+
+		<str id="ids_tctitle" val="الاوامر"/>
+		<str id="ids_tckey" val="لوحة المفاتيح"/>
+		<str id="ids_tccat" val="التصنيفات:"/>
+		<str id="ids_tccmd" val="الاوامر:"/>
+		<str id="ids_tcallcmd" val="جميع الاوامر"/>
+		<str id="ids_addrbtn" val="&amp;اضافة أو ازالة الازرار"/>
+		<str id="ids_toolbarreset" val="&amp;اعادة تعيين شريط الادوات"/>
+		<str id="ids_resetask" val="هل انت متأكد من اعادة التعيين؟?"/>
+		<str id="ids_tctip" val="لإضافة زر، اسحب زر الأمر الموجود على الجانب الأيمن إلى شريط الأدوات.\r\nلإزالة زر، اسحب الزر خارج شريط الأدوات."/>
+		<str id="ids_kcate" val="&amp;التصنيف:"/>
+		<str id="ids_kcmd" val="C&amp;الأوامر:"/>
+		<str id="ids_krem" val="&amp;ازالة"/>
+		<str id="ids_kres" val="Re&amp;ضبط الكل"/>
+		<str id="ids_kass" val="&amp;تعيين"/>
+		<str id="ids_kato" val="تم التعيين لـ"/>
+		<str id="ids_knew" val="اضغط على مفتاح الاختصار الجديد:"/>
+		<str id="ids_kcur" val="C&amp;المفاتيح الحالية"/>
+		<str id="ids_unass" val="[لم يتم التعيين]"/>
+		<str id="ids_kreset" val="سيتم فقدان كافة التغييرات الخاصة بك. هل تريد حقًا إعادة تعيين تعيينات لوحة المفاتيح؟"/>
+
+		<str id="ids_imagetype" val="نوع الصور"/>
+		<str id="ids_lightf" val="اطار خفيف"/>
+		<str id="ids_biasf" val="اطار مائل"/>
+		<str id="ids_darkf" val="اطار غامق"/>
+		<str id="ids_flatf" val="اطار مسطح"/>
+		<str id="ids_tricolor" val="صورة ثلاثية الالوان"/>
+
+		<str id="ids_focal" val="البعد البؤري"/>
+		<str id="ids_temp" val="درجة حرارة المستشعر"/>
+		<str id="ids_longitude" val="خط الطول، المدى = [-180.0, 180.0], such as 15.715, 15.715W, 15°42'9&quot;W"/>
+		<str id="ids_latitude" val="خط العرض، المدى = [-90.0, 90.0], such as 15.715, 15.715N, 15°42'9&quot;N"/>
+
+		<str id="ids_fitsdateobs" val="تاريخ المشاهدة"/>
+		<str id="ids_fitsimagetype" val="نوع الصورة: إطار فاتح، إطار متحيز، إطار داكن، إطار مسطح، أو صورة ثلاثية الألوان"/>
+		<str id="ids_fitsxpixsz" val="البعد X المادي لبيكسلات المستشعر بالميكرونات"/>
+		<str id="ids_fitsypixsz" val="البعد Y المادي لبيكسلات المستشعر بالميكرونات"/>
+		<str id="ids_fitsccdtemp" val="درجة حرارة المستشعر الفعلية المقاسة عند بداية التعرض بالدرجات C"/>
+		<str id="ids_fitssettemp" val="ضبط درجة حرارة المستشعر بالدرجات C"/>
+		<str id="ids_fitsxbinning" val="عامل التجميع المستخدم على المحور X"/>
+		<str id="ids_fitsybinning" val="عامل التجميع المستخدم على المحور Y"/>
+		<str id="ids_fitsairmass" val="طول المسار البصري النسبي"/>
+		<str id="ids_fitsaptdia" val="قطر التلسكوب بالملليمتر"/>
+		<str id="ids_fitsaptarea" val="مساحة فتحة التلسكوب بالمليمتر المربع"/>
+		<str id="ids_fitscentaz" val="السمت الاسمي لمركز الصورة بالدرجات"/>
+		<str id="ids_fitscentalt" val="الارتفاع الاسمي لمركز الصورة بالدرجات"/>
+		<str id="ids_fitsfilter" val="اسم المرشح المحدد ، إذا كانت عجلة المرشح متصلة"/>
+		<str id="ids_fitsfocal" val="البعد البؤري للتلسكوب بالملليمتر"/>
+		<str id="ids_fitsrotatang" val="زاوية الدوار بالدرجات، إذا كان المستوى البؤري متصلاً"/>
+		<str id="ids_fitsorg" val="الجهة"/>
+		<str id="ids_fitscreator" val="اسم البرنامج الذي أنشأ الملف"/>
+		<str id="ids_fitsswcreate" val="سلسلة تشير إلى البرنامج المستخدم لإنشاء الملف"/>
+		<str id="ids_fitsdec" val="انحراف الكائن"/>
+		<str id="ids_fitsdecnom" val="انحراف المشاهدة"/>
+		<str id="ids_fitsdecobj" val="انحراف المشاهدة للكائنات"/>
+		<str id="ids_fitsdecpnt" val="انحراف الاتجاه للأداة"/>
+		<str id="ids_fitsdecscx" val="انحراف المحور  X"/>
+		<str id="ids_fitsdecscy" val="انحراف المحور  Y"/>
+		<str id="ids_fitsdecscz" val="انحراف المحور  Z"/>
+		<str id="ids_fitsdetnam" val="اسم الكاشف المستخدم لإجراء التجربة"/>
+		<str id="ids_fitsmoonangl" val="الزاوية بين المشاهدة والقمر"/>
+		<str id="ids_fitssunangle" val="الزاوية بين المشاهدة والشمس"/>
+		<str id="ids_fitsobjname" val="IAU اسم الكائن في المشاهدة"/>
+		<str id="ids_fitsobsid" val="معرف المشاهدة المميز"/>
+		<str id="ids_fitsorientat" val="زاوية موضع محور الصورة y (deg. E of N)"/>
+		<str id="ids_fitspapnt" val="زاوية مكان المؤشر"/>
+		<str id="ids_fitsra" val="التحريك التصاعدي للملاحظة"/>
+		<str id="ids_fitsranom" val="التحريك الاسمي للملاحظة"/>
+		<str id="ids_fitsraobj" val="التحريك التصاعدي للكائن"/>
+		<str id="ids_fitsrapnt" val="الصعود الصحيح للاتجاه للأداة"/>
+		<str id="ids_fitsrascx" val="الصعود  للمحور X"/>
+		<str id="ids_fitsrascy" val="الصعود  للمحور Y"/>
+		<str id="ids_fitsrascz" val="الصعود  للمحور Z"/>
+
+		<str id="ids_str" val="خط"/>
+		<str id="ids_int" val="عدد صحيح"/>
+		<str id="ids_real" val="حقيقي"/>
+
+		<str id="ids_fitsadd" val="انقر نقرًا مزدوجًا لإضافة خاصية تناسب مخصصة"/>
+		<str id="ids_fitssame" val="نفس التناسبات موجودة"/>
+
+		<str id="ids_metadescascom" val="يتم استخدام ورقة الخصائص هذه لتعيين قيم الخصائص لتنسيقات الملفات المختلفة، بما في ذلك ملفات FITS وملفات EXIF (بما في ذلك jpg وpng وtiff وما إلى ذلك). العنصر الفارغ في عمود EXIF يعني أن ملف EXIF لا يدعم هذه المعلومات، وهو نفس العمود FITS. [تلقائي] في عمود القيمة يعني أن البرنامج سوف يملأ المعلومات تلقائيًا. بالنسبة للعناصر الأخرى التي لا يكون عمود القيمة فيها [تلقائيًا]، يمكنك النقر نقرًا مزدوجًا فوق العناصر وتعيين القيمة."/>
+		<str id="ids_metadescmicro" val="يتم استخدام ورقة الخصائص هذه لتعيين قيم الخصائص لتنسيقات الملفات المختلفة، بما في ذلك jpg وpng وtiff وما إلى ذلك. [تلقائي] في عمود القيمة يعني أن البرنامج سوف يملأ المعلومات تلقائيًا. بالنسبة للعناصر الأخرى التي لا يكون عمود القيمة فيها [تلقائيًا]، يمكنك النقر نقرًا مزدوجًا فوق العناصر وتعيين القيمة."/>
+
+		<str id="ids_recordfail1" val="فشل في بدء التسجيل"/>
+		<str id="ids_recordfail2" val="فشل بدء التسجيل، ربما تكون الدقة كبيرة جدًا بالنسبة إلى برنامج التشفير"/>
+
+		<str id="ids_tel" val="هاتف"/>
+		<str id="ids_email" val="بريد الكتروني"/>
+
+		<str id="ids_external" val="تطبيق خارجي"/>
+		<str id="ids_exe" val="البرنامج"/>
+
+		<str id="ids_temptint" val="درجة حرارة اللون/الصبغة"/>
+
+		<str id="ids_even" val="الرجاء ادخال على الاقل رقم"/>
+
+		<str id="ids_report" val="تقرير"/>
+		<str id="ids_reportdenied" val="تم رفض الوصول إلى ملف القالب.\nقد يكون ملف القالب مؤمناً بواسطة تطبيقات أخرى، يرجى إنهاء هذه التطبيقات.\nإذا استمرت المشكلة، يرجى محاولة تسجيل الخروج من Windows وإعادة تسجيل الدخول."/>
+		<str id="ids_reporttip" val="1. يستخدم قالب التقرير عناصر نائبة لتمثيل المحتوى المتنوع الذي سيتم استبداله.\r\n2. {{YYYY}}{{mm}}{{DD}}{{HH}}{{MM}}{{SS}} هو عنصر نائب للوقت يمثل السنة والشهر واليوم والساعة والدقيقة والثانية على التوالي. يمثل {{LD}}{{SD}} على التوالي تاريخًا طويلًا وتاريخًا قصيرًا.\r\n3. الصورة الموجودة في هذا القالب والتي عنوانها أو وصف النص البديل هو {{IP}} سيتم اعتبارها العنصر النائب للصورة، الرقم يشير إلى تسلسل الصور، مثل {{IP1}}، {{IP2}}، إلخ.\ ص\n4. سيتم اعتبار الجدول المملوء بمحتوى {{MT}} بمثابة العنصر النائب لجدول القياس. يمثل {{MH}} رأس الجدول.\r\n5. {{MT.i.x.y}} هو العنصر النائب لمحتوى جدول القياس. i هو فهرس الصورة، x هو فهرس صف العنصر في جدول القياس، y هو فهرس عمود العنصر في جدول القياس. إذا كان هناك صورة واحدة فقط في التقرير، فيجب تعيين i على 1. قيمة البداية لـ i, x, y هي 1. على سبيل المثال، {{MT.1.2.3}} تمثل محتوى العنصر، وهو في الصف 2، العمود 3 موضع جدول القياس للصورة 1. عندما تكون x قيمة سالبة، فإنها تشير إلى الصف x من الرقم الأخير، على سبيل المثال، {{MT.1.-2.3}} يمثل محتوى الرقم قبل الأخير الصف الثاني والعمود الثالث من جدول قياس الصورة الأولى.\r\n6. {{LU}}{{AU}}{{SU}} عبارة عن عناصر نائبة لوحدات الطول والزاوية والمساحة، على التوالي. {{lu}}{{au}}{{su}} تعني الاختصارات.\r\n7. عند إنشاء تقرير Word/Excel، سيتم استبدال العناصر النائبة للصور بالمحتوى المقابل. يعتمد استبدال الصور المتعددة على ترتيب تحديد الصورة في واجهة المستخدم المصغرة.\r\n8. يجب أن يكون إصدار Word/Excel 2007 أو أعلى."/>
+		<str id="ids_reportresall" val="سيتم مسح كافة القوالب واستبدالها بالقوالب الافتراضية. هل أنت متأكد من الاستمرار؟"/>
+
+		<str id="ids_exportexcel" val="التثدير الى اكسل"/>
+		<str id="ids_exportcsv" val="التصدير الى ملف بياني"/>
+		<str id="ids_csvplus" val="خطة عمل"/>
+
+		<str id="ids_affocused" val="تركيز"/>
+		<str id="ids_affocusing" val="التركيز"/>
+		<str id="ids_afdefocus" val="إلغاء التركيز"/>
+		<str id="ids_toofar" val="بعيد جدا"/>
+		<str id="ids_tooclose" val="قريب جدا"/>
+
+		<str id="ids_webppresetphoto" val="صورة"/>
+		<str id="ids_webppresetpicture" val="صورة"/>
+		<str id="ids_webppresetdrawing" val="رسم"/>
+		<str id="ids_webppreseticon" val="رمز"/>
+
+		<str id="ids_dlpending" val="هناك تنزيلات معلقة ، هل أنت متأكد من إلغائها جميعا والخروج؟"/>
+		<str id="ids_dlnormal" val="تحميل"/>
+		<str id="ids_dlcompleted" val="اكمال"/>
+		<str id="ids_dlpaused" val="توقف"/>
+
+		<str id="ids_gpuwin8" val="يتوفر ترميز الأجهزة (GPU) فقط على نظام التشغيل Windows 8 أو الإصدارات الأحدث."/>
+		<str id="ids_gpuinsu" val="Hardware (GPU) encoder can reduce CPU usage significantly, but if the resolution exceeds the GPU's capability, it will be automatically replaced with software encoder."/>
+
+		<str id="ids_cursorcross" val="عبر"/>
+
+		<str id="ids_segts" val="قطاعات"/>
+		<str id="ids_edges" val="حواف"/>
+		<str id="ids_avgang" val="متوسط الزاوية"/>
+		<str id="ids_seglength" val="طول المقطع"/>
+		<str id="ids_avglength" val="متوسط الطول"/>
+		<str id="ids_ttllength" val="الطول الإجمالي"/>
+		<str id="ids_randomcon" val="اتصال عشوائي"/>
+		<str id="ids_multicon" val="اتصال متعدد النقاط"/>
+		<str id="ids_segdistance" val="مسافة المقطع"/>
+		<str id="ids_avgdistance" val="متوسط المسافة"/>
+		<str id="ids_ttldistance" val="المسافة الكلية"/>
+
+		<str id="ids_stitchexpand" val="جاري المعالجة، يرجى الانتظار"/>
+		<str id="ids_stitchexpdis" val="تعطيل التعرض التلقائي تلقائيا أثناء الخياطة"/>
+		<str id="ids_edfexpdis" val="قم بتعطيل التعريض التلقائي تلقائيًا أثناء EDF"/>
+		<str id="ids_edfsize" val="حجم منطقة الفيديو"/>
+
+		<str id="ids_exportmea" val="التصدير والدمج"/>
+		<str id="ids_exportshowdlg" val="إظهار (خيارات التصدير) الحوار عند التصدير أو الدمج"/>
+
+		<str id="ids_expseglen0" val="تصدير إلى الحافظة"/>
+		<str id="ids_expseglen1" val="التصدير لملف بياني"/>
+		<str id="ids_expseglen2" val="تصدير إلى مايكروسوفت إكسل"/>
+
+		<str id="ids_cpucore" val="النواة"/>
+		<str id="ids_cputhrd" val="المواضيع"/>
+
+		<str id="ids_fspeed" val="سرعة الإطار"/>
+
+		<str id="ids_fastest" val="أسرع"/>
+		<str id="ids_slowest" val="أبطأ"/>
+
+		<str id="ids_edgelen" val="طول الحافة"/>
+		<str id="ids_avgedge" val="متوسط طول الحافة"/>
+
+		<str id="ids_policy" val="السياسات"/>
+		<str id="ids_ae0" val="التعرض فقط"/>
+		<str id="ids_ae1" val="يفضل التعرض"/>
+		<str id="ids_ae2" val="كسب فقط"/>
+		<str id="ids_ae3" val="إلتقاط"/>
+		<str id="ids_aeexpmax" val="أقصى وقت للتعرض"/>
+		<str id="ids_aegainmax" val="أقصى حد"/>
+
+		<str id="ids_stitchres" val=".يطبق دقة معايرة الفيديو الحالي تلقائيا على صورة النتيجة المخيطة. تعتمد دقة هذه القيمة على العديد من العوامل"/>
+		<str id="ids_edfres" val="يطبق تلقائيًا دقة معايرة الفيديو الحالي على صورة نتيجة EDF. دقة هذه القيمة تعتمد على عوامل كثيرة."/>
+
+		<str id="ids_miscbmp" val="أضف تنسيق BMP إلى اختيار نوع الملف لـ الحفظ السريع، و(حفظ الدفعة)، وما إلى ذلك (تنسيق BMP لا يدعم المعايرة والقياس)"/>
+		<str id="ids_csvutf8" val="استخدام مجموعة أحرف UTF8 في ملف CSV"/>
+
+		<str id="ids_sensor" val="المستشعر"/>
+		<str id="ids_ccdpro" val="تدريجي"/>
+		<str id="ids_ccdint" val="متشابك"/>
+		<str id="ids_glsh" val="مصراع عالمي"/>
+		<str id="ids_rosh" val="مصراع المتداول"/>
+		<str id="ids_ddrbuf" val="DDR اطارات"/>
+		<str id="ids_isp" val="اجهزة ISP"/>
+
+		<str id="ids_delay" val="تأخير"/>
+		<str id="ids_ioctrl" val="التحكم في الإدخال والإخراج"/>
+		<str id="ids_ioctrlii" val="مدخلات معزولة"/>
+		<str id="ids_ioctrlio" val="إخراج معزول"/>
+		<str id="ids_ioctrlip" val="مدخل"/>
+		<str id="ids_ioctrlop" val="الناتج"/>
+		<str id="ids_ioctrlnc" val="غير متصل"/>
+		<str id="ids_ioctrlts" val="ثلاثي الدولة"/>
+		<str id="ids_ioctrloc" val="البصريات المقترنة"/>
+		<str id="ids_ioctrlpo" val="الحافة الصاعدة"/>
+		<str id="ids_ioctrlne" val="الحافة المتساقطة"/>
+		<str id="ids_ioctrlhl" val="مستوى عال"/>
+		<str id="ids_ioctrlll" val="مستوى منخفض"/>
+		<str id="ids_ioctrlco" val="عداد"/>
+		<str id="ids_ioctrlft" val="إطار الزناد الانتظار"/>
+		<str id="ids_ioctrlea" val="التعرض نشط"/>
+		<str id="ids_ioctrlsb" val="ستروب"/>
+		<str id="ids_ioctrluo" val="إخراج المستخدم"/>
+		<str id="ids_ioctrlpd" val="قبل التأخير"/>
+		<str id="ids_ioctrldl" val="تأخر"/>
+		<str id="ids_ioctrlct" val="عداد الإخراج"/>
+		<str id="ids_ioctrlto" val="إخراج الموقت"/>
+
+		<str id="ids_luafilerr" val="خطأ في ملف لوا"/>
+		<str id="ids_sameluaerr" val="نفس الحساب موجود"/>
+
+		<str id="ids_imageid" val="معرف الصورة الفريد"/>
+		<str id="ids_timestamp" val="الطابع الزمني"/>
+		<str id="ids_timestamptxt" val="إذا كان جهاز الكاميرا يدعم ميزة الطابع الزمني، تسجيل الطابع الزمني تلقائيا في الطابع الزمني. عند الفاصل الزمني (الالتقاط التلقائي) والزناد"/>
+
+		<str id="ids_meanintensity" val="متوسط الكثافة"/>
+		<str id="ids_intensity" val="شدة"/>
+
+		<str id="ids_typemis" val="عدم تطابق نوع"/>
+		<str id="ids_showsub" val="إظهار الكائنات الفرعية"/>
+
+		<str id="ids_connection" val="اتصال"/>
+
+		<str id="ids_pbslow" val="بطيء"/>
+		<str id="ids_pbfast" val="بالكاد"/>
+		<str id="ids_pbstep" val="خطوة"/>
+
+		<str id="ids_multicast" val="الارسال المتعدد"/>
+		<str id="ids_unicast" val="أحادي البث"/>
+
+		<str id="ids_custommo" val="قياس مخصص"/>
+
+		<str id="ids_3drender" val="يجعل"/>
+		<str id="ids_3dlight" val="ضوء"/>
+
+		<str id="ids_tecpower" val="طاقة الاستهلاك النموذجي للكهرباء"/>
+
+		<str id="ids_zoomnoctrl" val="تمرير عجلة الماوس لأعلى ولأسفل"/>
+		<str id="ids_zoomctrl" val="Ctrl + تمرير عجلة الماوس لأعلى ولأسفل"/>
+
+		<str id="ids_lastinput" val="الإدخال الأخير"/>
+		<str id="ids_goto" val="اذهب إلى"/>
+		<str id="ids_timer" val="النطاق الزمني"/>
+		<str id="ids_dbstep1" val="الاتصال بقاعدة البيانات"/>
+		<str id="ids_dbstep2" val="تحديد الجدول"/>
+		<str id="ids_odbchandle" val="ODBC: invalid handle."/>
+		<str id="ids_dbver" val="مخططات قاعدة البيانات غير متطابقة."/>
+		<str id="ids_dbdrop" val="تحذير: هل أنت متأكد من مسح كافة محتويات ومخططات قاعدة البيانات؟"/>
+		<str id="ids_dbdelc" val="تحذير: هل أنت متأكد من مسح كافة محتويات هذا العمود؟"/>
+		<str id="ids_bigint" val="64 بت إنترجر"/>
+		<str id="ids_smallint" val="16 بت انترجر"/>
+		<str id="ids_int32" val="32 بت إنترجر"/>
+
+		<str id="ids_page" val="صفحة"/>
+		<str id="ids_nextp" val="الصفحة التالية"/>
+		<str id="ids_prevp" val="الصفحة السابقة"/>
+		<str id="ids_firp" val="الصفحة الأولى"/>
+		<str id="ids_lasp" val="الصفحة الأخيرة"/>
+
+		<str id="ids_fnew" val="قم دائما بتبديل نافذة التركيز إلى الصورة الملتقطة حديثا"/>
+
+		<str id="ids_layerclear" val="هل أنت متأكد من مسح جميع الطبقات وكائنات القياس؟"/>
+		<str id="ids_layerclearobj" val="هل أنت متأكد من مسح جميع كائنات القياس؟"/>
+		<str id="ids_layercleartip" val="مسح كل الطبقات وكائنات القياس"/>
+		<str id="ids_layerclearobjtip" val="مسح جميع كائنات القياس"/>
+
+		<str id="ids_lntip" val="نسبة ضوضاء إشارة أعلى ، معدل إطارات أقل"/>
+
+		<str id="ids_stat" val="الاحصاءات"/>
+		<str id="ids_smax" val="ماكس"/>
+		<str id="ids_smin" val="دقيقه"/>
+		<str id="ids_savg" val="متوسط"/>
+		<str id="ids_sstd" val="الأمراض المنقولة جنسيا"/>
+
+		<str id="ids_hsty" val="نمط ه"/>
+		<str id="ids_half" val="نصف"/>
+		<str id="ids_acum" val="الوضع التراكمي"/>
+		<str id="ids_comp" val="مركب"/>
+
+		<str id="ids_powerc" val="استهلاك الطاقة"/>
+
+		<str id="ids_lptips" val="يرجى تحديد كائن القياس، مثل الخط والمنحنى والمضلع. إذا كان كائن القياس المطلوب غير موجود، فيرجى إنشاؤه وتحديده"/>
+
+		<str id="ids_writabledir" val="الدليل غير موجود أو غير قابل للكتابة"/>
+
+		<str id="ids_namepre" val="بادئة الاسم"/>
+
+		<str id="ids_bayer" val="البافاريه"/>
+		<str id="ids_debayer" val="الانحطاط"/>
+		<str id="ids_ahd" val="التجانس التكيفي الموجه"/>
+		<str id="ids_vng" val="عدد متغير من التدرجات"/>
+		<str id="ids_ea" val="حافة مدركة"/>
+
+		<str id="ids_cmptip" val="الرجاء تحديد 1 أو 3 عناصر للمقارنة مع التيار:\r\n&quot;%s&quot;"/>
+		
+		<str id="ids_dspz" val="صورة موقوتة"/>
+		<str id="ids_strtdspz" val="بدء الصورة الموقوتة"/>
+		<str id="ids_stopdspz" val="إيقاف الصورة في الوقت المناسب"/>
+		<str id="ids_capspan" val="التقاط الفاصل الزمني"/>
+		<str id="ids_capnum" val="عدد الصور الملتقطة"/>
+		<str id="ids_captt" val="إجمالي وقت الالتقاط"/>
+		<str id="ids_capls" val="مصدر الضوء في الوقت المحدد (قبل وبعد)"/>
+		<str id="ids_capspanerr" val="الفاصل الزمني للالتقاط غير صحيح"/>
+		<str id="ids_captterr" val="إجمالي وقت الالتقاط غير صحيح"/>
+		<str id="ids_capstless" val="يجب أن يكون مصدر الضوء في الوقت المحدد أقل من الفاصل الزمني للالتقاط"/>
+		
+		<str id="ids_globalrs" val="إعادة تعيين العالمية"/>
+		<str id="ids_expactive0" val="الأسطر المحددة"/>
+		<str id="ids_expactive1" val="وقت التعرض المشترك"/>
+        
+		<str id="ids_relt" val="نتيجة"/>
+        
+		<str id="ids_exsf" val="...تصدير الإعدادات الحالية إلى * ملف"/>
+		<str id="ids_exse" val="تصدير الاعدادات الحالية إلى &amp;EEPROM"/>
+        <str id="ids_exsa" val="...العنوان المحدد"/>
+        <str id="ids_exs0" val="العنوان صفر"/>
+		<str id="ids_extemp" val="...تصدير سجل درجات الحرارة"/>
+        
+		<str id="ids_cpattern" val="نمط متقلب"/>
+		
+		<str id="ids_ocws" val="مستجمعات المياه"/>
+		<str id="ids_ocsd" val="أوتسو الظلام"/>
+		<str id="ids_ocsb" val="أوتسو برايت"/>
+		
+		<str id="ids_ebusy" val="يتم استخدام الكاميرا من قبل تطبيق آخر"/>
+		<str id="ids_ecrc" val="قد يكون مصدر الطاقة غير كاف"/>
+		
+		<str id="ids_exacp" val="الفاصل الزمني (الالتقاط التلقائي) قيد التقدم.\أو\هل أنت متأكد من إيقاف الالتقاط التلقائي، وتجاهل كافة الصور المتبقية والخروج؟"/>
+		<str id="ids_exdeq" val="لا يزال التطبيق يحفظ اللقطات المتتابعة (الالتقاط التلقائي) أو الصور التي يتم تشغيلها في الخلفية.\r\nهل أنت متأكد من تجاهل كافة الصور المتبقية والخروج؟"/>
+		
+		<str id="ids_squ" val="تسلسل"/>
+		
+		<str id="ids_bnum" val="عدد البايتات"/>
+		
+		<str id="ids_bgfile" val="ملفات الخلفية"/>
+		
+		<str id="ids_deqdepth" val="طول المخزن المؤقت للإطار"/>
+		<str id="ids_fend" val="نهاية المقدمة"/>
+		<str id="ids_bend" val="الخلفية"/>
+		<str id="ids_tecam" val="يسري مفعوله بعد إعادة فتح الكاميرا"/>
+		
+		<str id="ids_aeotip" val="نصائح: احسب متوسط السطوع للنسبة المئوية المحددة لأعلى وحدات البكسل الساطعة في منطقة الاهتمام. قم بتمكين هذا الخيار عندما تكون الخلفية داكنة ويكون الهدف معرضًا للضوء بشكل زائد في الوضع المتوسط. قد يتأثر معدل الإطارات عند تمكين هذا الخيار بسبب ارتفاع استهلاك وحدة المعالجة المركزية"/>
+		
+		<str id="ids_gridm" val="الشبكات: دمج للصورة"/>
+		
+		<str id="ids_motion" val="في الحركة"/>
+		<str id="ids_idle" val="عاطل"/>
+		
+		<str id="ids_interp" val="عرض خوارزمية الاستيفاء"/>
+		<str id="ids_interpnn" val="أقرب جار (حواف صلبة)"/>
+		<str id="ids_interparea" val="المنطقة (إعادة التشكيل باستخدام علاقة منطقة البكسل)"/>
+		
+		<str id="ids_grc" val="نوعي"/>
+		<str id="ids_pta" val="تحليل الجسيمات"/>
+		<str id="ids_phc" val="عد المرحلة"/>
+		<str id="ids_oth" val="آخر"/>
+		
+		<str id="ids_packed" val="معباه"/>
+
+		<str id="ids_psspot" val="بقعة"/>
+		<str id="ids_psautumn" val="خريف"/>
+		<str id="ids_psbone" val="عظم"/>
+		<str id="ids_pswinter" val="شتاء"/>
+		<str id="ids_psrainbow" val="قوس المطر"/>
+		<str id="ids_psdeepgreen" val="أخضر عميق"/>
+		<str id="ids_psocean" val="محيط"/>
+		<str id="ids_pssummer" val="صيف"/>
+		<str id="ids_psspring" val="ربيع"/>
+		<str id="ids_pscool" val="برد"/>
+		<str id="ids_pspink" val="وردي"/>
+		<str id="ids_pshot" val="حار"/>
+		<str id="ids_psmagma" val="الصهاره"/>
+		<str id="ids_psinferno" val="جحيم"/>
+		<str id="ids_psplasma" val="البلازما"/>
+		<str id="ids_pstwilight" val="شفق"/>
+		<str id="ids_pstwshifted" val="تحول الشفق"/>
+		
+		<str id="ids_farea" val="منطقة التركيز"/>
+		
+		<str id="ids_lowestcpu" val="أقل استخدام لوحدة المعالجة المركزية"/>
+		<str id="ids_highcpu" val="ارتفاع استخدام وحدة المعالجة المركزية"/>
+		<str id="ids_highercpu" val="استخدام أعلى لوحدة المعالجة المركزية"/>
+		<str id="ids_highestcpu" val="أعلى استخدام لوحدة المعالجة المركزية"/>
+		
+		<str id="ids_fscr" val="شاشة كاملة"/>
+		<str id="ids_xfscr" val="إغلاق ملء الشاشة"/>
+		
+		<str id="ids_updategige" val="تم الانتهاء بنجاح، يرجى إيقاف تشغيل الكاميرا وإعادة تشغيلها."/>
+		
+		<str id="ids_gainshow" val="يتم التعبير عن كسب التعريض على النحو التالي:"/>
+		<str id="ids_decibel" val="ديسيبل (dB)"/>
+		
+		<str id="ids_workd" val="مسافة العمل"/>
+		<str id="ids_efl" val="البعد البؤري الفعال"/>
+		
+		<str id="ids_notcal" val="غير معاير"/>
+		
+		<str id="ids_opencom" val="فشل في فتح %s."/>
+		
+		<str id="ids_chamber" val="غرفة"/>
+		<str id="ids_humidity" val="رطوبة"/>
+		
+		<str id="ids_uptm" val="وقت التشغيل"/>
+	</string>
+
+	<dialog>
+		<str id="ids_man" val="إدارة"/>
+		<str id="ids_tips" val="النصائح"/>
+		<str id="ids_clear" val="واضح"/>
+		<str id="ids_snap" val="الاداه الاضافيه"/>
+		<str id="ids_reco" val="سجل"/>
+		<str id="ids_qu" val="كم"/>
+		<str id="ids_bf" val="أفضل ملاءمة"/>
+		<str id="ids_seq" val="يبدأ التسلسل ب:"/>
+		<str id="ids_number" val="رقم"/>
+		<str id="ids_dbid" val="Alphabets (A~Z, a~z) or digits (0~9); لا يمكن أن تبدأ أرقام العرض"/>
+		<str id="ids_dbdp" val="المنازل العشرية:"/>
+		<str id="ids_mode" val="طريقة"/>
+		<str id="ids_qu100" val="الجودة (25-100):"/>
+		<str id="ids_aval" val="متاح"/>
+		<str id="ids_sedl" val="المحدد"/>
+		<str id="ids_adgt" val="يضيف&gt;&gt;"/>
+		<str id="ids_aagt" val="اضافة الكل&gt;&gt;"/>
+		<str id="ids_v" val=":قيمة"/>
+		<str id="ids_border" val=":ترتيب البايت"/>
+		<str id="ids_sm" val=":وضع الغالق"/>
+		<str id="ids_unidir" val="أحادي الاتجاه"/>
+		<str id="ids_defi" val="...حدد"/>
+		<str id="ids_goto" val="اذهب إلى"/>
+		<str id="ids_tb" val="جدول الألوان"/>
+		<str id="ids_conmode" val="الوضع المستمر"/>
+		<str id="ids_timeval" val="الفاصل الزمني:"/>
+
+		<dlg id="IDD_ABOUTBOX">
+			<str id="up" val="ترقية البرامج"/>
+		</dlg>
+
+		<dlg id="IDD_AUTO">
+			<str id="dir" val=":دليل"/>
+			<str id="for" val=":تنسيق الاسم"/>
+			<str id="pre" val=":بادئة الملف"/>
+			<str id="cm" val="وضع الالتقاط"/>
+			<str id="ef" val="التقط كل إطار"/>
+			<str id="time" val="الفترة الزمنية (ثواني)"/>
+			<str id="tt" val="إجمالي الصور"/>
+			<str id="so" val="خيارات التسلسل"/>
+			<str id="sv" val="عرض في نافذة الفيديو"/>
+			<str id="sw" val="إظهار في نافذة جديدة"/>
+			<str id="sd" val="حفظ على القرص"/>
+			<str id="base" val=":قاعدة"/>
+			<str id="sub" val=":الفرعي"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHSAVE">
+			<str id="tl" val="دفعة حفظ"/>
+			<str id="dir" val=":دليل"/>
+			<str id="for" val=":تنسيق الاسم"/>
+			<str id="pre" val=":بادئة الملف"/>
+			<str id="show" val="إظهار مربع حوار إعادة التسمية"/>
+			<str id="base" val=":قاعدة"/>
+			<str id="sub" val=":الفرعية"/>
+			<str id="qst" val="سيتم تطبيق الإعدادات المذكورة أعلاه على ميزة الحفظ السريع القائمة والزر المقابل في شريط الأدوات. عند استدعاء &quot;حفظ سريع&quot;، سيتم حفظ الصور بسرعة وفقًا للإعدادات المذكورة أعلاه في الدليل المحدد.\n2. إذا تم تحديد RGB48، فسيتم حفظ الصورة دائمًا كملف tif أو png لأن tif وpng فقط يدعمان RGB48."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD">
+			<str id="dir" val=":الدليل"/>
+			<str id="frm" val=":تنسيق الاسم"/>
+			<str id="pf" val=":بادئة الملف"/>
+			<str id="sh" val="إظهار مربع حوار إعادة التسمية"/>
+			<str id="lm" val="حد"/>
+			<str id="tl" val=":حدود الوقت (ثواني)"/>
+			<str id="fl" val=":حد الإطار"/>
+			<str id="base" val=":قاعدة"/>
+			<str id="sub" val=":الفرعي"/>
+			<str id="fo" val="...خيارات اسم الملف"/>
+			<str id="do" val="...خيارات الدليل"/>
+			<str id="tip" val="عند تمكين التسجيل السريع، لن يتم عرض معالج السجل. عند بدء التسجيل السريع:\n1. سيتم إنشاء اسم الملف والدليل تلقائيًا وفقًا لـ (خيارات اسم الملف) و &quot;خيارات الدليل&quot;;\n2. معدل البت يساوي معدل البت الافتراضي (المحسوب بناءً على عرض الفيديو وارتفاعه ومعدل الإطارات) مضروبًا في النسبة المئوية لقياس معدل البت المستخدمة للتسجيل الأخير؛\n3. ستكون البرامج الأخرى (مثل برنامج الترميز والفاصل الزمني وما إلى ذلك) هي نفسها التي تم استخدامها مؤخرًا"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHRECORD">
+			<str id="num" val=":عدد مقاطع الفيديو"/>
+			<str id="it" val=":استقطاع الوقت (ثواني)"/>
+		</dlg>
+        
+		<dlg id="IDD_EDF_SELECT">
+			<str id="tl" val="EDF (عمق التركيز الممتد)"/>
+			<str id="open" val=":مفتوح"/>
+			<str id="se" val=":المحدد"/>
+			<str id="pro" val=":تقدم"/>
+			<str id="aa" val="إضافة الجميع"/>
+			<str id="fuse" val="يبدأ"/>
+			<str id="m" val=":طريقة"/>
+		</dlg>
+
+		<dlg id="IDD_MAG">
+			<str id="cla" val="امسح الكل"/>
+		</dlg>
+
+		<dlg id="IDD_CALIBRATE">
+			<str id="ac" val="الطول الفعلي"/>
+			<str id="pi" val="بيكسيل"/>
+			<str id="pm" val="بيكسيل/متر"/>
+			<str id="ep" val="نقطة النهاية"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAEXPOSURE">
+			<str id="ll" val="تعويض الضوء المنخفض"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAHISTOGRAM">
+			<str id="l" val=":غادر"/>
+			<str id="r" val=":يمين"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALS">
+			<str id="desc" val="يمكن لوظيفة مقاومة الوميض إزالة الآثار الجانبية التي يسببها تردد طاقة الإضاءة المستخدم أثناء التصوير، بما في ذلك شريط الوميض الذي يظهر بواسطة مستشعر الغالق المتحرك، ومشكلة الوميض لمستشعر الغالق الشامل. سيقتصر وقت التعرض فقط على مضاعفات 10 مللي ثانية لـ 50 هرتز، ومضاعفات (1000/120) مللي ثانية لـ 60 هرتز."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAMODE">
+			<str id="color" val="لون"/>
+			<str id="gray" val="رمادي"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERASPEED">
+			<str id="low" val="قليل"/>
+			<str id="com" val="حرك شريط التمرير إلى اليمين للتأكد من أن الكاميرا تقوم بتشغيل الفيديو المباشر بأسرع معدل إطارات يدعمه محور USB بالكمبيوتر. إذا فشل عرض الفيديو المباشر، فحرك شريط التمرير إلى اليسار لتقليل معدل الإطارات"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAWB">
+			<str id="tem" val=":درجة حرارة اللون"/>
+			<str id="com" val="انقلROI(المميز بمستطيل أحمر) إلى كائن أبيض أو رمادي نقي وانقر فوق توازن اللون الأبيض لإنشاء توازن اللون الأبيض للفيديو المستقبلي"/>
+			<str id="auto" val="توازن اللون الأبيض التلقائي"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAPRESET">
+			<str id="load" val="تحميل"/>
+			<str id="ov" val="الكتابه"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERTXT">
+			<str id="tl" val="تراكب"/>
+			<str id="pos" val="موضع:"/>
+			<str id="bg" val=":خلفية"/>
+			<str id="sc" val="المسطرة"/>
+			<str id="show" val="عرض"/>
+			<str id="dt" val="التاريخ والوقت"/>
+			<str id="cl" val="عامل الوضوح"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERGEO">
+			<str id="tl" val="علامة"/>
+			<str id="sh" val="عرض المقياس المتدرج"/>
+		</dlg>
+
+		<dlg id="IDD_OPENDLG">
+			<str id="imag" val="معلومات الصورة/معاينة"/>
+			<str id="cur" val=":الملف الحالي"/>
+		</dlg>
+
+		<dlg id="IDD_PROMTSAVE">
+			<str id="tl" val="احفظ الملفات"/>
+			<str id="com" val="تم تعديل الملف. هل تريد ان تحفظ التغييرات؟"/>
+			<str id="yes" val="نعم للكل"/>
+			<str id="no" val="لا للكل"/>
+			<str id="bat" val="دفعة حفظ"/>
+		</dlg>
+
+		<dlg id="IDD_SFT">
+			<str id="tl" val="تنسيق الصورة مع القياس"/>
+			<str id="com" val="التنسيق الذي حددته لا يدعم المعايرة والقياس. إذا كنت تريد حفظ المعايرة والقياس بالصورة، فيرجى تحديد التنسيقات التالية:"/>
+			<str id="re" val=".لا أذكر في وقت لاحق"/>
+			<str id="con" val="يكمل"/>
+			<str id="res" val="إعادة تحديد"/>
+		</dlg>
+
+		<dlg id="IDD_CAPTURE">
+			<str id="mk" val="التقط باستخدام العلامة والعلامة المائية"/>
+			<str id="mm" val=":الالتقاط مع القياس"/>
+			<str id="g" val="الالتقاط باستخدام الشبكات"/>
+			<str id="dpi" val="اضبط DPI للصورة الملتقطة على:"/>
+			<str id="sa" val="حفظ الصور الملتقطة للكاميرات أحادية اللون كملفات أحادية القناة (صورة بمقياس رمادي)"/>
+			<str id="48" val="قم تلقائيًا بتعيين تنسيق الالتقاط إلى RGB 48 عندما يكون عمق البت أكبر من 8"/>
+			<str id="ss" val="(توفير مساحة التخزين)"/>
+		</dlg>
+
+		<dlg id="IDD_GRID">
+			<str id="ru" val=":لون المسطرة"/>
+			<str id="cu" val=":لون المؤشر"/>
+			<str id="gr" val="شبكة"/>
+			<str id="sy" val=":أسلوب"/>
+			<str id="lis" val=":أسلوب الخط"/>
+			<str id="lic" val="لون الخط:"/>
+			<str id="pm" val="...إدارة محددة مسبقا"/>
+		</dlg>
+
+		<dlg id="IDD_WATERMARK">
+			<str id="tl" val="علامة مائية للفيديو"/>
+			<str id="fle" val="ملف الصورة:"/>
+            <str id="tra" val="(%)شفاف"/>
+			<str id="tip" val="استخدم Shift + أعلى/أسفل/يسار/يمين مفتاح السهم لتحريك العلامة المائية.\r\nاستخدم Shift + Ctrl + مفتاح السهم يسار/يمين لتدوير العلامة المائية"/>
+			<str id="tip2" val="بالنسبة إلى 32 بت bmp، استخدم قناة ألفا.\r\nبالنسبة إلى 24 بت bmp، عند تعيين الشفافية إلى 0%، سيتم استخدام البكسل الأول كمفتاح اللون، وإلا فإن الشفافية ستعمل إذا تم تعيينها على قيمة أخرى بين 1 % و 99%"/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION1">
+			<str id="dr" val=":تصويب البانوراما"/>
+			<str id="wt" val=":نوع الإسقاط"/>
+			<str id="sf" val=":مكتشف التماس"/>
+			<str id="ba" val=":ضبط الحزمة"/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION2">
+			<str id="mc" val=":تطابق الثقة"/>
+			<str id="pc" val=":ثقة البانوراما"/>
+			<str id="bs" val=":قوة المزج"/>
+			<str id="ms" val=":طابق الثقة"/>
+		</dlg>
+
+		<dlg id="IDD_PROGRESS">
+			<str id="tl" val="تقدم"/>
+		</dlg>
+
+		<dlg id="IDD_IOPT">
+			<str id="r" val="نسبة الضغط"/>
+			<str id="los" val="خسارة أقل"/>
+			<str id="qu" val="جودة الصورة"/>
+			<str id="best" val="أفضل\nضغط"/>
+			<str id="bq" val="أفضل\nجودة"/>
+			<str id="pr" val="تقدمي"/>
+			<str id="sm" val="التنعيم"/>
+			<str id="op" val="تحسين الترميز"/>
+			<str id="ap" val="إلحاق الصفحات"/>
+			<str id="s" val="لا يوجد حشو:"/>
+			<str id="def" val="احفظ هذه الإعدادات كإعدادات افتراضية"/>
+			<str id="cl" val="مستوى الضغط"/>
+			<str id="fs" val="الأسرع"/>
+			<str id="hr" val="فائقة"/>
+			<str id="fh" val=":رأس الملف"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_HEADER">
+			<str id="tc" val=".جميع معلومات العرض اختيارية"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP1">
+			<str id="pl" val="الرجاء تحديد تنسيق الفيديو والتشفير"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP2">
+			<str id="name" val="1. قم بتعيين اسم ملف الفيديو الذي تم التقاطه"/>
+			<str id="dir" val="2. حدد الدليل لملف الفيديو"/>
+			<str id="tc" val="سيتم إلحاق ملحق اسم الملف .wmv أو .mp4 أو .avi تلقائيًا باسم الملف"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP3">
+			<str id="bitr" val=":معدل البت"/>
+			<str id="key" val=":تباعد الإطارات الرئيسية"/>
+			<str id="se" val="ثواني"/>
+			<str id="bb" val=":معدل البت الافتراضي"/>
+			<str id="enc" val=":التشفير"/>
+			<str id="cfg" val="...التكوين"/>
+			<str id="pa" val="ترميز المعلمة"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP4">
+			<str id="t" val=":الحد الزمني (ثواني))"/>
+			<str id="s" val="ملخص"/>
+			<str id="f" val=":رقم الإطار"/>
+			<str id="a" val=":الوقت (ثواني)"/>
+		</dlg>
+
+		<dlg id="IDD_BROADCAST">
+			<str id="port" val=":ميناء"/>
+			<str id="save" val="احفظ الفيديو للملف في وقت واحد"/>
+		</dlg>
+
+		<dlg id="IDD_OPENBROADCAST">
+			<str id="tl" val="بث مفتوح"/>
+			<str id="port" val=":ميناء"/>
+		</dlg>
+
+		<dlg id="IDD_MOVE">
+			<str id="tl" val="يتحرك"/>
+		</dlg>
+
+		<dlg id="IDD_DIAGNOSE">
+			<str id="tl" val="التشخيص"/>
+		</dlg>
+
+		<dlg id="IDD_CURVE">
+			<str id="tl" val="منحنى"/>
+			<str id="gr" val="شبكة"/>
+		</dlg>
+
+		<dlg id="IDD_RANGE">
+			<str id="tl" val="نطاق"/>
+			<str id="in" val="عكس"/>
+			<str id="up" val="تحديث"/>
+		</dlg>
+
+		<dlg id="IDD_THRESHOLD">
+			<str id="tl" val="ثنائي"/>
+		</dlg>
+
+		<dlg id="IDD_PROPPAGE_MOSAICSET">
+			<str id="fo" val="تذييل الصفحه"/>
+			<str id="ar" val="ترتيب"/>
+			<str id="rows" val="الصفوف"/>
+			<str id="col" val="الاعمده"/>
+			<str id="rs" val="تباعد الصفوف"/>
+			<str id="cs" val="تباعد العمود"/>
+			<str id="ps" val="حجم الصفحة"/>
+			<str id="ds" val="الحجم الافتراضي"/>
+			<str id="pr" val="استخدام حجم الطابعة"/>
+			<str id="ch" val="...يتغير"/>
+			<str id="use14" val="استخدم مقاس 1/4"/>
+		</dlg>
+
+		<dlg id="IDD_ADJUSTBC">
+			<str id="tl" val="ضبط السطوع/التباين"/>
+		</dlg>
+
+		<dlg id="IDD_AUTOSETUP">
+			<str id="tl" val="نطاق السيارات"/>
+			<str id="le" val="مستوى ذاتي"/>
+			<str id="ct" val="التباين التلقائي"/>
+			<str id="low" val="لقطة منخفضة"/>
+			<str id="high" val="لقطة عالية"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR">
+			<str id="tl" val="ضبط اللون"/>
+			<str id="mo" val="وحدات الألوان"/>
+		</dlg>
+
+		<dlg id="IDD_CLRQUANT">
+			<str id="bits" val="بت اللون"/>
+			<str id="24" val="24 بت"/>
+			<str id="8" val="8 بت"/>
+			<str id="1" val="1 بت"/>
+		</dlg>
+
+		<dlg id="IDD_COLORBITS">
+			<str id="tl" val="تغيير بت اللون"/>
+			<str id="new" val="بت اللون الجديد"/>
+			<str id="24" val="24 بت"/>
+			<str id="8" val="8 بت"/>
+			<str id="1" val="1 بت"/>
+		</dlg>
+
+		<dlg id="IDD_COLORSELECT">
+			<str id="tl" val="إختر لون"/>
+		</dlg>
+
+		<dlg id="IDD_EDGE">
+			<str id="fil" val="المرشحات"/>
+			<str id="ro" val="روبرتس"/>
+			<str id="sc" val="نحت"/>
+			<str id="la" val="لابلاس"/>
+			<str id="va" val="التباين"/>
+			<str id="h" val="أفقي"/>
+			<str id="v" val="عمودي"/>
+			<str id="pa" val="يمر"/>
+		</dlg>
+
+		<dlg id="IDD_ENHANCE">
+			<str id="fi" val="منقي"/>
+			<str id="lp" val="تمرير منخفض"/>
+			<str id="hp" val="تمرير عالي"/>
+			<str id="g" val="غاوس"/>
+			<str id="hg" val="غاوس عالي"/>
+			<str id="equ" val="تحقيق تكافؤ"/>
+			<str id="fl" val="تتسطح"/>
+			<str id="me" val="الوسيط"/>
+			<str id="rk" val="رتبة"/>
+			<str id="pa" val="يمر"/>
+			<str id="w" val="نوافذ"/>
+		</dlg>
+
+		<dlg id="IDD_FILLDIALOG">
+			<str id="tl" val="قيمة التعبئة"/>
+		</dlg>
+
+		<dlg id="IDD_GRAY">
+			<str id="tl" val="مقياس رمادي"/>
+			<str id="alg" val="خوارزمية"/>
+			<str id="ave" val="المتوسط"/>
+			<str id="max" val="الحد الاقصي"/>
+			<str id="we" val="ثقل"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM">
+			<str id="tl" val="الرسم البياني"/>
+			<str id="ch" val="القناة"/>
+			<str id="le" val=":مستوى"/>
+			<str id="co" val=":عد"/>
+			<str id="px" val=":العنصورات"/>
+			<str id="per" val=":النسبه المئويه"/>
+		</dlg>
+
+		<dlg id="IDD_KERPAGE">
+			<str id="open" val="مفتوح"/>
+			<str id="cl" val="مغلق"/>
+			<str id="pa" val="يمر"/>
+			<str id="fi" val="نوع الفلتر"/>
+			<str id="conv" val="الالتواء"/>
+			<str id="morp" val="شكلي"/>
+		</dlg>
+
+		<dlg id="IDD_KERSTRUCT">
+			<str id="tl" val="تحرير النواة"/>
+			<str id="size" val="حجم النواة"/>
+			<str id="fill" val="يملأ"/>
+			<str id="bo" val="تسريع"/>
+		</dlg>
+
+		<dlg id="IDD_MORPAGE">
+			<str id="fil" val="المرشحات"/>
+			<str id="open" val="مفتوح"/>
+			<str id="cl" val="مغلق"/>
+			<str id="gra" val="التدرج"/>
+			<str id="dis" val="مسافة"/>
+			<str id="thi" val="رقيق"/>
+			<str id="wat" val="مستجمعات المياه"/>
+			<str id="pa" val="يمر"/>
+			<str id="2x2" val="2 × 2 مربع"/>
+			<str id="3x1" val="3 × 1 صف"/>
+			<str id="1x3" val="1 × 3 عمود"/>
+			<str id="5x5" val="دائرة 5 × 5"/>
+			<str id="7x7" val="دائرة 7 × 7"/>
+			<str id="11x11" val="11 × 11 دائرة"/>
+		</dlg>
+
+		<dlg id="IDD_ROTATE">
+			<str id="tl" val="تدوير الصورة"/>
+			<str id="deg" val=":درجة"/>
+			<str id="an" val="زاوية"/>
+		</dlg>
+
+
+		<dlg id="IDD_SCALE">
+			<str id="tl" val="حجم الصورة"/>
+			<str id="con" val="تقييد النسب"/>
+			<str id="met" val="طريقة النطاق"/>
+		</dlg>
+
+		<dlg id="IDD_GAMMA">
+			<str id="tl" val="تعديل جاما"/>
+		</dlg>
+
+		<dlg id="IDD_HMS">
+			<str id="tl" val="ارتفاع الضوء/نغمة منتصف/ظل"/>
+		</dlg>
+
+		<dlg id="IDD_CHANNEL">
+			<str id="tl" val="تحديد الالوان"/>
+		</dlg>
+
+		<dlg id="IDD_PROFILE">
+			<str id="t" val="حساب تعريفي"/>
+		</dlg>
+
+		<dlg id="IDD_LAYERNAME">
+			<str id="tl" val="طبقة"/>
+		</dlg>
+
+		<dlg id="IDD_AUNIT">
+			<str id="all" val="اظهار كافة وحدات الزاوية في الشريط الجانبي للقياس"/>
+		</dlg>
+
+		<dlg id="IDD_ADDUNIT">
+			<str id="tl" val="اضافة وحدات"/>
+			<str id="sc" val="عامل المقياس"/>
+			<str id="sy" val="رمز"/>
+		</dlg>
+
+		<dlg id="IDD_GENERAL">
+			<str id="res" val="باقي نتائج الحساب"/>
+			<str id="lfs" val="حجم خط التسمية"/>
+			<str id="unit" val="الابعاد مع الوحدة"/>
+			<str id="a" val="قم بتسمية كائن القياس تلقائيا"/>
+			<str id="e" val="تمكين نافذة صغيرة"/>
+			<str id="hm" val="اخفاء الملصق عند تحريك كائن القياس"/>
+            <str id="sp" val="أدخل مسافة بين القيمة الرقمية ورمز الوحدة (&quot;12.34 mm&quot; or &quot;12.34mm&quot;)"/>
+			<str id="rc" val="الحد الادنى لطول الاتصال العشوائي"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_DELETE">
+			<str id="tl" val="ازالة الطبقة"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_CURRENT">
+			<str id="tl" val="الطبقة الحالية"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_MANAGE">
+			<str id="tl" val="عرض/اخفاء الطبقة"/>
+		</dlg>
+
+		<dlg id="IDD_MEASURELIST">
+			<str id="col" val="تحديد اعمدة ورقة القياس"/>
+			<str id="o" val="كائن مخصص"/>
+			<str id="c" val="عمود مخصص"/>
+			<str id="a" val="حساب مخصص"/>
+			<str id="r" val="صف مخصص"/>
+			<str id="s" val="احصائيات (اضف الصفوف التالية الى ورقة القياس)"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR_COMPOSITE">
+			<str id="tl" val="مركب اللون"/>
+			<str id="so" val="مصدر الصورة"/>
+			<str id="co" val="الالوان"/>
+			<str id="all" val="الكل"/>
+			<str id="se" val="تحديد"/>
+			<str id="adj" val="تعديل"/>
+			<str id="reg" val="تسجيل"/>
+		</dlg>
+
+		<dlg id="IDD_COMPOSITE_AVA">
+			<str id="so" val="مصدر الصورة"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_SELECT_COLOR">
+			<str id="tl" val="تحديد اللون"/>
+			<str id="fle" val="للملف"/>
+			<str id="se" val="تحديد"/>
+			<str id="back" val="خلفية"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_DYE_LIST">
+			<str id="tl" val="تحرير قائمة الصبغة"/>
+			<str id="rel" val="اعادة تحميل الكل"/>
+			<str id="ext" val="الطول الموجي للاستخراج"/>
+			<str id="em" val="الطول الموجي للانبعاثات"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_NEW_DYE">
+			<str id="tl" val="صبغة جديدة"/>
+		</dlg>
+
+		<dlg id="IDD_STACKING">
+			<str id="tl" val="صورة متراصة"/>
+		</dlg>
+
+		<dlg id="IDD_PROP">
+			<str id="set" val="قم بتعيين الخصائص الافتراضية لكائن القياس:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_OPTION">
+			<str id="tl" val="خيارات العد"/>
+			<str id="os" val="نمط المخطط التفصيلي:"/>
+			<str id="ot" val="أسلوب:"/>
+			<str id="lm" val="طريقة:"/>
+			<str id="wh" val="ملء الثقوب"/>
+			<str id="la" val="ملصق"/>
+			<str id="min" val="الحد الأدنى:"/>
+			<str id="max" val="الحد الاعلى:"/>
+			<str id="bo" val="حدود نظيفة"/>
+			<str id="sc" val="سيناريو:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_HISTORGRAM">
+			<str id="tl" val="الرسم البياني"/>
+			<str id="sa" val="عرض الكل"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_COLORCUBE">
+			<str id="to" val="تراجع"/>
+		</dlg>
+
+		<dlg id="IDD_NLM">
+			<str id="tl" val="الوسائل غير المحلية"/>
+			<str id="sw" val="نافذة البحث:"/>
+			<str id="tw" val="نافذة القالب:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYD">
+			<str id="d" val="وضوح التفاصيل:"/>
+			<str id="o" val="السطوع الإجمالي:"/>
+			<str id="b" val="سطوع الخلفية:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_ALIGN">
+			<str id="aa" val="محاذاة تلقائية"/>
+			<str id="a0" val="مجهول"/>
+			<str id="a1" val="التحول + النطاق"/>
+			<str id="a2" val="إزاحة + مقياس + تدوير"/>
+			<str id="ma" val="الزاوية القصوى:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_FM">
+			<str id="at" val="تحديد الصورة المرجعية تلقائيا"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYDSTACK">
+			<str id="dm" val="استعادة خريطة العمق:"/>
+			<str id="ri" val="إزالة الجزر:"/>
+			<str id="lf" val="مرشح التردد المنخفض:"/>
+			<str id="hf" val="مرشح دقيق:"/>
+			<str id="ac" val="ضبط التباين:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERADFC">
+			<str id="tip" val="قم بتغطية العدسة، ثم اضغط على زر التقاط (Capture). زر لالتقاط الحقل المظلم. تحقق من خيار تمكين (تصحيح الحقل المظلم)"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFFC">
+			<str id="tip" val="إزالة العينات من مجال الرؤية. انقر فوق (التقاط) زر للحصول على الخلفية لتصحيح المجال المسطح. حدد (تمكين) زر لأداء وظيفة تصحيح المجال المسطح"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALIVESTACK">
+			<str id="af" val="محاذاة الإطارات"/>
+			<str id="pl" val="كوكب"/>
+			<str id="ds" val="السماء العميقة"/>
+			<str id="in" val="الادخال:"/>
+			<str id="out" val="الإخراج:"/>
+		</dlg>
+
+		<dlg id="IDD_BF">
+			<str id="tt" val="مرشح ثنائي"/>
+			<str id="size" val="قيمة المجال"/>
+			<str id="s" val="مساحة المجال"/>
+		</dlg>
+
+		<dlg id="IDD_CLAHE">
+			<str id="tl" val="معادل الرسم البياني"/>
+		</dlg>
+
+		<dlg id="IDD_UNSHARPMASK">
+			<str id="tl" val="قناع غير حاد"/>
+			<str id="a" val="القيمة:"/>
+		</dlg>
+
+		<dlg id="IDD_DETAILENHANCE">
+			<str id="tl" val="محسن التفاصيل"/>
+		</dlg>
+
+		<dlg id="IDD_EDGEPRESERVINGSMOOTH">
+			<str id="tl" val="حافة الحفاظ على نحو سلس"/>
+			<str id="f" val="الفلتر"/>
+			<str id="re" val="اعادة التخطيط"/>
+			<str id="n" val="الإلتفاف"/>
+		</dlg>
+
+		<dlg id="IDD_LLC">
+			<str id="tl" val="تصحيح الألوان"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFORMAT">
+			<str id="v" val="الخصائص"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERACOOL">
+			<str id="po" val="الطاقة:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERATRIGGER">
+			<str id="vm" val="وضع الفيديو"/>
+			<str id="tr" val="وضع التشغيل"/>
+			<str id="live" val="مباشر:"/>
+		</dlg>
+
+		<dlg id="IDD_EXPORTOPTIONS">
+			<str id="t" val="خيارات الإستيراد"/>
+			<str id="d" val="حجم الخط الإفتراضي"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERABINNING">
+			<str id="m" val="الطريقة"/>
+		</dlg>
+
+		<dlg id="IDD_FITSADD">
+			<str id="a" val="(1 ~ 8 أبجديات أو أرقام، A ~ Z، a ~ z، 0 ~ 9"/>
+		</dlg>
+
+		<dlg id="IDD_QUICKSAVERENAME">
+			<str id="c" val="لا تظهر مربع حوار إعادة التسمية لاحقًا"/>
+		</dlg>
+
+		<dlg id="IDD_REPORT">
+			<str id="t" val="قالب"/>
+			<str id="l" val="نسخ..."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAAF">
+			<str id="c" val="المعايرة"/>
+            <str id="z" val="تكبير"/>
+			<str id="l" val="عدسة:"/>
+			<str id="n" val="قريب"/>
+			<str id="f" val="بعيد"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_MANUAL">
+			<str id="tl" val="العد اليدوي"/>
+			<str id="er" val="مسح"/>
+			<str id="sn" val="اظهار التسلسل"/>
+		</dlg>
+
+		<dlg id="IDD_IOCONTROL">
+			<str id="gm" val="GPIO وضع:"/>
+			<str id="oi" val="عكس الإخراج"/>
+			<str id="sd" val="مدة الوميض"/>
+			<str id="ia" val="تفعيل الإدخال"/>
+			<str id="dt" val="وقت الايقاف"/>
+			<str id="ls" val="اختيار الخطوط"/>
+			<str id="cs" val="مصدر العداد"/>
+			<str id="ps" val="PWM مصدر:"/>
+			<str id="cv" val="قيمة العد"/>
+			<str id="om" val="وضع الإخراج"/>
+			<str id="uv" val="قيمة المستخدم"/>
+			<str id="sdm" val="وضع التأخير"/>
+			<str id="sdt" val="وضع وقت التأخير"/>
+			<str id="cr" val="اعادة الضبط"/>
+			<str id="td" val="تأخير التشغيل"/>
+		</dlg>
+
+		<dlg id="IDD_LUA">
+			<str id="c" val="الكود:"/>
+		</dlg>
+
+		<dlg id="IDD_RENDER_MODE">
+			<str id="l" val="الخط"/>
+			<str id="q" val="مربعات"/>
+			<str id="t" val="مثلث"/>
+			<str id="s" val="شريحة"/>
+			<str id="c" val="الوان حقيقية"/>
+		</dlg>
+
+		<dlg id="IDD_LIGHTING">
+			<str id="e" val="تشغيل الضوء"/>
+			<str id="a" val="الإحاطة"/>
+			<str id="s" val="انعكاس"/>
+			<str id="h" val="اللمعان"/>
+			<str id="l" val="مكان الضوء"/>
+			<str id="p" val="باراميتر الضوء"/>
+		</dlg>
+
+		<dlg id="IDD_3DDLG">
+			<str id="t" val="سطع ثلاثي الأبعاد"/>
+			<str id="s" val="مرئي"/>
+			<str id="a" val="المحاور"/>
+		</dlg>
+
+		<dlg id="IDD_IOADVANCED">
+			<str id="a" val="تشغيل البرنامج بشكل دائم"/>
+			<str id="b" val="المعدل"/>
+			<str id="l" val="وضع الخطوط"/>
+			<str id="r" val="استعادة"/>
+			<str id="d" val="ارسال"/>
+			<str id="e" val="تنشيط وضع التعريض"/>
+			<str id="x" val="تشغيل التعريض/الخط"/>
+			<str id="y" val="خط نهاية التعرض"/>
+		</dlg>
+
+		<dlg id="IDD_DBSTEP1">
+			<str id="t" val="الاتصال في قاعدة البيانات"/>
+			<str id="s" val="ODBC تعريف:"/>
+			<str id="h" val="الخادم:"/>
+			<str id="u" val="المستخدم:"/>
+			<str id="p" val="كلمة المرور:"/>
+			<str id="a" val="الاتصال تلقائيا عند بدء تشغيل التطبيق"/>
+		</dlg>
+
+		<dlg id="IDD_DBCOLUMN">
+			<str id="i" val="إنشاء فهرس لتسريع عمليات البحث والفرز"/>
+			<str id="d" val="نوع البيانات"/>
+			<str id="v" val="القيم الافتراضية:"/>
+			<str id="e" val="التعريف..."/>
+		</dlg>
+
+		<dlg id="IDD_DBINSERT">
+			<str id="t" val="الادخال في قاعدة البيانات"/>
+		</dlg>
+
+		<dlg id="IDD_DBSHOW">
+			<str id="t" val="اظهار/اخفاء عامود"/>
+		</dlg>
+
+		<dlg id="IDD_DBOPTION">
+			<str id="m" val="وضع البحث عن النص"/>
+			<str id="n" val="الوضع العادي، استخدم * كحرف البدل"/>
+			<str id="s" val="وضع SQL، استخدم بناء جملة SQL LIKE"/>
+		</dlg>
+
+		<dlg id="IDD_WAIT">
+			<str id="t" val="الانتظار "/>
+			<str id="p" val="الرجاء الانتظار:"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM_OPTION">
+			<str id="y" val="Y محور:"/>
+		</dlg>
+		
+		<dlg id="IDD_CAMERAMOTOR">
+			<str id="c" val="خشن:"/>
+			<str id="m" val="متوسط:"/>
+			<str id="f" val="ناعم:"/>
+		</dlg>
+        
+        <dlg id="IDD_ZOOM">
+            <str id="t" val="تكبير"/>
+        </dlg>
+		
+		<dlg id="IDD_AEOPTION">
+			<str id="t" val="خيارات التعريض التلقائي"/>
+			<str id="p" val="وضع الذروة لطريقة حساب السطوع"/>
+		</dlg>
+		
+		<dlg id="IDD_FW">
+			<str id="n" val="رقم المدخل:"/>
+		</dlg>
+		
+		<dlg id="IDD_PSEUDOCOLOR">
+			<str id="s" val="بداية اللون:"/>
+			<str id="e" val="نهاية اللون:"/>
+		</dlg>
+	</dialog>
+
+	<menu>
+		<str id="fle" val="&amp;ملف"/>
+		<str id="edt" val="&amp;تعديل"/>
+		<str id="vew" val="&amp;اظهار"/>
+		<str id="prss" val="&amp;معالجة"/>
+		<str id="opns" val="&amp;الخيارات"/>
+		<str id="wnd" val="&amp;نافذة"/>
+		<str id="hlp" val="&amp;المساعدة"/>
+		<str id="stup" val="&amp;تثبيت"/>
+		<str id="cptu" val="&amp;إلتقاط"/>
+		<str id="imag" val="&amp;صورة"/>
+		<str id="layr" val="&amp;طبقة"/>
+		<str id="meas" val="&amp;القياسات"/>
+		<str id="brws" val="&amp;تصفح"/>
+		<str id="db" val="&amp;قاعدة البيانات"/>
+
+		<str id="recf" val="&amp;الملفات الأخيرة"/>
+		<str id="sdbr" val="&amp;الشريط الجانبي"/>
+		<str id="sort" val="&amp;ترتيب"/>
+		<str id="icns" val="&amp;الأيقونات"/>
+		<str id="grds" val="&amp;التقسيم"/>
+		<str id="mvwm" val="&amp;تحريك العلامة المائية"/>
+		<str id="rtwm" val="&amp;تدوير العلامة المائية"/>
+		<str id="mode" val="&amp;الوضع"/>
+		<str id="adj" val="&amp;ضبط"/>
+		<str id="line" val="&amp;خط"/>
+		<str id="vert" val="&amp;افقي"/>
+		<str id="crcl" val="&amp;دائرة"/>
+		<str id="ccleh" val="تحديد دائري H&amp;ole"/>
+		<str id="tocls" val="دائرتين&amp;"/>
+		<str id="lunit" val=" &amp;وحدة الطول"/>
+
+		<str id="oimg" val="&amp;فتح الصورة..."/>
+		<str id="ovid" val=" &amp;فتح فيديو..."/>
+		<str id="obcas" val="&amp;فتح البث..."/>
+		<str id="norec" val="لايوجد ملفات حلية"/>
+		<str id="exit" val="&amp;الخروج"/>
+		<str id="cut" val="قص&amp;"/>
+		<str id="copy" val="&amp;نسخ"/>
+		<str id="pste" val="&amp;لصق"/>
+		<str id="passc" val=" &amp;لصق الاختصارات"/>
+		<str id="selal" val="اختيار &amp;الكل"/>
+		<str id="ivsel" val="&amp;اختيار معكوس"/>
+		<str id="mshet" val="&amp;صفحة القياس"/>
+		<str id="camsb" val="&amp;الكاميرا"/>
+		<str id="fosb" val="&amp;المجلدات"/>
+		<str id="ursb" val="&amp;التراجع/اعادة"/>
+		<str id="lydb" val="&amp;الطبقة"/>
+		<str id="msbar" val="&amp;القياس"/>
+		<str id="hsbar" val="&amp;رسم بياني"/>
+		<str id="prfs" val="&amp;الأداء..."/>
+		<str id="mm" val="&amp;القياس..."/>
+		<str id="mf" val="&amp;التكبير..."/>
+		<str id="clbr" val="&amp;معايرة..."/>
+		<str id="edtdy" val="&amp;تعديل القائمة..."/>
+		<str id="atcor" val="&amp;تصحيح تلقائي..."/>
+		<str id="f1" val="&amp;المحتوى المساعد"/>
+		<str id="ab" val="&amp;حول"/>
+
+		<str id="save" val="&amp;حفظ"/>
+		<str id="svee" val="&amp;جاري الحفظ..."/>
+		<str id="svas" val=" &amp;الحفظ بإسم..."/>
+		<str id="imgsl" val="&amp;اختيار الصورة"/>
+		<str id="seln" val=" &amp;بدون اختيار"/>
+
+		<str id="gno" val="&amp;بدون تقسيم"/>
+		<str id="grm" val="&amp;تقسيم يدوي"/>
+		<str id="gda" val="&amp;تقسيم تلقائي"/>
+		<str id="gdl" val="&amp;غزالة جميع التقسيمات"/>
+		<str id="rlset" val="&amp;الاعدادات..."/>
+		<str id="fitwi" val="&amp;افضل تناسب"/>
+		<str id="asiz" val="&amp;المقاس الحقيقي"/>
+
+		<str id="dldt" val="&amp;حذف"/>
+		<str id="bbro" val="&amp;تصفح"/>
+		<str id="openf" val="&amp;فتح"/>
+
+		<str id="sttp" val="&amp;تجميد"/>
+		<str id="fscr" val="&amp;شاشة كاملة"/>
+		<str id="vwpp" val="&amp;استكشاف"/>
+		<str id="vvl" val="&amp;تراكب الفيديو..."/>
+		<str id="vwm" val=" &amp;العلامة المائية للفيديو..."/>
+		<str id="wmmv" val="&amp;تحريك إلى..."/>
+		<str id="wmzro" val="التحريك الى&amp;zero"/>
+		<str id="wmrot" val="&amp;التدوير الى..."/>
+		<str id="gcal" val="&amp;معايرة الرمادي"/>
+		<str id="cpig" val="&amp;التقاط الصور"/>
+		<str id="tmlps" val="&amp;بدء الفاصل الزمني (الالتقاط التلقائي)..."/>
+		<str id="strec" val="&amp;بدء/ايقاف الإلتقاط..."/>
+		<str id="brec" val="&amp;السجل"/>
+		<str id="acap" val="&amp;إلتقاط تلقائي"/>
+		<str id="sttb" val="&amp;بدء/تشغيل البث..."/>
+
+		<str id="qtiz" val=" &amp;جودة الألوان..."/>
+		<str id="gsca" val="&amp;معادل الرمادي"/>
+		<str id="acon" val="&amp;تباين تلقائي"/>
+		<str id="eql" val=" &amp;محسن الرسم البياني..."/>
+		<str id="bc" val="&amp;التباين/الإضاءة..."/>
+		<str id="imclr" val="&amp;الألوان..."/>
+		<str id="gamm" val="&amp;غاما..."/>
+		<str id="fclr" val="&amp;مرشح الألوان..."/>
+		<str id="eclr" val="&amp;استخراج الألوان..."/>
+		<str id="iclr" val="&amp;عكس"/>
+		<str id="rotar" val="&amp;عشوائي..."/>
+		<str id="filph" val="&amp;تدوير افقي"/>
+		<str id="flipv" val="&amp;تدوير عامودي"/>
+		<str id="crop" val="&amp;اقتصاص"/>
+		<str id="imsca" val="&amp;حجم الصور..."/>
+		<str id="hist" val="&amp;رسم بياني..."/>
+		<str id="reso" val="&amp;الدقة..."/>
+		<str id="ovlsb" val="&amp;تراكب شريط القياس..."/>
+
+		<str id="fi" val="&amp;الفلتر..."/>
+		<str id="rang" val="&amp;النطاق..."/>
+		<str id="biy" val="&amp;ثنائي..."/>
+		<str id="psud" val="&amp;ألوان غير حقيقية..."/>
+		<str id="prf" val="&amp;الملف..."/>
+		<str id="dens" val="&amp;تقليل الضوضاء"/>
+		<str id="bila" val="&amp;مرشح ثنائي..."/>
+		<str id="awf" val="&amp;مرشح وينر التكيفي"/>
+
+		<str id="lnew" val="&amp;جديد..."/>
+		<str id="lrem" val="&amp;ازالة..."/>
+		<str id="lcur" val="&amp;الحالي..."/>
+		<str id="lshow" val="&amp;اظهار/اخفاء..."/>
+		<str id="len" val="&amp;اعادة تسمية..."/>
+		<str id="lexp" val="&amp;الدمج مع صورة..."/>
+		<str id="mexp" val="&amp;الدمج إلى صورة"/>
+		<str id="ldrem" val="&amp;ازالة"/>
+		<str id="ldcur" val="&amp;الحالي"/>
+		<str id="ldshw" val="&amp;إظهار/إخفاء"/>
+
+		<str id="osel" val="&amp;اختيار كائن"/>
+		<str id="angl" val="&amp;الزاوية"/>
+		<str id="point" val="&amp;نقطة"/>
+		<str id="arbl" val="&amp;اِعتِباطِيّ"/>
+		<str id="hline" val="&amp;افقي"/>
+		<str id="vline" val="&amp;عامودي"/>
+		<str id="parl" val="&amp;تسلسلي"/>
+		<str id="pnt8" val="&amp;8 نقاط"/>
+		<str id="pnt5" val="&amp;5 نقاط"/>
+		<str id="pnt4" val="&amp;4 نقاط"/>
+		<str id="pnt3" val="&amp;3 نقاط"/>
+		<str id="pnt2" val="&amp;2 نقاط"/>
+		<str id="rctg" val="مستطيل"/>
+		<str id="elps" val="شكل بيضوي"/>
+		<str id="crad" val="&amp;المركز ونصف القطر"/>
+		<str id="arc" val="&amp;قوس"/>
+		<str id="text" val="&amp;نص"/>
+		<str id="plg" val="مضلع"/>
+		<str id="ztop" val="الأعلى"/>
+		<str id="zbtm" val="الأسفل"/>
+		<str id="zup" val="تحريك للأعلى"/>
+		<str id="zdown" val="تحريك للأسفل"/>
+		<str id="sbar" val="شريط القياس..."/>
+		<str id="lcv" val="منحنى"/>
+		<str id="mode1" val="اختيار عشوائي"/>
+		<str id="mode2" val="اتصال متعدد النقاط"/>
+		<str id="arrw" val="سهم"/>
+
+		<str id="call" val="اغلاق الكل"/>
+		<str id="rstlo" val="اعادة ضبط النافذة"/>
+		<str id="wnds" val="النوافذ..."/>
+
+		<str id="aunit" val="وحدة الزاوية..."/>
+
+		<str id="nccls" val="اغلاق"/>
+		<str id="nccla" val="اغلاق الكل ماعدا هذا"/>
+		<str id="clsth" val="الاغلاق"/>
+		<str id="fprop" val="خصائص الملفات..."/>
+		<str id="cpath" val="نسخ كامل المسار"/>
+		<str id="brofo" val="تصفح المجلد الذي يحتوي على"/>
+		<str id="openfo" val="فتح المجلد الذي يحتوي على"/>
+		<str id="htbgp" val="مجموعة علامات التبويب الجديدة والأفقية"/>
+		<str id="vtbgp" val="مجموعة علامات التبويب الجديدة والعمودية"/>
+		<str id="nxtbg" val="انتقل إلى مجموعة علامات التبويب"/>
+		<str id="prebg" val="انتقل إلى مجموعة علامات التبويب السابقة"/>
+		<str id="ftwid" val="تناسب العرض"/>
+		<str id="fthei" val="تناسب الارتفاع"/>
+		<str id="fitwi" val="تناسب النافذة"/>
+
+		<str id="bronm" val="الترتيب بالاسم"/>
+		<str id="brotp" val="الترتيب بالنوع"/>
+		<str id="brosz" val="الترتيب بالحجم"/>
+		<str id="browd" val="الترتيب بالعرض"/>
+		<str id="brohe" val="الترتيب بالارتفاع"/>
+		<str id="brotx" val="الترتيب باللاحقة"/>
+		<str id="brofw" val="ترتيب تصاعدي"/>
+		<str id="brorv" val="ترتيب تنازلي"/>
+		<str id="brol" val="ايقونات كبيرة"/>
+		<str id="bros" val="ايقونات صغيرة"/>
+		<str id="brorf" val="تحديث"/>
+		<str id="bropo" val="الخصائص..."/>
+
+		<str id="mimp" val="استيراد ملف..."/>
+		<str id="msav" val="حفظ ملف..."/>
+		<str id="mhtm" val=" التصدير الىHtml"/>
+		<str id="mexc" val="التصدير الى اكسل..."/>
+
+		<str id="bstf" val="افضل تانسب"/>
+		<str id="asiz" val="الحجم الحقيقي"/>
+
+		<str id="edpn" val="عادي"/>
+
+		<str id="oc" val="عد التقسمات"/>
+		<str id="ocws" val="الفواصل..."/>
+		<str id="ocsd" val="OTSU &amp;داكن..."/>
+		<str id="ocsb" val="OTSU &amp;فاتح..."/>
+		<str id="ocrhs" val="&amp;RGB رسم بياني..."/>
+		<str id="ochhs" val="&amp;HSV رسم بياني..."/>
+		<str id="occc" val="مكعب ملون..."/>
+
+		<str id="hdr" val="نطاق ديناميكي مرتفع (HDR)..."/>
+
+		<str id="shpn" val="حاد"/>
+
+		<str id="dclr" val="الحفاظ على التباين إزالة اللون"/>
+		<str id="epsm" val="الحفاظ على الحافة..."/>
+		<str id="denh" val="تحسين التفاصيل..."/>
+
+		<str id="llc" val="تصحيح الالوان..."/>
+		<str id="cton" val="مستوى اللون"/>
+
+		<str id="deil" val="الغاء الربط"/>
+
+		<str id="opnrf" val="فتح ملف التسجيل"/>
+		<str id="opnif" val="فتح ملف الصور"/>
+
+		<str id="lined" val="خط متعدد النقاط"/>
+
+		<str id="tnal" val="صور مصغرة"/>
+		<str id="avw" val="تفعيل نافذة الفيديو"/>
+
+		<str id="cust" val="تخصيص..."/>
+		<str id="ctool" val="تخصيص شريط الادوات..."/>
+
+		<str id="cent" val="المركز"/>
+		<str id="sernx" val="الاطار التالي"/>
+		<str id="serpv" val="الاطار السابق"/>
+
+		<str id="ext" val="التطبيقات الخارجية"/>
+
+		<str id="man" val="الادارة..."/>
+		<str id="word" val="التقرير الحالي"/>
+		<str id="wors" val="التقرير"/>
+
+		<str id="gdiv" val="تقسيم..."/>
+		<str id="deep" val="النسخ العميق"/>
+
+		<str id="manuc" val="يدوي..."/>
+		<str id="expex" val="التصدير الى اكسل"/>
+		<str id="expcb" val="التصدير الى الحافظة"/>
+		<str id="expim" val="التصدير الى صورة"/>
+
+		<str id="preset" val="الحالي"/>
+
+		<str id="extr" val="إضافات"/>
+		<str id="holl" val="مفرغ"/>
+		<str id="pfdg" val="درجة الملف"/>
+		<str id="frat" val="نسبة السطح"/>
+		<str id="ncr" val="نسبة النواة/السيتوبلازما"/>
+		<str id="choll" val="دائرة مفرغة"/>
+		<str id="pholl" val="مضلع مفرغ"/>
+
+		<str id="clhd" val="اخفاء"/>
+		<str id="clsl" val="اختيار..."/>
+
+		<str id="whba" val="توازن اللون الأبيض"/>
+
+		<str id="comb" val="دمج"/>
+		<str id="ucom" val="الغاء الدمج"/>
+
+		<str id="arra" val="ترتيب"/>
+		<str id="cstm" val="مخصص"/>
+
+		<str id="expt" val="تصدير"/>
+		<str id="expf" val="تصدير..."/>
+		<str id="impf" val="استيراد..."/>
+
+		<str id="copa" val="مقارنة"/>
+
+		<str id="dstup" val="جديد..."/>
+		<str id="drop" val="اسقاط"/>
+		<str id="clea" val="مسح"/>
+		<str id="dconn" val="اتصال..."/>
+		<str id="disc" val="قطع الاتصال"/>
+		<str id="inse" val="ادراج..."/>
+		<str id="modi" val="تعديل..."/>
+		<str id="add" val="اضافة..."/>
+		<str id="inst" val="الادخال لقاعدة البيانات..."/>
+		<str id="opts" val="الخيارات..."/>
+		<str id="oima" val="فتح صورة"/>
+
+		<str id="rena" val="اعادة تسمية..."/>
+		<str id="dye" val="نسخ..."/>
+
+		<str id="item" val="صنف"/>
+		<str id="aitem" val="جميع الاصناف"/>
+		<str id="aimag" val="جميع الصور"/>
+
+		<str id="expg" val="الحصول على التعريض"/>
+		<str id="load" val="تحميل"/>
+
+		<str id="clti" val="اغلاق جميع الصور الحالية"/>
+
+		<str id="auto" val="تلقائي..."/>
+		<str id="defu" val="الافتراضيات"/>
+		<str id="rest" val="اعادة ضبط"/>
+		
+		<str id="disa" val="تعطيل"/>
+		<str id="b1" val="1 بايت"/>
+		<str id="b2" val="2 بايت"/>
+		<str id="b4" val="4 بايت"/>
+		
+		<str id="rtm" val="الوقت الحقيقي"/>
+	</menu>
+</i18n>

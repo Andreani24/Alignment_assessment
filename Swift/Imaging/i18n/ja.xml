@@ -1,0 +1,2347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<i18n>
+	<all>
+		<str id="ids_error" val="エラー"/>
+		<str id="ids_true" val="真"/>
+		<str id="ids_false" val="なし"/>
+		<str id="ids_yes" val="はい"/>
+		<str id="ids_no" val="いいえ"/>
+		<str id="ids_camera" val="カメラ"/>
+		<str id="ids_folders" val="フォルダ"/>
+		<str id="ids_video" val="プレビュー"/>
+		<str id="ids_browse" val="ブラウズ"/>
+		<str id="ids_back" val="戻る"/>
+		<str id="ids_forward" val="進める"/>
+		<str id="ids_backward" val="戻す"/>
+		<str id="ids_open" val="オープン"/>
+		<str id="ids_pixel" val="ピクセル"/>
+		<str id="ids_width" val="幅"/>
+		<str id="ids_height" val="高さ"/>
+		<str id="ids_measurement" val="計測"/>
+		<str id="ids_name" val="名前"/>
+		<str id="ids_index" val="インデックス"/>
+		<str id="ids_version" val="バージョン"/>
+		<str id="ids_sample" val="サンプル"/>
+		<str id="ids_xor" val="排他的論理和"/>
+		<str id="ids_avg" val="平均"/>
+		<str id="ids_mean" val="平均"/>
+		<str id="ids_den" val="ノイズ除去"/>
+		<str id="ids_capture" val="キャプチャ"/>
+		<str id="ids_stop" val="停止"/>
+		<str id="ids_close" val="閉じる"/>
+		<str id="ids_save" val="保存"/>
+		<str id="ids_none" val="なし"/>
+		<str id="ids_roi" val="ROI(対象領域)"/>
+		<str id="ids_zoom" val="拡大"/>
+		<str id="ids_time" val="時間"/>
+		<str id="ids_frame" val="フレーム数"/>
+		<str id="ids_framerate" val="フレームレート"/>
+		<str id="ids_target" val="対象"/>
+		<str id="ids_free" val="無料"/>
+		<str id="ids_file" val="ファイル"/>
+		<str id="ids_date" val="日付"/>
+		<str id="ids_year" val="年"/>
+		<str id="ids_month" val="月"/>
+		<str id="ids_day" val="日"/>
+		<str id="ids_linear" val="線形"/>
+		<str id="ids_log" val="対数"/>
+		<str id="ids_exp" val="指数"/>
+		<str id="ids_poly" val="多項式"/>
+		<str id="ids_format" val="フォーマット"/>
+		<str id="ids_bl" val="黒レベル"/>
+		<str id="ids_current" val="現在値"/>
+		<str id="ids_remove" val="削除"/>
+		<str id="ids_cancel" val="キャンセル"/>
+		<str id="ids_apply" val="適用"/>
+		<str id="ids_defaults" val="初期設定"/>
+		<str id="ids_default" val="初期設定"/>
+		<str id="ids_refresh" val="再表示"/>
+		<str id="ids_auto" val="自動"/>
+		<str id="ids_reset" val="リセット"/>
+		<str id="ids_option" val="オプション"/>
+		<str id="ids_options" val="オプション"/>
+		<str id="ids_preview" val="プレビュー"/>
+		<str id="ids_size" val="サイズ"/>
+		<str id="ids_color" val="色"/>
+		<str id="ids_label" val="ラベル"/>
+		<str id="ids_px" val="ピクセル"/>
+		<str id="ids_appearance" val="外観"/>
+		<str id="ids_scalebar" val="スケールバー"/>
+		<str id="ids_rename" val="名前変更"/>
+		<str id="ids_desc" val="説明"/>
+		<str id="ids_remove" val="削除"/>
+		<str id="ids_red" val="赤"/>
+		<str id="ids_green" val="緑"/>
+		<str id="ids_blue" val="青"/>
+		<str id="ids_radius" val="半径"/>
+		<str id="ids_del" val="削除"/>
+		<str id="ids_add" val="追加"/>
+		<str id="ids_hue" val="色相"/>
+		<str id="ids_sat" val="彩度"/>
+		<str id="ids_bri" val="明度"/>
+		<str id="ids_con" val="コントラスト"/>
+		<str id="ids_gamma" val="ガンマ"/>
+		<str id="ids_res" val="解像度"/>
+		<str id="ids_compression" val="圧縮"/>
+		<str id="ids_whitebalance" val="ホワイトバランス"/>
+		<str id="ids_blackbalance" val="ブラックバランス"/>
+		<str id="ids_zoomin" val="拡大"/>
+		<str id="ids_zoomout" val="縮小"/>
+		<str id="ids_export" val="エクスポート"/>
+		<str id="ids_import" val="インポート"/>
+		<str id="ids_hwbin" val="ハードウェアビニング"/>
+		<str id="ids_digbin" val="デジタルビニング"/>
+		<str id="ids_thumbnail" val="サムネイル"/>
+		<str id="ids_rotate" val="回転"/>
+		<str id="ids_meta" val="メタデータ"/>
+		<str id="ids_en" val="オン"/>
+		<str id="ids_value" val="値"/>
+		<str id="ids_expti" val="露出時間"/>
+		<str id="ids_rexpti" val="実際の露出時間"/>
+		<str id="ids_observer" val="オブザーバー"/>
+		<str id="ids_telescope" val="望遠鏡"/>
+		<str id="ids_comment" val="コメント"/>
+		<str id="ids_edit" val="編集"/>
+		<str id="ids_model" val="カメラモデル"/>
+		<str id="ids_type" val="タイプ"/>
+		<str id="ids_cpyrgt" val="著作権"/>
+		<str id="ids_author" val="作者"/>
+		<str id="ids_title" val="タイトル"/>
+		<str id="ids_pxf" val="ピクセル形式"/>
+		<str id="ids_unit" val="単位"/>
+		<str id="ids_calibrate" val="較正"/>
+		<str id="ids_beilv" val="倍率"/>
+		<str id="ids_dis" val="無効"/>
+		<str id="ids_fset" val="工場出荷時の設定"/>
+		<str id="ids_srp" val="シャープネス"/>
+		<str id="ids_focus" val="フォーカス"/>
+		<str id="ids_af" val="オートフォーカス"/>
+		<str id="ids_mau" val="マニュアル"/>
+		<str id="ids_elc" val="電気の"/>
+		<str id="ids_up" val="上へ"/>
+		<str id="ids_down" val="下へ"/>
+		<str id="ids_revision" val="リビジョン"/>
+		<str id="ids_preset" val="プリセット"/>
+		<str id="ids_dl" val="ダウンロード"/>
+		<str id="ids_st" val="状態"/>
+		<str id="ids_sw" val="ソフトウェア"/>
+		<str id="ids_hw" val="ハードウェア"/>
+		<str id="ids_simu" val="シミュレーション"/>
+		<str id="ids_nrecom" val="推奨しない"/>
+		<str id="ids_depre" val="廃止予定"/>
+		<str id="ids_text" val="文字"/>
+		<str id="ids_mem" val="メモリ"/>
+		<str id="ids_perct" val="パーセント"/>
+		<str id="ids_total" val="合計"/>
+		<str id="ids_computer" val="コンピューター"/>
+		<str id="ids_copy" val="コピー"/>
+		<str id="ids_autoe" val="自動露出"/>
+		<str id="ids_expta" val="目標輝度"/>
+		<str id="ids_bin" val="ビニング"/>
+		<str id="ids_skip" val="スキップ"/>
+		<str id="ids_gain" val="ゲイン"/>
+		<str id="ids_stemp" val="温度"/>
+		<str id="ids_fan" val="ファン"/>
+		<str id="ids_tec" val="冷却"/>
+		<str id="ids_ttemp" val="設定温度"/>
+		<str id="ids_display" val="表示"/>
+		<str id="ids_cut" val="切り取り"/>
+		<str id="ids_pste" val="貼り付け"/>
+		<str id="ids_lock" val="ロック"/>
+		<str id="ids_basic" val="ベーシック"/>
+		<str id="ids_sk" val="スタック"/>
+		<str id="ids_neg" val="ネガ"/>
+		<str id="ids_tonem" val="トーンマッピング"/>
+		<str id="ids_position" val="位置"/>
+		<str id="ids_custom" val="カスタム"/>
+		<str id="ids_object" val="対象"/>
+		<str id="ids_cobject" val="計測対象"/>
+		<str id="ids_threshold" val="しきい値"/>
+		<str id="ids_bool" val="ブーリアン"/>
+		<str id="ids_all" val="すべて"/>
+		<str id="ids_column" val="カラム"/>
+		<str id="ids_row" val="行"/>
+		<str id="ids_merge" val="マージ"/>
+		<str id="ids_shape" val="形状"/>
+		<str id="ids_font" val="フォント"/>
+		<str id="ids_fontsize" val="フォントサイズ"/>
+		<str id="ids_fontweight" val="フォントの太さ"/>
+		<str id="ids_bandw" val="帯域幅"/>
+		<str id="ids_about" val="について"/>
+		<str id="ids_horz" val="水平"/>
+		<str id="ids_vert" val="垂直"/>
+		<str id="ids_polygon" val="多角形"/>
+		<str id="ids_adv" val="高度な"/>
+		<str id="ids_strength" val="強さ"/>
+		<str id="ids_linewidth" val="ライン幅"/>
+		<str id="ids_glauto" val="グローバルオート"/>
+		<str id="ids_compare" val="比較する"/>
+		<str id="ids_db" val="データベース"/>
+		<str id="ids_new" val="新規"/>
+		<str id="ids_find" val="見つける"/>
+		<str id="ids_imag" val="画像"/>
+		<str id="ids_disname" val="名前を表示します"/>
+		<str id="ids_floatn" val="浮動数字"/>
+		<str id="ids_fixn" val="固定数字"/>
+		<str id="ids_lnoise" val="低ノイズ"/>
+		<str id="ids_once" val="一度"/>
+		<str id="ids_cont" val="続く"/>
+		<str id="ids_dye" val="染料"/>
+		<str id="ids_dyv" val="染色"/>
+		<str id="ids_tl" val="タイムラプス撮影"/>
+		<str id="ids_xoff" val="X オフセット"/>
+		<str id="ids_yoff" val="Y オフセット"/>
+		<str id="ids_ftype" val="ファイルの種類"/>
+		<str id="ids_starddev" val="標準偏差"/>
+		<str id="ids_samstarddev" val="標本の標準偏差"/>
+		<str id="ids_max" val="最大"/>
+		<str id="ids_min" val="最小"/>
+		<str id="ids_mono" val="モノクロ"/>
+		<str id="ids_lightsource" val="光源"/>
+		<str id="ids_on" val="オン"/>
+		<str id="ids_off" val="オフ"/>
+		<str id="ids_high" val="高"/>
+		<str id="ids_hdr" val="ハイダイナミックレンジ(HDR)"/>
+		<str id="ids_watermark" val="ウォーターマーク"/>
+        <str id="ids_cate" val="分類"/>
+		<str id="ids_settings" val="設定"/>
+		<str id="ids_llcolor" val="カラーを表示"/>
+		<str id="ids_ec" val="露出補償"/>
+		<str id="ids_item" val="項目"/>
+		<str id="ids_discard" val="捨てる"/>
+		<str id="ids_plan" val="計画"/>
+		<str id="ids_network" val="ネットワーク"/>
+		<str id="ids_ip" val="IPアドレス"/>
+		<str id="ids_mac" val="MACアドレス"/>
+		<str id="ids_oclock" val="オーバークロック"/>
+		<str id="ids_fw" val="フィルターホイール"/>
+		<str id="ids_pdpseudocolor" val="擬似カラー"/>
+		<str id="ids_lowpc" val="低消費電力"/>
+		<str id="ids_exporm" val="読み出しモード"/>
+		<str id="ids_addr" val="アドレス"/>
+		<str id="ids_trg" val="トリガ"/>
+		<str id="ids_trgs" val="トリガソース"/>
+		<str id="ids_nosep" val="レボルバー"/>
+		<str id="ids_objlen" val="対物レンズ"/>
+		<str id="ids_si" val="シングル"/>
+		<str id="ids_sq" val="複数枚"/>
+		<str id="ids_lp" val="ループ"/>
+		<str id="ids_cds" val="相関二重サンプリング"/>
+        <str id="ids_antise" val="アンチシャッター効果"/>
+		<str id="ids_speed" val="スピード"/>
+		<str id="ids_shtt" val="シャッター"/>
+		<str id="ids_mshtt" val="メカニカルシャッター"/>
+		<str id="ids_mf" val="倍率を表示"/>
+	</all>
+
+	<string>
+		<str id="ids_m" val="メートル"/>
+		<str id="ids_cm" val="センチメートル"/>
+		<str id="ids_mm" val="ミリメートル"/>
+		<str id="ids_um" val="マイクロメートル"/>
+		<str id="ids_nm" val="ナノメートル"/>
+		<str id="ids_in" val="インチ"/>
+		<str id="ids_mil" val="ミル"/>
+		<str id="ids_ang" val="オングストローム"/>
+		<str id="ids_pm" val="ピコメートル"/>
+
+		<str id="ids_angle0" val="ラジアン"/>
+		<str id="ids_angle1" val="度"/>
+		<str id="ids_angle2" val="π"/>
+
+		<str id="ids_celsius" val="摂氏"/>
+		<str id="ids_fahrenheit" val="華氏"/>
+
+		<str id="ids_colorbuttonother" val="その他..."/>
+		<str id="ids_linestylesolid" val="実線"/>
+		<str id="ids_linestyledash" val="破線"/>
+		<str id="ids_linestyledot" val="点線"/>
+		<str id="ids_linestyledashdot" val="一点鎖線"/>
+		<str id="ids_intminmax" val="%d から %d までの整数を入力してください."/>
+
+		<str id="ids_exposure" val="露出"/>
+
+		<str id="ids_noexcel" val="Excelを開けませんでした。Excelが正しくインストールされていることを確認してください。"/>
+		<str id="ids_noword" val="Wordを開けませんでした。Wordが正しくインストールされていることを確認してください。"/>
+
+		<str id="ids_outofrange" val="範囲外。"/>
+		<str id="ids_inputv" val="入力値は正しくない。"/>
+		<str id="ids_filenr" val="予約文字をファイル名で使用することはできません。"/>
+
+		<str id="ids_deviceid" val="デバイスID"/>
+		<str id="ids_devicename" val="デバイス名"/>
+		<str id="ids_stillimagecapture" val="静止画キャプチャ"/>
+		<str id="ids_stillimagewidth" val="静止画の幅"/>
+		<str id="ids_stillimageheight" val="静止画の高さ"/>
+		<str id="ids_displaywidth" val="表示の幅"/>
+		<str id="ids_displayheight" val="表示の高さ"/>
+		<str id="ids_videowidth" val="ビデオの幅"/>
+		<str id="ids_videoheight" val="ビデオの高さ"/>
+		<str id="ids_dscapbpp" val="BPP(ビット当りピクセル)"/>
+		<str id="ids_duration" val="時間"/>
+		<str id="ids_cameraid" val="カメラID"/>
+		<str id="ids_productdate" val="製造年月日"/>
+		<str id="ids_framedropped" val="コマ落ちフレーム"/>
+		<str id="ids_framesaved" val="保存フレーム"/>
+		<str id="ids_property" val="属性"/>
+		<str id="ids_errorstop" val="エラー、停止できません。"/>
+		<str id="ids_startfail" val="起動できません。"/>
+		<str id="ids_previewfail" val="プレビューできません。デバイスを再接続して再度お試しください。"/>
+		<str id="ids_stoppreviewfail" val="エラー、プレビューを停止できません。"/>
+		<str id="ids_noframe" val="USBの帯域が不十分です。フレーム速度を下げるか、別のUSBポートをお試しください。デバイスを再接続して再度お試しください。"/>
+		<str id="ids_surpriseremoval" val="デバイスが取り外されました。"/>
+		<str id="ids_devicelost" val="キャプチャを停止しました。（デバイスが失われました）デバイスを再接続して再度お試しください。"/>
+		<str id="ids_captureerror" val="キャプチャ中にエラーが発生しました。デバイスを再接続するか、別のUSBポートで再度お試しください."/>
+		<str id="ids_toupnamerror" val="エラー、デバイスを再起動して再度お試しください。"/>
+		<str id="ids_filtergraph" val="フィルタグラフのインスタンスを作成できません。"/>
+		<str id="ids_noax" val="ビデオキャプチャソースを作成できません。デバイスドライバをインストールし直してください。"/>
+		<str id="ids_nosource" val="エラー、ビデオキャプチャソースを作成できません。デバイスを再接続して、再度お試しください。"/>
+
+		<str id="ids_badport" val="指定したポートがすでに使用され、別のポートを使用してください。"/>
+		<str id="ids_url" val="リンク"/>
+		<str id="ids_bcount" val="ブロードキャストフレーム"/>
+		<str id="ids_bdroppcnt" val="ブロードキャスト欠損フレーム"/>
+		<str id="ids_bcbbps" val="ブロードキャストの現在のビットレート(Kbps)"/>
+		<str id="ids_baveragebps" val="ブロードキャストの平均ビットレート(Kbps)"/>
+		<str id="ids_bccfr" val="ブロードキャストの現在のフレームレート"/>
+		<str id="ids_baveragesr" val="ブロードキャストの平均フレームレート"/>
+		<str id="ids_bandwidth" val="帯域幅 (Kbps)"/>
+		<str id="ids_preceived" val="受信パケット"/>
+		<str id="ids_plost" val="消失パケット"/>
+		<str id="ids_psize" val="パケット サイズ"/>
+
+		<str id="ids_encoder" val="エンコーダ"/>
+		<str id="ids_quality" val="品質"/>
+		<str id="ids_bitrate" val="ビットレート"/>
+		<str id="ids_keyfs" val="キーフレームの間隔(秒)"/>
+		<str id="ids_stepdir" val="ディレクトリとファイル名を正しく設定してください。"/>
+		<str id="ids_stepbpsminmax" val="ビットレートの値を %s と %s の間に設定してください。"/>
+		<str id="ids_stepqualityminmax" val="コーディング品質を %u と %u 間の整数で設定してください。"/>
+		<str id="ids_stepiframe" val="キーフレームの間隔を正しく設定してください。"/>
+		<str id="ids_stepiframeminmax" val="キーフレーム間隔を %u と %u の間の整数で設定してください。"/>
+		<str id="ids_stepcodec" val="エンコーダを選択してください。"/>
+		<str id="ids_steptimelimit" val="キャプチャ時間の範囲を正しく設定してください."/>
+		<str id="ids_steptimelapse" val="タイムラプスの経過時間を正しく設定してください。"/>
+		<str id="ids_stepavinone" val="圧縮しません"/>
+
+		<str id="ids_recordheader" val="ディスプレイ情報"/>
+		<str id="ids_recordstep1" val="ビデオフォーマットとエンコーダ"/>
+		<str id="ids_recordstep2" val="録画"/>
+		<str id="ids_recordstep3" val="エンコーダ"/>
+		<str id="ids_recordstep4" val="録画開始"/>
+		<str id="ids_broadcastpar" val="ブロードキャストのパラメタ"/>
+		<str id="ids_recordstep4b" val="ブロードキャストの開始"/>
+
+		<str id="ids_integerinvalid" val="整数を入力してください。"/>
+
+		<str id="ids_mosaicimages" val="モザイク画像"/>
+
+		<str id="ids_deleteallitem" val="すべての項目を削除してよろしいですか。"/>
+		<str id="ids_deleteitem" val="選択した項目を削除してよろしいですか?"/>
+		<str id="ids_deleteitems" val="選択した%d項目を削除してよろしいですか?"/>
+		<str id="ids_magimport" val="インポートすると、現在のすべての項目を削除します。よろしいですか。"/>
+
+		<str id="ids_toolbarselect" val="選択"/>
+		<str id="ids_toolbarcirclehole" val="円穴"/>
+		<str id="ids_toolbarrectselect" val="画像選択"/>
+		<str id="ids_toolbartrack" val="トラック"/>
+		<str id="ids_toolbargray" val="グレー較正"/>
+		<str id="ids_toolbarcrosshair" val="十字"/>
+		<str id="ids_toolbargoto" val="フォルダを開く"/>
+		<str id="ids_toolbarcenter" val="中心"/>
+
+		<str id="ids_stitch" val="スティッチ"/>
+		<str id="ids_stitchautocrop" val="ステッチが終了したときの自動トリミング(外接矩形)"/>
+		<str id="ids_stitchscroll" val="スクロールモード"/>
+		<str id="ids_aggr" val="積極"/>
+		<str id="ids_pasi" val="受動"/>
+
+		<str id="ids_built" val="ビルド"/>
+
+		<str id="ids_toolbar" val="ツールバー"/>
+		<str id="ids_nodevice" val="デバイスがありません"/>
+		<str id="ids_zoom0" val="幅に合わせる"/>
+		<str id="ids_zoom1" val="高さに合わせる"/>
+		<str id="ids_zoom2" val="ウィンドウサイズに合わせる"/>
+		<str id="ids_selection" val="選択"/>
+		<str id="ids_undoredo" val="取り消し/やり直し"/>
+
+		<str id="ids_overlayscale" val="オーバレイ、スケールバー"/>
+
+		<str id="ids_customize" val="カスタマイズ"/>
+		<str id="ids_toolbarcustomize" val="カスタマイズ(&amp;C)..."/>
+		<str id="ids_angleunitmenu" val="角度の単位(&amp;A)..."/>
+
+		<str id="ids_emptydir" val="ディレクトリは空にすることができません。"/>
+		<str id="ids_invaliddir" val="ディレクトリは正しくありません。"/>
+		<str id="ids_filelock" val="このファイルはロックされています。"/>
+		<str id="ids_imagesizemismatch" val="画像サイズが一致しません。"/>
+		<str id="ids_imagesizenotsame" val="画像: &quot;%s&quot; はサイズが同じではありません。"/>
+		<str id="ids_filenofound" val="ファイルが見つかりません。"/>
+		<str id="ids_savefilefail2" val="&quot;%s&quot; ファイルの保存に失敗しました。"/>
+		<str id="ids_savefilefail3" val="ファイルの保存に失敗しました。"/>
+		<str id="ids_videofileformat" val="サポートされていないファイル形式です。"/>
+		<str id="ids_videofilestartfail" val="起動に失敗しました。"/>
+		<str id="ids_videofiles" val="ビデオファイル"/>
+		<str id="ids_allfiles" val="全てのファイル"/>
+
+		<str id="ids_browseshutcut" val="このフォルダはすでに &quot;%s&quot; というショートカットを含んでいます。\n上書き、キャンセルまたは中止しますか？"/>
+		<str id="ids_saveboth" val="画像と計測レイヤが変更されました。保存しますか?"/>
+		<str id="ids_saveimage" val="画像が変更されました。保存しますか?"/>
+		<str id="ids_savelayer" val="計測レイヤが変更されました。保存しますか?"/>
+
+		<str id="ids_videozoomint" val="現在のプレビュー像の倍率は %u%% です。正確な数値を得るためには倍率を100%%に設定してください。このまま続けますか？"/>
+		<str id="ids_videozoomfloat" val="現在のプレビュー像の倍率は%.1f%%です。正確な数値を得るためには倍率を100%%に設定してください。このまま続けますか？"/>
+		<str id="ids_videomarker" val="マーカ: (%d, %d); ウォーターマーク: 移動= (%d, %d), 回転= %.3f"/>
+		<str id="ids_videostartrecord" val="録画を開始します(&amp;R)..."/>
+		<str id="ids_videostoprecord" val="録画を停止します(&amp;R)"/>
+		<str id="ids_videostarttimelapse" val="タイムラプス撮影(&amp;T)..."/>
+		<str id="ids_videostoptimelapse" val="タイムラプス撮影を停止します。(&amp;T)"/>
+		<str id="ids_videoautofail" val="自動キャプチャに失敗しました。"/>
+		<str id="ids_videocalibratemax1" val="最大のサイズで較正してください。\r\n現在のサイズ: %u x %u，最大サイズ: %u x %u.\r\nカメラのサイドバーで解像度を設定してください。"/>
+
+		<str id="ids_memory" val="メモリが足りません。"/>
+		<str id="ids_memoryx86" val="メモリが足りません。64bitバージョンをお使い下さい。"/>
+
+		<str id="ids_actionfailed" val="実行がキャンセルされました。"/>
+		<str id="ids_actioncanceld" val="キャンセルされたアクション。"/>
+
+		<str id="ids_calibratedlgtoobig" val="大きすぎます"/>
+		<str id="ids_calibratedlgtoosmall" val="小さすぎます"/>
+		<str id="ids_calibratedlgpixels" val="ピクセル"/>
+		<str id="ids_calibratedlgmagnification" val="10、40、100などの正しい倍率を入力してください。"/>
+		<str id="ids_calibratedlgmagnificationexists" val="スケール名 &quot;%s&quot; はすでに存在しています。"/>
+
+		<str id="ids_collapseall" val="すべて折りたたむ"/>
+		<str id="ids_expandall" val="すべて展開"/>
+		<str id="ids_cameralist" val="カメラリスト"/>
+		<str id="ids_expandgain" val="露出時間/ゲイン"/>
+		<str id="ids_colorgray" val="カラー/モノクロ"/>
+		<str id="ids_capres" val="キャプチャ / 解像度"/>
+		<str id="ids_coloradjust" val="カラー調整"/>
+		<str id="ids_flip" val="反転"/>
+		<str id="ids_sampling" val="サンプリング"/>
+		<str id="ids_histogram" val="ヒストグラム"/>
+		<str id="ids_power" val="フリッカーレス"/>
+		<str id="ids_gray" val="グレースケール(Gray)"/>
+		<str id="ids_range" val="範囲:"/>
+		<str id="ids_exptimeempty" val="露出時間を設定してください。"/>
+		<str id="ids_exptimeinvalid" val="露出時間が正しくありません。"/>
+		<str id="ids_exptimeoutofrange" val="露出時間が [%s, %s] の範囲外です。"/>
+		<str id="ids_bpsmb" val="ビットレート(Mbps)"/>
+		<str id="ids_dfc" val="ダークフィールド補正"/>
+		<str id="ids_bitdepth" val="ビット深度"/>
+		<str id="ids_propfmt" val="属性とフォーマット"/>
+		<str id="ids_cool" val="冷却"/>
+		<str id="ids_cvtgain" val="コンバージョンゲイン"/>
+		<str id="ids_ffc" val="シェーディング補正"/>
+		<str id="ids_heat" val="加熱"/>
+		<str id="ids_dynamicdefect" val="リアルタイム欠陥ピクセル補正"/>
+		<str id="ids_fpnc" val="固定パターンノイズ補正"/>
+
+		<str id="ids_preferences" val="設定"/>
+
+		<str id="ids_grids" val="グリッド"/>
+		<str id="ids_misc" val="その他"/>
+		<str id="ids_cursor" val="カーソル"/>
+		<str id="ids_quicksave" val="クイック保存"/>
+		<str id="ids_record" val="レコード"/>
+		<str id="ids_quickrecord" val="クイック録画"/>
+
+		<str id="ids_mosaicimage" val="イメージリスト"/>
+		<str id="ids_mosaicpar" val="パラメーター"/>
+
+		<str id="ids_filefmtcol0" val="拡張子"/>
+		<str id="ids_filefmtcol2" val="略称"/>
+
+		<str id="ids_allsupported" val="サポートする全てのフォーマット"/>
+		<str id="ids_savedlgreplace" val="%s すでに存在します。\n上書きしますか？"/>
+
+		<str id="ids_watermarkdlg24bit" val="24または32ビット画像のみサポートしています。"/>
+
+		<str id="ids_nameformatnnnn" val="nnnn (順序)"/>
+
+		<str id="ids_lefttop" val="左上隅"/>
+		<str id="ids_righttop" val="右上隅"/>
+		<str id="ids_leftbottom" val="左下隅"/>
+		<str id="ids_rightbottom" val="右下隅"/>
+		<str id="ids_overlaybgtrans" val="透明"/>
+		<str id="ids_black" val="黒"/>
+		<str id="ids_white" val="白"/>
+		<str id="ids_smallest" val="最小"/>
+		<str id="ids_smaller" val="小さい"/>
+		<str id="ids_small" val="小"/>
+		<str id="ids_medium" val="中"/>
+		<str id="ids_large" val="大"/>
+		<str id="ids_larger" val="大きい"/>
+		<str id="ids_largest" val="最大"/>
+		<str id="ids_fontweightnormal" val="普通"/>
+		<str id="ids_fontweightbold" val="太字"/>
+		<str id="ids_fontweightheavy" val="超太字"/>
+		<str id="ids_overlaydatenone" val="なし"/>
+		<str id="ids_overlaydatelong" val="長い日付形式"/>
+		<str id="ids_overlaydateshort" val="短い日付形式"/>
+		<str id="ids_overlaydatetlong" val="長い日時形式"/>
+		<str id="ids_overlaydatetshort" val="短い日時形式"/>
+
+		<str id="ids_marker" val="なし"/>
+		<str id="ids_markercross" val="十字"/>
+		<str id="ids_markercircle" val="円"/>
+		<str id="ids_markercr" val="十字+四角形"/>
+		<str id="ids_markercc" val="十字+円"/>
+		<str id="ids_markercrosswidth" val="十字の幅 (%)"/>
+		<str id="ids_markercrossheight" val="十字の高さ (%)"/>
+		<str id="ids_markerrectwidth" val="四角形の幅 (%)"/>
+		<str id="ids_markerrectheight" val="四角形の高さ (%)"/>
+		<str id="ids_markerradius" val="円の半径 (%)"/>
+		<str id="ids_markerx" val="xのオフセット (%)"/>
+		<str id="ids_markery" val="yのオフセット (%)"/>
+
+		<str id="ids_stitchfail" val="スティッチングに失敗しました。"/>
+		<str id="ids_stitchplane" val="平面"/>
+		<str id="ids_stitchcylindrical" val="円柱"/>
+		<str id="ids_stitchspherical" val="球状"/>
+		<str id="ids_stitchfisheye" val="魚眼"/>
+		<str id="ids_stitchstereographic" val="立体投影"/>
+		<str id="ids_stitchmercator" val="メルカトル図法"/>
+		<str id="ids_stitchtransversemercator" val="横メルカトル図法"/>
+		<str id="ids_stitchseamfindervoronoi" val="ボロノイ図"/>
+		<str id="ids_stitchseamfindergraphcutcolor" val="グラフカットカラー"/>
+		<str id="ids_stitchseamfindergraphcutcolorgrad" val="グラフカットカラーグレード"/>
+		<str id="ids_stitchecgain" val="ゲイン"/>
+		<str id="ids_stitchecbg" val="ブロックゲイン"/>
+		<str id="ids_stitchbaray" val="光線調整"/>
+		<str id="ids_stitchbareproj" val="再投影エラー"/>
+
+		<str id="ids_crosssingle" val="あり"/>
+		<str id="ids_cross1" val="二重線(1 ピクセル)"/>
+		<str id="ids_cross3" val="二重線(3 ピクセル)"/>
+		<str id="ids_cross5" val="二重線(5 ピクセル)"/>
+		<str id="ids_cross7" val="二重線(7 ピクセル)"/>
+		<str id="ids_cross9" val="二重線(9 ピクセル)"/>
+		<str id="ids_cursorcross" val="十字カーソル"/>
+		<str id="ids_cursorpoint" val="点カーソル"/>
+		<str id="ids_cursornull" val="なし"/>
+
+		<str id="ids_videooverlay" val="オーバレイ"/>
+		<str id="ids_markertxt" val="オーバレイ"/>
+		<str id="ids_markergeo" val="マーカ"/>
+
+		<str id="ids_miscsplash" val="起動時にスプラッシュウィンドウを表示する"/>
+		<str id="ids_miscscreensaver" val="プレビュー時又は撮影時はスクリーンセーバーを起動しない"/>
+		<str id="ids_misctft" val="ファイル形式"/>
+		<str id="ids_misctftremind" val="ファイル形式がオブジェクト(計測結果)をサポートしていない場合に通知する"/>
+		<str id="ids_miscsidebar" val="サイドバー"/>
+		<str id="ids_miscsidebarmeasurement" val="計測の時、計測サイドバーを自動的に表示する"/>
+		<str id="ids_miscsidebarfolders" val="ブラウズタブを開く時、フォルダサイドバーを自動的に表示する"/>
+		<str id="ids_miscsidebarbrowse" val="フォルダをダブルクリックすると、ブラウズタブを自動的に開く"/>
+		<str id="ids_miscsidebarcamerastartup" val="起動時にカメラサイドバーを自動的に表示する"/>
+		<str id="ids_miscuistyle" val="UIスタイル"/>
+		<str id="ids_miscprivacy" val="プライバシー"/>
+		<str id="ids_miscrecent" val="最近使用したファイルの最大数"/>
+		<str id="ids_miscclear" val="アプリケーションの終了時に最近使用したファイルリストを削除する"/>
+		<str id="ids_miscrestore" val="起動時に現在のディレクトリを復元する"/>
+		<str id="ids_misclang" val="言語"/>
+		<str id="ids_miscte" val="を再起動後に有効になります"/>
+
+		<str id="ids_urimploperation" val="操作"/>
+
+		<str id="ids_pdmorphologic" val="モーフォロジー操作"/>
+		<str id="ids_pdmuststructure" val="必ずストラクチャーを選択してください。"/>
+		<str id="ids_pdnostructure" val="ストラクチャーが存在しません。"/>
+		<str id="ids_pdselectstructure" val="ストラクチャーを選択してください。"/>
+		<str id="ids_pddeletesure" val="削除:本当によろしいですか？"/>
+		<str id="ids_pdenhancement" val="イメージエンハンス"/>
+		<str id="ids_pdbestfit" val="最適"/>
+		<str id="ids_pdequalize" val="ローカルイコライゼーション"/>
+		<str id="ids_pdundo" val="取り消し"/>
+		<str id="ids_pdconvertbit" val="8ビットまたは24ビットに変換しますか？"/>
+		<str id="ids_pdexceed" val="リージョンを超えています"/>
+		<str id="ids_pdkernel" val="画像カーネルの動作"/>
+		<str id="ids_pdmustname" val="名前を入力してください。"/>
+		<str id="ids_pdkernelsize" val="不正なカーネルサイズ。"/>
+		<str id="ids_pdinputvalue" val="値を入力してください。"/>
+		<str id="ids_pdoverwrite" val="このストラクチャーは存在します。上書きしますか？"/>
+		<str id="ids_pdedge" val="エッジの操作"/>
+		<str id="ids_pdautolevel" val="オートレベル"/>
+		<str id="ids_pdautocontrast" val="自動コントラスト"/>
+		<str id="ids_pdbcadj" val="明るさ、コントラスト調整"/>
+		<str id="ids_pdcoloradj" val="カラー調整"/>
+		<str id="ids_pdhmsadj" val="HMS調整"/>
+		<str id="ids_pdgammaadj" val="ガンマ調整: %.1f"/>
+		<str id="ids_pdhistogram" val="ヒストグラム均等化"/>
+		<str id="ids_pdcurve" val="曲線調整"/>
+		<str id="ids_pdcolorquantize" val="カラー量子化: %d ビット"/>
+		<str id="ids_pdbinary" val="バイナリー"/>
+		<str id="ids_pdgray" val="グレー"/>
+		<str id="ids_pdinvert" val="反転"/>
+		<str id="ids_pdrotatecw" val="時計回り回転"/>
+		<str id="ids_pdrotateccw" val="反時計回り回転"/>
+		<str id="ids_pdcrop" val="クロップ"/>
+		<str id="ids_pdimagescale" val="画像スケール"/>
+		<str id="ids_pdfliphorz" val="水平反転"/>
+		<str id="ids_pdflipvert" val="垂直反転"/>
+		<str id="ids_pdrange" val="範囲"/>
+		<str id="ids_pdfilters" val="フィルタ"/>
+		<str id="ids_pdinvalidheight" val="無効な高さ。"/>
+		<str id="ids_pdfiltercolor" val="色フィルタ"/>
+		<str id="ids_pdextractcolor" val="色抽出:"/>
+		<str id="ids_pdluminosity" val="輝度"/>
+		<str id="ids_bilinear" val="バイリニア"/>
+		<str id="ids_bicubic" val="バイキュービック"/>
+
+		<str id="ids_filtermorp" val="モフォロジカル"/>
+		<str id="ids_filterkern" val="カーネル"/>
+		<str id="ids_filterenhance" val="画像強化"/>
+		<str id="ids_filteredge" val="エッジ強化"/>
+
+		<str id="ids_extraopenfail" val="設定ファイルを開くことができませんでした。"/>
+		<str id="ids_extrasaveit" val="現在の色は変わりました。保存しますか。"/>
+		<str id="ids_extradyeexist" val="同じ名前の色が存在します。"/>
+		<str id="ids_extradeleteitem" val="本当にこの項目を削除してよいですか。"/>
+		<str id="ids_extrasavedata" val="本当にこのデータを保存しますか。"/>
+		<str id="ids_extrareloaddata" val="本当にすべてのデータをリロードしますか。"/>
+		<str id="ids_extraforfile" val="ファイル："/>
+
+		<str id="ids_labelaxis" val="軸"/>
+		<str id="ids_labelwidthheight" val="幅と高さ"/>
+
+		<str id="ids_layer" val="レイヤ"/>
+		<str id="ids_sheet" val="計測シート"/>
+		<str id="ids_sheet2" val="中心"/>
+		<str id="ids_sheet3" val="直径"/>
+		<str id="ids_sheet4" val="面積"/>
+		<str id="ids_sheet5" val="長さ"/>
+		<str id="ids_sheet7" val="起点"/>
+		<str id="ids_sheet8" val="終点"/>
+		<str id="ids_sheet9" val="距離"/>
+		<str id="ids_pointname" val="第%d点"/>
+		<str id="ids_intersection" val="交点"/>
+		<str id="ids_foot" val="垂線の足"/>
+		<str id="ids_slope" val="傾き"/>
+		<str id="ids_perimeter" val="周囲長"/>
+		<str id="ids_center" val="円心"/>
+		<str id="ids_arclength" val="周囲長"/>
+		<str id="ids_ratio" val="比率"/>
+		<str id="ids_axes" val="軸"/>
+		<str id="ids_layer0" val="可視"/>
+		<str id="ids_lunit0" val="単位"/>
+		<str id="ids_lunit2" val="シンボル"/>
+		<str id="ids_lunit4" val="縮尺"/>
+		<str id="ids_noname" val="[名前なし]"/>
+		<str id="ids_layerbackground" val="背景"/>
+		<str id="ids_layername" val="レイヤ名"/>
+		<str id="ids_sysunit" val="システム"/>
+		<str id="ids_userunit" val="ユーザ"/>
+		<str id="ids_errorfile" val="ファイルフォーマットが正しくありません。"/>
+		<str id="ids_errordata" val="ファイルデータが正しくありません。"/>
+		<str id="ids_only1layer" val="最後のレイヤを除去することができません。"/>
+		<str id="ids_removecurrent" val="現在のレイヤを除去することができません。"/>
+		<str id="ids_removelayer" val="本当にこのレイヤを除去しますか？"/>
+		<str id="ids_removeitem" val="本当に選択したすべての項目を削除しますか？"/>
+		<str id="ids_removeunit" val="このユニットを削除することに成功しました。"/>
+		<str id="ids_unitsymbol" val="シンボルは空にすることができません。"/>
+		<str id="ids_invalidratio" val="比率が正しくありません。"/>
+		<str id="ids_sameunit" val="同じ名前のユニットがすでに存在するため、このユニットを追加できません。"/>
+		<str id="ids_samesymbol" val="同じシンボルのユニットがすでに存在するため、このユニットを追加できません。"/>
+		<str id="ids_layersamename" val="同じ名前のレイヤがすでに存在します。本当に続けますか？"/>
+		<str id="ids_nametolong" val="名前が長すぎます。"/>
+		<str id="ids_symboltolong" val="シンボルが長すぎます。"/>
+		<str id="ids_toomanyunit" val="ユーザー定義のユニットが多すぎます。"/>
+		<str id="ids_addunit" val="1. 縮尺はこの単位とメートルとの比率です。たとえば：\n  メートルとミリメートルの比率は1000で、指数表記で 1e3です。\n  メートルとキロメートルの比率は0.001で、指数表記で 1e-3です。\n\n2. シンボルはこの単位の英語略語で、「メートル」は&quot;m&quot;　「センチメートル」は&quot;cm&quot;などです。"/>
+		<str id="ids_general" val="一般"/>
+		<str id="ids_lengthunit" val="長さの単位"/>
+		<str id="ids_angleunit" val="角度の単位"/>
+		<str id="ids_measurelist" val="シート"/>
+		<str id="ids_angle" val="角度"/>
+		<str id="ids_ellipse" val="楕円"/>
+		<str id="ids_line" val="直線"/>
+		<str id="ids_point" val="点"/>
+		<str id="ids_rect" val="四角形"/>
+		<str id="ids_parallel" val="平行線"/>
+		<str id="ids_line3" val="平行線(3点)"/>
+		<str id="ids_line2" val="平行線(4点)"/>
+		<str id="ids_line4" val="平行線(8点)"/>
+		<str id="ids_linea" val="平行線(任意)"/>
+		<str id="ids_vertical" val="垂直線"/>
+        <str id="ids_verany" val="垂直線(任意)"/>
+		<str id="ids_circle" val="円"/>
+		<str id="ids_arc" val="弧"/>
+		<str id="ids_annulus" val="同心円"/>
+		<str id="ids_twocircles" val="二つの円"/>
+		<str id="ids_curve" val="曲線"/>
+		<str id="ids_appearance" val="外観"/>
+		<str id="ids_geometry" val="ジオメトリ"/>
+		<str id="ids_coordinates" val="座標"/>
+		<str id="ids_lsize" val="サイズ"/>
+		<str id="ids_mlinewidth" val="補助線の幅"/>
+		<str id="ids_linecolor" val="線の色"/>
+		<str id="ids_mlinecolor" val="補助線の色"/>
+		<str id="ids_linestyle" val="ラインのスタイル"/>
+		<str id="ids_mlinestyle" val="補助線の種類"/>
+		<str id="ids_fill" val="埋める"/>
+		<str id="ids_mline" val="補助線を表示する"/>
+		<str id="ids_amarker" val="角度マーカーを表示"/>
+		<str id="ids_circled" val="直径/半径を表示する"/>
+		<str id="ids_circlec" val="中心を表示する"/>
+		<str id="ids_showcp" val="接続ポイントを表示する"/>
+		<str id="ids_showmp" val="中点を表示する"/>
+		<str id="ids_fillcolor" val="色を塗る"/>
+		<str id="ids_arrow" val="矢印"/>
+		<str id="ids_textcolor" val="文字色"/>
+		<str id="ids_textalign" val="文字揃え"/>
+		<str id="ids_lframe" val="フレーム"/>
+		<str id="ids_edittext" val="文字の編集"/>
+		<str id="ids_textleft" val="左寄せ"/>
+		<str id="ids_textright" val="右寄せ"/>
+		<str id="ids_lnum" val="番号"/>
+		<str id="ids_ltoolbarshow" val="表示/非表示"/>
+		<str id="ids_fontstyle0" val="通常"/>
+		<str id="ids_fontstyle1" val="ボールド"/>
+		<str id="ids_fontstyle2" val="イタリック"/>
+		<str id="ids_fontstyle3" val="ボールドとイタリック"/>
+		<str id="ids_decimal" val="小数"/>
+		<str id="ids_decimal0" val="小数点以下0桁"/>
+		<str id="ids_decimal1" val="小数点以下1桁"/>
+		<str id="ids_decimal2" val="小数点以下2桁"/>
+		<str id="ids_decimal3" val="小数点以下3桁"/>
+		<str id="ids_decimal4" val="小数点以下4桁"/>
+		<str id="ids_decimal5" val="小数点以下5桁"/>
+		<str id="ids_decimal6" val="小数点以下6桁"/>
+		<str id="ids_labeltype" val="ラベルタイプ"/>
+		<str id="ids_labeltype" val="ラベル位置"/>
+		<str id="ids_labelpos" val="Label Position"/>
+		<str id="ids_ltrans" val="透過背景"/>
+		<str id="ids_lbkclr" val="背景色"/>
+		<str id="ids_ecce" val="離心率"/>
+		<str id="ids_pdegree" val="不規則性の程度"/>
+		<str id="ids_hollowness" val="中空の程度"/>
+		<str id="ids_chollowness" val="円の中空の程度"/>
+		<str id="ids_phollowness" val="多辺形の中空の程度"/>
+		<str id="ids_fratio" val="平坦度比"/>
+		<str id="ids_showsublabel" val="サブオブジェクトのラベルを表示"/>
+
+		<str id="ids_rect2p" val="四角形(2点)"/>
+		<str id="ids_rect3p" val="四角形(3点)"/>
+		<str id="ids_angle3p" val="角度(3点)"/>
+		<str id="ids_angle4p" val="角度(4点)"/>
+		<str id="ids_circle1" val="円(中心+半径)"/>
+		<str id="ids_circle2" val="円(2点)"/>
+		<str id="ids_circle3" val="円(3点)"/>
+		<str id="ids_annulus2" val="同心円(中心+半径)"/>
+		<str id="ids_annulus3" val="同心円(3点)"/>
+		<str id="ids_vertical3p" val="垂直線(3点)"/>
+		<str id="ids_vertical4p" val="垂直線(4点)"/>
+		<str id="ids_ellipse2p" val="楕円(2点)"/>
+		<str id="ids_ellipse5p" val="楕円(5点)"/>
+		<str id="ids_ellipse3p" val="楕円(3点)"/>
+		<str id="ids_vline" val="垂直線"/>
+		<str id="ids_hline" val="水平線"/>
+		<str id="ids_twocircle3p" val="二つの円(中心+半径)"/>
+		<str id="ids_twocircle2p" val="二つの円(3点)"/>
+		<str id="ids_line3p" val="直線(3点)"/>
+		<str id="ids_vline3p" val="垂直線(3点)"/>
+		<str id="ids_hline3p" val="水平線(3点)"/>
+		<str id="ids_linemulti" val="直線(多点間)"/>
+
+		<str id="ids_errgeneric" val="汎用エラー。"/>
+		<str id="ids_errnullname" val="名前は空にすることができません。"/>
+		<str id="ids_errsamename" val="同じ名前がすでに存在します。"/>
+		<str id="ids_errsameid" val="同じIDがすでに存在します。"/>
+		<str id="ids_erropenfile" val="ファイルを開けません。"/>
+		<str id="ids_errfileformat" val="ファイルフォーマットが正しくありません。"/>
+		<str id="ids_errmsgproduct" val="カメラモデルが一致しません。"/>
+		<str id="ids_errusb" val="USBバージョンが一致していません。"/>
+		<str id="ids_errmode" val="モードの不一致。"/>
+
+		<str id="ids_resetlayout" val="ウィンドウのレイアウトはAppを再起動後にリセットされます。"/>
+		<str id="ids_startbroadcast" val="ブロードキャストを開始します(&amp;B)..."/>
+		<str id="ids_stopbroadcast" val="ブロードキャストを停止します(&amp;B)"/>
+
+		<str id="ids_stackingfail" val="画像のスタックは失敗しました。"/>
+
+		<str id="ids_objcount" val="自動カウント"/>
+		<str id="ids_objsplit" val="オブジェクトの分割"/>
+		<str id="ids_objcountosoutline" val="アウトライン"/>
+		<str id="ids_objcountosfilled" val="埋める"/>
+
+		<str id="ids_counthisv" val="明度"/>
+
+		<str id="ids_edfc" val="最大コントラスト"/>
+		<str id="ids_edfw" val="加重平均"/>
+		<str id="ids_edfs" val="スタック"/>
+		<str id="ids_edffm" val="FFDSSDオプション"/>
+		<str id="ids_edfcapture" val="画像キャプチャ"/>
+		<str id="ids_edfmethod" val="方法を選択します"/>
+		<str id="ids_edfself" val="ファイルを選択します"/>
+		<str id="ids_edfaa" val="自動整列"/>
+		<str id="ids_edfadesc" val="処理する画像間で移動、拡大、回転があるかどうかをもとに、適切な自動整列モードを選択してください。\n\nフォーカススタッキングにかかる時間は最大角度の設定に関係します。最大角が大きいほど時間がかかりますが、関係は非線形です。デフォルトの最大角度は1.0°です。"/>
+		<str id="ids_edfcaptips" val="画像の各部がはっきり見えるように、顕微鏡を調整してください。サンプルが異なる位置にあるときにキャプチャしてください。調整の段階数はユーザーに任されています。細かい段階を選択すれば、より詳細な結果が得られます。調整中、サンプルと顕微鏡の相対位置は同じ方向へ動かす必要があります。"/>
+		<str id="ids_edfpdesc" val="この三つの値は独立していません。細部の明瞭さは結果のディテールの詳細さに影響を与えます。背景の明度は背景色に加算、減算するためのオフセット値です。これらの2つの設定は、結果として全体の明るさの変更になります。このため、全体の明るさも調整する必要が出てきます。"/>
+		<str id="ids_edfmdesc" val="\t加重平均法は滑らかな結果を生成しますが、細部を失うことがあります。 この方法はたとえば顕微鏡によって生成された画像などの深いスタックでは、FFDSSDより優れた結果を生成します。イメージはZ順にしなければならないことに注意する必要があります。(顕微鏡のレンズが試料台上のサンプルに対して直近から最遠まで、又は最遠から直近までの順に。)\n\t最大コントラスト法は加重平均法と同様であり、これもまたイメージがZ順である必要があります。 相違点は、最大コントラスト法では保存される細部はシャープながらディテールを失う可能性があることです。最大コントラスト法はフォーカススタッキングに望ましい方法です。\n\tFFDSSDは周波数領域において高速フーリエ変換（FFT）を用いてフィルタリングを行い、空間領域において合成を行う方法です。FFDSSDは位置合わせのずれている画像に用いることができます。ユーザーは手動または自動でインプット画像を整列させるための参考画像を選択することができます。"/>
+		<str id="ids_maxedf" val="画像が多すぎます。画像の数は %u を超えてはいけません。"/>
+
+		<str id="ids_panefloating" val="フローティング(&amp;F)"/>
+		<str id="ids_panedocking" val="ドッキング(&amp;D)"/>
+		<str id="ids_paneautohide" val="すべて自動的に隠す(&amp;A)"/>
+		<str id="ids_panehide" val="非表示(&amp;H)"/>
+		<str id="ids_scrright" val="右へスクロール"/>
+		<str id="ids_scrleft" val="スクロール"/>
+        <str id="ids_autohideall" val="すべて自動的に隠す"/>
+        <str id="ids_autohide" val="自動的に隠す"/>
+        <str id="ids_winpos" val="ウィンドウの位置"/>
+
+		<str id="ids_wmdtitle" val="タブ"/>
+		<str id="ids_wmdselwin" val="タブの選択:"/>
+		<str id="ids_wmdactivate" val="アクティブ化"/>
+		<str id="ids_wmdsave" val="保存"/>
+		<str id="ids_wmdclose" val="タブを閉じる"/>
+		<str id="ids_wmdcasc" val="重ねて表示"/>
+		<str id="ids_wmdtileh" val="左右に並べて表示"/>
+		<str id="ids_wmdtilev" val="上下に並べて表示"/>
+		<str id="ids_wmdmini" val="最小化"/>
+
+		<str id="ids_colorstandard" val="標準"/>
+		<str id="ids_colorcolorscolon" val="カラー:"/>
+		<str id="ids_colorselect" val="選択..."/>
+		<str id="ids_colorhue" val="色相:"/>
+		<str id="ids_colorsaturation" val="彩度:"/>
+		<str id="ids_colorluminence" val="輝度:"/>
+		<str id="ids_colorred" val="赤:"/>
+		<str id="ids_colorgreen" val="緑:"/>
+		<str id="ids_colorblue" val="青:"/>
+
+		<str id="ids_unsupportformat" val="サポートされていない画像フォーマット"/>
+		<str id="ids_hdrfail" val="ハイダイナミックレンジ（HDR）の合成に失敗しました。"/>
+
+		<str id="ids_miscopencl" val="GPUによるアクセラレーションを有効にします"/>
+
+		<str id="ids_sharpen" val="シャープネス"/>
+		<str id="ids_decolor" val="脱色"/>
+		<str id="ids_detailenhance" val="鮮鋭化"/>
+		<str id="ids_smooth" val="スムーズ"/>
+
+		<str id="ids_llc" val="局部色彩の補正"/>
+
+		<str id="ids_toolbar_st4" val="ST4テスト"/>
+
+		<str id="ids_bits" val="%u ビット"/>
+		<str id="ids_roitosmall" val="ROIの幅と高さは必ず32以上必要です"/>
+		<str id="ids_recordstep2tipwmv" val="拡張子 .wmv は自動的に付け加えられます。"/>
+
+		<str id="ids_dfcimportfail" val="インポートに失敗しました。"/>
+		<str id="ids_dfcexportfail" val="エクスポートに失敗しました。"/>
+		<str id="ids_dfcimportmis" val="インポートに失敗しました、一致しません。"/>
+
+		<str id="ids_deinterlace" val="インターレース解除"/>
+
+		<str id="ids_sernext" val="次のフレーム"/>
+		<str id="ids_serprev" val="前のフレーム"/>
+
+		<str id="ids_pxsize" val="ピクセル、サイズ"/>
+
+		<str id="ids_extrigger" val="外部"/>
+
+		<str id="ids_tecoutofrange" val="入力値が [%.1f, %.1f] の範囲にありません。"/>
+		<str id="ids_tempunit" val="温度の単位"/>
+
+		<str id="ids_batchrecord" val="バッチ保存"/>
+		<str id="ids_autocapture" val="自動キャプチャ"/>
+		<str id="ids_startacapture" val="自動キャプチャ(&amp;A)"/>
+		<str id="ids_stopacapture" val="キャプチャ停止(&amp;S)"/>
+		<str id="ids_pause" val="開始/一時停止"/>
+
+		<str id="ids_sametarget" val="対象 &quot;%s&quot; は既に存在しています。"/>
+
+		<str id="ids_livestack" val="ライブ、スタック"/>
+		<str id="ids_livestackvalfail" val="シャープさが足りません"/>
+		<str id="ids_livestacknostars" val="星が足りません"/>
+		<str id="ids_livestacknomatches" val="一致度が足りません"/>
+
+		<str id="ids_compatible" val="互換性"/>
+
+		<str id="ids_hwver" val="ハードウェアバージョン"/>
+		<str id="ids_fwver" val="ファームウェアバージョン"/>
+		<str id="ids_fpgaver" val="FPGAバージョン"/>
+		<str id="ids_mcuver" val="MCUバージョン"/>
+
+		<str id="ids_toolbarhtml" val="Htmlにエクスポート"/>
+
+		<str id="ids_background" val="背景"/>
+		<str id="ids_saveas" val="名前を付けて保存"/>
+
+		<str id="ids_tctitle" val="コマンド"/>
+		<str id="ids_tckey" val="キーボード"/>
+		<str id="ids_tccat" val="分類:"/>
+		<str id="ids_tccmd" val="コマンド:"/>
+		<str id="ids_tcallcmd" val="すべてのコマンド"/>
+		<str id="ids_addrbtn" val="ボタンの表示/非表示(&amp;A)"/>
+		<str id="ids_toolbarreset" val="ツール バーのリセット(&amp;R)"/>
+		<str id="ids_resetask" val="ツール バーをリセットしますか?"/>
+		<str id="ids_tctip" val="ボタンを追加するには、右側のコマンドボタンをツールバーにドラッグします。\r\nボタンを削除するには、ボタンをツールバーの外にドラッグします。"/>
+		<str id="ids_kcate" val="分類(&amp;C):"/>
+		<str id="ids_kcmd" val="コマンド(&amp;O):"/>
+		<str id="ids_krem" val="削除(&amp;R)"/>
+		<str id="ids_kres" val="すべてリセット(&amp;S)"/>
+		<str id="ids_kass" val="割り当て(&amp;A)"/>
+		<str id="ids_kato" val="割り当て先:"/>
+		<str id="ids_knew" val="割り当てるキーを押してください(&amp;N):"/>
+		<str id="ids_kcur" val="現在のキー(&amp;U):"/>
+		<str id="ids_unass" val="[未定義]"/>
+		<str id="ids_kreset" val="変更はすべて失われます。キーボードの割り当てをリセットしますか?"/>
+
+		<str id="ids_metadescascom" val="このプロパティシートは、FITSファイルとEXIFファイル（jpg、png、tiffなど）を含むさまざまなファイル形式のプロパティ値を設定するために使用されます。 EXIF列の空白の項目は、EXITファイルがこの情報をサポートしていないことを意味します。FITS列の空白の項目は、FITSファイルがこの情報をサポートしていないことを意味します。[自動]は、ソフトウェアが自動的に情報を入力することを意味します。 値の列が[自動]でない他の項目に対して、項目をダブルクリックして値を設定することができます。"/>
+		<str id="ids_metadescmicro" val="このプロパティシートはjpg、png、tiffなどを含むさまざまなファイル形式のプロパティ値を設定するために使用されます。[自動]は、ソフトウェアが自動的に情報を入力することを意味します。 値の列が[自動]でない他の項目に対して、項目をダブルクリックして値を設定することができます。"/>
+
+		<str id="ids_imagetype" val="イメージの種類"/>
+
+		<str id="ids_focal" val="焦点距離"/>
+		<str id="ids_temp" val="センサーの温度"/>
+		<str id="ids_longitude" val="経度、範囲 = [-180.0, 180.0]。などの15.715, 15.715E, 15°42'9&quot;E"/>
+		<str id="ids_latitude" val="緯度、範囲 = [-90.0, 90.0]。などの15.715, 15.715N, 15°42'9&quot;N"/>
+
+		<str id="ids_str" val="文字列"/>
+		<str id="ids_int" val="整数"/>
+		<str id="ids_real" val="本当の"/>
+
+		<str id="ids_recordfail1" val="記録を開始できませんでした。"/>
+		<str id="ids_recordfail2" val="記録を開始できませんでした。解像度がエンコーダにとって大きすぎる可能性があります。"/>
+
+		<str id="ids_tel" val="電話"/>
+		<str id="ids_email" val="電子メール"/>
+
+		<str id="ids_external" val="指定したプログラムで開く"/>
+		<str id="ids_exe" val="プログラム"/>
+
+		<str id="ids_temptint" val="色温度/色調"/>
+		<str id="ids_rgbgain" val="RGBゲイン"/>
+
+		<str id="ids_even" val="偶数番号を入力してください。"/>
+
+		<str id="ids_report" val="レポート"/>
+		<str id="ids_reportdenied" val="テンプレートファイルにアクセスできません。\nテンプレートファイルが他のプログラムで使用されている可能性があります。これらのプログラムを終了してください。\n問題が解決しない場合は、Windowsからログオフして再ログインしてください。"/>
+		<str id="ids_reporttip" val="1. テンプレートはプレースホルダーを通じて置き換えられる内容を表します。\r\n2. {{YYYY}}{{mm}}{{DD}}{{HH}}{{MM}}{{SS}}は年、月、日、時間、分、秒のプレースホルダーです。{{LD}}{{SD}}は長日付と短日付を表します。\r\n3. オプションの（置き換えられる）テキストのタイトルまたは説明が{{IP}}の画像は、画像のプレースホルダーと見なされます。数字は{{IP1}}、{{IP2}}のように画像の番号を表します。\r\n4. 内容が{{MT}}のテーブルは測定表のプレースホルダーと見なされます。{{MH}}はテーブルのヘッダーを表します。\r\n5. {{MT.i.x.y}}は測定テーブルの内容のプレースホルダーです。Iは画像の番号で、xは測定テーブル内の項目の行で、yは測定テーブル内の項目の列です。レポートに画像が1つしかない場合は、iを1に設定します。i、x、yの開始値は1です。たとえば、{{MT.1.2.3}}は画像1の測定テーブルの2行3列の内容を表します。\r\n6. {{LU}}{{AU}}{{SU}}は長さ、角度、面積単位のプレースホルダーです。{{lu}}{{au}}{su}}は短縮形を表します。\r\n7. Word、Excelレポートが作成されると、画像のプレースホルダーは対応する内容に置き換えられます。複数の写真の置き換えは、サムネイルUIの画像選択の順序によって決めます。xが負の値の場合、逆数のx行目を表します。{{MT.1.-2.3}}のように最初の画像の測定テーブルの逆数の2行3列目の内容を表します。\r\n8. Word、Excelのバージョンは2007で、または以上でなければなりません。"/>
+		<str id="ids_reportresall" val="すべてのテンプレートが消去され、デフォルトのテンプレートに置き換えられます。 続行しますか？"/>
+
+		<str id="ids_exportexcel" val="Excelにをエクスポート"/>
+		<str id="ids_exportcsv" val="CSVにをエクスポート"/>
+		<str id="ids_csvplus" val="ワークフロー"/>
+		
+		<str id="ids_toofar" val="遠すぎる"/>
+		<str id="ids_tooclose" val="近すぎる"/>
+
+		<str id="ids_webppresetphoto" val="写真"/>
+		<str id="ids_webppresetpicture" val="画像"/>
+		<str id="ids_webppresetdrawing" val="お絵かき"/>
+		<str id="ids_webppreseticon" val="アイコン"/>
+
+		<str id="ids_gpuwin8" val="ハードウェア（GPU）エンコーディングはWindows 8以上でのみ利用可能です。"/>
+		<str id="ids_gpuinsu" val="お使いのパソコンにハードウェア(GPU)のエンコーダーが搭載されている場合、動画の処理速度が速くなる可能性があります。"/>
+
+		<str id="ids_cursorcross" val="十字"/>
+
+		<str id="ids_segts" val="セグメント"/>
+		<str id="ids_edges" val="辺"/>
+		<str id="ids_avgang" val="平均角度"/>
+		<str id="ids_seglength" val="セグメントの長さ"/>
+		<str id="ids_avglength" val="平均長さ"/>
+		<str id="ids_ttllength" val="全長"/>
+		<str id="ids_randomcon" val="フリーハンド"/>
+		<str id="ids_multicon" val="多点間"/>
+		<str id="ids_segdistance" val="セグメントの距離"/>
+		<str id="ids_avgdistance" val="平均距離"/>
+		<str id="ids_ttldistance" val="全距離"/>
+
+		<str id="ids_stitchexpand" val="処理中です。お待ちください。"/>
+		<str id="ids_stitchexpdis" val="スティッチング中、自動露出を自動的に無効にする"/>
+		<str id="ids_edfexpdis" val="EDF中、自動露出を自動的に無効にする"/>
+
+		<str id="ids_exportmea" val="エクスポートとマージ"/>
+		<str id="ids_exportshowdlg" val="エクスポート時にダイアログを表示する"/>
+
+		<str id="ids_expseglen0" val="クリップボードにをエクスポート"/>
+		<str id="ids_expseglen1" val="CSVファイルにをエクスポート"/>
+		<str id="ids_expseglen2" val="Microsoft Excelにをエクスポート"/>
+
+		<str id="ids_cpucore" val="コアの数"/>
+		<str id="ids_cputhrd" val="スレッド数"/>
+
+		<str id="ids_fastest" val="最速"/>
+		<str id="ids_slowest" val="最も遅い"/>
+
+		<str id="ids_edgelen" val="辺長"/>
+		<str id="ids_avgedge" val="平均辺長"/>
+
+		<str id="ids_policy" val="ポリシー"/>
+		<str id="ids_ae0" val="露出のみ"/>
+		<str id="ids_ae1" val="露出優先"/>
+		<str id="ids_ae2" val="ゲインのみ"/>
+		<str id="ids_ae3" val="ゲイン優先"/>
+		<str id="ids_aeexpmax" val="最大露光時間"/>
+		<str id="ids_aegainmax" val="最大ゲイン"/>
+
+		<str id="ids_stitchres" val="現在のビデオの較正解像度をスティッ千結果の画像に自動的に適用します。 この値の精度は多くの要因に依存します。"/>
+		<str id="ids_edfres" val="現在のビデオの較正解像度をEDF結果の画像に自動的に適用します。 この値の精度は多くの要因に依存します。"/>
+
+		<str id="ids_miscbmp" val="BMPフォーマットを「クイック保存」、「バッチ保存」などのファイルタイプに追加します。（BMPフォーマットは校正と測定情報の保存をサポートしていません。）"/>
+		<str id="ids_csvutf8" val="CSVでUTF8文字セットを使用します"/>
+
+		<str id="ids_sensor" val="センサ"/>
+		<str id="ids_ccdpro" val="プログレッシブ"/>
+		<str id="ids_ccdint" val="インターレース"/>
+		<str id="ids_glsh" val="グローバルシャッター"/>
+		<str id="ids_rosh" val="ローリングシャッター"/>
+		<str id="ids_ddrbuf" val="DDRフレームバッファ"/>
+		<str id="ids_isp" val="ハードウェアISP"/>
+
+		<str id="ids_delay" val="遅延"/>
+		<str id="ids_ioctrl" val="IO コントロール"/>
+		<str id="ids_ioctrlii" val="フォトカプラ絶縁入力"/>
+		<str id="ids_ioctrlio" val="フォトカプラ絶縁出力"/>
+		<str id="ids_ioctrlip" val="入力"/>
+		<str id="ids_ioctrlop" val="出力"/>
+		<str id="ids_ioctrlnc" val="接続されていません"/>
+		<str id="ids_ioctrlts" val="トライステート"/>
+		<str id="ids_ioctrloc" val="フォトカプラ絶縁"/>
+		<str id="ids_ioctrlpo" val="立ち上がりエッジ"/>
+		<str id="ids_ioctrlne" val="立ち下がりエッジ"/>
+		<str id="ids_ioctrlhl" val="高レベル"/>
+		<str id="ids_ioctrlll" val="低レベル"/>
+		<str id="ids_ioctrlco" val="カウンタ"/>
+		<str id="ids_ioctrlft" val="トリガ待ち信号"/>
+		<str id="ids_ioctrlea" val="効果的な露出"/>
+		<str id="ids_ioctrlsb" val="ストロボ"/>
+		<str id="ids_ioctrluo" val="ユーザー出力"/>
+		<str id="ids_ioctrlpd" val="事前遅延"/>
+		<str id="ids_ioctrldl" val="遅延"/>
+
+		<str id="ids_luafilerr" val="Luaファイルエラー."/>
+
+		<str id="ids_imageid" val="画像の独特ID"/>
+		<str id="ids_timestamp" val="タイムスタンプ"/>
+		<str id="ids_timestamptxt" val="カメラのハードウェアがタイムスタンプをサポートすると、タイムラプス撮影のとき、タイムスタンプを自動的にtimestamp.txtに記録されます"/>
+
+		<str id="ids_meanintensity" val="平均強度"/>
+		<str id="ids_intensity" val="強度"/>
+
+		<str id="ids_typemis" val="型の不一致"/>
+		<str id="ids_showsub" val="サブオブジェクトを表示する"/>
+
+		<str id="ids_connection" val="接続"/>
+
+		<str id="ids_pbslow" val="遅い"/>
+		<str id="ids_pbfast" val="速い"/>
+		<str id="ids_pbstep" val="単一のフレーム"/>
+
+		<str id="ids_multicast" val="マルチキャスト"/>
+		<str id="ids_unicast" val="ユニキャスト"/>
+
+		<str id="ids_custommo" val="カスタム測定"/>
+
+		<str id="ids_3drender" val="レンダリング"/>
+		<str id="ids_3dlight" val="光"/>
+
+		<str id="ids_tecpower" val="TECパワー"/>
+
+		<str id="ids_zoomnoctrl" val="マウスホイールを上下にスクロールする"/>
+		<str id="ids_zoomctrl" val="Ctrl + マウスホイールを上下にスクロールする"/>
+
+		<str id="ids_lastinput" val="最後の入力"/>
+		<str id="ids_goto" val="移動"/>
+		<str id="ids_timer" val="時間範囲"/>
+		<str id="ids_dbstep1" val="データベースに接続します"/>
+		<str id="ids_dbstep2" val="テーブルを定義します"/>
+		<str id="ids_odbchandle" val="ODBC: 無効なハンドル。"/>
+		<str id="ids_dbver" val="データベースのスキーマが一致しません。"/>
+		<str id="ids_dbdrop" val="警告：データベースのすべての内容とスキーマを削除しますか?"/>
+		<str id="ids_dbdelc" val="警告：この列のすべての内容を削除しますか?"/>
+		<str id="ids_sqllike" val="%:\t０個または以上のキャラクター;\r\n_:\t任意の単一のキャラクター;\r\n[]:\t指定された範囲（[a-f]）または（[abcdef]）内の単一のキャラクター;\r\n[^]:\t単一のキャラクターが指定された範囲（[^ a-f]）または（[^ abcdef]）内にありません。"/>
+		<str id="ids_bigint" val="64ビット整数"/>
+		<str id="ids_smallint" val="16ビット整数"/>
+
+		<str id="ids_page" val="ページ"/>
+		<str id="ids_nextp" val="次ページ"/>
+		<str id="ids_prevp" val="前ページ"/>
+		<str id="ids_firp" val="先頭ページ"/>
+		<str id="ids_lasp" val="最終ページ"/>
+
+		<str id="ids_fnew" val="常にフォーカスのウィンドウを新しくキャプチャ-した画像に切り替えます"/>
+
+		<str id="ids_layerclear" val="すべてのレイやと計測対象を削除しますか?"/>
+		<str id="ids_layerclearobj" val="すべての計測対象を削除しますか?"/>
+		<str id="ids_layercleartip" val="すべてのレイやと計測対象を削除します"/>
+		<str id="ids_layerclearobjtip" val="すべての計測対象を削除します"/>
+
+		<str id="ids_lntip" val="高い信号ノイズ比、低いフレームレート"/>
+
+        <str id="ids_stat" val="統計"/>
+		<str id="ids_smax" val="最大"/>
+		<str id="ids_smin" val="最小"/>
+		<str id="ids_savg" val="平均"/>
+		<str id="ids_sstd" val="標準偏差"/>
+
+		<str id="ids_hsty" val="スタイルH"/>
+		<str id="ids_half" val="半分"/>
+		<str id="ids_acum" val="累積モード"/>
+		<str id="ids_comp" val="蛍光画像合成"/>
+
+		<str id="ids_powerc" val="電力消費"/>
+
+		<str id="ids_lptips" val="直線、曲線、多角形などの計測対象を選択してください。必要な計測対象が存在しない場合は、作成して選択してください。"/>
+
+		<str id="ids_writabledir" val="ディレクトリが存在しないか、書き込み可能ではありません。"/>
+
+		<str id="ids_namepre" val="名前の接頭辞"/>
+
+		<str id="ids_ahd" val="適応均質指向(Adaptive Homogeneity Directed)"/>
+		<str id="ids_vng" val="可変数のグラデーション(Variable Number of Gradients)"/>
+		<str id="ids_ea" val="エッジ知覚(Edge Aware)"/>
+		
+		<str id="ids_cmptip" val="現在と比較するために1つまたは3つの項目を選択してください:\r\n&quot;%s&quot;"/>
+		
+		<str id="ids_globalrs" val="グローバルリセット"/>
+		<str id="ids_expactive0" val="指定された行"/>
+		<str id="ids_expactive1" val="共通の露出時間"/>
+
+		<str id="ids_relt" val="結果"/>
+        
+        <str id="ids_exsf" val="現在の設定をファイルにエクスポート(&amp;F)..."/>
+        <str id="ids_exse" val="現在の設定を&amp;EEPROMにエクスポート"/>
+        <str id="ids_exsa" val="指定されたアドレス(&amp;S)..."/>
+        <str id="ids_exs0" val="ゼロアドレス(&amp;Z)"/>
+		<str id="ids_extemp" val="温度履歴のエクスポート(&amp;T)..."/>
+        
+        <str id="ids_cpattern" val="市松模様"/>
+		
+		<str id="ids_ocws" val="ウォーターシェッド変換"/>
+		<str id="ids_ocsd" val="判別分析法(暗)"/>
+		<str id="ids_ocsb" val="判別分析法(明)"/>
+		
+		<str id="ids_ebusy" val="カメラは他のプログラムに占有されています。"/>
+		<str id="ids_ecrc" val="電力供給が不足するかもしれません。"/>
+		
+		<str id="ids_exacp" val="タイムラプス撮影をしています。\r\n自動キャプチャを停止して、残る画像をすべて削除してプログラムを終了しますか？"/>
+		<str id="ids_exdeq" val="プログラムバックグラウンドがタイムラプス撮影の画像またはトリガの画像を保存しています。\r\n残る画像をすべて削除してプログラムを終了しますか？"/>
+		
+		<str id="ids_squ" val="シーケンス"/>
+		
+		<str id="ids_littleend" val="リトルエンディアン"/>
+		<str id="ids_bigend" val="ビッグエンディアン"/>
+		<str id="ids_bnum" val="バイト数"/>
+		
+		<str id="ids_deqdepth" val="フレームバッファの長さ"/>
+		<str id="ids_fend" val="フロントエンド"/>
+		<str id="ids_bend" val="バックエンド"/>
+		<str id="ids_tecam" val="カメラを再度開いた後に有効になります"/>
+		
+		<str id="ids_gridm" val="グリッド: 画像にマージ"/>
+		
+		<str id="ids_motion" val="動いている"/>
+		<str id="ids_idle" val="アイドル"/>
+		
+		<str id="ids_grc" val="ジェネリック"/>
+		<str id="ids_pta" val="粒子分析"/>
+		<str id="ids_phc" val="位相計数"/>
+		<str id="ids_oth" val="他の"/>
+		
+		<str id="ids_farea" val="フォーカスゾーン"/>
+		
+		<str id="ids_lowestcpu" val="最低のCPU使用率"/>
+		<str id="ids_highcpu" val="CPU使用率が高い"/>
+		<str id="ids_highercpu" val="CPU使用率が高い"/>
+		<str id="ids_highestcpu" val="最高のCPU使用率"/>
+		
+		<str id="ids_fscr" val="全画面表示"/>
+		<str id="ids_xfscr" val="全画面表示を閉じる"/>
+		
+		<str id="ids_updategige" val="正常に完了しました。電源をオフにしてカメラを再起動してください。"/>
+		
+		<str id="ids_gainshow" val="露出ゲインは次のように表されます:"/>
+		<str id="ids_decibel" val="デシベル(dB)"/>
+		
+		<str id="ids_workd" val="作業距離"/>
+		<str id="ids_efl" val="有効焦点距離"/>
+		
+		<str id="ids_notcal" val="未校正"/>
+		
+		<str id="ids_opencom" val="%sを開けませんでした。"/>
+		
+		<str id="ids_chamber" val="チャンバー"/>
+		<str id="ids_humidity" val="湿度"/>
+		
+		<str id="ids_uptm" val="連続稼働時間"/>
+	</string>
+
+	<dialog>
+		<str id="ids_man" val="管理"/>
+		<str id="ids_tips" val="ヒント"/>
+		<str id="ids_clear" val="クリア"/>
+		<str id="ids_snap" val="静止画"/>
+		<str id="ids_reco" val="録画"/>
+		<str id="ids_qu" val="数量"/>
+		<str id="ids_bf" val="最適"/>
+		<str id="ids_seq" val="シーケンスは以下で始まります:"/>
+		<str id="ids_number" val="数量"/>
+		<str id="ids_dbid" val="アルファベット（A~Z、a~z）または数字（0~9），数字の開始はできません。"/>
+		<str id="ids_dbdp" val="小数位:"/>
+		<str id="ids_mode" val="モード"/>
+		<str id="ids_qu100" val="品質(25-100):"/>
+		<str id="ids_aval" val="使用可能"/>
+		<str id="ids_sedl" val="選択され"/>
+		<str id="ids_adgt" val="追加&gt;&gt;"/>
+		<str id="ids_aagt" val="すべて追加"/>
+		<str id="ids_v" val="値:"/>
+		<str id="ids_border" val="バイト順:"/>
+		<str id="ids_sm" val="シャッターモード:"/>
+		<str id="ids_unidir" val="一方向"/>
+		<str id="ids_defi" val="定義..."/>
+		<str id="ids_goto" val="移動"/>
+		<str id="ids_tb" val="カラー表"/>
+		<str id="ids_ids_conmode" val="連続モード"/>
+		<str id="ids_timeval" val="時間間隔:"/>
+
+		<dlg id="IDD_ABOUTBOX">
+			<str id="up" val="ソフトウェアの更新"/>
+		</dlg>
+
+		<dlg id="IDD_AUTO">
+			<str id="dir" val="フォルダ:"/>
+			<str id="for" val="ファイル名の形:"/>
+			<str id="pre" val="プレフィックス:"/>
+			<str id="cm" val="モード:"/>
+			<str id="ef" val="すべてのフレームをキャプチャする。"/>
+			<str id="time" val="撮影時間間隔(秒)"/>
+			<str id="tt" val="撮影枚数"/>
+			<str id="so" val="シーケンス、オプション"/>
+			<str id="sv" val="ビデオ ウィンドウに表示する"/>
+			<str id="sw" val="新しいウィンドウに表示する"/>
+			<str id="sd" val="ディスクに保存"/>
+			<str id="base" val="保存先:"/>
+			<str id="sub" val="サブフォルダ:"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHSAVE">
+			<str id="tl" val="バッチ保存"/>
+			<str id="dir" val="フォルダ:"/>
+			<str id="for" val="ファイル名の形:"/>
+			<str id="pre" val="プレフィックス:"/>
+			<str id="show" val="名前の変更ダイアログを表示"/>
+			<str id="base" val="保存先:"/>
+			<str id="sub" val="サブフォルダ:"/>
+			<str id="qst" val="1. 上の設定は「クイック保存」のメニューとツールバーのボタンに適用されます。「クイック保存」すると、上の設定に従って画像は指定されたフォルダに保存されます。\n2. RGB48を選択した場合、tifまたはpngファイルのみがRGB48をサポートできるため、画像は常にtifとpngファイルとして保存されます。"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD">
+			<str id="dir" val="フォルダ:"/>
+			<str id="frm" val="名前の形式:"/>
+			<str id="pf" val="プレフィックス:"/>
+			<str id="sh" val="名前の変更ダイアログを表示"/>
+			<str id="lm" val="上限"/>
+			<str id="tl" val="時間上限 (秒):"/>
+			<str id="fl" val="フレーム数上限:"/>
+			<str id="base" val="保存先:"/>
+			<str id="sub" val="サブフォルダ:"/>
+			<str id="fo" val="ファイル名のオプション..."/>
+			<str id="do" val="ディレクトリオプション..."/>
+			<str id="tip" val="クイック録画有効になると、レコードのガイドダイアログが表示されません。クイック録画開始のとき:\n1. ファイル名とディレクトリは自動に生成されます。\n2.ビットレートはデフォルトのビットレート（ビデオの高さ、幅、およびフレームレートに基づいて計算されたもの）に最後の記録に使用されたビットレートのスケーリング比を掛けた値に等しくなります。\n3. ほか（コーデックなど）は最後に使用されたものと同じになります。"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHRECORD">
+			<str id="num" val="ビデオの数:"/>
+			<str id="it" val="インターバル (秒):"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_SELECT">
+			<str id="tl" val="フォーカススタッキング"/>
+			<str id="open" val="開く:"/>
+			<str id="se" val="選択した画像:"/>
+			<str id="pro" val="進捗:"/>
+			<str id="aa" val="すべて追加"/>
+			<str id="fuse" val="開始"/>
+			<str id="m" val="方法:"/>
+		</dlg>
+
+		<dlg id="IDD_MAG">
+			<str id="cla" val="すべてをクリア"/>
+		</dlg>
+
+		<dlg id="IDD_CALIBRATE">
+			<str id="ac" val="実際の長さ"/>
+			<str id="pi" val="ピクセル"/>
+			<str id="pm" val="ピクセル/メートル"/>
+			<str id="ep" val="終点"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAEXPOSURE">
+			<str id="ll" val="微光補償"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAHISTOGRAM">
+			<str id="l" val="左:"/>
+			<str id="r" val="右:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALS">
+			<str id="ac50" val="交流(50Hz)"/>
+			<str id="ac60" val="交流(60Hz)"/>
+			<str id="dc" val="直流(DC)"/>
+			<str id="desc" val="アンチフリッカ機能は電源周波数によって引き起こる副作用を除去することができます。ローリングシャッタセンサのストライプとグローバルシャッタセンサのフリッカを含みます。50 Hzの場合は露出時間が10 msの整数倍に制限され、60 Hzの場合は露出時間が（1000/120）msの整数倍に制限されます。"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAMODE">
+			<str id="color" val="カラー"/>
+			<str id="gray" val="モノクロ"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERASPEED">
+			<str id="low" val="低"/>
+			<str id="com" val="最高フレームレートでプレビューが表示されない場合は、プレビューが表示されるまでフレームレートを下げてください。なお、実際のフレームレートは露出時間によって変化します。この設定でフレームレートの上限が決まります。"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAWB">
+			<str id="tem" val="色温度:"/>
+			<str id="tint" val="色調:"/>
+			<str id="com" val="基準とする対象領域(プレビュー内の赤い四角形)を画像中の白またはグレーの部分に移動し、&quot;ホワイトバランス&quot;をクリックして下さい。"/>
+			<str id="auto" val="自動ホワイトバランス"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAPRESET">
+			<str id="load" val="読込"/>
+			<str id="ov" val="上書き"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERTXT">
+			<str id="tl" val="オーバレイ"/>
+			<str id="pos" val="位置:"/>
+			<str id="bg" val="背景:"/>
+			<str id="sc" val="縮尺"/>
+			<str id="show" val="表示"/>
+			<str id="dt" val="日付と時間"/>
+			<str id="cl" val="フォーカスアシスト"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERGEO">
+			<str id="tl" val="マーカ"/>
+			<str id="sh" val="目盛りを表示する"/>
+		</dlg>
+
+		<dlg id="IDD_OPENDLG">
+			<str id="imag" val="イメージ情報/プレビュー"/>
+			<str id="cur" val="選択中のファイル:"/>
+		</dlg>
+
+		<dlg id="IDD_PROMTSAVE">
+			<str id="tl" val="ファイルを保存します"/>
+			<str id="com" val="ファイルは変更されています。保存しますか？"/>
+			<str id="yes" val="すべて、はい"/>
+			<str id="no" val="すべて、いいえ"/>
+			<str id="bat" val="バッチ保存"/>
+		</dlg>
+
+		<dlg id="IDD_SFT">
+			<str id="tl" val="測定をサポートする画像形式"/>
+			<str id="com" val="選択したフォーマットはレイヤと計測をサポートしていません。イメージと一緒にレイヤと計測を保存する場合には、フォーマットを選択してください:"/>
+			<str id="re" val="今後表示しません"/>
+			<str id="con" val="続ける"/>
+			<str id="res" val="再選択"/>
+		</dlg>
+
+		<dlg id="IDD_CAPTURE">
+			<str id="mk" val="マーカとウォーターマーク付きのキャプチャ"/>
+			<str id="mm" val="計測付きのキャプチャ:"/>
+			<str id="g" val="グリッドを含めてキャプチャする"/>
+			<str id="dpi" val="静止画の印刷解像度（DPI）:"/>
+			<str id="sa" val="モノクロカメラのキャプチャする画像を単一チャネルのファイルとして保存します"/>
+			<str id="48" val="ビット深度が8より大きい場合、キャプチャの フォーマットをRGB48に自動的に設定します"/>
+			<str id="ss" val="(保管スペースを節約する)"/>
+		</dlg>
+
+		<dlg id="IDD_GRID">
+			<str id="ru" val="ルーラーの色:"/>
+			<str id="cu" val="カーソルの色:"/>
+			<str id="gr" val="グリッド"/>
+			<str id="sy" val="線の種類:"/>
+			<str id="lis" val="スタイル:"/>
+			<str id="lic" val="線の色:"/>
+			<str id="re" val="レチクル"/>
+			<str id="pm" val="プリセット管理..."/>
+		</dlg>
+
+		<dlg id="IDD_WATERMARK">
+			<str id="tl" val="ウォーターマーク"/>
+			<str id="fle" val="イメージ、ファイル:"/>
+            <str id="tra" val="透明度(%):"/>
+			<str id="tip" val="Shift+上下左右キーでウォーターマークの移動。\r\nShift+Ctrl+左右キーでウォーターマークの回転が可能です。"/>
+			<str id="tip2" val="32ビットのbmpの場合、Alphaチャネルを使用します。\r\n24ビットのbmpの場合、左上隅のピクセルと同色が透明化されます。"/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION1">
+			<str id="dr" val="パノラマをまっすぐにする:"/>
+			<str id="wt" val="投影タイプ:"/>
+			<str id="sf" val="継ぎ目ファインダー:"/>
+			<str id="ba" val="バンドル調整:"/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION2">
+			<str id="mc" val="マッチング信頼度:"/>
+			<str id="pc" val="パノラマ信頼度:"/>
+			<str id="bs" val="ブレンド強度:"/>
+			<str id="ms" val="マッチング強度:"/>
+		</dlg>
+
+		<dlg id="IDD_PROGRESS">
+			<str id="tl" val="進捗"/>
+		</dlg>
+
+		<dlg id="IDD_IOPT">
+			<str id="r" val="圧縮率"/>
+			<str id="los" val="ロスレス圧縮"/>
+			<str id="qu" val="画質"/>
+			<str id="best" val="最適\n圧縮"/>
+			<str id="bq" val="最高\n品質"/>
+			<str id="pr" val="プログレッシブ"/>
+			<str id="sm" val="スムージング"/>
+			<str id="op" val="コードの最適化"/>
+			<str id="in" val="インターレース"/>
+			<str id="ap" val="ページを追加します"/>
+			<str id="s" val="补零:"/>
+			<str id="def" val="デフォルトとして、これらの設定を保存します"/>
+			<str id="cl" val="圧縮レベル"/>
+			<str id="fs" val="最速"/>
+			<str id="hr" val="超\n圧縮"/>
+			<str id="fh" val="ファイルヘッダー:"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_HEADER">
+			<str id="tc" val="上記の情報はオプションです。"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP1">
+			<str id="pl" val="ビデオフォーマットとエンコーダを選択してください"/>
+			<str id="h4" val="利用可能なハードウェア(GPU)エンコーダ:"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP2">
+			<str id="name" val="1. 動画ファイルの名前を入力してください:"/>
+			<str id="dir" val="2. 動画ファイルの保存先を選択します:"/>
+			<str id="tc" val="ファイル拡張子.wmv、.mp4、または.aviはファイル名に自動的に付加されます。"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP3">
+			<str id="bitr" val="ビットレート:"/>
+			<str id="key" val="キーフレーム間隔:"/>
+			<str id="se" val="秒"/>
+			<str id="hw" val="ハードウェア（GPU）エンコーダを起動する"/>
+			<str id="bb" val="デフォルトのビットレート:"/>
+			<str id="enc" val="エンコーダ:"/>
+			<str id="cfg" val="設定..."/>
+			<str id="pa" val="エンコードのパラメータ"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP4">
+			<str id="t" val="時間制限(秒):"/>
+			<str id="l" val="タイム、ラプス"/>
+			<str id="s" val="サマリ"/>
+			<str id="f" val="フレーム数:"/>
+			<str id="a" val="時間(秒):"/>
+		</dlg>
+
+		<dlg id="IDD_BROADCAST">
+			<str id="port" val="ポート:"/>
+			<str id="save" val="同時に内容をファイルに保存します"/>
+		</dlg>
+
+		<dlg id="IDD_OPENBROADCAST">
+			<str id="tl" val="ブロードキャストを開始します"/>
+			<str id="port" val="ポート:"/>
+		</dlg>
+
+		<dlg id="IDD_MOVE">
+			<str id="tl" val="移動"/>
+		</dlg>
+
+		<dlg id="IDD_DIAGNOSE">
+			<str id="tl" val="診断"/>
+		</dlg>
+
+		<dlg id="IDD_CURVE">
+			<str id="tl" val="曲線"/>
+			<str id="gr" val="グリッド表示"/>
+		</dlg>
+
+		<dlg id="IDD_RANGE">
+			<str id="tl" val="範囲"/>
+			<str id="in" val="反転"/>
+			<str id="up" val="アップデート"/>
+		</dlg>
+
+		<dlg id="IDD_THRESHOLD">
+			<str id="tl" val="バイナリー"/>
+		</dlg>
+
+		<dlg id="IDD_PROPPAGE_MOSAICSET">
+			<str id="fo" val="フッター"/>
+			<str id="ar" val="アレンジメント"/>
+			<str id="rows" val="行"/>
+			<str id="col" val="列"/>
+			<str id="rs" val="行間隔"/>
+			<str id="cs" val="列間隔"/>
+			<str id="ps" val="ページサイズ"/>
+			<str id="ds" val="デフォルトサイズ"/>
+			<str id="pr" val="プリンターのサイズを使用"/>
+			<str id="ch" val="変更..."/>
+			<str id="use14" val="1/4 サイズを使用"/>
+		</dlg>
+
+		<dlg id="IDD_ADJUSTBC">
+			<str id="tl" val="明度とコントラストを調整"/>
+		</dlg>
+
+		<dlg id="IDD_AUTOSETUP">
+			<str id="tl" val="自動範囲"/>
+			<str id="le" val="自動レベル"/>
+			<str id="ct" val="自動コントラスト"/>
+			<str id="low" val="下限クリップ"/>
+			<str id="high" val="上限クリップ"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR">
+			<str id="tl" val="カラー調整"/>
+			<str id="mo" val="色空間"/>
+		</dlg>
+
+		<dlg id="IDD_CLRQUANT">
+			<str id="bits" val="カラー量子化"/>
+			<str id="24" val="24ビット"/>
+			<str id="8" val="8ビット"/>
+			<str id="1" val="1ビット"/>
+		</dlg>
+
+		<dlg id="IDD_COLORBITS">
+			<str id="tl" val="カラービットの変更"/>
+			<str id="new" val="新しいカラービット"/>
+			<str id="24" val="24ビット"/>
+			<str id="8" val="8ビット"/>
+			<str id="1" val="1ビット"/>
+		</dlg>
+
+		<dlg id="IDD_COLORSELECT">
+			<str id="tl" val="カラー選択"/>
+		</dlg>
+
+		<dlg id="IDD_EDGE">
+			<str id="fil" val="フィルタ"/>
+			<str id="sb" val="ソーベル"/>
+			<str id="ro" val="ロバーツ"/>
+			<str id="sc" val="彫刻"/>
+			<str id="la" val="ラプラス"/>
+			<str id="va" val="分散"/>
+			<str id="h" val="水平"/>
+			<str id="v" val="垂直"/>
+			<str id="pa" val="パス"/>
+		</dlg>
+
+		<dlg id="IDD_ENHANCE">
+			<str id="fi" val="フィルタ"/>
+			<str id="lp" val="ローパス"/>
+			<str id="hp" val="ハイパス"/>
+			<str id="g" val="ガウス"/>
+			<str id="hg" val="ハイガウス"/>
+			<str id="equ" val="イコライゼーション"/>
+			<str id="fl" val="フラット化"/>
+			<str id="me" val="中央値"/>
+			<str id="rk" val="ランク"/>
+			<str id="pa" val="パス"/>
+			<str id="w" val="ウインドウ"/>
+		</dlg>
+
+		<dlg id="IDD_FILLDIALOG">
+			<str id="tl" val="値を入力"/>
+		</dlg>
+
+		<dlg id="IDD_GRAY">
+			<str id="tl" val="グレースケール"/>
+			<str id="alg" val="アルゴリズム"/>
+			<str id="ave" val="平均"/>
+			<str id="max" val="最大値"/>
+			<str id="we" val="加重平均"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM">
+			<str id="tl" val="ヒストグラム"/>
+			<str id="ch" val="チャネル"/>
+			<str id="le" val="レベル:"/>
+			<str id="co" val="画素数:"/>
+			<str id="px" val="総画素数:"/>
+			<str id="per" val="パーセント:"/>
+		</dlg>
+
+		<dlg id="IDD_KERPAGE">
+			<str id="ker" val="カーネル"/>
+			<str id="er" val="収縮"/>
+			<str id="di" val="膨張"/>
+			<str id="open" val="オープニング"/>
+			<str id="cl" val="クロージング"/>
+			<str id="pa" val="パス"/>
+			<str id="fi" val="フィルタタイプ"/>
+			<str id="conv" val="コンボリューション"/>
+			<str id="morp" val="モーフォロジカル"/>
+		</dlg>
+
+		<dlg id="IDD_KERSTRUCT">
+			<str id="tl" val="カーネル編集"/>
+			<str id="size" val="カーネルサイズ"/>
+			<str id="fill" val="埋める"/>
+			<str id="bo" val="強調"/>
+		</dlg>
+
+		<dlg id="IDD_MORPAGE">
+			<str id="fil" val="フィルタ"/>
+			<str id="er" val="収縮"/>
+			<str id="di" val="拡張"/>
+			<str id="open" val="オープニング"/>
+			<str id="cl" val="クロージング"/>
+			<str id="tph" val="トップハット変換"/>
+			<str id="well" val="井戸変換"/>
+			<str id="gra" val="傾斜"/>
+			<str id="dis" val="距離"/>
+			<str id="thi" val="細分化"/>
+			<str id="wat" val="ウォーターシェッド分割"/>
+			<str id="pa" val="パス"/>
+			<str id="2x2" val="2 x 2 四角形"/>
+			<str id="3x1" val="3 x 1 行"/>
+			<str id="1x3" val="1 x 3 列"/>
+			<str id="3x3" val="3 x 3 クロス"/>
+			<str id="5x5" val="5 x 5 円"/>
+			<str id="7x7" val="7 x 7 円"/>
+			<str id="11x11" val="11 x 11 円"/>
+		</dlg>
+
+		<dlg id="IDD_ROTATE">
+			<str id="tl" val="画像回転"/>
+			<str id="deg" val="度:"/>
+			<str id="qu" val="品質"/>
+			<str id="cw" val="時計回り"/>
+			<str id="ccw" val="反時計回り"/>
+			<str id="an" val="角度"/>
+		</dlg>
+
+		<dlg id="IDD_SCALE">
+			<str id="tl" val="画像サイズ"/>
+			<str id="con" val="比率を固定"/>
+			<str id="met" val="スケール方法"/>
+		</dlg>
+
+		<dlg id="IDD_GAMMA">
+			<str id="tl" val="ガンマ調整"/>
+		</dlg>
+
+		<dlg id="IDD_HMS">
+			<str id="tl" val="ハイライト/ミッドトーン/シャドウ"/>
+		</dlg>
+
+		<dlg id="IDD_CHANNEL">
+			<str id="tl" val="カラー選択"/>
+		</dlg>
+
+		<dlg id="IDD_PROFILE">
+			<str id="t" val="ラインプロフィール"/>
+		</dlg>
+
+		<dlg id="IDD_AUNIT">
+			<str id="all" val="計測サイドバーにすべての角度の単位を表示します"/>
+		</dlg>
+
+		<dlg id="IDD_ADDUNIT">
+			<str id="tl" val="単位を追加します"/>
+			<str id="sc" val="縮尺:"/>
+			<str id="sy" val="シンボル:"/>
+		</dlg>
+
+		<dlg id="IDD_GENERAL">
+			<str id="res" val="計算結果を保持:"/>
+			<str id="lfs" val="フォントサイズを表示:"/>
+			<str id="unit" val="単位を付けて範囲を表示"/>
+			<str id="a" val="計測結果に自動で名前を付ける"/>
+			<str id="hm" val="計測対象を移動するとき、表示を隠します"/>
+            <str id="sp" val="数値と単位記号の間にスペースを入れてください(「12.34 mm」または「12.34mm」)"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_DELETE">
+			<str id="tl" val="レイヤを削除"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_CURRENT">
+			<str id="tl" val="現在のレイヤ"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_MANAGE">
+			<str id="tl" val="レイヤの表示、非表示"/>
+		</dlg>
+
+		<dlg id="IDD_MEASURELIST">
+			<str id="col" val="計測シートの列を定義"/>
+			<str id="o" val="カスタムオブジェクト..."/>
+			<str id="c" val="カスタム列..."/>
+			<str id="a" val="カスタム計算..."/>
+			<str id="r" val="カスタム行..."/>
+			<str id="s" val="統計(次の行を計測シートに追加します)"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR_COMPOSITE">
+			<str id="tl" val="蛍光画像合成"/>
+			<str id="so" val="元画像:"/>
+			<str id="co" val="カラー:"/>
+			<str id="all" val="すべての画像"/>
+			<str id="se" val="選択された画像"/>
+			<str id="adj" val="調整"/>
+			<str id="reg" val="登録"/>
+		</dlg>
+
+		<dlg id="IDD_COMPOSITE_AVA">
+			<str id="so" val="元画像"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_SELECT_COLOR">
+			<str id="tl" val="カラーの選択"/>
+			<str id="fle" val="ファイルを調整:"/>
+			<str id="se" val="選択した色:"/>
+			<str id="back" val="背景"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_DYE_LIST">
+			<str id="tl" val="染料リストを編集"/>
+			<str id="rel" val="すべてリロード"/>
+			<str id="ext" val="励起波長:"/>
+			<str id="em" val="蛍光波長:"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_NEW_DYE">
+			<str id="tl" val="新規染料"/>
+		</dlg>
+
+		<dlg id="IDD_STACKING">
+			<str id="tl" val="イメージスタッキング"/>
+		</dlg>
+
+		<dlg id="IDD_PROP">
+			<str id="set" val="計測結果のデフォルト属性を設定します:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_OPTION">
+			<str id="tl" val="計数のオプション"/>
+			<str id="os" val="アウトラインスタイル:"/>
+			<str id="ot" val="スタイル:"/>
+			<str id="lm" val="方法:"/>
+			<str id="wh" val="穴を埋める"/>
+			<str id="la" val="ラベル"/>
+			<str id="min" val="下限:"/>
+			<str id="max" val="上限:"/>
+			<str id="sc" val="シーン:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_HISTORGRAM">
+			<str id="tl" val="ヒストグラム"/>
+			<str id="sa" val="すべて表示"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_COLORCUBE">
+			<str id="to" val="許容誤差"/>
+		</dlg>
+
+		<dlg id="IDD_NLM">
+			<str id="tl" val="ノンローカルミーン"/>
+			<str id="sw" val="検索ウインドウ:"/>
+			<str id="tw" val="テンプレートウィンドウ:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYD">
+			<str id="d" val="細部の精細さ:"/>
+			<str id="o" val="総明度:"/>
+			<str id="b" val="背景明度:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_ALIGN">
+			<str id="aa" val="自動整列"/>
+			<str id="a0" val="なし"/>
+			<str id="a1" val="シフト+スケール"/>
+			<str id="a2" val="シフト+スケール+回転"/>
+			<str id="ma" val="最大角度:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_FM">
+			<str id="at" val="自動的に参照画像を決定します"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYDSTACK">
+			<str id="dm" val="深度マップの回復:"/>
+			<str id="ri" val="アイランドを削除:"/>
+			<str id="lf" val="ローパスフィルタ:"/>
+			<str id="hf" val="ハイパスフィルタ:"/>
+			<str id="ac" val="コントラスト調整:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERADFC">
+			<str id="tip" val="レンズ前面にキャップを取付け遮光して下さい。画面が暗い事を確認して「キャプチャ」をクリックして下さい。サンプリング終了後、「オン」をチェックし、ダークフィールド補正を有効にします。"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFFC">
+			<str id="tip" val="試料を退け、背景のみの像にしてから「キャプチャ」をクリックします。「オン」にチェックを入れるとシェーディング補正が有効になります。"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALIVESTACK">
+			<str id="af" val="整列フレーム"/>
+			<str id="pl" val="惑星"/>
+			<str id="ds" val="深宇宙"/>
+			<str id="in" val="入力:"/>
+			<str id="out" val="出力:"/>
+		</dlg>
+
+		<dlg id="IDD_BF">
+			<str id="tt" val="双方向フィルタ"/>
+			<str id="size" val="バリュードメイン:"/>
+			<str id="s" val="空間ドメイン:"/>
+		</dlg>
+
+		<dlg id="IDD_CLAHE">
+			<str id="tl" val="ヒストグラム均等化"/>
+		</dlg>
+
+		<dlg id="IDD_UNSHARPMASK">
+			<str id="tl" val="アンシャープマスク"/>
+			<str id="a" val="量:"/>
+		</dlg>
+
+		<dlg id="IDD_DETAILENHANCE">
+			<str id="tl" val="鮮鋭化"/>
+			<str id="s" val="空間偏差:"/>
+			<str id="r" val="範囲偏差:"/>
+		</dlg>
+
+		<dlg id="IDD_EDGEPRESERVINGSMOOTH">
+			<str id="tl" val="エッジ重視の平滑化"/>
+			<str id="s" val="空間偏差:"/>
+			<str id="r" val="範囲偏差:"/>
+			<str id="f" val="フィルタ"/>
+			<str id="re" val="再帰"/>
+			<str id="n" val="正規化畳込み"/>
+		</dlg>
+
+		<dlg id="IDD_LLC">
+			<str id="tl" val="局部色彩補正"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFORMAT">
+			<str id="v" val="属性"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERACOOL">
+			<str id="po" val="パワー:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERATRIGGER">
+			<str id="vm" val="ビデオモード"/>
+			<str id="tr" val="トリガモード"/>
+			<str id="live" val="プレビュー:"/>
+		</dlg>
+
+		<dlg id="IDD_EXPORTOPTIONS">
+			<str id="t" val="エクスポート"/>
+			<str id="d" val="フォントサイズ（自動設定値）:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERABINNING">
+			<str id="m" val="方法:"/>
+		</dlg>
+
+		<dlg id="IDD_FITSADD">
+			<str id="a" val="(1~8アルファベットまたは数字, A~Z, a~z, 0~9)"/>
+		</dlg>
+
+		<dlg id="IDD_QUICKSAVERENAME">
+			<str id="c" val="名前を変更するダイアログ後で表示しない"/>
+		</dlg>
+
+		<dlg id="IDD_REPORT">
+			<str id="t" val="テンプレート"/>
+			<str id="l" val="複製..."/>
+			<str id="a" val="すべてリセット"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAAF">
+			<str id="c" val="センサリセット"/>
+			<str id="0" val="Cマウント 0mm"/>
+			<str id="l" val="レンズ:"/>
+			<str id="n" val="近く"/>
+			<str id="f" val="遠い"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_MANUAL">
+			<str id="tl" val="手動カウント"/>
+			<str id="er" val="消去"/>
+			<str id="sn" val="シーケンスを表示"/>
+		</dlg>
+
+		<dlg id="IDD_IOCONTROL">
+			<str id="gm" val="GPIOモード:"/>
+			<str id="oi" val="出力反転:"/>
+			<str id="sd" val="ストロボの持続期間:"/>
+			<str id="ia" val="入力起動:"/>
+			<str id="dt" val="デバウンス時間:"/>
+			<str id="ls" val="ライン選択:"/>
+			<str id="cs" val="カウンタソース:"/>
+			<str id="ps" val="PWM ソース:"/>
+			<str id="cv" val="カウンタ値:"/>
+			<str id="om" val="出力モード:"/>
+			<str id="uv" val="ユーザー値:"/>
+			<str id="sdm" val="ストロボの遅延モード:"/>
+			<str id="sdt" val="ストロボの遅延時間:"/>
+			<str id="cr" val="カウンタリセット:"/>
+			<str id="td" val="トリガ遅延:"/>
+		</dlg>
+
+		<dlg id="IDD_LUA">
+			<str id="c" val="コード:"/>
+		</dlg>
+
+		<dlg id="IDD_RENDER_MODE">
+			<str id="l" val="直線"/>
+			<str id="q" val="四辺形"/>
+			<str id="t" val="三角形"/>
+			<str id="s" val="スライス"/>
+			<str id="c" val="天然色"/>
+		</dlg>
+
+		<dlg id="IDD_LIGHTING">
+			<str id="e" val="光を有効にする"/>
+			<str id="a" val="環境"/>
+			<str id="s" val="ハイライト"/>
+			<str id="h" val="光沢の程度"/>
+			<str id="l" val="光源の位置"/>
+			<str id="p" val="光源のパラメーター"/>
+		</dlg>
+
+		<dlg id="IDD_3DDLG">
+			<str id="t" val="3Dサーフェス"/>
+			<str id="s" val="示す"/>
+			<str id="a" val="軸"/>
+		</dlg>
+
+		<dlg id="IDD_IOADVANCED">
+			<str id="a" val="ソフトウェアトリガーを常に有効にする"/>
+			<str id="b" val="ボーレート:"/>
+			<str id="l" val="回線モード:"/>
+			<str id="r" val="受け取る"/>
+			<str id="d" val="送る"/>
+			<str id="e" val="露出の有効信号モード:"/>
+			<str id="x" val="露出の開始行:"/>
+			<str id="y" val="露出の終わり行:"/>
+		</dlg>
+
+		<dlg id="IDD_DBSTEP1">
+			<str id="t" val="データベースに接続します"/>
+			<str id="s" val="ODBCドライバ:"/>
+			<str id="h" val="サーバー:"/>
+			<str id="u" val="ユーザー:"/>
+			<str id="p" val="パスワード:"/>
+			<str id="a" val="アプリケーションの起動時に自動的に接続します"/>
+		</dlg>
+
+		<dlg id="IDD_DBCOLUMN">
+			<str id="i" val="インデックスを作成して検索とソートを高速化します"/>
+			<str id="d" val="データのタイプ:"/>
+			<str id="v" val="デフォルト値:"/>
+			<str id="e" val="定義..."/>
+		</dlg>
+
+		<dlg id="IDD_DBINSERT">
+			<str id="t" val="データベースに挿入"/>
+		</dlg>
+
+		<dlg id="IDD_DBVALUE">
+			<str id="e" val="列挙タイプ"/>
+		</dlg>
+
+		<dlg id="IDD_DBSHOW">
+			<str id="t" val="列の表示/隠す"/>
+		</dlg>
+
+		<dlg id="IDD_DBOPTION">
+			<str id="m" val="テキスト検索モード"/>
+			<str id="n" val="普通モード、*をワイルドカードにします"/>
+			<str id="s" val="SQLモード、SQL LIKE構文を使います"/>
+		</dlg>
+
+		<dlg id="IDD_WAIT">
+			<str id="t" val="待つ"/>
+			<str id="p" val="お待ちください:"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM_OPTION">
+			<str id="y" val="Y軸"/>
+			<str id="s" val="平均値や標準偏差などをを表示します"/>
+		</dlg>
+		
+		<dlg id="IDD_GIGENET">
+			<str id="s" val="サブネットマスク:"/>
+			<str id="g" val="デフォルト ゲートウェイ:"/>
+		</dlg>
+		
+		<dlg id="IDD_FW">
+			<str id="n" val="スロット数:"/>
+		</dlg>
+		
+		<dlg id="IDD_PSEUDOCOLOR">
+			<str id="s" val="開始色:"/>
+			<str id="e" val="エンドカラー:"/>
+		</dlg>
+		
+		<dlg id="IDD_NOSE">
+			<str id="s" val="ベンダ:"/>
+			<str id="e" val="スロット:"/>
+		</dlg>
+	</dialog>
+
+	<menu>
+		<str id="fle" val="ファイル(&amp;F)"/>
+		<str id="edt" val="編集(&amp;E)"/>
+		<str id="vew" val="ビュー(&amp;V)"/>
+		<str id="prss" val="プロセス(&amp;P)"/>
+		<str id="opns" val="オプション(&amp;O)"/>
+		<str id="wnd" val="タブ(&amp;W)"/>
+		<str id="hlp" val="ヘルプ(&amp;H)"/>
+		<str id="stup" val="設定(&amp;S)"/>
+		<str id="cptu" val="キャプチャ(&amp;C)"/>
+		<str id="imag" val="画像(&amp;I)"/>
+		<str id="layr" val="レイヤ(&amp;L)"/>
+		<str id="meas" val="計測(&amp;M)"/>
+		<str id="brws" val="ブラウズ(&amp;B)"/>
+		<str id="db" val="データベース(&amp;D)"/>
+
+		<str id="recf" val="最近使ったファイル(&amp;R)"/>
+		<str id="sdbr" val="サイドバー(&amp;S)"/>
+		<str id="sort" val="ソート(&amp;S)"/>
+		<str id="icns" val="アイコン(&amp;I)"/>
+		<str id="grds" val="グリッド(&amp;G)"/>
+		<str id="mvwm" val="ウォーターマークを移動(&amp;M)"/>
+		<str id="rtwm" val="ウォーターマークを回転(&amp;R)"/>
+		<str id="mode" val="モード(&amp;M)"/>
+		<str id="adj" val="調整(&amp;A)"/>
+		<str id="rtt" val="回転(&amp;T)"/>
+		<str id="line" val="直線(&amp;L)"/>
+		<str id="vert" val="垂直線(&amp;V)"/>
+		<str id="crcl" val="円(&amp;C)"/>
+		<str id="ccleh" val="同心円(&amp;H)"/>
+		<str id="tocls" val="二つの円(&amp;S)"/>
+		<str id="zodr" val="スタッキング順(&amp;Z)"/>
+		<str id="lunit" val="長さの単位(&amp;U)"/>
+
+		<str id="oimg" val="画像を開く(&amp;O)..."/>
+		<str id="ovid" val="ビデオを開く(&amp;V)..."/>
+		<str id="obcas" val="ブロードキャストを開く(&amp;C)..."/>
+		<str id="sckin" val="イメージスタッキング(&amp;S)..."/>
+		<str id="batsv" val="バッチ保存(&amp;B)..."/>
+		<str id="qksv" val="クイック保存(&amp;Q)"/>
+		<str id="psnew" val="新規ファイルとして貼り付け(&amp;N)"/>
+		<str id="norec" val="最近使ったファイルはありません"/>
+		<str id="exit" val="終了(&amp;X)"/>
+		<str id="cut" val="切り取り(&amp;T)"/>
+		<str id="copy" val="コピー(&amp;C)"/>
+		<str id="pste" val="貼り付け(&amp;P)"/>
+		<str id="passc" val="ショートカットの貼り付け(&amp;S)"/>
+		<str id="selal" val="すべて選択(&amp;A)"/>
+		<str id="ivsel" val="選択を反転(&amp;I)"/>
+		<str id="mshet" val="計測シート(&amp;M)"/>
+		<str id="camsb" val="カメラ(&amp;C)"/>
+		<str id="fosb" val="フォルダ(&amp;F)"/>
+		<str id="ursb" val="取り消し/やり直し(&amp;U)"/>
+		<str id="lydb" val="レイヤ(&amp;L)"/>
+		<str id="msbar" val="計測(&amp;M)"/>
+		<str id="hsbar" val="ヒストグラム(&amp;H)"/>
+		<str id="prfs" val="設定(&amp;P)..."/>
+		<str id="mm" val="計測(&amp;M)..."/>
+		<str id="mf" val="スケール(&amp;F)..."/>
+		<str id="clbr" val="較正(&amp;C)..."/>
+		<str id="edtdy" val="染料リストを編集(&amp;E)..."/>
+		<str id="atcor" val="自動修正(&amp;A)..."/>
+		<str id="f1" val="ヘルプの内容(&amp;H)"/>
+		<str id="ab" val="この製品について(&amp;A)"/>
+
+		<str id="save" val="保存(&amp;S)"/>
+		<str id="svee" val="保存(&amp;S)..."/>
+		<str id="svas" val="名前を付けて保存(&amp;A)..."/>
+		<str id="imgsl" val="画像を選択(&amp;I)"/>
+		<str id="seln" val="選択を解除(&amp;N)"/>
+
+		<str id="gno" val="グリッドなし(&amp;N)"/>
+		<str id="grm" val="マニュアルグリッド(&amp;M)"/>
+		<str id="gda" val="自動グリッド(&amp;A)"/>
+		<str id="gdl" val="すべてのグリッドを削除(&amp;R)"/>
+		<str id="rlset" val="設定(&amp;S)..."/>
+		<str id="fitwi" val="ウィンドウをフィット(&amp;E)"/>
+		<str id="asiz" val="実際のサイズ(&amp;A)"/>
+		<str id="trk" val="ドラッグ(&amp;K)"/>
+
+		<str id="sith" val="スティッチング(&amp;T)..."/>
+		<str id="dldt" val="削除(&amp;D)"/>
+		<str id="bbro" val="ブラウズ(&amp;B)"/>
+		<str id="openf" val="開く(&amp;O)"/>
+
+		<str id="sttp" val="フリーズ(&amp;F)"/>
+		<str id="fscr" val="全画面表示(&amp;F)"/>
+		<str id="vwpp" val="診断(&amp;D)"/>
+		<str id="vvl" val="ビデオ、オーバレイ(&amp;O)..."/>
+		<str id="vwm" val="ウォーターマーク(&amp;W)..."/>
+		<str id="wmmv" val="移動(&amp;M)..."/>
+		<str id="wmzro" val="移動の取消(&amp;Z)"/>
+		<str id="wmrot" val="回転(&amp;R)..."/>
+		<str id="wmrz" val="回転の取消(&amp;Z)"/>
+		<str id="gcal" val="グレー較正(&amp;G)"/>
+		<str id="edf" val="フォーカススタッキング (&amp;F)..."/>
+		<str id="cpig" val="静止画をキャプチャ(&amp;C)"/>
+		<str id="tmlps" val="タイムラプス撮影(&amp;T)..."/>
+		<str id="strec" val="録画開始/停止(&amp;R)..."/>
+		<str id="brec" val="バッチ記録(&amp;B)"/>
+		<str id="acap" val="自動キャプチャ(&amp;A)"/>
+		<str id="sttb" val="ブロードキャストを開始/停止..."/>
+
+		<str id="qtiz" val="カラー量子化(&amp;Q)..."/>
+		<str id="gsca" val="モノクロ化(&amp;G)"/>
+		<str id="curv" val="曲線(&amp;U)..."/>
+		<str id="alvl" val="自動階調(&amp;L)"/>
+		<str id="acon" val="自動コントラスト(&amp;T)"/>
+		<str id="eql" val="ヒストグラム均衡化(&amp;Q)..."/>
+		<str id="bc" val="明度/コントラスト(&amp;A)..."/>
+		<str id="imclr" val="カラー(&amp;O)..."/>
+		<str id="gamm" val="ガンマ(&amp;G)..."/>
+		<str id="fclr" val="色フィルタ(&amp;F)..."/>
+		<str id="eclr" val="色抽出(&amp;E)..."/>
+		<str id="iclr" val="色反転(&amp;I)"/>
+		<str id="r90" val="&amp;90度(時計回り)"/>
+		<str id="r180" val="&amp;180度(時計回り)"/>
+		<str id="r270" val="&amp;270度(時計回り)"/>
+		<str id="rotar" val="任意の角度(&amp;A)..."/>
+		<str id="filph" val="水平反転(&amp;H)"/>
+		<str id="flipv" val="垂直反転(&amp;V)"/>
+		<str id="crop" val="クロップ(&amp;C)"/>
+		<str id="imsca" val="画像サイズ(&amp;I)..."/>
+		<str id="hist" val="ヒストグラム(&amp;H)..."/>
+		<str id="reso" val="解像度(&amp;R)..."/>
+		<str id="ovlsb" val="オーバレイ、スケールバー(&amp;O)..."/>
+
+		<str id="fi" val="フィルタ(&amp;I)..."/>
+		<str id="rang" val="範囲(&amp;R)..."/>
+		<str id="biy" val="バイナリー(&amp;B)..."/>
+		<str id="psud" val="擬似カラー(&amp;P)..."/>
+		<str id="sfac" val="表面プロット(&amp;O)..."/>
+		<str id="prf" val="ラインのプロフィール(&amp;L)..."/>
+		<str id="mosc" val="モザイク(&amp;O)..."/>
+		<str id="cmps" val="蛍光画像合成(&amp;M)..."/>
+		<str id="dens" val="ノイズ除去(&amp;D)"/>
+		<str id="nlm" val="ノンローカルミーン(&amp;N)..."/>
+		<str id="bila" val="双方向フィルタ(&amp;B)..."/>
+		<str id="awf" val="適応ウィナーフィルタ(&amp;A)"/>
+
+		<str id="lnew" val="新規(&amp;N)..."/>
+		<str id="lrem" val="削除(&amp;R)..."/>
+		<str id="lcur" val="現在(&amp;T)..."/>
+		<str id="lshow" val="表示/隠す(&amp;S)..."/>
+		<str id="len" val="名前の変更(&amp;E)..."/>
+		<str id="lexp" val="画像にマージ(&amp;M)..."/>
+		<str id="mexp" val="画像にマージ(&amp;I)"/>
+		<str id="ldrem" val="削除(&amp;R)"/>
+		<str id="ldcur" val="現在(&amp;C)"/>
+		<str id="ldshw" val="表示/非表示(&amp;S)"/>
+
+		<str id="osel" val="選択(&amp;J)"/>
+		<str id="angl" val="角度(&amp;N)"/>
+		<str id="point" val="点(&amp;P)"/>
+		<str id="arbl" val="任意(&amp;A)"/>
+		<str id="hline" val="水平(&amp;H)"/>
+		<str id="vline" val="垂直(&amp;V)"/>
+		<str id="parl" val="平行線(&amp;R)"/>
+		<str id="pnt8" val="&amp;8点"/>
+		<str id="pnt5" val="&amp;5点"/>
+		<str id="pnt4" val="&amp;4点"/>
+		<str id="pnt3" val="&amp;3点"/>
+		<str id="pnt2" val="&amp;2点"/>
+		<str id="rctg" val="四角形(&amp;G)"/>
+		<str id="elps" val="楕円(&amp;I)"/>
+		<str id="crad" val="中心+半径(&amp;C)"/>
+		<str id="alus" val="同心円(&amp;U)"/>
+		<str id="arc" val="弧(&amp;A)"/>
+		<str id="text" val="文字(&amp;T)"/>
+		<str id="plg" val="多角形(&amp;Y)"/>
+		<str id="ztop" val="トップ(&amp;T)"/>
+		<str id="zbtm" val="ボトム(&amp;B)"/>
+		<str id="zup" val="上へ移動(&amp;U)"/>
+		<str id="zdown" val="下へ移動(&amp;D)"/>
+		<str id="sbar" val="スケールバー(&amp;B)..."/>
+		<str id="lcv" val="曲線(&amp;E)"/>
+		<str id="mode1" val="フリーハンド(&amp;R)"/>
+		<str id="mode2" val="多点間(&amp;M)"/>
+		<str id="arrw" val="矢印(&amp;W)"/>
+
+		<str id="call" val="すべて閉じる(&amp;C)"/>
+		<str id="rstlo" val="タブレイアウトをリセット(&amp;R)"/>
+		<str id="wnds" val="タブ(&amp;W)..."/>
+
+		<str id="aunit" val="角度の単位(&amp;A)..."/>
+
+		<str id="nccls" val="閉じる(&amp;C)"/>
+		<str id="nccla" val="これ以外のすべてを閉じる(&amp;A)"/>
+		<str id="clsth" val="他を閉じる(&amp;H)"/>
+		<str id="fprop" val="ファイル、プロパティ(&amp;F)..."/>
+		<str id="cpath" val="フルパスをコピー(&amp;Y)"/>
+		<str id="brofo" val="含んでいるフォルダをブラウズする(&amp;B)"/>
+		<str id="openfo" val="含んでいるフォルダを開く(&amp;O)"/>
+		<str id="htbgp" val="新規の水平タブ(&amp;H)"/>
+		<str id="vtbgp" val="新規の垂直タブ(&amp;V)"/>
+		<str id="nxtbg" val="次のタブに移動(&amp;X)"/>
+		<str id="prebg" val="前のタブに移動(&amp;R)"/>
+		<str id="ftwid" val="幅に最適(&amp;I)"/>
+		<str id="fthei" val="高さに最適(&amp;H)"/>
+		<str id="fitwi" val="フィッティング(&amp;W)"/>
+
+		<str id="bronm" val="名前で並べ替え(&amp;N)"/>
+		<str id="brotp" val="種類で並べ替え(&amp;T)"/>
+		<str id="brosz" val="大きさで並べ替え(&amp;S)"/>
+		<str id="browd" val="幅で並べ替え(&amp;W)"/>
+		<str id="brohe" val="高さで並べ替え(&amp;H)"/>
+		<str id="brotx" val="拡張子で並べ替え(&amp;E)"/>
+		<str id="brofw" val="昇順(&amp;A)"/>
+		<str id="brorv" val="降順(&amp;D)"/>
+		<str id="brol" val="大きいアイコン(&amp;L)"/>
+		<str id="bros" val="小さいアイコン(&amp;S)"/>
+		<str id="brorf" val="再読込(&amp;R)"/>
+		<str id="bropo" val="プロパティ(&amp;P)..."/>
+
+		<str id="mimp" val="ファイルのインポート(&amp;I)..."/>
+		<str id="msav" val="ファイル保存(&amp;S)..."/>
+		<str id="mhtm" val="&amp;Htmlにエクスポート"/>
+		<str id="mexc" val="&amp;Excelにエクスポート..."/>
+
+		<str id="bstf" val="最適(&amp;B)"/>
+		<str id="asiz" val="実際のサイズ(&amp;A)"/>
+
+		<str id="edpn" val="通常(&amp;N)"/>
+		<str id="edph" val="スタイル&amp;H"/>
+
+		<str id="oc" val="自動カウント(&amp;C)"/>
+		<str id="ocws" val="ウォーターシェッド変換(&amp;W)..."/>
+		<str id="ocsd" val="判別分析法(暗)(&amp;D)..."/>
+		<str id="ocsb" val="判別分析法(明)(&amp;B)..."/>
+		<str id="ocrhs" val="RGBヒストグラム(&amp;R)..."/>
+		<str id="ochhs" val="HSVヒストグラム(&amp;H)..."/>
+		<str id="occc" val="カラーキューブ(&amp;C)..."/>
+
+		<str id="chair" val="十字(&amp;H)"/>
+		<str id="st4" val="ST４テスト(&amp;4)..."/>
+
+		<str id="hdr" val="ハイダイナミックレンジ(&amp;HDR)..."/>
+
+		<str id="shpn" val="シャープ(&amp;N)"/>
+		<str id="lshp" val="ラプラシアンシャープ(&amp;L)"/>
+		<str id="unshp" val="アンシャープマスク(&amp;U)..."/>
+
+		<str id="dclr" val="コントラスト重視のモノクロ化(&amp;C)"/>
+		<str id="epsm" val="エッジ重視の平滑化(&amp;S)..."/>
+		<str id="denh" val="鮮鋭化(&amp;D)..."/>
+
+		<str id="llc" val="局部色彩の修正(&amp;R)..."/>
+		<str id="cton" val="カラー トーニング(&amp;G)"/>
+
+		<str id="deil" val="インターレース解除(&amp;A)"/>
+
+		<str id="opnrf" val="記録フォルダを開く(&amp;D)"/>
+		<str id="opnif" val="画像フォルダを開く(&amp;I)"/>
+
+		<str id="lined" val="寸法線(&amp;3)"/>
+
+		<str id="tnal" val="サムネイル(&amp;T)"/>
+		<str id="avw" val="ビデオタブを有効にする(&amp;V)"/>
+
+		<str id="cust" val="カスタマイズ(&amp;C)..."/>
+		<str id="ctool" val="カスタマイズツールバー(&amp;C)..."/>
+
+		<str id="cent" val="中心(&amp;R)"/>
+		<str id="sernx" val="次のフレーム(&amp;N)"/>
+		<str id="serpv" val="前のフレーム(&amp;V)"/>
+
+		<str id="ext" val="外部プロセス(&amp;L)"/>
+
+		<str id="man" val="管理(&amp;M)..."/>
+		<str id="word" val="現在のレポート(&amp;R)"/>
+		<str id="wors" val="レポート(&amp;M)"/>
+
+		<str id="gdiv" val="等しい(&amp;D)..."/>
+		<str id="deep" val="ディープコピー(&amp;D)"/>
+
+		<str id="manuc" val="手動(&amp;M)..."/>
+		<str id="expex" val="&amp;Excelにをエクスポート"/>
+		<str id="expcb" val="クリップボードにをエクスポート(&amp;C)"/>
+		<str id="expim" val="画像にエクスポート(&amp;I)"/>
+
+		<str id="pipe" val="ピペット(&amp;P)"/>
+		<str id="preset" val="プリセット(&amp;T)"/>
+
+		<str id="extr" val="添付(&amp;X)"/>
+		<str id="holl" val="中空の程度(&amp;H)"/>
+		<str id="pfdg" val="不規則性の程度(&amp;P)"/>
+		<str id="frat" val="平坦度比(&amp;F)"/>
+		<str id="choll" val="円の中空の程度(&amp;C)"/>
+		<str id="pholl" val="多辺形の中空の程度(&amp;P)"/>
+
+		<str id="clhd" val="隠す(&amp;H)"/>
+		<str id="clsl" val="選択(&amp;S)..."/>
+
+		<str id="whba" val="ホワイトバランス(&amp;W)"/>
+
+		<str id="comb" val="組み合わせ(&amp;M)"/>
+		<str id="ucom" val="結合しません(&amp;U)"/>
+
+		<str id="arra" val="アレンジメント(&amp;G)"/>
+		<str id="cstm" val="カスタム(&amp;M)"/>
+
+		<str id="expt" val="エクスポート(&amp;X)"/>
+		<str id="expf" val="エクスポート(&amp;X)..."/>
+		<str id="impf" val="インポート(&amp;I)..."/>
+
+		<str id="copa" val="比較する(&amp;M)"/>
+
+		<str id="dstup" val="新規(&amp;N)..."/>
+		<str id="drop" val="削除(&amp;D)"/>
+		<str id="clea" val="クリア(&amp;C)"/>
+		<str id="dconn" val="つなぐ(&amp;C)..."/>
+		<str id="disc" val="切断する(&amp;D)"/>
+		<str id="inse" val="データベースに挿入(&amp;I)..."/>
+		<str id="opts" val="オプション(&amp;O)..."/>
+		<str id="oima" val="画像を開く(&amp;O)"/>
+
+		<str id="rena" val="名前変更(&amp;R)..."/>
+		<str id="dye" val="染色(&amp;Y)..."/>
+
+		<str id="item" val="項目(&amp;T)"/>
+		<str id="aitem" val="すべてのアイテム(&amp;L)"/>
+		<str id="aimag" val="すべての画像(&amp;A)"/>
+
+		<str id="expg" val="露出時間/ゲイン(&amp;E)"/>
+		<str id="load" val="読込(&amp;L)"/>
+
+        <str id="clti" val="すべての一時的な画像を閉じる(&amp;T)"/>
+
+		<str id="auto" val="自動(&amp;A)..."/>
+		<str id="defu" val="初期設定(&amp;D)"/>
+		<str id="rest" val="リセット(&amp;R)"/>
+		
+		<str id="disa" val="無効(&amp;D)"/>
+		<str id="b1" val="&amp;1 バイト"/>
+		<str id="b2" val="&amp;2 バイト"/>
+		<str id="b4" val="&amp;4 バイト"/>
+		
+		<str id="ipm" val="&amp;IPアドレス..."/>
+		<str id="rtm" val="リアルタイム(&amp;T)"/>
+		
+		<str id="nosep" val="レボルバー(&amp;N)..."/>
+	</menu>
+</i18n>

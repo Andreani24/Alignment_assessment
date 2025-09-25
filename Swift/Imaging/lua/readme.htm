@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Lua Help</title>
+</head>
+<body>
+<h1>English</h1>
+<blockquote><p>I. https://www.lua.org/docs.html<br/>
+    <blockquote>lua version: 5.1</blockquote>
+</p></blockquote>
+<blockquote><p>II. samples:<br/>
+    <blockquote>average.lua<br/>
+    check.lua<br/>
+    dump.lua<br/>
+    hollowness.lua<br/></blockquote>
+</p></blockquote>
+<blockquote><p>III. The App call the 'main' function of the lua code with 2 paramenters:<br/>
+    <blockquote>(1) the first paramenter is the measurement object array<br/>
+    (2) the second paramenter is the global information:<br/>
+        <blockquote>(a) unitratio: ratio of meter to current unit, number type, such as 100 means centimeter<br/>
+        (b) unitabbr: abbr of the unit, string type, such as 'cm' means centimeter<br/>
+        (c) resolution: pixel number per meter, number type, such as 1000 means each physical pixel is 0.001 meter<br/>
+        (d) decimal: the number of decimal places<br/></blockquote></blockquote>
+</p></blockquote>
+<blockquote><p>IV. dump.lua can be used to print the structure of the paramenters passed into the 'main' function, such as:<br/>    
+<pre>1 = {
+  type = line
+  length = 4.5070065188327
+  name = L1
+  pt = {
+    1 = {
+      y = 555
+      x = 1083
+    }
+    2 = {
+      y = 1582
+      x = 2530
+    }
+  }
+}
+2 = {
+  type = line
+  length = 3.5661717592399
+  name = L2
+  pt = {
+    1 = {
+      y = 575
+      x = 1905
+    }
+    2 = {
+      y = 1450
+      x = 3003
+    }
+  }
+}
+unitabbr = cm
+unitratio = 100
+resolution = 39370.078740157
+decimal = 2</pre>
+</p></blockquote>
+<h1>Chinese Simplified(简体中文)</h1>
+<blockquote><p>V. 主App调用lua代码中的main函数，带有2个参数:<br/>
+    <blockquote>(1) 参数1是测量对象数组<br/>
+    (2) 参数2是全局信息, 包括:<br/>
+        <blockquote>(a) unitratio: 米和当前单位之间的比值, number类型，如100表示厘米<br/>
+        (b) unitabbr: 当前单位简写, string类型，如cm表示厘米<br/>
+        (c) resolution: 分辨率, 每米的pixel数, number类型, 如1000表示每像素的物理尺寸是0.001米<br/>
+		(d) decimal: 保留小数点位数<br/></blockquote>
+    </blockquote>
+</p></blockquote>
+<blockquote><p>VI. dump.lua可以用于打印传入main函数参数的结构
+</p></blockquote>
+<blockquote><p>VII. lua语言中文参考:<br/>
+        <blockquote>(a) https://www.runoob.com/lua/lua-tutorial.html<br/>
+        (b) https://www.w3cschool.cn/lua<br/>
+        (c) https://www.yiibai.com/lua<br/></blockquote>
+</p></blockquote>
+</body>
+</html>    

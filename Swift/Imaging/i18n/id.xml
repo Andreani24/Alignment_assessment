@@ -1,0 +1,1715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<i18n>
+	<all>
+		<str id="ids_error" val="Kesalahan"/>
+		<str id="ids_true" val="Benar"/>
+		<str id="ids_false" val="Salah"/>
+		<str id="ids_yes" val="Ya"/>
+		<str id="ids_no" val="Tidak"/>
+		<str id="ids_ok" val="Oke"/>
+		<str id="ids_camera" val="Kamera"/>
+		<str id="ids_folders" val="Folder"/>
+		<str id="ids_browse" val="Ramban"/>
+		<str id="ids_back" val="Kembali"/>
+		<str id="ids_forward" val="Meneruskan"/>
+		<str id="ids_backward" val="Mundur"/>
+		<str id="ids_open" val="Buka"/>
+		<str id="ids_width" val="Lebar"/>
+		<str id="ids_height" val="Tinggi"/>
+		<str id="ids_measurement" val="Pengukuran"/>
+		<str id="ids_name" val="Nama"/>
+		<str id="ids_index" val="Indeks"/>
+		<str id="ids_version" val="Versi"/>
+		<str id="ids_sample" val="Contoh"/>
+		<str id="ids_avg" val="Rata-rata"/>
+		<str id="ids_mean" val="Rata-rata"/>
+		<str id="ids_capture" val="Menangkap"/>
+		<str id="ids_stop" val="Henti"/>
+		<str id="ids_close" val="Tutup"/>
+		<str id="ids_save" val="Simpan"/>
+		<str id="ids_none" val="Tidak"/>
+		<str id="ids_time" val="Waktu"/>
+		<str id="ids_frame" val="Bingkai"/>
+		<str id="ids_free" val="Gratis"/>
+		<str id="ids_file" val="Berkas"/>
+		<str id="ids_date" val="Tanggal"/>
+		<str id="ids_year" val="Tahun"/>
+		<str id="ids_month" val="Bulan"/>
+		<str id="ids_day" val="Hari"/>
+		<str id="ids_log" val="Logaritma"/>
+		<str id="ids_exp" val="Eksponensial"/>
+		<str id="ids_poly" val="Polinomial"/>
+		<str id="ids_bl" val="Tingkat hitam"/>
+		<str id="ids_defaults" val="Standar"/>
+		<str id="ids_default" val="Standar"/>
+		<str id="ids_current" val="Sekarang"/>
+		<str id="ids_cancel" val="Batal"/>
+		<str id="ids_apply" val="Gunakan"/>
+		<str id="ids_refresh" val="Segarkan"/>
+		<str id="ids_auto" val="Otomatis"/>
+		<str id="ids_option" val="Pilihan"/>
+		<str id="ids_options" val="Pilihan"/>
+		<str id="ids_preview" val="Pratinjau"/>
+		<str id="ids_size" val="Ukuran"/>
+		<str id="ids_color" val="Warna"/>
+		<str id="ids_px" val="Piksel"/>
+		<str id="ids_appearance" val="Penampilan"/>
+		<str id="ids_scalebar" val="Skala Bar"/>
+		<str id="ids_rename" val="Nama Ulang"/>
+		<str id="ids_desc" val="Deskripsi"/>
+		<str id="ids_remove" val="Hapus"/>
+		<str id="ids_red" val="Merah"/>
+		<str id="ids_green" val="Hijau"/>
+		<str id="ids_blue" val="Biru"/>
+		<str id="ids_add" val="Tambah"/>
+		<str id="ids_del" val="Hapus"/>
+		<str id="ids_sat" val="Saturasi"/>
+		<str id="ids_bri" val="Kecerahan"/>
+		<str id="ids_con" val="Kontras"/>
+		<str id="ids_res" val="Resolusi"/>
+		<str id="ids_compression" val="Kompres"/>
+		<str id="ids_whitebalance" val="Saldo putih"/>
+		<str id="ids_export" val="Eksport"/>
+		<str id="ids_import" val="Impor"/>
+		<str id="ids_thumbnail" val="Gambar kecil"/>
+		<str id="ids_rotate" val="Rotasi"/>
+		<str id="ids_en" val="Mengaktifkan"/>
+		<str id="ids_value" val="Nilai"/>
+		<str id="ids_expti" val="Waktu pencahayaan"/>
+		<str id="ids_rexpti" val="Waktu pencahayaan aktual"/>
+		<str id="ids_observer" val="Pengamat"/>
+		<str id="ids_telescope" val="Teleskop"/>
+		<str id="ids_comment" val="Komentar"/>
+		<str id="ids_model" val="Model kamera"/>
+		<str id="ids_type" val="Tipe"/>
+		<str id="ids_cpyrgt" val="Hak cipta"/>
+		<str id="ids_author" val="Penulis"/>
+		<str id="ids_title" val="Judul"/>
+		<str id="ids_pxf" val="Format piksel"/>
+		<str id="ids_calibrate" val="Kalibrasi"/>
+		<str id="ids_beilv" val="Perbesaran"/>
+		<str id="ids_dis" val="Menonaktifkan"/>
+		<str id="ids_fset" val="Pengaturan pabrik"/>
+		<str id="ids_srp" val="Ketajaman"/>
+		<str id="ids_focus" val="Fokus"/>
+		<str id="ids_af" val="Fokus otomatis"/>
+		<str id="ids_elc" val="Listrik"/>
+		<str id="ids_up" val="Naik"/>
+		<str id="ids_down" val="Turun"/>
+		<str id="ids_revision" val="Revisi"/>
+		<str id="ids_dl" val="Unduh"/>
+		<str id="ids_sw" val="Perangkat lunak"/>
+		<str id="ids_hw" val="Perangkat keras"/>
+		<str id="ids_simu" val="Simulasi"/>
+		<str id="ids_nrecom" val="Tidak direkomendasikan"/>
+		<str id="ids_depre" val="Usang"/>
+		<str id="ids_text" val="Teks"/>
+		<str id="ids_mem" val="Memori"/>
+		<str id="ids_perct" val="Persen"/>
+		<str id="ids_computer" val="Komputer"/>
+		<str id="ids_copy" val="Salin"/>
+		<str id="ids_autoe" val="Pencahayaan otomatis"/>
+		<str id="ids_expta" val="Target pencahayaan"/>
+		<str id="ids_ttemp" val="Suhu"/>
+		<str id="ids_fan" val="Kipas angin"/>
+		<str id="ids_ttemp" val="Target Suhu"/>
+		<str id="ids_display" val="Tampilan"/>
+		<str id="ids_lock" val="Kunci"/>
+		<str id="ids_basic" val="Dasar"/>
+		<str id="ids_sk" val="Tumpukan"/>
+		<str id="ids_neg" val="Negatif"/>
+		<str id="ids_tonem" val="Pemetaan nada"/>
+		<str id="ids_position" val="Posisi"/>
+		<str id="ids_custom" val="Adat"/>
+		<str id="ids_object" val="Objek"/>
+		<str id="ids_cobject" val="Objek pengukuran"/>
+		<str id="ids_all" val="Semua"/>
+		<str id="ids_column" val="Kolom"/>
+		<str id="ids_row" val="Baris"/>
+		<str id="ids_merge" val="Ekspor"/>
+		<str id="ids_shape" val="Bentuk"/>
+		<str id="ids_font" val="Huruf"/>
+		<str id="ids_fontsize" val="Ukuran huruf"/>
+		<str id="ids_fontweight" val="Berat huruf"/>
+		<str id="ids_about" val="Mengenai"/>
+		<str id="ids_horz" val="Horisontal"/>
+		<str id="ids_vert" val="Vertikal"/>
+		<str id="ids_polygon" val="Poligon"/>
+		<str id="ids_adv" val="Maju"/>
+		<str id="ids_strength" val="Daya"/>
+		<str id="ids_linewidth" val="Lebar Garis"/>
+		<str id="ids_compare" val="Membandingkan"/>
+		<str id="ids_db" val="Pangkalan data"/>
+		<str id="ids_new" val="Baru"/>
+		<str id="ids_find" val="Temukan"/>
+		<str id="ids_imag" val="Gambar"/>
+		<str id="ids_lnoise" val="Kebisingan rendah"/>
+		<str id="ids_dye" val="Pewarna"/>
+		<str id="ids_dyv" val="Pencelupan"/>
+		<str id="ids_tl" val="Time-lapse (Otomatik Menangkap)"/>
+		<str id="ids_xoff" val="X Mengimbangi"/>
+		<str id="ids_yoff" val="Y Mengimbangi"/>
+		<str id="ids_ftype" val="Tipe berkas"/>
+		<str id="ids_starddev" val="Standar Deviasi"/>
+		<str id="ids_samstarddev" val="Sampel Standar Deviasi"/>
+		<str id="ids_max" val="Maksimum"/>
+		<str id="ids_mono" val="Monokrom"/>
+		<str id="ids_lightsource" val="Sumber cahaya"/>
+		<str id="ids_on" val="Menghidupkan"/>
+		<str id="ids_off" val="Matikan"/>
+		<str id="ids_high" val="Tinggi"/>
+		<str id="ids_hdr" val="Kisaran dinamis tinggi (HDR)"/>
+		<str id="ids_watermark" val="Tanda air"/>
+        <str id="ids_cate" val="Kategori"/>
+		<str id="ids_settings" val="Pengaturan"/>
+		<str id="ids_llcolor" val="Warna Label"/>
+        <str id="ids_ec" val="Kompensasi Eksposur"/>
+		<str id="ids_item" val="Unsur"/>
+		<str id="ids_discard" val="Membuang"/>
+		<str id="ids_plan" val="Rencana"/>
+		<str id="ids_network" val="Jaringan"/>
+		<str id="ids_ip" val="Alamat IP"/>
+		<str id="ids_mac" val="Alamat MAC"/>
+		<str id="ids_fw" val="Roda Filter"/>
+		<str id="ids_pdpseudocolor" val="Warna semu"/>
+		<str id="ids_lowpc" val="Konsumsi Daya Rendah"/>
+		<str id="ids_exporm" val="Mode Pembacaan"/>
+		<str id="ids_addr" val="Alamat"/>
+		<str id="ids_trg" val="Pemicu"/>
+		<str id="ids_trgs" val="Pemicu Sumber"/>
+		<str id="ids_objlen" val="Lensa objektif"/>
+		<str id="ids_si" val="Tunggal"/>
+		<str id="ids_sq" val="Beberapa"/>
+		<str id="ids_cds" val="Pengambilan sampel ganda berkorelasi"/>
+        <str id="ids_antise" val="Efek Anti Rana"/>
+		<str id="ids_speed" val="Kecepatan"/>
+		<str id="ids_shtt" val="Rana"/>
+		<str id="ids_mshtt" val="Rana Mekanik"/>
+		<str id="ids_mf" val="Tampilan perbesaran"/>
+	</all>
+
+	<string>
+		<str id="ids_cm" val="Sentimeter"/>
+		<str id="ids_um" val="Mikrometer"/>
+		<str id="ids_in" val="Inci"/>
+		<str id="ids_pm" val="Pikometer"/>
+
+		<str id="ids_angle1" val="Derajat"/>
+
+		<str id="ids_colorbuttonother" val="Lain-lain..."/>
+		<str id="ids_intminmax" val="Harap input bilangan bulat antara %d and %d."/>
+
+		<str id="ids_exposure" val="Eksposur"/>
+
+		<str id="ids_noexcel" val="Gagal membuka Microsoft Excel. Harap cek Microsoft Excel sudah terpasang dengan benar."/>
+		<str id="ids_noword" val="Gagal membuka Microsoft Word. Harap cek Microsoft Word sudah terpasang dengan benar."/>
+
+		<str id="ids_outofrange" val="Di luar jangkauan."/>
+		<str id="ids_inputv" val="Nilai input tidak valid."/>
+		<str id="ids_filenr" val="Reserved karakter tidak dapat digunakan dalam nama file."/>
+
+		<str id="ids_deviceid" val="ID Perangkat"/>
+		<str id="ids_devicename" val="Nama Perangkat"/>
+		<str id="ids_stillimagecapture" val="Masih Meng-capture Gambar"/>
+		<str id="ids_stillimagewidth" val="Masih Lebar Gambar"/>
+		<str id="ids_stillimageheight" val="Masih Tinggi Gambar"/>
+		<str id="ids_displaywidth" val="Lebar Tampilan"/>
+		<str id="ids_displayheight" val="Tinggi Tampilan"/>
+		<str id="ids_videowidth" val="Lebar Video"/>
+		<str id="ids_videoheight" val="Tinggi Video"/>
+		<str id="ids_duration" val="Durasi"/>
+		<str id="ids_cameraid" val="Id Kamera"/>
+		<str id="ids_productdate" val="Tanggal produksi"/>
+		<str id="ids_framedropped" val="Bingkai menjatuhkan"/>
+		<str id="ids_framesaved" val="Bingkai Simpan"/>
+		<str id="ids_property" val="Properti"/>
+		<str id="ids_errorstop" val="Error, tidak bisa berhenti."/>
+		<str id="ids_startfail" val="Tidak Dapat Memulai."/>
+		<str id="ids_previewfail" val="TIdak dapat melihat Pratinjau, mohon pasang kembali perangkat dan coba lagi."/>
+		<str id="ids_stoppreviewfail" val="Error, Pratinjau tidak dapat berhenti."/>
+		<str id="ids_noframe" val="Bandwidth USB tidak cukup, mohon kurangi kecepatan frame atau coba menggunakan USB Port yang lain. Pasang kembali perangkat dan coba lagi."/>
+		<str id="ids_surpriseremoval" val="Perangkat telah dicabut."/>
+		<str id="ids_devicelost" val="Menghentikan Capture (perangkat hilang), silahkan pasang kembali perangkat dan coba lagi."/>
+		<str id="ids_captureerror" val="Error selama capture, silahkan pasang perangkat kembali atau coba USB port yang lain dan coba lagi."/>
+		<str id="ids_toupnamerror" val="Error, silahkan reboot perangkat dan coba lagi."/>
+		<str id="ids_filtergraph" val="Tidak instantiate filter grafik."/>
+		<str id="ids_noax" val="Tidak dapat membuat capture video, silahkan install ulang driver perangkat."/>
+		<str id="ids_nosource" val="Error, tidak dapat membuat capture video. silahkan pasang kembali perangkat dan coba lagi."/>
+
+		<str id="ids_badport" val="Nomor Port yang ditentukan sudah digunakan, silahkan gunakan nomor Port yang lain."/>
+		<str id="ids_bcount" val="Bingkai siaran"/>
+		<str id="ids_bdroppcnt" val="Bingkai siaran menjatuhkan"/>
+		<str id="ids_bcbbps" val="Broadcast Bitrate yang sedang digunakan (Kbps)"/>
+		<str id="ids_baveragebps" val="Broadcast Bitrate rata-rata (Kbps)"/>
+		<str id="ids_bccfr" val="Siaran saat ini Frame Rate"/>
+		<str id="ids_baveragesr" val="Siaran rata-rata Frame Rate"/>
+		<str id="ids_bandwidth" val="Bandwidth (Kbps)"/>
+		<str id="ids_preceived" val="Paket yang diterima"/>
+		<str id="ids_plost" val="Paket yang hilang"/>
+		<str id="ids_psize" val="Ukuran Paket"/>
+
+		<str id="ids_quality" val="Kualitas"/>
+		<str id="ids_keyfs" val="Key Frames Spacing (detik(s))"/>
+		<str id="ids_stepdir" val="Silahkan atur direktori dan nama file dengan benar."/>
+		<str id="ids_stepbpsminmax" val="Silahkan atur Bitrate dengan benar, pengaturan angka antara %s dan %s."/>
+		<str id="ids_stepqualityminmax" val="Silahkan atur kualitas dengan benar, merupakan bilangan bulat antara %u dan %u."/>
+		<str id="ids_stepiframe" val="Silahkan atur Key Frames dengan benar."/>
+		<str id="ids_stepiframeminmax" val="Silahkan atur Key Frames spasi dengan benar, merupakan bilangan bulat antara %u dan %u."/>
+		<str id="ids_stepcodec" val="Silahkan pilih Encoder."/>
+		<str id="ids_steptimelimit" val="Silahkan atur batar waktu capture dengan benar."/>
+		<str id="ids_steptimelapse" val="Silahkan atur Capture Time-lapse dengan benar."/>
+		<str id="ids_stepavinone" val="Bukan Compressor"/>
+
+		<str id="ids_recordheader" val="Tampilan Informasi"/>
+		<str id="ids_recordstep1" val="Video Format dan Encoder"/>
+		<str id="ids_recordstep2" val="Berkas Video"/>
+		<str id="ids_recordstep4" val="Memulai untuk merekan"/>
+		<str id="ids_broadcastpar" val="Broadcast Parameters"/>
+		<str id="ids_recordstep4b" val="Memulai untuk Broadcast"/>
+
+		<str id="ids_integerinvalid" val="Silahkan masukan bilangan bulat."/>
+
+		<str id="ids_deleteallitem" val="Apakah anda yakin akan menghapus semua item?"/>
+		<str id="ids_deleteitem" val="Apakah anda yakin akan menghapus item yang dipilih?"/>
+		<str id="ids_deleteitems" val="Apakah anda yakin akan menghapus %d item yang dipilih?"/>
+		<str id="ids_magimport" val="Mengimpor akan menghapus semua item saat ini, apakah anda yakin?"/>
+
+		<str id="ids_toolbarselect" val="Object yang dipilih"/>
+		<str id="ids_toolbarcirclehole" val="Lingkaran dengan lubang"/>
+		<str id="ids_toolbarrectselect" val="Gambar yang dipilih"/>
+		<str id="ids_toolbartrack" val="Lintasan"/>
+		<str id="ids_toolbargray" val="Kalibrasi hitam-putih"/>
+		<str id="ids_toolbarcrosshair" val="Garis bidik"/>
+		<str id="ids_toolbargoto" val="Buka Folder"/>
+		<str id="ids_toolbarcenter" val="Pusat"/>
+
+		<str id="ids_stitch" val="Mosaik"/>
+		<str id="ids_stitchscroll" val="Mode Gulir"/>
+		<str id="ids_aggr" val="Agresif"/>
+		<str id="ids_pasi" val="Pasif"/>
+
+		<str id="ids_built" val="Dibuat"/>
+
+		<str id="ids_toolbar" val="Bilah Alat"/>
+		<str id="ids_nodevice" val="Tidak Ada Perangkat"/>
+		<str id="ids_zoom0" val="Sesuaikan Lebar"/>
+		<str id="ids_zoom1" val="Sesuaikan Tinggi"/>
+		<str id="ids_zoom2" val="Sesuaikan dengan Window"/>
+		<str id="ids_selection" val="Pilihan"/>
+		<str id="ids_undoredo" val="Membatalkan/Mengulang"/>
+
+		<str id="ids_customize" val="Sesuaikan"/>
+		<str id="ids_toolbarcustomize" val="&amp;Sesuaikan..."/>
+		<str id="ids_angleunitmenu" val="&amp;Sudut Unit..."/>
+
+		<str id="ids_emptydir" val="Direktori tidak boleh kosong."/>
+		<str id="ids_invaliddir" val="Direktori tidak valid."/>
+		<str id="ids_filelock" val="Berkas telah dikunci."/>
+		<str id="ids_imagesizemismatch" val="Ukuran Gambar Mismatch."/>
+		<str id="ids_imagesizenotsame" val="Gambar: &quot;%s&quot; tidak dengan ukuran yang sama."/>
+		<str id="ids_filenofound" val="Berkas TIdak Ada."/>
+		<str id="ids_savefilefail2" val="Berkas gagal disimpan &quot;%s&quot;."/>
+		<str id="ids_savefilefail3" val="Berkas gagal disimpan."/>
+		<str id="ids_videofileformat" val="Format file tidak mendukung."/>
+		<str id="ids_videofilestartfail" val="Gagal memulai."/>
+		<str id="ids_videofiles" val="Berkas Video"/>
+		<str id="ids_allfiles" val="Semua Berkas"/>
+
+		<str id="ids_browseshutcut" val="Folder ini sudah berisi shortcut bernama &quot;%s&quot;.\nTimpa, Batal, atau gagal?"/>
+
+		<str id="ids_videozoomint" val="Level Zoom saat ini %u%%. Untuk dapat jumlah yang tepat, silahkan atus Level Zoom hingga 100%%. Masih melanjutkan?"/>
+		<str id="ids_videozoomfloat" val="Level Zoom saat ini %.1f%%. Untuk mendapatkan jumlah yang tepat, silahkan mengatur Level Zoom sampai 100%%. Masih melanjutkan?"/>
+		<str id="ids_videomarker" val="Marker: (%d, %d); Watermark: Move = (%d, %d), Rotasi = %.3f"/>
+		<str id="ids_videostartrecord" val="Mulai &amp;Merekam..."/>
+		<str id="ids_videostoprecord" val="Berhenti &amp;Merekam"/>
+		<str id="ids_videostarttimelapse" val="Memulai &amp;Time-lapse (Otomatik Menangkap)..."/>
+		<str id="ids_videostoptimelapse" val="Berhenti &amp;Time-lapse (Otomatik Menangkap)"/>
+		<str id="ids_videoautofail" val="Gagal untuk otomatik menangkap."/>
+		<str id="ids_videocalibratemax1" val="Silahkan kalibrasi dengan ukuran maksimal.\r\nUkuran sekarang: %u x %u. Ukuran maksimum: %u x %u.\r\nSilahkan gunakan sidebar kamera untuk mengatur resolusi."/>
+		<str id="ids_videocalibratemax2" val="Silahkan kalibrasi dengan ukuran maksimal.\r\nUkuran sekarang: %u x %u. Ukuran Maksimum: %u x %u.\r\nSilahkan klik &quot;Format&quot; tombol untuk mengatur resolusi."/>
+
+		<str id="ids_memory" val="Memori tidak cukup."/>
+		<str id="ids_memoryx86" val="Memori tidak cukup, silahkan gunakan versi x64."/>
+
+		<str id="ids_actionfailed" val="Aksi gagal."/>
+		<str id="ids_actioncanceld" val="Aksi dibatalkan."/>
+
+		<str id="ids_calibratedlgtoobig" val="Terlalu Besar"/>
+		<str id="ids_calibratedlgtoosmall" val="Terlalu Kecil"/>
+		<str id="ids_calibratedlgpixels" val="piksel"/>
+		<str id="ids_calibratedlgmagnification" val="Silahkan masukan perbesaran yang benar, seperti 10, 40, 100, dll."/>
+		<str id="ids_calibratedlgmagnificationexists" val="Pembesaran &quot;%s&quot; sudah ada."/>
+
+		<str id="ids_collapseall" val="Tutup semua"/>
+		<str id="ids_expandall" val="Perluas semua"/>
+		<str id="ids_cameralist" val="Perangkat Kamera"/>
+		<str id="ids_expandgain" val="Pencahayaan &amp;&amp; Gain"/>
+		<str id="ids_colorgray" val="Warna/Hitam-putih"/>
+		<str id="ids_capres" val="Capture &amp;&amp; Resolusi"/>
+		<str id="ids_coloradjust" val="Penyesuaian Warna"/>
+		<str id="ids_sampling" val="Contoh"/>
+		<str id="ids_power" val="Tenaga Frequensi (Anti-flicker)"/>
+		<str id="ids_gray" val="Abu-abu"/>
+		<str id="ids_range" val="Rentang"/>
+		<str id="ids_exptimeempty" val="Waktu paparan tidak boleh kosong."/>
+		<str id="ids_exptimeinvalid" val="Waktu paparan tidak valid."/>
+		<str id="ids_exptimeoutofrange" val="Waktu paparan diluar jangkauan [%s, %s]."/>
+		<str id="ids_dfc" val="Gelap Bidang Koreksi"/>
+		<str id="ids_bitdepth" val="Sedikit kedalaman"/>
+		<str id="ids_propfmt" val="Properti dan Format"/>
+		<str id="ids_cool" val="Pendingin"/>
+		<str id="ids_heat" val="Pemanasan"/>
+		<str id="ids_fpnc" val="Koreksi Kebisingan Pola Tetapn"/>
+
+		<str id="ids_preferences" val="Preferensi"/>
+
+		<str id="ids_cursor" val="Kursor"/>
+		<str id="ids_quicksave" val="Simpan Cepat"/>
+		<str id="ids_record" val="Video"/>
+		<str id="ids_quickrecord" val="Video Cepat"/>
+
+		<str id="ids_filefmtcol0" val="Extensi"/>
+		<str id="ids_filefmtcol2" val="Singkatan"/>
+
+		<str id="ids_allsupported" val="Mendukung semua format"/>
+		<str id="ids_savedlgreplace" val="%s sudah ada.\nApakah anda ingin menggantinya?"/>
+
+		<str id="ids_saveboth" val="Gambar dan lapisan pengukuran telah dimodifikasi. Apakah anda ingin menyimpannya?"/>
+		<str id="ids_saveimage" val="Gambar telah dimodifikasi. Apakah anda ingin menyimpannya?"/>
+		<str id="ids_savelayer" val="Lapisan Pengukuran telah dimodifikasi. Apakah anda ingin menyimpannya?"/>
+
+		<str id="ids_watermarkdlg24bit" val="Hanya gambar 24 atau 32 bit yang mendukung."/>
+
+		<str id="ids_nameformatnnnn" val="nnnn (urutan)"/>
+
+		<str id="ids_lefttop" val="Kiri Atas"/>
+		<str id="ids_righttop" val="Kanan Atas"/>
+		<str id="ids_leftbottom" val="Kiri Bawah"/>
+		<str id="ids_rightbottom" val="Kanan Bawah"/>
+		<str id="ids_overlaybgtrans" val="Transparan"/>
+		<str id="ids_black" val="Hitam"/>
+		<str id="ids_white" val="Putih"/>
+		<str id="ids_smallest" val="Terkecil"/>
+		<str id="ids_smaller" val="Lebih Kecil"/>
+		<str id="ids_small" val="Kecil"/>
+		<str id="ids_medium" val="Sedang"/>
+		<str id="ids_large" val="Besar"/>
+		<str id="ids_larger" val="Lebih Besar"/>
+		<str id="ids_largest" val="Terbesar"/>
+		<str id="ids_overlaydatenone" val="Tidak"/>
+		<str id="ids_overlaydatelong" val="Format Tanggal Panjang"/>
+		<str id="ids_overlaydateshort" val="Format Tanggal Pendek"/>
+		<str id="ids_overlaydatetlong" val="Format Tanggal Waktu Panjang"/>
+		<str id="ids_overlaydatetshort" val="Format Tanggal Waktu Singkat"/>
+
+		<str id="ids_marker" val="Tidak"/>
+		<str id="ids_markercross" val="Silang"/>
+		<str id="ids_markercircle" val="Lingkaran"/>
+		<str id="ids_markercr" val="Silang+Bujur Sangkar"/>
+		<str id="ids_markercc" val="Silang+Lingkaran"/>
+		<str id="ids_markercrosswidth" val="Lebar Silang (%)"/>
+		<str id="ids_markercrossheight" val="TInggi Silang (%)"/>
+		<str id="ids_markerrectwidth" val="Lebar Bujur Sangkar (%)"/>
+		<str id="ids_markerrectheight" val="TInggi Bujur Sangkar (%)"/>
+		<str id="ids_markerradius" val="Jari-jari Lingkaran (%)"/>
+		<str id="ids_markerx" val="x Mengimbangi (%)"/>
+		<str id="ids_markery" val="y Mengimbangi (%)"/>
+
+		<str id="ids_stitchfail" val="Gagal Mosaik."/>
+
+		<str id="ids_crosssingle" val="Tunggal"/>
+		<str id="ids_cross1" val="Rangkap (1 Pixel)"/>
+		<str id="ids_cross3" val="Rangkap (3 Piksel)"/>
+		<str id="ids_cross5" val="Rangkap (5 Piksel)"/>
+		<str id="ids_cross7" val="Rangkap (7 Piksel)"/>
+		<str id="ids_cross9" val="Rangkap (9 Piksel)"/>
+		<str id="ids_cursorcross" val="Silang"/>
+		<str id="ids_cursorpoint" val="Titik"/>
+		<str id="ids_cursornull" val="Kosong"/>
+
+		<str id="ids_videooverlay" val="Video Tampilan"/>
+		<str id="ids_markertxt" val="Tampilan"/>
+
+		<str id="ids_miscsplash" val="Tampilkan jendela splash pada start-up"/>
+		<str id="ids_miscscreensaver" val="Mencegah screensaver ketika Pratinjau / capture"/>
+		<str id="ids_misctft" val="Format File"/>
+		<str id="ids_misctftremind" val="Mengingatkan saya ketika format file yang tidak mendukung pengukuran objek"/>
+		<str id="ids_miscsidebarmeasurement" val="Secara otomatis mengaktifkan sidebar pengukur ketika mengukur"/>
+		<str id="ids_miscsidebarfolders" val="Secara otomatis mengaktifkan folder sidebar saat browse window"/>
+		<str id="ids_miscsidebarbrowse" val="Secara otomatis menampilkan browse window ketika klik 2 kali pada folder"/>
+		<str id="ids_miscsidebarcamerastartup" val="Otomatis mengaktifkan sidebar kamera saat start-up"/>
+		<str id="ids_miscuistyle" val="UI Gaya"/>
+		<str id="ids_miscprivacy" val="Pribadi"/>
+		<str id="ids_miscrecent" val="Jumlah maksimum berkas terbaru"/>
+		<str id="ids_miscclear" val="Hapus berkas terbaru ketika keluar aplikasi"/>
+		<str id="ids_miscrestore" val="Mengembalikan direktori saat ini ketika start-up"/>
+		<str id="ids_misclang" val="Bahasa"/>
+		<str id="ids_miscte" val="Berlaku setelat mulai ulang"/>
+
+		<str id="ids_urimploperation" val="Operasi"/>
+
+		<str id="ids_pdmorphologic" val="Operasi morphologic"/>
+		<str id="ids_pdmuststructure" val="Anda harus memilih struktur."/>
+		<str id="ids_pdnostructure" val="Struktur tidak ada."/>
+		<str id="ids_pdselectstructure" val="Silahkan pilih struktur."/>
+		<str id="ids_pddeletesure" val="Hapus: Apakah anda yakin?"/>
+		<str id="ids_pdenhancement" val="Gambar Peningkatan"/>
+		<str id="ids_pdbestfit" val="Paling cocok"/>
+		<str id="ids_pdequalize" val="Sama dengan lokal"/>
+		<str id="ids_pdundo" val="Membatalkan"/>
+		<str id="ids_pdconvertbit" val="Mengkonversi ke 8bit atau 24bit?"/>
+		<str id="ids_pdexceed" val="Melebihi batas!"/>
+		<str id="ids_pdkernel" val="Inti Operasi"/>
+		<str id="ids_pdmustname" val="Anda harus memasukan nama."/>
+		<str id="ids_pdkernelsize" val="Ukuran inti tidak valid."/>
+		<str id="ids_pdinputvalue" val="Silahkan masukan nilai."/>
+		<str id="ids_pdoverwrite" val="Struktur sudah ada! Apakah anda ingin menimpanya?"/>
+		<str id="ids_pdedge" val="Tepi Operasi"/>
+		<str id="ids_pdautolevel" val="Otomatis Tingkat"/>
+		<str id="ids_pdautocontrast" val="Otomatis Kontras"/>
+		<str id="ids_pdbcadj" val="Kecerahan/Penyesuaian kontras"/>
+		<str id="ids_pdcoloradj" val="Penyesuaian Warna"/>
+		<str id="ids_pdhmsadj" val="Penyesuaian HMS"/>
+		<str id="ids_pdgammaadj" val="Penyesuaian Gamma"/>
+		<str id="ids_pdcurve" val="Penyesuaian lengkungan / curve"/>
+		<str id="ids_pdcolorquantize" val="Warna Quantize: %d Bit(s)"/>
+		<str id="ids_pdbinary" val="Biner"/>
+		<str id="ids_pdgray" val="Hitam-putih"/>
+		<str id="ids_pdinvert" val="Balikkan"/>
+		<str id="ids_pdrotatecw" val="Rotasi CW"/>
+		<str id="ids_pdrotateccw" val="Rotasi CCW"/>
+		<str id="ids_pdimagescale" val="Skala Gambar"/>
+		<str id="ids_pdfliphorz" val="Flip Horisontal"/>
+		<str id="ids_pdflipvert" val="Flip Vertikal"/>
+		<str id="ids_pdrange" val="Rentang"/>
+		<str id="ids_pdinvalidheight" val="Tinggi tidak valid."/>
+		<str id="ids_pdfiltercolor" val="Warna Filter"/>
+		<str id="ids_pdextractcolor" val="Warna Ektrak"/>
+		<str id="ids_pdluminosity" val="Luminositas"/>
+		<str id="ids_bicubic" val="Bikubik"/>
+
+		<str id="ids_filtermorp" val="Morfologi"/>
+		<str id="ids_filterkern" val="Inti"/>
+		<str id="ids_filterenhance" val="Gambar Meningkatkan"/>
+		<str id="ids_filteredge" val="Peningkatan Tepi"/>
+
+		<str id="ids_extraopenfail" val="Gagal membuka berkas konfigurasi!"/>
+		<str id="ids_extrasaveit" val="Pewarna saat ini telah berubah, yakin disimpan?"/>
+		<str id="ids_extradyeexist" val="Pewarna ini telah ada."/>
+		<str id="ids_extradeleteitem" val="Apakah anda yakin ingin menghapus item ini?"/>
+		<str id="ids_extrasavedata" val="Apakah anda yakin ingin menyimpan item ini?"/>
+		<str id="ids_extrareloaddata" val="Apakah Anda yakin untuk reload semua data?"/>
+		<str id="ids_extraforfile" val="Untuk Berkas"/>
+
+		<str id="ids_labelaxis" val="Sumbu"/>
+		<str id="ids_labelwidthheight" val="Lebar dan Tinggi"/>
+
+		<str id="ids_layer" val="Lapisan"/>
+		<str id="ids_sheet" val="Pengukuran lembar"/>
+		<str id="ids_sheet2" val="Tengah"/>
+		<str id="ids_sheet4" val="Daerah"/>
+		<str id="ids_sheet5" val="Lebar"/>
+		<str id="ids_sheet7" val="Mulai"/>
+		<str id="ids_sheet8" val="Akhir"/>
+		<str id="ids_sheet9" val="Jarak"/>
+		<str id="ids_intersection" val="Titik persimpangan"/>
+		<str id="ids_foot" val="Pedal"/>
+		<str id="ids_slope" val="Lereng"/>
+		<str id="ids_perimeter" val="Lingkar"/>
+		<str id="ids_center" val="Tengah"/>
+		<str id="ids_arclength" val="Lingkar"/>
+		<str id="ids_ratio" val="Rasio"/>
+		<str id="ids_axes" val="Sumbu"/>
+		<str id="ids_layer0" val="Tampak"/>
+		<str id="ids_lunit2" val="Simbol"/>
+		<str id="ids_lunit4" val="Skala"/>
+		<str id="ids_noname" val="[Tidak ada Nama]"/>
+		<str id="ids_layerbackground" val="Latar belakang"/>
+		<str id="ids_layername" val="Nama Layer"/>
+		<str id="ids_sysunit" val="Sistem"/>
+		<str id="ids_errorfile" val="Format berkas error."/>
+		<str id="ids_errordata" val="Bata berkas error."/>
+		<str id="ids_only1layer" val="Tidak bisa menghapus layer terakhir."/>
+		<str id="ids_removecurrent" val="Tidak bisa menghapus layer saat ini."/>
+		<str id="ids_removelayer" val="Apakah anda yakin ingin menghapus layer ini?"/>
+		<str id="ids_removeitem" val="Apakah anda yakin akan menghapus semua item yang dipilih?"/>
+		<str id="ids_removeunit" val="Berhapus menghapus unit ini."/>
+		<str id="ids_unitsymbol" val="Simbol tidak boleh kosong."/>
+		<str id="ids_invalidratio" val="Rasio tidak valid."/>
+		<str id="ids_sameunit" val="Gagal menambahkan unit karena ada nama unit yang sama."/>
+		<str id="ids_samesymbol" val="Gagal menambah unit karena ada unit simbol yang sama."/>
+		<str id="ids_layersamename" val="Sudah ada(s) layer(s) dengan nama yang sama. Apakah yakin akan melanjutkan?"/>
+		<str id="ids_nametolong" val="Nama terlalu panjang."/>
+		<str id="ids_symboltolong" val="Nama terlalu panjang."/>
+		<str id="ids_toomanyunit" val="Terlalu banyak user-defined unit."/>
+		<str id="ids_addunit" val="1. Skala adalah rasio perbandingan antara meter/perhitungan dan unit tertentu. Contoh:\n meter ke milimeter adalah 1000 yang juga dapat dinyatakan sebagai notasi ilmiah 1e3.\n Meter ke kilometer adalah 0.001, which is noted as 1e-3.\n\n2. Simbol: seperti &quot;m&quot; untuk meter, &quot;cm&quot; untuk sentimeter."/>
+		<str id="ids_lengthunit" val="Panjang Unit"/>
+		<str id="ids_angleunit" val="Sudut Unit"/>
+		<str id="ids_measurelist" val="Lembar"/>
+		<str id="ids_angle" val="Sudut"/>
+		<str id="ids_line" val="Garis"/>
+		<str id="ids_point" val="Titik"/>
+		<str id="ids_rect" val="Persegi panjang"/>
+		<str id="ids_parallel" val="Paralel"/>
+		<str id="ids_line3" val="Paralel (3 Titik)"/>
+		<str id="ids_line2" val="Paralel (4 Titik)"/>
+		<str id="ids_line4" val="Paralel (8 Titik)"/>
+		<str id="ids_linea" val="Paralel (Sewenang-wenang)"/>
+		<str id="ids_vertical" val="Vertikal"/>
+        <str id="ids_verany" val="Vertikal (Sewenang-wenang)"/>
+		<str id="ids_circle" val="Lingkaran"/>
+		<str id="ids_arc" val="Busur"/>
+		<str id="ids_annulus" val="Anulus"/>
+		<str id="ids_twocircles" val="Dua lingkaran"/>
+		<str id="ids_appearance" val="Tampilan"/>
+		<str id="ids_geometry" val="Geometri"/>
+		<str id="ids_coordinates" val="Koordinat"/>
+		<str id="ids_lsize" val="Ukuran"/>
+		<str id="ids_mlinewidth" val="Lebar garis tengah"/>
+		<str id="ids_linecolor" val="Warna garis"/>
+		<str id="ids_mlinecolor" val="Warna garis tengah"/>
+		<str id="ids_linestyle" val="Gaya garis"/>
+		<str id="ids_mlinestyle" val="Gaya garis tengah"/>
+		<str id="ids_fill" val="Mengisi"/>
+		<str id="ids_mline" val="Tampil garis tengah"/>
+		<str id="ids_amarker" val="Tampil penanda sudut"/>
+		<str id="ids_circled" val="Tampil Diameter / Radius"/>
+		<str id="ids_circlec" val="Tampil pusat"/>
+		<str id="ids_fillcolor" val="Mengisi warna"/>
+		<str id="ids_arrow" val="Panah"/>
+		<str id="ids_textcolor" val="Warna teks"/>
+		<str id="ids_textalign" val="Perataan teks"/>
+		<str id="ids_lframe" val="Bingkai"/>
+		<str id="ids_edittext" val="Mengedit Teks"/>
+		<str id="ids_textleft" val="Kiri"/>
+		<str id="ids_textright" val="Kanan"/>
+		<str id="ids_ltoolbarshow" val="Tampil/Sembunyi"/>
+		<str id="ids_fontstyle3" val="Bold dan Italic"/>
+		<str id="ids_decimal" val="Desimal"/>
+		<str id="ids_decimal0" val="0 desimal"/>
+		<str id="ids_decimal1" val="1 desimal"/>
+		<str id="ids_decimal2" val="2 desimals"/>
+		<str id="ids_decimal3" val="3 desimals"/>
+		<str id="ids_decimal4" val="4 desimals"/>
+		<str id="ids_decimal5" val="5 desimals"/>
+		<str id="ids_decimal6" val="6 desimals"/>
+		<str id="ids_labeltype" val="Tipe Label"/>
+		<str id="ids_labelpos" val="Posisi Label"/>
+		<str id="ids_ltrans" val="Latar belakang Transparent"/>
+		<str id="ids_lbkclr" val="Warna Latar"/>
+		<str id="ids_ecce" val="Keanehan"/>
+
+		<str id="ids_rect2p" val="Persegi panjang (2 Titik)"/>
+		<str id="ids_rect3p" val="Persegi panjang (3 Titik)"/>
+		<str id="ids_angle3p" val="Sudut (3 Titik)"/>
+		<str id="ids_angle4p" val="Sudut (4 Titik)"/>
+		<str id="ids_circle1" val="Lingkaran (Pusat+Radius)"/>
+		<str id="ids_circle2" val="Lingkaran (2 Titik)"/>
+		<str id="ids_circle3" val="Lingkaran (3 Titik)"/>
+		<str id="ids_annulus2" val="Anulus (Pusat+Radius)"/>
+		<str id="ids_annulus3" val="Anulus (3 Titik)"/>
+		<str id="ids_vertical3p" val="Vertikal (3 Titik)"/>
+		<str id="ids_vertical4p" val="Vertikal (4 Titik)"/>
+		<str id="ids_ellipse2p" val="Ellipse (2 Titik)"/>
+		<str id="ids_ellipse5p" val="Ellipse (5 Titik)"/>
+		<str id="ids_ellipse3p" val="Ellipse (3 Titik)"/>
+		<str id="ids_vline" val="Vertikal Line"/>
+		<str id="ids_hline" val="Horisontal Line"/>
+		<str id="ids_twocircle3p" val="Dua lingkaran (Pusat+Radius)"/>
+		<str id="ids_twocircle2p" val="Dua lingkaran (3 Titik)"/>
+		<str id="ids_line3p" val="Line (3 Titik)"/>
+		<str id="ids_vline3p" val="Vertikal Line (3 Titik)"/>
+		<str id="ids_hline3p" val="Horisontal Line (3 Titik)"/>
+		<str id="ids_linemulti" val="Line (Koneksi multipoint)"/>
+
+		<str id="ids_errgeneric" val="Error umum."/>
+		<str id="ids_errnullname" val="Nama tidak boleh kosong."/>
+		<str id="ids_errsamename" val="Nama sudah ada."/>
+		<str id="ids_errsameid" val="ID sudah ada."/>
+		<str id="ids_erropenfile" val="Gagal membuka berkas."/>
+		<str id="ids_errfileformat" val="Format berkas yang buruk."/>
+		<str id="ids_errmsgproduct" val="Model kamera tidak sama."/>
+		<str id="ids_errusb" val="Versi USB tidak sama."/>
+		<str id="ids_errmode" val="Mode tidak sama."/>
+
+		<str id="ids_resetlayout" val="Layout window akan diatur ulang setelah restart."/>
+		<str id="ids_startbroadcast" val="Memulai &amp;Siaran..."/>
+		<str id="ids_stopbroadcast" val="Berhenti &amp;Siaran"/>
+
+		<str id="ids_stackingfail" val="Gagal menumpuk gambar."/>
+
+		<str id="ids_objcount" val="Segmentasi &amp; Count"/>
+		<str id="ids_objsplit" val="Membagi objek"/>
+		<str id="ids_objcountosfilled" val="Terisi"/>
+
+		<str id="ids_counthisv" val="Nilai"/>
+
+		<str id="ids_edfc" val="Kontras Maximum"/>
+		<str id="ids_edfw" val="Timbangan rata-rata"/>
+		<str id="ids_edffm" val="FFDSSD Pilihan"/>
+		<str id="ids_edfcapture" val="Menangkap Gambar"/>
+		<str id="ids_edfmethod" val="Pilih metode"/>
+		<str id="ids_edfself" val="Pilih berkas"/>
+		<str id="ids_edfaa" val="Perataan otomatis"/>
+		<str id="ids_edfadesc" val="Select the proper Auto Align mode according to whether there is shift, scale or rotate among the images to be processed.\n\nThe time consumption of EDF is related to the setting of the maximum angle. The time will increase when the maximum angle increases and the relationship between them is non-linear. The default maximum angle is 1.0°."/>
+		<str id="ids_edfcaptips" val="Sesuaikan mikroskop untuk membuat bagian yang berbeda dari objek yang jelas. Capture foto ketika objek berada dalam posisi yang berbeda. Langkah penyesuaian tersebut sampai ke pengguna. Biasanya, lebih jelasnya akan tersedia jika langkah kecil dipilih. Posisi relatif objek dan mikroskop harus diubah dalam satu arah."/>
+		<str id="ids_edfpdesc" val="Tiga nilai tidak terisolasi. Kejelasan detil mempengaruhi detail halus hasilnya. Kecerahan latar belakang adalah nilai offset yang digunakan untuk menambah atau mengurangi latar belakang. Kedua pengaturan akan menghasilkan perubahan kecerahan keseluruhan. Oleh karena itu, kecerahan keseluruhan juga mungkin perlu disesuaikan."/>
+		<str id="ids_edfmdesc" val="\tWeighted Average method produces a soft fusion result but may miss detail. This method often gives superior results to FFDSSD method with deep stacks, such as images produced by microscopy. It is worth noting that images to be processed must be in Z order (closest to furthest or furthest to closest with the microscope objective lens relative to sample on the stage).\n\tMaximum Contrast method is similar with weighted average method, and the input images must be in Z order as well. The difference is that the maximum contrast method may loose some detail though what detail is preserved will be sharper. Maximum contrast method is a preferred method of EDF.\n\tFFDSSD is a method that does filtering in the frequency domain using Fast Fourier transform (FFT) and does synthesis in the space domain. FFDSSD can be used for images having misalignment. Users can manually or automatically select reference images to make input images aligned."/>
+		<str id="ids_maxedf" val="Untuk gambar yang banyak. Jumlah gambar tidak dapat melebihi %u."/>
+
+		<str id="ids_paneautohide" val="Sembunyi &amp;otomatis"/>
+		<str id="ids_panehide" val="&amp;Sembunyi"/>
+		<str id="ids_scrright" val="Gulir ke Kanan"/>
+		<str id="ids_scrleft" val="Gulir ke Kiri"/>
+        <str id="ids_autohide" val="Sembunyi otomatis"/>
+        <str id="ids_winpos" val="Posisi Jendela"/>
+
+		<str id="ids_colorstandard" val="Standar"/>
+		<str id="ids_colorcolorscolon" val="Warna:"/>
+		<str id="ids_colorselect" val="Pilih..."/>
+		<str id="ids_colorsaturation" val="Saturasi:"/>
+		<str id="ids_colorluminence" val="Luminence:"/>
+		<str id="ids_colorred" val="Merah:"/>
+		<str id="ids_colorgreen" val="Hijau:"/>
+		<str id="ids_colorblue" val="Biru:"/>
+
+		<str id="ids_unsupportformat" val="Format gambar yang tidak didukung."/>
+		<str id="ids_hdrfail" val="Gagal untuk mensintesis HDR."/>
+
+		<str id="ids_miscopencl" val="Mengaktifkan pengolahan gambar akselerasi GPU"/>
+
+		<str id="ids_sharpen" val="Mempertajam"/>
+		<str id="ids_detailenhance" val="Detil Enhancer"/>
+		<str id="ids_smooth" val="Halus"/>
+
+		<str id="ids_llc" val="Koreksi warna lokal"/>
+
+		<str id="ids_toolbar_st4" val="ST4 Uji"/>
+
+		<str id="ids_roitosmall" val="ROI lebar dan tinggi harus lebih besar dari 32."/>
+		<str id="ids_recordstep2tipwmv" val="The file name extension .wmv will be appended automatically to the file name."/>
+
+		<str id="ids_dfcimportfail" val="Gagal untuk mengimpor."/>
+		<str id="ids_dfcexportfail" val="Gagal untuk ekspor."/>
+		<str id="ids_dfcimportmis" val="Gagal untuk mengimpor, mismatch."/>
+
+		<str id="ids_sernext" val="Bingkai berikutnya"/>
+		<str id="ids_serprev" val="Bingkai sebelumnya"/>
+
+		<str id="ids_pxsize" val="Ukuran pixel"/>
+
+		<str id="ids_extrigger" val="Eksternal"/>
+
+		<str id="ids_tecoutofrange" val="Nilai masukan di luar jangkauan [%.1f, %.1f]."/>
+		<str id="ids_tempunit" val="Satuan temperatur"/>
+
+		<str id="ids_batchrecord" val="Massal Video"/>
+		<str id="ids_autocapture" val="Otomatik Menangkap"/>
+		<str id="ids_startacapture" val="&amp;Mulai Menangkap"/>
+		<str id="ids_stopacapture" val="&amp;Henti Menangkap"/>
+		<str id="ids_pause" val="Mulai/Jeda"/>
+
+		<str id="ids_compatible" val="Bisa digunakan di"/>
+
+		<str id="ids_hwver" val="Versi perangkat keras"/>
+		<str id="ids_fwver" val="Versi firmware"/>
+		<str id="ids_fpgaver" val="Versi FPGA"/>
+		<str id="ids_mcuver" val="Versi MCU"/>
+
+		<str id="ids_toolbarhtml" val="Ekspor ke Html"/>
+
+		<str id="ids_background" val="Latar Belakang"/>
+		<str id="ids_saveas" val="Simpan sebagai"/>
+
+		<str id="ids_tctitle" val="Perintah"/>
+		<str id="ids_tccat" val="Kategori:"/>
+		<str id="ids_tccmd" val="Perintah:"/>
+		<str id="ids_tcallcmd" val="Semua perintah"/>
+		<str id="ids_addrbtn" val="&amp;Tambah atau Hapus Tombol"/>
+		<str id="ids_toolbarreset" val="&amp;Setel ulang Bilah Alat"/>
+		<str id="ids_resetask" val="Apakah Anda yakin setel ulang bilah alat?"/>
+		<str id="ids_tctip" val="Untuk menambahkan tombol, seret tombol perintah di sisi kanan ke toolbar.\r\nUntuk menghapus tombol, seret tombol dari toolbar."/>
+		<str id="ids_kcate" val="&amp;Kategori:"/>
+		<str id="ids_kcmd" val="&amp;Perintah:"/>
+		<str id="ids_krem" val="&amp;Hapus"/>
+		<str id="ids_kres" val="&amp;Setel Ulang Semua"/>
+		<str id="ids_kass" val="&amp;Menetapkan"/>
+		<str id="ids_kato" val="Tetapkan ke:"/>
+		<str id="ids_knew" val="Tekan Tombol Pintas &amp;Baru:"/>
+		<str id="ids_kcur" val="Kunci Saat &amp;Ini:"/>
+		<str id="ids_unass" val="[Tidak ditugaskan]"/>
+		<str id="ids_kreset" val="Semua perubahan Anda akan hilang. Apakah Anda benar-benar ingin memulai ulang tugas papan kekunci?"/>
+		
+		<str id="ids_imagetype" val="Jenis foto"/>
+
+		<str id="ids_focal" val="Panjang fokus"/>
+		<str id="ids_temp" val="Suhu sensor"/>
+		<str id="ids_longitude" val="Bujur, Rentang = [-180.0, 180.0], seperti 15.715, 15.715E, 15°42'9&quot;E"/>
+		<str id="ids_latitude" val="Lintang, Rentang = [-90.0, 90.0], seperti 15.715, 15.715N, 15°42'9&quot;N"/>
+
+		<str id="ids_int" val="Bilangan bulat"/>
+		<str id="ids_real" val="Bilangan riil"/>
+
+		<str id="ids_temptint" val="Suhu/Tint"/>
+
+		<str id="ids_even" val="Harap masukkan angka genap."/>
+
+		<str id="ids_report" val="Laporan"/>
+		<str id="ids_reportresall" val="Isi dari template akan dihapus dan diganti dengan default template. Apakah Anda yakin untuk melanjutkan?"/>
+
+		<str id="ids_exportexcel" val="Ekspor ke Microsoft Excel"/>
+		<str id="ids_exportcsv" val="Ekspor ke CSV"/>
+		<str id="ids_csvplus" val="Alur kerja"/>
+		
+		<str id="ids_toofar" val="Terlalu jauh"/>
+		<str id="ids_tooclose" val="Terlalu dekat"/>
+
+		<str id="ids_webppresetphoto" val="Foto"/>
+		<str id="ids_webppresetpicture" val="Gambar"/>
+		<str id="ids_webppresetdrawing" val="Menggambar"/>
+		<str id="ids_webppreseticon" val="Ikon"/>
+
+		<str id="ids_gpuwin8" val="Enkoding perangkat keras (GPU) hanya tersedia pada Windows 8 atau lebih tinggi."/>
+
+		<str id="ids_cursorcross" val="Silang"/>
+
+		<str id="ids_segts" val="Segmen"/>
+		<str id="ids_edges" val="Sisi"/>
+		<str id="ids_avgang" val="Sudut rata-rata"/>
+		<str id="ids_seglength" val="Panjang segmen"/>
+		<str id="ids_avglength" val="Panjang rata-rata"/>
+		<str id="ids_ttllength" val="Panjang total"/>
+		<str id="ids_randomcon" val="Koneksi acak"/>
+		<str id="ids_multicon" val="Koneksi multipoint"/>
+		<str id="ids_segdistance" val="Jarak segmen"/>
+		<str id="ids_avgdistance" val="Jarak rata-rata"/>
+		<str id="ids_ttldistance" val="Jarak total"/>
+
+		<str id="ids_expseglen1" val="CSV Berkas"/>
+
+		<str id="ids_cpucore" val="Jumlah Inti"/>
+		<str id="ids_cputhrd" val="Jumlah Untaian"/>
+
+		<str id="ids_fastest" val="Tercepat"/>
+		<str id="ids_slowest" val="Paling lambat"/>
+
+		<str id="ids_edgelen" val="Panjang sisi"/>
+		<str id="ids_avgedge" val="Panjang sisi rata-rata"/>
+
+		<str id="ids_policy" val="Strategi"/>
+		<str id="ids_aeexpmax" val="Waktu pencahayaan Maksimum"/>
+		<str id="ids_aegainmax" val="Keuntungan Maksimum"/>
+
+		<str id="ids_csvutf8" val="Menggunakan UTF8 charset di CSV"/>
+
+		<str id="ids_ccdpro" val="Progresif"/>
+		<str id="ids_ccdint" val="Jalinan"/>
+		<str id="ids_isp" val="Perangkat keras ISP"/>
+
+		<str id="ids_meanintensity" val="Intensitas Berarti"/>
+		<str id="ids_intensity" val="Intensitas"/>
+
+		<str id="ids_typemis" val="Tipe ketidakcocokan"/>
+		<str id="ids_showsub" val="Tampilkan sub objek"/>
+
+		<str id="ids_connection" val="Koneksi"/>
+
+		<str id="ids_pbslow" val="Lambat"/>
+		<str id="ids_pbfast" val="Cepat"/>
+
+		<str id="ids_multicast" val="Multisiar"/>
+
+		<str id="ids_custommo" val="Pengukuran Kustom"/>
+
+		<str id="ids_tecpower" val="TEC Kekuasaan"/>
+
+		<str id="ids_page" val="Halaman"/>
+		<str id="ids_nextp" val="Halaman selanjutnya"/>
+		<str id="ids_prevp" val="Halaman sebelumnya"/>
+		<str id="ids_firp" val="Halaman pertama"/>
+		<str id="ids_lasp" val="Halaman terakhir"/>
+
+        <str id="ids_stat" val="Statistik"/>
+        
+		<str id="ids_hsty" val="H Gaya"/>
+		<str id="ids_half" val="Setengah"/>
+		<str id="ids_acum" val="Mode Kumulatif"/>
+		<str id="ids_comp" val="Campuran"/>
+
+		<str id="ids_powerc" val="Konsumsi daya"/>
+
+		<str id="ids_writabledir" val="Direktori tidak ada atau tidak dapat ditulis."/>
+
+		<str id="ids_namepre" val="Awalan Nama"/>
+
+		<str id="ids_cmptip" val="Silakan pilih 1 atau 3 item untuk dibandingkan dengan saat ini:\r\n&quot;%s&quot;"/>
+
+		<str id="ids_relt" val="Hasil"/>
+        
+        <str id="ids_exsf" val="Ekspor Pengaturan Saat Ini ke &amp;Berkas..."/>
+        <str id="ids_exse" val="Ekspor Pengaturan Saat Ini ke &amp;EEPROM"/>
+        <str id="ids_exsa" val="Alamat &amp;Tertentu..."/>
+        <str id="ids_exs0" val="Alamat &amp;Nol"/>
+		<str id="ids_extemp" val="&amp;Riwayat Suhu Ekspor..."/>
+        
+        <str id="ids_cpattern" val="Pola kotak-kotak"/>
+		
+		<str id="ids_ocsd" val="OTSU Gelap"/>
+		<str id="ids_ocsb" val="OTSU Cerah"/>
+		
+		<str id="ids_ebusy" val="Kamera digunakan oleh aplikasi lain."/>
+		<str id="ids_ecrc" val="Pasokan listrik mungkin tidak cukup."/>
+		
+		<str id="ids_squ" val="Urutan"/>
+		
+		<str id="ids_littleend" val="Endian Kecil"/>
+		<str id="ids_bigend" val="Endian Besar"/>
+		<str id="ids_bnum" val="Jumlah byte"/>
+		
+		<str id="ids_deqdepth" val="Panjang Frame Buffer"/>
+		<str id="ids_fend" val="Ujung depan"/>
+		<str id="ids_bend" val="Ujung belakang"/>
+		<str id="ids_tecam" val="Terapkan setelah membuka kembali kamera"/>
+		
+		<str id="ids_gridm" val="Grids: Gabungkan ke Gambar"/>
+		
+		<str id="ids_motion" val="Bergerak"/>
+		<str id="ids_idle" val="Siaga"/>
+		
+		<str id="ids_grc" val="Umum"/>
+		<str id="ids_pta" val="Analisis Partikel"/>
+		<str id="ids_phc" val="Penghitungan Fase"/>
+		<str id="ids_oth" val="Lainnya"/>
+		
+		<str id="ids_farea" val="Zona Fokus"/>
+		
+		<str id="ids_lowestcpu" val="Penggunaan CPU terendah"/>
+		<str id="ids_highcpu" val="Penggunaan CPU yang tinggi"/>
+		<str id="ids_highercpu" val="Penggunaan CPU lebih tinggi"/>
+		<str id="ids_highestcpu" val="Penggunaan CPU tertinggi"/>
+		
+		<str id="ids_fscr" val="Layar Penuh"/>
+		<str id="ids_xfscr" val="Tutup Layar Penuh"/>
+		
+		<str id="ids_updategige" val="Berhasil diselesaikan, silakan matikan dan mulai ulang kamera."/>
+		
+		<str id="ids_gainshow" val="Perolehan eksposur dinyatakan sebagai:"/>
+		<str id="ids_decibel" val="Desibel (dB)"/>
+		
+		<str id="ids_workd" val="Jarak Kerja"/>
+		<str id="ids_efl" val="Panjang Fokus Efektif"/>
+		
+		<str id="ids_notcal" val="Tidak Dikalibrasi"/>
+		
+		<str id="ids_opencom" val="Gagal membuka %s."/>
+		
+		<str id="ids_chamber" val="Ruangan"/>
+		<str id="ids_humidity" val="Kelembaban"/>
+		
+		<str id="ids_uptm" val="Masa giat"/>
+	</string>
+
+	<dialog>
+		<str id="ids_man" val="Managemen"/>
+		<str id="ids_clear" val="Bersih"/>
+		<str id="ids_snap" val="Foto"/>
+		<str id="ids_reco" val="Video"/>
+		<str id="ids_qu" val="Kuantitas"/>
+		<str id="ids_bf" val="Paling cocok"/>
+		<str id="ids_seq" val="Urutan dimulai dengan:"/>
+		<str id="ids_number" val="Nomor"/>
+		<str id="ids_mode" val="Modus"/>
+		<str id="ids_qu100" val="Kualitas (25-100):"/>
+		<str id="ids_aval" val="Yang ada"/>
+		<str id="ids_sedl" val="Yang dipilih"/>
+		<str id="ids_adgt" val="Tambah&gt;&gt;"/>
+		<str id="ids_aagt" val="Tambah Semua"/>
+		<str id="ids_v" val="Nilai:"/>
+		<str id="ids_border" val="Pesanan Byte:"/>
+		<str id="ids_sm" val="Mod Rana:"/>
+		<str id="ids_unidir" val="Searah"/>
+		<str id="ids_defi" val="Mendefinisikan..."/>
+		<str id="ids_tb" val="Tabel Warna"/>
+		<str id="ids_conmode" val="Modus berkelanjutan"/>
+		<str id="ids_timeval" val="Jarak waktu:"/>
+
+		<dlg id="IDD_AUTO">
+			<str id="dir" val="Direktori:"/>
+			<str id="for" val="Nama Format:"/>
+			<str id="pre" val="Berkas Prefix:"/>
+			<str id="cm" val="Menangkap Mode"/>
+			<str id="ef" val="Menangkap setiap frame"/>
+			<str id="time" val="Waktu Slot(detik)"/>
+			<str id="tt" val="Total Gambar"/>
+			<str id="so" val="Urutan pilihan"/>
+			<str id="sv" val="Tampilkan di jendela video"/>
+			<str id="sw" val="Tampilkan di jendela baru"/>
+			<str id="sd" val="Simpan ke disk"/>
+			<str id="sub" val="Subdirektori:"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHSAVE">
+			<str id="tl" val="Batch Simpan"/>
+			<str id="dir" val="Direktori:"/>
+			<str id="for" val="Nama Format:"/>
+			<str id="pre" val="Berkas Prefix:"/>
+			<str id="show" val="Tampilkan dialog ubah nama"/>
+			<str id="sub" val="Subdirektori:"/>
+			<str id="qst" val="1. Pengaturan di atas akan diterapkan ke &quot; Cepat Simpan &quot; menu dan tombol yang sesuai pada toolbar. Saat memanggil &quot; Cepat Simpan &quot;, gambar akan disimpan dengan cepat sesuai dengan pengaturan di atas di direktori yang ditentukan.\n2. Jika RGB48 dipilih, gambar akan selalu disimpan sebagai file tif atau png karena hanya file tif dan png yang bisa mendukung RGB48."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD">
+			<str id="dir" val="Direktori:"/>
+			<str id="frm" val="Nama Format:"/>
+			<str id="pf" val="Berkas Prefix:"/>
+			<str id="sh" val="Tampilkan dialog ubah nama"/>
+			<str id="lm" val="Batas"/>
+			<str id="tl" val="Batas waktu (detik(s)):"/>
+			<str id="fl" val="Batas bingkai:"/>
+			<str id="sub" val="Subdirektori:"/>
+			<str id="fo" val="Opsi Nama File..."/>
+			<str id="do" val="Opsi Direktori..."/>
+		</dlg>
+
+		<dlg id="IDD_BATCHRECORD">
+			<str id="num" val="Jumlah video:"/>
+			<str id="it" val="Waktu inteval (detik(s)):"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_SELECT">
+			<str id="open" val="Buka:"/>
+			<str id="se" val="Terpilih:"/>
+			<str id="pro" val="Kemajuan:"/>
+			<str id="aa" val="Tambah semua"/>
+			<str id="fuse" val="Mulai"/>
+			<str id="m" val="Metode:"/>
+		</dlg>
+
+		<dlg id="IDD_MAG">
+			<str id="cla" val="Bersih semua"/>
+		</dlg>
+
+		<dlg id="IDD_CALIBRATE">
+			<str id="ac" val="Panjang sebenarnya"/>
+			<str id="ep" val="Point akhir"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAEXPOSURE">
+			<str id="ll" val="Kompensasi cahaya rendah"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAHISTOGRAM">
+			<str id="l" val="Kiri:"/>
+			<str id="r" val="Kanan:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALS">
+			<str id="desc" val="Fungsi Anti-flicker hanya tersedia untuk kamera dengan detektor rolling shutter (sebagian besar cmos sensor) dan modus eksposur otomatis harus dinonaktifkan. Mengaktifkan fungsi ini akan membuat hanya beberapa nilai waktu paparan tertentu yang tersedia, yang tergantung pada frekuensi daya yang dipilih."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAMODE">
+			<str id="color" val="Warna"/>
+			<str id="gray" val="Hitam-putih"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERASPEED">
+			<str id="low" val="Rendah"/>
+			<str id="com" val="Gerakkan slider ke kanan untuk memastikan bahwa kamera memainkan video langsung pada frame rate tercepat bahwa hub USB komputer mendukung. Jika video langsung gagal untuk menampilkan, pindahkan slider ke kiri untuk mengurangi frame rate."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAWB">
+			<str id="tem" val="Suhu:"/>
+			<str id="com" val="Pindahkan ROI (Ditandai dengan sebuah persegi panjang merah) ke objek putih atau hitam putih murni dan klik &quot; White Balance &quot; untuk menetapkan white balance untuk video masa depan."/>
+			<str id="auto" val="Otomatis Saldo putih"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAPRESET">
+			<str id="load" val="Muat"/>
+			<str id="ov" val="Timpa"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERTXT">
+			<str id="tl" val="Tampilan"/>
+			<str id="pos" val="Posisi:"/>
+			<str id="bg" val="Latar Belakang:"/>
+			<str id="sc" val="Skala"/>
+			<str id="show" val="Tampil"/>
+			<str id="dt" val="Waktu - Tanggal"/>
+			<str id="cl" val="Faktor Clarity"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERGEO">
+			<str id="tl" val="Marker"/>
+		</dlg>
+
+		<dlg id="IDD_OPENDLG">
+			<str id="imag" val="Informasi/Pratinjau Gambar"/>
+			<str id="cur" val="Sekarang:"/>
+		</dlg>
+
+		<dlg id="IDD_PROMTSAVE">
+			<str id="tl" val="Simpan Berkas"/>
+			<str id="com" val="Berkas telah dirubah. Apakah anda ingin menyimpan perubahan?"/>
+			<str id="yes" val="Ya untuk semua"/>
+			<str id="no" val="Tidak untuk semua"/>
+			<str id="bat" val="Menyimpan Batch"/>
+		</dlg>
+
+		<dlg id="IDD_SFT">
+			<str id="tl" val="Format gambar yang mendukung pengukuran"/>
+			<str id="com" val="Format yang anda pilih tidak mendukung layer dan pengukuran. Jika anda ingin menyimpan layer dan pengukuran dengan gambar silahkan pilih format:"/>
+			<str id="re" val="Jangan mengingatkan nanti."/>
+			<str id="con" val="Bersambung"/>
+			<str id="res" val="Pilih kembali"/>
+		</dlg>
+
+		<dlg id="IDD_CAPTURE">
+			<str id="mk" val="Capture dengan Marker dan Watermark"/>
+			<str id="mm" val="Capture dengan pengukuran:"/>
+		</dlg>
+
+		<dlg id="IDD_GRID">
+			<str id="ru" val="Warna Garis:"/>
+			<str id="cu" val="Warna Kursor:"/>
+			<str id="sy" val="Gaya:"/>
+			<str id="lis" val="Gaya Garis:"/>
+			<str id="lic" val="Warna Garis:"/>
+			<str id="id" val="Preset Managemen..."/>
+		</dlg>
+
+		<dlg id="IDD_WATERMARK">
+			<str id="fle" val="Gambar Berkas:"/>
+            <str id="tra" val="Transparan (%):"/>
+			<str id="tip" val="Gunakan Shift + Up/Down/Left/Right tombol panah untuk memindahkan watermark.\r\nUse Shift + Ctrl + Left/Right tombol panah untuk memutar watermark."/>
+		</dlg>
+
+		<dlg id="IDD_PROGRESS">
+			<str id="tl" val="Kemajuan"/>
+		</dlg>
+
+		<dlg id="IDD_IOPT">
+			<str id="r" val="Rasio Kompress"/>
+			<str id="qu" val="Kualitas gambar"/>
+			<str id="best" val="Kompresi\nTerbaik"/>
+			<str id="bq" val="Kualitas\nTerbaik"/>
+			<str id="pr" val="Progresif"/>
+			<str id="op" val="Optimalisasi Coding"/>
+			<str id="ap" val="Menambahkan Halaman"/>
+			<str id="s" val="Tanpa bantalan:"/>
+			<str id="def" val="Simpan pengaturan ini sebagai defaults"/>
+			<str id="cl" val="Level mampat"/>
+			<str id="fs" val="Tercepat"/>
+			<str id="fh" val="Pengepala Berkas:"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_HEADER">
+			<str id="tc" val="Semua informasi tampilan adalah optional."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP1">
+			<str id="pl" val="Silahkan pilih format video dan encoder"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP2">
+			<str id="name" val="1. Atur nama untuk berkas video captured"/>
+			<str id="dir" val="2. Pilih direktori untuk berkas video"/>
+			<str id="tc" val="Nama ekstensi berkas .wmv atau .mp4 atau .aviakan ditambah secara otomatis ke nama berkas."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP3">
+			<str id="key" val="Kunci bingkai spasi:"/>
+			<str id="se" val="Detik(s)"/>
+			<str id="cfg" val="Konfigurasi..."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP4">
+			<str id="t" val="Batas waktu (detik(s))"/>
+			<str id="s" val="Ringkasan"/>
+			<str id="a" val="Waktu (detik(s))"/>
+		</dlg>
+
+		<dlg id="IDD_BROADCAST">
+			<str id="save" val="Menyimpan konten untuk berkas secara bersamaan"/>
+		</dlg>
+
+		<dlg id="IDD_MOVE">
+			<str id="tl" val="Pindah"/>
+		</dlg>
+
+		<dlg id="IDD_DIAGNOSE">
+			<str id="tl" val="Mendiagnosa"/>
+		</dlg>
+
+		<dlg id="IDD_CURVE">
+			<str id="tl" val="Kurva"/>
+		</dlg>
+
+		<dlg id="IDD_RANGE">
+			<str id="tl" val="Rentang"/>
+			<str id="in" val="Balikkan"/>
+			<str id="up" val="Memperbarui"/>
+		</dlg>
+
+		<dlg id="IDD_THRESHOLD">
+			<str id="tl" val="Biner"/>
+		</dlg>
+
+		<dlg id="IDD_ADJUSTBC">
+			<str id="tl" val="Menyesuaikan Kecerahan/Kontras"/>
+		</dlg>
+
+		<dlg id="IDD_AUTOSETUP">
+			<str id="ct" val="Auto Kontras"/>
+			<str id="low" val="Kliping rendah"/>
+			<str id="high" val="Kliping tinggi"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR">
+			<str id="tl" val="Penyesuaian warna"/>
+			<str id="mo" val="Warna Modules"/>
+		</dlg>
+
+		<dlg id="IDD_CLRQUANT">
+			<str id="bits" val="Warna Bits"/>
+		</dlg>
+
+		<dlg id="IDD_COLORBITS">
+			<str id="tl" val="Ubah Warna Bits"/>
+			<str id="new" val="Warna Bits baru"/>
+		</dlg>
+
+		<dlg id="IDD_COLORSELECT">
+			<str id="tl" val="Pilih warna"/>
+		</dlg>
+
+		<dlg id="IDD_EDGE">
+			<str id="h" val="Horisontal"/>
+			<str id="v" val="Vertikal"/>
+		</dlg>
+
+		<dlg id="IDD_ENHANCE">
+			<str id="rk" val="Rangking"/>
+		</dlg>
+
+		<dlg id="IDD_FILLDIALOG">
+			<str id="tl" val="Mengisi Nilai"/>
+		</dlg>
+
+		<dlg id="IDD_GRAY">
+			<str id="tl" val="Skala hitam-putih"/>
+			<str id="alg" val="Algoritma"/>
+			<str id="ave" val="Rata-rata"/>
+			<str id="max" val="Maksimal"/>
+			<str id="we" val="Weight"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM">
+			<str id="ch" val="Channel"/>
+			<str id="le" val="Level:"/>
+			<str id="co" val="Count:"/>
+			<str id="px" val="Piksel:"/>
+			<str id="per" val="Percentile:"/>
+		</dlg>
+
+		<dlg id="IDD_KERPAGE">
+			<str id="ker" val="Inti"/>
+			<str id="open" val="Buka"/>
+			<str id="cl" val="Tutup"/>
+			<str id="fi" val="Tipe Filter"/>
+			<str id="conv" val="Lilitan"/>
+			<str id="morp" val="Morfologi"/>
+		</dlg>
+
+		<dlg id="IDD_KERSTRUCT">
+			<str id="tl" val="Edit Inti"/>
+			<str id="size" val="Ukuran Inti"/>
+			<str id="fill" val="Mengisi"/>
+		</dlg>
+
+		<dlg id="IDD_MORPAGE">
+			<str id="open" val="Buka"/>
+			<str id="cl" val="Tutup"/>
+			<str id="dis" val="Jarak"/>
+			<str id="thi" val="Penjarangan"/>
+			<str id="3x1" val="3 x 1 Baris"/>
+			<str id="1x3" val="1 x 3 Kolom"/>
+			<str id="3x3" val="3 x 3 Cross"/>
+			<str id="5x5" val="5 x 5 Lingkaran"/>
+			<str id="7x7" val="7 x 7 Lingkaran"/>
+			<str id="11x11" val="11 x 11 Lingkaran"/>
+		</dlg>
+
+		<dlg id="IDD_ROTATE">
+			<str id="tl" val="Rotasi Gambar"/>
+			<str id="deg" val="Derajat:"/>
+			<str id="qu" val="Kualitas"/>
+			<str id="an" val="Sudut"/>
+		</dlg>
+
+		<dlg id="IDD_SCALE">
+			<str id="tl" val="Skala Gambar"/>
+			<str id="con" val="Constrain Proportions"/>
+			<str id="met" val="Skala metode"/>
+		</dlg>
+
+		<dlg id="IDD_HMS">
+			<str id="tl" val="Hightlight/Midtone/Shadow"/>
+		</dlg>
+
+		<dlg id="IDD_PROFILE">
+			<str id="t" val="Profil"/>
+		</dlg>
+
+		<dlg id="IDD_LAYERNAME">
+			<str id="tl" val="Lapisan"/>
+		</dlg>
+
+		<dlg id="IDD_AUNIT">
+			<str id="all" val="Tampilkan semua sudut unit di sidebar pengukuran"/>
+		</dlg>
+
+		<dlg id="IDD_ADDUNIT">
+			<str id="tl" val="Tambah Unit"/>
+			<str id="sc" val="Skala:"/>
+			<str id="sy" val="Simbol:"/>
+		</dlg>
+
+		<dlg id="IDD_GENERAL">
+			<str id="res" val="Hasil penrhitungan tetap:"/>
+			<str id="lfs" val="Ukuran huruf label:"/>
+			<str id="unit" val="Dimensi dengan unit"/>
+			<str id="ln" val="Label dengan nama"/>
+            <str id="sp" val="Sisipkan spasi antara nilai numerik dan simbol satuan (&quot;12,34 mm&quot; atau &quot;12,34mm&quot;)"/>
+			<str id="rc" val="Panjang minimum koneksi acak:"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_DELETE">
+			<str id="tl" val="Hapus Lapisan"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_CURRENT">
+			<str id="tl" val="Arus Lapisan"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_MANAGE">
+			<str id="tl" val="Menampilkan/Menyembunyikan Lapisan"/>
+		</dlg>
+
+		<dlg id="IDD_MEASURELIST">
+			<str id="col" val="Tentukan kolom lembar pengukuran"/>
+			<str id="o" val="Objek kustom..."/>
+			<str id="c" val="Kolom kustom..."/>
+			<str id="a" val="Perhitungan kustom..."/>
+			<str id="r" val="Baris kustom..."/>
+			<str id="s" val="Statistik (Tambahkan baris berikut ke lembar pengukuran)"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR_COMPOSITE">
+			<str id="tl" val="Warna Campuran"/>
+			<str id="so" val="Gambar:"/>
+			<str id="co" val="Warna:"/>
+			<str id="all" val="Semua"/>
+			<str id="se" val="Dipilih"/>
+			<str id="adj" val="Penyesuaian"/>
+			<str id="reg" val="Registrasi"/>
+		</dlg>
+
+		<dlg id="IDD_COMPOSITE_AVA">
+			<str id="so" val="Gambar"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_SELECT_COLOR">
+			<str id="tl" val="Pilih warna"/>
+			<str id="fle" val="Untuk Berkas:"/>
+			<str id="se" val="Pilihan:"/>
+			<str id="back" val="Latar belakang"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_NEW_DYE">
+			<str id="tl" val="Pewarna Baru"/>
+		</dlg>
+
+		<dlg id="IDD_PROP">
+			<str id="set" val="Mengatur properti default dari objek pengukuran:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_OPTION">
+			<str id="tl" val="Jumlah pilihan"/>
+			<str id="ot" val="Gaya:"/>
+			<str id="lm" val="Metode:"/>
+			<str id="max" val="Maksimum:"/>
+			<str id="sc" val="Pemandangan:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_HISTORGRAM">
+			<str id="sa" val="Tampil semua"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_COLORCUBE">
+			<str id="to" val="Toleransi"/>
+		</dlg>
+
+		<dlg id="IDD_NLM">
+			<str id="sw" val="Mencari Window:"/>
+			<str id="tw" val="Contoh Window:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYD">
+			<str id="d" val="Detil Kejelasan:"/>
+			<str id="o" val="Total Kecerahan:"/>
+			<str id="b" val="Latar belakang kecerahan:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_ALIGN">
+			<str id="aa" val="Auto menyelaraskan"/>
+			<str id="a0" val="Tidak"/>
+			<str id="a1" val="Bergeser + Scale"/>
+			<str id="a2" val="Bergeser + Scale + Memutar"/>
+			<str id="ma" val="Sudut maksimum:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_FM">
+			<str id="at" val="Tentukan referensi gambar secara otomatis"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYDSTACK">
+			<str id="dm" val="Recover Depthmap:"/>
+			<str id="ac" val="Menyesuaikan kontras:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERADFC">
+			<str id="tip" val="Cover the lens, and then push the &quot;Menangkap&quot; button to capture the dark filed. Check the &quot;Enable&quot; button to enable &quot;Dark Filed Correction&quot;."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALIVESTACK">
+			<str id="af" val="Menyelaraskan frame"/>
+			<str id="ds" val="Langit jauh"/>
+			<str id="in" val="Masukan:"/>
+		</dlg>
+
+		<dlg id="IDD_DETAILENHANCE">
+			<str id="tl" val="Detil Enhancer"/>
+			<str id="s" val="Sigma spasial:"/>
+			<str id="r" val="Pilihan Sigma:"/>
+		</dlg>
+
+		<dlg id="IDD_EDGEPRESERVINGSMOOTH">
+			<str id="s" val="Spatial Sigma:"/>
+			<str id="re" val="Rekursif"/>
+		</dlg>
+
+		<dlg id="IDD_LLC">
+			<str id="tl" val="Koreksi warna lokal"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFORMAT">
+			<str id="v" val="Properti"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERACOOL">
+			<str id="po" val="Kekuasaan:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERATRIGGER">
+			<str id="vm" val="Video modus"/>
+			<str id="tr" val="Pemicu modus"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERABINNING">
+			<str id="m" val="Metode:"/>
+		</dlg>
+
+		<dlg id="IDD_FITSADD">
+			<str id="a" val="(1~8 huruf atau angka, A~Z, a~z, 0~9)"/>
+		</dlg>
+
+		<dlg id="IDD_REPORT">
+			<str id="l" val="Klon..."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAAF">
+			<str id="c" val="Konjugat kalibrasi"/>
+			<str id="0" val="C Gunung 0mm"/>
+			<str id="l" val="Lensa:"/>
+			<str id="n" val="Dekat"/>
+			<str id="f" val="Jauh"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_MANUAL">
+			<str id="tl" val="Hitung ontel"/>
+			<str id="er" val="Menghapus"/>
+		</dlg>
+
+		<dlg id="IDD_IOADVANCED">
+			<str id="r" val="Menerima"/>
+			<str id="d" val="Mengirim"/>
+		</dlg>
+
+		<dlg id="IDD_WAIT">
+			<str id="t" val="Tunggu"/>
+			<str id="p" val="Tunggu sebentar:"/>
+		</dlg>
+		
+		<dlg id="IDD_GIGENET">
+			<str id="s" val="Topeng Subnet:"/>
+		</dlg>
+		
+		<dlg id="IDD_FW">
+			<str id="n" val="Nomor Slot:"/>
+		</dlg>
+		
+		<dlg id="IDD_PSEUDOCOLOR">
+			<str id="s" val="Mulai Warna:"/>
+			<str id="e" val="Warna Akhir:"/>
+		</dlg>
+	</dialog>
+
+	<menu>
+		<str id="fle" val="&amp;Berkas"/>
+		<str id="vew" val="&amp;Tampilkan"/>
+		<str id="prss" val="&amp;Proses"/>
+		<str id="opns" val="Pili&amp;han"/>
+		<str id="hlp" val="Ban&amp;tuan"/>
+		<str id="stup" val="&amp;Pengaturan"/>
+		<str id="cptu" val="&amp;Menangkap"/>
+		<str id="imag" val="&amp;Gambar"/>
+		<str id="layr" val="&amp;Lapisan"/>
+		<str id="meas" val="Pengu&amp;kuran"/>
+		<str id="brws" val="&amp;Ramban"/>
+		<str id="db" val="Pangkalan &amp;data"/>
+
+		<str id="icns" val="&amp;Ikon"/>
+		<str id="rulersandgrid" val="&amp;Garis and Grid"/>
+		<str id="mode" val="&amp;Modus"/>
+		<str id="adj" val="&amp;Menyesuaikan"/>
+		<str id="rtt" val="&amp;Rotasi"/>
+		<str id="line" val="&amp;Garis"/>
+		<str id="vert" val="&amp;Vertikal"/>
+		<str id="crcl" val="&amp;Lingkaran"/>
+		<str id="tocls" val="&amp;Dua lingkaran"/>
+		<str id="lunit" val="Satuan &amp;panjang"/>
+
+		<str id="oimg" val="Buka &amp;Gambar..."/>
+		<str id="ovid" val="Buka &amp;Video..."/>
+		<str id="obcas" val="Buka Broad&amp;cast..."/>
+		<str id="sckin" val="Gambar &amp;Stacking..."/>
+		<str id="batsv" val="&amp;Menyimpan Batch..."/>
+		<str id="qksv" val="&amp;SImpan Cepat..."/>
+		<str id="psnew" val="Paste as &amp;Membuat Berkas"/>
+		<str id="exit" val="&amp;Keluar"/>
+		<str id="copy" val="&amp;Salin"/>
+		<str id="selal" val="Pi&amp;lih Semua"/>
+		<str id="ivsel" val="Pilih Sebal&amp;iknya"/>
+		<str id="camsb" val="&amp;Kamera"/>
+		<str id="fosb" val="&amp;Folder"/>
+		<str id="ursb" val="&amp;Undo/Mengulang"/>
+		<str id="lydb" val="&amp;Lapisan"/>
+		<str id="msbar" val="&amp;Pengukuran"/>
+		<str id="prfs" val="&amp;Preferensi..."/>
+		<str id="mm" val="&amp;Pengukuran..."/>
+		<str id="clbr" val="&amp;Kalibrasi..."/>
+		<str id="atcor" val="&amp;Koreksi Otomatis..."/>
+		<str id="f1" val="&amp;Konten Bantuan"/>
+		<str id="ab" val="&amp;Mengenai"/>
+
+		<str id="save" val="&amp;Simpan"/>
+		<str id="svee" val="&amp;Simpan..."/>
+		<str id="svas" val="Simp&amp;an sebagai..."/>
+
+		<str id="gno" val="&amp;Grids tidak"/>
+		<str id="gdl" val="&amp;Menghapus semua Grids"/>
+		<str id="rlset" val="&amp;Pengaturan..."/>
+		<str id="fitwi" val="Paling &amp;cocok"/>
+		<str id="asiz" val="&amp;Ukuran sebenarnya"/>
+		<str id="trk" val="Pelaca&amp;kan"/>
+
+		<str id="sith" val="M&amp;osaik..."/>
+		<str id="dldt" val="&amp;Menghapus berkas"/>
+		<str id="bbro" val="&amp;Ramban"/>
+		<str id="openf" val="&amp;Buka"/>
+
+		<str id="sttp" val="&amp;Membeku"/>
+		<str id="fscr" val="&amp;Layar penuh"/>
+		<str id="vwpp" val="&amp;Mendiagnosa"/>
+		<str id="vvl" val="Video &amp;Tampilan..."/>
+		<str id="vwm" val="Video &amp;Watermark..."/>
+		<str id="wmmv" val="P&amp;indahkan ke..."/>
+		<str id="wmzro" val="Pindahkan ke &amp;nol"/>
+		<str id="wmrot" val="&amp;Memutar ke..."/>
+		<str id="wmrz" val="Memutar ke &amp;nol"/>
+		<str id="gcal" val="&amp;Abu-abu kalibrasi"/>
+		<str id="cpig" val="&amp;Mengambil gambar"/>
+		<str id="tmlps" val="Mulai &amp;Time-lapse (Otomatik Menangkap)..."/>
+		<str id="strec" val="Mulai/Berhenti &amp;merekam..."/>
+		<str id="sttb" val="Memulai/Berhenti &amp;Siaran..."/>
+
+		<str id="qtiz" val="Warna &amp;kuantisasi..."/>
+		<str id="gsca" val="&amp;Skala abu-abu"/>
+		<str id="curv" val="K&amp;urva..."/>
+		<str id="alvl" val="Otomatis &amp;Tingkat"/>
+		<str id="acon" val="Otomatis &amp;kontras"/>
+		<str id="bc" val="Kecerahan/Kontr&amp;as..."/>
+		<str id="imclr" val="&amp;Warna..."/>
+		<str id="fclr" val="&amp;Filter Warna..."/>
+		<str id="eclr" val="&amp;Ekstrak Warna..."/>
+		<str id="iclr" val="&amp;Balikkan"/>
+		<str id="rotar" val="&amp;Sewenang-wenang..."/>
+		<str id="filph" val="Flip &amp;Horisontal"/>
+		<str id="flipv" val="Flip &amp;Vertikal"/>
+		<str id="reso" val="&amp;Resolusi..."/>
+
+		<str id="rang" val="&amp;Rentang..."/>
+		<str id="biy" val="&amp;Biner..."/>
+		<str id="psud" val="Warna &amp;semu..."/>
+		<str id="prf" val="Profi&amp;l..."/>
+		<str id="cmps" val="Warna ko&amp;mposit..."/>
+
+		<str id="lnew" val="&amp;Baru..."/>
+		<str id="lrem" val="&amp;Hapus..."/>
+		<str id="lcur" val="&amp;Sekarang..."/>
+		<str id="lshow" val="&amp;Tampilkan/Sembunyi..."/>
+		<str id="len" val="Nama &amp;Ulang..."/>
+		<str id="lexp" val="Gabungkan ke &amp;Gambar..."/>
+		<str id="mexp" val="Gabungkan ke &amp;Gambar"/>
+		<str id="ldrem" val="&amp;Hapus"/>
+		<str id="ldcur" val="&amp;Sekarang"/>
+		<str id="ldshw" val="&amp;Tampilkan/Sembunyi"/>
+
+		<str id="osel" val="&amp;Pilih objek"/>
+		<str id="angl" val="Sud&amp;ut"/>
+		<str id="point" val="&amp;Titik"/>
+		<str id="arbl" val="&amp;Sewenang-wenang"/>
+		<str id="hline" val="&amp;Horisontal"/>
+		<str id="vline" val="&amp;Vertikal"/>
+		<str id="parl" val="Pa&amp;ralel"/>
+		<str id="pnt8" val="&amp;8 Titik"/>
+		<str id="pnt5" val="&amp;5 Titik"/>
+		<str id="pnt4" val="&amp;4 Titik"/>
+		<str id="pnt3" val="&amp;3 Titik"/>
+		<str id="pnt2" val="&amp;2 Titik"/>
+		<str id="rctg" val="Bu&amp;jur Sangkar"/>
+		<str id="crad" val="&amp;Pusat+Radius"/>
+		<str id="alus" val="An&amp;ulus"/>
+		<str id="arc" val="&amp;Busur"/>
+		<str id="text" val="Te&amp;ks"/>
+		<str id="plg" val="Poli&amp;gon"/>
+		<str id="ztop" val="&amp;Atas"/>
+		<str id="zbtm" val="&amp;Bawah"/>
+		<str id="zup" val="&amp;Naik Satu Tingkat"/>
+		<str id="zdown" val="&amp;Turun Satu Tingkat"/>
+		<str id="lcv" val="Kur&amp;va"/>
+		<str id="mode1" val="Koneksi &amp;acak"/>
+		<str id="mode2" val="Koneksi &amp;multipoint"/>
+		<str id="arrw" val="&amp;Panah"/>
+
+		<str id="call" val="&amp;Keluar Semua"/>
+		<str id="rstlo" val="&amp;Reset Tampilan Window"/>
+
+		<str id="aunit" val="&amp;Sudut Unit..."/>
+
+		<str id="nccls" val="&amp;Tutup"/>
+		<str id="nccla" val="Menutup &amp;semua tapi ini"/>
+		<str id="clsth" val="Tutup &amp;Lainnya"/>
+		<str id="fprop" val="&amp;Berkas Properti..."/>
+		<str id="cpath" val="Salin semua &amp;Path"/>
+		<str id="ftwid" val="Sesuaikan &amp;Lebar"/>
+		<str id="fthei" val="Sesuaikan &amp;Tinggi"/>
+		<str id="fitwi" val="Sesuaikan dengan &amp;Window"/>
+
+		<str id="bronm" val="Urut berdasarkan &amp;Nama"/>
+		<str id="brotp" val="Urut berdasarkan &amp;Tipe"/>
+		<str id="brosz" val="Urut berdasarkan &amp;Ukuran"/>
+		<str id="browd" val="Urut berdasarkan &amp;Lebar"/>
+		<str id="brohe" val="Urut berdasarkan &amp;Tinggi"/>
+		<str id="brotx" val="Urut erdasarkan &amp;Ekstensi"/>
+		<str id="brofw" val="&amp;Meningkat"/>
+		<str id="brorv" val="Menu&amp;run"/>
+		<str id="brol" val="Ikon &amp;Besar"/>
+		<str id="bros" val="Ikon &amp;Kecil"/>
+		<str id="brorf" val="Se&amp;garkan"/>
+		<str id="bropo" val="&amp;Properti..."/>
+
+		<str id="mimp" val="&amp;Impor Berkas..."/>
+		<str id="msav" val="Berkas &amp;Simpan..."/>
+		<str id="mhtm" val="Ekspor ke &amp;Html"/>
+		<str id="mexc" val="Ekspor ke Microsoft &amp;Excel..."/>
+
+		<str id="bstf" val="&amp;Paling cocok"/>
+		<str id="asiz" val="&amp;Ukuran sebenarnya"/>
+
+		<str id="edph" val="&amp;H Gaya"/>
+
+		<str id="oc" val="Se&amp;gmentasi dan Hitungan"/>
+		<str id="ocsd" val="OTSU &amp;Gelap..."/>
+		<str id="ocsb" val="OTSU &amp;Cerah..."/>
+		<str id="occc" val="&amp;Kubus warna..."/>
+
+		<str id="lined" val="Garis (&amp;3 Titik)"/>
+
+		<str id="tnal" val="&amp;Gambar kecil"/>
+		<str id="avw" val="Aktifkan Jendela &amp;Video"/>
+
+		<str id="cust" val="&amp;Sesuaikan..."/>
+		<str id="ctool" val="&amp;Sesuaikan Bilah Alat..."/>
+
+		<str id="cent" val="P&amp;usat"/>
+		<str id="sernx" val="Bingkai &amp;berikutnya"/>
+		<str id="serpv" val="Bingkai &amp;sebelumnya"/>
+
+		<str id="ext" val="Aplikasi Eksterna&amp;l"/>
+
+		<str id="man" val="&amp;Managemen..."/>
+		<str id="word" val="&amp;Laporan Sekarang"/>
+		<str id="word" val="Lapo&amp;ran"/>
+
+		<str id="deep" val="&amp;Dalam Salin"/>
+
+		<str id="expex" val="Ekspor Ekspor Microsoft &amp;Excel"/>
+		<str id="expim" val="Ekspor Ekspor &amp;Gambar"/>
+
+		<str id="pipe" val="&amp;Pipet"/>
+
+		<str id="clhd" val="&amp;Sembunyi"/>
+		<str id="clsl" val="&amp;Dipilih..."/>
+
+		<str id="whba" val="&amp;Saldo putih"/>
+
+		<str id="cstm" val="&amp;Adat"/>
+
+		<str id="expt" val="&amp;Eksport"/>
+		<str id="expf" val="&amp;Eksport..."/>
+		<str id="impf" val="&amp;Impor..."/>
+
+		<str id="copa" val="&amp;Membandingkan"/>
+
+		<str id="dstup" val="&amp;Baru..."/>
+		<str id="drop" val="&amp;Hapus"/>
+		<str id="clea" val="Bersi&amp;h"/>
+		<str id="dconn" val="&amp;Menghubung..."/>
+		<str id="disc" val="&amp;Memutuskan"/>
+		<str id="inse" val="Mem&amp;asukkan..."/>
+		<str id="opts" val="&amp;Pilihan..."/>
+		<str id="oima" val="Buka &amp;Gambar"/>
+
+		<str id="rena" val="&amp;Nama Ulang..."/>
+		<str id="dye" val="&amp;Pencelupan..."/>
+
+		<str id="item" val="&amp;Unsur"/>
+		<str id="aitem" val="S&amp;emua Unsur"/>
+		<str id="aimag" val="&amp;Semua Gambar"/>
+
+		<str id="expg" val="&amp;Pencahayaan &amp;&amp; Gain"/>
+		<str id="load" val="&amp;Muat"/>
+        
+        <str id="clti" val="Tutup Semua &amp;Gambar Sementara"/>
+		<str id="defu" val="&amp;Standar"/>
+		
+		<str id="disa" val="&amp;Menonaktifkan"/>
+		<str id="b1" val="&amp;1 Byte"/>
+		<str id="b2" val="&amp;2 Byte"/>
+		<str id="b4" val="&amp;4 Byte"/>
+		
+		<str id="ipm" val="Alamat &amp;IP..."/>
+		<str id="rtm" val="&amp;Waktu nyata"/>
+	</menu>
+</i18n>

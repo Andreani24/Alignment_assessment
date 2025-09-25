@@ -1,0 +1,2463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<i18n>
+	<all>
+		<str id="ids_error" val="错误"/>
+		<str id="ids_true" val="是"/>
+		<str id="ids_false" val="否"/>
+		<str id="ids_yes" val="是"/>
+		<str id="ids_no" val="否"/>
+		<str id="ids_ok" val="确定"/>
+		<str id="ids_camera" val="相机"/>
+		<str id="ids_folders" val="文件夹"/>
+		<str id="ids_video" val="视频"/>
+		<str id="ids_browse" val="浏览"/>
+		<str id="ids_back" val="返回"/>
+		<str id="ids_forward" val="向前"/>
+		<str id="ids_backward" val="向后"/>
+		<str id="ids_open" val="打开"/>
+		<str id="ids_pixel" val="像素"/>
+		<str id="ids_width" val="宽度"/>
+		<str id="ids_height" val="高度"/>
+		<str id="ids_measurement" val="测量"/>
+		<str id="ids_name" val="名称"/>
+		<str id="ids_index" val="序号"/>
+		<str id="ids_version" val="版本"/>
+		<str id="ids_sample" val="示例"/>
+		<str id="ids_xor" val="异或"/>
+		<str id="ids_avg" val="平均"/>
+		<str id="ids_mean" val="平均"/>
+		<str id="ids_den" val="去噪"/>
+		<str id="ids_capture" val="捕获"/>
+		<str id="ids_stop" val="停止"/>
+		<str id="ids_close" val="关闭"/>
+		<str id="ids_save" val="保存"/>
+		<str id="ids_none" val="无"/>
+		<str id="ids_zoom" val="缩放"/>
+		<str id="ids_time" val="时间"/>
+		<str id="ids_frame" val="帧数"/>
+		<str id="ids_framerate" val="帧率"/>
+		<str id="ids_target" val="目标"/>
+		<str id="ids_free" val="空闲"/>
+		<str id="ids_file" val="文件"/>
+		<str id="ids_date" val="日期"/>
+		<str id="ids_year" val="年"/>
+		<str id="ids_month" val="月"/>
+		<str id="ids_day" val="日"/>
+		<str id="ids_linear" val="线性"/>
+		<str id="ids_log" val="对数"/>
+		<str id="ids_exp" val="指数"/>
+		<str id="ids_poly" val="多项式"/>
+		<str id="ids_format" val="格式"/>
+		<str id="ids_bl" val="暗电平"/>
+		<str id="ids_current" val="当前"/>
+		<str id="ids_cancel" val="取消"/>
+		<str id="ids_apply" val="应用"/>
+		<str id="ids_defaults" val="默认值"/>
+		<str id="ids_default" val="默认"/>
+		<str id="ids_refresh" val="刷新"/>
+		<str id="ids_auto" val="自动"/>
+		<str id="ids_reset" val="重置"/>
+		<str id="ids_option" val="选项"/>
+		<str id="ids_options" val="选项"/>
+		<str id="ids_preview" val="预览"/>
+		<str id="ids_size" val="大小"/>
+		<str id="ids_color" val="颜色"/>
+		<str id="ids_label" val="标注"/>
+		<str id="ids_px" val="像素"/>
+		<str id="ids_appearance" val="外观"/>
+		<str id="ids_scalebar" val="比例尺"/>
+		<str id="ids_rename" val="重命名"/>
+		<str id="ids_desc" val="说明"/>
+		<str id="ids_remove" val="删除"/>
+		<str id="ids_red" val="红色"/>
+		<str id="ids_green" val="绿色"/>
+		<str id="ids_blue" val="蓝色"/>
+		<str id="ids_radius" val="半径"/>
+		<str id="ids_add" val="增加"/>
+		<str id="ids_del" val="删除"/>
+		<str id="ids_hue" val="色调"/>
+		<str id="ids_sat" val="饱和度"/>
+		<str id="ids_bri" val="亮度"/>
+		<str id="ids_con" val="对比度"/>
+		<str id="ids_gamma" val="伽玛"/>
+		<str id="ids_res" val="分辨率"/>
+		<str id="ids_compression" val="压缩"/>
+		<str id="ids_whitebalance" val="白平衡"/>
+		<str id="ids_blackbalance" val="黑平衡"/>
+		<str id="ids_zoomin" val="放大"/>
+		<str id="ids_zoomout" val="缩小"/>
+		<str id="ids_export" val="导出"/>
+		<str id="ids_import" val="导入"/>
+		<str id="ids_hwbin" val="硬件Binning"/>
+		<str id="ids_digbin" val="数字Binning"/>
+		<str id="ids_thumbnail" val="缩略图"/>
+		<str id="ids_rotate" val="旋转"/>
+		<str id="ids_meta" val="元数据"/>
+		<str id="ids_en" val="启用"/>
+		<str id="ids_value" val="属性值"/>
+		<str id="ids_expti" val="曝光时间"/>
+		<str id="ids_rexpti" val="实际曝光时间"/>
+		<str id="ids_observer" val="观测者"/>
+		<str id="ids_telescope" val="望远镜"/>
+		<str id="ids_comment" val="注释"/>
+		<str id="ids_edit" val="编辑"/>
+		<str id="ids_model" val="相机型号"/>
+		<str id="ids_type" val="类型"/>
+		<str id="ids_cpyrgt" val="版权所有"/>
+		<str id="ids_author" val="作者"/>
+		<str id="ids_title" val="标题"/>
+		<str id="ids_pxf" val="像素格式"/>
+		<str id="ids_unit" val="单位"/>
+		<str id="ids_calibrate" val="定标"/>
+		<str id="ids_beilv" val="放大率"/>
+		<str id="ids_dis" val="禁用"/>
+		<str id="ids_fset" val="出厂设置"/>
+		<str id="ids_srp" val="锐度"/>
+		<str id="ids_focus" val="对焦"/>
+		<str id="ids_af" val="自动对焦"/>
+		<str id="ids_mau" val="手动"/>
+		<str id="ids_elc" val="电动"/>
+		<str id="ids_up" val="上移"/>
+		<str id="ids_down" val="下移"/>
+		<str id="ids_revision" val="修订"/>
+		<str id="ids_preset" val="预设"/>
+		<str id="ids_dl" val="下载"/>
+		<str id="ids_st" val="状态"/>
+		<str id="ids_div" val="等分"/>
+		<str id="ids_sw" val="软件"/>
+		<str id="ids_hw" val="硬件"/>
+		<str id="ids_simu" val="模拟"/>
+		<str id="ids_nrecom" val="不推荐"/>
+		<str id="ids_depre" val="过时"/>
+		<str id="ids_text" val="文字"/>
+		<str id="ids_edf" val="EDF景深扩展"/>
+		<str id="ids_mem" val="内存"/>
+		<str id="ids_os" val="操作系统"/>
+		<str id="ids_count" val="计数"/>
+		<str id="ids_perct" val="百分比"/>
+		<str id="ids_total" val="总计"/>
+		<str id="ids_computer" val="计算机"/>
+		<str id="ids_copy" val="复制"/>
+		<str id="ids_autoe" val="自动曝光"/>
+		<str id="ids_expta" val="曝光目标"/>
+		<str id="ids_bin" val="邻域平均(Bin)"/>
+		<str id="ids_skip" val="抽样提取(Skip)"/>
+		<str id="ids_gain" val="增益"/>
+		<str id="ids_stemp" val="温度"/>
+		<str id="ids_fan" val="风扇"/>
+		<str id="ids_ttemp" val="目标温度"/>
+		<str id="ids_display" val="显示"/>
+		<str id="ids_cut" val="剪切"/>
+		<str id="ids_pste" val="粘贴"/>
+		<str id="ids_lock" val="锁定"/>
+		<str id="ids_basic" val="基本"/>
+		<str id="ids_sk" val="叠加"/>
+		<str id="ids_neg" val="负片"/>
+		<str id="ids_tonem" val="色调映射"/>
+		<str id="ids_position" val="位置"/>
+		<str id="ids_custom" val="自定义"/>
+		<str id="ids_object" val="对象"/>
+		<str id="ids_cobject" val="测量对象"/>
+		<str id="ids_threshold" val="阈值"/>
+		<str id="ids_bool" val="布尔"/>
+		<str id="ids_all" val="所有"/>
+		<str id="ids_column" val="列"/>
+		<str id="ids_row" val="行"/>
+		<str id="ids_merge" val="融合"/>
+		<str id="ids_shape" val="形状"/>
+		<str id="ids_font" val="字体"/>
+		<str id="ids_fontsize" val="字体大小"/>
+		<str id="ids_fontweight" val="字形"/>
+		<str id="ids_bandw" val="带宽"/>
+		<str id="ids_about" val="关于"/>
+		<str id="ids_horz" val="水平"/>
+		<str id="ids_vert" val="垂直"/>
+		<str id="ids_polygon" val="多边形"/>
+		<str id="ids_adv" val="高级"/>
+		<str id="ids_strength" val="强度"/>
+		<str id="ids_linewidth" val="线条粗细"/>
+		<str id="ids_glauto" val="全局自动"/>
+		<str id="ids_compare" val="比较"/>
+		<str id="ids_db" val="数据库"/>
+		<str id="ids_new" val="新建"/>
+		<str id="ids_find" val="查找"/>
+		<str id="ids_imag" val="图像"/>
+		<str id="ids_disname" val="显示名称"/>
+		<str id="ids_enum" val="枚举"/>
+		<str id="ids_floatn" val="浮点数"/>
+		<str id="ids_fixn" val="定点数"/>
+		<str id="ids_lnoise" val="低噪声"/>
+		<str id="ids_once" val="单次"/>
+		<str id="ids_cont" val="持续"/>
+		<str id="ids_dye" val="染料"/>
+		<str id="ids_dyv" val="染色"/>
+		<str id="ids_sn" val="序列号"/>
+		<str id="ids_tl" val="定时捕获(Time-lapse)"/>
+		<str id="ids_xoff" val="X偏置"/>
+		<str id="ids_yoff" val="Y偏置"/>
+		<str id="ids_ftype" val="文件类型"/>
+		<str id="ids_starddev" val="标准差"/>
+		<str id="ids_samstarddev" val="样本标准差"/>
+		<str id="ids_max" val="最大"/>
+		<str id="ids_min" val="最小"/>
+		<str id="ids_mono" val="单色"/>
+		<str id="ids_lightsource" val="光源"/>
+		<str id="ids_on" val="开"/>
+		<str id="ids_off" val="关"/>
+		<str id="ids_high" val="高"/>
+		<str id="ids_hdr" val="高动态(HDR)"/>
+		<str id="ids_watermark" val="水印"/>
+		<str id="ids_sshr" val="时"/>
+		<str id="ids_ssmi" val="分"/>
+		<str id="ids_ssec" val="秒"/>
+        <str id="ids_cate" val="类别"/>
+		<str id="ids_settings" val="设置"/>
+		<str id="ids_llcolor" val="标注颜色"/>
+		<str id="ids_ec" val="曝光补偿"/>
+		<str id="ids_highfw" val="高满阱"/>
+		<str id="ids_item" val="项目"/>
+		<str id="ids_discard" val="丢弃"/>
+		<str id="ids_plan" val="计划"/>
+		<str id="ids_network" val="网络"/>
+		<str id="ids_ip" val="IP地址"/>
+		<str id="ids_mac" val="MAC地址"/>
+		<str id="ids_oclock" val="超频"/>
+		<str id="ids_fw" val="滤光轮"/>
+		<str id="ids_pdpseudocolor" val="伪彩色"/>
+		<str id="ids_lowpc" val="低功耗"/>
+		<str id="ids_exporm" val="读出模式"/>
+		<str id="ids_addr" val="地址"/>
+		<str id="ids_trg" val="触发"/>
+		<str id="ids_trgs" val="触发源"/>
+		<str id="ids_nosep" val="物镜转盘"/>
+		<str id="ids_objlen" val="物镜"/>
+		<str id="ids_si" val="单张"/>
+		<str id="ids_sq" val="多张"/>
+		<str id="ids_lp" val="循环"/>
+		<str id="ids_cds" val="相关双采样"/>
+        <str id="ids_antise" val="去快门效应"/>
+		<str id="ids_nic" val="网卡"/>
+		<str id="ids_speed" val="速度"/>
+		<str id="ids_shtt" val="快门"/>
+		<str id="ids_mshtt" val="机械快门"/>
+		<str id="ids_mf" val="显示放大率"/>
+	</all>
+
+	<string>
+		<str id="ids_m" val="米"/>
+		<str id="ids_cm" val="厘米"/>
+		<str id="ids_mm" val="毫米"/>
+		<str id="ids_um" val="微米"/>
+		<str id="ids_nm" val="纳米"/>
+		<str id="ids_in" val="英寸"/>
+		<str id="ids_mil" val="密耳"/>
+		<str id="ids_ang" val="埃"/>
+		<str id="ids_pm" val="皮米"/>
+
+		<str id="ids_angle0" val="弧度"/>
+		<str id="ids_angle1" val="度数"/>
+		<str id="ids_angle2" val="π"/>
+
+		<str id="ids_celsius" val="摄氏度"/>
+		<str id="ids_fahrenheit" val="华氏度"/>
+
+		<str id="ids_colorbuttonother" val="其他..."/>
+		<str id="ids_linestylesolid" val="实线"/>
+		<str id="ids_linestyledash" val="划线"/>
+		<str id="ids_linestyledot" val="点线"/>
+		<str id="ids_linestyledashdot" val="点划线"/>
+		<str id="ids_intminmax" val="请输入一个介于%d和%d之间的整数."/>
+
+		<str id="ids_exposure" val="曝光"/>
+
+		<str id="ids_noexcel" val="未找到Microsoft Excel，请确认Excel已正确安装."/>
+		<str id="ids_noword" val="未找到Microsoft Word，请确认Word已正确安装."/>
+
+		<str id="ids_outofrange" val="超出范围."/>
+		<str id="ids_inputv" val="输入值无效."/>
+		<str id="ids_filenr" val="文件名中不能使用保留字符."/>
+
+		<str id="ids_deviceid" val="设备ID"/>
+		<str id="ids_devicename" val="设备名称"/>
+		<str id="ids_stillimagecapture" val="静态图像捕获"/>
+		<str id="ids_stillimagewidth" val="静态图像宽度"/>
+		<str id="ids_stillimageheight" val="静态图像高度"/>
+		<str id="ids_displaywidth" val="显示宽度"/>
+		<str id="ids_displayheight" val="显示高度"/>
+		<str id="ids_videowidth" val="视频宽度"/>
+		<str id="ids_videoheight" val="视频高度"/>
+		<str id="ids_duration" val="时间"/>
+		<str id="ids_cameraid" val="相机ID"/>
+		<str id="ids_productdate" val="生产日期"/>
+		<str id="ids_framedropped" val="丢失帧数"/>
+		<str id="ids_framesaved" val="保存帧数"/>
+		<str id="ids_property" val="属性"/>
+		<str id="ids_errorstop" val="错误，不能停止."/>
+		<str id="ids_startfail" val="不能启动."/>
+		<str id="ids_previewfail" val="不能预览，请重新插拔相机再试一次."/>
+		<str id="ids_stoppreviewfail" val="错误，不能停止预览."/>
+		<str id="ids_noframe" val="USB带宽不足，请设置低些的帧率或者换一个USB口，重新插拔设备之后再试一次."/>
+		<str id="ids_surpriseremoval" val="相机被拔出."/>
+		<str id="ids_devicelost" val="停止捕获(设备丢失)，请重新插拔相机再试一次."/>
+		<str id="ids_captureerror" val="捕获过程中发生错误，请重新插拔相机或者换一个USB口再试一次."/>
+		<str id="ids_toupnamerror" val="错误，请重启网络相机再试一次."/>
+		<str id="ids_filtergraph" val="不能创建Filter Graph."/>
+		<str id="ids_noax" val="不能创建视频源，驱动没找到，请重新安装."/>
+		<str id="ids_nosource" val="错误，不能创建视频源. 请重新插拔相机再试一次."/>
+
+		<str id="ids_badport" val="指定的端口已经被占用，请使用其他端口."/>
+		<str id="ids_url" val="链接"/>
+		<str id="ids_bcount" val="广播帧数"/>
+		<str id="ids_bdroppcnt" val="广播丢失帧数"/>
+		<str id="ids_bcbbps" val="广播当前码率(Kbps)"/>
+		<str id="ids_baveragebps" val="广播平均码率(Kbps)"/>
+		<str id="ids_bccfr" val="广播当前帧率"/>
+		<str id="ids_baveragesr" val="广播平均帧率"/>
+		<str id="ids_bandwidth" val="带宽(Kbps)"/>
+		<str id="ids_preceived" val="接收包数"/>
+		<str id="ids_plost" val="丢失包数"/>
+		<str id="ids_psize" val="数据包大小"/>
+
+		<str id="ids_encoder" val="编码器"/>
+		<str id="ids_quality" val="质量"/>
+		<str id="ids_bitrate" val="码率"/>
+		<str id="ids_keyfs" val="I帧间隔(秒)"/>
+		<str id="ids_stepdir" val="文件名或目录设置不正确."/>
+		<str id="ids_stepbpsminmax" val="速率设置不正确，请填入%s和%s之间的数值."/>
+		<str id="ids_stepqualityminmax" val="编码质量设置不正确，请填入%u和%u之间的数值."/>
+		<str id="ids_stepiframe" val="I帧间隔设置不正确."/>
+		<str id="ids_stepiframeminmax" val="I帧间隔设置不正确，请填入%u和%u之间的数值."/>
+		<str id="ids_stepcodec" val="请选择压缩算法."/>
+		<str id="ids_steptimelimit" val="捕获时间限制设置不正确."/>
+		<str id="ids_steptimelapse" val="Time-lapse不正确."/>
+		<str id="ids_stepavinone" val="不压缩"/>
+
+		<str id="ids_recordheader" val="显示信息"/>
+		<str id="ids_recordstep1" val="视频格式和压缩编码算法"/>
+		<str id="ids_recordstep2" val="视频文件"/>
+		<str id="ids_recordstep3" val="设置视频编码算法和编码参数"/>
+		<str id="ids_recordstep4" val="开始录像"/>
+		<str id="ids_broadcastpar" val="设置广播参数"/>
+		<str id="ids_recordstep4b" val="开始广播"/>
+
+		<str id="ids_integerinvalid" val="请输入整数."/>
+
+		<str id="ids_mosaicimages" val="拼版"/>
+
+		<str id="ids_deleteallitem" val="确认删除所有的项？"/>
+		<str id="ids_deleteitem" val="确认删除选中的项？"/>
+		<str id="ids_deleteitems" val="确认删除选中的%d项?"/>
+		<str id="ids_magimport" val="导入放大率将清除当前所有项目，确认吗？"/>
+
+		<str id="ids_toolbarselect" val="选择测量对象"/>
+		<str id="ids_toolbarcirclehole" val="圆(内空)"/>
+		<str id="ids_toolbarrectselect" val="图像选择"/>
+		<str id="ids_toolbartrack" val="追迹"/>
+		<str id="ids_toolbargray" val="灰度定标"/>
+		<str id="ids_toolbarcrosshair" val="十字准线"/>
+		<str id="ids_toolbargoto" val="打开目录"/>
+		<str id="ids_toolbarcenter" val="居中"/>
+
+		<str id="ids_stitch" val="拼接"/>
+		<str id="ids_stitchautocrop" val="拼接完成时自动截剪(外边框矩形)"/>
+		<str id="ids_stitchscroll" val="滚动模式"/>
+		<str id="ids_aggr" val="积极"/>
+		<str id="ids_pasi" val="消极"/>
+
+		<str id="ids_built" val="编译"/>
+
+		<str id="ids_toolbar" val="工具栏"/>
+		<str id="ids_nodevice" val="没有相机"/>
+		<str id="ids_zoom0" val="适合宽度"/>
+		<str id="ids_zoom1" val="适合高度"/>
+		<str id="ids_zoom2" val="适合窗口"/>
+		<str id="ids_selection" val="选择"/>
+		<str id="ids_undoredo" val="撤消/重做"/>
+
+		<str id="ids_overlayscale" val="叠加比例尺"/>
+
+		<str id="ids_customize" val="自定义"/>
+		<str id="ids_toolbarcustomize" val="自定义(&amp;C)..."/>
+		<str id="ids_angleunitmenu" val="角度单位(&amp;A)..."/>
+
+		<str id="ids_emptydir" val="目录不能为空."/>
+		<str id="ids_invaliddir" val="目录不正确."/>
+		<str id="ids_filelock" val="文件被锁定."/>
+		<str id="ids_imagesizemismatch" val="图像尺寸不匹配."/>
+		<str id="ids_imagesizenotsame" val="图像:&quot;%s&quot;尺寸不相同."/>
+		<str id="ids_filenofound" val="文件不存在."/>
+		<str id="ids_savefilefail2" val="保存文件 “%s” 出错."/>
+		<str id="ids_savefilefail3" val="保存文件出错."/>
+		<str id="ids_videofileformat" val="不正确的文件类型."/>
+		<str id="ids_videofilestartfail" val="启动失败."/>
+		<str id="ids_videofiles" val="视频文件"/>
+		<str id="ids_allfiles" val="所有文件"/>
+
+		<str id="ids_browseshutcut" val="此文件夹已经存在名字为 “%s” 的快捷方式.\n覆盖，取消，或放弃？"/>
+		<str id="ids_saveboth" val="图像和测量层已经更改，需要保存？"/>
+		<str id="ids_saveimage" val="图像已经更改，需要保存？"/>
+		<str id="ids_savelayer" val="测量层已经更改，需要保存？"/>
+
+		<str id="ids_videozoomint" val="当前视频或图像放大率是 %u%%. 建议把视频放大率切换到100%%再进行操作，否则可能影响精度. 还要继续吗？"/>
+		<str id="ids_videozoomfloat" val="当前视频或图像放大率是 %.1f%%. 建议切换到100%%再进行操作，否则可能影响精度. 还要继续吗？"/>
+		<str id="ids_videomarker" val="标记: (%d, %d)；水印: 平移 = (%d, %d)，旋转 = %.3f"/>
+		<str id="ids_videostartrecord" val="开始录像(&amp;R)..."/>
+		<str id="ids_videostoprecord" val="停止录像(&amp;R)"/>
+		<str id="ids_videostarttimelapse" val="开始定时捕获(&amp;Time-lapse)..."/>
+		<str id="ids_videostoptimelapse" val="停止定时捕获(&amp;Time-lapse)"/>
+		<str id="ids_videoautofail" val="定时捕获发生错误."/>
+		<str id="ids_videocalibratemax1" val="请在最大视频尺寸的情况下定标.\r\n当前尺寸: %u x %u，最大尺寸: %u x %u.\r\n请使用相机侧边栏设置分辨率."/>
+
+		<str id="ids_memory" val="没有足够的内存."/>
+		<str id="ids_memoryx86" val="没有足够的内存，请使用x64版本."/>
+
+		<str id="ids_actionfailed" val="操作失败."/>
+		<str id="ids_actioncanceld" val="动作已取消."/>
+
+		<str id="ids_calibratedlgtoobig" val="太大"/>
+		<str id="ids_calibratedlgtoosmall" val="太小"/>
+		<str id="ids_calibratedlgpixels" val="像素"/>
+		<str id="ids_calibratedlgmagnification" val="请填入正确的放大率，如10、40、100等等."/>
+		<str id="ids_calibratedlgmagnificationexists" val="放大率“%s”已经存在."/>
+
+		<str id="ids_collapseall" val="全部折叠"/>
+		<str id="ids_expandall" val="全部展开"/>
+		<str id="ids_cameralist" val="相机列表"/>
+		<str id="ids_expandgain" val="曝光与增益"/>
+		<str id="ids_colorgray" val="色彩模式"/>
+		<str id="ids_capres" val="捕获与分辨率"/>
+		<str id="ids_coloradjust" val="颜色调整"/>
+		<str id="ids_flip" val="翻转"/>
+		<str id="ids_sampling" val="采样"/>
+		<str id="ids_histogram" val="直方图"/>
+		<str id="ids_power" val="光源频率(防闪烁)"/>
+		<str id="ids_gray" val="灰度(Gray)"/>
+		<str id="ids_range" val="范围"/>
+		<str id="ids_exptimeempty" val="曝光时间不能为空."/>
+		<str id="ids_exptimeinvalid" val="曝光时间不正确."/>
+		<str id="ids_exptimeoutofrange" val="曝光时间超出范围[%s, %s]."/>
+		<str id="ids_bpsmb" val="比特率(Mbps)"/>
+		<str id="ids_dfc" val="暗场校正"/>
+		<str id="ids_bitdepth" val="位深度"/>
+		<str id="ids_propfmt" val="属性与格式"/>
+		<str id="ids_cool" val="制冷"/>
+		<str id="ids_cvtgain" val="转换增益"/>
+		<str id="ids_ffc" val="平场校正"/>
+		<str id="ids_heat" val="加热"/>
+		<str id="ids_codec" val="编解码"/>
+		<str id="ids_dynamicdefect" val="动态坏点校正"/>
+		<str id="ids_fpnc" val="固定模式噪声校正"/>
+
+		<str id="ids_preferences" val="首选项"/>
+
+		<str id="ids_grids" val="网格"/>
+		<str id="ids_misc" val="杂项"/>
+		<str id="ids_cursor" val="光标"/>
+		<str id="ids_quicksave" val="快速保存"/>
+		<str id="ids_record" val="录像"/>
+		<str id="ids_quickrecord" val="快速录像"/>
+
+		<str id="ids_mosaicimage" val="图像"/>
+		<str id="ids_mosaicpar" val="参数设置"/>
+
+		<str id="ids_filefmtcol0" val="扩展名"/>
+		<str id="ids_filefmtcol2" val="缩写"/>
+
+		<str id="ids_allsupported" val="所有支持的格式"/>
+		<str id="ids_savedlgreplace" val="%s 已存在.\n要替换它吗?"/>
+
+		<str id="ids_watermarkdlg24bit" val="只支持24或32位图像."/>
+
+		<str id="ids_nameformatnnnn" val="nnnn(序号)"/>
+
+		<str id="ids_lefttop" val="左上角"/>
+		<str id="ids_righttop" val="右上角"/>
+		<str id="ids_leftbottom" val="左下角"/>
+		<str id="ids_rightbottom" val="右下角"/>
+		<str id="ids_overlaybgtrans" val="透明"/>
+		<str id="ids_black" val="黑色"/>
+		<str id="ids_white" val="白色"/>
+		<str id="ids_smallest" val="最小"/>
+		<str id="ids_smaller" val="更小"/>
+		<str id="ids_small" val="较小"/>
+		<str id="ids_medium" val="中等"/>
+		<str id="ids_large" val="较大"/>
+		<str id="ids_larger" val="更大"/>
+		<str id="ids_largest" val="最大"/>
+		<str id="ids_fontweightnormal" val="正常"/>
+		<str id="ids_fontweightbold" val="粗体"/>
+		<str id="ids_fontweightheavy" val="极粗"/>
+		<str id="ids_overlaydatenone" val="不显示"/>
+		<str id="ids_overlaydate1" val="年-月-日 时:分:秒(YYYY-MM-DD HH:MM:SS)"/>
+		<str id="ids_overlaydatelong" val="长日期格式"/>
+		<str id="ids_overlaydateshort" val="短日期格式"/>
+		<str id="ids_overlaydatetlong" val="长日期时间格式"/>
+		<str id="ids_overlaydatetshort" val="长日期时间格式"/>
+
+		<str id="ids_marker" val="无标记"/>
+		<str id="ids_markercross" val="十字叉"/>
+		<str id="ids_markercircle" val="圆形"/>
+		<str id="ids_markercr" val="十字叉+矩形"/>
+		<str id="ids_markercc" val="十字叉+圆形"/>
+		<str id="ids_markercrosswidth" val="十字叉宽度(%)"/>
+		<str id="ids_markercrossheight" val="十字叉高度(%)"/>
+		<str id="ids_markerrectwidth" val="矩形宽度(%)"/>
+		<str id="ids_markerrectheight" val="矩形高度(%)"/>
+		<str id="ids_markerradius" val="圆半径(%)"/>
+		<str id="ids_markerx" val="x偏移(%)"/>
+		<str id="ids_markery" val="y偏移(%)"/>
+
+		<str id="ids_stitchfail" val="拼接失败."/>
+		<str id="ids_stitchplane" val="平面"/>
+		<str id="ids_stitchcylindrical" val="柱面"/>
+		<str id="ids_stitchspherical" val="球面"/>
+		<str id="ids_stitchfisheye" val="鱼眼"/>
+		<str id="ids_stitchstereographic" val="体视投影"/>
+		<str id="ids_stitchmercator" val="墨卡托投影"/>
+		<str id="ids_stitchtransversemercator" val="横向墨卡托投影"/>
+		<str id="ids_stitchseamfindervoronoi" val="维诺图"/>
+		<str id="ids_stitchseamfindergraphcutcolor" val="颜色图割"/>
+		<str id="ids_stitchseamfindergraphcutcolorgrad" val="梯度颜色图割"/>
+		<str id="ids_stitchecgain" val="增益"/>
+		<str id="ids_stitchecbg" val="分块增益"/>
+		<str id="ids_stitchbaray" val="射线调整"/>
+		<str id="ids_stitchbareproj" val="重投影误差调整"/>
+
+		<str id="ids_crosssingle" val="单线"/>
+		<str id="ids_cross1" val="双线(1像素)"/>
+		<str id="ids_cross3" val="双线(3像素)"/>
+		<str id="ids_cross5" val="双线(5像素)"/>
+		<str id="ids_cross7" val="双线(7像素)"/>
+		<str id="ids_cross9" val="双线(9像素)"/>
+		<str id="ids_cursorcross" val="十字光标"/>
+		<str id="ids_cursorcrosshair" val="十字准星"/>
+		<str id="ids_cursorpoint" val="点光标"/>
+		<str id="ids_cursornull" val="无光标"/>
+
+		<str id="ids_videooverlay" val="视频叠加"/>
+		<str id="ids_markertxt" val="比例尺和日期"/>
+		<str id="ids_markergeo" val="标记"/>
+
+		<str id="ids_miscsplash" val="启动时显示初始屏幕"/>
+		<str id="ids_miscscreensaver" val="当预览/捕获视频时阻止运行屏幕保护程序"/>
+		<str id="ids_misctft" val="文件格式"/>
+		<str id="ids_misctftremind" val="当文件格式不支持测量对象时提醒我"/>
+		<str id="ids_miscsidebar" val="侧边栏"/>
+		<str id="ids_miscsidebarmeasurement" val="测量时自动显示测量侧边栏"/>
+		<str id="ids_miscsidebarfolders" val="打开浏览窗口时自动显示文件夹侧边栏"/>
+		<str id="ids_miscsidebarbrowse" val="在文件夹侧边栏上双击时自动打开浏览窗口"/>
+		<str id="ids_miscsidebarcamerastartup" val="启动程序时自动显示相机侧边栏"/>
+		<str id="ids_miscuistyle" val="界面风格"/>
+		<str id="ids_miscprivacy" val="隐私"/>
+		<str id="ids_miscrecent" val="最近文件列表最大文件个数"/>
+		<str id="ids_miscclear" val="退出应用程序时清空最近文件列表"/>
+		<str id="ids_miscrestore" val="打开程序时还原文件路径"/>
+		<str id="ids_misclang" val="语言"/>
+		<str id="ids_miscte" val="重启应用程序之后生效"/>
+
+		<str id="ids_urimploperation" val="操作"/>
+
+		<str id="ids_pdmorphologic" val="形态学运算"/>
+		<str id="ids_pdmuststructure" val="必须选择一个结构元"/>
+		<str id="ids_pdnostructure" val="结构不存在."/>
+		<str id="ids_pdselectstructure" val="请选择一个结构."/>
+		<str id="ids_pddeletesure" val="删除: 请确认."/>
+		<str id="ids_pdenhancement" val="图像增强"/>
+		<str id="ids_pdbestfit" val="最佳"/>
+		<str id="ids_pdequalize" val="局部均衡化"/>
+		<str id="ids_pdundo" val="撤消"/>
+		<str id="ids_pdconvertbit" val="将文件转为8位或24位?"/>
+		<str id="ids_pdexceed" val="超出区域."/>
+		<str id="ids_pdkernel" val="图像核运算"/>
+		<str id="ids_pdmustname" val="请输入一个名字."/>
+		<str id="ids_pdkernelsize" val="不正确的维数."/>
+		<str id="ids_pdinputvalue" val="请填入数值."/>
+		<str id="ids_pdoverwrite" val="结构元存在，覆盖?"/>
+		<str id="ids_pdedge" val="边缘处理"/>
+		<str id="ids_pdautolevel" val="自动色阶"/>
+		<str id="ids_pdautocontrast" val="自动对比度"/>
+		<str id="ids_pdbcadj" val="亮度对比度调整"/>
+		<str id="ids_pdcoloradj" val="颜色调整"/>
+		<str id="ids_pdhmsadj" val="HMS调整"/>
+		<str id="ids_pdgammaadj" val="伽玛调整"/>
+		<str id="ids_pdhistogram" val="直方图均衡"/>
+		<str id="ids_pdcurve" val="曲线调整"/>
+		<str id="ids_pdcolorquantize" val="颜色量化: %d位"/>
+		<str id="ids_pdbinary" val="二值化"/>
+		<str id="ids_pdgray" val="灰度化"/>
+		<str id="ids_pdinvert" val="反色"/>
+		<str id="ids_pdrotatecw" val="顺时针旋转"/>
+		<str id="ids_pdrotateccw" val="逆时针旋转"/>
+		<str id="ids_pdcrop" val="截剪"/>
+		<str id="ids_pdimagescale" val="图像大小"/>
+		<str id="ids_pdfliphorz" val="水平翻转"/>
+		<str id="ids_pdflipvert" val="垂直翻转"/>
+		<str id="ids_pdrange" val="窗宽窗位"/>
+		<str id="ids_pdfilters" val="滤波器"/>
+		<str id="ids_pdinvalidheight" val="高度不合法."/>
+		<str id="ids_pdfiltercolor" val="滤色"/>
+		<str id="ids_pdextractcolor" val="提色"/>
+		<str id="ids_pdluminosity" val="明度"/>
+		<str id="ids_bilinear" val="双线性"/>
+		<str id="ids_bicubic" val="双立方"/>
+
+		<str id="ids_filtermorp" val="形态学"/>
+		<str id="ids_filterkern" val="运算核"/>
+		<str id="ids_filterenhance" val="图像增强"/>
+		<str id="ids_filteredge" val="边缘增强"/>
+
+		<str id="ids_extraopenfail" val="无法打开配置文件."/>
+		<str id="ids_extrasaveit" val="当前数据已经改变，是否保存?"/>
+		<str id="ids_extradyeexist" val="该染料数据已经存在."/>
+		<str id="ids_extradeleteitem" val="确定删除该项数据吗？"/>
+		<str id="ids_extrasavedata" val="确定保存修改内容吗？"/>
+		<str id="ids_extrareloaddata" val="确定重新载入所有数据吗？"/>
+		<str id="ids_extraforfile" val="调整文件"/>
+
+		<str id="ids_labelaxis" val="长短轴"/>
+		<str id="ids_labelwidthheight" val="宽度和高度"/>
+
+		<str id="ids_layer" val="图层"/>
+		<str id="ids_sheet" val="测量表格"/>
+		<str id="ids_sheet2" val="中心"/>
+		<str id="ids_sheet3" val="直径"/>
+		<str id="ids_sheet4" val="面积"/>
+		<str id="ids_sheet5" val="长度"/>
+		<str id="ids_sheet7" val="起点"/>
+		<str id="ids_sheet8" val="终点"/>
+		<str id="ids_sheet9" val="距离"/>
+		<str id="ids_pointname" val="第%d点"/>
+		<str id="ids_intersection" val="交点"/>
+		<str id="ids_foot" val="垂足"/>
+		<str id="ids_slope" val="斜率"/>
+		<str id="ids_perimeter" val="周长"/>
+		<str id="ids_center" val="圆心"/>
+		<str id="ids_arclength" val="弧长"/>
+		<str id="ids_ratio" val="比例"/>
+		<str id="ids_axes" val="长短轴"/>
+		<str id="ids_layer0" val="可见"/>
+		<str id="ids_lunit0" val="单位"/>
+		<str id="ids_lunit2" val="符号"/>
+		<str id="ids_lunit4" val="比例"/>
+		<str id="ids_noname" val="[未命名]"/>
+		<str id="ids_layerbackground" val="背景层"/>
+		<str id="ids_layername" val="图层名称"/>
+		<str id="ids_sysunit" val="系统"/>
+		<str id="ids_userunit" val="自定义"/>
+		<str id="ids_errorfile" val="文件格式错误."/>
+		<str id="ids_errordata" val="文件数据错误."/>
+		<str id="ids_only1layer" val="不可以删除最后一层."/>
+		<str id="ids_removecurrent" val="不可以删除当前层."/>
+		<str id="ids_removelayer" val="删除该图层?"/>
+		<str id="ids_removeitem" val="删除所有选中的对象?"/>
+		<str id="ids_removeunit" val="成功删除该自定义单位."/>
+		<str id="ids_unitsymbol" val="符号不能为空."/>
+		<str id="ids_invalidratio" val="自定义的比例不合法."/>
+		<str id="ids_sameunit" val="同名单位已经存在，加入自定义单位失败."/>
+		<str id="ids_samesymbol" val="相同符号的单位已经存在."/>
+		<str id="ids_layersamename" val="相同名称的图层已经存在，继续吗？"/>
+		<str id="ids_nametolong" val="名字太长."/>
+		<str id="ids_symboltolong" val="符号太长."/>
+		<str id="ids_toomanyunit" val="太多的自定义单位."/>
+		<str id="ids_addunit" val="1. 比例是指该单位和基本单位“米”之间的换算关系. 如：\n	米和毫米之间的比例关系是1000，也可以用科学计数法的形式: 1e3\n  米和千米之间的比例关系是0.001，写成科学计数的形式是: 1e-3\n\n2. 符号是指该单位的英文简写，如“米”简写成“m”，“厘米”简写成“cm”，等等."/>
+		<str id="ids_general" val="常规"/>
+		<str id="ids_lengthunit" val="长度单位"/>
+		<str id="ids_angleunit" val="角度单位"/>
+		<str id="ids_measurelist" val="测量表格"/>
+		<str id="ids_angle" val="角度"/>
+		<str id="ids_ellipse" val="椭圆"/>
+		<str id="ids_line" val="线段"/>
+		<str id="ids_point" val="点"/>
+		<str id="ids_rect" val="矩形"/>
+		<str id="ids_parallel" val="平行线"/>
+		<str id="ids_line3" val="平行线(3点)"/>
+		<str id="ids_line2" val="平行线(4点)"/>
+		<str id="ids_line4" val="平行线(8点)"/>
+		<str id="ids_linea" val="平行线(任意)"/>
+		<str id="ids_vertical" val="垂线"/>
+        <str id="ids_verany" val="垂线(任意)"/>
+		<str id="ids_circle" val="圆"/>
+		<str id="ids_arc" val="弧"/>
+		<str id="ids_annulus" val="圆环"/>
+		<str id="ids_twocircles" val="双圆"/>
+		<str id="ids_curve" val="曲线"/>
+		<str id="ids_appearance" val="外观"/>
+		<str id="ids_geometry" val="几何"/>
+		<str id="ids_coordinates" val="坐标"/>
+		<str id="ids_lsize" val="大小"/>
+		<str id="ids_mlinewidth" val="辅助线粗细"/>
+		<str id="ids_linecolor" val="线条颜色"/>
+		<str id="ids_mlinecolor" val="辅助线颜色"/>
+		<str id="ids_linestyle" val="线条风格"/>
+		<str id="ids_mlinestyle" val="辅助线风格"/>
+		<str id="ids_fill" val="是否填充"/>
+		<str id="ids_mline" val="显示辅助线"/>
+		<str id="ids_amarker" val="显示角度标记"/>
+		<str id="ids_circled" val="显示直径/半径"/>
+		<str id="ids_circlec" val="显示圆心"/>
+		<str id="ids_showcp" val="显示连接点"/>
+		<str id="ids_showmp" val="显示中点"/>
+		<str id="ids_fillcolor" val="填充颜色"/>
+		<str id="ids_arrow" val="箭头"/>
+		<str id="ids_textcolor" val="文字颜色"/>
+		<str id="ids_textalign" val="文字对齐"/>
+		<str id="ids_lframe" val="外框"/>
+		<str id="ids_edittext" val="编辑文字"/>
+		<str id="ids_textleft" val="左对齐"/>
+		<str id="ids_textright" val="右对齐"/>
+		<str id="ids_lnum" val="序号"/>
+		<str id="ids_ltoolbarshow" val="显示/隐藏"/>
+		<str id="ids_fontstyle0" val="常规"/>
+		<str id="ids_fontstyle1" val="粗体"/>
+		<str id="ids_fontstyle2" val="斜体"/>
+		<str id="ids_fontstyle3" val="粗斜体"/>
+		<str id="ids_decimal" val="小数"/>
+		<str id="ids_decimal0" val="0位小数"/>
+		<str id="ids_decimal1" val="1位小数"/>
+		<str id="ids_decimal2" val="2位小数"/>
+		<str id="ids_decimal3" val="3位小数"/>
+		<str id="ids_decimal4" val="4位小数"/>
+		<str id="ids_decimal5" val="5位小数"/>
+		<str id="ids_decimal6" val="6位小数"/>
+		<str id="ids_labeltype" val="标注类型"/>
+		<str id="ids_labelpos" val="标注位置"/>
+		<str id="ids_ltrans" val="透明背景"/>
+		<str id="ids_lbkclr" val="背景颜色"/>
+		<str id="ids_ecce" val="离心率"/>
+		<str id="ids_pdegree" val="异形度"/>
+		<str id="ids_hollowness" val="中空度"/>
+		<str id="ids_chollowness" val="圆中空度"/>
+		<str id="ids_phollowness" val="多边形中空度"/>
+		<str id="ids_fratio" val="扁平比"/>
+		<str id="ids_ncr" val="N/C(核浆比)"/>
+		<str id="ids_showsublabel" val="显示子对象标注"/>
+
+		<str id="ids_rect2p" val="矩形(2点)"/>
+		<str id="ids_rect3p" val="矩形(3点)"/>
+		<str id="ids_angle3p" val="角度(3点)"/>
+		<str id="ids_angle4p" val="角度(4点)"/>
+		<str id="ids_circle1" val="圆(圆心+半径)"/>
+		<str id="ids_circle2" val="圆(2点)"/>
+		<str id="ids_circle3" val="圆(3点)"/>
+		<str id="ids_annulus2" val="圆环(圆心+半径)"/>
+		<str id="ids_annulus3" val="圆环(3点)"/>
+		<str id="ids_vertical3p" val="垂线(3点)"/>
+		<str id="ids_vertical4p" val="垂线(4点)"/>
+		<str id="ids_ellipse2p" val="椭圆(2点)"/>
+		<str id="ids_ellipse5p" val="椭圆(5点)"/>
+		<str id="ids_ellipse3p" val="椭圆(3点)"/>
+		<str id="ids_vline" val="垂直线段"/>
+		<str id="ids_hline" val="水平线段"/>
+		<str id="ids_twocircle3p" val="双圆(圆心+半径)"/>
+		<str id="ids_twocircle2p" val="双圆(3点)"/>
+		<str id="ids_line3p" val="线段(3点)"/>
+		<str id="ids_vline3p" val="垂直线段(3点)"/>
+		<str id="ids_hline3p" val="水平线段(3点)"/>
+		<str id="ids_linemulti" val="线段(多点连接)"/>
+
+		<str id="ids_errgeneric" val="一般性错误."/>
+		<str id="ids_errnullname" val="名称不能为空."/>
+		<str id="ids_errsamename" val="相同名称已经存在."/>
+		<str id="ids_errsameid" val="相同ID已经存在."/>
+		<str id="ids_erropenfile" val="打开文件失败."/>
+		<str id="ids_errfileformat" val="文件格式错误."/>
+		<str id="ids_errmsgproduct" val="相机型号不匹配."/>
+		<str id="ids_errusb" val="USB版本不匹配."/>
+		<str id="ids_errmode" val="模式不匹配."/>
+
+		<str id="ids_resetlayout" val="重启App之后窗口布局将被重置."/>
+		<str id="ids_startbroadcast" val="开启广播(&amp;B)..."/>
+		<str id="ids_stopbroadcast" val="停止广播(&amp;B)"/>
+
+		<str id="ids_stackingfail" val="图像叠加去噪失败."/>
+
+		<str id="ids_objcount" val="分割和计数"/>
+		<str id="ids_objsplit" val="分割对象"/>
+		<str id="ids_objcountosoutline" val="轮廓线"/>
+		<str id="ids_objcountosfilled" val="填充"/>
+
+		<str id="ids_counthisv" val="亮度(Value)"/>
+
+		<str id="ids_edfc" val="最大对比度"/>
+		<str id="ids_edfw" val="加权平均"/>
+		<str id="ids_edfs" val="堆叠"/>
+		<str id="ids_edffm" val="FFDSSD选项"/>
+		<str id="ids_edfcapture" val="抓拍图片"/>
+		<str id="ids_edfmethod" val="选择方法"/>
+		<str id="ids_edfself" val="选择文件"/>
+		<str id="ids_edfaa" val="自动对齐"/>
+		<str id="ids_edfadesc" val="根据图片是否存在位移、缩放、旋转选择合适的对齐模式.\n\n运算时间非常依赖于最大角度的设置，设置的越大，运算时间越长. 默认最大角度是1.0°."/>
+		<str id="ids_edfcaptips" val="调节显微镜使图像部分清晰. 当样品处于不同位置时，点击捕获按钮存图. 调整步长的选择取决于用户. 一般而言，步长越小，最终结果的细节越丰富. 调整过程中，必须保证样品和显微镜的相对位置往一个方向变化."/>
+		<str id="ids_edfpdesc" val="这三个设置值是互相关联的. 细节锐度主要影响结果的精细细节. 背景亮度用于加减背景颜色. 以上两个设置将影响结果的总体亮度，所以有可能需要修改总体亮度设置."/>
+		<str id="ids_edfmdesc" val="\t加权平均法产生的结果柔和但是可能丢失部分细节. 一般而言，对于输入图片数比较大时，本方法比FFDSSD好. 特别要说明的是，输入图像必须遵循Z轴顺序(从近到远或者从远到近).\n\t最大对比度法和加权平均法类似，输入图像也必须遵循Z轴顺序. 比较而言，最大对比度法更好的保留了细节从而结果图像更加锐利. 最大对比度法是默认推荐算法.\n\tFFDSSD通过FFT频域滤波与空域综合实现多焦图像融合. 在进行EDF之前，算法先对存在位移、旋转或比例的图像进行自动特征匹配. 另一方面，在进行EDF之前，用户可以手动或自动选择对准所需的参考图像."/>
+		<str id="ids_maxedf" val="太多的图片. 图片数目不能超过%u."/>
+
+		<str id="ids_panefloating" val="浮动(&amp;F)"/>
+		<str id="ids_panedocking" val="停靠(&amp;D)"/>
+		<str id="ids_paneautohide" val="自动隐藏(&amp;A)"/>
+		<str id="ids_panehide" val="隐藏(&amp;H)"/>
+		<str id="ids_scrright" val="向右滚动"/>
+		<str id="ids_scrleft" val="向左滚动"/>
+        <str id="ids_autohideall" val="全部自动隐藏"/>
+        <str id="ids_autohide" val="自动隐藏"/>
+        <str id="ids_winpos" val="窗口位置"/>
+
+		<str id="ids_wmdtitle" val="窗口"/>
+		<str id="ids_wmdselwin" val="选择窗口(&amp;W):"/>
+		<str id="ids_wmdactivate" val="激活(&amp;A)"/>
+		<str id="ids_wmdsave" val="保存(&amp;S)"/>
+		<str id="ids_wmdclose" val="关闭窗口(&amp;C)"/>
+		<str id="ids_wmdcasc" val="层叠(&amp;D)"/>
+		<str id="ids_wmdtileh" val="横向平铺(&amp;Z)"/>
+		<str id="ids_wmdtilev" val="纵向平铺(&amp;V)"/>
+		<str id="ids_wmdmini" val="最小化(&amp;M)"/>
+
+		<str id="ids_colorstandard" val="标准"/>
+		<str id="ids_colorcolorscolon" val="颜色:"/>
+		<str id="ids_colorselect" val="选择(&amp;E)..."/>
+		<str id="ids_colorhue" val="色调:"/>
+		<str id="ids_colorsaturation" val="饱和度:"/>
+		<str id="ids_colorluminence" val="亮度:"/>
+		<str id="ids_colorred" val="红色:"/>
+		<str id="ids_colorgreen" val="绿色:"/>
+		<str id="ids_colorblue" val="蓝色:"/>
+
+		<str id="ids_unsupportformat" val="不支持的图像格式."/>
+		<str id="ids_hdrfail" val="合成高动态(HDR)失败."/>
+
+		<str id="ids_miscopencl" val="启用图像处理GPU加速"/>
+
+		<str id="ids_sharpen" val="锐化"/>
+		<str id="ids_decolor" val="去色"/>
+		<str id="ids_detailenhance" val="细节增强"/>
+		<str id="ids_smooth" val="平滑"/>
+
+		<str id="ids_llc" val="局部色彩校正"/>
+
+		<str id="ids_toolbar_st4" val="ST4测试"/>
+
+		<str id="ids_bits" val="%u位"/>
+		<str id="ids_roitosmall" val="ROI宽度和高度必须大于32."/>
+		<str id="ids_recordstep2tipwmv" val="文件扩展名.wmv将自动附加到文件名."/>
+
+		<str id="ids_dfcimportfail" val="导入失败."/>
+		<str id="ids_dfcexportfail" val="导出失败."/>
+		<str id="ids_dfcimportmis" val="导入失败，不匹配."/>
+
+		<str id="ids_deinterlace" val="去交错"/>
+
+		<str id="ids_sernext" val="下一帧"/>
+		<str id="ids_serprev" val="上一帧"/>
+
+		<str id="ids_pxsize" val="像素尺寸"/>
+
+		<str id="ids_extrigger" val="外部"/>
+
+		<str id="ids_tecoutofrange" val="输入的目标值超出范围[%.1f, %.1f]."/>
+		<str id="ids_tempunit" val="温度单位"/>
+
+		<str id="ids_batchrecord" val="批量录像"/>
+		<str id="ids_autocapture" val="自动捕获"/>
+		<str id="ids_startacapture" val="自动捕获(&amp;A)"/>
+		<str id="ids_stopacapture" val="停止捕获(&amp;S)"/>
+		<str id="ids_pause" val="开始/暂停"/>
+
+		<str id="ids_sametarget" val="目标“%s”已经存在."/>
+
+		<str id="ids_livestack" val="实时叠加"/>
+		<str id="ids_livestacknormal" val="正常"/>
+		<str id="ids_livestackvalfail" val="帧太模糊"/>
+		<str id="ids_livestacknostars" val="没有足够星星"/>
+		<str id="ids_livestacknomatches" val="没有足够匹配"/>
+
+		<str id="ids_compatible" val="兼容"/>
+
+		<str id="ids_hwver" val="硬件版本"/>
+		<str id="ids_fwver" val="固件版本"/>
+		<str id="ids_fpgaver" val="FPGA版本"/>
+		<str id="ids_mcuver" val="MCU版本"/>
+
+		<str id="ids_toolbarhtml" val="输出至Html文件"/>
+
+		<str id="ids_background" val="背景"/>
+		<str id="ids_saveas" val="另存为"/>
+
+		<str id="ids_calibratebin" val="Binning模式下不能定标，当前Binning值是%d."/>
+		<str id="ids_shcsidebar" val="显示或隐藏相机侧边栏中的控制项"/>
+
+		<str id="ids_tctitle" val="命令"/>
+		<str id="ids_tckey" val="键盘"/>
+		<str id="ids_tccat" val="类别:"/>
+		<str id="ids_tccmd" val="命令:"/>
+		<str id="ids_tcallcmd" val="所有命令"/>
+		<str id="ids_addrbtn" val="添加或删除按钮(&amp;A)"/>
+		<str id="ids_toolbarreset" val="重置工具栏(&amp;R)"/>
+		<str id="ids_resetask" val="是否确实要重置工具栏?"/>
+		<str id="ids_tctip" val="要添加按钮，请将右侧的命令按钮拖动到工具栏中.\r\n要删除按钮，请拖动按钮到工具栏外面."/>
+		<str id="ids_kcate" val="类别(&amp;C):"/>
+		<str id="ids_kcmd" val="命令(&amp;O):"/>
+		<str id="ids_krem" val="删除(&amp;R)"/>
+		<str id="ids_kres" val="全部重置(&amp;S)"/>
+		<str id="ids_kass" val="分配(&amp;A)"/>
+		<str id="ids_kato" val="已分配给:"/>
+		<str id="ids_knew" val="按新快捷键(&amp;N):"/>
+		<str id="ids_kcur" val="当前键(&amp;U):"/>
+		<str id="ids_unass" val="[未分配]"/>
+		<str id="ids_kreset" val="所有更改都将丢失. 是否确实要重置键盘分配?"/>
+		
+		<str id="ids_imagetype" val="图像类型"/>
+
+		<str id="ids_focal" val="焦距"/>
+		<str id="ids_temp" val="传感器温度"/>
+		<str id="ids_longitude" val="经度，范围 = [-180.0, 180.0]，如15.715、15.715E、15°42'9&quot;E等等"/>
+		<str id="ids_latitude" val="纬度，范围 = [-90.0, 90.0]，如15.715、15.715N、15°42'9&quot;N等等"/>
+
+		<str id="ids_fitsdateobs" val="观测日期"/>
+
+		<str id="ids_str" val="字符串"/>
+		<str id="ids_int" val="整数"/>
+		<str id="ids_real" val="实数"/>
+
+		<str id="ids_fitsadd" val="双击增加自定义FITS属性"/>
+		<str id="ids_fitssame" val="相同FITS属性已存在."/>
+
+		<str id="ids_metadescascom" val="此属性表用于设置不同文件格式的属性值，包括FITS文件和EXIF文件 (包括 jpg、png、tiff 等). EXIF列中的空白项表示EXIF文件不支持此信息，FITS列中的空白项表示FITS文件不支持此信息. [自动]意味着软件将自动填充信息，对于不是[自动]值列的其他项目，可以双击该项并设置该值."/>
+		<str id="ids_metadescmicro" val="此属性表用于设置不同文件格式的属性值，包括jpg、png、tiff等. [自动]意味着软件将自动填充信息，对于不是[自动]值列的其他项目，可以双击该项并设置该值."/>
+
+		<str id="ids_recordfail1" val="开启录像失败."/>
+		<str id="ids_recordfail2" val="开启录像失败，也许是分辨率太高超过了编码器的能力."/>
+
+		<str id="ids_tel" val="电话"/>
+		<str id="ids_email" val="邮箱"/>
+
+		<str id="ids_external" val="外部应用"/>
+		<str id="ids_exe" val="程序"/>
+
+		<str id="ids_temptint" val="色温/Tint"/>
+		<str id="ids_rgbgain" val="RGB增益"/>
+
+		<str id="ids_even" val="请输入偶数."/>
+
+		<str id="ids_report" val="报告"/>
+		<str id="ids_reportdenied" val="模板文件拒绝访问.\n模板文件也许被其它程序占用，请退出这些程序.\n如果问题继续，请尝试注销Windows再重新进入."/>
+		<str id="ids_reporttip" val="1. 模板使用占位符来表示可以被替换的内容.\r\n2. {{YYYY}}{{mm}}{{DD}}{{HH}}{{MM}}{{SS}}分别是年月日小时分钟秒的占位符. {{LD}}{{SD}}分别代表长日期和短日期.\r\n3. 可选(替换)文字的标题或说明为{{IP}}的图片被认为是图片占位符，数字表示图片序号，如{{IP1}}、{{IP2}}等.\r\n4. 内容为{{MT}}的表格被认为是测量表格占位符. {{MH}}代表表头.\r\n5. {{MT.i.x.y}}是测量表格内容占位符，其中i是图片的序号，x是图片测量表格某一项所在的行，y是测量表格的某一项所在的列. 如果报告中只有一张图片，i请设置为1. i，x，y的起始值都是1. 比如{{MT.1.2.3}}代表第一张图片的测量表格的第2行第3列的内容. x为负值时表示倒数第x行，如{{MT.1.-2.3}}代表第一张图片的测量表格的倒数第2行第3列的内容.\r\n6. {{LU}}{{AU}}{{SU}}分别是长度、角度和面积单位的占位符. {{lu}}{{au}}{{su}}代表简写.\r\n7. 当导出Word、Excel报告时，不同的占位符会被不同的内容替换. 多张图片占位符的替换以缩略图界面中图片选择的顺序为准.\r\n8. Word、Excel版本必须2007或以上."/>
+		<str id="ids_reportresall" val="全部模板将被删除，并被替换为默认模板. 是否继续？"/>
+
+		<str id="ids_exportexcel" val="输出至Excel"/>
+		<str id="ids_exportcsv" val="输出至CSV"/>
+		<str id="ids_csvplus" val="工作流"/>
+
+		<str id="ids_affocused" val="聚焦"/>
+		<str id="ids_affocusing" val="正在对焦"/>
+		<str id="ids_afdefocus" val="离焦"/>
+		<str id="ids_toofar" val="太远"/>
+		<str id="ids_tooclose" val="太近"/>
+
+		<str id="ids_webppresetphoto" val="照片"/>
+		<str id="ids_webppresetpicture" val="图像"/>
+		<str id="ids_webppresetdrawing" val="绘图"/>
+		<str id="ids_webppreseticon" val="图标"/>
+
+		<str id="ids_dlpending" val="有未完成的下载，确定取消它们并退出吗?"/>
+		<str id="ids_dlnormal" val="正在下载"/>
+		<str id="ids_dlcompleted" val="已完成"/>
+		<str id="ids_dlpaused" val="暂停"/>
+
+		<str id="ids_gpuwin8" val="硬件(GPU)编码仅适用于Windows 8或更高版本."/>
+		<str id="ids_gpuinsu" val="硬件(GPU)编码器可以显著降低CPU使用率，但是如果分辨率超过GPU能力，它将被自动替换为软件编码器."/>
+
+		<str id="ids_cursorcross" val="十字叉"/>
+
+		<str id="ids_segts" val="分段"/>
+		<str id="ids_edges" val="边"/>
+		<str id="ids_avgang" val="平均角度"/>
+		<str id="ids_seglength" val="分段长度"/>
+		<str id="ids_avglength" val="平均长度"/>
+		<str id="ids_ttllength" val="总长度"/>
+		<str id="ids_randomcon" val="任意连接"/>
+		<str id="ids_multicon" val="多点连接"/>
+		<str id="ids_avgdistance" val="平均距离"/>
+		<str id="ids_segdistance" val="分段距离"/>
+		<str id="ids_ttldistance" val="总距离"/>
+
+		<str id="ids_stitchexpand" val="正在处理，请稍候"/>
+		<str id="ids_stitchexpdis" val="拼接过程中自动禁用自动曝光"/>
+		<str id="ids_edfexpdis" val="EDF过程中自动禁用自动曝光"/>
+		<str id="ids_edfsize" val="视频区域尺寸"/>
+
+		<str id="ids_exportmea" val="输出和融合"/>
+		<str id="ids_exportshowdlg" val="输出或融合时显示&quot;输出选项&quot;对话框"/>
+
+		<str id="ids_expseglen0" val="输出至剪贴板"/>
+		<str id="ids_expseglen1" val="输出至CSV文件"/>
+		<str id="ids_expseglen2" val="输出至Microsoft Excel"/>
+
+		<str id="ids_cpucore" val="内核数"/>
+		<str id="ids_cputhrd" val="线程数"/>
+
+		<str id="ids_fspeed" val="帧速度"/>
+
+		<str id="ids_fastest" val="最快"/>
+		<str id="ids_slowest" val="最慢"/>
+
+		<str id="ids_edgelen" val="边长"/>
+		<str id="ids_avgedge" val="平均边长"/>
+
+		<str id="ids_policy" val="策略"/>
+		<str id="ids_ae0" val="仅曝光"/>
+		<str id="ids_ae1" val="曝光优先"/>
+		<str id="ids_ae2" val="仅增益"/>
+		<str id="ids_ae3" val="增益优先"/>
+		<str id="ids_aeexpmax" val="最大曝光时间"/>
+		<str id="ids_aegainmax" val="最大增益"/>
+
+		<str id="ids_stitchres" val="自动把当前视频的定标分辨率信息应用于拼接的结果图片. 该数值的精度依赖很多因素."/>
+		<str id="ids_edfres" val="自动把当前视频的定标分辨率信息应用于EDF的结果图片. 该数值的精度依赖很多因素."/>
+
+		<str id="ids_miscbmp" val="添加BMP格式到“快速保存”、“批量保存”等等的文件类型选择中(BMP格式不支持保存定标和测量信息)"/>
+		<str id="ids_csvutf8" val="在CSV中使用UTF8字符集"/>
+
+		<str id="ids_sensor" val="传感器"/>
+		<str id="ids_ccdpro" val="逐行"/>
+		<str id="ids_ccdint" val="隔行"/>
+		<str id="ids_glsh" val="全局快门"/>
+		<str id="ids_rosh" val="卷帘快门"/>
+		<str id="ids_ddrbuf" val="DDR帧缓冲"/>
+		<str id="ids_isp" val="硬件ISP"/>
+
+		<str id="ids_delay" val="延迟"/>
+		<str id="ids_ioctrl" val="IO控制"/>
+		<str id="ids_ioctrlii" val="光耦隔离输入"/>
+		<str id="ids_ioctrlio" val="光耦隔离输出"/>
+		<str id="ids_ioctrlip" val="输入"/>
+		<str id="ids_ioctrlop" val="输出"/>
+		<str id="ids_ioctrlnc" val="无连接"/>
+		<str id="ids_ioctrlts" val="三态"/>
+		<str id="ids_ioctrloc" val="光耦隔离"/>
+		<str id="ids_ioctrlpo" val="上升沿"/>
+		<str id="ids_ioctrlne" val="下降沿"/>
+		<str id="ids_ioctrlhl" val="高电平"/>
+		<str id="ids_ioctrlll" val="低电平"/>
+		<str id="ids_ioctrlco" val="计数器分频模式"/>
+		<str id="ids_ioctrlpw" val="脉冲模式(PWM)"/>
+		<str id="ids_ioctrlft" val="触发等待信号"/>
+		<str id="ids_ioctrlea" val="曝光有效信号"/>
+		<str id="ids_ioctrlsb" val="闪光灯信号"/>
+		<str id="ids_ioctrluo" val="用户输出信号"/>
+		<str id="ids_ioctrlpd" val="预输出"/>
+		<str id="ids_ioctrldl" val="延迟输出"/>
+		<str id="ids_ioctrlct" val="计数器输出信号"/>
+		<str id="ids_ioctrlto" val="定时器输出信号"/>
+
+		<str id="ids_luafilerr" val="Lua文件错误."/>
+		<str id="ids_sameluaerr" val="相同计算已经存在."/>
+
+		<str id="ids_imageid" val="图像唯一ID"/>
+		<str id="ids_timestamp" val="时间戳"/>
+		<str id="ids_timestamptxt" val="如果相机硬件支持时间戳，定时捕获(Time-lapse)和触发时自动记录时间戳到timestamp.txt"/>
+
+		<str id="ids_meanintensity" val="平均强度"/>
+		<str id="ids_intensity" val="强度"/>
+
+		<str id="ids_typemis" val="类型不匹配"/>
+		<str id="ids_showsub" val="显示子对象"/>
+
+		<str id="ids_connection" val="连接"/>
+
+		<str id="ids_pbslow" val="慢放"/>
+		<str id="ids_pbfast" val="快放"/>
+		<str id="ids_pbstep" val="单帧"/>
+
+		<str id="ids_multicast" val="多播"/>
+		<str id="ids_unicast" val="单播"/>
+
+		<str id="ids_custommo" val="自定义测量"/>
+
+		<str id="ids_3drender" val="渲染"/>
+		<str id="ids_3dlight" val="光照"/>
+
+		<str id="ids_tecpower" val="TEC功率"/>
+
+		<str id="ids_zoomnoctrl" val="上下滚动鼠标滚轮"/>
+		<str id="ids_zoomctrl" val="Ctrl键 + 上下滚动鼠标滚轮"/>
+
+		<str id="ids_lastinput" val="最后输入"/>
+		<str id="ids_timer" val="时间范围"/>
+		<str id="ids_goto" val="跳转"/>
+		<str id="ids_dbstep1" val="连接至数据库"/>
+		<str id="ids_dbstep2" val="定义表格"/>
+		<str id="ids_odbchandle" val="ODBC: 非法句柄."/>
+		<str id="ids_dbver" val="数据库模式不匹配."/>
+		<str id="ids_dbdrop" val="警告: 确认清空数据库内容和模式?"/>
+		<str id="ids_dbdelc" val="警告: 确认清空本列的所有内容?"/>
+		<str id="ids_sqllike" val="%:\t任意零个，一个或多个字符;\r\n_:\t任意单个字符;\r\n[]:\t任意括号内所列字符中的单个字符 ([a-f])或([abcdef]);\r\n[^]:\t任意不在括号内所列字符中的单个字符 ([^a-f])或([^abcdef])"/>
+		<str id="ids_bigint" val="64位整数"/>
+		<str id="ids_smallint" val="16位整数"/>
+		<str id="ids_int32" val="32位整数"/>
+
+		<str id="ids_page" val="页"/>
+		<str id="ids_nextp" val="下一页"/>
+		<str id="ids_prevp" val="上一页"/>
+		<str id="ids_firp" val="第一页"/>
+		<str id="ids_lasp" val="最后页"/>
+
+		<str id="ids_fnew" val="始终切换焦点窗口至新捕获的图像"/>
+
+		<str id="ids_layerclear" val="清除所有图层和测量对象?"/>
+		<str id="ids_layerclearobj" val="确认清除所有测量对象?"/>
+		<str id="ids_layercleartip" val="清除所有图层和测量对象"/>
+		<str id="ids_layerclearobjtip" val="清除所有测量对象"/>
+
+		<str id="ids_lntip" val="更高的信噪比, 更低的帧率"/>
+
+        <str id="ids_stat" val="统计"/>
+		<str id="ids_smax" val="最大"/>
+		<str id="ids_smin" val="最小"/>
+		<str id="ids_savg" val="平均"/>
+		<str id="ids_sstd" val="标准差"/>
+		<str id="ids_sum" val="总计"/>
+
+		<str id="ids_hsty" val="H型"/>
+		<str id="ids_half" val="半"/>
+		<str id="ids_acum" val="累进模式"/>
+		<str id="ids_comp" val="合成"/>
+
+		<str id="ids_powerc" val="功耗"/>
+
+		<str id="ids_lptips" val="请选中相应的测量对象，如直线，曲线和多边形. 如果需要的测量对象不存在，请创建并选中."/>
+
+		<str id="ids_writabledir" val="目录不存在或不可写."/>
+
+		<str id="ids_namepre" val="名称前缀"/>
+
+		<str id="ids_ahd" val="自适应同质导向(Adaptive Homogeneity Directed)"/>
+		<str id="ids_vng" val="可变数量梯度(Variable Number of Gradients)"/>
+		<str id="ids_ea" val="边缘感知(Edge Aware)"/>
+
+		<str id="ids_cmptip" val="请选择1或3项和当前进行比较:\r\n“%s”"/>
+		
+		<str id="ids_dspz" val="定时拍照"/>
+		<str id="ids_strtdspz" val="开始定时拍照"/>
+		<str id="ids_stopdspz" val="结束定时拍照"/>
+		<str id="ids_capspan" val="捕获时间间隔"/>
+		<str id="ids_capnum" val="捕获图像张数"/>
+		<str id="ids_captt" val="捕获总时间"/>
+		<str id="ids_capls" val="光源开启时间(前后)"/>
+		<str id="ids_capspanerr" val="捕获时间间隔输入不正确."/>
+		<str id="ids_captterr" val="捕获总时间输入不正确."/>
+		<str id="ids_capstless" val="光源开启时间必须小于捕获时间间隔."/>
+		
+		<str id="ids_globalrs" val="全局复位"/>
+		<str id="ids_expactive0" val="指定行"/>
+		<str id="ids_expactive1" val="共同曝光时间"/>
+
+		<str id="ids_relt" val="结果"/>
+        
+        <str id="ids_exsf" val="导出当前设置到文件(&amp;F)..."/>
+        <str id="ids_exse" val="导出当前设置到&amp;EEPROM"/>
+        <str id="ids_exsa" val="指定地址(&amp;S)..."/>
+		<str id="ids_exs0" val="零地址(&amp;Z)"/>
+		<str id="ids_extemp" val="导出温度历史(&amp;T)..."/>
+        
+        <str id="ids_cpattern" val="方格图案"/>
+		
+		<str id="ids_ocws" val="分水岭"/>
+		<str id="ids_ocsd" val="暗OTSU"/>
+		<str id="ids_ocsb" val="亮OTSU"/>
+		
+		<str id="ids_ebusy" val="相机被其它程序占用."/>
+		<str id="ids_ecrc" val="供电或许不足."/>
+		
+		<str id="ids_exacp" val="定时捕获(Time-lapse)正在进行中.\r\n确认停止自动捕获，丢弃所有剩余图片并退出程序?"/>
+		<str id="ids_exdeq" val="程序后台仍然在保存定时捕获(Time-lapse)或触发的图片.\r\n确认丢弃所有剩余图片并退出程序?"/>
+		
+		<str id="ids_squ" val="序列"/>
+		
+		<str id="ids_littleend" val="小端序"/>
+		<str id="ids_bigend" val="大端序"/>
+		<str id="ids_bnum" val="字节数"/>
+		
+		<str id="ids_bgfile" val="后台文件"/>
+		
+		<str id="ids_deqdepth" val="帧缓冲长度"/>
+		<str id="ids_fend" val="前端"/>
+		<str id="ids_bend" val="后端"/>
+		<str id="ids_tecam" val="重新打开相机后生效"/>
+		
+		<str id="ids_aeotip" val="提示: 计算感兴趣区域中指定百分比最亮像素的平均亮度. 当背景较暗且目标在平均模式下曝光过度时启用本选项. 启用本选项时，由于更多的CPU消耗，帧速率可能会受到影响."/>
+		
+		<str id="ids_gridm" val="网格: 融合至图像"/>
+		
+		<str id="ids_motion" val="运动中"/>
+		<str id="ids_idle" val="空闲"/>
+		
+		<str id="ids_interp" val="显示插值算法"/>
+		<str id="ids_interpnn" val="最邻近 (保留硬边缘)"/>
+		<str id="ids_interparea" val="区域重采样"/>
+		<str id="ids_interplanczos" val="Lanczos (8x8邻域)"/>
+		
+		<str id="ids_grc" val="通用"/>
+		<str id="ids_pta" val="粒子分析"/>
+		<str id="ids_phc" val="相位计数"/>
+		<str id="ids_oth" val="其它"/>
+		
+		<str id="ids_packed" val="封装"/>
+
+		<str id="ids_psspot" val="Spot(光斑)"/>
+		<str id="ids_psautumn" val="Autumn(秋天)"/>
+		<str id="ids_psbone" val="Bone(骨骼)"/>
+		<str id="ids_pswinter" val="Winter(冬天)"/>
+		<str id="ids_psrainbow" val="Rainbow(彩虹)"/>
+		<str id="ids_psdeepgreen" val="Deep green(深绿)"/>
+		<str id="ids_psocean" val="Ocean(海洋)"/>
+		<str id="ids_pssummer" val="Summer(夏天)"/>
+		<str id="ids_psspring" val="Spring(春天)"/>
+		<str id="ids_pscool" val="Cool(清凉)"/>
+		<str id="ids_pspink" val="Pink(粉红)"/>
+		<str id="ids_pshot" val="Hot(热烈)"/>
+		<str id="ids_psmagma" val="Magma(熔岩)"/>
+		<str id="ids_psinferno" val="Inferno(地狱之火)"/>
+		<str id="ids_psplasma" val="Plasma(血浆)"/>
+		<str id="ids_psviridis" val="Viridis(翠绿)"/>
+		<str id="ids_pstwilight" val="Twilight(黄昏)"/>
+		<str id="ids_pstwshifted" val="Twilight shifted(黄昏变换)"/>
+		<str id="ids_psturbo" val="Turbo(加速)"/>
+		<str id="ids_psred" val="Red(纯红)"/>
+		<str id="ids_psgreen" val="Green(纯绿)"/>
+		<str id="ids_psblue" val="Blue(纯蓝)"/>
+		
+		<str id="ids_farea" val="对焦区域"/>
+		
+		<str id="ids_lowestcpu" val="最低CPU使用率"/>
+		<str id="ids_highcpu" val="高CPU使用率"/>
+		<str id="ids_highercpu" val="更高CPU使用率"/>
+		<str id="ids_highestcpu" val="最高CPU使用率"/>
+		
+		<str id="ids_fscr" val="全屏显示"/>
+		<str id="ids_xfscr" val="关闭全屏显示"/>
+		
+		<str id="ids_iwr" val="IWR (边读出边积分)"/>
+		<str id="ids_itr" val="ITR (先积分后读出)"/>
+		
+		<str id="ids_updategige" val="成功完成, 请断电重启相机."/>
+		
+		<str id="ids_gainshow" val="曝光增益表示为:"/>
+		<str id="ids_decibel" val="分贝(dB)"/>
+		
+		<str id="ids_workd" val="工作距离"/>
+		<str id="ids_efl" val="有效焦距"/>
+		
+		<str id="ids_notcal" val="未定标"/>
+		
+		<str id="ids_opencom" val="打开%s失败."/>
+		<str id="ids_noseerr" val="物镜转盘通讯失败."/>
+		
+		<str id="ids_chamber" val="腔体"/>
+		<str id="ids_humidity" val="湿度"/>
+		
+		<str id="ids_triggerseqnew" val="启用触发模式下输出的“新窗口显示”选项"/>
+		
+		<str id="ids_hord" val="高位补零"/>
+		<str id="ids_lord" val="低位补零"/>
+		
+		<str id="ids_uptm" val="上线时间"/>
+	</string>
+
+	<dialog>
+		<str id="ids_man" val="管理"/>
+		<str id="ids_tips" val="提示"/>
+		<str id="ids_clear" val="清空"/>
+		<str id="ids_snap" val="捕获"/>
+		<str id="ids_reco" val="录像"/>
+		<str id="ids_qu" val="数量"/>
+		<str id="ids_bf" val="最佳"/>
+		<str id="ids_seq" val="序号开始于:"/>
+		<str id="ids_number" val="数量"/>
+		<str id="ids_dbid" val="字母(A~Z, a~z)或数字(0~9); 不能以数字开头."/>
+		<str id="ids_dbdp" val="小数位数:"/>
+		<str id="ids_mode" val="模式"/>
+		<str id="ids_qu100" val="编码质量(25-100):"/>
+		<str id="ids_aval" val="已打开"/>
+		<str id="ids_sedl" val="已选中"/>
+		<str id="ids_adgt" val="增加&gt;&gt;"/>
+		<str id="ids_aagt" val="全部增加"/>
+		<str id="ids_v" val="值:"/>
+		<str id="ids_border" val="字节序:"/>
+		<str id="ids_sm" val="快门模式:"/>
+		<str id="ids_unidir" val="单向"/>
+		<str id="ids_defi" val="定义..."/>
+		<str id="ids_goto" val="转到"/>
+		<str id="ids_tb" val="颜色表"/>
+		<str id="ids_conmode" val="持续模式"/>
+		<str id="ids_timeval" val="时间间隔:"/>
+
+		<dlg id="IDD_ABOUTBOX">
+			<str id="up" val="软件升级"/>
+		</dlg>
+
+		<dlg id="IDD_AUTO">
+			<str id="dir" val="目录:"/>
+			<str id="for" val="命名规则:"/>
+			<str id="pre" val="前缀:"/>
+			<str id="cm" val="捕获模式"/>
+			<str id="ef" val="捕获全部帧"/>
+			<str id="time" val="捕获时间间隔(秒)"/>
+			<str id="tt" val="捕获图像张数"/>
+			<str id="so" val="多张选项"/>
+			<str id="sv" val="视频窗口显示"/>
+			<str id="sw" val="新窗口显示"/>
+			<str id="sd" val="磁盘保存"/>
+			<str id="base" val="基目录:"/>
+			<str id="sub" val="子目录:"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHSAVE">
+			<str id="tl" val="批量保存"/>
+			<str id="dir" val="目录:"/>
+			<str id="for" val="命名规则:"/>
+			<str id="pre" val="前缀:"/>
+			<str id="show" val="显示重命名对话框"/>
+			<str id="base" val="基目录:"/>
+			<str id="sub" val="子目录:"/>
+			<str id="qst" val="1. 以上设置将作用于“快速保存”菜单和工具栏按钮. 使用“快速保存”时，图片将会按照以上设置的路径和规则进行快速保存操作.\n2. 只有tif和png文件格式才支持保存RGB48图像，所以RGB48图像总是保存成tif或png格式."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD">
+			<str id="dir" val="目录:"/>
+			<str id="frm" val="命名规则:"/>
+			<str id="pf" val="前缀:"/>
+			<str id="sh" val="显示重命名对话框"/>
+			<str id="lm" val="限制"/>
+			<str id="tl" val="时间限制(秒):"/>
+			<str id="fl" val="帧数限制:"/>
+			<str id="base" val="基目录:"/>
+			<str id="sub" val="子目录:"/>
+			<str id="fo" val="文件名选项..."/>
+			<str id="do" val="目录选项..."/>
+			<str id="tip" val="快速录像启用时，录像向导对话框将不显示. 开始快速录像时:\n1. 文件名和目录将根据“文件名选项”和“目录选项”自动生成；\n2. 比特率等于默认比特率(基于视频高度、宽度和帧速率计算得到)乘以最后一次录像使用的比特率缩放百分比；\n3. 其它(如压缩算法、延时摄影等等)则保持和最后一次录像相同."/>
+		</dlg>
+
+		<dlg id="IDD_BATCHRECORD">
+			<str id="num" val="录像数量:"/>
+			<str id="it" val="时间间隔(秒):"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_SELECT">
+			<str id="tl" val="EDF景深扩展"/>
+			<str id="open" val="已打开图像:"/>
+			<str id="se" val="选中图像:"/>
+			<str id="pro" val="进度:"/>
+			<str id="aa" val="全部增加"/>
+			<str id="fuse" val="开始"/>
+			<str id="m" val="方法:"/>
+		</dlg>
+
+		<dlg id="IDD_MAG">
+			<str id="cla" val="清空所有"/>
+		</dlg>
+
+		<dlg id="IDD_CALIBRATE">
+			<str id="ac" val="实际长度"/>
+			<str id="pi" val="像素数"/>
+			<str id="pm" val="像素/米"/>
+			<str id="ep" val="端点"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAEXPOSURE">
+			<str id="ll" val="低亮度补偿"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAHISTOGRAM">
+			<str id="l" val="左:"/>
+			<str id="r" val="右:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALS">
+			<str id="ac50" val="交流(50Hz)"/>
+			<str id="ac60" val="交流(60Hz)"/>
+			<str id="dc" val="直流(DC)"/>
+			<str id="desc" val="防闪烁功能能去除由于电源频率导致的副作用，包括对于卷帘快门传感器的条纹和对于全局快门传感器的闪烁. 在50HZ的情况下，曝光时间被限定为10ms的整数倍，60HZ的情况下曝光时间被限定在(1000/120)ms的整数倍."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAMODE">
+			<str id="color" val="彩色"/>
+			<str id="gray" val="灰度"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERASPEED">
+			<str id="low" val="低"/>
+			<str id="com" val="将滑动条向右拖可以使视频帧率更快. 如果视频没有显示，请把滑动条向左拖动减小帧率."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAWB">
+			<str id="tem" val="色温:"/>
+			<str id="com" val="在你点击“白平衡”按钮之前，请移动ROI(标记为红色矩形)至样品的纯白或者灰色部分."/>
+			<str id="auto" val="自动白平衡"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAPRESET">
+			<str id="load" val="加载"/>
+			<str id="ov" val="覆盖"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERTXT">
+			<str id="tl" val="叠加"/>
+			<str id="pos" val="位置:"/>
+			<str id="bg" val="背景:"/>
+			<str id="sc" val="比例尺"/>
+			<str id="show" val="显示"/>
+			<str id="dt" val="日期和时间"/>
+			<str id="cl" val="清晰度因子"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERGEO">
+			<str id="tl" val="标记"/>
+			<str id="sh" val=" 显示刻度"/>
+		</dlg>
+
+		<dlg id="IDD_OPENDLG">
+			<str id="imag" val="影像信息/预览"/>
+			<str id="cur" val="当前文件:"/>
+		</dlg>
+
+		<dlg id="IDD_PROMTSAVE">
+			<str id="tl" val="保存文件"/>
+			<str id="com" val="文件已改变，需要保存？"/>
+			<str id="yes" val="全部都是"/>
+			<str id="no" val="全部都否"/>
+			<str id="bat" val="批量保存"/>
+		</dlg>
+
+		<dlg id="IDD_SFT">
+			<str id="tl" val="支持定标和测量的图像格式"/>
+			<str id="com" val="你选择的格式不支持保存定标和测量. 如果需要保存定标和测量，请选择以下格式:"/>
+			<str id="re" val="以后不再提醒."/>
+			<str id="con" val="继续"/>
+			<str id="res" val="重新选择"/>
+		</dlg>
+
+		<dlg id="IDD_CAPTURE">
+			<str id="mk" val="捕获包括标记和水印"/>
+			<str id="mm" val="捕获包括测量对象:"/>
+			<str id="g" val="捕获包括网格"/>
+			<str id="dpi" val="设置捕获图像的DPI为:"/>
+			<str id="sa" val="将黑白相机的捕获图像保存为单通道(灰度图)文件"/>
+			<str id="48" val="切换位深度到大于8时自动设置捕获格式为RGB48"/>
+			<str id="ss" val="(节省存储空间)"/>
+		</dlg>
+
+		<dlg id="IDD_GRID">
+			<str id="ru" val="标尺线颜色:"/>
+			<str id="cu" val="光标线颜色:"/>
+			<str id="gr" val="网格"/>
+			<str id="sy" val="网格:"/>
+			<str id="lis" val="线条风格:"/>
+			<str id="lic" val="线条颜色:"/>
+			<str id="re" val="分划板"/>
+			<str id="pm" val="预设管理..."/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION1">
+			<str id="dr" val="全景拉直:"/>
+			<str id="wt" val="投影类型:"/>
+			<str id="sf" val="接缝寻找:"/>
+			<str id="ba" val="捆绑调整:"/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION2">
+			<str id="mc" val="匹配置信度:"/>
+			<str id="pc" val="全景置信度:"/>
+			<str id="bs" val="融合强度:"/>
+			<str id="ms" val="匹配强度:"/>
+		</dlg>
+
+		<dlg id="IDD_PROGRESS">
+			<str id="tl" val="进度"/>
+		</dlg>
+
+		<dlg id="IDD_WATERMARK">
+			<str id="tl" val="视频水印"/>
+			<str id="fle" val="图像文件:"/>
+            <str id="tra" val="透明度(%):"/>
+			<str id="tip" val="使用Shift + 上下左右箭头键移动水印.\r\n使用Shift + Ctrl + 左右箭头键旋转水印."/>
+			<str id="tip2" val="对于32位bmp, 使用Alpha通道.\r\n对于24位bmp, 当透明度设置为0%时, 表示使用第一个像素作为颜色键值, 其它1%至99%表示使用具体透明度."/>
+		</dlg>
+
+		<dlg id="IDD_IOPT">
+			<str id="r" val="压缩率"/>
+			<str id="los" val="无损压缩"/>
+			<str id="qu" val="图像质量"/>
+			<str id="best" val="最大\n压缩"/>
+			<str id="bq" val="最好\n质量"/>
+			<str id="pr" val="累进传输"/>
+			<str id="sm" val="光滑"/>
+			<str id="op" val="优化编码"/>
+			<str id="in" val="交错"/>
+			<str id="ap" val="追加页"/>
+			<str id="s" val="补零:"/>
+			<str id="def" val="保存这些设置作为默认值"/>
+			<str id="cl" val="压缩等级"/>
+			<str id="fs" val="极速\n压缩"/>
+			<str id="hr" val="极限\n压缩"/>
+			<str id="fh" val="文件头:"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_HEADER">
+			<str id="tc" val="以上信息都是可选的."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP1">
+			<str id="pl" val="视频格式和压缩编码算法"/>
+			<str id="h4" val="存在以下硬件(GPU)压缩编码:"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP2">
+			<str id="name" val="1. 为捕获的视频文件输入文件名:"/>
+			<str id="dir" val="2. 选择保存所捕获视频的目录:"/>
+			<str id="tc" val="文件扩展名.wmv或.mp4或.avi将自动附加到文件名."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP3">
+			<str id="bitr" val="码率:"/>
+			<str id="key" val="I帧间隔:"/>
+			<str id="se" val="秒"/>
+			<str id="hw" val="启用硬件(GPU)压缩编码"/>
+			<str id="bb" val="默认码率:"/>
+			<str id="enc" val="编码器:"/>
+			<str id="cfg" val="设置..."/>
+			<str id="pa" val="编码参数设置"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP4">
+			<str id="t" val="时间限制(秒):"/>
+			<str id="l" val="Time-lapse(延时摄影)"/>
+			<str id="s" val="总结"/>
+			<str id="f" val="帧数:"/>
+			<str id="a" val="时间(秒):"/>
+		</dlg>
+
+		<dlg id="IDD_BROADCAST">
+			<str id="port" val="端口:"/>
+			<str id="save" val="同时保存广播内容至视频文件"/>
+		</dlg>
+
+		<dlg id="IDD_OPENBROADCAST">
+			<str id="tl" val="打开广播"/>
+			<str id="port" val="端口:"/>
+		</dlg>
+
+		<dlg id="IDD_MOVE">
+			<str id="tl" val="平移"/>
+		</dlg>
+
+		<dlg id="IDD_DIAGNOSE">
+			<str id="tl" val="诊断"/>
+		</dlg>
+
+		<dlg id="IDD_CURVE">
+			<str id="tl" val="曲线"/>
+			<str id="gr" val="显示格子"/>
+		</dlg>
+
+		<dlg id="IDD_RANGE">
+			<str id="tl" val="范围"/>
+			<str id="in" val="反转"/>
+			<str id="up" val="更新"/>
+		</dlg>
+
+		<dlg id="IDD_THRESHOLD">
+			<str id="tl" val="二值化"/>
+		</dlg>
+
+		<dlg id="IDD_PROPPAGE_MOSAICSET">
+			<str id="fo" val="脚注"/>
+			<str id="ar" val="图像排列"/>
+			<str id="rows" val="行数"/>
+			<str id="col" val="列数"/>
+			<str id="rs" val="行距"/>
+			<str id="cs" val="列距"/>
+			<str id="ps" val="页面大小"/>
+			<str id="ds" val="指定页面大小"/>
+			<str id="pr" val="使用打印机页面大小"/>
+			<str id="ch" val="改变..."/>
+			<str id="use14" val="使用1/4页面大小"/>
+		</dlg>
+
+		<dlg id="IDD_ADJUSTBC">
+			<str id="tl" val="亮度与对比度调整"/>
+		</dlg>
+
+		<dlg id="IDD_AUTOSETUP">
+			<str id="tl" val="自动调整设置"/>
+			<str id="le" val="自动色阶"/>
+			<str id="ct" val="自动对比度"/>
+			<str id="low" val="低限"/>
+			<str id="high" val="高限"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR">
+			<str id="tl" val="颜色调整"/>
+			<str id="mo" val="颜色模型"/>
+		</dlg>
+
+		<dlg id="IDD_CLRQUANT">
+			<str id="bits" val="颜色位数"/>
+			<str id="24" val="24位"/>
+			<str id="8" val="8位"/>
+			<str id="1" val="1位"/>
+		</dlg>
+
+		<dlg id="IDD_COLORBITS">
+			<str id="tl" val="改变图像颜色位数"/>
+			<str id="new" val="新颜色位数"/>
+			<str id="24" val="24位"/>
+			<str id="8" val="8位"/>
+			<str id="1" val="1位"/>
+		</dlg>
+
+		<dlg id="IDD_COLORSELECT">
+			<str id="tl" val="选色"/>
+		</dlg>
+
+		<dlg id="IDD_EDGE">
+			<str id="fil" val="滤波器"/>
+			<str id="sc" val="浮雕"/>
+			<str id="la" val="拉普拉斯"/>
+			<str id="va" val="方差"/>
+			<str id="h" val="水平"/>
+			<str id="v" val="垂直"/>
+			<str id="pa" val="迭代次数"/>
+		</dlg>
+
+		<dlg id="IDD_ENHANCE">
+			<str id="fi" val="滤波器"/>
+			<str id="lp" val="低通"/>
+			<str id="hp" val="高通"/>
+			<str id="g" val="高斯"/>
+			<str id="hg" val="高高斯"/>
+			<str id="equ" val="均衡化"/>
+			<str id="fl" val="平缓"/>
+			<str id="me" val="中值"/>
+			<str id="rk" val="阶梯"/>
+			<str id="pa" val="迭代次数"/>
+			<str id="w" val="窗口"/>
+		</dlg>
+
+		<dlg id="IDD_FILLDIALOG">
+			<str id="tl" val="填充值"/>
+		</dlg>
+
+		<dlg id="IDD_GRAY">
+			<str id="tl" val="灰度"/>
+			<str id="alg" val="算法"/>
+			<str id="ave" val="平均法"/>
+			<str id="max" val="最大值法"/>
+			<str id="we" val="权重法"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM">
+			<str id="tl" val="直方图"/>
+			<str id="ch" val="通道"/>
+			<str id="le" val="颜色值:"/>
+			<str id="co" val="像素数:"/>
+			<str id="px" val="总像素数:"/>
+			<str id="per" val="百分比:"/>
+		</dlg>
+
+		<dlg id="IDD_KERPAGE">
+			<str id="ker" val="核"/>
+			<str id="er" val="腐蚀"/>
+			<str id="di" val="扩张"/>
+			<str id="open" val="开运算"/>
+			<str id="cl" val="闭运算"/>
+			<str id="pa" val="迭代次数"/>
+			<str id="fi" val="滤波类型"/>
+			<str id="conv" val="卷积"/>
+			<str id="morp" val="形态学"/>
+		</dlg>
+
+		<dlg id="IDD_KERSTRUCT">
+			<str id="tl" val="编辑核"/>
+			<str id="size" val="核维数"/>
+			<str id="fill" val="填充"/>
+		</dlg>
+
+		<dlg id="IDD_MORPAGE">
+			<str id="fil" val="滤波器"/>
+			<str id="er" val="腐蚀"/>
+			<str id="di" val="扩张"/>
+			<str id="open" val="开"/>
+			<str id="cl" val="闭"/>
+			<str id="gra" val="梯度"/>
+			<str id="dis" val="距离"/>
+			<str id="thi" val="细化"/>
+			<str id="wat" val="水洼法"/>
+			<str id="pa" val="迭代次数"/>
+			<str id="2x2" val="2 x 2 正方"/>
+			<str id="3x1" val="3 x 1 行"/>
+			<str id="1x3" val="1 x 3 列"/>
+			<str id="3x3" val="3 x 3 叉"/>
+			<str id="5x5" val="5 x 5 圆"/>
+			<str id="7x7" val="7 x 7 圆"/>
+			<str id="11x11" val="11 x 11 圆"/>
+		</dlg>
+
+		<dlg id="IDD_ROTATE">
+			<str id="tl" val="图像旋转"/>
+			<str id="deg" val="度数:"/>
+			<str id="qu" val="旋转质量"/>
+			<str id="cw" val="顺时针"/>
+			<str id="ccw" val="逆时针"/>
+			<str id="an" val="角度"/>
+		</dlg>
+
+		<dlg id="IDD_SCALE">
+			<str id="tl" val="图像大小"/>
+			<str id="con" val="锁定图像纵横比"/>
+			<str id="met" val="缩放方法"/>
+		</dlg>
+
+		<dlg id="IDD_GAMMA">
+			<str id="tl" val="伽玛调整"/>
+		</dlg>
+
+		<dlg id="IDD_HMS">
+			<str id="tl" val="高光/中色调/阴影"/>
+		</dlg>
+
+		<dlg id="IDD_CHANNEL">
+			<str id="tl" val="选择颜色"/>
+		</dlg>
+
+		<dlg id="IDD_PROFILE">
+			<str id="t" val="剖面特征"/>
+		</dlg>
+
+		<dlg id="IDD_LAYERNAME">
+			<str id="tl" val="图层"/>
+		</dlg>
+
+		<dlg id="IDD_AUNIT">
+			<str id="all" val="在测量侧边栏显示所有角度单位"/>
+		</dlg>
+
+		<dlg id="IDD_ADDUNIT">
+			<str id="tl" val="增加单位"/>
+			<str id="sc" val="比例:"/>
+			<str id="sy" val="符号:"/>
+		</dlg>
+
+		<dlg id="IDD_GENERAL">
+			<str id="res" val="计算结果保留:"/>
+			<str id="lfs" val="标注字体大小:"/>
+			<str id="unit" val="标注尺寸时附上单位"/>
+			<str id="a" val="自动命名测量对象"/>
+			<str id="e" val="启用小窗口"/>
+			<str id="hm" val="移动测量对象时隐藏标注"/>
+            <str id="sp" val="在数值和单位符号之间插入一个空格(&quot;12.34 mm&quot; 或 &quot;12.34mm&quot;)"/>
+			<str id="rc" val="任意连接最小长度:"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_DELETE">
+			<str id="tl" val="删除图层"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_CURRENT">
+			<str id="tl" val="当前图层"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_MANAGE">
+			<str id="tl" val="显示/隐藏图层"/>
+		</dlg>
+
+		<dlg id="IDD_MEASURELIST">
+			<str id="col" val="定义测量表格的列"/>
+			<str id="o" val="自定义对象..."/>
+			<str id="c" val="自定义列..."/>
+			<str id="a" val="自定义计算..."/>
+			<str id="r" val="自定义行..."/>
+			<str id="s" val="统计(添加以下行至测量表格)"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR_COMPOSITE">
+			<str id="tl" val="彩色合成"/>
+			<str id="so" val="源图像:"/>
+			<str id="co" val="颜色:"/>
+			<str id="all" val="所有图像"/>
+			<str id="se" val="选中图像"/>
+			<str id="adj" val="调整"/>
+			<str id="reg" val="移动"/>
+		</dlg>
+
+		<dlg id="IDD_COMPOSITE_AVA">
+			<str id="so" val="源图像"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_SELECT_COLOR">
+			<str id="tl" val="选择颜色"/>
+			<str id="fle" val="调整文件:"/>
+			<str id="se" val="所选颜色:"/>
+			<str id="back" val="背景图像"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_DYE_LIST">
+			<str id="tl" val="编辑染料库"/>
+			<str id="rel" val="重载所有"/>
+			<str id="ext" val="激发波长:"/>
+			<str id="em" val="发射波长:"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_NEW_DYE">
+			<str id="tl" val="新建染料"/>
+		</dlg>
+
+		<dlg id="IDD_STACKING">
+			<str id="tl" val="图像叠加去噪"/>
+		</dlg>
+
+		<dlg id="IDD_PROP">
+			<str id="set" val="设置测量对象的默认属性:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_OPTION">
+			<str id="tl" val="计数设置"/>
+			<str id="os" val="轮廓风格:"/>
+			<str id="ot" val="风格:"/>
+			<str id="lm" val="方法:"/>
+			<str id="wh" val="填充孔洞"/>
+			<str id="la" val="标记"/>
+			<str id="min" val="下限:"/>
+			<str id="max" val="上限:"/>
+			<str id="bo" val="排除触边"/>
+			<str id="sc" val="场景:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_HISTORGRAM">
+			<str id="tl" val="直方图"/>
+			<str id="sa" val="全部显示"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_COLORCUBE">
+			<str id="to" val="容差"/>
+		</dlg>
+
+		<dlg id="IDD_NLM">
+			<str id="tl" val="非局部平均(NLM)"/>
+			<str id="sw" val="搜索窗口:"/>
+			<str id="tw" val="模板窗口:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYD">
+			<str id="d" val="细节锐度:"/>
+			<str id="o" val="总体亮度:"/>
+			<str id="b" val="背景亮度:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_ALIGN">
+			<str id="aa" val="自动对齐"/>
+			<str id="a0" val="无"/>
+			<str id="a1" val="位移+缩放"/>
+			<str id="a2" val="位移+缩放+旋转"/>
+			<str id="ma" val="最大角度:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_FM">
+			<str id="at" val="自动确定参考图像"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYDSTACK">
+			<str id="dm" val="景深恢复:"/>
+			<str id="ri" val="孤岛删除:"/>
+			<str id="lf" val="低通滤波:"/>
+			<str id="hf" val="高通滤波:"/>
+			<str id="ac" val="对比度调整:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERADFC">
+			<str id="tip" val="盖住镜头，然后点击&quot;捕获&quot;按钮捕获暗场帧. 勾选&quot;启用&quot;按钮启用&quot;暗场校正&quot;."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFFC">
+			<str id="tip" val="把样品从视场中移除，然后点击&quot;捕获&quot;获取平场校正的背景. 勾选&quot;启用&quot;按钮启用平场校正."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALIVESTACK">
+			<str id="af" val="对齐帧"/>
+			<str id="pl" val="行星"/>
+			<str id="ds" val="深空"/>
+			<str id="in" val="输入:"/>
+			<str id="out" val="输出:"/>
+		</dlg>
+
+		<dlg id="IDD_BF">
+			<str id="tt" val="双边滤波"/>
+			<str id="size" val="值域:"/>
+			<str id="s" val="空域:"/>
+		</dlg>
+
+		<dlg id="IDD_CLAHE">
+			<str id="tl" val="直方图均衡"/>
+		</dlg>
+
+		<dlg id="IDD_UNSHARPMASK">
+			<str id="tl" val="非锐化掩模"/>
+			<str id="a" val="数量:"/>
+		</dlg>
+
+		<dlg id="IDD_DETAILENHANCE">
+			<str id="tl" val="细节增强"/>
+			<str id="s" val="空间:"/>
+			<str id="r" val="范围:"/>
+		</dlg>
+
+		<dlg id="IDD_EDGEPRESERVINGSMOOTH">
+			<str id="tl" val="边缘保持平滑"/>
+			<str id="s" val="空间:"/>
+			<str id="r" val="范围:"/>
+			<str id="f" val="滤波"/>
+			<str id="re" val="递归"/>
+			<str id="n" val="归一化卷积"/>
+		</dlg>
+
+		<dlg id="IDD_LLC">
+			<str id="tl" val="局部色彩校正"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFORMAT">
+			<str id="v" val="属性"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERACOOL">
+			<str id="po" val="功率:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERATRIGGER">
+			<str id="vm" val="视频模式"/>
+			<str id="tr" val="触发模式"/>
+			<str id="live" val="预览:"/>
+		</dlg>
+
+		<dlg id="IDD_EXPORTOPTIONS">
+			<str id="t" val="输出选项"/>
+			<str id="d" val="字体默认大小:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERABINNING">
+			<str id="m" val="方法:"/>
+		</dlg>
+
+		<dlg id="IDD_FITSADD">
+			<str id="a" val="(1~8个字母或者数字: A~Z、a~z、0~9)"/>
+		</dlg>
+
+		<dlg id="IDD_QUICKSAVERENAME">
+			<str id="c" val="以后不显示重命名对话框"/>
+		</dlg>
+
+		<dlg id="IDD_REPORT">
+			<str id="t" val="模版"/>
+			<str id="l" val="克隆..."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAAF">
+			<str id="c" val="共轭校准"/>
+			<str id="0" val="C接口 0mm"/>
+            <str id="z" val="变倍"/>
+			<str id="l" val="镜头:"/>
+			<str id="n" val="近"/>
+			<str id="f" val="远"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_MANUAL">
+			<str id="tl" val="手动计数"/>
+			<str id="er" val="擦除"/>
+			<str id="sn" val="显示序号"/>
+		</dlg>
+
+		<dlg id="IDD_IOCONTROL">
+			<str id="gm" val="输入输出模式:"/>
+			<str id="oi" val="输出反相:"/>
+			<str id="sd" val="闪光灯脉冲宽度:"/>
+			<str id="ia" val="输入信号触发沿:"/>
+			<str id="dt" val="消抖时间:"/>
+			<str id="ls" val="线路选择:"/>
+			<str id="cs" val="计数器模式信号源:"/>
+			<str id="ps" val="脉冲模式信号源:"/>
+			<str id="cv" val="计数器数值:"/>
+			<str id="om" val="输出模式:"/>
+			<str id="uv" val="用户输出数值:"/>
+			<str id="sdm" val="闪光灯信号延迟模式:"/>
+			<str id="sdt" val="闪光灯信号延迟时间:"/>
+			<str id="cr" val="计数器复位:"/>
+			<str id="td" val="触发延迟时间:"/>
+		</dlg>
+
+		<dlg id="IDD_LUA">
+			<str id="c" val="代码:"/>
+		</dlg>
+
+		<dlg id="IDD_RENDER_MODE">
+			<str id="l" val="直线"/>
+			<str id="q" val="四边形"/>
+			<str id="t" val="三角形"/>
+			<str id="s" val="切片"/>
+			<str id="c" val="真彩"/>
+		</dlg>
+
+		<dlg id="IDD_LIGHTING">
+			<str id="e" val="启用光照"/>
+			<str id="a" val="环境"/>
+			<str id="s" val="高光"/>
+			<str id="h" val="光泽度"/>
+			<str id="l" val="光源位置"/>
+			<str id="p" val="光源参数"/>
+		</dlg>
+
+		<dlg id="IDD_3DDLG">
+			<str id="t" val="3D表面"/>
+			<str id="s" val="显示"/>
+			<str id="a" val="轴"/>
+		</dlg>
+
+		<dlg id="IDD_IOADVANCED">
+			<str id="a" val="始终启用软件触发"/>
+			<str id="b" val="波特率:"/>
+			<str id="l" val="线缆选择:"/>
+			<str id="r" val="接收"/>
+			<str id="d" val="发送"/>
+			<str id="e" val="曝光有效信号模式:"/>
+			<str id="x" val="曝光开始行:"/>
+			<str id="y" val="曝光结束行:"/>
+		</dlg>
+
+		<dlg id="IDD_DBSTEP1">
+			<str id="t" val="连接至数据库"/>
+			<str id="s" val="ODBC驱动:"/>
+			<str id="h" val="服务器:"/>
+			<str id="u" val="用户名:"/>
+			<str id="p" val="密码:"/>
+			<str id="a" val="应用程序启动时自动连接"/>
+		</dlg>
+
+		<dlg id="IDD_DBCOLUMN">
+			<str id="i" val="创建索引，加快搜索和排序速度"/>
+			<str id="d" val="数据类型:"/>
+			<str id="v" val="默认值:"/>
+			<str id="e" val="定义..."/>
+		</dlg>
+
+		<dlg id="IDD_DBINSERT">
+			<str id="t" val="插入数据库"/>
+		</dlg>
+
+		<dlg id="IDD_DBVALUE">
+			<str id="e" val="枚举类型"/>
+		</dlg>
+
+		<dlg id="IDD_DBSHOW">
+			<str id="t" val="显示/隐藏列"/>
+		</dlg>
+
+		<dlg id="IDD_DBOPTION">
+			<str id="m" val="文本搜索模式"/>
+			<str id="n" val="普通模式, 使用*作为通配符"/>
+			<str id="s" val="SQL模式, 使用SQL LIKE语法"/>
+		</dlg>
+
+		<dlg id="IDD_WAIT">
+			<str id="t" val="等待"/>
+			<str id="p" val="请等待:"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM_OPTION">
+			<str id="y" val="Y轴:"/>
+			<str id="s" val="显示平均值和标准差等等"/>
+		</dlg>
+		
+		<dlg id="IDD_CAMERAMOTOR">
+			<str id="c" val="粗调:"/>
+			<str id="m" val="中调:"/>
+			<str id="f" val="精调:"/>
+		</dlg>
+        
+        <dlg id="IDD_ZOOM">
+            <str id="t" val="变倍"/>
+        </dlg>
+		
+		<dlg id="IDD_GIGENET">
+			<str id="s" val="子网掩码:"/>
+			<str id="g" val="默认网关:"/>
+		</dlg>
+		
+		<dlg id="IDD_AEOPTION">
+			<str id="t" val="自动曝光选项"/>
+			<str id="p" val="自动曝光亮度统计值峰值模式"/>
+		</dlg>
+		
+		<dlg id="IDD_FW">
+			<str id="n" val="槽数:"/>
+		</dlg>
+		
+		<dlg id="IDD_PSEUDOCOLOR">
+			<str id="s" val="起始颜色:"/>
+			<str id="e" val="结束颜色:"/>
+		</dlg>
+		
+		<dlg id="IDD_NOSE">
+			<str id="s" val="生产商:"/>
+			<str id="e" val="槽位:"/>
+		</dlg>
+		
+		<dlg id="IDD_CAMERADYNAMIC_DEFECT">
+			<str id="d" val="死点:"/>
+			<str id="h" val="噪点:"/>
+		</dlg>
+	</dialog>
+
+	<menu>
+		<str id="fle" val="文件(&amp;F)"/>
+		<str id="edt" val="编辑(&amp;E)"/>
+		<str id="vew" val="查看(&amp;V)"/>
+		<str id="prss" val="处理(&amp;P)"/>
+		<str id="opns" val="选项(&amp;O)"/>
+		<str id="wnd" val="窗口(&amp;W)"/>
+		<str id="hlp" val="帮助(&amp;H)"/>
+		<str id="stup" val="设置(&amp;S)"/>
+		<str id="cptu" val="捕获(&amp;C)"/>
+		<str id="imag" val="图像(&amp;I)"/>
+		<str id="layr" val="图层(&amp;L)"/>
+		<str id="meas" val="测量(&amp;M)"/>
+		<str id="brws" val="浏览(&amp;B)"/>
+		<str id="db" val="数据库(&amp;D)"/>
+
+		<str id="recf" val="最近文件(&amp;R)"/>
+		<str id="sdbr" val="侧边栏(&amp;S)"/>
+		<str id="sort" val="排序(&amp;S)"/>
+		<str id="icns" val="图标(&amp;I)"/>
+		<str id="grds" val="网格(&amp;G)"/>
+		<str id="mvwm" val="平移水印(&amp;M)"/>
+		<str id="rtwm" val="旋转水印(&amp;R)"/>
+		<str id="mode" val="模式(&amp;M)"/>
+		<str id="adj" val="调整(&amp;A)"/>
+		<str id="rtt" val="旋转(&amp;T)"/>
+		<str id="line" val="线段(&amp;L)"/>
+		<str id="vert" val="垂线(&amp;V)"/>
+		<str id="crcl" val="圆(&amp;C)"/>
+		<str id="ccleh" val="圆(内空)(&amp;O)"/>
+		<str id="tocls" val="双圆(&amp;S)"/>
+		<str id="zodr" val="叠放次序(&amp;Z)"/>
+		<str id="lunit" val="长度单位(&amp;U)"/>
+
+		<str id="oimg" val="打开图像(&amp;O)..."/>
+		<str id="ovid" val="打开视频(&amp;V)..."/>
+		<str id="obcas" val="打开广播(&amp;C)..."/>
+		<str id="sckin" val="图像叠加去噪(&amp;S)..."/>
+		<str id="batsv" val="批量保存(&amp;B)..."/>
+		<str id="qksv" val="快速保存(&amp;Q)"/>
+		<str id="psnew" val="粘贴为新文件(&amp;N)"/>
+		<str id="norec" val="无最近文件"/>
+		<str id="exit" val="退出(&amp;X)"/>
+		<str id="cut" val="剪切(&amp;T)"/>
+		<str id="copy" val="复制(&amp;C)"/>
+		<str id="pste" val="粘贴(&amp;P)"/>
+		<str id="passc" val="粘贴快捷方式(&amp;S)"/>
+		<str id="selal" val="全选(&amp;A)"/>
+		<str id="ivsel" val="反向选择(&amp;I)"/>
+		<str id="mshet" val="测量表格(&amp;M)"/>
+		<str id="camsb" val="相机(&amp;C)"/>
+		<str id="fosb" val="文件夹(&amp;F)"/>
+		<str id="ursb" val="撤消/重做(&amp;U)"/>
+		<str id="lydb" val="图层(&amp;L)"/>
+		<str id="msbar" val="测量(&amp;M)"/>
+		<str id="hsbar" val="直方图(&amp;H)"/>
+		<str id="prfs" val="首选项(&amp;P)..."/>
+		<str id="mm" val="测量(&amp;M)..."/>
+		<str id="mf" val="放大率(&amp;F)..."/>
+		<str id="clbr" val="定标(&amp;D)..."/>
+		<str id="edtdy" val="编辑染料库(&amp;E)..."/>
+		<str id="atcor" val="自动校正(&amp;A)..."/>
+		<str id="f1" val="帮助主题(&amp;H)"/>
+		<str id="ab" val="关于(&amp;A)"/>
+
+		<str id="save" val="保存(&amp;S)"/>
+		<str id="svee" val="保存(&amp;S)..."/>
+		<str id="svas" val="另存为(&amp;A)..."/>
+		<str id="imgsl" val="图像选择(&amp;I)"/>
+		<str id="seln" val="不选(&amp;N)"/>
+
+		<str id="gno" val="无网格(&amp;N)"/>
+		<str id="gda" val="自动网格(&amp;A)"/>
+		<str id="grm" val="手工网格(&amp;M)"/>
+		<str id="gdl" val="删除所有网格(&amp;R)"/>
+		<str id="rlset" val="设置(&amp;S)..."/>
+		<str id="fitwi" val="适合窗口(&amp;E)"/>
+		<str id="asiz" val="实际大小(&amp;A)"/>
+		<str id="trk" val="追迹(&amp;K)"/>
+
+		<str id="sith" val="拼接(&amp;T)..."/>
+		<str id="dldt" val="删除(&amp;D)"/>
+		<str id="bbro" val="浏览(&amp;B)"/>
+		<str id="openf" val="打开(&amp;O)"/>
+
+		<str id="sttp" val="冻结(&amp;F)"/>
+		<str id="fscr" val="全屏显示(&amp;F)"/>
+		<str id="vwpp" val="诊断(&amp;D)"/>
+		<str id="vvl" val="视频叠加(&amp;O)..."/>
+		<str id="vwm" val="视频水印(&amp;W)..."/>
+		<str id="wmmv" val="平移到(&amp;W)..."/>
+		<str id="wmzro" val="平移到 &amp;0"/>
+		<str id="wmrot" val="旋转到(&amp;R)..."/>
+		<str id="wmrz" val="旋转到 &amp;0"/>
+		<str id="gcal" val="灰度定标(&amp;G)"/>
+		<str id="edf" val="ED&amp;F景深扩展..."/>
+		<str id="cpig" val="捕获图像(&amp;C)"/>
+		<str id="tmlps" val="开始定时捕获(&amp;Time-lapse)..."/>
+		<str id="strec" val="开始/停止录像(&amp;V)..."/>
+		<str id="brec" val="批量录像(&amp;B)"/>
+		<str id="acap" val="定时捕获(&amp;Time-lapse)"/>
+		<str id="sttb" val="开启/停止广播(&amp;B)..."/>
+
+		<str id="qtiz" val="颜色位数(&amp;Q)..."/>
+		<str id="gsca" val="灰度化(&amp;G)"/>
+		<str id="curv" val="曲线(&amp;U)..."/>
+		<str id="alvl" val="自动色阶(&amp;L)"/>
+		<str id="acon" val="自动对比度(&amp;T)"/>
+		<str id="eql" val="直方图均衡(&amp;Q)..."/>
+		<str id="bc" val="亮度对比度(&amp;A)..."/>
+		<str id="imclr" val="颜色(&amp;O)..."/>
+		<str id="gamm" val="伽玛(&amp;G)..."/>
+		<str id="fclr" val="滤色(&amp;F)..."/>
+		<str id="eclr" val="提色(&amp;E)..."/>
+		<str id="iclr" val="反色(&amp;I)"/>
+		<str id="r90" val="&amp;90度(顺时针)"/>
+		<str id="r180" val="&amp;180度(顺时针)"/>
+		<str id="r270" val="&amp;270度(顺时针)"/>
+		<str id="rotar" val="任意角度(&amp;A)..."/>
+		<str id="filph" val="水平翻转(&amp;H)"/>
+		<str id="flipv" val="垂直翻转(&amp;V)"/>
+		<str id="crop" val="裁剪(&amp;C)"/>
+		<str id="imsca" val="图像大小(&amp;S)..."/>
+		<str id="hist" val="直方图(&amp;H)..."/>
+		<str id="reso" val="分辨率(&amp;R)..."/>
+		<str id="ovlsb" val="叠加比例尺(&amp;O)..."/>
+
+		<str id="fi" val="滤波(&amp;I)..."/>
+		<str id="rang" val="窗宽窗位(&amp;R)..."/>
+		<str id="biy" val="二值化(&amp;B)..."/>
+		<str id="psud" val="伪彩色(&amp;P)..."/>
+		<str id="sfac" val="&amp;3-D..."/>
+		<str id="prf" val="剖面线(&amp;L)..."/>
+		<str id="mosc" val="拼版(&amp;O)..."/>
+		<str id="cmps" val="彩色合成(&amp;M)..."/>
+		<str id="dens" val="去噪(&amp;D)"/>
+		<str id="nlm" val="非局部平均(&amp;NLM)..."/>
+		<str id="bila" val="双边滤波(&amp;B)..."/>
+		<str id="awf" val="自适应维纳滤波(&amp;A)"/>
+
+		<str id="lnew" val="新建(&amp;N)..."/>
+		<str id="lrem" val="删除(&amp;R)..."/>
+		<str id="lcur" val="当前(&amp;T)..."/>
+		<str id="lshow" val="显示/隐藏(&amp;S)..."/>
+		<str id="len" val="重命名(&amp;E)..."/>
+		<str id="lexp" val="融合至图像(&amp;M)..."/>
+		<str id="mexp" val="融合至图像(&amp;I)"/>
+		<str id="ldrem" val="删除(&amp;R)"/>
+		<str id="ldcur" val="当前(&amp;C)"/>
+		<str id="ldshw" val="显示/隐藏(&amp;S)"/>
+
+		<str id="osel" val="选择测量对象(&amp;J)"/>
+		<str id="angl" val="角度(&amp;N)"/>
+		<str id="point" val="点(&amp;P)"/>
+		<str id="arbl" val="任意(&amp;A)"/>
+		<str id="hline" val="水平(&amp;H)"/>
+		<str id="vline" val="垂直(&amp;V)"/>
+		<str id="parl" val="平行线(&amp;R)"/>
+		<str id="pnt8" val="&amp;8点"/>
+		<str id="pnt5" val="&amp;5点"/>
+		<str id="pnt4" val="&amp;4点"/>
+		<str id="pnt3" val="&amp;3点"/>
+		<str id="pnt2" val="&amp;2点"/>
+		<str id="rctg" val="矩形(&amp;G)"/>
+		<str id="elps" val="椭圆(&amp;I)"/>
+		<str id="crad" val="圆心+半径(&amp;R)"/>
+		<str id="alus" val="圆环(&amp;U)"/>
+		<str id="arc" val="圆弧(&amp;A)"/>
+		<str id="text" val="文字(&amp;T)"/>
+		<str id="plg" val="多边形(&amp;Y)"/>
+		<str id="ztop" val="置于顶层(&amp;T)"/>
+		<str id="zbtm" val="置于底层(&amp;B)"/>
+		<str id="zup" val="上移一层(&amp;U)"/>
+		<str id="zdown" val="下移一层(&amp;D)"/>
+		<str id="sbar" val="比例尺(&amp;B)..."/>
+		<str id="lcv" val="曲线(&amp;E)"/>
+		<str id="mode1" val="任意连接(&amp;R)"/>
+		<str id="mode2" val="多点连接(&amp;M)"/>
+		<str id="arrw" val="箭头(&amp;W)"/>
+
+		<str id="call" val="关闭所有(&amp;C)"/>
+		<str id="rstlo" val="重置窗口布局(&amp;R)"/>
+		<str id="wnds" val="窗口(&amp;W)..."/>
+
+		<str id="aunit" val="角度单位(&amp;A)..."/>
+
+		<str id="nccls" val="关闭(&amp;C)"/>
+		<str id="nccla" val="关闭其它(&amp;X)"/>
+		<str id="clsth" val="关闭其它(&amp;H)"/>
+		<str id="fprop" val="文件属性(&amp;F)..."/>
+		<str id="cpath" val="复制文件路径(&amp;Y)"/>
+		<str id="brofo" val="浏览所在目录(&amp;B)"/>
+		<str id="openfo" val="打开所在目录(&amp;O)"/>
+		<str id="htbgp" val="新建水平选项卡组(&amp;H)"/>
+		<str id="vtbgp" val="新建垂直选项卡组(&amp;V)"/>
+		<str id="nxtbg" val="移动至下一个选项卡组(&amp;X)"/>
+		<str id="prebg" val="移动至上一个选项卡组(&amp;R)"/>
+		<str id="ftwid" val="适合宽度(&amp;I)"/>
+		<str id="fthei" val="适合高度(&amp;H)"/>
+		<str id="fitwi" val="适合窗口(&amp;W)"/>
+
+		<str id="bronm" val="按文件名排序(&amp;N)"/>
+		<str id="brotp" val="按类型排序(&amp;T)"/>
+		<str id="brosz" val="按大小排序(&amp;S)"/>
+		<str id="browd" val="按宽度排序(&amp;W)"/>
+		<str id="brohe" val="按高度排序(&amp;H)"/>
+		<str id="brotx" val="按类型排序(&amp;T)"/>
+		<str id="brofw" val="递增(&amp;A)"/>
+		<str id="brorv" val="递减(&amp;D)"/>
+		<str id="brol" val="大图标(&amp;L)"/>
+		<str id="bros" val="小图标(&amp;S)"/>
+		<str id="brorf" val="刷新(&amp;R)"/>
+		<str id="bropo" val="属性(&amp;P)..."/>
+
+		<str id="mimp" val="文件导入(&amp;I)..."/>
+		<str id="msav" val="文件保存(&amp;S)..."/>
+		<str id="mhtm" val="输出至&amp;Html文件..."/>
+		<str id="mexc" val="输出至&amp;Excel文件..."/>
+
+		<str id="bstf" val="适合窗口(&amp;B)"/>
+		<str id="asiz" val="实际大小(&amp;A)"/>
+
+		<str id="edpn" val="普通(&amp;N)"/>
+		<str id="edph" val="&amp;H型"/>
+
+		<str id="oc" val="分割和计数(&amp;C)"/>
+		<str id="ocws" val="分水岭(&amp;W)..."/>
+		<str id="ocsd" val="暗OTSU(&amp;D)..."/>
+		<str id="ocsb" val="亮OTSU(&amp;B)..."/>
+		<str id="ocrhs" val="&amp;RGB直方图..."/>
+		<str id="ochhs" val="&amp;HSV直方图..."/>
+		<str id="occc" val="颜色分块(&amp;C)..."/>
+
+		<str id="chair" val="十字准线(&amp;H)"/>
+		<str id="st4" val="ST&amp;4测试..."/>
+
+		<str id="hdr" val="高动态(&amp;HDR)..."/>
+
+		<str id="shpn" val="锐化(&amp;N)"/>
+		<str id="lshp" val="拉普拉斯锐化(&amp;L)"/>
+		<str id="unshp" val="非锐化掩模(&amp;U)..."/>
+
+		<str id="dclr" val="对比度保留去色(&amp;C)"/>
+		<str id="epsm" val="边缘保持平滑(&amp;S)..."/>
+		<str id="denh" val="细节增强(&amp;D)..."/>
+
+		<str id="llc" val="局部色彩校正(&amp;R)..."/>
+		<str id="cton" val="颜色映射(&amp;G)"/>
+
+		<str id="deil" val="去交错(&amp;A)"/>
+
+		<str id="opnrf" val="打开录像目录(&amp;D)"/>
+		<str id="opnif" val="打开图像目录(&amp;I)"/>
+
+		<str id="lined" val="线段(&amp;3点)"/>
+
+		<str id="tnal" val="缩略图(&amp;T)"/>
+		<str id="avw" val="激活视频窗口(&amp;V)"/>
+
+		<str id="cust" val="自定义(&amp;C)..."/>
+		<str id="ctool" val="自定义工具栏(&amp;C)..."/>
+
+		<str id="cent" val="居中(&amp;R)"/>
+		<str id="sernx" val="下一帧(&amp;N)"/>
+		<str id="serpv" val="上一帧(&amp;V)"/>
+
+		<str id="ext" val="外部应用(&amp;L)"/>
+
+		<str id="man" val="管理(&amp;M)..."/>
+		<str id="word" val="当前报告(&amp;R)"/>
+		<str id="wors" val="报告(&amp;M)"/>
+
+		<str id="gdiv" val="等分(&amp;D)..."/>
+		<str id="deep" val="深拷贝(&amp;D)"/>
+
+		<str id="manuc" val="手动(&amp;M)..."/>
+		<str id="expex" val="输出至&amp;Excel"/>
+		<str id="expcb" val="输出至剪贴板(&amp;C)"/>
+		<str id="expim" val="输出至图像(&amp;I)"/>
+
+		<str id="pipe" val="吸管(&amp;P)"/>
+		<str id="preset" val="预设(&amp;T)"/>
+
+		<str id="extr" val="附加(&amp;X)"/>
+		<str id="holl" val="中空度(&amp;H)"/>
+		<str id="pfdg" val="异形度(&amp;P)"/>
+		<str id="frat" val="扁平比(&amp;F)"/>
+		<str id="ncr" val="&amp;N/C(核浆比)"/>
+		<str id="choll" val="圆中空度(&amp;C)"/>
+		<str id="pholl" val="多边形中空度(&amp;P)"/>
+
+		<str id="clhd" val="隐藏(&amp;H)"/>
+		<str id="clsl" val="选择(&amp;S)..."/>
+
+		<str id="whba" val="白平衡(&amp;W)"/>
+
+		<str id="comb" val="组合(&amp;M)"/>
+		<str id="ucom" val="取消(&amp;U)"/>
+
+		<str id="arra" val="排列(&amp;G)"/>
+		<str id="cstm" val="自定义(&amp;M)"/>
+
+		<str id="expt" val="导出(&amp;X)"/>
+		<str id="expf" val="导出(&amp;X)..."/>
+		<str id="impf" val="导入(&amp;I)..."/>
+
+		<str id="copa" val="比较(&amp;M)"/>
+
+		<str id="dstup" val="新建(&amp;N)..."/>
+		<str id="drop" val="删除(&amp;D)"/>
+		<str id="clea" val="清空(&amp;C)"/>
+		<str id="dconn" val="连接(&amp;C)..."/>
+		<str id="disc" val="断开(&amp;D)"/>
+		<str id="inse" val="插入(&amp;I)..."/>
+		<str id="modi" val="修改(&amp;M)..."/>
+		<str id="add" val="增加(&amp;A)..."/>
+		<str id="inst" val="插入数据库(&amp;I)..."/>
+		<str id="opts" val="选项(&amp;O)..."/>
+		<str id="oima" val="打开图像(&amp;O)"/>
+
+		<str id="rena" val="重命名(&amp;R)..."/>
+		<str id="dye" val="染色(&amp;Y)..."/>
+
+		<str id="item" val="项目(&amp;T)"/>
+		<str id="aitem" val="所有项目(&amp;L)"/>
+		<str id="aimag" val="所有图像(&amp;A)"/>
+
+		<str id="expg" val="曝光与增益(&amp;E)"/>
+		<str id="load" val="加载(&amp;L)"/>
+
+        <str id="clti" val="关闭所有临时图像(&amp;T)"/>
+
+		<str id="auto" val="自动(&amp;A)..."/>
+		<str id="defu" val="默认值(&amp;D)"/>
+		<str id="rest" val="重置(&amp;R)"/>
+		
+		<str id="disa" val="禁用(&amp;D)"/>
+		<str id="b1" val="&amp;1字节"/>
+		<str id="b2" val="&amp;2字节"/>
+		<str id="b4" val="&amp;4字节"/>
+		
+		<str id="ipm" val="&amp;IP地址..."/>
+		<str id="rtm" val="实时(&amp;T)"/>
+		
+		<str id="nosep" val="物镜转盘(&amp;N)..."/>
+	</menu>
+</i18n>

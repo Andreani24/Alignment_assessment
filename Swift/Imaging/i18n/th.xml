@@ -1,0 +1,1878 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<i18n>
+	<all>
+		<str id="ids_error" val="ความผิดผลาด"/>
+		<str id="ids_true" val="จริง"/>
+		<str id="ids_false" val="เท็จ"/>
+		<str id="ids_yes" val="ใช่"/>
+		<str id="ids_no" val="ไม่"/>
+		<str id="ids_ok" val="ตกลง"/>
+		<str id="ids_camera" val="กล้อง"/>
+		<str id="ids_folders" val="โพลเดอร์"/>
+		<str id="ids_video" val="วิดีโอ"/>
+		<str id="ids_browse" val="เรียกดู"/>
+		<str id="ids_back" val="กลับ"/>
+		<str id="ids_forward" val="ล่วงหน้า"/>
+		<str id="ids_open" val="เปิด"/>
+		<str id="ids_pixel" val="พิกเซล"/>
+		<str id="ids_width" val="ความกว้าง"/>
+		<str id="ids_height" val="ความสูง"/>
+		<str id="ids_measurement" val="มาตรฐานการวัด"/>
+		<str id="ids_name" val="ชื่อ"/>
+		<str id="ids_index" val="ดัชนี"/>
+		<str id="ids_version" val="รุ่น"/>
+		<str id="ids_sample" val="ตัวอย่าง"/>
+		<str id="ids_avg" val="ค่าเฉลี่ย"/>
+		<str id="ids_mean" val="ค่าเฉลี่ย"/>
+		<str id="ids_capture" val="จับ"/>
+		<str id="ids_stop" val="หยุด"/>
+		<str id="ids_close" val="ปิด"/>
+		<str id="ids_save" val="บันทึก"/>
+		<str id="ids_none" val="ไม่ได้กำหนดค่า"/>
+		<str id="ids_zoom" val="ซูม"/>
+		<str id="ids_time" val="เวลา"/>
+		<str id="ids_frame" val="เฟรม"/>
+		<str id="ids_framerate" val="เฟรมเรท"/>
+		<str id="ids_target" val="เป้าหมาย"/>
+		<str id="ids_free" val="ว่าง"/>
+		<str id="ids_file" val="ไฟล์"/>
+		<str id="ids_date" val="วันที่"/>
+		<str id="ids_year" val="ปี"/>
+		<str id="ids_month" val="เดือน"/>
+		<str id="ids_day" val="วัน"/>
+		<str id="ids_linear" val="เชิงเส้น"/>
+		<str id="ids_log" val="ลอการิทึม"/>
+		<str id="ids_poly" val="พหุนาม"/>
+		<str id="ids_format" val="รูปแบบ"/>
+		<str id="ids_bl" val="ระดับสีดำ"/>
+		<str id="ids_current" val="ปัจจุบัน"/>
+		<str id="ids_cancel" val="ยกเลิก"/>
+		<str id="ids_close" val="ปิด"/>
+		<str id="ids_apply" val="นำไปใช้"/>
+		<str id="ids_defaults" val="ค่าเริ่มต้น"/>
+		<str id="ids_default" val="ค่าเริ่มต้น"/>
+		<str id="ids_refresh" val="รีเฟรช"/>
+		<str id="ids_auto" val="อัตโนมัติ"/>
+		<str id="ids_reset" val="ตั้งใหม่"/>
+		<str id="ids_option" val="ตัวเลือก"/>
+		<str id="ids_options" val="ตัวเลือก"/>
+		<str id="ids_preview" val="ตัวอย่าง"/>
+		<str id="ids_size" val="ขนาด"/>
+		<str id="ids_color" val="สี"/>
+		<str id="ids_label" val="ลาเบล"/>
+		<str id="ids_px" val="พิกเซล"/>
+		<str id="ids_appearance" val="ลักษณะทั่วไป"/>
+		<str id="ids_scalebar" val="มาตราส่วน"/>
+		<str id="ids_rename" val="เปลี่ยนชื่อ"/>
+		<str id="ids_desc" val="คำอธิบาย"/>
+		<str id="ids_remove" val="ลบ"/>
+		<str id="ids_red" val="สีแดง"/>
+		<str id="ids_green" val="สีเขียว"/>
+		<str id="ids_blue" val="สีน้ำเงิน"/>
+		<str id="ids_radius" val="รัศมี"/>
+		<str id="ids_add" val="เพิ่ม"/>
+		<str id="ids_del" val="ลบ"/>
+		<str id="ids_hue" val="สีสัน"/>
+		<str id="ids_sat" val="การอิ่มตัว"/>
+		<str id="ids_bri" val="ความสว่าง"/>
+		<str id="ids_con" val="ความแตกต่าง"/>
+		<str id="ids_gamma" val="แกรมม่า"/>
+		<str id="ids_res" val="ความคมชัด"/>
+		<str id="ids_compression" val="การย่อ"/>
+		<str id="ids_whitebalance" val="สมดุลแสงสีขาว"/>
+		<str id="ids_zoomin" val="ขยายเข้า"/>
+		<str id="ids_zoomout" val="ขยายออก"/>
+		<str id="ids_export" val="นำออก"/>
+		<str id="ids_import" val="นำเข้า"/>
+		<str id="ids_thumbnail" val="รูปขนาดย่อ"/>
+		<str id="ids_rotate" val="หมุน"/>
+		<str id="ids_meta" val="เมตาดาต้า"/>
+		<str id="ids_en" val="เปิดใช้งาน"/>
+		<str id="ids_value" val="ค่า"/>
+		<str id="ids_expti" val="เวลาเปิดช่องรับแสง"/>
+		<str id="ids_rexpti" val="เวลาเปิดรับแสงจริง"/>
+		<str id="ids_observer" val="ผู้สังเกตการณ์"/>
+		<str id="ids_telescope" val="กล้องโทรทรรศน์"/>
+		<str id="ids_comment" val="ความคิดเห็น"/>
+		<str id="ids_edit" val="แก้ไข"/>
+		<str id="ids_model" val="รุ่นของกล้อง"/>
+		<str id="ids_type" val="ประเภท"/>
+		<str id="ids_cpyrgt" val="ลิขสิทธิ์"/>
+		<str id="ids_author" val="ผู้เขียน"/>
+		<str id="ids_title" val="หัวข้อ"/>
+		<str id="ids_pxf" val="รูปแบบพิกเซล"/>
+		<str id="ids_unit" val="หน่วย"/>
+		<str id="ids_calibrate" val="วัดขนาด"/>
+		<str id="ids_beilv" val="การขยาย"/>
+		<str id="ids_dis" val="ปิดการใช้งาน"/>
+		<str id="ids_fset" val="การตั้งค่าโรงงาน"/>
+		<str id="ids_srp" val="ความคม"/>
+		<str id="ids_focus" val="โฟกัสอั"/>
+		<str id="ids_af" val="โฟกัสอัตโนมัติ"/>
+		<str id="ids_mau" val="จัดการเอง"/>
+		<str id="ids_elc" val="ไฟฟ้า"/>
+		<str id="ids_up" val="ขึ้น"/>
+		<str id="ids_down" val="ลง"/>
+		<str id="ids_revision" val="การทบทวน"/>
+		<str id="ids_preset" val="กำหนดไว้ล่วงหน้า"/>
+		<str id="ids_dl" val="ดาวน์โหลด"/>
+		<str id="ids_st" val="สถานะ"/>
+		<str id="ids_sw" val="ซอฟแวร์"/>
+		<str id="ids_hw" val="ฮาร์ดแวร์"/>
+		<str id="ids_simu" val="จำลอง"/>
+		<str id="ids_nrecom" val="ไม่แนะนำ"/>
+		<str id="ids_depre" val="เลิกใช้"/>
+		<str id="ids_text" val="ตัวหนังสือ"/>
+		<str id="ids_mem" val="หน่วยความจำ"/>
+		<str id="ids_perct" val="เปอร์เซ็นต์"/>
+		<str id="ids_total" val="รวม"/>
+		<str id="ids_computer" val="คอมพิวเตอร์"/>
+		<str id="ids_copy" val="คัดลอก"/>
+		<str id="ids_autoe" val="แสงอัตโนมัติ"/>
+		<str id="ids_expta" val="พื้นที่ช่องรับแสง"/>
+		<str id="ids_bin" val="ถัง"/>
+		<str id="ids_skip" val="ข้าม"/>
+		<str id="ids_gain" val="อัตราขยาย"/>
+		<str id="ids_stemp" val="อุณหภูมิ"/>
+		<str id="ids_fan" val="พัดลม"/>
+		<str id="ids_ttemp" val="อุณหภูมิเป้าหมาย"/>
+		<str id="ids_display" val="แสดง"/>
+		<str id="ids_cut" val="ตัด"/>
+		<str id="ids_pste" val="วาง"/>
+		<str id="ids_lock" val="ล็อค"/>
+		<str id="ids_basic" val="พื้นฐาน"/>
+		<str id="ids_neg" val="เนกาทีฟ"/>
+		<str id="ids_tonem" val="การทำแผนที่เสียง"/>
+		<str id="ids_position" val="ตำแหน่ง"/>
+		<str id="ids_custom" val="กำหนดเอง"/>
+		<str id="ids_object" val="วัตถุ"/>
+		<str id="ids_cobject" val="วัตถุวัด"/>
+		<str id="ids_threshold" val="ขีดจำกัด"/>
+		<str id="ids_bool" val="บูลีน"/>
+		<str id="ids_all" val="ทั้งหมด"/>
+		<str id="ids_column" val="คอลัมน์"/>
+		<str id="ids_row" val="แถว"/>
+		<str id="ids_shape" val="รูปร่าง"/>
+		<str id="ids_font" val="ตัวอักษร"/>
+		<str id="ids_fontsize" val="ขนาดตัวอักษร"/>
+		<str id="ids_fontweight" val="น้ำหนักตัวหนังสือ"/>
+		<str id="ids_bandw" val="แบนด์วิดธ์"/>
+		<str id="ids_about" val="เกี่ยวกับ"/>
+		<str id="ids_horz" val="แนวนอน"/>
+		<str id="ids_vert" val="แนวตั้ง"/>
+		<str id="ids_polygon" val="รูปหลายเหลี่ยม"/>
+		<str id="ids_adv" val="ขั้นสูง"/>
+		<str id="ids_strength" val="ความแข็งแรง"/>
+		<str id="ids_linewidth" val="ความกว้างของเส้น"/>
+		<str id="ids_glauto" val="อัตโนมัติทั้งหมด"/>
+		<str id="ids_compare" val="เปรียบเทียบ"/>
+		<str id="ids_db" val="ฐานข้อมูล"/>
+		<str id="ids_new" val="ใหม่"/>
+		<str id="ids_find" val="หา"/>
+		<str id="ids_imag" val="ภาพ"/>
+		<str id="ids_dye" val="สีย้อม"/>
+		<str id="ids_dyv" val="การย้อมสี"/>
+		<str id="ids_tl" val="Time-lapse (ถ่ายภาพอัตโนมัติ)"/>
+		<str id="ids_xoff" val="X ออฟเซ็ต"/>
+		<str id="ids_yoff" val="Y ออฟเซ็ต"/>
+		<str id="ids_ftype" val="ประเภทของไฟล์"/>
+		<str id="ids_starddev" val="ค่าเบี่ยงเบนมาตรฐาน"/>
+		<str id="ids_max" val="ขีดสุด"/>
+		<str id="ids_min" val="ขั้นต่ำ"/>
+		<str id="ids_mono" val="โมโนโครม"/>
+		<str id="ids_lightsource" val="แหล่งกำเนิดแสง"/>
+		<str id="ids_on" val="เปิด"/>
+		<str id="ids_off" val="ปิด"/>
+		<str id="ids_high" val="สูง"/>
+		<str id="ids_hdr" val="ช่วงไดนามิกสูง (HDR)"/>
+		<str id="ids_watermark" val="ลายน้ำ"/>
+        <str id="ids_cate" val="หมวดหมู่"/>
+		<str id="ids_settings" val="การตั้งค่า"/>
+		<str id="ids_llcolor" val="สีฉลาก"/>
+		<str id="ids_item" val="สินค้า"/>
+		<str id="ids_discard" val="ทิ้ง"/>
+		<str id="ids_plan" val="แผน"/>
+		<str id="ids_network" val="เครือข่าย"/>
+		<str id="ids_ip" val="ที่อยู่ IP"/>
+		<str id="ids_mac" val="ที่อยู่ MAC"/>
+		<str id="ids_oclock" val="โอเวอร์คล็อก"/>
+		<str id="ids_fw" val="ล้อกรอง"/>
+		<str id="ids_pdpseudocolor" val="สีหลอก"/>
+		<str id="ids_lowpc" val="การใช้พลังงานต่ำ"/>
+		<str id="ids_exporm" val="โหมดการอ่านข้อมูล"/>
+		<str id="ids_addr" val="ที่อยู่"/>
+		<str id="ids_trg" val="ทริกเกอร์"/>
+		<str id="ids_trgs" val="แหล่งที่มาของทริกเกอร์"/>
+		<str id="ids_objlen" val="เลนส์ใกล้วัตถุ"/>
+		<str id="ids_si" val="เดี่ยว"/>
+		<str id="ids_sq" val="หลายเท่า"/>
+		<str id="ids_lp" val="วน"/>
+		<str id="ids_cds" val="การสุ่มตัวอย่างแบบคู่ที่สัมพันธ์กัน"/>
+        <str id="ids_antise" val="เอฟเฟกต์ป้องกันชัตเตอร์"/>
+		<str id="ids_speed" val="ความเร็ว"/>
+		<str id="ids_shtt" val="ชัตเตอร์"/>
+		<str id="ids_mshtt" val="ชัตเตอร์กลไก"/>
+		<str id="ids_mf" val="แสดงการขยาย"/>
+	</all>
+
+	<string>
+		<str id="ids_m" val="มิเตอร์"/>
+		<str id="ids_cm" val="เซนติเมตร"/>
+		<str id="ids_mm" val="มิลลิเมตร"/>
+		<str id="ids_um" val="ไมโครมิเตอร์"/>
+		<str id="ids_nm" val="นาโนมิเตอร์"/>
+		<str id="ids_in" val="นิ้ว"/>
+		<str id="ids_ang" val="อังสตรอม"/>
+
+		<str id="ids_angle0" val="เรเดียน"/>
+		<str id="ids_angle1" val="องศา"/>
+		<str id="ids_angle2" val="พาย"/>
+
+		<str id="ids_celsius" val="เซลเซียส"/>
+		<str id="ids_fahrenheit" val="ฟาเรนไฮต์"/>
+
+		<str id="ids_colorbuttonother" val="อื่นๆ..."/>
+		<str id="ids_linestylesolid" val="แข็ง"/>
+		<str id="ids_linestyledash" val="ชน"/>
+		<str id="ids_linestyledot" val="จุด"/>
+		<str id="ids_linestyledashdot" val="ชนจุด"/>
+		<str id="ids_intminmax" val="กรุณาใส่จำนวนเต็มระหว่าง %d และ %d."/>
+
+		<str id="ids_exposure" val="การเปิดช่องรับแสง"/>
+
+		<str id="ids_noexcel" val="ไม่สามารถเปิดโปรแกรม Microsoft Excel. กรุณาตรวจสอบว่า Microsoft Excel ได้รับการติดตั้งอย่างถูกต้อง."/>
+		<str id="ids_noword" val="ไม่สามารถเปิดโปรแกรม Microsoft Word. กรุณาตรวจสอบว่า Microsoft Word ได้รับการติดตั้งอย่างถูกต้อง."/>
+
+		<str id="ids_outofrange" val="ไม่อยู่ในขอบเขต"/>
+		<str id="ids_inputv" val="ค่านำเข้าไม่ถูกต้อง."/>
+		<str id="ids_filenr" val="ไม่สามารถใช้อักขระที่สงวนไว้ในชื่อแฟ้มได้."/>
+
+		<str id="ids_deviceid" val="รหัสอุปกรณ์"/>
+		<str id="ids_devicename" val="ชื่ออุปกรณ์"/>
+		<str id="ids_stillimagecapture" val="จับภาพนิ่ง"/>
+		<str id="ids_stillimagewidth" val="ความกว้างของภาพ"/>
+		<str id="ids_stillimageheight" val="ความสูงของภาพ"/>
+		<str id="ids_displaywidth" val="ความกว้างของจอแสดงผล"/>
+		<str id="ids_displayheight" val="ความสูงของจอแสดงผล"/>
+		<str id="ids_videowidth" val="ความกว้างของวิดีโอ"/>
+		<str id="ids_videoheight" val="ความสูงของวิดีโอ"/>
+		<str id="ids_dscapbpp" val="บิตต่อพิกเซล"/>
+		<str id="ids_dscap_frame" val="เฟรม"/>
+		<str id="ids_dscap_file" val="ไพล์"/>
+		<str id="ids_duration" val="ระยะเวลา"/>
+		<str id="ids_cameraid" val="รหัสสินค้า"/>
+		<str id="ids_productdate" val="วันที่ผลิต"/>
+		<str id="ids_framedropped" val="ลดเฟรม"/>
+		<str id="ids_framesaved" val="เฟรมที่บันทึก"/>
+		<str id="ids_property" val="คุณสมบัติ"/>
+		<str id="ids_errorstop" val="ความผิดพลาด, ไม่ได้ หยุด."/>
+		<str id="ids_startfail" val="ไม่ได้ เริ่มต้น."/>
+		<str id="ids_previewfail" val="ไม่สามารถดูตัวอย่าง, กรุณาเสียบอุปกรณ์ใหม่อีกครั้ง."/>
+		<str id="ids_stoppreviewfail" val="ความผิดพลาด, ไม่สามารถหยุดการแสดงตัวอย่าง."/>
+		<str id="ids_noframe" val="แบนด์วิดธ์ USB ไม่เพียงพอ โปรด ลดระดับ ความเร็วเฟรม หรือ ลองพอร์ต USB อื่น. กรุณาเสียบอุปกรณ์ใหม่อีกครั้ง."/>
+		<str id="ids_surpriseremoval" val="อุปกรณ์ถูกดึงออกมา."/>
+		<str id="ids_devicelost" val="หยุดการจับภาพ (อุปกรณ์สูญหาย), กรุณาเสียบอุปกรณ์ใหม่อีกครั้ง."/>
+		<str id="ids_captureerror" val="ความผิดพลาดระหว่างจับภาพ, กรุณาต่ออุปกรณ์อีกครั้ง หรือ ต่ออุปกรณ์ที่ USB ช่องอื่นอีกครั้ง."/>
+		<str id="ids_toupnamerror" val="ความผิดพลาด, กรุณาเปิดอุปกรณ์ใหม่อีกครั้ง."/>
+		<str id="ids_filtergraph" val="ไม่สามารถแสดงกราฟตัวอย่างได้."/>
+		<str id="ids_noax" val="ไม่สามารถสร้างวิดีโอจากการจับภาพได้ กรุณาติดจตั้งไดว์เวอร์อุปกรณ์."/>
+		<str id="ids_nosource" val="ความผิดพลาด, ไม่สามารถสร้างวิดีโอจากการจับภาพได้. กรุณาเสียบอุปกรณ์ใหม่อีกครั้ง."/>
+
+		<str id="ids_badport" val="หมายเลขพอร์ตที่ระบุอยู่แล้วในการใช้งาน,โปรดใช้หมายเลขพอร์ตอื่น."/>
+		<str id="ids_bcount" val="เฟรมที่ออกอากาศ"/>
+		<str id="ids_bdroppcnt" val="ออกอากาศหลุดกรอบ"/>
+		<str id="ids_bcbbps" val="บิตเรตปัจจุบันออกอากาศ (Kbps)"/>
+		<str id="ids_baveragebps" val="บิตเรตเฉลี่ยออกอากาศ (Kbps)"/>
+		<str id="ids_bccfr" val="อัตราเฟรมปัจจุบันออกอากาศ"/>
+		<str id="ids_baveragesr" val="ออกอากาศเฟรมเรทเฉลี่ย"/>
+		<str id="ids_bandwidth" val="แบนด์วิดธ์ (Kbps)"/>
+		<str id="ids_preceived" val="ข้อมูลที่ได้รับ"/>
+		<str id="ids_plost" val="ข้อมูลล้มเหลว"/>
+		<str id="ids_psize" val="ขนาดแพ็คเก็ต"/>
+
+		<str id="ids_encoder" val="ตัวเข้ารหัส"/>
+		<str id="ids_quality" val="คุณภาพ"/>
+		<str id="ids_bitrate" val="คุณภาพ"/>
+		<str id="ids_keyfs" val="คีย์กรอบการเว้นวรรค (วินาที)"/>
+		<str id="ids_stepdir" val="โปรดตั้งชื่อไดเรกทอรีและไฟล์ให้ถูกต้อง."/>
+		<str id="ids_stepbpsminmax" val="กรุณาตั้งค่าบิตเรตที่ถูกต้อง,เป็นตัวเลขระหว่าง %s และ %s."/>
+		<str id="ids_stepqualityminmax" val="กรุณาตั้งค่าคุณภาพให้ถูกต้อง,เป็นจำนวนเต็มระหว่าง %u และ %u."/>
+		<str id="ids_stepiframe" val="กรุณาตั้งค่าคีย์กรอบการเว้นวรรคให้ถูกต้อง."/>
+		<str id="ids_stepiframeminmax" val="กรุณาตั้งค่าคีย์กรอบการเว้นวรรคให้ถูกต้อง,เป็นจำนวนเต็มระหว่าง %u และ %u."/>
+		<str id="ids_stepcodec" val="กรุณาเลือก Encoder."/>
+		<str id="ids_steptimelimit" val="กรุณาตั้งเวลาจับภาพให้ถูกต้อง."/>
+		<str id="ids_steptimelapse" val="กรุณาตั้งเวลาหมดอายุใหการจับภาพ."/>
+		<str id="ids_stepavinone" val="ไม่มีคอมเพรสเซอร์"/>
+
+		<str id="ids_recordheader" val="แสดงข้อมูล"/>
+		<str id="ids_recordstep1" val="รูปแบบวิดีโอและตัวเข้ารหัส"/>
+		<str id="ids_recordstep2" val="วิดีโอไพล์"/>
+		<str id="ids_recordstep3" val="ตัวเข้ารหัส"/>
+		<str id="ids_recordstep4" val="เริ่มต้นบันทึก"/>
+		<str id="ids_broadcastpar" val="พารามิเตอร์ออกอากาศ"/>
+		<str id="ids_recordstep4b" val="เริ่มต้นออกอากาศ"/>
+		<str id="ids_record_ser" val="ตัวเลือกการตั้งค่ารูปแบบ"/>
+
+		<str id="ids_integerinvalid" val="กรุณาใส่จำนวนเต็ม."/>
+
+		<str id="ids_mosaicimages" val="ภาพโมเสก"/>
+
+		<str id="ids_deleteallitem" val="คุณแน่ใจว่าจะลบรายการทั้งหมด?"/>
+		<str id="ids_deleteitem" val="คุณแน่ใจว่าจะลบรายการที่เลือก?"/>
+		<str id="ids_deleteitems" val="คุณแน่ใจว่าจะลบ%dรายการที่เลือก?"/>
+		<str id="ids_magimport" val="การนำเข้าจะล้างรายการปัจจุบัน, คุณแน่ใจ?"/>
+
+		<str id="ids_toolbarselect" val="เลือกวัตถุ"/>
+		<str id="ids_toolbarcirclehole" val="วงกลมที่มีหลุม"/>
+		<str id="ids_toolbarrectselect" val="ภาพที่เลือก"/>
+		<str id="ids_toolbartrack" val="แทร็ก"/>
+		<str id="ids_toolbargray" val="สอบเทียบสีเทา"/>
+		<str id="ids_toolbarcrosshair" val="กากบาท"/>
+		<str id="ids_toolbargoto" val="เปิดโฟลเดอร์"/>
+		<str id="ids_toolbarcenter" val="ศูนย์"/>
+
+		<str id="ids_stitch" val="ตะเข็บ"/>
+		<str id="ids_stitchautocrop" val="การครอบตัดอัตโนมัติเมื่อตะเข็บเสร็จสิ้น(สี่เหลี่ยมผืนผ้าด้านนอก)"/>
+		<str id="ids_stitchscroll" val="โหมดเลื่อน"/>
+		<str id="ids_aggr" val="ก้าวร้าว"/>
+		<str id="ids_pasi" val="แฝง"/>
+
+		<str id="ids_built" val="สร้างขึ้น"/>
+
+		<str id="ids_toolbar" val="ทูบาร์"/>
+		<str id="ids_nodevice" val="ไม่พบอุปกรณ์"/>
+		<str id="ids_zoom0" val="พอดีกับความกว้าง"/>
+		<str id="ids_zoom1" val="พอดีกับความสูง"/>
+		<str id="ids_zoom2" val="พอดีกับหน้าต่าง"/>
+		<str id="ids_selection" val="การเลือก"/>
+		<str id="ids_undoredo" val="ยกเลิก/ทำซ้ำ"/>
+
+		<str id="ids_overlayscale" val="ซ้อนทับสเกลบาร์"/>
+
+		<str id="ids_customize" val="ปรับแต่ง"/>
+		<str id="ids_toolbarcustomize" val="&amp;ปรับแต่ง..."/>
+		<str id="ids_angleunitmenu" val="&amp;หน่วยมุม..."/>
+
+		<str id="ids_emptydir" val="ไดเรกทอรีต้องไม่ว่างเปล่า."/>
+		<str id="ids_invaliddir" val="ไดเรกทอรีไม่ถูกต้อง."/>
+		<str id="ids_filelock" val="ไฟล์นี้ถูกล็อก."/>
+		<str id="ids_imagesizemismatch" val="ภาพขนาดที่ไม่ตรงกัน."/>
+		<str id="ids_imagesizenotsame" val="ภาพ: &quot;%s&quot; ไม่ได้เป็นขนาดเดียวกัน."/>
+		<str id="ids_filenofound" val="ไม่พบไฟล์."/>
+		<str id="ids_savefilefail2" val="ไม่สามารถบันทึกไฟล์ &quot;%s&quot;."/>
+		<str id="ids_savefilefail3" val="ไม่สามารถบันทึกไฟล์."/>
+		<str id="ids_videofileformat" val="รูปแบบไฟล์ที่ไม่สนับสนุน."/>
+		<str id="ids_videofilestartfail" val="การเริ่มต้นล้มเหลว."/>
+		<str id="ids_videofiles" val="ไฟล์วิดีโอ"/>
+		<str id="ids_allfiles" val="ไฟล์ทั้งหมด"/>
+
+		<str id="ids_browseshutcut" val="โฟลเดอร์นี้มีชื่อทางลัด &quot;%s&quot;.\nเขียนทับ, หรือ ยกเลิก?"/>
+
+		<str id="ids_videozoomint" val="ระดับการซูมปัจจุบันคือ %u%%. เพื่อให้ได้จำนวนที่แน่นอนโปรดตั้งค่าระดับการซูม 100%%. ยังคงที่จะดำเนินการ?"/>
+		<str id="ids_videozoomfloat" val="ระดับการซูมปัจจุบันคือ %.1f%%. เพื่อให้ได้จำนวนที่แน่นอนโปรดตั้งค่าระดับการซูม 100%%. ยังคงที่จะดำเนินการ?"/>
+		<str id="ids_videomarker" val="เขียน: (%d, %d); ลายน้ำ: ย้าย = (%d, %d), หมุน = %.3f"/>
+		<str id="ids_videostartrecord" val="เริ่ม &amp;บันทึก..."/>
+		<str id="ids_videostoprecord" val="หยุด &amp;บันทึก"/>
+		<str id="ids_videostarttimelapse" val="เริ่ม &amp;เวลาที่ล่วงเลย (ถ่ายภาพอัตโนมัติ)..."/>
+		<str id="ids_videostoptimelapse" val="หยุด &amp;เวลาที่ล่วงเลย (ถ่ายภาพอัตโนมัติ)"/>
+		<str id="ids_videoautofail" val="ล้มเหลวในการจับภาพอัตโนมัติ."/>
+		<str id="ids_videoauto1" val="จับภาพอัตโนมัติ, %u"/>
+		<str id="ids_videoauto2" val="จับภาพอัตโนมัติ, %u/%u"/>
+		<str id="ids_videocalibratemax1" val="โปรดสอบเทียบในขนาดสูงสุด.\r\nขนาดปัจจุบัน: %u x %u. ขนาดสูงสุด: %u x %u.\r\n โดยใช้แถบด้านข้างกล้องเพื่อตั้งค่าความละเอียด."/>
+
+		<str id="ids_memory" val="ไม่มีหน่วยความจำเพียงพอ."/>
+		<str id="ids_memoryx86" val="ไม่มีหน่วยความจำเพียงพอ,กรุณาใช้ รุ่น x64."/>
+
+		<str id="ids_actionfailed" val="การดำเนินการล้มเหลว."/>
+		<str id="ids_actioncanceld" val="การดำเนินการยกเลิก."/>
+
+		<str id="ids_calibratedlgtoobig" val="มีขนาดใหญ่เกินไป"/>
+		<str id="ids_calibratedlgtoosmall" val="มีขนาดเล็กเกินไป"/>
+		<str id="ids_calibratedlgpixels" val="พิกเซล"/>
+		<str id="ids_calibratedlgmagnification" val="กรุณาแก้ไขการขยาย, เช่น 10, 40, 100,อื่นๆ."/>
+		<str id="ids_calibratedlgmagnificationexists" val="กำลังขยาย &quot;%s&quot; คงเดิม."/>
+
+		<str id="ids_collapseall" val="ยุบทั้งหมด"/>
+		<str id="ids_expandall" val="ขยายทั้งหมด"/>
+		<str id="ids_camerapane_camera" val="กล้อง"/>
+		<str id="ids_cameralist" val="รายการกล้อง"/>
+		<str id="ids_expandgain" val="การเปิดช่องรับแสง &amp;&amp; อัตราการขยาย"/>
+		<str id="ids_colorgray" val="สี/สีเทา"/>
+		<str id="ids_capres" val="จับภาพ &amp;&amp; ความคมชัด"/>
+		<str id="ids_coloradjust" val="การปรับสี"/>
+		<str id="ids_camerapane_framerate" val="อัตราเฟรม"/>
+		<str id="ids_flip" val="พลิก"/>
+		<str id="ids_sampling" val="การสุ่มตัวเอย่าง"/>
+		<str id="ids_histogram" val="ฮิสโทแกรม"/>
+		<str id="ids_power" val="พลังงานจากคลื่นความถี่ (ป้องกันการสั่นไหว)"/>
+		<str id="ids_gray" val="สีเทา"/>
+		<str id="ids_range" val="พิสัย"/>
+		<str id="ids_exptimeempty" val="เวลาที่ได้รับจะต้องไม่ว่างเปล่า."/>
+		<str id="ids_exptimeinvalid" val="เวลาที่ได้รับไม่ถูกต้อง."/>
+		<str id="ids_exptimeoutofrange" val="เวลาที่ได้รับอยู่นอกช่วง."/>
+		<str id="ids_bpsmb" val="บิตเรต (Mbps)"/>
+		<str id="ids_dfc" val="การแก้ไขฟิลด์ที่มืด"/>
+		<str id="ids_bitdepth" val="ความลึกของบิต"/>
+		<str id="ids_propfmt" val="คุณสมบัติ &amp;&amp; รูปแบบ"/>
+		<str id="ids_cool" val="คูลลิ่ง"/>
+		<str id="ids_heat" val="เครื่องทำความร้อน"/>
+		<str id="ids_fpnc" val="แก้ไขจุดรบกวนรูปแบบคงที่"/>
+
+		<str id="ids_preferences" val="การตั้งค่า"/>
+
+		<str id="ids_grids" val="เส้นตาราง"/>
+		<str id="ids_misc" val="อื่นๆ"/>
+		<str id="ids_cursor" val="ตัวชี้ตำแหน่ง"/>
+		<str id="ids_quicksave" val="เซฟด่วน"/>
+		<str id="ids_record" val="บันทึก"/>
+		<str id="ids_quickrecord" val="บันทึกด่วน"/>
+
+		<str id="ids_mosaicimage" val="รายการภาพ"/>
+		<str id="ids_mosaicpar" val="พารามิเตอร์"/>
+
+		<str id="ids_filefmtcol0" val="ส่วนขยาย"/>
+		<str id="ids_filefmtcol2" val="คำย่อ"/>
+
+		<str id="ids_allsupported" val="สนับสนุนทุกรูปแบบ"/>
+		<str id="ids_savedlgreplace" val="%s มีอยู่แล้ว.\nคุณต้องการที่จะแทนที่?"/>
+		<str id="ids_saveboth" val="ภาพและขนาดเลเยอร์ ได้รับการแก้ไข. คุณต้องการที่จะบันทึกการเปลี่ยนแปลง?"/>
+		<str id="ids_saveimage" val="รูปภาพได้รับการแก้ไข. คุณต้องการที่จะบันทึกการเปลี่ยนแปลง?"/>
+		<str id="ids_savelayer" val="ขนาดเลเยอร์ได้รับการแก้ไข. คุณต้องการที่จะบันทึกการเปลี่ยนแปลง?"/>
+
+		<str id="ids_watermarkdlg24bit" val="รองรับภาพ24 หรือ 32 บิตเท่านั้น."/>
+
+		<str id="ids_nameformatnnnn" val="nnnn (ลำดับ)"/>
+
+		<str id="ids_lefttop" val="บนซ้าย"/>
+		<str id="ids_righttop" val="บนขวา"/>
+		<str id="ids_leftbottom" val="ปุ่มซ้าย"/>
+		<str id="ids_rightbottom" val="ปุ่มขวา"/>
+		<str id="ids_overlaybgtrans" val="โปร่งใส่"/>
+		<str id="ids_black" val="ขาว"/>
+		<str id="ids_white" val="ดำ"/>
+		<str id="ids_smallest" val="น้อยที่สุด"/>
+		<str id="ids_smaller" val="เล็ก"/>
+		<str id="ids_medium" val="ปานกลาง"/>
+		<str id="ids_larger" val="ใหญ่"/>
+		<str id="ids_largest" val="ใหญ่มาก"/>
+		<str id="ids_fontweightnormal" val="ปกติ"/>
+		<str id="ids_fontweightbold" val="หนา"/>
+		<str id="ids_fontweightheavy" val="ทึบ"/>
+		<str id="ids_overlaydatenone" val="ไม่ได้กำหนดค่า"/>
+		<str id="ids_overlaydate1" val="ปี-เดือน-วัน ชั่วโมง:นาที:วินาที"/>
+		<str id="ids_overlaydatelong" val="วันที่แบบยาว"/>
+		<str id="ids_overlaydateshort" val="วันที่แบบสั้น"/>
+		<str id="ids_overlaydatetlong" val="รูปแบบเวลาวันที่แบบยาว"/>
+		<str id="ids_overlaydatetshort" val="รูปแบบเวลาวันที่แบบสั้น"/>
+
+		<str id="ids_marker" val="ไม่ได้กำหนดค่า"/>
+		<str id="ids_markercross" val="กากบาท"/>
+		<str id="ids_markercircle" val="วงกลม"/>
+		<str id="ids_markercr" val="กากบาท+สี่เหลี่ยมผืนผ้า"/>
+		<str id="ids_markercc" val="กากบาท+วงกลม"/>
+		<str id="ids_markercrosswidth" val="ความยาวกากบาท"/>
+		<str id="ids_markercrossheight" val="ความสูงกากบาท"/>
+		<str id="ids_markerrectwidth" val="ความยาวสี่เหลี่ยมผืนผ้า"/>
+		<str id="ids_markerrectheight" val="ความสูงสี่เหลี่ยมผืนผ้า"/>
+		<str id="ids_markerradius" val="รัศมีวงกลม"/>
+
+		<str id="ids_stitchfail" val="การต่อภาพล้มเหลว"/>
+		<str id="ids_stitchplane" val="แผ่นราบ"/>
+		<str id="ids_stitchcylindrical" val="ทรงกระบอก"/>
+		<str id="ids_stitchspherical" val="ทรงกลม"/>
+		<str id="ids_stitchfisheye" val="พิชอาย"/>
+		<str id="ids_stitchstereographic" val="กราฟฟิก สเตอริโอ"/>
+		<str id="ids_stitchseamfindervoronoi" val="โวโรนอยไดอาแกรม"/>
+		<str id="ids_stitchseamfindergraphcutcolor" val="กราฟตัดสี"/>
+		<str id="ids_stitchecgain" val="อัตราการขยาย"/>
+
+		<str id="ids_crosssingle" val="เดี่ยว"/>
+		<str id="ids_cross1" val="ดับเบิ้ล (1 พิกเซล)"/>
+		<str id="ids_cross3" val="ดับเบิ้ล (3 พิกเซล)"/>
+		<str id="ids_cross5" val="ดับเบิ้ล (5 พิกเซล)"/>
+		<str id="ids_cross7" val="ดับเบิ้ล (7 พิกเซล)"/>
+		<str id="ids_cross9" val="ดับเบิ้ล (9 พิกเซล)"/>
+		<str id="ids_cursorcross" val="กากบาท"/>
+		<str id="ids_cursorpoint" val="จุด"/>
+		<str id="ids_cursornull" val="ค่าว่าง"/>
+
+		<str id="ids_videooverlay" val="วิดีโอซ้อนทับ"/>
+		<str id="ids_markertxt" val="ซ้อนทับ"/>
+		<str id="ids_markergeo" val="เครื่องหมาย"/>
+
+		<str id="ids_miscsplash" val="แสดงหน้าต่างเริ่มต้น"/>
+		<str id="ids_miscscreensaver" val="ป้องกันไม่ให้สกรีนเซฟเวอร์ที่เมื่อแสดงตัวอย่างวิดีโอ / จับภาพ"/>
+		<str id="ids_misctft" val="รูปแบบไฟล์"/>
+		<str id="ids_misctftremind" val="เตือนฉันเมื่อรูปแบบแฟ้มไม่สนับสนุนวัตถุวัด"/>
+		<str id="ids_miscsidebar" val="แทบด้านข้าง"/>
+		<str id="ids_miscsidebarmeasurement" val="เปิดใช้งานแถบด้านข้างวัดโดยอัตโนมัติเมื่อวัด"/>
+		<str id="ids_miscsidebarfolders" val="เปิดใช้งานแถบด้านข้างโฟลเดอร์โดยอัตโนมัติเมื่อเปิดหน้าต่างเบราว์เซอร์"/>
+		<str id="ids_miscsidebarbrowse" val="แสดงหน้าต่างเบราเซอร์โดยอัตโนมัติเมื่อดับเบิลคลิกที่โฟลเดอร์"/>
+		<str id="ids_miscsidebarcamerastartup" val="เปิดใช้งานแถบด้านข้างกล้องเมื่อเริ่มต้นโดยอัตโนมัติ"/>
+		<str id="ids_miscuistyle" val="รูปแบบ UI"/>
+		<str id="ids_miscprivacy" val="ความเป็นส่วนตัว"/>
+		<str id="ids_miscrecent" val="จำนวนสูงสุดของไฟล์ล่าสุด"/>
+		<str id="ids_miscclear" val="ล้างไฟล์ล่าสุดเมื่อออกจากโปรแกรม"/>
+		<str id="ids_miscrestore" val="กู้ไดเรกทอรีปัจจุบันเมื่อเริ่มต้น"/>
+		<str id="ids_misclang" val="ภาษา"/>
+		<str id="ids_miscte" val="มีผลบังคับใช้หลังจากรีสตาร์ท"/>
+
+		<str id="ids_urimploperation" val="การดำเนินการ"/>
+
+		<str id="ids_pdmuststructure" val="คุณต้องเลือกโครงสร้าง."/>
+		<str id="ids_pdnostructure" val="โครงสร้างไม่อยู่."/>
+		<str id="ids_pdselectstructure" val="กรุณาเลือกโครงสร้าง."/>
+		<str id="ids_pddeletesure" val="ลบ: คุณแน่ใจ?"/>
+		<str id="ids_pdenhancement" val="เพิ่มประสิทธิภาพของภาพ"/>
+		<str id="ids_pdbestfit" val="แบบที่ดีที่สุด"/>
+		<str id="ids_pdundo" val="ยกเลิกคำสั่ง"/>
+		<str id="ids_pdmustname" val="คุณต้องป้อนชื่อ."/>
+		<str id="ids_pdkernelsize" val="ขนาดเคอร์เนลที่ไม่ถูกต้อง."/>
+		<str id="ids_pdinputvalue" val="กรุณาป้อนค่า."/>
+		<str id="ids_pdoverwrite" val="โครงสร้างที่มีอยู่! คุณต้องการที่จะเขียนทับ?"/>
+		<str id="ids_pdautolevel" val="ระดับอัตโนมัติ"/>
+		<str id="ids_pdautocontrast" val="ความคมชัดอัตโนมัติ"/>
+		<str id="ids_pdbcadj" val="ความสว่าง/ความคมชัด การปรับ"/>
+		<str id="ids_pdcoloradj" val="สี การปรับ"/>
+		<str id="ids_pdhmsadj" val="HMS การปรับ"/>
+		<str id="ids_pdgammaadj" val="แกรมม่า การปรับ"/>
+		<str id="ids_pdhistogram" val="ฮิสโทแกรมการทำให้เท่าเทียมกัน"/>
+		<str id="ids_pdcurve" val="การปรับเส้นโค้ง"/>
+		<str id="ids_pdbinary" val="ไบนารี"/>
+		<str id="ids_pdgray" val="สีเทา"/>
+		<str id="ids_pdinvert" val="กลับด้าน"/>
+		<str id="ids_pdrotatecw" val="หมุนตามเข็มนาฬิกา"/>
+		<str id="ids_pdrotateccw" val="หมุนทวนเข็มนาฬิกา"/>
+		<str id="ids_pdcrop" val="ครอบคลุม"/>
+		<str id="ids_pdimagescale" val="ขนาดภาพ: %dx%d"/>
+		<str id="ids_pdfliphorz" val="พลิกแนวนอน"/>
+		<str id="ids_pdflipvert" val="พลิกแนวตั้ง"/>
+		<str id="ids_pdrange" val="พิสัย"/>
+		<str id="ids_pdfilters" val="กรอง"/>
+		<str id="ids_pdinvalidheight" val="ความสูงที่ไม่ถูกต้อง"/>
+		<str id="ids_pdfiltercolor" val="กรองสี"/>
+		<str id="ids_pdextractcolor" val="แยกสี"/>
+		<str id="ids_pdluminosity" val="ความสว่างไสว"/>
+		<str id="ids_bilinear" val="เชิงเส้นคู่"/>
+
+		<str id="ids_filtermorp" val="การเปลี่ยนแปลงทางรูปลักษณะ"/>
+		<str id="ids_filterkern" val="ใจกลาง"/>
+		<str id="ids_filterenhance" val="เพิ่มคุณภาพภาพ"/>
+		<str id="ids_filteredge" val="เพิ่มขอบ"/>
+
+		<str id="ids_extraopenfail" val="ไม่สามารถเปิดไพล์เพื่อกำหนดค่า."/>
+		<str id="ids_extrasaveit" val="สีย้อมได้รับการเปลี่ยนแปลง, บันทึก?"/>
+		<str id="ids_extradyeexist" val="สีย้อมมีอยู่แล้ว"/>
+		<str id="ids_extradeleteitem" val="คุณแน่ใจหรอว่าจะลบรายการนี้?"/>
+		<str id="ids_extrasavedata" val="คุณแน่ใจหรอว่าจะบันทึกข้อมูล?"/>
+		<str id="ids_extrareloaddata" val="คุณแน่ใจหรอว่าจะโหลดข้อมูลทั้งหมด?"/>
+		<str id="ids_extraforfile" val="สำหรับไพล์"/>
+
+		<str id="ids_labelaxis" val="แกน"/>
+		<str id="ids_labelwidthheight" val="กว้าง และ สูง"/>
+
+		<str id="ids_layer" val="เลเยอร์"/>
+		<str id="ids_sheet" val="แผ่นวัด"/>
+		<str id="ids_sheet2" val="ตรงกลาง"/>
+		<str id="ids_sheet3" val="เส้นผ่านศูนย์กลาง"/>
+		<str id="ids_sheet4" val="พื้นที่"/>
+		<str id="ids_sheet5" val="ความยาว"/>
+		<str id="ids_sheet7" val="เริ่มต้น"/>
+		<str id="ids_sheet8" val="จบ"/>
+		<str id="ids_sheet9" val="ระยะทาง"/>
+		<str id="ids_point" val="จุด"/>
+		<str id="ids_pointname" val="จุด%d"/>
+		<str id="ids_intersection" val="การตัด"/>
+		<str id="ids_foot" val="ปลาย"/>
+		<str id="ids_slope" val="ลาด"/>
+		<str id="ids_perimeter" val="เส้นรอบรูป"/>
+		<str id="ids_center" val="ตรงกลาง"/>
+		<str id="ids_arclength" val="เส้นรอบรูป"/>
+		<str id="ids_ratio" val="อัตราส่วน"/>
+		<str id="ids_axes" val="แกน"/>
+		<str id="ids_layer0" val="มองเห็น"/>
+		<str id="ids_lunit0" val="หน่วย"/>
+		<str id="ids_lunit2" val="สัญลักษณ์"/>
+		<str id="ids_lunit4" val="ขนาด"/>
+		<str id="ids_noname" val="[ไม่มีชื่อ]"/>
+		<str id="ids_layerbackground" val="พื้นหลัง"/>
+		<str id="ids_layername" val="ชื่อเลเยอร์"/>
+		<str id="ids_sysunit" val="ระบบ"/>
+		<str id="ids_userunit" val="ผู้ใช้"/>
+		<str id="ids_errorfile" val="รูปแบบไพล์ผิดพลาด."/>
+		<str id="ids_errordata" val="ไพล์ข้อมูลผิดพลาด."/>
+		<str id="ids_only1layer" val="ไม่สามารถลบเลเยอร์สุดท้าย."/>
+		<str id="ids_removecurrent" val="ไม่สามารถลบเลเยอร์ที่เลือกได้."/>
+		<str id="ids_removelayer" val="คุณแน่ใจหรือไม้ที่จะลบเลเยอร์นี้?"/>
+		<str id="ids_removeitem" val="คุณแน่ใจว่าจะลบรายการทั้งหมดที่เลือก?"/>
+		<str id="ids_removeunit" val="ลบรายการสำเร็จ."/>
+		<str id="ids_unitsymbol" val="สัญลักษณ์ต้องไม่ว่างเปล่า."/>
+		<str id="ids_invalidratio" val="อัตราส่วนไม่ถูกต้อง."/>
+		<str id="ids_sameunit" val="ไม่สามารถเพิ่มหน่วยนี้เพราะมีหน่วยที่มีชื่อเดียวกัน"/>
+		<str id="ids_samesymbol" val="ไม่สามารถเพิ่มหน่วยนี้เพราะมีหน่วยที่มีสัญลักษณ์เดียวกัน"/>
+		<str id="ids_layersamename" val="มี(s) เลเยอร์(s) มีอยู่ที่มีชื่อเดียวกัน.\n คุณแน่ใจที่จะดำเนินการต่อ?"/>
+		<str id="ids_nametolong" val="ชื่อยาวเกินไป."/>
+		<str id="ids_symboltolong" val="ชื่อยาวเกินไป."/>
+		<str id="ids_toomanyunit" val="หน่วยที่ผู้ใช้กำหนดมากเกินไป"/>
+		<str id="ids_addunit" val="1. ขนาดเป็นอัตราส่วนระหว่างเมตรและเฉพาะเจาะจง. ตัวอย่าง:\n 1 เมตร คือ 1000 มิลลิเมตร ซึ่งในทางวิทยาศาสตร์คือ 1e3.\n	เมตร คือ 0.001ของกิโลเมตร, ซึ่งไม่ใช่ 1e-3.\n\n2. สัญลัญลักษณ์: เช่น &quot;m&quot; สำหรับเมตร, &quot;cm&quot; สำหรับเซ็นติเมตร."/>
+		<str id="ids_general" val="ทั่วไป"/>
+		<str id="ids_lengthunit" val="หน่วยความยาว"/>
+		<str id="ids_angleunit" val="หน่วยมุม"/>
+		<str id="ids_measurelist" val="เอกสาร"/>
+		<str id="ids_angle" val="มุม"/>
+		<str id="ids_ellipse" val="วงรี"/>
+		<str id="ids_line" val="เส้นตรง"/>
+		<str id="ids_point" val="จุด"/>
+		<str id="ids_rect" val="สี่เหลี่ยมผืนผ้า"/>
+		<str id="ids_vertical" val="แนวตั้ง"/>
+		<str id="ids_circle" val="วงกลม"/>
+		<str id="ids_arc" val="เส้นโค้ง"/>
+		<str id="ids_annulus" val="ห่วง"/>
+		<str id="ids_twocircles" val="สองวงกลม"/>
+		<str id="ids_parallel" val="ขนาน"/>
+		<str id="ids_line3" val="ขนาน(3 จุด)"/>
+		<str id="ids_line2" val="ขนาน(4 จุด)"/>
+		<str id="ids_line4" val="ขนาน(8 จุด)"/>
+		<str id="ids_linea" val="ขนาน(โดยพลการ)"/>
+		<str id="ids_curve" val="เส้นโค้ง"/>
+        <str id="ids_verany" val="แนวตั้ง(โดยพลการ)"/>
+		<str id="ids_appearance" val="ลักษณะทั่วไป"/>
+		<str id="ids_geometry" val="เรขาคณิต"/>
+		<str id="ids_coordinates" val="พิกัด"/>
+		<str id="ids_lsize" val="ขนาด"/>
+		<str id="ids_mlinewidth" val="ลักษณะความกว้างของเส้น"/>
+		<str id="ids_linecolor" val="สีของเส้น"/>
+		<str id="ids_mlinecolor" val="ลักษณะสีของเส้น"/>
+		<str id="ids_linestyle" val="รูแบบเส้น"/>
+		<str id="ids_mlinestyle" val="ลักษณะรูปแบบของเส้น"/>
+		<str id="ids_fill" val="เติม"/>
+		<str id="ids_mline" val="แสดงลักษณะของเส้น"/>
+		<str id="ids_amarker" val="แสดงเครื่องหมายมุม"/>
+		<str id="ids_fillcolor" val="เติมสี"/>
+		<str id="ids_arrow" val="ลูกศร"/>
+		<str id="ids_textcolor" val="สีตัวหนังสือ"/>
+		<str id="ids_textalign" val="ตำแหน่งตัวหนังสือ"/>
+		<str id="ids_lframe" val="เฟรม"/>
+		<str id="ids_edittext" val="แก้ไขตัวหนังสือ"/>
+		<str id="ids_textleft" val="ซ้าย"/>
+		<str id="ids_textright" val="ขวา"/>
+		<str id="ids_ltoolbarshow" val="แสดง/ซ่อน"/>
+		<str id="ids_fontstyle0" val="ปกติ"/>
+		<str id="ids_fontstyle1" val="ตัวหนา"/>
+		<str id="ids_fontstyle2" val="ตัวเอียง"/>
+		<str id="ids_fontstyle3" val="ตัวหนาและตัวเอียง"/>
+		<str id="ids_decimal" val="ทศนิยม"/>
+		<str id="ids_decimal0" val="0 ทศนิยม"/>
+		<str id="ids_decimal1" val="1 ทศนิยม"/>
+		<str id="ids_decimal2" val="2 ทศนิยม"/>
+		<str id="ids_decimal3" val="3 ทศนิยมs"/>
+		<str id="ids_decimal4" val="4 ทศนิยม"/>
+		<str id="ids_decimal5" val="5 ทศนิยม"/>
+		<str id="ids_decimal6" val="6 ทศนิยม"/>
+		<str id="ids_labeltype" val="ประเภทป้าย"/>
+		<str id="ids_labelpos" val="ตำแหน่งป้าย"/>
+		<str id="ids_ltrans" val="พื้นหลังโปร่งใส"/>
+		<str id="ids_lbkclr" val="สีพื้นหลัง"/>
+		<str id="ids_ecce" val="ความเยื้องศูนย์กลาง"/>
+
+		<str id="ids_rect2p" val="สี่เหลี่ยมผืนผ้า(2 จุด)"/>
+		<str id="ids_rect3p" val="สี่เหลี่ยมผืนผ้า(3 จุด)"/>
+		<str id="ids_angle3p" val="มุม(3 จุด)"/>
+		<str id="ids_angle4p" val="มุม(4 จุด)"/>
+		<str id="ids_circle1" val="วงกลม(จุดศูนย์กลาง+รัศมี)"/>
+		<str id="ids_circle2" val="วงกลม(2 จุด)"/>
+		<str id="ids_circle3" val="วงกลม(3 จุด)"/>
+		<str id="ids_annulus2" val="ห่วง(จุดศูนย์กลาง+รัศมี)"/>
+		<str id="ids_annulus3" val="ห่วง(3 จุด)"/>
+		<str id="ids_vertical3p" val="แนวตั้ง(3 จุด)"/>
+		<str id="ids_vertical4p" val="แนวตั้ง(4 จุด)"/>
+		<str id="ids_ellipse2p" val="วงรี(2 จุด)"/>
+		<str id="ids_ellipse5p" val="วงรี(5 จุด)"/>
+		<str id="ids_ellipse3p" val="วงรี(3 จุด)"/>
+		<str id="ids_vline" val="เส้นแนวตั้ง"/>
+		<str id="ids_hline" val="เส้นแนวนอน"/>
+		<str id="ids_twocircle3p" val="สองวงกลม(จุดศูนย์กลาง+รัศมี)"/>
+		<str id="ids_twocircle2p" val="สองวงกลม(3 จุด)"/>
+		<str id="ids_line3p" val="เส้นตรง(3 จุด)"/>
+		<str id="ids_vline3p" val="เส้นแนวตั้ง(3 จุด)"/>
+		<str id="ids_hline3p" val="เส้นแนวนอน(3 จุด)"/>
+		<str id="ids_linemulti" val="เส้นตรง(การเชื่อมต่อหลายจุด)"/>
+
+		<str id="ids_errgeneric" val="ข้อผิดพลาดทั่วไป."/>
+		<str id="ids_errnullname" val="ชื่อต้องไม่มีช่องว่าง."/>
+		<str id="ids_errsamename" val="มีชื่อเดียวกันอยู่."/>
+		<str id="ids_errsamename" val="มีIDเดียวกันอยู่."/>
+		<str id="ids_erropenfile" val="ไม่สามารถเปิดไฟล์ได้."/>
+		<str id="ids_errfileformat" val="รูปแบบไฟล์ไม่ถูกต้อง."/>
+		<str id="ids_errmsgproduct" val="รูปแบบของผลิตภัณฑ์ที่ไม่ตรงกัน."/>
+		<str id="ids_errusb" val="เวอร์ชัน USB ไม่ตรงกัน."/>
+		<str id="ids_errmode" val="โหมดไม่ตรงกัน."/>
+
+		<str id="ids_resetlayout" val="รูปแบบหน้าต่างจะถูกรีเซ็ตหลังจากที่เริ่มต้น App."/>
+		<str id="ids_startbroadcast" val="เริ่มต้น &amp;ออกอากาศ..."/>
+		<str id="ids_stopbroadcast" val="หยุด &amp;ออกอากาศ"/>
+
+		<str id="ids_stackingfail" val="ภาพซ้อนล้มเหลว."/>
+
+		<str id="ids_objcount" val="&amp;จำนวนการแบ่งกลุ่ม"/>
+		<str id="ids_objsplit" val="แบ่งวัตถุ"/>
+		<str id="ids_objcountosoutline" val="เค้าโครง"/>
+		<str id="ids_objcountosfilled" val="เต็ม"/>
+
+		<str id="ids_counthisv" val="ค่า"/>
+
+		<str id="ids_edfc" val="ความคมชัดสูงสุด"/>
+		<str id="ids_edfw" val="น้ำหนักเฉลี่ย"/>
+		<str id="ids_edfs" val="กองซ้อน"/>
+		<str id="ids_edffm" val="FFDSSD ตัวเลือก"/>
+		<str id="ids_edfcapture" val="จับภาพ"/>
+		<str id="ids_edfmethod" val="เลือกวิธีการ"/>
+		<str id="ids_edfself" val="เลือกไฟล์"/>
+		<str id="ids_edfaa" val="จัดให้อยู่แนวเดียวกันอัตโนมัติ"/>
+		<str id="ids_edfadesc" val="เลือกโหมดออโต้จัดที่เหมาะสมตามที่ว่ามีการเปลี่ยนแปลงขนาดหรือหมุนภาพหมู่ที่ต้องดำเนินการ.\n\nการใช้เวลาของ EDF เกี่ยวข้องกับการตั้งค่าของมุมสูงสุด เวลาจะเพิ่มขึ้นเมื่อมุมเพิ่มขึ้นสูงสุดและความสัมพันธ์ระหว่างพวกเขาเป็นที่ไม่ใช่เชิงเส้น มุมสูงสุดเริ่มต้นคือ 1.0°."/>
+		<str id="ids_edfcaptips" val="ปรับกล้องจุลทรรศน์เพื่อทำให้ส่วนหนึ่งที่แตกต่างกันของวัตถุที่ชัดเจน. ายภาพเมื่อวัตถุอยู่ในตำแหน่งที่แตกต่างกัน ขั้นตอนของการปรับขึ้นอยู่กับผู้ใช้ โดยปกติแล้วรายละเอียดเพิ่มเติมจะสามารถใช้ได้หากขั้นตอนที่มีขนาดเล็กจะถูกเลือก ตำแหน่งสัมพัทธ์ของวัตถุและกล้องจุลทรรศน์ควรจะมีการเปลี่ยนแปลงในทิศทางเดียว."/>
+		<str id="ids_edfpdesc" val="สามค่าไม่ได้แยก รายละเอียดความคมชัดที่มีผลต่อการปรับรายละเอียดของผลการค้นหา ความสว่างพื้นหลังเป็นค่าชดเชยที่จะใช้ในการเพิ่มหรือลบพื้นหลัง เหล่านี้ตั้งค่าทั้งสองจะมีผลในการเปลี่ยนแปลงความสว่างทั้งหมด สำหรับเหตุผลที่ความสว่างรวมนอกจากนี้ยังอาจต้องมีการปรับ."/>
+		<str id="ids_edfmdesc" val="\tวิธีการผลิตโดยเฉลี่ย การฟิวส์ชั่นอย่างนุ่มนวล แต่อาจพลาดรายละเอียด. วิธีนี้มักให้ผลในเชิงลึกที่ดีกว่า FFDSSD, เช่นภาพการผลิตโดยใช้กล้องจุลทรรศน์. มันเป็นที่น่าสังเกตว่าภาพที่ต้องดำเนินการจะต้องอยู่ในลำดับ Z (ที่อยู่ใกล้ไกลที่สุดหรือที่ไกลที่สุดที่จะอยู่ใกล้กับกล้องจุลทรรศน์เลนส์ใกล้วัตถุที่เกี่ยวข้องกับตัวอย่างบน stage).\n\tวิธีการความคมชัดสูงสุดจะคล้ายกับวิธีถัวเฉลี่ยถ่วงน้ำหนักและภาพการป้อนข้อมูลที่จะต้องอยู่ในลำดับ Z ได้เป็นอย่างดี ความแตกต่างคือว่าวิธีการความคมชัดสูงสุดอาจหลวมรายละเอียดบางแม้ว่าสิ่งที่ถูกเก็บรักษาไว้ในรายละเอียดจะเป็นภาพที่คมชัด วิธีการความคมชัดสูงสุดคือวิธีการที่ต้องการของ EDF.\n\tFFDSSD เป็นวิธีการที่ไม่กรองข้อมูลในโดเมนความถี่โดย (FFT) ละไม่สังเคราะห์ในโดเมน. FFDSSD สามารถนำมาใช้เพื่อให้ภาพที่มีแนว ผู้ใช้งานด้วยตนเองหรือโดยอัตโนมัติสามารถเลือกภาพอ้างอิงที่จะทำให้การป้อนข้อมูลภาพสอดคล้อง."/>
+		<str id="ids_maxedf" val="กับภาพจำนวนมาก จำนวนของภาพไม่เกิน%u."/>
+
+		<str id="ids_forward" val="ไปข้างหน้า"/>
+		<str id="ids_backward" val="ย้อนกลับ"/>
+
+		<str id="ids_panefloating" val="ที่ลอย"/>
+		<str id="ids_panedocking" val="การเทียบท่า"/>
+		<str id="ids_paneautohide" val="ซ่อนอัตโนมัติ"/>
+		<str id="ids_panehide" val="ซ่อน"/>
+		<str id="ids_scrright" val="เลื่อนไปทางขวา"/>
+		<str id="ids_scrleft" val="เลื่อนไปทางซ้าย"/>
+		<str id="ids_autohide" val="ซ่อนอัตโนมัติ"/>
+        <str id="ids_winpos" val="ตำแหน่งหน้าต่าง"/>
+
+		<str id="ids_wmdtitle" val="หน้าต่าง"/>
+		<str id="ids_wmdselwin" val="เลือกหน้าต่าง:"/>
+		<str id="ids_wmdactivate" val="กระตุ้น"/>
+		<str id="ids_wmdsave" val="บันทึก"/>
+		<str id="ids_wmdclose" val="ปิดหน้าต่าง"/>
+		<str id="ids_wmdcasc" val="ต่อเรียง"/>
+		<str id="ids_wmdtileh" val="เรียงกันแบบแนวนอน"/>
+		<str id="ids_wmdtilev" val="เรียงกันแบบแนวตั้ง"/>
+		<str id="ids_wmdmini" val="ย่อ"/>
+
+		<str id="ids_colorstandard" val="มาตรฐาน"/>
+		<str id="ids_colorcolorscolon" val="หลายสี:"/>
+		<str id="ids_colorselect" val="เลือก..."/>
+		<str id="ids_colorhue" val="สีสัน:"/>
+		<str id="ids_colorsaturation" val="การอิ่มตัว:"/>
+		<str id="ids_colorluminence" val="ความสว่าง:"/>
+		<str id="ids_colorred" val="สีแดง:"/>
+		<str id="ids_colorgreen" val="สีเขียว:"/>
+		<str id="ids_colorblue" val="สำน้ำเงิน:"/>
+
+		<str id="ids_unsupportformat" val="รูปแบบภาพที่ได้รับการสนับสนุน."/>
+
+		<str id="ids_miscopencl" val="เปิดใช้ GPU เร่งการประมวลผลภาพ"/>
+
+		<str id="ids_sharpen" val="ทำให้คม"/>
+		<str id="ids_decolor" val="ขจัดสีออกไป"/>
+		<str id="ids_smooth" val="นุ่มนวล"/>
+
+		<str id="ids_toolbar_st4" val="ST4 ทดสอบ"/>
+
+		<str id="ids_bits" val="%uบิต"/>
+		<str id="ids_recordstep2tipwmv" val="นามสกุลไพล์ .wmv จะถูกผนวกโดยอัตโนมัติเพื่อให้ชื่อไฟล์."/>
+
+		<str id="ids_dfcimportfail" val="ไม่สามารถนำเข้า."/>
+		<str id="ids_dfcexportfail" val="ล้มเหลวในการส่งออก."/>
+		<str id="ids_dfcimportmis" val="ไม่สามารถนำเข้า, ที่ไม่ตรงกัน."/>
+
+		<str id="ids_sernext" val="เฟรมถัดไป"/>
+		<str id="ids_serprev" val="เฟรมก่อนหน้า"/>
+
+		<str id="ids_pxsize" val="ขนาดพิกเซล"/>
+
+		<str id="ids_extrigger" val="ภายนอก"/>
+
+		<str id="ids_timeleft" val="เวลาที่เหลือ:"/>
+		<str id="ids_tecoutofrange" val="ค่าที่ป้อนอยู่นอกช่วง [%.1f, %.1f]."/>
+		<str id="ids_tempunit" val="หน่วยของอุณหภูมิ"/>
+
+		<str id="ids_batchrecord" val="บันทึก Batch"/>
+		<str id="ids_autocapture" val="จับภาพอัตโนมัติ"/>
+		<str id="ids_startacapture" val="&amp;จับภาพอัตโนมัติ"/>
+		<str id="ids_stopacapture" val="&amp;หยุด จับภาพ"/>
+
+		<str id="ids_compatible" val="เข้ากันได้"/>
+
+		<str id="ids_hwver" val="รุ่นฮาร์ดแวร์"/>
+		<str id="ids_fwver" val="เฟิร์มแวร์เวอร์ชั่น"/>
+		<str id="ids_fpgaver" val="รุ่น FPGA"/>
+		<str id="ids_mcuver" val="รุ่น MCU"/>
+
+		<str id="sbar" val="แถบขนาด"/>
+
+		<str id="ids_toolbarhtml" val="นำออกไปยัง Html"/>
+
+		<str id="ids_background" val="พื้นหลัง"/>
+		<str id="ids_saveas" val="บันทึกที่"/>
+
+		<str id="ids_tctitle" val="คำสั่ง"/>
+		<str id="ids_tckey" val="แป้นพิมพ์"/>
+		<str id="ids_tccat" val="หมวดหมู่:"/>
+		<str id="ids_tccmd" val="คำสั่ง:"/>
+		<str id="ids_tcallcmd" val="คำสั่งทั้งหมด"/>
+		<str id="ids_addrbtn" val="&amp;เพิ่มหรือลบปุ่ม"/>
+		<str id="ids_toolbarreset" val="&amp;รีเซ็ตแถบเครื่องมือ"/>
+		<str id="ids_resetask" val="คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตแถบเครื่องมือ?"/>
+		<str id="ids_tctip" val="การเพิ่มปุ่ม ลากปุ่มคำสั่งด้านขวาลงในแถบเครื่องมือ\r\nการลบปุ่ม ลากปุ่มจากแถบเครื่องมือ"/>
+		<str id="ids_kcate" val="&amp;หมวดหมู่:"/>
+		<str id="ids_kcmd" val="คำสั่ง:"/>
+		<str id="ids_krem" val="&amp;ลบ"/>
+		<str id="ids_kres" val="รีเซ็ตทั้งหมด"/>
+		<str id="ids_kass" val="&amp;มอบหมาย"/>
+		<str id="ids_kato" val="มอบหมายให้:"/>
+		<str id="ids_knew" val="กดคีย์ลัดใหม่:"/>
+		<str id="ids_kcur" val="คีย์ปัจจุบัน:"/>
+		<str id="ids_unass" val="[ไม่ได้มอบหมาย]"/>
+		<str id="ids_kreset" val="การเปลี่ยนแปลงทั้งหมดของคุณจะหายไป คุณต้องการรีเซ็ตการกําหนดแป้นพิมพ์หรือไม่?"/>
+		
+		<str id="ids_imagetype" val="ชนิดของรูป"/>
+
+		<str id="ids_focal" val="ความยาวโฟกัส"/>
+		<str id="ids_temp" val="อุณหภูมิของเซ็นเซอร์"/>
+		<str id="ids_longitude" val="ลองจิจูด"/>
+		<str id="ids_latitude" val="ละติจูด"/>
+
+		<str id="ids_str" val="สายอักขระ"/>
+		<str id="ids_int" val="จำนวนเต็ม"/>
+		<str id="ids_real" val="จำนวนจริง"/>
+
+		<str id="ids_temptint" val="อุณหภูมิของสี/Tint"/>
+		<str id="ids_rgbgain" val="RGB อัตราขยาย"/>
+
+		<str id="ids_even" val="กรุณาใส่หมายเลขคู่"/>
+
+		<str id="ids_exportexcel" val="นำออกไปยัง Microsoft Excel"/>
+		<str id="ids_exportcsv" val="นำออกไปยัง CSV"/>
+		<str id="ids_csvplus" val="เวิร์กโฟลว์"/>
+		
+		<str id="ids_toofar" val="ไกลเกินไป"/>
+		<str id="ids_tooclose" val="ใกล้เกินไป"/>
+
+		<str id="ids_webppresetphoto" val="ภาพถ่าย"/>
+		<str id="ids_webppresetpicture" val="ภาพ"/>
+		<str id="ids_webppresetdrawing" val="การวาดภาพ"/>
+		<str id="ids_webppreseticon" val="ไอคอน"/>
+
+		<str id="ids_gpuwin8" val="การเข้ารหัสฮาร์ดแวร์ (GPU) จะใช้ได้เฉพาะใน Windows 8 ขึ้นไป"/>
+
+		<str id="ids_cursorcross" val="กากบาท"/>
+
+		<str id="ids_segts" val="เซ็กเมนต์"/>
+		<str id="ids_edges" val="ขอบ"/>
+		<str id="ids_avgang" val="มุมเฉลี่ย"/>
+		<str id="ids_seglength" val="ความยาวเซ็กเมนต์"/>
+		<str id="ids_avglength" val="ความยาวเฉลี่ย"/>
+		<str id="ids_ttllength" val="ความยาวรวม"/>
+		<str id="ids_randomcon" val="การเชื่อมต่อแบบสุ่ม"/>
+		<str id="ids_multicon" val="การเชื่อมต่อหลายจุด"/>
+		<str id="ids_segdistance" val="ระยะทางเซ็กเมนต์"/>
+		<str id="ids_avgdistance" val="ระยะทางเฉลี่ย"/>
+		<str id="ids_ttldistance" val="ะยะทางรวม"/>
+
+		<str id="ids_expseglen0" val="นำออกไปยังคลิปบอร์ด"/>
+		<str id="ids_expseglen1" val="นำออกไปยังCSVไฟล์"/>
+		<str id="ids_expseglen2" val="นำออกไปยัง Microsoft Excel"/>
+
+		<str id="ids_cpucore" val="คอร์"/>
+		<str id="ids_cputhrd" val="เธรด"/>
+
+		<str id="ids_fastest" val="ที่เร็วที่สุด"/>
+		<str id="ids_slowest" val="ช้าที่สุด"/>
+
+		<str id="ids_edgelen" val="ความยาวขอบ"/>
+		<str id="ids_avgedge" val="ความยาวขอบเฉลี่ย"/>
+
+		<str id="ids_policy" val="กลยุทธ์"/>
+		<str id="ids_aeexpmax" val="เวลาเปิดช่องรับแสงสูงสุด"/>
+		<str id="ids_aegainmax" val="อัตราขยายสูงสุด"/>
+
+		<str id="ids_csvutf8" val="การใช้ชุดอักขระ UTF8 ใน CSV"/>
+
+		<str id="ids_sensor" val="ตัวรับรู้"/>
+		<str id="ids_ccdpro" val="โปรเกรสซีฟ"/>
+		<str id="ids_ccdint" val="อินเตอร์เลซ"/>
+		<str id="ids_isp" val="ฮาร์ดแวร์ISP"/>
+		
+		<str id="ids_showsub" val="แสดงวัตถุย่อย"/>
+
+		<str id="ids_connection" val="การเชื่อมต่"/>
+
+		<str id="ids_pbslow" val="ช้า"/>
+		<str id="ids_pbfast" val="รวดเร็ว"/>
+
+		<str id="ids_multicast" val="หลายผู้รับ"/>
+
+		<str id="ids_custommo" val="การวัดแบบกำหนดเอง"/>
+
+		<str id="ids_tecpower" val="TECพลังงาน"/>
+
+		<str id="ids_page" val="หน้า"/>
+		<str id="ids_nextp" val="หน้าต่อไป"/>
+		<str id="ids_prevp" val="หน้าก่อนหน้า"/>
+		<str id="ids_firp" val="หน้าแรก"/>
+		<str id="ids_lasp" val="หน้าสุดท้าย"/>
+
+        <str id="ids_stat" val="สถิติ"/>
+        
+		<str id="ids_hsty" val="H รูปแบบ"/>
+		<str id="ids_half" val="ครึ่ง"/>
+		<str id="ids_acum" val="โหมดสะสม"/>
+		<str id="ids_comp" val="สีประกอบ"/>
+
+		<str id="ids_powerc" val="การใช้พลังงาน"/>
+
+		<str id="ids_writabledir" val="ไม่มีไดเร็กทอรีหรือไม่สามารถเขียนได้."/>
+
+		<str id="ids_namepre" val="คำนำหน้าชื่อ"/>
+		
+		<str id="ids_cmptip" val="โปรดเลือก 1 หรือ 3 รายการเพื่อเปรียบเทียบกับปัจจุบัน:\r\n&quot;%s&quot;"/>
+
+		<str id="ids_relt" val="ผล"/>
+        
+        <str id="ids_exsf" val="ส่งออกการตั้งค่าปัจจุบันไปยังไฟล์"/>
+        <str id="ids_exse" val="ส่งออกการตั้งค่าปัจจุบันไปยัง EEPROM"/>
+        <str id="ids_exsa" val="ที่อยู่ที่ระบุ..."/>
+        <str id="ids_exs0" val="ที่อยู่ศูนย์"/>
+		<str id="ids_extemp" val="ประวัติอุณหภูมิการส่งออก..."/>
+        
+        <str id="ids_cpattern" val="ลายตาราง"/>
+		
+		<str id="ids_ocsd" val="OTSU มืด"/>
+		<str id="ids_ocsb" val="OTSU สดใส"/>
+		
+		<str id="ids_ebusy" val="กล้องถูกใช้โดยแอปพลิเคชันอื่น."/>
+		<str id="ids_ecrc" val="แหล่งจ่ายไฟอาจไม่เพียงพอ."/>
+		
+		<str id="ids_squ" val="ลำดับ"/>
+		
+		<str id="ids_littleend" val="ลิตเติ้ลเอนเดียน"/>
+		<str id="ids_bigend" val="บิ๊กเอนเดียน"/>
+		<str id="ids_bnum" val="จํานวนไบต์"/>
+		
+		<str id="ids_deqdepth" val="ความยาวของบัฟเฟอร์เฟรม"/>
+		<str id="ids_fend" val="ส่วนหน้า"/>
+		<str id="ids_bend" val="แบ็กเอนด์"/>
+		<str id="ids_tecam" val="มีผลหลังจากเปิดกล้องอีกครั้ง"/>
+				
+		<str id="ids_gridm" val="เส้นตาราง: นำออกภาพ"/>
+		
+		<str id="ids_motion" val="กำลังเคลื่อนไหว"/>
+		<str id="ids_idle" val="ไม่ได้ใช้งาน"/>
+		
+		<str id="ids_grc" val="ทั่วไป"/>
+		<str id="ids_pta" val="การวิเคราะห์อนุภาค"/>
+		<str id="ids_phc" val="การนับเฟส"/>
+		<str id="ids_oth" val="อื่น"/>
+		
+		<str id="ids_farea" val="โซนโฟกัส"/>
+		
+		<str id="ids_lowestcpu" val="การใช้งาน CPU ต่ำสุด"/>
+		<str id="ids_highcpu" val="การใช้งาน CPU สูง"/>
+		<str id="ids_highercpu" val="การใช้งาน CPU ที่สูงขึ้น"/>
+		<str id="ids_highestcpu" val="การใช้งาน CPU สูงสุด"/>
+		
+		<str id="ids_fscr" val="เต็มจอ"/>
+		<str id="ids_xfscr" val="ปิดเต็มหน้าจอ"/>
+		
+		<str id="ids_updategige" val="เสร็จสิ้นเรียบร้อยแล้ว โปรดปิดเครื่องและรีสตาร์ทกล้อง"/>
+		
+		<str id="ids_gainshow" val="อัตราขยายที่ได้รับจะแสดงเป็น:"/>
+		<str id="ids_decibel" val="เดซิเบล (dB)"/>
+		
+		<str id="ids_workd" val="ระยะการทำงาน"/>
+		<str id="ids_efl" val="ทางยาวโฟกัสที่มีประสิทธิภาพ"/>
+		
+		<str id="ids_notcal" val="ไม่ได้รับการปรับเทียบ"/>
+		
+		<str id="ids_opencom" val="ไม่สามารถเปิด %s"/>
+		
+		<str id="ids_chamber" val="ห้อง"/>
+		<str id="ids_humidity" val="ความชื้น"/>
+	</string>
+
+	<dialog>
+		<str id="ids_man" val="การจัดการ"/>
+		<str id="ids_tips" val="ข้อแนะนำ"/>
+		<str id="ids_clear" val="เคลียร์"/>
+		<str id="ids_snap" val="ภาพถ่าย"/>
+		<str id="ids_reco" val="บันทึก"/>
+		<str id="ids_qu" val="คุณภาพ"/>
+		<str id="ids_bf" val="แบบที่ดีที่สุด"/>
+		<str id="ids_seq" val="ลำดับเริ่มต้นด้วย:"/>
+		<str id="ids_number" val="จํานวน"/>
+		<str id="ids_mode" val="โหมด"/>
+		<str id="ids_qu100" val="คุณภาพ (25-100):"/>
+		<str id="ids_aval" val="ภาพที่แสดง"/>
+		<str id="ids_sedl" val="ภาพที่้เลือก"/>
+		<str id="ids_adgt" val="เพิ่ม&gt;&gt;"/>
+		<str id="ids_aagt" val="เพิ่มทั้งหมด&gt;&gt;"/>
+		<str id="ids_v" val="ค่า:"/>
+		<str id="ids_border" val="คําสั่งไบต์:"/>
+		<str id="ids_sm" val="โหมดชัตเตอร์:"/>
+		<str id="ids_unidir" val="ทิศทางเดียว"/>
+		<str id="ids_defi" val="กําหนด..."/>
+		<str id="ids_goto" val="ไป"/>
+		<str id="ids_tb" val="ตารางสี"/>
+		<str id="ids_conmode" val="โหมดต่อเนื่อง"/>
+		<str id="ids_timeval" val="ช่วงเวลา:"/>
+
+		<dlg id="IDD_ABOUTBOX">
+			<str id="up" val="อัพเกรดซอฟต์แวร์"/>
+		</dlg>
+
+		<dlg id="IDD_AUTO">
+			<str id="dir" val="ไดเรกทอรี่:"/>
+			<str id="for" val="ชื่อรูปแบบ:"/>
+			<str id="pre" val="คำนำหน้าไฟล์:"/>
+			<str id="cm" val="โหมดถ่ายภาพ"/>
+			<str id="ef" val="จับภาพทุกเฟรม"/>
+			<str id="time" val="ช่วงเวลา (วินาที)"/>
+			<str id="tt" val="ภาพรวม"/>
+			<str id="so" val="ตัวเลือกลำดับ"/>
+			<str id="sv" val="แสดงในหน้าต่างวิดีโอ"/>
+			<str id="sw" val="แสดงในหน้าต่างใหม่"/>
+			<str id="sd" val="บันทึกลงดิสก์"/>
+			<str id="base" val="ฐาน:"/>
+			<str id="sub" val="ย่อย:"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHSAVE">
+			<str id="tl" val="บันทึกชุด"/>
+			<str id="dir" val="ไดเรกทอรี่:"/>
+			<str id="for" val="ชื่อรูปแบบ:"/>
+			<str id="pre" val="คำนำหน้าไฟล์:"/>
+			<str id="show" val="แสดงเปลี่ยนชื่อไดอะล็อก"/>
+			<str id="qst" val="1. การตั้งค่าดังกล่าวจะนำไปใช้กับ &quot;บันทึกด่วน&quot; เมนูและปุ่มที่เกี่ยวข้องในแถบเครื่องมือ. เมื่อเรียก &quot;บันทึกด่วน&quot;, ภาพจะถูกบันทึกไว้ได้อย่างรวดเร็วตามการตั้งค่าดังกล่าวข้างต้นในไดเรกทอรีที่ระบุ.\n2. ถ้าเลือกรูปแบบ RGB48 รูปภาพจะถูกบันทึกเป็นไฟล์  TIF หรือ PNG เนื่องจากไฟล์  TIF และ PNG สามารถสนับสนุนรูปแบบ RGB48 ได้เท่านั้น"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD">
+			<str id="dir" val="ไดเรกทอรี่:"/>
+			<str id="frm" val="ชื่อรูปแบบ:"/>
+			<str id="pf" val="คำนำหน้าไฟล์:"/>
+			<str id="sh" val="แสดงเปลี่ยนชื่อไดอะล็อก"/>
+			<str id="lm" val="จำกัด"/>
+			<str id="tl" val="จัำกัดเวลา (วินาที):"/>
+			<str id="fl" val="จำกัดเฟรม:"/>
+			<str id="fo" val="ตัวเลือกชื่อแฟ้ม..."/>
+			<str id="do" val="ตัวเลือกไดเรกทอรี..."/>
+		</dlg>
+
+		<dlg id="IDD_BATCHRECORD">
+			<str id="num" val="จำนวน:"/>
+			<str id="it" val="ช่วงเวลา (วินาที):"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_SELECT">
+			<str id="tl" val="EDF (ความลึกขยายโฟกัส)"/>
+			<str id="open" val="เปิด:"/>
+			<str id="se" val="เลือก:"/>
+			<str id="pro" val="ความคืบหน้า:"/>
+			<str id="aa" val="เพิ่มทั้งหมด"/>
+			<str id="fuse" val="เริ่มต้น"/>
+			<str id="m" val="วิธี:"/>
+		</dlg>
+
+		<dlg id="IDD_MAG">
+			<str id="cla" val="เคลียร์ทั้งหมด"/>
+		</dlg>
+
+		<dlg id="IDD_CALIBRATE">
+			<str id="ac" val=" ความยาวจริง"/>
+			<str id="pi" val="พิกเซล"/>
+			<str id="pm" val="พิกเซล/เมตร"/>
+			<str id="ep" val="จุดสิ้นสุด"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAEXPOSURE">
+			<str id="ll" val="แสงน้อย"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAHISTOGRAM">
+			<str id="l" val="ซ้าย:"/>
+			<str id="r" val="ขวา:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALS">
+			<str id="desc" val="ฟังก์ชั่นป้องกันการสั่นไหวจะใช้ได้เฉพาะกับกล้องตรวจจับชัตเตอร์กลิ้ง (ส่วนใหญ่ของเซ็นเซอร์ CMOS) และโหมดการเปิดรับแสงอัตโนมัติจะต้องปิดการใช้งาน เปิดใช้งานฟังก์ชั่นนี้จะทำให้มีเพียงบางเวลาที่ได้รับค่าบางอย่างใช้ได้ซึ่งขึ้นอยู่กับพลังงานจากคลื่นความถี่ที่เลือก."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAMODE">
+			<str id="color" val="สี"/>
+			<str id="gray" val="สีเทา"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERASPEED">
+			<str id="low" val="น้อย"/>
+			<str id="com" val="เลื่อนแถบเลื่อนไปทางขวาเพื่อให้มั่นใจว่ากล้องวิดีโอเล่นสดที่อัตราเฟรมที่เร็วที่สุดที่ฮับ USB ของคอมพิวเตอร์สนับสนุน หากวิดีโอสดล้มเหลวในการแสดงเลื่อนตัวเลื่อนไปทางซ้ายเพื่อลดอัตราเฟรม."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAWB">
+			<str id="tem" val="อุณหภูมิของสี:"/>
+			<str id="com" val="ย้าย ROI (โดยทำเครื่องหมายสี่เหลี่ยมสีแดง) ไปยังวัตถุสีขาวหรือสีเทาบริสุทธิ์และคลิก &quot;สมดุลสีขาว&quot; เพื่อสร้างสมดุลสีขาวสำหรับวิดีโอในอนาคต."/>
+			<str id="auto" val="สมดุลแสงสีขาวอัตโนมัติ"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAPRESET">
+			<str id="load" val="บรรจุ"/>
+			<str id="ov" val="บันทึกทับ"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERTXT">
+			<str id="tl" val="วางซ้อน"/>
+			<str id="pos" val="ตำแหน่ง:"/>
+			<str id="bg" val="พื้นหลัง:"/>
+			<str id="sc" val="ขนาด"/>
+			<str id="show" val="แสดง"/>
+			<str id="dt" val="วันเวลา"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERGEO">
+			<str id="tl" val="เครื่องบ่งชี้"/>
+		</dlg>
+
+		<dlg id="IDD_OPENDLG">
+			<str id="imag" val="รูปภาพ ข้อมูล/ดูตัวอย่าง"/>
+			<str id="cur" val="ไฟล์ปัจจุบัน:"/>
+		</dlg>
+
+		<dlg id="IDD_PROMTSAVE">
+			<str id="tl" val="บันทึกไฟล์"/>
+			<str id="com" val="ไฟล์ได้รับการแก้ไข. คุณต้องการที่จะบันทึกการเปลี่ยนแปลงหรือไม่?"/>
+			<str id="yes" val="ใช่ทั้งหมด"/>
+			<str id="no" val="ไม่ใช่ทั้งหมด"/>
+			<str id="bat" val="ชุดบันทึก"/>
+		</dlg>
+
+		<dlg id="IDD_SFT">
+			<str id="tl" val="รูปแบบภาพสนับสนุนการวัด"/>
+			<str id="com" val="รูปแบบที่คุณเลือกไม่สนับสนุนเลเยอร์และการวัด. ถ้าคุณต้องการประหยัดเลเยอร์และการวัดที่มีภาพกรุณาเลือกรูปแบบ:"/>
+			<str id="re" val="'ไม่ต้องแจ้งเตือนภายหลัง."/>
+			<str id="con" val="ต่อไป"/>
+			<str id="res" val="เลือกใหม่"/>
+		</dlg>
+
+		<dlg id="IDD_CAPTURE">
+			<str id="mk" val="จับภาพที่มีเครื่องหมายและลายน้ำ"/>
+			<str id="mm" val="จับการวัด:"/>
+		</dlg>
+
+		<dlg id="IDD_GRID">
+			<str id="ru" val="ไม้บรรทัดสี:"/>
+			<str id="cu" val="ตัวชี้เป้าสี:"/>
+			<str id="gr" val="เส้นตาราง"/>
+			<str id="sy" val="รูปแบบ:"/>
+			<str id="lis" val="รูปแบบเส้น:"/>
+			<str id="lic" val="สีเส้น:"/>
+			<str id="re" val="ลวดลาย"/>
+			<str id="pm" val="การจัดการที่กำหนดล่วงหน้า..."/>
+		</dlg>
+
+		<dlg id="IDD_WATERMARK">
+			<str id="tl" val="วิดีโอลายน้ำ"/>
+			<str id="fle" val="ไฟล์ภาพ:"/>
+            <str id="tra" val="ความโปร่งใส(%):"/>
+		</dlg>
+
+		<dlg id="IDD_PROGRESS">
+			<str id="tl" val="ความคืบหน้า"/>
+		</dlg>
+
+		<dlg id="IDD_IOPT">
+			<str id="r" val="อัตราส่วนการอัด"/>
+			<str id="los" val="เสียหาย"/>
+			<str id="qu" val="คุณภาพของภาพ"/>
+			<str id="best" val="ดีที่สุด\nการอัด"/>
+			<str id="bq" val="ดีที่สุด\nคุณภาพ"/>
+			<str id="pr" val="ความก้าวหน้า"/>
+			<str id="sm" val="การปรับให้เรียบ"/>
+			<str id="op" val="เพิ่มประสิทธิภาพการเข้ารหัส"/>
+			<str id="ap" val="หน้าผนวก"/>
+			<str id="s" val="การเติมศูนย์:"/>
+			<str id="def" val="บันทึกการตั้งค่าเหล่านี้เป็นค่าเริ่มต้น"/>
+			<str id="cl" val="อัตราการบีบอัด"/>
+			<str id="fs" val="เร็วที่สุด"/>
+			<str id="hr" val="ดีที่สุด"/>
+			<str id="fh" val="ส่วนหัวของไฟล์:"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_HEADER">
+			<str id="tc" val="แสดงข้อมูลทั้งหมดเป็นตัวเลือก."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP1">
+			<str id="pl" val="กรุณาเลือกรูปแบบวิดีโอที่ต้องการแปลงนามสกุล"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP2">
+			<str id="name" val="1. ตั้งชื่่อสำหรับไฟล์วิดีโอ"/>
+			<str id="dir" val="2. เลือกที่จัดเก็บสำหรับไฟล์วิดีโอ"/>
+			<str id="tc" val="นามสกุลไฟล์ .wmv หรือ .mp4 หรือ .avi จะถูกรวมอัตโนมัติโดยใช้ชื่อไฟล์."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP3">
+			<str id="bitr" val="บิตเรต:"/>
+			<str id="se" val="วินาที"/>
+			<str id="bb" val="บิตเรตเริ่มต้น:"/>
+			<str id="enc" val="แปลงไฟล์:"/>
+			<str id="cfg" val="กำหนดค่า..."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP4">
+			<str id="t" val="จำกัดเวลา (นาที):"/>
+			<str id="s" val="สรุป"/>
+		</dlg>
+
+		<dlg id="IDD_BROADCAST">
+			<str id="port" val="พอร์ต:"/>
+			<str id="save" val="บันทึกเนื้อหาในไฟล์พร้อมกัน"/>
+		</dlg>
+
+		<dlg id="IDD_OPENBROADCAST">
+			<str id="tl" val="เปิดถ่ายทอด"/>
+			<str id="port" val="พอร์ต:"/>
+		</dlg>
+
+		<dlg id="IDD_MOVE">
+			<str id="tl" val="ย้าย"/>
+		</dlg>
+
+		<dlg id="IDD_DIAGNOSE">
+			<str id="tl" val="วินิจฉัย"/>
+		</dlg>
+
+		<dlg id="IDD_CURVE">
+			<str id="tl" val="เส้นโค้ง"/>
+			<str id="gr" val="เส้นตาราง"/>
+		</dlg>
+
+		<dlg id="IDD_RANGE">
+			<str id="tl" val="พิสัย"/>
+			<str id="in" val="ตรงกันข้าม"/>
+			<str id="up" val="ปรับปรุง"/>
+		</dlg>
+
+		<dlg id="IDD_THRESHOLD">
+			<str id="tl" val="ไบนารี"/>
+		</dlg>
+
+		<dlg id="IDD_PROPPAGE_MOSAICSET">
+			<str id="fo" val="ส่วนท้าย"/>
+			<str id="ar" val="การจัดการ"/>
+			<str id="rows" val="แถว"/>
+			<str id="col" val="คอลัม"/>
+			<str id="rs" val="ระยะห่างระหว่างแถวแนวนอน"/>
+			<str id="cs" val="ระยะห่างระหว่างแถวแนวตั้ง"/>
+			<str id="ps" val="ขนาดกระดาษ"/>
+			<str id="ds" val="ขนาดเริ่มต้น"/>
+			<str id="ch" val="เปลี่ยน..."/>
+			<str id="use14" val="ใช้ขนาด 1/4"/>
+		</dlg>
+
+		<dlg id="IDD_ADJUSTBC">
+			<str id="tl" val="ปรับ ความมืด-ความสว่าง/ความแตกต่างของสีที่มืดสุดกับสีที่สว่างสุดในภาพ"/>
+		</dlg>
+
+		<dlg id="IDD_AUTOSETUP">
+			<str id="tl" val="ระยะอัตโนมัติ"/>
+			<str id="le" val="ระดับอัตโนมัติ"/>
+			<str id="ct" val="ความแตกต่างของสีที่มืดสุดกับสีที่สว่างสุดในภาพอัตโนมัติ"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR">
+			<str id="tl" val="ปรับสี"/>
+			<str id="mo" val="โมดูลสี"/>
+		</dlg>
+
+		<dlg id="IDD_CLRQUANT">
+			<str id="bits" val="คุณภาพของสี"/>
+			<str id="24" val="24บิต"/>
+			<str id="8" val="8บิต"/>
+			<str id="1" val="1บิต"/>
+		</dlg>
+
+		<dlg id="IDD_COLORBITS">
+			<str id="tl" val="เปลี่ยนคุณภาพของสี"/>
+			<str id="new" val="คุณภาพสีใหม่"/>
+			<str id="24" val="24บิต"/>
+			<str id="8" val="8บิต"/>
+			<str id="1" val="1บิต"/>
+		</dlg>
+
+		<dlg id="IDD_COLORSELECT">
+			<str id="tl" val="เลือกสี"/>
+		</dlg>
+
+		<dlg id="IDD_EDGE">
+			<str id="fil" val="ฟิลเตอร์"/>
+			<str id="h" val="แนวนอน"/>
+			<str id="v" val="แนวตั้ง"/>
+			<str id="pa" val="ผ่าน"/>
+		</dlg>
+
+		<dlg id="IDD_ENHANCE">
+			<str id="fi" val="ฟิลเตอร์"/>
+			<str id="lp" val="ความถี่ต่ำ"/>
+			<str id="hp" val="ความถี่สูง"/>
+			<str id="w" val="วินโดว์"/>
+		</dlg>
+
+		<dlg id="IDD_GRAY">
+			<str id="tl" val="โทนสีเทา"/>
+			<str id="alg" val="อัลกอริทึม"/>
+			<str id="ave" val="ค่าเฉลี่ย"/>
+			<str id="max" val="สูงสุด"/>
+			<str id="we" val="น้ำหนัก"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM">
+			<str id="tl" val="ฮิสโทแกรม"/>
+			<str id="ch" val="ช่อง"/>
+			<str id="le" val="ระดับ:"/>
+			<str id="co" val="นับ:"/>
+			<str id="px" val="พิกเซล:"/>
+			<str id="per" val="เปอร์เซ็น:"/>
+		</dlg>
+
+		<dlg id="IDD_KERPAGE">
+			<str id="open" val="เปิด"/>
+			<str id="cl" val="ปิด"/>
+			<str id="pa" val="ผ่าน"/>
+			<str id="fi" val="ประเภทฟิลเตอร์"/>
+		</dlg>
+
+		<dlg id="IDD_KERSTRUCT">
+			<str id="fill" val="เติม"/>
+			<str id="bo" val="การส่งเสริม"/>
+		</dlg>
+
+		<dlg id="IDD_MORPAGE">
+			<str id="fil" val="ฟิวเตอร์"/>
+			<str id="open" val="เปิด"/>
+			<str id="cl" val="ปิด"/>
+			<str id="2x2" val="2 x 2 สี่เหลี่ยม"/>
+			<str id="3x1" val="3 x 1 แถวแนวนอน"/>
+			<str id="1x3" val="1 x 3 แถวแนวตั้ง"/>
+			<str id="3x3" val="3 x 3 กากบาท"/>
+			<str id="5x5" val="5 x 5 วงกลม"/>
+			<str id="7x7" val="7 x 7 วงกลม"/>
+			<str id="11x11" val="11 x 11 วงกลม"/>
+		</dlg>
+
+		<dlg id="IDD_ROTATE">
+			<str id="tl" val="หมุนรูปภาพ"/>
+			<str id="deg" val="องศา:"/>
+			<str id="qu" val="คุณภาพ"/>
+			<str id="cw" val="หมุนตามเข็มนาฬิกา"/>
+			<str id="ccw" val="หมุนทวนเข็มนาฬิกา"/>
+			<str id="an" val="มุม"/>
+		</dlg>
+
+		<dlg id="IDD_SCALE">
+			<str id="tl" val="ขนาดภาพ"/>
+			<str id="con" val="สัดส่วน"/>
+			<str id="met" val="วิธี"/>
+		</dlg>
+
+		<dlg id="IDD_GAMMA">
+			<str id="tl" val="การปรับแกรมม่า"/>
+		</dlg>
+
+		<dlg id="IDD_HMS">
+			<str id="tl" val="ไฮไลท์/กลางโทน/เงา"/>
+		</dlg>
+
+		<dlg id="IDD_CHANNEL">
+			<str id="tl" val="เลือกสี"/>
+		</dlg>
+
+		<dlg id="IDD_PROFILE">
+			<str id="t" val="โพรไฟล์"/>
+		</dlg>
+
+		<dlg id="IDD_LAYERNAME">
+			<str id="tl" val="เลเยอร์"/>
+		</dlg>
+
+		<dlg id="IDD_ADDUNIT">
+			<str id="tl" val="เพิ่มหน่วย"/>
+			<str id="sc" val="ขนาด:"/>
+			<str id="sy" val="สัญลักษณ์:"/>
+		</dlg>
+
+		<dlg id="IDD_GENERAL">
+			<str id="res" val="ผลการคำนวณให้:"/>
+			<str id="lfs" val="ขนาดตัวอักษรของฉลาก:"/>
+			<str id="unit" val="ขนาดกับหน่วย"/>
+            <str id="sp" val="แทรกช่องว่างระหว่างค่าตัวเลขและสัญลักษณ์หน่วย(&quot;12.34 mm&quot; หรือ &quot;12.34mm&quot;)"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_DELETE">
+			<str id="tl" val="ลบเลเยอร์"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_CURRENT">
+			<str id="tl" val="เลเยอร์ปัจจุบัน"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_MANAGE">
+			<str id="tl" val="แสดง/ซ่อน เลเยอร์"/>
+		</dlg>
+
+		<dlg id="IDD_MEASURELIST">
+			<str id="col" val="กำหนดคอลัมน์ของแผ่นวัด"/>
+			<str id="o" val="วัตถุที่กำหนดเอง..."/>
+			<str id="c" val="คอลัมน์ที่กำหนดเอง..."/>
+			<str id="a" val="การคำนวณแบบกำหนดเอง..."/>
+			<str id="r" val="แถวที่กำหนดเอง..."/>
+			<str id="s" val="สถิติ(เพิ่มแถวต่อไปนี้)"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR_COMPOSITE">
+			<str id="tl" val="สีประกอบ"/>
+			<str id="so" val="แหล่งที่มาของภาพ:"/>
+			<str id="co" val="สี:"/>
+			<str id="all" val="ทั้งหมด"/>
+			<str id="se" val="เลือก"/>
+			<str id="adj" val="ปรับ"/>
+			<str id="reg" val="การลงทะเบียน"/>
+		</dlg>
+
+		<dlg id="IDD_COMPOSITE_AVA">
+			<str id="so" val="แหล่งที่มาของภาพ"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_SELECT_COLOR">
+			<str id="tl" val="เลือกสี"/>
+			<str id="fle" val="สำหรับไฟล์:"/>
+			<str id="se" val="เลือก:"/>
+			<str id="back" val="พื้นหลัง"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_DYE_LIST">
+			<str id="tl" val="แก้ไขรายการสี"/>
+			<str id="rel" val="โหลดทั้งหมด"/>
+			<str id="ext" val="Extraction ความยาวคลื่น:"/>
+			<str id="em" val="Emission ความยาวคลื่น:"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_NEW_DYE">
+			<str id="tl" val="สีใหม่"/>
+		</dlg>
+
+		<dlg id="IDD_PROP">
+			<str id="set" val="ตั้งค่าคุณสมบัติเริ่มต้นของการวัดวัตถุ:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_OPTION">
+			<str id="tl" val="ตัวเลือกจำนวน"/>
+			<str id="os" val="เค้าโครงรูปแบบ:"/>
+			<str id="ot" val="รูปแบบ:"/>
+			<str id="lm" val="วิธี:"/>
+			<str id="wh" val="เติมหลุม"/>
+			<str id="la" val="ฉลาก"/>
+			<str id="min" val="ขั้นต่ำ:"/>
+			<str id="max" val="สูงสุด:"/>
+			<str id="sc" val="ฉาก:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_HISTORGRAM">
+			<str id="tl" val="ฮิสโทแกรม"/>
+			<str id="sa" val="แสดงทั้งหมด"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_COLORCUBE">
+			<str id="to" val="ความอดทน"/>
+		</dlg>
+
+		<dlg id="IDD_NLM">
+			<str id="sw" val="ค้นหาหน้าต่าง:"/>
+			<str id="tw" val="แม่แบบหน้าต่าง:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYD">
+			<str id="o" val=" ความมืด-ความสว่าง รวม:"/>
+			<str id="b" val=" ความมืด-ความสว่างของพื้นหลัง:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_ALIGN">
+			<str id="aa" val="จัดแนวอัตโนมัติ"/>
+			<str id="a0" val="ไม่ได้กำหนดค่า"/>
+			<str id="ma" val="มุมสูงสุด:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERADFC">
+			<str id="tip" val="ฝาครอบเลนส์และผลัก &quot;จับ&quot; ปุ่มจับภาพมืด. ตรวจสอบ &quot;ใช้งาน&quot; ปุ่มใช้งาน &quot;การแก้ไขฟิลด์ที่มืด&quot;."/>
+		</dlg>
+
+		<dlg id="IDD_CLAHE">
+			<str id="tl" val="ฮิสโทแกรม Equalization"/>
+		</dlg>
+
+		<dlg id="IDD_UNSHARPMASK">
+			<str id="a" val="จำนวน:"/>
+		</dlg>
+
+		<dlg id="IDD_DETAILENHANCE">
+			<str id="tl" val="รายละเอียดเสริม"/>
+		</dlg>
+
+		<dlg id="IDD_EDGEPRESERVINGSMOOTH">
+			<str id="f" val="ฟิลเตอร์"/>
+			<str id="re" val="ซ้ำ"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFORMAT">
+			<str id="v" val="คุณสมบัติ"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERACOOL">
+			<str id="po" val="พลังงาน:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERATRIGGER">
+			<str id="vm" val="โหมดวิดีโอ"/>
+			<str id="tr" val="โหมดทริกเกอร์"/>
+			<str id="live" val="ถ่ายทอดสด:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERABINNING">
+			<str id="m" val="วิธี:"/>
+		</dlg>
+
+		<dlg id="IDD_FITSADD">
+			<str id="a" val="(1~8 ตัวอักษรหรือตัวเลข, A~Z, a~z, 0~9)"/>
+		</dlg>
+
+		<dlg id="IDD_REPORT">
+			<str id="t" val="แบบ"/>
+			<str id="l" val="โคลน..."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAAF">
+			<str id="c" val="สอบเทียบคอนจูเกต"/>
+			<str id="0" val="C เมาท์ 0mm"/>
+			<str id="l" val="เลนส์:"/>
+			<str id="n" val="ใกล้"/>
+			<str id="f" val="ไกล"/>
+		</dlg>
+
+		<dlg id="IDD_IOADVANCED">
+			<str id="b" val="อัตรารับส่งข้อมูล:"/>
+			<str id="r" val="รับ"/>
+			<str id="d" val="ส่ง"/>
+		</dlg>
+
+		<dlg id="IDD_WAIT">
+			<str id="t" val="รอ"/>
+			<str id="p" val="โปรดรอ:"/>
+		</dlg>
+		
+		<dlg id="IDD_GIGENET">
+			<str id="s" val="ซับเน็ตมาสก์:"/>
+			<str id="g" val="เกตเวย์เริ่มต้น:"/>
+		</dlg>
+		
+		<dlg id="IDD_FW">
+			<str id="n" val="หมายเลขสล็อต:"/>
+		</dlg>
+		
+		<dlg id="IDD_PSEUDOCOLOR">
+			<str id="s" val="เริ่มสี:"/>
+			<str id="e" val="สีปลาย:"/>
+		</dlg>
+	</dialog>
+
+	<menu>
+		<str id="fle" val="&amp;ไฟล์"/>
+		<str id="edt" val="&amp;แก้ไข"/>
+		<str id="vew" val="&amp;มุมมอง"/>
+		<str id="prss" val="&amp;กระบวนการ"/>
+		<str id="opns" val="&amp;ตัวเลือก"/>
+		<str id="wnd" val="&amp;หน้าต่าง"/>
+		<str id="hlp" val="&amp;ช่วยเหลือ"/>
+		<str id="stup" val="&amp;ตั้งค่า"/>
+		<str id="cptu" val="&amp;ถ่าย"/>
+		<str id="imag" val="&amp;ภาพ"/>
+		<str id="layr" val="&amp;เลเยอร์"/>
+		<str id="meas" val="&amp;เครื่องวัด"/>
+		<str id="brws" val="&amp;เรียกดู"/>
+		<str id="db" val="&amp;ฐานข้อมูล"/>
+
+		<str id="recf" val="&amp;ไฟล์ล่าสุด"/>
+		<str id="sdbr" val="&amp;แทบด้านข้าง"/>
+		<str id="sort" val="&amp;เรียง"/>
+		<str id="icns" val="&amp;ไอคอน"/>
+		<str id="grds" val="&amp;เส้นตาราง"/>
+		<str id="mvwm" val="&amp;เคลื่นที่ลายน้ำ"/>
+		<str id="rtwm" val="&amp;หมุนลายน้ำ"/>
+		<str id="mode" val="&amp;โหมด"/>
+		<str id="adj" val="&amp;ปรับ"/>
+		<str id="rtt" val="&amp;หมุน"/>
+		<str id="line" val="&amp;เส้น"/>
+		<str id="vert" val="&amp;แนวนอน"/>
+		<str id="crcl" val="&amp;วงกลม"/>
+		<str id="tocls" val="&amp;สองวงกลม"/>
+		<str id="zodr" val="&amp;จัดตำแหน่ง"/>
+		<str id="lunit" val="&amp;หน่วยความยาว"/>
+
+		<str id="oimg" val="&amp;เปิดภาพ..."/>
+		<str id="ovid" val="&amp;เปิดวิดีโอ..."/>
+		<str id="obcas" val="&amp;เปิดถ่ายทอด..."/>
+		<str id="batsv" val="&amp;บันทึกชุด..."/>
+		<str id="qksv" val="&amp;เซฟด่วน..."/>
+		<str id="psnew" val="วางที่ &amp;ไฟล์ใหม่"/>
+		<str id="norec" val="ไม่มีไฟล์ล่าสุด"/>
+		<str id="exit" val="&amp;ออก"/>
+		<str id="cut" val="&amp;ตัด"/>
+		<str id="copy" val="&amp;คัดลอก"/>
+		<str id="pste" val="&amp;วาง"/>
+		<str id="passc" val="&amp;วางทางลัด"/>
+		<str id="selal" val="&amp;เลือกทั้งหมด"/>
+		<str id="ivsel" val="&amp;เลือกกลับกัน"/>
+		<str id="mshet" val="&amp;แผ่นวัด"/>
+		<str id="camsb" val="&amp;กล้อง"/>
+		<str id="fosb" val="&amp;โฟล์เดอร์"/>
+		<str id="ursb" val="&amp;ยกเลิก/ทำซ้ำ"/>
+		<str id="lydb" val="&amp;เลเยอร์"/>
+		<str id="msbar" val="&amp;มาตราฐานการวัด"/>
+		<str id="hsbar" val="&amp;ฮิสโทแกรม"/>
+		<str id="prfs" val="&amp;การตั้งค่า..."/>
+		<str id="mm" val="&amp;มารตฐานการวัด..."/>
+		<str id="mf" val="&amp;การขยายภาพ..."/>
+		<str id="clbr" val="&amp;สอบเทียบ..."/>
+		<str id="edtdy" val="&amp;แก้ไขรายการสี..."/>
+		<str id="atcor" val="&amp;ระยะอัตโนมัติ..."/>
+		<str id="f1" val="&amp;คู่มือ"/>
+		<str id="ab" val="&amp;เกี่ยวกับ..."/>
+
+		<str id="save" val="&amp;บันทึก"/>
+		<str id="svee" val="&amp;บันทึก..."/>
+		<str id="svas" val="&amp;บันทึกที่..."/>
+		<str id="imgsl" val="&amp;เลือกภาพ"/>
+		<str id="seln" val="&amp;ไม่ได้กำหนดค่า"/>
+
+		<str id="gno" val="&amp;ไม่มีเส้นตาราง"/>
+		<str id="grm" val="&amp;ปรับเส้นตารางเอง"/>
+		<str id="gda" val="&amp;ปรับเส้นตารางอัตโนมัติ"/>
+		<str id="gdl" val="&amp;ลบเส้นตารางทั้งหมด"/>
+		<str id="rlset" val="&amp;ตั้งค่า..."/>
+		<str id="fitwi" val="&amp;แบบที่ดีที่สุด"/>
+		<str id="asiz" val="&amp;ขนาดจริง"/>
+		<str id="trk" val="&amp;มือจับ"/>
+
+		<str id="sith" val="&amp;ตะเข็บ..."/>
+		<str id="dldt" val="&amp;ลบ"/>
+		<str id="bbro" val="&amp;เรียกดู"/>
+		<str id="openf" val="&amp;เปิด"/>
+
+		<str id="sttp" val="&amp;แช่แข็ง"/>
+		<str id="fscr" val="&amp;เต็มจอ"/>
+		<str id="vwpp" val="&amp;วินิจฉัย"/>
+		<str id="vvl" val="&amp;วีดีโอซ้อนทับ..."/>
+		<str id="vwm" val="&amp;วิดีโอลายน้ำ..."/>
+		<str id="wmmv" val="&amp;ย้ายไปยัง..."/>
+		<str id="wmzro" val="ย้ายไปยัง &amp;0"/>
+		<str id="wmrot" val="&amp;หมุนไปยัง..."/>
+		<str id="wmrz" val="หมุนไปยัง &amp;0"/>
+		<str id="gcal" val="&amp;การปรับเทียบสีเทา"/>
+		<str id="cpig" val="&amp;ถ่ายภาพ"/>
+		<str id="tmlps" val="เริ่ม &amp;ช่วงเวลา (จับภาพอัตโนมัติ)..."/>
+		<str id="strec" val="เริ่ม/หยุด &amp;บันทึก..."/>
+		<str id="acap" val="&amp;ถ่ายภาพอัตโนมัติ"/>
+		<str id="sttb" val="เริ่ม/หยุด &amp;ออกอากาศ..."/>
+
+		<str id="gsca" val="&amp;ขนาดสีเทา"/>
+		<str id="curv" val="&amp;เส้นโค้ง..."/>
+		<str id="acon" val="&amp;ความแตกต่างของสีที่มืดสุดกับสีที่สว่างสุดในภาพอัตโนมัติ"/>
+		<str id="eql" val="ฮิสโทแกรม E&amp;qualization..."/>
+		<str id="bc" val="&amp;ความมืด-ความสว่าง/ความแตกต่างของสีที่มืดสุดกับสีที่สว่างสุดในภาพ..."/>
+		<str id="imclr" val="&amp;สี..."/>
+		<str id="gamm" val="&amp;แกรมม่า..."/>
+		<str id="fclr" val="&amp;ฟิลเตอร์สี..."/>
+		<str id="eclr" val="&amp;แยกสี..."/>
+		<str id="iclr" val="&amp;กลับกัน"/>
+		<str id="rotar" val="&amp;โดยพลการ..."/>
+		<str id="filph" val="พลิก &amp;ตามแนวนอน"/>
+		<str id="flipv" val="พลิก &amp;ตามแนวตั้ง"/>
+		<str id="crop" val="&amp;ตัด"/>
+		<str id="imsca" val="&amp;ขนาดภาพ..."/>
+		<str id="hist" val="&amp;ฮิสโทแกรม..."/>
+		<str id="reso" val="&amp;ความคมชัด..."/>
+
+		<str id="fi" val="&amp;ฟิลเตอร์..."/>
+		<str id="biy" val="&amp;ไบนารี..."/>
+		<str id="mosc" val="&amp;ภาพโมเสก..."/>
+		<str id="prf" val="&amp;โพรไฟล์..."/>
+
+		<str id="lnew" val="&amp;ใหม่..."/>
+		<str id="lrem" val="&amp;ลบ..."/>
+		<str id="lcur" val="&amp;ปัจจุบัน..."/>
+		<str id="lshow" val="&amp;แสดง/ซ่อน..."/>
+		<str id="len" val="&amp;เปลี่ยนชื่อ..."/>
+		<str id="lexp" val="&amp;นำออกภาพ..."/>
+		<str id="mexp" val="&amp;นำออกภาพ"/>
+		<str id="ldrem" val="&amp;ลบ"/>
+		<str id="ldcur" val="&amp;ปัจจุบัน"/>
+		<str id="ldshw" val="&amp;แสดง/ซ่อน"/>
+
+		<str id="osel" val="&amp;เลือกวัตถุ"/>
+		<str id="angl" val="&amp;มุม"/>
+		<str id="point" val="&amp;จุด"/>
+		<str id="arbl" val="&amp;โดยพลการ"/>
+		<str id="hline" val="&amp;แนวนอน"/>
+		<str id="vline" val="&amp;แนวตั้ง"/>
+		<str id="parl" val="&amp;เส้นขนาน"/>
+		<str id="pnt8" val="&amp;8 จุด"/>
+		<str id="pnt5" val="&amp;5 จุด"/>
+		<str id="pnt4" val="&amp;4 จุด"/>
+		<str id="pnt3" val="&amp;3 จุด"/>
+		<str id="pnt2" val="&amp;2 จุด"/>
+		<str id="rctg" val="&amp;สี่เหลี่ยนพื้นผ้า"/>
+		<str id="elps" val="&amp;วงรี"/>
+		<str id="crad" val="&amp;จุดศูนย์กลาง+รัศมี"/>
+		<str id="cen2" val="&amp;สองจุด"/>
+		<str id="cen3" val="&amp;สามจุด"/>
+		<str id="alus" val="&amp;ห่วง"/>
+		<str id="arc" val="&amp;เส้นโค้ง"/>
+		<str id="text" val="&amp;ตัวหนังสือ"/>
+		<str id="plg" val="&amp;รูปหลายเหลี่ยม"/>
+		<str id="ztop" val="&amp;ข้างบน"/>
+		<str id="zbtm" val="&amp;ข้างล่าง"/>
+		<str id="zup" val="&amp;เคลื่อนที่ขึ้น"/>
+		<str id="zdown" val="&amp;เคลื่อนที่ลง"/>
+		<str id="sbar" val="&amp;แถบขนาด..."/>
+		<str id="lcv" val="&amp;เส้นโค้ง"/>
+		<str id="mode1" val="การเชื่อมต่อแบบสุ่&amp;ม"/>
+		<str id="mode2" val="การเชื่อมต่อหลายจุ&amp;ด"/>
+		<str id="arrw" val="&amp;ลูกศร"/>
+
+		<str id="call" val="&amp;ปิดทั้งหมด"/>
+		<str id="rstlo" val="&amp;รีเซ็ตเค้าโครงหน้าต่าง"/>
+		<str id="wnds" val="&amp;หน้าต่าง..."/>
+
+		<str id="aunit" val="&amp;หน่วยมุม..."/>
+
+		<str id="nccls" val="&amp;ปิด"/>
+		<str id="nccla" val="&amp;ปิดทั้งหมดเดี่ยวนี้"/>
+		<str id="clsth" val="ปิดอื่น &amp;ๆ"/>
+		<str id="fprop" val="&amp;คุณสมบัติไพล์..."/>
+		<str id="cpath" val="&amp;คัดลอกเส้นทางทั้งหมด"/>
+		<str id="brofo" val="&amp;เรียกดูโฟลเดอร์ที่เก็บ"/>
+		<str id="openfo" val="&amp;เปิดโฟลเดอร์ที่เก็บ"/>
+		<str id="ftwid" val="พอดีกับความกว้าง"/>
+		<str id="fthei" val="พอดีกับความสูง"/>
+		<str id="fitwi" val="พอดีกับวินโดว์"/>
+
+		<str id="bronm" val="เรียงตาม &amp;ชื่อ"/>
+		<str id="brotp" val="เรียงตาม &amp;รูปแบบ"/>
+		<str id="brosz" val="เรียงตาม &amp;ขนาด"/>
+		<str id="browd" val="เรียงตาม &amp;ความกว้าง"/>
+		<str id="brohe" val="เรียงตาม &amp;ความสูง"/>
+		<str id="brotx" val="เรียงตาม &amp;นามสกุล"/>
+		<str id="brofw" val="&amp;จากน้อยไปมาก"/>
+		<str id="brorv" val="&amp;จากมากไปน้อย"/>
+		<str id="brol" val="&amp;ไอคอนใหญ่"/>
+		<str id="bros" val="&amp;ไอคอนเล็ก"/>
+		<str id="brorf" val="&amp;รีเฟรช"/>
+		<str id="bropo" val="&amp;คุณสมบัติเพิ่มเติม..."/>
+
+		<str id="mimp" val="&amp;นำเข้าไพล์..."/>
+		<str id="msav" val="&amp;บันทึกไพล์..."/>
+		<str id="mhtm" val="นำออกไปยัง &amp;Html"/>
+		<str id="mexc" val="นำออกไปยัง Microsoft &amp;Excel..."/>
+
+		<str id="bstf" val="&amp;แบบที่ดีที่สุด"/>
+		<str id="asiz" val="&amp;ขนาดจริง"/>
+
+		<str id="edpn" val="&amp;ปกติ"/>
+		<str id="edph" val="&amp;H รูปแบบ"/>
+
+		<str id="ocsd" val="OTSU &amp;มืด..."/>
+		<str id="ocsb" val="OTSU &amp;สดใส..."/>
+		<str id="ocrhs" val="&amp;RGB ฮิสโทแกรม..."/>
+		<str id="ochhs" val="&amp;HSV ฮิสโทแกรม..."/>
+
+		<str id="chair" val="&amp;กากบาท"/>
+		<str id="st4" val="ST&amp;4 ทดสอบ..."/>
+
+		<str id="lined" val="เส้น (&amp;3 จุด)"/>
+
+		<str id="tnal" val="รูปขนาดย่อ(&amp;T)"/>
+		<str id="avw" val="เปิดใช้งานหน้าต่างวิดีโอ(&amp;V)"/>
+
+		<str id="cust" val="&amp;ปรับแต่ง..."/>
+		<str id="ctool" val="&amp;ปรับแต่งทูบาร์..."/>
+
+		<str id="cent" val="&amp;ศูนย์"/>
+		<str id="sernx" val="เฟรมถัดไป"/>
+		<str id="serpv" val="เฟรมก่อนหน้า"/>
+
+		<str id="man" val="&amp;การจัดการ..."/>
+
+		<str id="manpr" val="&amp;การจัดการที่กำหนดล่วงหน้า..."/>
+
+		<str id="deep" val="&amp;การคัดลอกลึก"/>
+
+		<str id="expex" val="นำออกไปยัง Microsoft &amp;Excel"/>
+		<str id="expcb" val="นำออกไปยัง&amp;คลิปบอร์ด"/>
+		<str id="expim" val="นำออกไปยัง&amp;รูป"/>
+
+		<str id="pipe" val="&amp;เปต"/>
+		<str id="preset" val="&amp;กำหนดไว้ล่วงหน้า"/>
+
+		<str id="clhd" val="&amp;ซ่อน"/>
+		<str id="clsl" val="&amp;เลือก..."/>
+
+		<str id="whba" val="&amp;สมดุลแสงสีขาว"/>
+
+		<str id="arra" val="&amp;การจัดการ"/>
+		<str id="cstm" val="&amp;กำหนดเอง"/>
+
+		<str id="expt" val="&amp;นำออก"/>
+		<str id="expf" val="นำออ&amp;ก..."/>
+		<str id="impf" val="นำเข้&amp;า..."/>
+
+		<str id="copa" val="&amp;เปรียบเทียบ"/>
+
+		<str id="dstup" val="&amp;ใหม่..."/>
+		<str id="drop" val="&amp;ลบ"/>
+		<str id="clea" val="&amp;เคลียร์"/>
+		<str id="dconn" val="&amp;เชื่อมต่อ..."/>
+		<str id="inse" val="&amp;แทรก..."/>
+		<str id="opts" val="&amp;ตัวเลือก..."/>
+		<str id="oima" val="&amp;เปิดภาพ"/>
+
+		<str id="rena" val="&amp;เปลี่ยนชื่อ..."/>
+		<str id="dye" val="&amp;การย้อมสี..."/>
+
+		<str id="item" val="&amp;สินค้า"/>
+		<str id="aitem" val="&amp;รายการทั้งหมด"/>
+		<str id="aimag" val="&amp;รูปภาพทั้งหมด"/>
+
+		<str id="expg" val="&amp;การเปิดช่องรับแสง &amp;&amp; อัตราการขยาย"/>
+		<str id="load" val="&amp;บรรจุ"/>
+
+        <str id="clti" val="&amp;ปิดภาพชั่วคราวทั้งหมด"/>
+
+		<str id="auto" val="&amp;อัตโนมัติ..."/>
+		<str id="defu" val="&amp;ค่าเริ่มต้น"/>
+		<str id="rest" val="&amp;ตั้งใหม่"/>
+		
+		<str id="disa" val="&amp;ปิดการใช้งาน"/>
+		<str id="b1" val="&amp;1 ไบต์"/>
+		<str id="b2" val="&amp;2 ไบต์"/>
+		<str id="b4" val="&amp;4 ไบต์"/>
+		
+		<str id="ipm" val="ที่อยู่ &amp;IP..."/>
+		<str id="rtm" val="&amp;เรียลไทม์"/>
+	</menu>
+</i18n>

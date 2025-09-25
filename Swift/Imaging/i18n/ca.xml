@@ -1,0 +1,1911 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<i18n>
+	<all>
+		<str id="ids_true" val="Verdader"/>
+		<str id="ids_false" val="Fals"/>
+		<str id="ids_yes" val="Si"/>
+		<str id="ids_ok" val="Si"/>
+		<str id="ids_camera" val="Càmera"/>
+		<str id="ids_folders" val="Carpetes"/>
+		<str id="ids_video" val="Vídeo"/>
+		<str id="ids_browse" val="Buscador"/>
+		<str id="ids_back" val="Enrere"/>
+		<str id="ids_forward" val="Endavant"/>
+		<str id="ids_backward" val="Enrere"/>
+		<str id="ids_open" val="Obrir"/>
+		<str id="ids_width" val="Amplada"/>
+		<str id="ids_height" val="Alçada"/>
+		<str id="ids_measurement" val="Medicions"/>
+		<str id="ids_name" val="Nom"/>
+		<str id="ids_version" val="Versió"/>
+		<str id="ids_sample" val="Mostra"/>
+		<str id="ids_avg" val="Mitjana"/>
+		<str id="ids_mean" val="Mitjana"/>
+		<str id="ids_den" val="Soroll"/>
+		<str id="ids_capture" val="Capturar"/>
+		<str id="ids_close" val="Tancar"/>
+		<str id="ids_save" val="Salvar"/>
+		<str id="ids_none" val="Cap"/>
+		<str id="ids_file" val="Arxiu"/>
+		<str id="ids_time" val="Temps"/>
+		<str id="ids_bl" val="Nivell negre"/>
+		<str id="ids_linear" val="Lineal"/>
+		<str id="ids_log" val="Logarítmica"/>
+		<str id="ids_exp" val="Exponencial"/>
+		<str id="ids_poly" val="Polinomi"/>
+		<str id="ids_date" val="Data"/>
+		<str id="ids_year" val="L'any"/>
+		<str id="ids_month" val="Mes"/>
+		<str id="ids_day" val="Dia"/>
+		<str id="ids_bl" val="Nivell negre"/>
+		<str id="ids_current" val="Actual"/>
+		<str id="ids_remove" val="Eliminar"/>
+		<str id="ids_cancel" val="Cancel.lar"/>
+		<str id="ids_apply" val="Aplicar"/>
+		<str id="ids_defaults" val="Predeterminats"/>
+		<str id="ids_default" val="Predeterminat"/>
+		<str id="ids_refresh" val="Actualitzar"/>
+		<str id="ids_reset" val="Restablir"/>
+		<str id="ids_option" val="Opcio"/>
+		<str id="ids_options" val="Opcions"/>
+		<str id="ids_preview" val="Vista prèvia"/>
+		<str id="ids_size" val="Mida"/>
+		<str id="ids_label" val="Etiqueta"/>
+		<str id="ids_appearance" val="Apariència"/>
+		<str id="ids_scalebar" val="Barra d'Escales"/>
+		<str id="ids_rename" val="Renombrar"/>
+		<str id="ids_desc" val="Descripció"/>
+		<str id="ids_red" val="Vermell"/>
+		<str id="ids_green" val="Verd"/>
+		<str id="ids_blue" val="Blau"/>
+		<str id="ids_radius" val="Radi"/>
+		<str id="ids_add" val="Afegir"/>
+		<str id="ids_del" val="Eliminar"/>
+		<str id="ids_hue" val="Tò"/>
+		<str id="ids_sat" val="Saturació"/>
+		<str id="ids_bri" val="Brillantor"/>
+		<str id="ids_res" val="Resolució"/>
+		<str id="ids_compression" val="Compressió"/>
+		<str id="ids_whitebalance" val="Balanç de Blancs"/>
+		<str id="ids_zoomin" val="Zoom Activat"/>
+		<str id="ids_zoomout" val="Zoom Desactivat"/>
+		<str id="ids_export" val="Exportar"/>
+		<str id="ids_import" val="Importar"/>
+		<str id="ids_thumbnail" val="Miniatura"/>
+		<str id="ids_rotate" val="Girar"/>
+		<str id="ids_meta" val="Metadades"/>
+		<str id="ids_en" val="Habilitar"/>
+		<str id="ids_value" val="Valor"/>
+		<str id="ids_expti" val="Temps d'Exposició"/>
+		<str id="ids_rexpti" val="Temps d'exposició real"/>
+		<str id="ids_observer" val="Observador"/>
+		<str id="ids_telescope" val="Telescopi"/>
+		<str id="ids_comment" val="Comentari"/>
+		<str id="ids_edit" val="Editar"/>
+		<str id="ids_model" val="Model de càmera"/>
+		<str id="ids_type" val="Tipus"/>
+		<str id="ids_cpyrgt" val="Drets d'autor"/>
+		<str id="ids_author" val="Autor"/>
+		<str id="ids_title" val="Títol"/>
+		<str id="ids_pxf" val="Format de píxel"/>
+		<str id="ids_unit" val="Unitat"/>
+		<str id="ids_calibrate" val="Calibrar"/>
+		<str id="ids_beilv" val="Augments"/>
+		<str id="ids_dis" val="Desactivar"/>
+		<str id="ids_fset" val="Escenes de factoria"/>
+		<str id="ids_srp" val="Nitidez"/>
+		<str id="ids_focus" val="Enfocament"/>
+		<str id="ids_af" val="Enfocament automàtic"/>
+		<str id="ids_elc" val="Elèctrica"/>
+		<str id="ids_up" val="Amunt"/>
+		<str id="ids_down" val="Avall"/>
+		<str id="ids_revision" val="Revisió"/>
+		<str id="ids_preset" val="Preseleccionat"/>
+		<str id="ids_dl" val="Descarregar"/>
+		<str id="ids_st" val="Estat"/>
+		<str id="ids_sw" val="Programari"/>
+		<str id="ids_hw" val="Maquinari"/>
+		<str id="ids_simu" val="Simulada"/>
+		<str id="ids_nrecom" val="No es recomana"/>
+		<str id="ids_depre" val="Obsolet"/>
+		<str id="ids_mem" val="Memòria"/>
+		<str id="ids_computer" val="Ordinador"/>
+		<str id="ids_autoe" val="Auto Exposició"/>
+		<str id="ids_expta" val="Exposició Objectiu"/>
+		<str id="ids_bin" val="Papelera"/>
+		<str id="ids_skip" val="Saltar"/>
+		<str id="ids_stemp" val="Temperatura"/>
+		<str id="ids_ttemp" val="Temperatura de l'objectiu"/>
+		<str id="ids_display" val="Exhibició"/>
+		<str id="ids_cut" val="Tallar"/>
+		<str id="ids_pste" val="Enganxar"/>
+		<str id="ids_basic" val="Bàsica"/>
+		<str id="ids_neg" val="Negatiu"/>
+		<str id="ids_tonem" val="Cartografia de tons"/>
+		<str id="ids_position" val="Posició"/>
+		<str id="ids_custom" val="A mida"/>
+		<str id="ids_object" val="Objecte"/>
+		<str id="ids_cobject" val="Objecte de mesura"/>
+		<str id="ids_threshold" val="Umbral"/>
+		<str id="ids_bool" val="Booleà"/>
+		<str id="ids_all" val="Tot"/>
+		<str id="ids_column" val="Columna"/>
+		<str id="ids_row" val="Fila"/>
+		<str id="ids_merge" val="Exportar"/>
+		<str id="ids_shape" val="Forma"/>
+		<str id="ids_fontsize" val="Mida Font"/>
+		<str id="ids_fontweight" val="Gruix Font"/>
+		<str id="ids_bandw" val="Ample de banda"/>
+		<str id="ids_about" val="Sobre"/>
+		<str id="ids_horz" val="Horitzontal"/>
+		<str id="ids_polygon" val="Polígon"/>
+		<str id="ids_adv" val="Avançat"/>
+		<str id="ids_den" val="Eliminar Soroll"/>
+		<str id="ids_strength" val="Duresa"/>
+		<str id="ids_linewidth" val="Amplada de Línia"/>
+		<str id="ids_compare" val="Compareu"/>
+		<str id="ids_db" val="Base de dades"/>
+		<str id="ids_new" val="Nou"/>
+		<str id="ids_find" val="Trobar"/>
+		<str id="ids_imag" val="Imatge"/>
+		<str id="ids_lnoise" val="Soroll baix"/>
+		<str id="ids_dye" val="Coloració"/>
+		<str id="ids_tl" val="Time-lapse (Auto Captura)"/>
+		<str id="ids_xoff" val="Compensar X"/>
+		<str id="ids_yoff" val="Compensar Y"/>
+		<str id="ids_ftype" val="Tipus d'Arxiu"/>
+		<str id="ids_starddev" val="Desviació tipus"/>
+		<str id="ids_max" val="Màxim"/>
+		<str id="ids_min" val="Mínim"/>
+		<str id="ids_mono" val="Monocrom"/>
+		<str id="ids_lightsource" val="Font de llum"/>
+		<str id="ids_on" val="Engegar"/>
+		<str id="ids_off" val="Fora"/>
+		<str id="ids_high" val="Alta"/>
+		<str id="ids_watermark" val="Marca d'aigüa"/>
+        <str id="ids_cate" val="Categoria"/>
+		<str id="ids_settings" val="Ajustaments"/>
+		<str id="ids_llcolor" val="Color Etiqueta"/>
+		<str id="ids_ec" val="Compensació d'Exposició"/>
+		<str id="ids_item" val="Element"/>
+		<str id="ids_discard" val="Descartar"/>
+		<str id="ids_plan" val="Pla"/>
+		<str id="ids_network" val="Xarxa"/>
+		<str id="ids_ip" val="Adreça IP"/>
+		<str id="ids_mac" val="Adreça MAC"/>
+		<str id="ids_fw" val="Roda de filtre"/>
+		<str id="ids_lowpc" val="Baix consum d'energia"/>
+		<str id="ids_exporm" val="Mode de lectura"/>
+		<str id="ids_addr" val="Adreça"/>
+		<str id="ids_trg" val="Gallet"/>
+		<str id="ids_trgs" val="Font Gallet"/>
+		<str id="ids_objlen" val="Lent objectiva"/>
+		<str id="ids_si" val="Sola"/>
+		<str id="ids_sq" val="Múltiple"/>
+		<str id="ids_lp" val="Bucle"/>
+		<str id="ids_cds" val="Doble mostreig correlacionat"/>
+        <str id="ids_antise" val="Efecte anti-obturador"/>
+		<str id="ids_speed" val="Velocitat"/>
+		<str id="ids_shtt" val="Obturador"/>
+		<str id="ids_mshtt" val="Obturador mecànic"/>
+		<str id="ids_mf" val="Mostrar augments"/>
+	</all>
+
+	<string>
+		<str id="ids_m" val="Metre"/>
+		<str id="ids_cm" val="Centímetre"/>
+		<str id="ids_mm" val="Milímetre"/>
+		<str id="ids_um" val="Micròmetre"/>
+		<str id="ids_nm" val="Nanòmetre"/>
+		<str id="ids_in" val="Polzada"/>
+		<str id="ids_ang" val="Àngstrom"/>
+		<str id="ids_pm" val="Picòmetre"/>
+
+		<str id="ids_angle0" val="Radi"/>
+		<str id="ids_angle1" val="Àngle"/>
+
+		<str id="ids_colorbuttonother" val="Altres..."/>
+		<str id="ids_linestyledash" val="Toc"/>
+		<str id="ids_linestyledot" val="Punt"/>
+		<str id="ids_linestyledashdot" val="PuntToc"/>
+		<str id="ids_intminmax" val="Entrar nombre enter entre %d i %d."/>
+
+		<str id="ids_exposure" val="Exposició"/>
+
+		<str id="ids_noexcel" val="Error al obrir Microsoft Excel. Comprovar que Microsoft Excel s'ha instal.lat correctament."/>
+		<str id="ids_noword" val="Error al obrir Microsoft Word. Comprovar que Microsoft Word s'ha instal.lat correctament."/>
+
+		<str id="ids_outofrange" val="Fora de rang."/>
+		<str id="ids_inputv" val="El valor d'entrada no és vàlid."/>
+		<str id="ids_filenr" val="Caràcters Reservats no es pot utilitzar als noms de fitxer."/>
+
+		<str id="ids_deviceid" val="Equip ID"/>
+		<str id="ids_devicename" val="Equip Nom"/>
+		<str id="ids_stillimagecapture" val="Captura Imatge"/>
+		<str id="ids_stillimagewidth" val="Amplada Imatge"/>
+		<str id="ids_stillimageheight" val="Alçada Imatge"/>
+		<str id="ids_displaywidth" val="Amplada Pantalla"/>
+		<str id="ids_displayheight" val="Alçada Pantalla"/>
+		<str id="ids_videowidth" val="Amplada Vídeo"/>
+		<str id="ids_videoheight" val="Alçada Vídeo"/>
+		<str id="ids_dscapbpp" val="Bits Per Píxel"/>
+		<str id="ids_duration" val="Durada"/>
+		<str id="ids_cameraid" val="Càmera Id"/>
+		<str id="ids_framedropped" val="Frame Minimitzat"/>
+		<str id="ids_framesaved" val="Frame Salvat"/>
+		<str id="ids_property" val="Propietat"/>
+		<str id="ids_errorstop" val="Error, a l'aturada."/>
+		<str id="ids_startfail" val="No es pot iniciar."/>
+		<str id="ids_previewfail" val="Sense vista prèvia, desconecti la càmara y torni a conectar-la."/>
+		<str id="ids_stoppreviewfail" val="Error, sense vista prèvia."/>
+		<str id="ids_noframe" val="Amplada de banda USB insuficient, reduir fps o utilitzar un altre port USB. Tornar a conectar la càmara y provar-ho un altre cop."/>
+		<str id="ids_surpriseremoval" val="La càmara s'ha desconectat."/>
+		<str id="ids_devicelost" val="Captura cancelada (càmara desconectada), tornar a conectar la càmara y provar-ho un altre cop."/>
+		<str id="ids_captureerror" val="Error de captura, tornar a conectar la càmara o utilitzar un altre port USB."/>
+		<str id="ids_toupnamerror" val="Error, reiniciar el dispositiu i tornar-ho a provar."/>
+		<str id="ids_filtergraph" val="No es pot iniciar la opció filtergraph."/>
+		<str id="ids_graphbuilder" val="No es pot iniciar el generador de gràfics."/>
+		<str id="ids_noax" val="No pot crear una captura de vídeo, tornar a instal.lar el driver del dispositiu."/>
+		<str id="ids_nosource" val="No pot crear una captura de vídeo. Tornar a conectar el dispositiu i tornar-ho a provar."/>
+
+		<str id="ids_badport" val="El nombre especificat de port está en ús, utilitzar un altre port."/>
+		<str id="ids_bcount" val="Mostrar Frames"/>
+		<str id="ids_bdroppcnt" val="Mostrar Dropped Frame"/>
+		<str id="ids_bcbbps" val="Mostrar Current Bitrate (Kbps)"/>
+		<str id="ids_baveragebps" val="Mostrar Mitjana Bitrate (Kbps)"/>
+		<str id="ids_bccfr" val="Mostrar Actual Frame Rate"/>
+		<str id="ids_baveragesr" val="Mostrar Mitjana Frame Rate"/>
+		<str id="ids_bandwidth" val="Ample de Banda(Kbps)"/>
+		<str id="ids_preceived" val="Paquets Rebuts"/>
+		<str id="ids_plost" val="Paquest Perduts"/>
+		<str id="ids_psize" val="Mida del paquet"/>
+
+		<str id="ids_encoder" val="Codificador"/>
+		<str id="ids_quality" val="Qualitat"/>
+		<str id="ids_keyfs" val="Fotograma Clau Espai (Second(s))"/>
+		<str id="ids_stepdir" val="Definir el directori i donar un nom correcte a l'arxiu."/>
+		<str id="ids_stepbpsminmax" val="Definir el Bitrate correctament, és un nombre entre %s i %s."/>
+		<str id="ids_stepqualityminmax" val="Definir la Qualitat correctament, és un nombre enter entre %u i %u."/>
+		<str id="ids_stepiframe" val="Definir el Fotograma Clau Espai correctament."/>
+		<str id="ids_stepiframeminmax" val="Definir el Fotograma Clau Espai correctament, és un nombre enter entre %u i %u."/>
+		<str id="ids_stepcodec" val="Si us plau definir Codificador."/>
+		<str id="ids_steptimelimit" val="Definir Temps Limit de Captura correctament."/>
+		<str id="ids_steptimelapse" val="Definir Intervals de Captura correctament."/>
+		<str id="ids_stepavinone" val="No Comprimir"/>
+
+		<str id="ids_recordheader" val="Mostrar Informació"/>
+		<str id="ids_recordstep1" val="Format Vídeo i Codificador"/>
+		<str id="ids_recordstep2" val="Arxiu Vídeo"/>
+		<str id="ids_recordstep3" val="Codificador"/>
+		<str id="ids_recordstep4" val="Inici Grabació"/>
+		<str id="ids_broadcastpar" val="Paràmetres Reproducció"/>
+		<str id="ids_recordstep4b" val="Inici Reproducció"/>
+
+		<str id="ids_integerinvalid" val="Introduïr un nombre enter."/>
+
+		<str id="ids_mosaicimages" val="Mosaic d'Imatges"/>
+
+		<str id="ids_deleteallitem" val="Desitja eliminar tots els elements?"/>
+		<str id="ids_deleteitem" val="Desitja eliminar l'element sel.leccionat?"/>
+		<str id="ids_deleteitems" val="Desitja eliminar %d elements sel.leccionat?"/>
+		<str id="ids_magimport" val="L'importació eliminarà el actuals elements, està segur?"/>
+
+		<str id="ids_toolbarselect" val="Seleccionar Objecte"/>
+		<str id="ids_toolbarrectselect" val="Imatge Seleccionada"/>
+		<str id="ids_toolbartrack" val="Traç"/>
+		<str id="ids_toolbar_line" val="Linea"/>
+		<str id="ids_toolbargray" val="Calibració de Grisos"/>
+		<str id="ids_toolbarcenter" val="Centre"/>
+
+		<str id="ids_stitch" val="Unir"/>
+		<str id="ids_stitchscroll" val="Mode de desplaçament"/>
+		<str id="ids_aggr" val="Agressiu"/>
+		<str id="ids_pasi" val="Passiu"/>
+
+		<str id="ids_built" val="Creat"/>
+
+		<str id="ids_toolbar" val="Barra d'Eines"/>
+		<str id="ids_nodevice" val="Sense Càmera"/>
+		<str id="ids_zoom0" val="Ajustar Alçada"/>
+		<str id="ids_zoom1" val="Ajustar Amplada"/>
+		<str id="ids_zoom2" val="Ajustar Finestra"/>
+		<str id="ids_selection" val="Seleccionar"/>
+		<str id="ids_undoredo" val="Desfer/Refer"/>
+
+		<str id="ids_overlayscale" val="Escala de Capes"/>
+
+		<str id="ids_customize" val="Personalitzar"/>
+		<str id="ids_toolbarcustomize" val="&amp;Personalitzar..."/>
+		<str id="ids_angleunitmenu" val="&amp;Angle Unitat..."/>
+
+		<str id="ids_emptydir" val="El directori pot'estar buit."/>
+		<str id="ids_invaliddir" val="Directori no vàlid."/>
+		<str id="ids_filelock" val="Arxiu bloquejat."/>
+		<str id="ids_imagesizemismatch" val="Ajust tamany d'imatge."/>
+		<str id="ids_imagesizenotsame" val="Imatge: &quot;%s&quot; no té la mateixa mida."/>
+		<str id="ids_filenofound" val="Arxiu no trobat."/>
+		<str id="ids_savefilefail2" val="Error al guardar arxiu &quot;%s&quot;."/>
+		<str id="ids_savefilefail3" val="Error al guardar arxiu."/>
+		<str id="ids_videofileformat" val="Format d'arxiu no vàlid."/>
+		<str id="ids_videofilestartfail" val="Error a l'inici."/>
+		<str id="ids_videofiles" val="Arxius de Vídeo"/>
+		<str id="ids_allfiles" val="Tots els Arxius"/>
+
+		<str id="ids_browseshutcut" val="Aquesta carpeta conté un accés ràpid &quot;%s&quot;.\nRe-nombrar, Cancel.lar, o Abortar?"/>
+
+		<str id="ids_videozoomint" val="El zoom actual és %u%%. Per obtenir el valor exacte, ajustar el zoom al valor 100%%. Desitja continuar?"/>
+		<str id="ids_videozoomfloat" val="El zoom actual és %.1f%%. Per obtenir el valor exacte, ajustar el zoom al valor 100%%. Desitja continuar?"/>
+		<str id="ids_videomarker" val="Marcador: (%d, %d); Marca d'aigüa: Moure = (%d, %d), Girar = %.3f"/>
+		<str id="ids_videostartrecord" val="Inici &amp;Grabar..."/>
+		<str id="ids_videostoprecord" val="Stop &amp;Grabar"/>
+		<str id="ids_videostarttimelapse" val="Inici &amp;Time-lapse (Auto Captura)..."/>
+		<str id="ids_videostoptimelapse" val="Stop &amp;Time-lapse (Auto Captura)"/>
+		<str id="ids_videoautofail" val="Error d'auto captura."/>
+		<str id="ids_videocalibratemax1" val="Calibrar la màxima mida.\r\nMida Actual: %u x %u. Mida màxima: %u x %u.\r\nUtilitzar el requadre de la càmera per ajustar la resolució."/>
+
+		<str id="ids_memory" val="Memòria insuficient."/>
+		<str id="ids_memoryx86" val="Memòria insuficient, utilitzeu la versió x64."/>
+
+		<str id="ids_actionfailed" val="Acció fallida."/>
+		<str id="ids_actioncanceld" val="Acció cancel·lada."/>
+
+		<str id="ids_calibratedlgtoobig" val="Massa gran"/>
+		<str id="ids_calibratedlgtoosmall" val="Massa petit"/>
+		<str id="ids_calibratedlgpixels" val="píxel"/>
+		<str id="ids_calibratedlgmagnification" val="Introduèixi els augments correctes, 10, 40, 100, etc."/>
+		<str id="ids_calibratedlgmagnificationexists" val="L'augment &quot;%s&quot; ja existèix."/>
+
+		<str id="ids_collapseall" val="Comprimir Tot"/>
+		<str id="ids_expandall" val="Descomprimir Tot"/>
+		<str id="ids_camerapane_camera" val="Càmera"/>
+		<str id="ids_cameralist" val="Llistat de Càmeres"/>
+		<str id="ids_expandgain" val="Exposició &amp;&amp; Gain"/>
+		<str id="ids_colorgray" val="Color/Gris"/>
+		<str id="ids_capres" val="Captura &amp;&amp; Resolució"/>
+		<str id="ids_coloradjust" val="Ajustament Color"/>
+		<str id="ids_camerapane_framerate" val="Frame Rati"/>
+		<str id="ids_sampling" val="Mostreix"/>
+		<str id="ids_histogram" val="Histograma"/>
+		<str id="ids_power" val="Power Frequency (Anti-parpelleig)"/>
+		<str id="ids_gray" val="Gris"/>
+		<str id="ids_range" val="Gamma"/>
+		<str id="ids_exptimeempty" val="L'exposició requerèix un valor."/>
+		<str id="ids_exptimeinvalid" val="El temps d'exposició no és vàlid."/>
+		<str id="ids_exptimeoutofrange" val="El temps d'exposició està fora del rang."/>
+		<str id="ids_dfc" val="Correcció de camp fosc"/>
+		<str id="ids_bitdepth" val="Profunditat de bit"/>
+		<str id="ids_propfmt" val="Propietats i Format"/>
+		<str id="ids_cool" val="Refredament"/>
+		<str id="ids_ffc" val="Correcció de camp pla"/>
+		<str id="ids_heat" val="Calefacció"/>
+		<str id="ids_fpnc" val="Correcció de soroll de patró fix"/>
+
+		<str id="ids_preferences" val="Preferències"/>
+
+		<str id="ids_grids" val="Quadrícula"/>
+		<str id="ids_quicksave" val="Arxiu Ràpid"/>
+		<str id="ids_quickrecord" val="Record Ràpid"/>
+
+		<str id="ids_mosaicimage" val="Llistat d'imatges"/>
+		<str id="ids_mosaicpar" val="Paràmetres"/>
+
+		<str id="ids_filefmtcol0" val="Extensió"/>
+		<str id="ids_filefmtcol2" val="Abreviatura"/>
+
+		<str id="ids_allsupported" val="Tots els formats compatibles"/>
+		<str id="ids_savedlgreplace" val="%s ja existèix.\nVoleu remplaçar-lo?"/>
+		<str id="ids_saveboth" val="Imatge i mesures modificades. Voleu guardar els canvis?"/>
+		<str id="ids_saveimage" val="L'imatge s'ha modificat. Voleu guardar els canvis?"/>
+		<str id="ids_savelayer" val="Les capes s'han modificat. Voleu guardar els canvis?"/>
+
+		<str id="ids_watermarkdlg24bit" val="Només imatges compatibles 24 o 32 bits."/>
+
+		<str id="ids_nameformatnnnn" val="nnnn (sèrie)"/>
+
+		<str id="ids_lefttop" val="Superior Esquerre"/>
+		<str id="ids_righttop" val="Superior Dret"/>
+		<str id="ids_leftbottom" val="Inferior Esquerre"/>
+		<str id="ids_rightbottom" val="Inferior Dret"/>
+		<str id="ids_overlaybgtrans" val="Transparent"/>
+		<str id="ids_black" val="Negre"/>
+		<str id="ids_white" val="Blanc"/>
+		<str id="ids_smallest" val="Més petit"/>
+		<str id="ids_smaller" val="Petit"/>
+		<str id="ids_medium" val="Mitjà"/>
+		<str id="ids_larger" val="Gran"/>
+		<str id="ids_largest" val="Més gran"/>
+		<str id="ids_fontweightnormal" val="Normal"/>
+		<str id="ids_fontweightbold" val="Negreta"/>
+		<str id="ids_fontweightheavy" val="Pesada"/>
+		<str id="ids_overlaydatenone" val="Cap"/>
+		<str id="ids_overlaydate1" val="AAAA-MM-DD HH:MM:SS"/>
+		<str id="ids_overlaydatelong" val="Format Data Llarg"/>
+		<str id="ids_overlaydateshort" val="Format Data Curt"/>
+		<str id="ids_overlaydatetlong" val="Format de Data i Hora Llarg"/>
+		<str id="ids_overlaydatetshort" val="Format de Data i Hora Curt"/>
+
+		<str id="ids_marker" val="Cap"/>
+		<str id="ids_markercross" val="Creu"/>
+		<str id="ids_markercircle" val="Cercle"/>
+		<str id="ids_markercr" val="Creu+Rectangle"/>
+		<str id="ids_markercc" val="Creu+Cercle"/>
+		<str id="ids_markercrosswidth" val="Amplada de Creu"/>
+		<str id="ids_markercrossheight" val="Alçada de Creu"/>
+		<str id="ids_markerrectwidth" val="Amplada Rectangle"/>
+		<str id="ids_markerrectheight" val="Alçada Rectangle"/>
+		<str id="ids_markerradius" val="Radi del Cercle"/>
+		<str id="ids_markerx" val="Desplaçar x"/>
+		<str id="ids_markery" val="Desplaçar y"/>
+
+		<str id="ids_stitchfail" val="Error a l'unir."/>
+		<str id="ids_stitchplane" val="Plà"/>
+		<str id="ids_stitchcylindrical" val="Cilíndric"/>
+		<str id="ids_stitchspherical" val="Esfèric"/>
+		<str id="ids_stitchfisheye" val="Ull de Peix"/>
+		<str id="ids_stitchstereographic" val="Stereogràfic"/>
+		<str id="ids_stitchmercator" val="Mercator"/>
+		<str id="ids_stitchtransversemercator" val="Transveral de Mercator"/>
+		<str id="ids_stitchseamfindervoronoi" val="Diagrama Voronoi"/>
+		<str id="ids_stitchseamfindergraphcutcolor" val="Gràfic Tall Color"/>
+		<str id="ids_stitchseamfindergraphcutcolorgrad" val="Gràfic Tall Color Grad"/>
+		<str id="ids_stitchecbg" val="Bloqueig Gain"/>
+		<str id="ids_stitchbaray" val="Ajustar Ray"/>
+		<str id="ids_stitchbareproj" val="Reprojectar error"/>
+
+		<str id="ids_crosssingle" val="Únic"/>
+		<str id="ids_cross1" val="Doble (1 Píxel)"/>
+		<str id="ids_cross3" val="Doble (3 Píxels)"/>
+		<str id="ids_cross5" val="Doble (5 Píxels)"/>
+		<str id="ids_cross7" val="Doble (7 Píxels)"/>
+		<str id="ids_cross9" val="Doble (9 Píxels)"/>
+		<str id="ids_cursorcross" val="Creu"/>
+		<str id="ids_cursorpoint" val="Punt"/>
+		<str id="ids_cursornull" val="Nul"/>
+
+		<str id="ids_markergeo" val="Marcar"/>
+
+		<str id="ids_miscsplash" val="Mostrar pantalla d'inici"/>
+		<str id="ids_miscscreensaver" val="Omitir salva-pantalla durant vista prèvia / captura vídeo"/>
+		<str id="ids_misctft" val="Format d'arxiu"/>
+		<str id="ids_misctftremind" val="Recordeu-me quan el format del fitxer no admet objectes de mesura"/>
+		<str id="ids_miscsidebar" val="Barra laterals"/>
+		<str id="ids_miscsidebar_camera" val="Activació automàtica del barra laterals de càmera al iniciar la càmera"/>
+		<str id="ids_miscsidebarmeasurement" val="Activar automàticament el barra laterals de medicions al mesurar"/>
+		<str id="ids_miscsidebarfolders" val="Activar automàticament el barra laterals de les carpetes al obrir el buscador"/>
+		<str id="ids_miscsidebarbrowse" val="Mostrar automàticament el buscador amb un doble clic a carpetes"/>
+		<str id="ids_miscsidebarcamerastartup" val="Activació automàtica del barra laterals de càmera al inici"/>
+		<str id="ids_miscuistyle" val="Estil UI"/>
+		<str id="ids_miscprivacy" val="Privacitat"/>
+		<str id="ids_miscrecent" val="Nombre màxim d'Arxius Recents"/>
+		<str id="ids_miscclear" val="Borrar Arxius Recents al sortir"/>
+		<str id="ids_miscrestore" val="Restaurar directori actual al reiniciar"/>
+		<str id="ids_misclang" val="Idioma"/>
+		<str id="ids_miscte" val="Activar al reiniciar"/>
+
+		<str id="ids_urimploperation" val="Operació"/>
+		<str id="ids_urtoolbarcopy" val="Copiar"/>
+
+		<str id="ids_pdmorphologic" val="Operació Morfològica"/>
+		<str id="ids_pdmuststructure" val="Escollir una estructura."/>
+		<str id="ids_pdnostructure" val="Estructura inexistent."/>
+		<str id="ids_pdselectstructure" val="Seleccionar una estructura."/>
+		<str id="ids_pddeletesure" val="Eliminar: Segur?"/>
+		<str id="ids_pdenhancement" val="Millora d'Imatge"/>
+		<str id="ids_pdbestfit" val="Afinar Ajust"/>
+		<str id="ids_pdequalize" val="Equalitzador"/>
+		<str id="ids_pdundo" val="Desfer"/>
+		<str id="ids_pdconvertbit" val="Convertir a 8bit o 24bit?"/>
+		<str id="ids_pdexceed" val="Àrea Excedida!"/>
+		<str id="ids_pdkernel" val="Operació Kernel"/>
+		<str id="ids_pdmustname" val="Introduïr un nom."/>
+		<str id="ids_pdkernelsize" val="Mida Kernel Invàlida."/>
+		<str id="ids_pdinputvalue" val="Introduïr un valor."/>
+		<str id="ids_pdoverwrite" val="Estructura existent! Desitja renombrar?"/>
+		<str id="ids_pdedge" val="Operació Edge"/>
+		<str id="ids_pdautolevel" val="Sistema Auto"/>
+		<str id="ids_pdautocontrast" val="Contrast Automàtic"/>
+		<str id="ids_pdbcadj" val="Ajustar Brillantor/Contrast"/>
+		<str id="ids_pdcoloradj" val="Ajustar Color"/>
+		<str id="ids_pdhmsadj" val="Ajustar HMS"/>
+		<str id="ids_pdgammaadj" val="Ajustar Gamma"/>
+		<str id="ids_pdhistogram" val="Equalització Histograma"/>
+		<str id="ids_pdcurve" val="Adjustar Curva"/>
+		<str id="ids_pdcolorquantize" val="Quantificar Color: %d Bit(s)"/>
+		<str id="ids_pdbinary" val="Binari"/>
+		<str id="ids_pdgray" val="Gris"/>
+		<str id="ids_pdinvert" val="Invertir"/>
+		<str id="ids_pdrotatecw" val="Girar CW"/>
+		<str id="ids_pdrotateccw" val="Girar CCW"/>
+		<str id="ids_pdcrop" val="Retallar"/>
+		<str id="ids_pdimagescale" val="Escala Imatge"/>
+		<str id="ids_pdfliphorz" val="Gir Horizontal"/>
+		<str id="ids_pdflipvert" val="Gir Vertical"/>
+		<str id="ids_pdrange" val="Rang"/>
+		<str id="ids_pdfilters" val="Filtres"/>
+		<str id="ids_pdinvalidheight" val="Alçada invàlida."/>
+		<str id="ids_pdfiltercolor" val="Filtre Color"/>
+		<str id="ids_pdextractcolor" val="Extreure Color"/>
+		<str id="ids_pdluminosity" val="Lluminositat"/>
+		<str id="ids_bilinear" val="Bi-lineal"/>
+		<str id="ids_bicubic" val="Bi-cubic"/>
+
+		<str id="ids_filtermorp" val="Morfologia"/>
+		<str id="ids_filterenhance" val="Millora d'Image"/>
+		<str id="ids_filteredge" val="Millora de Perfil"/>
+
+		<str id="ids_extraopenfail" val="Error al obrir arxiu de configuració."/>
+		<str id="ids_extrasaveit" val="L'actual coloració a canviat, voleu guardar-la?"/>
+		<str id="ids_extradyeexist" val="Existèix una coloració amb el mateix nom."/>
+		<str id="ids_extradeleteitem" val="Esteu segurs de voler eliminar aquest element?"/>
+		<str id="ids_extrasavedata" val="Voleu guardar les dades?"/>
+		<str id="ids_extrareloaddata" val="Voleu cargar totes les dades?"/>
+		<str id="ids_extraforfile" val="Per Arxiu"/>
+
+		<str id="ids_labelaxis" val="Eix"/>
+		<str id="ids_labelwidthheight" val="Amplada i Alçada"/>
+
+		<str id="ids_layer" val="Capa"/>
+		<str id="ids_sheet" val="Taula Medicions"/>
+		<str id="ids_sheet2" val="Centre"/>
+		<str id="ids_sheet3" val="Diàmetre"/>
+		<str id="ids_sheet4" val="Àrea"/>
+		<str id="ids_sheet5" val="Llargada"/>
+		<str id="ids_sheet7" val="Inici"/>
+		<str id="ids_sheet8" val="Finla"/>
+		<str id="ids_sheet9" val="Distància"/>
+		<str id="ids_point" val="Punt"/>
+		<str id="ids_pointname" val="Punt%d"/>
+		<str id="ids_intersection" val="Intersecció"/>
+		<str id="ids_foot" val="Base"/>
+		<str id="ids_slope" val="Inclinació"/>
+		<str id="ids_perimeter" val="Perímetre"/>
+		<str id="ids_center" val="Centre"/>
+		<str id="ids_arclength" val="Perímetre"/>
+		<str id="ids_ratio" val="Rati"/>
+		<str id="ids_axes" val="Eixos"/>
+		<str id="ids_lunit0" val="Unitat"/>
+		<str id="ids_lunit2" val="Símbol"/>
+		<str id="ids_lunit4" val="Escala"/>
+		<str id="ids_noname" val="[Sense Nom]"/>
+		<str id="ids_layerbackground" val="Fons"/>
+		<str id="ids_layername" val="Nom de la Capa"/>
+		<str id="ids_sysunit" val="Sistema"/>
+		<str id="ids_userunit" val="Usuari"/>
+		<str id="ids_errorfile" val="Arxiu format error."/>
+		<str id="ids_errordata" val="Arxiu data error."/>
+		<str id="ids_only1layer" val="No es pot borrar l'última capa."/>
+		<str id="ids_removecurrent" val="No es pot eliminar la capa."/>
+		<str id="ids_removelayer" val="Voleu eliminar aquesta capa?"/>
+		<str id="ids_removeitem" val="Voleu eliminar els elements selecionats"/>
+		<str id="ids_removeunit" val="Unitat eliminada correctament."/>
+		<str id="ids_unitsymbol" val="El símbol no pot estar buit."/>
+		<str id="ids_invalidratio" val="Rati invàlid."/>
+		<str id="ids_sameunit" val="Error al afegir aquesta unitat per l'existència d'una unitat amb el mateix nom."/>
+		<str id="ids_samesymbol" val="Error al afegir aquesta unitat per l'existència d'una unitat amb el mateix símbol."/>
+		<str id="ids_layersamename" val="Existèix un altre(s) capa(es) amb el mateix nom.\nVoleu continuar?"/>
+		<str id="ids_nametolong" val="El nom és massa llarg."/>
+		<str id="ids_symboltolong" val="El símbol és massa llarg."/>
+		<str id="ids_toomanyunit" val="Masses unitats definides."/>
+		<str id="ids_addunit" val="1. Escala és la relació entre un metre i una unitat específica. Exemple:\n  Un metre dividit en mil.límetres és 1000 i pot expressar-se com una unitat específica 1e3.\n	 Un metre en kilòmetres és 0.001, i s'escriu com 1e-3.\n\n2. Símbol: com a &quot;m&quot; per metre, &quot;cm&quot; per centímetre."/>
+		<str id="ids_lengthunit" val="Unitat de Llargada"/>
+		<str id="ids_angleunit" val="Unitat d'Àngle"/>
+		<str id="ids_measurelist" val="Fitxa"/>
+		<str id="ids_angle" val="Àngle"/>
+		<str id="ids_ellipse" val="El.lipse"/>
+		<str id="ids_line" val="Línia"/>
+		<str id="ids_point" val="Punt"/>
+		<str id="ids_parallel" val="Paral.lela"/>
+		<str id="ids_line3" val="Paral.lela (3 Punts)"/>
+		<str id="ids_line2" val="Paral.lela (4 Punts)"/>
+		<str id="ids_line4" val="Paral.lele (8 Punts)"/>
+		<str id="ids_linea" val="Paral.lele (Arbitrària)"/>
+		<str id="ids_verany" val="Vertical (Arbitrària)"/>
+		<str id="ids_circle" val="Cercle"/>
+		<str id="ids_annulus" val="Anell"/>
+		<str id="ids_twocircles" val="Dos Cercles"/>
+		<str id="ids_curve" val="Curva"/>
+		<str id="ids_appearance" val="Apariència"/>
+		<str id="ids_geometry" val="Geometria"/>
+		<str id="ids_coordinates" val="Coordenades"/>
+		<str id="ids_lsize" val="Mida"/>
+		<str id="ids_mlinewidth" val="Amplada Línia Auxiliar"/>
+		<str id="ids_linecolor" val="Color Línia"/>
+		<str id="ids_mlinecolor" val="Color Línia Auxiliar"/>
+		<str id="ids_linestyle" val="Estil de la Línia"/>
+		<str id="ids_mlinestyle" val="Estil Línia Auxiliar"/>
+		<str id="ids_fill" val="Omplir"/>
+		<str id="ids_mline" val="Mostrar Línia Auxiliar"/>
+		<str id="ids_amarker" val="Mostrar el marcador d'angle"/>
+		<str id="ids_circled" val="Mostrar Diàmetre / Radi"/>
+		<str id="ids_circlec" val="Mostrar Centre"/>
+		<str id="ids_fillcolor" val="Omplir Color"/>
+		<str id="ids_arrow" val="Fletxa"/>
+		<str id="ids_textcolor" val="Color Text"/>
+		<str id="ids_textalign" val="Alinear Text"/>
+		<str id="ids_edittext" val="Editar Text"/>
+		<str id="ids_textleft" val="Esquerra"/>
+		<str id="ids_textright" val="Dreta"/>
+		<str id="ids_ltoolbarshow" val="Mostrar/Amagar"/>
+		<str id="ids_fontstyle1" val="Negreta"/>
+		<str id="ids_fontstyle2" val="Itàlica"/>
+		<str id="ids_fontstyle3" val="Negreta i Itàlica"/>
+		<str id="ids_labeltype" val="Format Etiqueta"/>
+		<str id="ids_labelpos" val="Posició Etiqueta"/>
+		<str id="ids_ltrans" val="Fons Transparent"/>
+		<str id="ids_lbkclr" val="Color de Fons"/>
+		<str id="ids_ecce" val="Excentricitat"/>
+
+		<str id="ids_angle3p" val="Àngle (3 Punts)"/>
+		<str id="ids_angle4p" val="Àngle (4 Punts)"/>
+		<str id="ids_circle1" val="Cercle (Centre+Ràdi)"/>
+		<str id="ids_circle2" val="Cercle (2 Punts)"/>
+		<str id="ids_circle3" val="Cercle (3 Punts)"/>
+		<str id="ids_annulus2" val="Anell (Centre+Ràdi)"/>
+		<str id="ids_annulus3" val="Anell (3 Punts)"/>
+		<str id="ids_vertical3p" val="Vertical (3 Punts)"/>
+		<str id="ids_vertical4p" val="Vertical (4 Punts)"/>
+		<str id="ids_ellipse2p" val="El.lipse (2 Punts)"/>
+		<str id="ids_ellipse5p" val="El.lipse (5 Punts)"/>
+		<str id="ids_ellipse3p" val="El.lipse (3 Punts)"/>
+		<str id="ids_vline" val="Línia Vertical"/>
+		<str id="ids_hline" val="Línia Horizontal"/>
+		<str id="ids_twocircle3p" val="Dos Cercles (Centre+Ràdi)"/>
+		<str id="ids_twocircle2p" val="Dos Cercles (3 Punts)"/>
+		<str id="ids_line3p" val="Línia (3 Punts)"/>
+		<str id="ids_vline3p" val="Línia Vertical (3 Punts)"/>
+		<str id="ids_hline3p" val="Línia Horizontal (3 Punts)"/>
+		<str id="ids_linemulti" val="Línia (Connexió multipunt)"/>
+
+
+		<str id="ids_errgeneric" val="Error Genèric."/>
+		<str id="ids_errnullname" val="Nom no pot estar buit."/>
+		<str id="ids_errsamename" val="Nom existent."/>
+		<str id="ids_errsameid" val="ID existent."/>
+		<str id="ids_erropenfile" val="Error a l'obrir arxiu."/>
+		<str id="ids_errfileformat" val="Format arxiu erròni."/>
+		<str id="ids_errmsgproduct" val="No coincidèix càmera model."/>
+		<str id="ids_errusb" val="Desajustament de la versió USB."/>
+		<str id="ids_errmode" val="Desajustament de mode."/>
+
+		<str id="ids_tftlossless" val="Sense pèrdues"/>
+		<str id="ids_tftjpg" val="JPG (imperfecte)"/>
+
+		<str id="ids_resetlayout" val="La finestra del layout es cargarà després d'iniciar App."/>
+		<str id="ids_startbroadcast" val="Inici &amp;Reproducció..."/>
+		<str id="ids_stopbroadcast" val="Stop &amp;Reproducció"/>
+
+		<str id="ids_stackingfail" val="Error sobreposició Imatges."/>
+
+		<str id="ids_objcount" val="Segmentació &amp; Contèig"/>
+		<str id="ids_objsplit" val="Dividir Objecte"/>
+		<str id="ids_objcountosoutline" val="Perfilar"/>
+		<str id="ids_objcountosfilled" val="Omplir"/>
+
+		<str id="ids_counthisv" val="Valor"/>
+
+		<str id="ids_edfc" val="Màxim Contrast"/>
+		<str id="ids_edfw" val="Promig Equilibrat"/>
+		<str id="ids_edfs" val="Apilar"/>
+		<str id="ids_edffm" val="Opcions FFDSSD"/>
+		<str id="ids_edfcapture" val="Captura Imatge"/>
+		<str id="ids_edfmethod" val="Sel.leccionar Mètode"/>
+		<str id="ids_edfself" val="Seleccionar Arxius"/>
+		<str id="ids_edfaa" val="Auto Alinear"/>
+		<str id="ids_edfadesc" val="Seleccionar el mode correcte Auto Alinear, calibrar o rotar les imàtges per poder processar.\n\nEl temps d'utilització del EDF està relacionat amb l'angle màxim. El temps augmentarà quan l'angle incrementi en relació al plà. Per defecte l'àngle màxim és 1.0°."/>
+		<str id="ids_edfcaptips" val="Ajustar el microscòpi fins obtenir varies zones clares i enfocades. Capturar una imatge de la mostra en diferents posicions. Els ajustaments dependràn de cada usuari. S'obtindràn més detalls com més subtils siguin les distàncies entre els diferents plans focals. La posició de la mostra i del microscòpi hauría de canviar en una sola direcció."/>
+		<str id="ids_edfpdesc" val="Els tres valors no són aïllats. La claretat afecta a la precisió i al resultat del detall. La brillantor del fons és el valor de desviació utilitzat per afegir o reduïr intensitat al fons de l'imàtge. Aquests dos paràmetres donen con a resultat la brillantor correcte. Per aquesta raó, la brillantor s'ha d'ajustar correctament."/>
+		<str id="ids_edfmdesc" val="\tEl promig equilibrat, crea una fusió que pot reduïr els resultats en els detall de la imatge. Aquesta opció oferèix superiors resultats que el mètode FFDSSD amb les capes més fondes obtingudes amb un microscòpi. S'aconsella al processar aquestes imatges, que estiguin ordenades en relació a Z (de més propera a més allunyada o de més allunyada a més propera en relació amb la mostra).\n\tLa opció Màxim Contrast és similar a la opció de promig equilibrat i les imatges també hauràn de seguir un order en relació a Z. La diferència és que amb l'opció màxim contrast es poden perdre detalls. La opció màxim contrast és la opció EDF aconsellada.\n\tFFDSSD és la opció que filtra la freqüència utilitzant Fast Fourier Transform (FFT). FFDSSD pot utilitzar-se amb imatges amb una alineació incorrecte. Els usuàris poden sel.leccionar manual o automàticament les imatges per tal d'obtenir-ne una d'alineada."/>
+		<str id="ids_maxedf" val="Masses imatges. El nombre d'imatges no pot superar %u."/>
+
+		<str id="ids_reticule" val="Retícle"/>
+
+		<str id="ids_panefloating" val="&amp;Flotant"/>
+		<str id="ids_panedocking" val="A&amp;coplat"/>
+		<str id="ids_paneautohide" val="&amp;Auto Amagar"/>
+		<str id="ids_panehide" val="A&amp;magar"/>
+		<str id="ids_scrright" val="Desplaça't cap a la dreta"/>
+		<str id="ids_scrleft" val="Desplaça't cap a la esquerra"/>
+		<str id="ids_autohide" val="Auto Amagar"/>
+        <str id="ids_winpos" val="Posició de la finestra"/>
+
+		<str id="ids_wmdtitle" val="Finestres"/>
+		<str id="ids_wmdselwin" val="Seleccionar finestra:"/>
+		<str id="ids_wmdactivate" val="Activat"/>
+		<str id="ids_wmdsave" val="Salvar"/>
+		<str id="ids_wmdclose" val="Tancar Finestra(es)"/>
+		<str id="ids_wmdcasc" val="Cataràta"/>
+		<str id="ids_wmdtileh" val="Títol Horizontal"/>
+		<str id="ids_wmdtilev" val="Títol Vertical"/>
+		<str id="ids_wmdmini" val="Minimitzar"/>
+
+		<str id="ids_colorstandard" val="Estandard"/>
+		<str id="ids_colorcolorscolon" val="Colors:"/>
+		<str id="ids_colorselect" val="Seleccionar..."/>
+		<str id="ids_colorhue" val="Tò:"/>
+		<str id="ids_colorsaturation" val="Saturació:"/>
+		<str id="ids_colorluminence" val="Lluminositat:"/>
+		<str id="ids_colorred" val="Vermell:"/>
+		<str id="ids_colorgreen" val="Verd:"/>
+		<str id="ids_colorblue" val="Blau:"/>
+
+		<str id="ids_unsupportformat" val="Format d'imatge no compatible."/>
+		<str id="ids_hdrfail" val="Error al sintetitzar HDR."/>
+
+		<str id="ids_miscopencl" val="Permetre GPU accelerador de processador d'imatge"/>
+
+		<str id="ids_sharpen" val="Perfilar"/>
+		<str id="ids_decolor" val="Decolorejar"/>
+		<str id="ids_detailenhance" val="Realçar Detalls"/>
+		<str id="ids_smooth" val="Suavitzar"/>
+
+		<str id="ids_llc" val="Correció del Color"/>
+
+		<str id="ids_autocapture" val="Auto Captura"/>
+
+		<str id="ids_pxsize" val="Mida del píxel"/>
+
+		<str id="ids_extrigger" val="Extern"/>
+
+		<str id="ids_tempunit" val="Unitats de temperatura"/>
+
+		<str id="ids_batchrecord" val="Grabar Sèrie"/>
+		<str id="ids_autocapture" val="Auto Captura"/>
+		<str id="ids_startacapture" val="&amp;Auto Captura"/>
+		<str id="ids_stopacapture" val="&amp;Stop Captura"/>
+		<str id="ids_pause" val="Inici/Pausa"/>
+
+		<str id="ids_compatible" val="Compatible amb"/>
+
+		<str id="ids_hwver" val="Versió de maquinari"/>
+		<str id="ids_fwver" val="Versió de firmware"/>
+		<str id="ids_fpgaver" val="Versió de FPGA"/>
+		<str id="ids_mcuver" val="Versió de MCU"/>
+
+		<str id="ids_toolbarhtml" val="Exportar a Html"/>
+
+		<str id="ids_background" val="Fons"/>
+		<str id="ids_saveas" val="Guardar com"/>
+
+		<str id="ids_tctitle" val="Comandaments"/>
+		<str id="ids_tckey" val="Teclat"/>
+		<str id="ids_tccat" val="Categories:"/>
+		<str id="ids_tccmd" val="Comandaments:"/>
+		<str id="ids_tcallcmd" val="Tots els comandaments"/>
+		<str id="ids_addrbtn" val="&amp;Afegeix o elimina botons"/>
+		<str id="ids_toolbarreset" val="&amp;Reinicia Barra d'Eines"/>
+		<str id="ids_resetask" val="Esteu segur de restablir la barra d'eines?"/>
+		<str id="ids_tctip" val="Per afegir el botó, arrossegueu el botó d'ordre al costat dret a la barra d'eines.\r\nPer treure el botó, arrossegueu el botó de la barra d'eines."/>
+		<str id="ids_kcate" val="&amp;Categoria:"/>
+		<str id="ids_kcmd" val="C&amp;omandaments:"/>
+		<str id="ids_krem" val="&amp;Eliminar"/>
+		<str id="ids_kres" val="&amp;Reiniciar tot"/>
+		<str id="ids_kass" val="&amp;Assignar"/>
+		<str id="ids_kato" val="Assignat a:"/>
+		<str id="ids_knew" val="Premeu la tecla de drecera &amp;nova:"/>
+		<str id="ids_kcur" val="Claus &amp;actuals:"/>
+		<str id="ids_unass" val="[Sense signar]"/>
+		<str id="ids_kreset" val="Tots els canvis es perdran. Realment voleu restablir les tasques del teclat?"/>
+
+		<str id="ids_imagetype" val="Tipus d'imatge"/>
+
+		<str id="ids_focal" val="Longitud focal"/>
+		<str id="ids_temp" val="Temperatura del sensor"/>
+		<str id="ids_longitude" val="Longitud, Gamma = [-180.0, 180.0], com ara 15.715, 15.715E, 15°42'9&quot;E"/>
+		<str id="ids_latitude" val="Latitud, Gamma = [-90.0, 90.0], com ara 15.715, 15.715N, 15°42'9&quot;N"/>
+
+		<str id="ids_str" val="Cadena"/>
+		<str id="ids_int" val="Enter"/>
+
+		<str id="ids_temptint" val="Temperatura del Color/Tint"/>
+		<str id="ids_rgbgain" val="RGB Gain"/>
+
+		<str id="ids_even" val="Si us plau, introduïu un nombre parell."/>
+
+		<str id="ids_report" val="Informe"/>
+		<str id="ids_reportresall" val="El contingut de la plantilla serà esborrat i substituïda per la plantilla d'omissió. Esteu segur que voleu continuar?"/>
+
+		<str id="ids_exportexcel" val="Exportar a Microsoft Excel"/>
+		<str id="ids_exportcsv" val="Exportar a CSV"/>
+		<str id="ids_csvplus" val="Flux de treball"/>
+		
+		<str id="ids_toofar" val="Massa lluny"/>
+		<str id="ids_tooclose" val="Massa aprop"/>
+
+		<str id="ids_webppresetphoto" val="Foto"/>
+		<str id="ids_webppresetpicture" val="Imatge"/>
+		<str id="ids_webppresetdrawing" val="Dibuix"/>
+		<str id="ids_webppreseticon" val="Icona"/>
+
+		<str id="ids_gpuwin8" val="La codificació de maquinari (GPU) només està disponible a Windows 8 o superior."/>
+
+		<str id="ids_cursorcross" val="Creu"/>
+
+		<str id="ids_edges" val="Aresta"/>
+		<str id="ids_avgang" val="Angle mitjana"/>
+		<str id="ids_seglength" val="Longitud del segment"/>
+		<str id="ids_avglength" val="Longitud mitjana"/>
+		<str id="ids_ttllength" val="Longitud total"/>
+		<str id="ids_randomcon" val="Connexió aleatòria"/>
+		<str id="ids_multicon" val="Connexió multipunt"/>
+		<str id="ids_segdistance" val="Distància del segment"/>
+		<str id="ids_avgdistance" val="Distància mitjana"/>
+		<str id="ids_ttldistance" val="Distància total"/>
+
+		<str id="ids_exportmea" val="Exportar i Fusiona"/>
+
+		<str id="ids_expseglen0" val="Exportar a Portapapers"/>
+		<str id="ids_expseglen1" val="Exportar a CSV Arxiu"/>
+		<str id="ids_expseglen2" val="Exportar a Microsoft Excel"/>
+
+		<str id="ids_fastest" val="Més ràpid"/>
+		<str id="ids_slowest" val="Més lenta"/>
+
+		<str id="ids_edgelen" val="Longitud del aresta"/>
+		<str id="ids_avgedge" val="Longitud mitjana del aresta"/>
+
+		<str id="ids_policy" val="Estratègia"/>
+		<str id="ids_ae0" val="Només exposició"/>
+		<str id="ids_ae1" val="Exposició prioritat"/>
+		<str id="ids_ae2" val="Només gain"/>
+		<str id="ids_ae3" val="Gain prioritat"/>
+		<str id="ids_aeexpmax" val="Temps d'exposició màxim"/>
+		<str id="ids_aegainmax" val="Gain màxim"/>
+
+		<str id="ids_csvutf8" val="Utilitza UTF8 conjunt de caràcters en CSV"/>
+
+		<str id="ids_ccdpro" val="Progressiva"/>
+		<str id="ids_ccdint" val="Entrellaçada"/>
+		<str id="ids_glsh" val="Obturador Global"/>
+		<str id="ids_rosh" val="Obturador Rolling"/>
+		<str id="ids_isp" val="Maquinari ISP"/>
+
+		<str id="ids_timestamp" val="Segellat de temps"/>
+
+		<str id="ids_meanintensity" val="Intensitat mitjana"/>
+		<str id="ids_intensity" val="Intensitat"/>
+
+		<str id="ids_typemis" val="Tipus desajust"/>
+		<str id="ids_showsub" val="Mostra els subobjectes"/>
+
+		<str id="ids_pbslow" val="Lent"/>
+		<str id="ids_pbfast" val="Ràpid"/>
+
+		<str id="ids_connection" val="Connexió"/>
+
+		<str id="ids_multicast" val="Multidifusió"/>
+		<str id="ids_unicast" val="Unidifusió"/>
+
+		<str id="ids_custommo" val="Mesurament personalitzat"/>
+
+		<str id="ids_tecpower" val="TEC Poder"/>
+
+		<str id="ids_page" val="Pàgina"/>
+		<str id="ids_nextp" val="Pàgina següent"/>
+		<str id="ids_prevp" val="Pàgina anterior"/>
+		<str id="ids_firp" val="Primera pàgina"/>
+		<str id="ids_lasp" val="Última pàgina"/>
+        
+        <str id="ids_stat" val="Estadístiques"/>
+        
+		<str id="ids_hsty" val="Estil H"/>
+		<str id="ids_half" val="Meitat"/>
+		<str id="ids_acum" val="Mode acumulatiu"/>
+		<str id="ids_comp" val="Composició"/>
+
+		<str id="ids_powerc" val="Consum d'energia"/>
+
+		<str id="ids_writabledir" val="El directori no existeix o no es pot escriure."/>
+
+		<str id="ids_namepre" val="Prefix de nom"/>
+
+		<str id="ids_cmptip" val="Seleccioneu 1 o 3 elements per comparar-los amb l'actual:\r\n&quot;%s&quot;"/>
+
+		<str id="ids_relt" val="Resultat"/>
+        
+        <str id="ids_exsf" val="Exporta la configuració actual al &amp;arxiu..."/>
+        <str id="ids_exse" val="Exporta la configuració actual al &amp;EEPROM"/>
+        <str id="ids_exsa" val="Adreça &amp;especificada..."/>
+        <str id="ids_exs0" val="Adreça &amp;zero"/>
+		<str id="ids_extemp" val="Exporta l'historial de &amp;temperatures..."/>
+        
+        <str id="ids_cpattern" val="Patró a quadres"/>
+		
+		<str id="ids_ocws" val="Vertent"/>
+		<str id="ids_ocsd" val="OTSU Fosc"/>
+		<str id="ids_ocsb" val="OTSU Clar"/>
+		
+		<str id="ids_ebusy" val="La càmera és utilitzada per altres aplicacions."/>
+		<str id="ids_ecrc" val="La font d'alimentació pot ser insuficient."/>
+		
+		<str id="ids_squ" val="Seqüència"/>
+		
+		<str id="ids_littleend" val="Petit Endian"/>
+		<str id="ids_bigend" val="Gran Endian"/>
+		<str id="ids_bnum" val="Nombre de bytes"/>
+		
+		<str id="ids_deqdepth" val="Longitud del buffer de fotogrames"/>
+		<str id="ids_tecam" val="Feu efecte després de tornar a obrir la càmera"/>
+				
+		<str id="ids_gridm" val="Quadrícula: Fusiona a Imatge"/>
+		
+		<str id="ids_motion" val="En moviment"/>
+		<str id="ids_idle" val="Ociós"/>
+		
+		<str id="ids_grc" val="Genèric"/>
+		<str id="ids_pta" val="Anàlisi de partícules"/>
+		<str id="ids_phc" val="Recompte de fases"/>
+		<str id="ids_oth" val="Altres"/>
+		
+		<str id="ids_farea" val="Zona d'enfocament"/>
+		
+		<str id="ids_fscr" val="Pantalla complerta"/>
+		<str id="ids_xfscr" val="Tanca la pantalla completa"/>
+		
+		<str id="ids_updategige" val="S'ha completat correctament, apagueu i reinicieu la càmera."/>
+		
+		<str id="ids_gainshow" val="El guany d'exposició s'expressa com:"/>
+		<str id="ids_decibel" val="Decibels (dB)"/>
+		
+		<str id="ids_workd" val="Distància de treball"/>
+		<str id="ids_efl" val="Distància focal efectiva"/>
+		
+		<str id="ids_notcal" val="No calibrat"/>
+		
+		<str id="ids_opencom" val="No s'ha pogut obrir %s."/>
+		
+		<str id="ids_chamber" val="Cambra"/>
+		<str id="ids_humidity" val="Humitat"/>
+	</string>
+
+	<dialog>
+		<str id="ids_man" val="Gestió"/>
+		<str id="ids_tips" val="Sugerències"/>
+		<str id="ids_clear" val="Netejar"/>
+		<str id="ids_snap" val="Foto"/>
+		<str id="ids_reco" val="Grabar"/>
+		<str id="ids_qu" val="Quantitat"/>
+		<str id="ids_bf" val="Ajust Òptim"/>
+		<str id="ids_seq" val="El número de sèrie comença amb:"/>
+		<str id="ids_number" val="Número"/>
+		<str id="ids_qu100" val="Qualitat (25-100):"/>
+		<str id="ids_aval" val="Disponibles"/>
+		<str id="ids_sedl" val="Seleccionades"/>
+		<str id="ids_adgt" val="Afegir&gt;&gt;"/>
+		<str id="ids_aagt" val="Afegir tot"/>
+		<str id="ids_v" val="Valor:"/>
+		<str id="ids_border" val="Ordre de bytes:"/>
+		<str id="ids_sm" val="Mode d'obturació:"/>
+		<str id="ids_unidir" val="Unidireccional"/>
+		<str id="ids_defi" val="Definir..."/>
+		<str id="ids_tb" val="Taula Colors"/>
+		<str id="ids_conmode" val="Mode continu"/>
+		<str id="ids_timeval" val="Interval de temps:"/>
+	
+		<dlg id="IDD_ABOUTBOX">
+			<str id="up" val="Actualització Software"/>
+		</dlg>
+
+		<dlg id="IDD_AUTO">
+			<str id="dir" val="Directori:"/>
+			<str id="for" val="Nom del Format:"/>
+			<str id="pre" val="Prefixe de l'Arxiu:"/>
+			<str id="time" val="Interval de temps(segons):"/>
+			<str id="tt" val="Imatges Complertes"/>
+			<str id="sub" val="Sots:"/>
+			<str id="cm" val="Captura Mode"/>
+			<str id="ef" val="Captura cada fotograma"/>
+			<str id="so" val="Opcions de seqüència"/>
+			<str id="sv" val="Mostra a la finestra del vídeo"/>
+			<str id="sw" val="Mostra en una finestra nova"/>
+			<str id="sd" val="Desar al disc"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHSAVE">
+			<str id="tl" val="Guardar Sèrie"/>
+			<str id="dir" val="Directori:"/>
+			<str id="for" val="Non del Format:"/>
+			<str id="pre" val="Prefixe de l'Arxiu:"/>
+			<str id="show" val="Mostrar finestra de diàleg i renombrar"/>
+			<str id="sub" val="Sots:"/>
+			<str id="qst" val="1. Els anteriors ajustaments s'aplicaràn a &quot;Guardar Ràpid&quot; menu i el corresponent icone de la barra d'eines. Quan activem &quot;Guia Ràpida&quot;, les imatges es guardaran en relació als paràmetres que prèviament s'especificaven al directori.\n2. Si es selecciona el RGB48, la imatge sempre es guardarà com a fitxer tif o png perquè només el fitxer tif i png podria suportar el RGB48."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD">
+			<str id="dir" val="Directori:"/>
+			<str id="frm" val="Non del Format:"/>
+			<str id="pf" val="Prefixe de l'Arxiu:"/>
+			<str id="sh" val="Mostrar finestra de diàleg i renombrar"/>
+			<str id="lm" val="Límit"/>
+			<str id="tl" val="Temps Límit (segons):"/>
+			<str id="fl" val="Frame Límit:"/>
+			<str id="sub" val="Sots:"/>
+			<str id="fo" val="Opcions de nom de fitxer..."/>
+			<str id="do" val="Opcions de Directori..."/>
+		</dlg>
+
+		<dlg id="IDD_BATCHRECORD">
+			<str id="num" val="Número de vídeos:"/>
+			<str id="it" val="Temps inteval (segons):"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_SELECT">
+			<str id="open" val="Obrir:"/>
+			<str id="se" val="Seleccionat:"/>
+			<str id="pro" val="Avanç:"/>
+			<str id="aa" val="Afegir Tot"/>
+			<str id="fuse" val="Iniciar"/>
+			<str id="m" val="Mètode:"/>
+		</dlg>
+
+		<dlg id="IDD_MAG">
+			<str id="cla" val="Netejar Tot"/>
+		</dlg>
+
+		<dlg id="IDD_CALIBRATE">
+			<str id="ac" val="Longitud Actual"/>
+			<str id="pi" val="Píxel"/>
+			<str id="pm" val="Píxel/Metre"/>
+			<str id="ep" val="Punt de Finalització"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAEXPOSURE">
+			<str id="autoexposure" val="Auto Exposició"/>
+			<str id="target" val="Exposició Objectiu:"/>
+			<str id="exposuretime" val="Temps d'Exposició:"/>
+			<str id="ll" val="Compensació baixa il.luminació"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAHISTOGRAM">
+			<str id="l" val="Esquerre:"/>
+			<str id="r" val="Dreta:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALS">
+			<str id="desc" val="La funció Anti-parpadèix sols disponible amb camares que disposin de detector rolling shutter(la majoría dels sensors cmos) i amb la funció auto exposició desactivada. Activant aquesta funció tan sols activarem certs valors de l'exposició, i intrinsecament relacionets amb la freqüència sel.leccionada."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAMODE">
+			<str id="gray" val="Gris"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERASPEED">
+			<str id="low" val="Baixa"/>
+			<str id="com" val="Posicionar la mostra correctament par assegurar-se que la camara funciona en mode vídeo amb el màxim de frames per second que la conexió USB permèti. Si el mode video dóna error, moure la mostra cap a la dreta per reduïr els frames."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAWB">
+			<str id="tem" val="Temperatura del Color:"/>
+			<str id="com" val="Moure el ROI (Indicat amb un rectangle vermell) fins a la zona més blanca o gris i clicar &quot;Balanç de Blancs&quot; per establir el balanç de blancs per futurs videos."/>
+			<str id="auto" val="Auto Balanç de Blancs"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAPRESET">
+			<str id="load" val="Cargar"/>
+			<str id="ov" val="Re-escriure"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERTXT">
+			<str id="tl" val="Sobreposar"/>
+			<str id="pos" val="Posició:"/>
+			<str id="bg" val="Fons:"/>
+			<str id="sc" val="Escala"/>
+			<str id="show" val="Mostrar"/>
+			<str id="dt" val="Data Hora"/>
+			<str id="cl" val="Factor de Claretat"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERGEO">
+			<str id="tl" val="Marcador"/>
+		</dlg>
+
+		<dlg id="IDD_OPENDLG">
+			<str id="imag" val="Informació Imatge/Vista prèvia"/>
+			<str id="cur" val="Arxiu actual:"/>
+		</dlg>
+
+		<dlg id="IDD_PROMTSAVE">
+			<str id="tl" val="Guardar Arxius"/>
+			<str id="com" val="Arxiu modificat. Voleu guardar els canvis?"/>
+			<str id="yes" val="Si a tot"/>
+			<str id="no" val="No a tot"/>
+			<str id="bat" val="Guardar Sèrie"/>
+		</dlg>
+
+		<dlg id="IDD_SFT">
+			<str id="tl" val="Formats d'imatge que donen suport a mesures"/>
+			<str id="com" val="El format se.leccionat no suporta capes i medicions. Si desitja conservar les capes i les medicions a l'imatge, seleccionar el format:"/>
+			<str id="re" val="No recordar més tard."/>
+			<str id="con" val="Continuar"/>
+			<str id="res" val="Tornar a seleccionar"/>
+		</dlg>
+
+		<dlg id="IDD_CAPTURE">
+			<str id="mk" val="Capturar amb anotacions i fons"/>
+			<str id="mm" val="Captura amb Medicions:"/>
+		</dlg>
+
+		<dlg id="IDD_GRID">
+			<str id="ru" val="Rugla Color:"/>
+			<str id="sy" val="Estil:"/>
+			<str id="lis" val="Estil Línia:"/>
+			<str id="lic" val="Estil Color:"/>
+			<str id="re" val="Retícle"/>
+			<str id="pm" val="Gestió Preseleccionat..."/>
+		</dlg>
+
+		<dlg id="IDD_WATERMARK">
+			<str id="tl" val="Fons de Vídeo"/>
+			<str id="fle" val="Imatge Arxiu:"/>
+			<str id="tip" val="Utilitzar Shift + fletxa Up/Down/Left/Right per moure el fons.\r\nUtilitzar Shift + Ctrl + fletxa Left/Right per girar o rotar el fons."/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION1">
+			<str id="dr" val="Ordenar Panorama:"/>
+			<str id="wt" val="Tipus de Projecció:"/>
+			<str id="sf" val="Buscador de costures:"/>
+			<str id="ba" val="Fotogrametría:"/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION2">
+			<str id="mc" val="Fusionar Coincidències:"/>
+			<str id="pc" val="Panorama de Conincidàncies:"/>
+			<str id="bs" val="Combinar Intensitat:"/>
+			<str id="ms" val="Fusionar Intensitat:"/>
+		</dlg>
+
+		<dlg id="IDD_PROGRESS">
+			<str id="tl" val="Progrés"/>
+		</dlg>
+
+		<dlg id="IDD_IOPT">
+			<str id="r" val="Rati de compresió"/>
+			<str id="qu" val="Qualitat d'imatge"/>
+			<str id="best" val="Millor\ncompresió"/>
+			<str id="bq" val="Millos\nqualitat"/>
+			<str id="pr" val="Progressiu"/>
+			<str id="sm" val="Estabilitzar"/>
+			<str id="op" val="Optimitzar Codificació"/>
+			<str id="in" val="Entrellaçat"/>
+			<str id="ap" val="Agregar pàgines"/>
+			<str id="s" val="Zero encoixinat:"/>
+			<str id="def" val="Guardar ajustaments com a predeterminats"/>
+			<str id="cl" val="Nivell de compressió"/>
+			<str id="fs" val="Molt\nràpida"/>
+			<str id="fh" val="Capçalera del fitxer:"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_HEADER">
+			<str id="tc" val="Tota l'informació mostrada és opcional."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP1">
+			<str id="pl" val="Seleccionar format de vídeo i encoder"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP2">
+			<str id="name" val="1. Configurar el nom de l'arxiu de vídeo capturat"/>
+			<str id="dir" val="2. Seleccionar el directori per l'arxiu de vídeo"/>
+			<str id="tc" val="L'Extensió de l'arxiu .wmv o .mp4 o .avi s'afegèig automàticament al nom del fitxer."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP3">
+			<str id="key" val="Disposició Fotogrames Clau:"/>
+			<str id="se" val="Segon(s)"/>
+			<str id="bb" val="Bitrate per defecte:"/>
+			<str id="enc" val="Codificar:"/>
+			<str id="cfg" val="Configuració..."/>
+			<str id="pa" val="Paràmetre de Codificació"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP4">
+			<str id="t" val="Limit de Temps (Minuts):"/>
+			<str id="s" val="Sumari"/>
+			<str id="a" val="Temps (Minuts):"/>
+		</dlg>
+
+		<dlg id="IDD_BROADCAST">
+			<str id="save" val="Salvar simultaneament el contingut a l'arxiu"/>
+		</dlg>
+
+		<dlg id="IDD_OPENBROADCAST">
+			<str id="tl" val="Reproducció en Obert"/>
+		</dlg>
+
+		<dlg id="IDD_MOVE">
+			<str id="tl" val="Moure"/>
+		</dlg>
+
+		<dlg id="IDD_DIAGNOSE">
+			<str id="tl" val="Diagnòstic"/>
+		</dlg>
+
+		<dlg id="IDD_CURVE">
+			<str id="tl" val="Curva"/>
+			<str id="gr" val="Quadrícula"/>
+		</dlg>
+
+		<dlg id="IDD_RANGE">
+			<str id="tl" val="Rang"/>
+			<str id="in" val="Invertir"/>
+			<str id="up" val="Actualitzar"/>
+		</dlg>
+
+		<dlg id="IDD_THRESHOLD">
+			<str id="tl" val="Binari"/>
+		</dlg>
+
+		<dlg id="IDD_PROPPAGE_MOSAICSET">
+			<str id="fo" val="Pèu de Pàgina"/>
+			<str id="ar" val="Disposició"/>
+			<str id="rows" val="Files"/>
+			<str id="col" val="Columnes"/>
+			<str id="rs" val="Espai Files"/>
+			<str id="cs" val="Separació"/>
+			<str id="ps" val="Mida de Pàgina"/>
+			<str id="ds" val="Mida Predeterminada"/>
+			<str id="pr" val="Utilitzar Impresora'es mida"/>
+			<str id="ch" val="Canviar..."/>
+			<str id="use14" val="Utilitzar 1/4 de mida"/>
+		</dlg>
+
+		<dlg id="IDD_ADJUSTBC">
+			<str id="tl" val="Ajustar Brillantor/Contrast"/>
+		</dlg>
+
+		<dlg id="IDD_AUTOSETUP">
+			<str id="tl" val="Rang Auto"/>
+			<str id="le" val="Nivell Auto"/>
+			<str id="ct" val="Contrast Auto"/>
+			<str id="low" val="Retall Suau"/>
+			<str id="high" val="Retall Intens"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR">
+			<str id="tl" val="Ajustar Color"/>
+			<str id="mo" val="Moduls Color"/>
+		</dlg>
+
+		<dlg id="IDD_COLORBITS">
+			<str id="tl" val="Canviar Color Bits"/>
+			<str id="new" val="Nous Colors Bits"/>
+		</dlg>
+
+		<dlg id="IDD_COLORSELECT">
+			<str id="tl" val="Selecció Color"/>
+		</dlg>
+
+		<dlg id="IDD_EDGE">
+			<str id="fil" val="Filtres"/>
+			<str id="sc" val="Esculpir"/>
+			<str id="va" val="Variació"/>
+			<str id="pa" val="Passos"/>
+		</dlg>
+
+		<dlg id="IDD_ENHANCE">
+			<str id="fi" val="Filtre"/>
+			<str id="equ" val="Equalització"/>
+			<str id="fl" val="Anivellar"/>
+			<str id="me" val="Mitjana"/>
+			<str id="rk" val="Rang"/>
+			<str id="pa" val="Passos"/>
+		</dlg>
+
+		<dlg id="IDD_FILLDIALOG">
+			<str id="tl" val="Insertar Valor"/>
+		</dlg>
+
+		<dlg id="IDD_GRAY">
+			<str id="tl" val="Escala de Grisos"/>
+			<str id="alg" val="Algoritme"/>
+			<str id="ave" val="Mitjana"/>
+			<str id="max" val="Màxim"/>
+			<str id="we" val="Pès"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM">
+			<str id="tl" val="Histograma"/>
+			<str id="ch" val="Canal"/>
+			<str id="le" val="Nivell:"/>
+			<str id="co" val="Calcular:"/>
+			<str id="px" val="Píxels:"/>
+			<str id="per" val="Percentil:"/>
+		</dlg>
+
+		<dlg id="IDD_KERPAGE">
+			<str id="er" val="Erosionar"/>
+			<str id="di" val="Dilatar"/>
+			<str id="open" val="Obrir"/>
+			<str id="cl" val="Tancar"/>
+			<str id="pa" val="Passos"/>
+			<str id="fi" val="Típus de Filtre"/>
+			<str id="conv" val="Circumvolució"/>
+			<str id="morp" val="Morphología"/>
+		</dlg>
+
+		<dlg id="IDD_KERSTRUCT">
+			<str id="tl" val="Editar Kernel"/>
+			<str id="size" val="Mida Kernel"/>
+			<str id="fill" val="Omplir"/>
+			<str id="bo" val="Potenciar"/>
+		</dlg>
+
+		<dlg id="IDD_MORPAGE">
+			<str id="fil" val="Filtres"/>
+			<str id="er" val="Erosionar"/>
+			<str id="di" val="Dilatar"/>
+			<str id="open" val="Obrir"/>
+			<str id="cl" val="Tancar"/>
+			<str id="tph" val="Dalt de Tot"/>
+			<str id="well" val="Correcte"/>
+			<str id="gra" val="Gradual"/>
+			<str id="dis" val="Distància"/>
+			<str id="thi" val="Afinar"/>
+			<str id="wat" val="Vertent"/>
+			<str id="pa" val="Passos"/>
+			<str id="2x2" val="2 x 2 Requadre"/>
+			<str id="3x1" val="3 x 1 Fila"/>
+			<str id="1x3" val="1 x 3 Columna"/>
+			<str id="3x3" val="3 x 3 Creu"/>
+			<str id="5x5" val="5 x 5 Cercle"/>
+			<str id="7x7" val="7 x 7 Cercle"/>
+			<str id="11x11" val="11 x 11 Cercle"/>
+		</dlg>
+
+		<dlg id="IDD_ROTATE">
+			<str id="tl" val="Girar Imatge"/>
+			<str id="deg" val="Graus:"/>
+			<str id="qu" val="Qualitat"/>
+			<str id="an" val="Àngle"/>
+		</dlg>
+
+		<dlg id="IDD_SCALE">
+			<str id="tl" val="Mida de la imatge"/>
+			<str id="con" val="Reduïr Tamany"/>
+			<str id="met" val="Típus d'Escala"/>
+		</dlg>
+
+		<dlg id="IDD_GAMMA">
+			<str id="tl" val="Ajustar Gamma"/>
+		</dlg>
+
+		<dlg id="IDD_HMS">
+			<str id="tl" val="Iluminació Intensa/Mig Tò/Ombra"/>
+		</dlg>
+
+		<dlg id="IDD_PROFILE">
+			<str id="t" val="Perfil"/>
+		</dlg>
+
+		<dlg id="IDD_LAYERNAME">
+			<str id="tl" val="Capa"/>
+		</dlg>
+
+		<dlg id="IDD_AUNIT">
+			<str id="all" val="Mostrar totes led unitats d'àngles a la barra de medicions"/>
+		</dlg>
+
+		<dlg id="IDD_ADDUNIT">
+			<str id="tl" val="Afegir Unitat"/>
+			<str id="sc" val="Escala:"/>
+			<str id="sy" val="Símbol:"/>
+		</dlg>
+
+		<dlg id="IDD_GENERAL">
+			<str id="res" val="Mantenir resultats calculats:"/>
+			<str id="lfs" val="Mida etiqueta frontal:"/>
+			<str id="unit" val="Dimensions amb unitats"/>
+            <str id="sp" val="Insereix un espai entre el valor numèric i el símbol de la unitat (&quot;12,34 mm&quot; o &quot;12,34mm&quot;)"/>
+			<str id="rc" val="Longitud mínima de connexió aleatòria:"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_DELETE">
+			<str id="tl" val="Eliminar Capa"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_CURRENT">
+			<str id="tl" val="Capa Actual"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_MANAGE">
+			<str id="tl" val="Mostrar/Amagar Capa"/>
+		</dlg>
+
+		<dlg id="IDD_MEASURELIST">
+			<str id="col" val="Definir las columnes a la fulla de medicions"/>
+			<str id="o" val="Objecte personalitzat..."/>
+			<str id="c" val="Columna personalitzada..."/>
+			<str id="a" val="Càlcul personalitzat..."/>
+			<str id="r" val="Fila personalitzada..."/>
+			<str id="s" val="Estadístiques (Afegir les files següents al fulla de medicions)"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR_COMPOSITE">
+			<str id="tl" val="Composició del Color"/>
+			<str id="so" val="Origen Imatges:"/>
+			<str id="all" val="Tot"/>
+			<str id="se" val="Seleccionats"/>
+			<str id="adj" val="Ajustar"/>
+			<str id="reg" val="Registrar"/>
+		</dlg>
+
+		<dlg id="IDD_COMPOSITE_AVA">
+			<str id="so" val="Origen Imatges"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_SELECT_COLOR">
+			<str id="tl" val="Seleccionar Color"/>
+			<str id="fle" val="Per Arxiu:"/>
+			<str id="se" val="Seleccionat:"/>
+			<str id="back" val="Fons"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_DYE_LIST">
+			<str id="tl" val="Editar Llista Coloració"/>
+			<str id="rel" val="Cargar Tot"/>
+			<str id="ext" val="Extreure Longitud d'Onda:"/>
+			<str id="em" val="Emisió Longitud d'Onda:"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_NEW_DYE">
+			<str id="tl" val="Nova Coloració"/>
+		</dlg>
+
+		<dlg id="IDD_STACKING">
+			<str id="tl" val="Apilar Imatges"/>
+		</dlg>
+
+		<dlg id="IDD_PROP">
+			<str id="set" val="Ajustar per defecte les propietats de l'objecte mesurat:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_OPTION">
+			<str id="tl" val="Opcions Recompte"/>
+			<str id="os" val="Estil d'contorn"/>
+			<str id="ot" val="Estil:"/>
+			<str id="lm" val="Mètode:"/>
+			<str id="wh" val="Omplir forats"/>
+			<str id="la" val="Etiqueta"/>
+			<str id="min" val="Mínim:"/>
+			<str id="max" val="Màxim:"/>
+			<str id="sc" val="Escena:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_HISTORGRAM">
+			<str id="tl" val="Histograma"/>
+			<str id="sa" val="Mostrar Tot"/>
+"		</dlg>
+
+		<dlg id="IDD_COUNT_COLORCUBE">
+			<str id="to" val="Tolerància"/>
+		</dlg>
+
+		<dlg id="IDD_NLM">
+			<str id="tl" val="Non Local Means"/>
+			<str id="sw" val="Buscar Finestra:"/>
+			<str id="tw" val="model de Finestra:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYD">
+			<str id="d" val="Detall de Claretat:"/>
+			<str id="o" val="Brillantor Total:"/>
+			<str id="b" val="Brillantor del Fons:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_ALIGN">
+			<str id="aa" val="Auto Alineat"/>
+			<str id="a0" val="Cap"/>
+			<str id="a1" val="Shift + Escala"/>
+			<str id="a2" val="Shift + Escala + Rotar"/>
+			<str id="ma" val="Màxim Àngle:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_FM">
+			<str id="at" val="Determinar l'imatge de referència automàticament"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYDSTACK">
+			<str id="dm" val="Recuperar Depthmap:"/>
+			<str id="ri" val="Eliminar Illes:"/>
+			<str id="lf" val="Filtre Lowpass:"/>
+			<str id="hf" val="Filtre Highpass:"/>
+			<str id="ac" val="Ajustar Contrast:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERADFC">
+			<str id="tip" val="Cobrir els objectius i després aclicar &quot;Capturar&quot; per capturar el Dark Field. Comprovar &quot;Habilitar&quot; icona d'Habilitar &quot;Dark Field Correcció&quot;."/>
+		</dlg>
+
+		<dlg id="IDD_BF">
+			<str id="tt" val="Filtre Bilateral"/>
+			<str id="size" val="Domini de Valors:"/>
+			<str id="s" val="Domini Espai:"/>
+		</dlg>
+
+		<dlg id="IDD_CLAHE">
+			<str id="tl" val="Equalització Histograma"/>
+		</dlg>
+
+		<dlg id="IDD_UNSHARPMASK">
+			<str id="tl" val="Màscara Anti Nitidesa"/>
+			<str id="a" val="Valor:"/>
+		</dlg>
+
+		<dlg id="IDD_DETAILENHANCE">
+			<str id="tl" val="Millora Detalls"/>
+			<str id="s" val="Sigma Espai:"/>
+			<str id="r" val="Rang Sigma:"/>
+		</dlg>
+
+		<dlg id="IDD_EDGEPRESERVINGSMOOTH">
+			<str id="tl" val="Suavitzar i Manteniment del Perfil"/>
+			<str id="s" val="Sigma Espai:"/>
+			<str id="r" val="Rang Sigma:"/>
+			<str id="f" val="Filtre"/>
+			<str id="re" val="Recursiu"/>
+			<str id="n" val="Comvolució Normalitzada"/>
+		</dlg>
+
+		<dlg id="IDD_LLC">
+			<str id="tl" val="Correcció Local Color"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFORMAT">
+			<str id="v" val="Propietats"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERACOOL">
+			<str id="po" val="Poder:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERATRIGGER">
+			<str id="vm" val="Vídeo Mode"/>
+			<str id="tr" val="Gallet Mode"/>
+			<str id="live" val="En Viu:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERABINNING">
+			<str id="m" val="Mètode:"/>
+		</dlg>
+
+		<dlg id="IDD_FITSADD">
+			<str id="a" val="(1~8 alfabets o dígits, A~Z, a~z, 0~9)"/>
+		</dlg>
+		
+		<dlg id="IDD_REPORT">
+			<str id="t" val="Plantilla"/>
+			<str id="l" val="Clon..."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAAF">
+			<str id="c" val="Calibració conjugada"/>
+			<str id="0" val="C Mont 0mm"/>
+			<str id="l" val="Lent:"/>
+			<str id="n" val="Aprop"/>
+			<str id="f" val="Lluny"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_MANUAL">
+			<str id="tl" val="Recompte manual"/>
+			<str id="er" val="Erase"/>
+		</dlg>
+
+		<dlg id="IDD_IOADVANCED">
+			<str id="b" val="Velocitat de transmissió:"/>
+			<str id="r" val="Rebre"/>
+			<str id="d" val="Enviar"/>
+		</dlg>
+		
+		<dlg id="IDD_GIGENET">
+			<str id="s" val="Masca Subnet:"/>
+			<str id="g" val="Porta predeterminada:"/>
+		</dlg>
+		
+		<dlg id="IDD_FW">
+			<str id="n" val="Número de ranura:"/>
+		</dlg>
+		
+		<dlg id="IDD_PSEUDOCOLOR">
+			<str id="s" val="Color d'inici:"/>
+			<str id="e" val="Color final:"/>
+		</dlg>
+		
+		<dlg id="IDD_NOSE">
+			<str id="s" val="Venedor:"/>
+		</dlg>
+	</dialog>
+
+	<menu>
+		<str id="fle" val="&amp;Arxiu"/>
+		<str id="edt" val="&amp;Editar"/>
+		<str id="vew" val="&amp;Vista"/>
+		<str id="prss" val="&amp;Procés"/>
+		<str id="opns" val="&amp;Opcions"/>
+		<str id="wnd" val="&amp;Finestra"/>
+		<str id="hlp" val="A&amp;juda"/>
+		<str id="stup" val="Aj&amp;ustar"/>
+		<str id="cptu" val="Cap&amp;tura"/>
+		<str id="imag" val="&amp;Imatge"/>
+		<str id="layr" val="&amp;Capa"/>
+		<str id="meas" val="&amp;Medicions"/>
+		<str id="brws" val="&amp;Buscar"/>
+		<str id="db" val="Base de &amp;dades"/>
+
+		<str id="recf" val="Arxius &amp;Recents"/>
+		<str id="sdbr" val="&amp;Barra Laterals"/>
+		<str id="sort" val="&amp;Típus"/>
+		<str id="icns" val="&amp;Icones"/>
+		<str id="grds" val="&amp;Quadrícules"/>
+		<str id="mvwm" val="&amp;Moure Marca d'Aigüa"/>
+		<str id="rtwm" val="&amp;Girar Marca d'Aigüa"/>
+		<str id="adj" val="&amp;Ajustar"/>
+		<str id="rtt" val="&amp;Girar"/>
+		<str id="line" val="&amp;Línia"/>
+		<str id="crcl" val="&amp;Cercle"/>
+		<str id="tocls" val="D&amp;os Cercles"/>
+		<str id="zodr" val="&amp;Z Ordenar"/>
+		<str id="lunit" val="Llargada &amp;Unitat"/>
+
+		<str id="oimg" val="&amp;Obrir Imatge..."/>
+		<str id="ovid" val="Obrir &amp;Vídeo..."/>
+		<str id="obcas" val="Obrir Emi&amp;sió..."/>
+		<str id="sckin" val="Apilar &amp;Imatges..."/>
+		<str id="batsv" val="&amp;Guardar Serie..."/>
+		<str id="qksv" val="&amp;Guardar Ràpid..."/>
+		<str id="psnew" val="Engnaxar com &amp;Nou Arxiu"/>
+		<str id="norec" val="Arxius No Recents"/>
+		<str id="exit" val="S&amp;ortir"/>
+		<str id="cut" val="Talla&amp;r"/>
+		<str id="copy" val="&amp;Copy"/>
+		<str id="pste" val="&amp;Enganxar"/>
+		<str id="passc" val="Enganxar &amp;Menu Abreviat"/>
+		<str id="selal" val="Seleccionar &amp;Tot"/>
+		<str id="ivsel" val="&amp;Invertir Selecció"/>
+		<str id="mshet" val="&amp;Fulla Medicions"/>
+		<str id="camsb" val="&amp;Càmara"/>
+		<str id="fosb" val="&amp;Carpetes"/>
+		<str id="ursb" val="&amp;Desfer/Refer"/>
+		<str id="lydb" val="&amp;Capa"/>
+		<str id="msbar" val="&amp;Medició"/>
+		<str id="prfs" val="&amp;Preferències..."/>
+		<str id="mm" val="&amp;Medició..."/>
+		<str id="mf" val="&amp;Augments..."/>
+		<str id="clbr" val="&amp;Calibració..."/>
+		<str id="edtdy" val="&amp;Editar Llista Coloració..."/>
+		<str id="atcor" val="&amp;Auto Correcció..."/>
+		<str id="f1" val="&amp;Ajuda Continguts"/>
+		<str id="ab" val="&amp;Sobre"/>
+
+		<str id="save" val="&amp;Guardar"/>
+		<str id="svee" val="&amp;Guardar..."/>
+		<str id="svas" val="Guardar &amp;Com..."/>
+		<str id="imgsl" val="Seleccionar &amp;Imatge"/>
+		<str id="seln" val="Sense &amp;Selecció"/>
+
+		<str id="gno" val="&amp;Sense Quadrícules"/>
+		<str id="grm" val="&amp;Quadrícules Manuals"/>
+		<str id="gda" val="&amp;Auto Quadrícules"/>
+		<str id="gdl" val="&amp;Eliminat totes les Quadrícules"/>
+		<str id="rlset" val="&amp;Ajustaments..."/>
+		<str id="fitwi" val="A&amp;just Òptim"/>
+		<str id="asiz" val="&amp;Mida Actual"/>
+		<str id="trk" val="Pist&amp;a"/>
+
+		<str id="sith" val="U&amp;nir..."/>
+		<str id="dldt" val="&amp;Eliminar Arxiu"/>
+		<str id="bbro" val="&amp;Buscador"/>
+		<str id="openf" val="&amp;Obrir"/>
+
+		<str id="sttp" val="&amp;Congelar"/>
+		<str id="fscr" val="&amp;Pantalla complerta"/>
+		<str id="vwpp" val="&amp;Diagnòstic"/>
+		<str id="vvl" val="Vídeo &amp;Sobreposar..."/>
+		<str id="vwm" val="Vídeo &amp;Marca d'Aïgua..."/>
+		<str id="wmmv" val="&amp;Moure a..."/>
+		<str id="wmzro" val="Moure a &amp;zero"/>
+		<str id="wmrot" val="&amp;Girar a..."/>
+		<str id="wmrz" val="Girar a &amp;zero"/>
+		<str id="gcal" val="&amp;Calibració de Grisos"/>
+		<str id="cpig" val="&amp;Captura Imatge"/>
+		<str id="tmlps" val="Inici &amp;Time-lapse (Auto Captura)..."/>
+		<str id="strec" val="Inici/Stop &amp;Grabar..."/>
+		<str id="brec" val="Gra&amp;bar Sèrie"/>
+		<str id="acap" val="&amp;Auto Captura"/>
+		<str id="sttb" val="Inici/Stop &amp;Reproducció..."/>
+
+		<str id="qtiz" val="Color &amp;Quantificar..."/>
+		<str id="gsca" val="&amp;Escala de Grisos"/>
+		<str id="curv" val="C&amp;urva..."/>
+		<str id="alvl" val="Auto &amp;Nivell"/>
+		<str id="acon" val="Auto Contras&amp;t"/>
+		<str id="eql" val="Histograma E&amp;qualització..."/>
+		<str id="bc" val="Brillantor/Contr&amp;ast..."/>
+		<str id="fclr" val="&amp;Filtre Color..."/>
+		<str id="eclr" val="&amp;Extreure Color..."/>
+		<str id="iclr" val="&amp;Invertir"/>
+		<str id="rotar" val="&amp;Arbitràri..."/>
+		<str id="crop" val="&amp;Retallar"/>
+		<str id="imsca" val="&amp;Mida de la imatge..."/>
+		<str id="hist" val="&amp;Histograma..."/>
+		<str id="reso" val="&amp;Resolució..."/>
+		<str id="ovlsb" val="&amp;Revestiment Barra d'Escales..."/>
+
+		<str id="fi" val="F&amp;iltre..."/>
+		<str id="rang" val="&amp;Rang..."/>
+		<str id="biy" val="&amp;Binari..."/>
+		<str id="sfac" val="Superfície Gr&amp;àfica..."/>
+		<str id="prf" val="Pelfi&amp;l..."/>
+		<str id="mosc" val="M&amp;osàic..."/>
+		<str id="cmps" val="Color Co&amp;mpost..."/>
+		<str id="dens" val="&amp;Eliminar Soroll"/>
+		<str id="nlm" val="&amp;Sense Mitjans Locals..."/>
+		<str id="bila" val="&amp;Filtre Bilateral..."/>
+		<str id="awf" val="&amp;Filtre Wiener"/>
+
+		<str id="lnew" val="&amp;Nou..."/>
+		<str id="lrem" val="&amp;Borrar..."/>
+		<str id="lcur" val="Actua&amp;l..."/>
+		<str id="lshow" val="&amp;Mostrar/Amagar..."/>
+		<str id="len" val="R&amp;enombrar..."/>
+		<str id="lexp" val="Fusiona a I&amp;matge..."/>
+		<str id="mexp" val="Fusiona a &amp;Imatge"/>
+		<str id="ldrem" val="&amp;Borrar"/>
+		<str id="ldcur" val="&amp;Actual"/>
+		<str id="ldshw" val="&amp;Mostrar/Amagar"/>
+
+		<str id="osel" val="Seleccionar &amp;Objecte"/>
+		<str id="angl" val="À&amp;ngle"/>
+		<str id="point" val="&amp;Punt"/>
+		<str id="arbl" val="&amp;Arbitrària"/>
+		<str id="parl" val="Pa&amp;ral.lela"/>
+		<str id="pnt8" val="&amp;8 Punts"/>
+		<str id="pnt5" val="&amp;5 Punts"/>
+		<str id="pnt4" val="&amp;4 Punts"/>
+		<str id="pnt3" val="&amp;3 Punts"/>
+		<str id="pnt2" val="&amp;2 Punts"/>
+		<str id="rctg" val="Rec&amp;tàngle"/>
+		<str id="elps" val="El.l&amp;ipse"/>
+		<str id="crad" val="&amp;Centre+Ràdi"/>
+		<str id="alus" val="Ane&amp;ll"/>
+		<str id="plg" val="Polí&amp;gon"/>
+		<str id="ztop" val="&amp;Dalt"/>
+		<str id="zbtm" val="&amp;Baix"/>
+		<str id="zup" val="&amp;Pujar amunt"/>
+		<str id="zdown" val="Baixar &amp;avall"/>
+		<str id="sbar" val="Barra &amp;escales..."/>
+		<str id="lcv" val="Curv&amp;a"/>
+		<str id="mode1" val="Connexió &amp;aleatòria"/>
+		<str id="mode2" val="Connexió &amp;multipunt"/>
+		<str id="arrw" val="&amp;Fletxa"/>
+
+		<str id="call" val="&amp;Tancar Tot"/>
+		<str id="rstlo" val="&amp;Restaurar Finestra Layout"/>
+		<str id="wnds" val="&amp;Finestres..."/>
+
+		<str id="aunit" val="&amp;Unitat Àngle..."/>
+
+		<str id="nccls" val="&amp;Tancar"/>
+		<str id="nccla" val="Tancar &amp;Tot però"/>
+		<str id="clsth" val="Tancar &amp;altres"/>
+		<str id="fprop" val="&amp;Propietats Arxiu..."/>
+		<str id="cpath" val="Copiar Tota &amp;la Ruta"/>
+		<str id="brofo" val="&amp;Buscar a Carpetes"/>
+		<str id="openfo" val="&amp;Obrir Carpeta"/>
+		<str id="htbgp" val="Nou &amp;Grup Pestanyes Horizontals"/>
+		<str id="vtbgp" val="Nou &amp;GRup Pestanyes Verticals"/>
+		<str id="nxtbg" val="Moure a Pr&amp;òxim Grup Pestanyes"/>
+		<str id="prebg" val="Moure a P&amp;rèvi Grup Pestanyes"/>
+		<str id="ftwid" val="Ajustar Amplada"/>
+		<str id="fthei" val="Ajustar Alçada"/>
+		<str id="fitwi" val="Ajustar a Finestra"/>
+
+		<str id="bronm" val="Ordenar per &amp;Nom"/>
+		<str id="brotp" val="Ordenar per &amp;Tipus"/>
+		<str id="brosz" val="Ordenar per &amp;Mida"/>
+		<str id="browd" val="Ordenar per Am&amp;plada"/>
+		<str id="brohe" val="Ordenar per A&amp;lçada"/>
+		<str id="brotx" val="Ordenar per &amp;Extensió"/>
+		<str id="brofw" val="&amp;Ascendent"/>
+		<str id="brorv" val="&amp;Descendent"/>
+		<str id="brol" val="Icones &amp;Grans"/>
+		<str id="bros" val="Icones &amp;Petits"/>
+		<str id="brorf" val="&amp;Actualitzar"/>
+		<str id="bropo" val="&amp;Propietats..."/>
+
+		<str id="mimp" val="Arxiu &amp;Importar..."/>
+		<str id="msav" val="Arxiu &amp;Guardar..."/>
+		<str id="mhtm" val="Exportar a &amp;Html"/>
+		<str id="mexc" val="Exportar a Microsoft &amp;Excel..."/>
+
+		<str id="bstf" val="A&amp;just Òptim"/>
+		<str id="asiz" val="Mida A&amp;ctual"/>
+
+		<str id="edph" val="Estil &amp;H"/>
+
+		<str id="oc" val="Se&amp;gmentació &amp;&amp; Recompte"/>
+		<str id="ocws" val="&amp;Vertent..."/>
+		<str id="ocsd" val="OTSU &amp;Fosc..."/>
+		<str id="ocsb" val="OTSU &amp;Clar..."/>
+		<str id="ocrhs" val="&amp;RGB Histograma..."/>
+		<str id="ochhs" val="&amp;HSV Histograma..."/>
+		<str id="occc" val="&amp;Color Cub..."/>
+
+		<str id="reticule" val="&amp;Retícle"/>
+
+		<str id="shpn" val="Millora&amp;r"/>
+		<str id="lshp" val="&amp;Afilar Perfil"/>
+		<str id="unshp" val="&amp;Màcara de Desenfocat"/>
+
+		<str id="dclr" val="&amp;Contrast Preservació Decolorizació"/>
+		<str id="epsm" val="Preservació Contorn &amp;Suavitzar..."/>
+		<str id="denh" val="&amp;Millora de Detalls..."/>
+
+		<str id="llc" val="Color Local Co&amp;rrecció..."/>
+		<str id="cton" val="Coloreja&amp;r"/>
+
+		<str id="lined" val="Línia (&amp;3 Punts)"/>
+
+		<str id="tnal" val="&amp;Miniatura"/>
+		<str id="avw" val="Activa la finestra de &amp;vídeo"/>
+
+		<str id="cust" val="&amp;Personalitzar..."/>
+		<str id="ctool" val="&amp;Personalitzar Barra d'Eines..."/>
+
+		<str id="cent" val="Cent&amp;re"/>
+
+		<str id="man" val="&amp;Gestió..."/>
+		<str id="word" val="&amp;Informe Actual"/>
+		<str id="wors" val="In&amp;forme"/>
+
+		<str id="manpr" val="&amp;Gestió Preseleccionat..."/>
+		<str id="deep" val="Còpia &amp;profund"/>
+
+		<str id="expex" val="Exportar a Microsoft &amp;Excel"/>
+		<str id="expcb" val="Exportar a &amp;Portapapers"/>
+		<str id="expim" val="Exportar a &amp;Imatge"/>
+
+		<str id="pipe" val="&amp;Pipeta"/>
+		<str id="preset" val="Preselecciona&amp;t"/>
+
+		<str id="clhd" val="&amp;Amagar"/>
+		<str id="clsl" val="&amp;Seleccionar..."/>
+
+		<str id="whba" val="&amp;Balanç de Blancs"/>
+
+		<str id="arra" val="&amp;Disposició"/>
+		<str id="cstm" val="A &amp;mida"/>
+
+		<str id="expt" val="E&amp;xportar"/>
+		<str id="expf" val="E&amp;xportar..."/>
+		<str id="impf" val="&amp;Importar..."/>
+
+		<str id="copa" val="Co&amp;mpareu"/>
+
+		<str id="dstup" val="&amp;Nou..."/>
+		<str id="drop" val="&amp;Eliminar"/>
+		<str id="clea" val="&amp;Netejar"/>
+		<str id="dconn" val="&amp;Connectar..."/>
+		<str id="disc" val="&amp;Desconnectar"/>
+		<str id="inse" val="&amp;Inserir..."/>
+		<str id="opts" val="&amp;Opcions..."/>
+		<str id="oima" val="&amp;Obrir Imatge"/>
+
+		<str id="rena" val="&amp;Renombrar..."/>
+
+		<str id="item" val="&amp;Element"/>
+		<str id="aitem" val="T&amp;ots els elements"/>
+		<str id="aimag" val="&amp;Totes les imatges"/>
+
+		<str id="expg" val="&amp;Exposició &amp;&amp; Gain"/>
+		<str id="load" val="&amp;Cargar"/>
+        
+        <str id="clti" val="Tanca Totes les &amp;Imatges Temporals"/>
+        
+		<str id="defu" val="&amp;Predeterminats"/>
+		<str id="rest" val="&amp;Restablir"/>
+				
+		<str id="disa" val="&amp;Desactivar"/>
+		
+		<str id="ipm" val="Adreça &amp;IP..."/>
+		<str id="rtm" val="&amp;Temps real"/>
+	</menu>
+</i18n>

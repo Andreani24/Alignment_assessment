@@ -1,0 +1,2189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<i18n>
+	<all>
+		<str id="ids_error" val="오류"/>
+		<str id="ids_true" val="예"/>
+		<str id="ids_false" val="아니오"/>
+		<str id="ids_yes" val="예"/>
+		<str id="ids_no" val="아니오"/>
+		<str id="ids_ok" val="확인"/>
+		<str id="ids_camera" val="카메라"/>
+		<str id="ids_folders" val="폴더"/>
+		<str id="ids_video" val="비디오"/>
+		<str id="ids_browse" val="브라우징"/>
+		<str id="ids_back" val="돌아가기"/>
+		<str id="ids_forward" val="앞으로"/>
+		<str id="ids_backward" val="뒤로"/>
+		<str id="ids_open" val="불러오기"/>
+		<str id="ids_pixel" val="픽셀"/>
+		<str id="ids_width" val="폭"/>
+		<str id="ids_height" val="높이"/>
+		<str id="ids_measurement" val="측정"/>
+		<str id="ids_name" val="이름"/>
+		<str id="ids_index" val="번호"/>
+		<str id="ids_version" val="버전"/>
+		<str id="ids_sample" val="샘플"/>
+		<str id="ids_xor" val="배타적 논리합"/>
+		<str id="ids_avg" val="평균"/>
+		<str id="ids_mean" val="평균"/>
+		<str id="ids_den" val="노이즈제거"/>
+		<str id="ids_capture" val="캡처"/>
+		<str id="ids_stop" val="정지하기"/>
+		<str id="ids_close" val="닫기"/>
+		<str id="ids_save" val="저장하기"/>
+		<str id="ids_none" val="없음"/>
+		<str id="ids_zoom" val="줌"/>
+		<str id="ids_time" val="시간"/>
+		<str id="ids_frame" val="프레임 개수"/>
+		<str id="ids_framerate" val="프레임 속도"/>
+		<str id="ids_target" val="타깃"/>
+		<str id="ids_free" val="대기"/>
+		<str id="ids_file" val="파일"/>
+		<str id="ids_date" val="날짜"/>
+		<str id="ids_year" val="년"/>
+		<str id="ids_month" val="월"/>
+		<str id="ids_day" val="일"/>
+		<str id="ids_linear" val="선성"/>
+		<str id="ids_exp" val="지수"/>
+		<str id="ids_log" val="로그"/>
+		<str id="ids_poly" val="다항식"/>
+		<str id="ids_format" val="형식"/>
+		<str id="ids_bl" val="블랙 레벨"/>
+		<str id="ids_current" val="현재"/>
+		<str id="ids_cancel" val="취소"/>
+		<str id="ids_apply" val="적용"/>
+		<str id="ids_defaults" val="기본값"/>
+		<str id="ids_default" val="기본"/>
+		<str id="ids_refresh" val="새로 고침"/>
+		<str id="ids_auto" val="자동"/>
+		<str id="ids_reset" val="초기화"/>
+		<str id="ids_option" val="옵션"/>
+		<str id="ids_options" val="옵션"/>
+		<str id="ids_preview" val="미리보기"/>
+		<str id="ids_size" val="크기"/>
+		<str id="ids_color" val="색"/>
+		<str id="ids_label" val="표시"/>
+		<str id="ids_px" val="픽셀"/>
+		<str id="ids_appearance" val="모양"/>
+		<str id="ids_scalebar" val="스케일바"/>
+		<str id="ids_rename" val="리네임"/>
+		<str id="ids_desc" val="설명"/>
+		<str id="ids_remove" val="삭제"/>
+		<str id="ids_red" val="빨강"/>
+		<str id="ids_green" val="녹색"/>
+		<str id="ids_blue" val="파랑"/>
+		<str id="ids_radius" val="반지름"/>
+		<str id="ids_add" val="추가"/>
+		<str id="ids_del" val="삭제"/>
+		<str id="ids_hue" val="색상"/>
+		<str id="ids_sat" val="채도"/>
+		<str id="ids_bri" val="밝기"/>
+		<str id="ids_con" val="명암"/>
+		<str id="ids_gamma" val="감마"/>
+		<str id="ids_res" val="해상도"/>
+		<str id="ids_compression" val="압축"/>
+		<str id="ids_whitebalance" val="화이트 밸런스"/>
+		<str id="ids_blackbalance" val="블랙 밸런스"/>
+		<str id="ids_zoomin" val="줌 인"/>
+		<str id="ids_zoomout" val="줌 아웃"/>
+		<str id="ids_export" val="내보내기"/>
+		<str id="ids_import" val="가져오기"/>
+		<str id="ids_hwbin" val="하드웨어Binning"/>
+		<str id="ids_digbin" val="디지털Binning"/>
+		<str id="ids_thumbnail" val="섬네일"/>
+		<str id="ids_rotate" val="회전"/>
+		<str id="ids_meta" val="메타데이터"/>
+		<str id="ids_en" val="활성화"/>
+		<str id="ids_value" val="속성값"/>
+		<str id="ids_expti" val="노출 시간"/>
+		<str id="ids_rexpti" val="실제 노출 시간"/>
+		<str id="ids_observer" val="관찰자"/>
+		<str id="ids_telescope" val="망원경"/>
+		<str id="ids_comment" val="코멘트"/>
+		<str id="ids_edit" val="편집"/>
+		<str id="ids_model" val="카메라 모델"/>
+		<str id="ids_type" val="유형"/>
+		<str id="ids_cpyrgt" val="저작권 소유"/>
+		<str id="ids_author" val="지은이"/>
+		<str id="ids_title" val="제목"/>
+		<str id="ids_pxf" val="픽셀 형식"/>
+		<str id="ids_unit" val="단위"/>
+		<str id="ids_calibrate" val="캘리브레이션"/>
+		<str id="ids_beilv" val="배율"/>
+		<str id="ids_dis" val="비활성화"/>
+		<str id="ids_fset" val="공장 설정"/>
+		<str id="ids_srp" val="선명도"/>
+		<str id="ids_focus" val="초점"/>
+		<str id="ids_af" val="자동 초점"/>
+		<str id="ids_mau" val="수동"/>
+		<str id="ids_elc" val="전기 같은"/>
+		<str id="ids_up" val="위로"/>
+		<str id="ids_down" val="아래로"/>
+		<str id="ids_revision" val="수정"/>
+		<str id="ids_preset" val="프리셋"/>
+		<str id="ids_dl" val="다운로드"/>
+		<str id="ids_st" val="상태"/>
+		<str id="ids_sw" val="소프트웨어"/>
+		<str id="ids_hw" val="하드웨어"/>
+		<str id="ids_simu" val="사실상의"/>
+		<str id="ids_nrecom" val="권장 되지 않음"/>
+		<str id="ids_depre" val="되지 않는"/>
+		<str id="ids_text" val="텍스트"/>
+		<str id="ids_edf" val="멀티포커싱"/>
+		<str id="ids_mem" val="메모리"/>
+		<str id="ids_perct" val="퍼센트"/>
+		<str id="ids_total" val="합계"/>
+		<str id="ids_computer" val="컴퓨터"/>
+		<str id="ids_copy" val="복사하기"/>
+		<str id="ids_autoe" val="자동노출"/>
+		<str id="ids_expta" val="자동노출 기준"/>
+		<str id="ids_bin" val="영역평균(Bin)"/>
+		<str id="ids_skip" val="샘플추출(Skip)"/>
+		<str id="ids_gain" val="게인"/>
+		<str id="ids_stemp" val="온도"/>
+		<str id="ids_fan" val="쿨링팬"/>
+		<str id="ids_ttemp" val="개체온도"/>
+		<str id="ids_display" val="표시"/>
+		<str id="ids_cut" val="오려두기"/>
+		<str id="ids_pste" val="붙이기"/>
+		<str id="ids_lock" val="잠겨"/>
+		<str id="ids_basic" val="기본"/>
+		<str id="ids_sk" val="겹치기"/>
+		<str id="ids_neg" val="네거티브"/>
+		<str id="ids_tonem" val="톤 매핑"/>
+		<str id="ids_position" val="위치"/>
+		<str id="ids_custom" val="사용자 정의"/>
+		<str id="ids_object" val="측정 개체"/>
+		<str id="ids_cobject" val="측정 개체"/>
+		<str id="ids_threshold" val="역치"/>
+		<str id="ids_bool" val="불리언"/>
+		<str id="ids_all" val="모든"/>
+		<str id="ids_row" val="열"/>
+		<str id="ids_merge" val="출력"/>
+		<str id="ids_shape" val="모양"/>
+		<str id="ids_font" val="글꼴"/>
+		<str id="ids_fontsize" val="글꼴 크기"/>
+		<str id="ids_fontweight" val="글꼴 가중치"/>
+		<str id="ids_bandw" val="대역폭"/>
+		<str id="ids_about" val="정보"/>
+		<str id="ids_horz" val="수평"/>
+		<str id="ids_vert" val="수직"/>
+		<str id="ids_polygon" val="다각형"/>
+		<str id="ids_adv" val="고급"/>
+		<str id="ids_denoise" val="노이즈 제거"/>
+		<str id="ids_strength" val="강도"/>
+		<str id="ids_linewidth" val="선 굵기"/>
+		<str id="ids_onep" val="자동"/>
+		<str id="ids_glauto" val="전체 자동"/>
+		<str id="ids_compare" val="비교"/>
+		<str id="ids_db" val="데이터베이스"/>
+		<str id="ids_new" val="새로 만들기"/>
+		<str id="ids_find" val="찾기"/>
+		<str id="ids_imag" val="이미지"/>
+		<str id="ids_lnoise" val="낮은 소음"/>
+		<str id="ids_dye" val="염료"/>
+		<str id="ids_dyv" val="염색"/>
+		<str id="ids_tl" val="저속 촬영(타이머 캡처)"/>
+		<str id="ids_xoff" val="X 오프셋"/>
+		<str id="ids_yoff" val="Y 오프셋"/>
+		<str id="ids_ftype" val="파일 형식"/>
+		<str id="ids_starddev" val="표준 편차"/>
+		<str id="ids_samstarddev" val="표본의 표준 편차"/>
+		<str id="ids_max" val="최고"/>
+		<str id="ids_min" val="최소"/>
+		<str id="ids_mono" val="단색화"/>
+		<str id="ids_lightsource" val="광원"/>
+		<str id="ids_on" val="켜기"/>
+		<str id="ids_off" val="끄기"/>
+		<str id="ids_high" val="높음"/>
+		<str id="ids_hdr" val="HDR"/>
+		<str id="ids_watermark" val="워터마크"/>
+        <str id="ids_cate" val="범주"/>
+		<str id="ids_settings" val="설정"/>
+		<str id="ids_llcolor" val="색 표시"/>
+		<str id="ids_ec" val="노출 보상"/>
+		<str id="ids_item" val="항목"/>
+		<str id="ids_discard" val="버리다"/>
+		<str id="ids_plan" val="계획"/>
+		<str id="ids_network" val="네트워크"/>
+		<str id="ids_ip" val="IP 주소"/>
+		<str id="ids_mac" val="MAC 주소"/>
+		<str id="ids_oclock" val="오버클럭"/>
+		<str id="ids_fw" val="필터 휠"/>
+		<str id="ids_pdpseudocolor" val="모조컬러"/>
+		<str id="ids_lowpc" val="저전력 소비"/>
+		<str id="ids_exporm" val="판독 모드"/>
+		<str id="ids_addr" val="주소"/>
+		<str id="ids_trg" val="촉발"/>
+		<str id="ids_trgs" val="촉발원"/>
+		<str id="ids_objlen" val="대물 렌즈"/>
+		<str id="ids_si" val="한 장"/>
+		<str id="ids_sq" val="다매"/>
+		<str id="ids_lp" val="순환"/>
+		<str id="ids_cds" val="상관 이중 샘플링"/>
+		<str id="ids_speed" val="속도"/>
+		<str id="ids_shtt" val="셔터"/>
+		<str id="ids_mshtt" val="기계식 셔터"/>
+		<str id="ids_mf" val="배율 보이기"/>
+	</all>
+
+	<string>
+		<str id="ids_m" val="미터"/>
+		<str id="ids_cm" val="센티미터"/>
+		<str id="ids_mm" val="밀리미터"/>
+		<str id="ids_um" val="마이크로미터"/>
+		<str id="ids_nm" val="나노미터"/>
+		<str id="ids_in" val="인치"/>
+		<str id="ids_mil" val="밀스"/>
+		<str id="ids_ang" val="옹스트롬"/>
+		<str id="ids_pm" val="피코미터"/>
+
+		<str id="ids_angle0" val="호도"/>
+		<str id="ids_angle1" val="도"/>
+		<str id="ids_angle2" val="π"/>
+
+		<str id="ids_celsius" val="도"/>
+		<str id="ids_fahrenheit" val="화시도"/>
+
+		<str id="ids_colorbuttonother" val="기타..."/>
+		<str id="ids_linestylesolid" val="실선"/>
+		<str id="ids_linestyledash" val="대쉬라인"/>
+		<str id="ids_linestyledot" val="점선"/>
+		<str id="ids_linestyledashdot" val="점쇄선"/>
+		<str id="ids_intminmax" val="%d 및 %d 사이의 정수를 입력하세요."/>
+
+		<str id="ids_exposure" val="노출"/>
+
+		<str id="ids_noexcel" val="Microsoft Excel를 찾을 수 없습니다. Excel가 이미 정확하게 설치되었는지 확인하세요."/>
+		<str id="ids_noword" val="Microsoft Word를 찾을 수 없습니다. Word가 이미 정확하게 설치되었는지 확인하세요."/>
+
+		<str id="ids_outofrange" val="범위를 벗어났습니다."/>
+		<str id="ids_inputv" val="입력 값이 잘못 되었습니다."/>
+		<str id="ids_filenr" val="파일 이름에는 예약 된 문자를 사용할 수 없습니다."/>
+
+		<str id="ids_deviceid" val="장치ID"/>
+		<str id="ids_devicename" val="장치 이름"/>
+		<str id="ids_stillimagecapture" val="스틸 이미지 캡처"/>
+		<str id="ids_stillimagewidth" val="스틸 이미지 폭"/>
+		<str id="ids_stillimageheight" val="스틸 이미지 높이"/>
+		<str id="ids_displaywidth" val="화면 폭"/>
+		<str id="ids_displayheight" val="화면 높이"/>
+		<str id="ids_videowidth" val="영상 폭"/>
+		<str id="ids_videoheight" val="영상 높이"/>
+		<str id="ids_duration" val="시간"/>
+		<str id="ids_cameraid" val="카메라ID"/>
+		<str id="ids_productdate" val="생산 날짜"/>
+		<str id="ids_framedropped" val="버린 프레임"/>
+		<str id="ids_framesaved" val="저장된 프레임"/>
+		<str id="ids_property" val="속성"/>
+		<str id="ids_errorstop" val="오류, 정지할 수 없습니다."/>
+		<str id="ids_startfail" val="시동할 수 없습니다."/>
+		<str id="ids_previewfail" val="미리보기 할 수 없습니다 다시 한 번 장치를 뽑았다 플러그하세요."/>
+		<str id="ids_stoppreviewfail" val="오류, 미리보기를 정지할 수 없습니다."/>
+		<str id="ids_noframe" val=" USB 대역폭이 부족하니, 좀 낮은 프레임 속도를 설정하거나 또는 USB 단자를 바꾸어 다시 한 번 장치를 뽑았다 끼워보세요."/>
+		<str id="ids_surpriseremoval" val="카메라가 제거 되었습니다."/>
+		<str id="ids_devicelost" val="캡처 정지(설비 잃어버렸다) 다시 한 번 장치를 플러그하세요."/>
+		<str id="ids_captureerror" val="캡처 중 오류가 생겼으니 다시 장치를 플러그하거나 USB 단자를 바꾸어 다시 한 번 해보세요."/>
+		<str id="ids_toupnamerror" val="오류, 네트워크 카메라를 다시 한 번 시작해보세요."/>
+		<str id="ids_filtergraph" val="Filter Graph를 만들 수 없습니다."/>
+		<str id="ids_noax" val="영상원을 만들 수 없습니다. 드라이버를 못 찾았습니다. 다시 설치해보세요."/>
+		<str id="ids_nosource" val="오류, 영상원을 만들 수 없습니다. 장치를 플러그해보세요."/>
+
+		<str id="ids_badport" val="선택하신 포트가 이미 점용되었습니다. 다른 포트를 사용하세요."/>
+		<str id="ids_url" val="링크"/>
+		<str id="ids_bcount" val="방송 프레임 개수"/>
+		<str id="ids_bdroppcnt" val="잃어버린 방송 프레임"/>
+		<str id="ids_bcbbps" val="킬로비트/초(Kbps)"/>
+		<str id="ids_baveragebps" val="방송 평균 비트레이트(Kbps)"/>
+		<str id="ids_bccfr" val="방송 프레임 현재 비트레이트"/>
+		<str id="ids_baveragesr" val="방송 프레임 평균 비트레이트"/>
+		<str id="ids_bandwidth" val="대역폭(Kbps)"/>
+		<str id="ids_preceived" val="받은 패키지 개수"/>
+		<str id="ids_plost" val="버린 패키지 개수"/>
+
+		<str id="ids_encoder" val="인코더"/>
+		<str id="ids_quality" val="품질"/>
+		<str id="ids_bitrate" val="비트레이트"/>
+		<str id="ids_keyfs" val="I프레임 간격(초)"/>
+		<str id="ids_stepdir" val="파일 이름이나 목록을 정확하게 설정했는지 확인해보세요."/>
+		<str id="ids_stepbpsminmax" val="비트레이트 설정이 정확하지 않습니다. %s과 %s 사이의 숫자를 입력하세요."/>
+		<str id="ids_stepqualityminmax=" val="인코딩 품질 설정이 정확하지 않습니다, %u과 %u 사이의 숫자를 입력하세요."/>
+		<str id="ids_stepiframe" val="프레임 간격 설정이 정확하지 않습니다."/>
+		<str id="ids_stepiframeminmax" val="프레임 간격 설정이 정확하지 않습니다. %u과 %u 사이의 숫자를 입력하세요."/>
+		<str id="ids_stepcodec" val="압축 알고리즘 선택하세요."/>
+		<str id="ids_steptimelimit" val="캡처 시간 제한 설정이 정확하지 않습니다."/>
+		<str id="ids_steptimelapse" val="Time-lapse 정확하지 않음."/>
+		<str id="ids_stepavinone" val="압축하지 않음"/>
+
+		<str id="ids_recordheader" val="정보 보이기"/>
+		<str id="ids_recordstep1" val="영상 형식 및 압축 인토딩 알고리즘"/>
+		<str id="ids_recordstep2" val="영상 파일"/>
+		<str id="ids_recordstep3" val="영상 인코딩 알고리즘과 매개변수 설정"/>
+		<str id="ids_recordstep4" val="녹화 시작"/>
+		<str id="ids_broadcastpar" val="방송 매개변수 설정"/>
+		<str id="ids_recordstep4b" val="방송 시작"/>
+
+		<str id="ids_integerinvalid" val="한 정수를 입력하세요."/>
+
+		<str id="ids_mosaicimages" val="조판"/>
+
+		<str id="ids_deleteallitem" val="모든 항목을 삭제할 것을 확인합니까?"/>
+		<str id="ids_deleteitem" val="선택한 항목을 삭제할 것을 확인합니까?"/>
+		<str id="ids_deleteitems" val="선택한 %d 항목을 삭제할 것을 확인합니까?"/>
+		<str id="ids_magimport" val="배율을 가져오면 현재 모든 항목이 삭제될 것을 확인합니까?"/>
+
+		<str id="ids_toolbarselect" val="측정 대상 선택"/>
+		<str id="ids_toolbarcirclehole" val="원(속이 빔)"/>
+		<str id="ids_toolbarrectselect" val="이미지 선택"/>
+		<str id="ids_toolbartrack" val="손으로 끌기"/>
+		<str id="ids_toolbargray" val="그레이 캘리브레이션"/>
+		<str id="ids_toolbarcrosshair" val="십자 준선"/>
+		<str id="ids_toolbargoto" val="폴더 열기"/>
+		<str id="ids_toolbarcenter" val="센터"/>
+
+		<str id="ids_stitch" val="이미지 타일링"/>
+		<str id="ids_stitchautocrop" val="이미지 타일링 완료 시 자동 자르기 (바운더리 사각형)"/>
+		<str id="ids_stitchscroll" val="스크롤 모드"/>
+		<str id="ids_aggr" val="공격적"/>
+		<str id="ids_pasi" val="수동태"/>
+
+		<str id="ids_built" val="컴파일"/>
+
+		<str id="ids_toolbar" val="도구 모음"/>
+		<str id="ids_nodevice" val="장치 없음"/>
+		<str id="ids_zoom0" val="폭 맞춤"/>
+		<str id="ids_zoom1" val="높이 맞춤"/>
+		<str id="ids_zoom2" val="창 맞춤"/>
+		<str id="ids_selection" val="선택"/>
+		<str id="ids_undoredo" val="되돌리기/다시 실행"/>
+
+		<str id="ids_overlayscale" val="축척 겹치기"/>
+
+		<str id="ids_customize" val="사용자 정의"/>
+		<str id="ids_toolbarcustomize" val="사용자 정의(&amp;C)..."/>
+		<str id="ids_angleunitmenu" val="각도 단위 (&amp;A)..."/>
+
+		<str id="ids_emptydir" val="목록이 비어 있으면 안 됩니다."/>
+		<str id="ids_invaliddir" val="목록이 정확하지 않습니다."/>
+		<str id="ids_filelock" val="파일이 잠겨 있습니다."/>
+		<str id="ids_imagesizemismatch" val="이미지 크기가 일치하지 않습니다."/>
+		<str id="ids_imagesizenotsame" val="이미지: &quot;%s&quot; 사이즈가 다릅니다."/>
+		<str id="ids_filenofound" val="파일이 존재하지 않습니다."/>
+		<str id="ids_savefilefail2" val="파일 저장하는데 &quot;%s&quot; 오류가 발생했습니다."/>
+		<str id="ids_savefilefail3" val="파일을 저장하는데 오류가 발생했습니다."/>
+		<str id="ids_videofileformat" val="잘못된 파일 형식."/>
+		<str id="ids_videofilestartfail" val="시작할 수 없습니다."/>
+		<str id="ids_videofiles" val="비디오 파일"/>
+		<str id="ids_allfiles" val="모든 파일"/>
+
+		<str id="ids_browseshutcut" val="이 디렉토리에 이름이 &quot;%s&quot; 인 단축키가 존재합니다.\n덮어쓰기, 취소, 또는 포기?"/>
+		<str id="ids_saveboth" val="이미지와 측정 레이어가 변경되었는데 저장하시겠습니까?"/>
+		<str id="ids_saveimage" val="이미지가 변경되었는데 저장하시겠습니까?"/>
+		<str id="ids_savelayer" val="측정 레이어가 변경되었는데 저장하시겠습니까?"/>
+
+		<str id="ids_videozoomint" val="현재 영상 배율이 %u%%입니다. 영상 배율을 100%%로 설정한 후에 다시 해보세요. 정밀도에 영향을 줄 수 있는데 계속하시겠습니까?"/>
+		<str id="ids_videozoomfloat" val="현재 영상 배율이 %.1f%%입니다. 100%%로 설정한 후에 다시 해보세요. 정밀도에 영향을 줄 수 있는데 계속하시겠습니까?"/>
+		<str id="ids_videomarker" val="마크: (%d, %d); 워터마크: 이동 = (%d, %d), 회전 = %.3f"/>
+		<str id="ids_videostartrecord" val="녹화 시작(&amp;R)..."/>
+		<str id="ids_videostoprecord" val="녹화 정지(&amp;R)"/>
+		<str id="ids_videostarttimelapse" val="타이머 캡처 시작 (&amp;Time-lapse)..."/>
+		<str id="ids_videostoptimelapse" val="타이머 캡처 정지 (&amp;Time-lapse)"/>
+		<str id="ids_videoautofail" val="타이머 캡처 오류 발생"/>
+		<str id="ids_videocalibratemax1" val="영상을 최대 크기로 한 상태에서 캘리브레이션을 진행하세요.\r\n현재 크기: %u x %u, 최대 크기를: %u x %u.\r\n카메라 사이드바에서 해상도를 설정하세요."/>
+
+		<str id="ids_memory" val="메모리가 부족합니다."/>
+		<str id="ids_memoryx86" val="메모리가 부족합니다, x64버전을 이용하세요."/>
+
+		<str id="ids_actionfailed" val="작업이 실패했습니다."/>
+		<str id="ids_actioncanceld" val="실행이 취소되었습니다."/>
+
+		<str id="ids_calibratedlgtoobig" val="너무 큽니다."/>
+		<str id="ids_calibratedlgtoosmall" val="너무 작습니다."/>
+		<str id="ids_calibratedlgpixels" val="픽셀"/>
+		<str id="ids_calibratedlgmagnification" val="알맞은 배율을 넣으세요. 예로 10, 40, 100 등등."/>
+		<str id="ids_calibratedlgmagnificationexists" val="배율 &quot;%s&quot; 이 이미 존재합니다."/>
+
+		<str id="ids_collapseall" val="모두 접기"/>
+		<str id="ids_expandall" val="모두 펴기"/>
+		<str id="ids_cameralist" val="카메라 목록"/>
+		<str id="ids_expandgain" val="노출 및 게인"/>
+		<str id="ids_colorgray" val="컬러/흑백"/>
+		<str id="ids_capres" val="캡처 및 해상도"/>
+		<str id="ids_coloradjust" val="색 조정"/>
+		<str id="ids_flip" val="화면 반전"/>
+		<str id="ids_sampling" val="샘플링"/>
+		<str id="ids_histogram" val="히스토그램"/>
+		<str id="ids_power" val="광원주파수(Anti-flicker)"/>
+		<str id="ids_gray" val="그레이스케일(Gray)"/>
+		<str id="ids_range" val="범위"/>
+		<str id="ids_exptimeempty" val="노출 시간이 못 빕니다."/>
+		<str id="ids_exptimeinvalid" val="노출 시간이 정확하지 않습니다."/>
+		<str id="ids_exptimeoutofrange" val="노출 시간이 범위를 벗어났습니다 [%s, %s]."/>
+		<str id="ids_bpsmb" val="전송률(Mbps)"/>
+		<str id="ids_dfc" val="다크 필드 보정"/>
+		<str id="ids_bitdepth" val="비트 깊이"/>
+		<str id="ids_propfmt" val="속성과 형식"/>
+		<str id="ids_cool" val="쿨링"/>
+		<str id="ids_ffc" val="플랫 필드 보정"/>
+		<str id="ids_heat" val="히팅"/>
+		<str id="ids_codec" val="코덱"/>
+		<str id="ids_fpnc" val="고정 패턴 노이즈 보정"/>
+
+		<str id="ids_preferences" val="선택 사항"/>
+
+		<str id="ids_grids" val="격자"/>
+		<str id="ids_misc" val="기타"/>
+		<str id="ids_cursor" val="커서"/>
+		<str id="ids_quicksave" val="빠른 저장"/>
+		<str id="ids_record" val="비디오"/>
+		<str id="ids_quickrecord" val="빠른 비디오"/>
+
+		<str id="ids_mosaicimage" val="그림"/>
+		<str id="ids_mosaicpar" val="매개변수 설정"/>
+
+		<str id="ids_filefmtcol0" val="확장자"/>
+		<str id="ids_filefmtcol2" val="약어"/>
+
+		<str id="ids_allsupported" val="모든 지원하는 형식"/>
+		<str id="ids_savedlgreplace" val="%s 존재합니다.\n바꿉니까?"/>
+
+		<str id="ids_watermarkdlg24bit" val="24 또는 32 비트 그림만 가능."/>
+
+		<str id="ids_nameformatnnnn" val="nnnn(번호)"/>
+
+		<str id="ids_lefttop" val="왼쪽 위"/>
+		<str id="ids_righttop" val="오른쪽 위"/>
+		<str id="ids_leftbottom" val="왼쪽 아래"/>
+		<str id="ids_rightbottom" val="오른쪽 아래"/>
+		<str id="ids_overlaybgtrans" val="투명"/>
+		<str id="ids_black" val="블랙"/>
+		<str id="ids_white" val="흰색"/>
+		<str id="ids_smallest" val="제일 작음"/>
+		<str id="ids_smaller" val="비교적 작음"/>
+		<str id="ids_small" val="작음"/>
+		<str id="ids_medium" val="중간"/>
+		<str id="ids_large" val="큼"/>
+		<str id="ids_larger" val="비교적 큼"/>
+		<str id="ids_largest" val="제일 큼"/>
+		<str id="ids_fontweightnormal" val="보통"/>
+		<str id="ids_fontweightbold" val="굵게"/>
+		<str id="ids_fontweightheavy" val="매우 진하게"/>
+		<str id="ids_overlaydatenone" val="없음"/>
+		<str id="ids_overlaydatelong" val="긴 날짜 형식"/>
+		<str id="ids_overlaydateshort" val="짧은 날짜 형식"/>
+		<str id="ids_overlaydatetlong" val="긴 날짜 시간 형식"/>
+		<str id="ids_overlaydatetshort" val="짧은 날짜 시간 형식"/>
+
+		<str id="ids_marker" val="표시 없음"/>
+		<str id="ids_markercross" val="십자선"/>
+		<str id="ids_markercircle" val="원"/>
+		<str id="ids_markercr" val="십자선 + 직사각형"/>
+		<str id="ids_markercc" val="십자선 + 원"/>
+		<str id="ids_markercrosswidth" val="십자 폭"/>
+		<str id="ids_markercrossheight" val="십자 높이"/>
+		<str id="ids_markerrectwidth" val="직사각형 폭"/>
+		<str id="ids_markerrectheight" val="직사각형 높이"/>
+		<str id="ids_markerradius" val="반지름"/>
+		<str id="ids_markerx" val="x 위치"/>
+		<str id="ids_markery" val="y 위치"/>
+
+		<str id="ids_stitchfail" val="붙이기 실패."/>
+		<str id="ids_stitchplane" val="평면"/>
+		<str id="ids_stitchcylindrical" val="기둥면"/>
+		<str id="ids_stitchspherical" val="구면"/>
+		<str id="ids_stitchfisheye" val="적묵"/>
+		<str id="ids_stitchstereographic" val="실체 투영"/>
+		<str id="ids_stitchmercator" val="메르카토르 투영"/>
+		<str id="ids_stitchtransversemercator" val="가로 메르카토르 투영"/>
+		<str id="ids_stitchseamfindervoronoi" val="보로노이"/>
+		<str id="ids_stitchseamfindergraphcutcolor" val="색상 그림 분할"/>
+		<str id="ids_stitchseamfindergraphcutcolorgrad" val="경도 색상 그림 분할"/>
+		<str id="ids_stitchecgain" val="게인"/>
+		<str id="ids_stitchecbg" val="블록 게인"/>
+		<str id="ids_stitchbaray" val="방사선 조정"/>
+		<str id="ids_stitchbareproj" val="재투영 오차 조정"/>
+
+		<str id="ids_crosssingle" val="싱글 라인"/>
+		<str id="ids_cross1" val="더블 라인(1픽셀)"/>
+		<str id="ids_cross3" val="더블 라인(3픽셀)"/>
+		<str id="ids_cross5" val="더블 라인(5픽셀)"/>
+		<str id="ids_cross7" val="더블 라인(7픽셀)"/>
+		<str id="ids_cross9" val="더블 라인(9픽셀)"/>
+		<str id="ids_cursorcross" val="십자 커서"/>
+		<str id="ids_cursorcrosshair" val="십자선"/>
+		<str id="ids_cursorpoint" val="점 커서"/>
+		<str id="ids_cursornull" val="커서없음"/>
+
+		<str id="ids_videooverlay" val="영상 겹치기"/>
+		<str id="ids_markertxt" val="오버레이"/>
+		<str id="ids_markergeo" val="표시"/>
+
+		<str id="ids_miscsplash" val="부팅시Splash창 보이기"/>
+		<str id="ids_miscscreensaver" val="미리보기/캡처 시 화면 보호기 실행 금지"/>
+		<str id="ids_misctft" val="파일 형식"/>
+		<str id="ids_misctftremind" val="파일 형식이 측정 개체를 지원 하지 않는 경우 알림"/>
+		<str id="ids_miscsidebar" val="사이드바"/>
+		<str id="ids_miscsidebarmeasurement" val="측정 시 자동으로 측정사이드바를 보이기"/>
+		<str id="ids_miscsidebarfolders" val="탐색 창을 열 시 폴더 사이드바를 보이기"/>
+		<str id="ids_miscsidebarbrowse" val="폴드 사이드바에 더블클리하면 탐색 창을 열기"/>
+		<str id="ids_miscsidebarcamerastartup" val="프로그램 부팅시 카메라사이드바를 보이기"/>
+		<str id="ids_miscuistyle" val="화면 스타일"/>
+		<str id="ids_miscprivacy" val="프라이버시"/>
+		<str id="ids_miscrecent" val="최근 문서의 최대 파일수"/>
+		<str id="ids_miscclear" val="끝낼 시 최근 문서 리스트 정리하기"/>
+		<str id="ids_miscrestore" val="프로그램 열 시 파일 경로 복귀"/>
+		<str id="ids_misclang" val="언어"/>
+		<str id="ids_miscte" val="다시 부팅후 효력 발생"/>
+
+		<str id="ids_urimploperation" val="오퍼레이션"/>
+
+		<str id="ids_pdmorphologic" val="형태학 연산"/>
+		<str id="ids_pdmuststructure" val="구조원을 반드시 하나 선택하세요."/>
+		<str id="ids_pdnostructure" val="구조가 존재하지 않습니다."/>
+		<str id="ids_pdselectstructure" val="구조 하나를 선택하세요."/>
+		<str id="ids_pddeletesure" val="삭제하시겠습니까?"/>
+		<str id="ids_pdenhancement" val="그림 활기화"/>
+		<str id="ids_pdbestfit" val="최적"/>
+		<str id="ids_pdequalize" val="부분 평균화"/>
+		<str id="ids_pdundo" val="되돌리기"/>
+		<str id="ids_pdconvertbit" val="파일을 8비트나 24비트로 바꾸시겠습니까?"/>
+		<str id="ids_pdexceed" val="영역을 벗어났습니다."/>
+		<str id="ids_pdkernel" val="그림 핵 연산"/>
+		<str id="ids_pdmustname" val="이름을 하나 입력하세요."/>
+		<str id="ids_pdkernelsize" val="잘못된 크기입니다."/>
+		<str id="ids_pdinputvalue" val="수치를 입력하세요."/>
+		<str id="ids_pdoverwrite" val="구조원이 존재합니다. 덮어쓰기 하시겠어요?"/>
+		<str id="ids_pdedge" val="가장자리 처리"/>
+		<str id="ids_pdautolevel" val="자동 색상"/>
+		<str id="ids_pdautocontrast" val="자동 대비"/>
+		<str id="ids_pdbcadj" val="밝기/대비 조정"/>
+		<str id="ids_pdcoloradj" val="색상 조정"/>
+		<str id="ids_pdhmsadj" val="HMS조정"/>
+		<str id="ids_pdgammaadj" val="감마 조정"/>
+		<str id="ids_pdhistogram" val="히스토그램 균형"/>
+		<str id="ids_pdcurve" val="곡선 조정"/>
+		<str id="ids_pdcolorquantize" val="색 계량화: %d비트"/>
+		<str id="ids_pdbinary" val="바이너리"/>
+		<str id="ids_pdgray" val="흑백톤"/>
+		<str id="ids_pdinvert" val="반전"/>
+		<str id="ids_pdrotatecw" val="시계 방향"/>
+		<str id="ids_pdrotateccw" val="반시계 방향"/>
+		<str id="ids_pdcrop" val="자르기"/>
+		<str id="ids_pdimagescale" val="그림 사이즈"/>
+		<str id="ids_pdfliphorz" val="수평 회전"/>
+		<str id="ids_pdflipvert" val="수직 회전"/>
+		<str id="ids_pdrange" val="창 너비 및 위치"/>
+		<str id="ids_pdfilters" val="여파기"/>
+		<str id="ids_pdinvalidheight" val="불법적 높이."/>
+		<str id="ids_pdfiltercolor" val="필터"/>
+		<str id="ids_pdextractcolor" val="선명하게"/>
+		<str id="ids_pdluminosity" val="밝기"/>
+		<str id="ids_bilinear" val="이중 선성"/>
+		<str id="ids_bicubic" val="세제곱의 돌림"/>
+
+		<str id="ids_filtermorp" val="형태학"/>
+		<str id="ids_filterkern" val="연산핵"/>
+		<str id="ids_filterenhance" val="그림을 선명하게 하기"/>
+		<str id="ids_filteredge" val="가장자리를 선명하게 하기"/>
+
+		<str id="ids_extraopenfail" val="설치 파일을 열 수 없습니다."/>
+		<str id="ids_extrasaveit" val="현재 데이터가 변경되었는데 저장하시겠습니까?"/>
+		<str id="ids_extradyeexist" val="해당 Dye 데이터가 존재합니다."/>
+		<str id="ids_extradeleteitem" val="해당 데이터를 삭제하시겠습니까?"/>
+		<str id="ids_extrasavedata" val="변경된 내용 저장하시겠습니까?"/>
+		<str id="ids_extrareloaddata" val="모든 데이터를 다시 불러오시겠습니까?"/>
+		<str id="ids_extraforfile" val="파일 조정"/>
+
+		<str id="ids_labelaxis" val="장단축"/>
+		<str id="ids_labelwidthheight" val="너비와 높이"/>
+
+		<str id="ids_layer" val="레이어"/>
+		<str id="ids_sheet" val="데이터 시트"/>
+		<str id="ids_sheet2" val="중심"/>
+		<str id="ids_sheet3" val="지름"/>
+		<str id="ids_sheet4" val="면적"/>
+		<str id="ids_sheet5" val="길이"/>
+		<str id="ids_sheet7" val="기점"/>
+		<str id="ids_sheet8" val="종점"/>
+		<str id="ids_sheet9" val="거리"/>
+		<str id="ids_pointname" val="제%d점"/>
+		<str id="ids_intersection" val="교점"/>
+		<str id="ids_foot" val="수족"/>
+		<str id="ids_slope" val="경사도"/>
+		<str id="ids_perimeter" val="둘레"/>
+		<str id="ids_center" val="원심"/>
+		<str id="ids_arclength" val="호 길이"/>
+		<str id="ids_ratio" val="비례"/>
+		<str id="ids_axes" val="장단축"/>
+		<str id="ids_layer0" val="보이기"/>
+		<str id="ids_lunit0" val="단위"/>
+		<str id="ids_lunit2" val="기호"/>
+		<str id="ids_lunit4" val="비례"/>
+		<str id="ids_noname" val="[이름없음]"/>
+		<str id="ids_layerbackground" val="배경 레이어"/>
+		<str id="ids_layername" val="레이어 이름"/>
+		<str id="ids_sysunit" val="시스템"/>
+		<str id="ids_userunit" val="사용자 정의"/>
+		<str id="ids_errorfile" val="파일 형식 오류."/>
+		<str id="ids_errordata" val="파일 데이터 오류."/>
+		<str id="ids_only1layer" val="마지막 레이어는 삭제 못합니다."/>
+		<str id="ids_removecurrent" val="현재의 레이어는 삭제 못합니다..."/>
+		<str id="ids_removelayer" val="이 레이어를 삭제합니까?"/>
+		<str id="ids_removeitem" val="모든 선택한 개체를 삭제합니까?"/>
+		<str id="ids_removeunit" val="사용자 정의의 단위 삭제 성공."/>
+		<str id="ids_unitsymbol" val="기호는 비지 못합니다."/>
+		<str id="ids_invalidratio" val="사용자 정의의 비례가 불법입니다."/>
+		<str id="ids_sameunit" val="이름이 같은 단위가 존재. 추가 실패"/>
+		<str id="ids_samesymbol" val="기호가 같은 단위가 존재합니다."/>
+		<str id="ids_layersamename" val="이름이 같은 레이어가 존재합니다. 계속합니까?"/>
+		<str id="ids_nametolong" val="이름이 너무 길어요."/>
+		<str id="ids_symboltolong" val="기호가 너무 길어요."/>
+		<str id="ids_toomanyunit" val="사용자 정의의 단위가 너무 많습니다."/>
+		<str id="ids_addunit" val="1. 비례란 해당 단위와 기본 다위인 미터와의 계산 관계임을 의미합니다. 미터와 미리미터의 비례관계가 1000이며 과학용 표기로는 1e3 입니다\n. 미터와 킬로미터의 비례는 0.001이며 과학용 표기로는 le-3 입니다. \n\n2. 기호란 해당 단위의 영어 준말로 미터를 m, 센티미터를 cm 등등으로 표시하는 것입니다."/>
+		<str id="ids_general" val="일반"/>
+		<str id="ids_lengthunit" val="길이 단위"/>
+		<str id="ids_angleunit" val="각도 단위"/>
+		<str id="ids_measurelist" val="표 측정"/>
+		<str id="ids_angle" val="각도"/>
+		<str id="ids_ellipse" val="타원"/>
+		<str id="ids_line" val="선"/>
+		<str id="ids_point" val="점"/>
+		<str id="ids_rect" val="직사각형"/>
+		<str id="ids_parallel" val="평행선"/>
+		<str id="ids_line3" val="평행선(3점)"/>
+		<str id="ids_line2" val="평행선(4점)"/>
+		<str id="ids_line4" val="평행선(8점)"/>
+		<str id="ids_linea" val="평행선(임의)"/>
+		<str id="ids_vertical" val="수직선"/>
+        <str id="ids_verany" val="수직선(임의)"/>
+		<str id="ids_circle" val="원"/>
+		<str id="ids_arc" val="호"/>
+		<str id="ids_annulus" val="고리"/>
+		<str id="ids_twocircles" val="동심원"/>
+		<str id="ids_curve" val="곡선"/>
+		<str id="ids_appearance" val="모양"/>
+		<str id="ids_geometry" val="기하학"/>
+		<str id="ids_coordinates" val="좌표"/>
+		<str id="ids_lsize" val="사이즈"/>
+		<str id="ids_mlinewidth" val="보조선 굵기"/>
+		<str id="ids_linecolor" val="선 색"/>
+		<str id="ids_mlinecolor" val="보조선 색"/>
+		<str id="ids_linestyle" val="라인 스타일"/>
+		<str id="ids_mlinestyle" val="보조선 스타일"/>
+		<str id="ids_fill" val="채우기 여부"/>
+		<str id="ids_mline" val="보조선 표시"/>
+		<str id="ids_amarker" val="각도 마커 표시"/>
+		<str id="ids_circled" val="지름/반지름 표시"/>
+		<str id="ids_circlec" val="원심 표시"/>
+		<str id="ids_fillcolor" val="면 색"/>
+		<str id="ids_arrow" val="화살표"/>
+		<str id="ids_textcolor" val="글꼴색"/>
+		<str id="ids_textalign" val="글자 정열"/>
+		<str id="ids_lframe" val="테두리"/>
+		<str id="ids_edittext" val="글 편집"/>
+		<str id="ids_textleft" val="왼쪽 정열"/>
+		<str id="ids_textright" val="오른쪽 정열"/>
+		<str id="ids_lnum" val="번호"/>
+		<str id="ids_ltoolbarshow" val="보이기/감추기"/>
+		<str id="ids_fontstyle0" val="보통"/>
+		<str id="ids_fontstyle1" val="굵게"/>
+		<str id="ids_fontstyle2" val="기울임"/>
+		<str id="ids_fontstyle3" val="진하고 기울임"/>
+		<str id="ids_decimal" val="소수"/>
+		<str id="ids_decimal0" val="0자리 소수"/>
+		<str id="ids_decimal0" val="0자리 소수"/>
+		<str id="ids_decimal1" val="1자리 소수"/>
+		<str id="ids_decimal2" val="2자리 소수"/>
+		<str id="ids_decimal3" val="3자리 소수"/>
+		<str id="ids_decimal4" val="4자리 소수"/>
+		<str id="ids_decimal5" val="5자리 소수"/>
+		<str id="ids_decimal6" val="6자리 소수"/>
+		<str id="ids_labeltype" val="표시 유형"/>
+		<str id="ids_labelpos" val="표시 위치"/>
+		<str id="ids_ltrans" val="투명한 배경"/>
+		<str id="ids_lbkclr" val="배경 색"/>
+		<str id="ids_ecce" val="이심률"/>
+		<str id="ids_showsublabel" val="하위 개체의 레이블 표시"/>
+
+		<str id="ids_rect2p" val="직사각형(2점)"/>
+		<str id="ids_rect3p" val="직사각형(3점)"/>
+		<str id="ids_angle3p" val="각도(3점)"/>
+		<str id="ids_angle4p" val="각도(4점)"/>
+		<str id="ids_circle1" val="원(원심+반지름)"/>
+		<str id="ids_circle2" val="원(2점)"/>
+		<str id="ids_circle3" val="원(3점)"/>
+		<str id="ids_annulus2" val="고리(원심+반지름)"/>
+		<str id="ids_annulus3" val="고리(3점)"/>
+		<str id="ids_vertical3p" val="수직선(3점)"/>
+		<str id="ids_vertical4p" val="수직선(4점)"/>
+		<str id="ids_ellipse2p" val="타원(2점)"/>
+		<str id="ids_ellipse5p" val="타원(5점)"/>
+		<str id="ids_ellipse3p" val="타원(3점)"/>
+		<str id="ids_vline" val="수직 선"/>
+		<str id="ids_hline" val="수평 선"/>
+		<str id="ids_twocircle3p" val="동심원(원심+반지름)"/>
+		<str id="ids_twocircle2p" val="동심원(3점)"/>
+		<str id="ids_line3p" val="선(3점)"/>
+		<str id="ids_vline3p" val="수직 선(3점)"/>
+		<str id="ids_hline3p" val="수평 선(3점)"/>
+		<str id="ids_linemulti" val="선 (다 지점 연결)"/>
+
+		<str id="ids_errgeneric" val="일반 오류."/>
+		<str id="ids_errnullname" val="이름이 못 빕니다."/>
+		<str id="ids_errsamename" val="이름이 같은 것 존재합니다."/>
+		<str id="ids_errsameid" val="ID 같은 것 존재합니다."/>
+		<str id="ids_erropenfile" val="파일 불러오기 실패."/>
+		<str id="ids_errfileformat" val="파일 형식 오류."/>
+		<str id="ids_errmsgproduct" val="카메라 타입 안 맞음."/>
+		<str id="ids_errusb" val="USB 버전 불일치."/>
+		<str id="ids_errmode" val="모드 불일치."/>
+
+		<str id="ids_tftnone" val="압축 안 함"/>
+		<str id="ids_tftlossless" val="손실없는 압축"/>
+		<str id="ids_tftjpg" val="JPG(손실있는 압축)"/>
+
+		<str id="ids_resetlayout" val="다시 App 부팅후 창 배치가 초기화될 겁니다."/>
+		<str id="ids_startbroadcast" val="방송 시작(&amp;B)..."/>
+		<str id="ids_stopbroadcast" val="방송 정지(&amp;B)"/>
+
+		<str id="ids_stackingfail" val="그림 겹치쳐 노이즈 제거하기가 실패."/>
+
+		<str id="ids_objcount" val="분할과 카운트"/>
+		<str id="ids_objsplit" val="수동으로 분할"/>
+		<str id="ids_objcountosoutline" val="윤곽"/>
+		<str id="ids_objcountosfilled" val="색 넣기"/>
+
+		<str id="ids_counthisv" val="밝기"/>
+
+		<str id="ids_edfc" val="최대 대비"/>
+		<str id="ids_edfw" val="가중 평균"/>
+		<str id="ids_edfs" val="겹치기"/>
+		<str id="ids_edffm" val="FFDSSD옵션"/>
+		<str id="ids_edfcapture" val="스냅 사진 찍기"/>
+		<str id="ids_edfmethod" val="방법 선택"/>
+		<str id="ids_edfself" val="파일 선택"/>
+		<str id="ids_edfaa" val="자동으로 맞춤"/>
+		<str id="ids_edfadesc" val="이미지가 변위, 크기 조정, 회전 여부에 따라 적합한 맞춤방식을 선택하게 됩니다.\n\n연산 시간은 최대각도의 설정에 의해 결정되는데 각도가 클수록 시간이 더 많이 걸립니다. 기본은 1.0도입니다."/>
+		<str id="ids_edfcaptips" val="현미경을 조절하여 이미지 부분을 더 분명하게 합니다. 샘플들이 따로 되어 있는 경우에 캡처버튼을 눌러 저장하세요. 스텝 조정은 사용자가 할 수 있는데 보통 스텝이 작을수록 이미지 세부가 더 풍부해집니다. 다만 조정 과정에 반드시 샘플과 현미경의 상대 위치를 같은 방향으로 변화시키는 것을 확보해야 합니다."/>
+		<str id="ids_edfpdesc" val="이 세가지 설정은 서로 관련이 있습니다. 즉 세부 선예도가 결과의 자세한 세부에 영향을 주고 배경 양도는 배경 색상을 가감합니다. 이 두 가지 설정은 이미지의 전체 밝기에 대해 영향을 줍니다. 그러므로 총 양도에 대해 설치할 필요가 있습니다."/>
+		<str id="ids_edfmdesc" val="\t가중평균법으로 계산된 결과가 부드럽게 보이지만 세부상 버림받은 결점이 있습니다. 일반적으로 가져온 이미지 수가 많을 경우에 이 방법이 FFDSSD보다 적당한 것입니다. 특별히 강조할 것은 이미지를 가져올 시 z축 순서 (가까운 데서 먼데까지나 먼데서 가까운데까지) 규정을 지켜야 합니다. \n\t 최대 대비도 방법도 마찬가지로 이 규정을 지켜야 합니다. 상대적으로 말하면 최대 대비도 방법이 이미지의 세부를 더 잘 보류할 수 있으므로 결과가 더 선명하게 보입니다.그것도 기본 연산법입니다. \n\tFFDSSD는 FFT 주파수 영역을 이용하여 공간 차원과 이미지를 용합한 것입니다. 멀티포커싱 하기 전에 이 방법은 변위, 회전, 크기 조정된 이미지에 대해서 자동으로 특정 맞춥니다. 그리고 멀티포커싱 하기 전에는 사용자가 수동으로 하거나 자동으로 필요한 이미지에 대해 맟추어도 됩니다."/>
+		<str id="ids_maxedf" val="과다한 그림, 그림 매수가 %u를 초과하기 못합니다."/>
+
+		<str id="ids_panefloating" val="부동(&amp;F)"/>
+		<str id="ids_panedocking" val="도킹(&amp;D)"/>
+		<str id="ids_paneautohide" val="자동 숨기기(&amp;A)"/>
+		<str id="ids_panehide" val="숨기기(&amp;H)"/>
+		<str id="ids_scrright" val="오른쪽으로 스크롤"/>
+		<str id="ids_scrleft" val="왼쪽으로 스크롤"/>
+        <str id="ids_autohideall" val="모두 자동 숨기기"/>
+        <str id="ids_autohide" val="자동 숨기기"/>
+        <str id="ids_winpos" val="창 위치"/>
+
+		<str id="ids_wmdtitle" val="창"/>
+		<str id="ids_wmdselwin" val="창 선택 (&amp;W):"/>
+		<str id="ids_wmdactivate" val="활성화(&amp;A)"/>
+		<str id="ids_wmdsave" val="저장(&amp;S)"/>
+		<str id="ids_wmdclose" val="창 닫기(&amp;C)"/>
+		<str id="ids_wmdcasc" val="계단식 배열(&amp;D)"/>
+		<str id="ids_wmdtileh" val="가로 바둑판식 배열(&amp;Z)"/>
+		<str id="ids_wmdtilev" val="세로 바둑판식 배열(&amp;V)"/>
+		<str id="ids_wmdmini" val="최소화(&amp;M)"/>
+
+		<str id="ids_colorstandard" val="표준"/>
+		<str id="ids_colorcolorscolon" val="색:"/>
+		<str id="ids_colorselect" val="선택(&amp;E)..."/>
+		<str id="ids_colorhue" val="색상:"/>
+		<str id="ids_colorsaturation" val="채도:"/>
+		<str id="ids_colorluminence" val="명도:"/>
+		<str id="ids_colorred" val="빨강:"/>
+		<str id="ids_colorgreen" val="녹색:"/>
+		<str id="ids_colorblue" val="파랑:"/>
+
+		<str id="ids_unsupportformat" val="지원하지 않는 이미지 형식."/>
+		<str id="ids_hdrfail" val="HDR 합성 실패."/>
+
+		<str id="ids_miscopencl" val="이미지 처리 GPU 가속 적용"/>
+
+		<str id="ids_sharpen" val="샤프니스"/>
+		<str id="ids_decolor" val="색 없애기"/>
+		<str id="ids_detailenhance" val="세부 증강"/>
+		<str id="ids_smooth" val="부드럽게"/>
+
+		<str id="ids_llc" val="부분 색상 교정"/>
+
+		<str id="ids_toolbar_st4" val="ST4 테스트"/>
+
+		<str id="ids_bits" val="%uBit"/>
+		<str id="ids_roitosmall" val="ROI 너비와 높이가 반드시 32보다 많아야 합니다."/>
+		<str id="ids_recordstep2tipwmv" val="파일 확장자인 wmv가 자동으로 파일 이름 뒤에 붙여집니다."/>
+
+		<str id="ids_dfcimportfail" val="가져오기 실패."/>
+		<str id="ids_dfcexportfail" val="출력하기 실패."/>
+		<str id="ids_dfcimportmis" val="가져오기 실패, 안 맞음."/>
+
+		<str id="ids_deinterlace" val="교차 제거"/>
+
+		<str id="ids_sernext" val="다음 프레임"/>
+		<str id="ids_serprev" val="이전 프레임"/>
+
+		<str id="ids_pxsize" val="픽셀 사이즈"/>
+
+		<str id="ids_extrigger" val="외부"/>
+
+		<str id="ids_tecoutofrange" val="입력하신 값이 범위를 벗어났습니다 [%.1f, %.1f]."/>
+		<str id="ids_tempunit" val="온도 단위"/>
+
+		<str id="ids_batchrecord" val="대랑으로 녹화"/>
+		<str id="ids_autocapture" val="자동 캡처"/>
+		<str id="ids_startacapture" val="자동 캡처(&amp;A)"/>
+		<str id="ids_stopacapture" val="캡처 정지(&amp;S)"/>
+		<str id="ids_pause" val="시작/멈추기"/>
+
+		<str id="ids_sametarget" val="타깃 &quot;%s&quot; 존재합니다."/>
+
+		<str id="ids_livestack" val="즉시 겹치기"/>
+		<str id="ids_livestacknormal" val="정상"/>
+		<str id="ids_livestackvalfail" val="프레임이 너무 흐립니다."/>
+		<str id="ids_livestacknostars" val="별이 모자랍니다."/>
+		<str id="ids_livestacknomatches" val="충분한 맞춤이 없음."/>
+
+		<str id="ids_compatible" val="호환"/>
+
+		<str id="ids_hwver" val="하드웨어 버전"/>
+		<str id="ids_fwver" val="펌웨어 버전"/>
+		<str id="ids_fpgaver" val="FPGA 버전"/>
+		<str id="ids_mcuver" val="MCU 버전"/>
+
+		<str id="ids_toolbarhtml" val="Html 파일로 출력"/>
+
+		<str id="ids_background" val="배경"/>
+		<str id="ids_saveas" val="다른 이름으로 저장하기"/>
+
+		<str id="ids_calibratebin" val="비닝 모드에서 보정할 수 없습니다. 현재 비닝은 %d 입니다."/>
+		<str id="ids_shcsidebar" val="카메라 사이드바에서 컨트롤 표시 또는 숨기기"/>
+
+		<str id="ids_tctitle" val="명령"/>
+		<str id="ids_tckey" val="키보드"/>
+		<str id="ids_tccat" val="범주:"/>
+		<str id="ids_tccmd" val="명령:"/>
+		<str id="ids_tcallcmd" val="모든 명령"/>
+		<str id="ids_addrbtn" val="추가 또는 제거 단추(&amp;A)"/>
+		<str id="ids_toolbarreset" val="도구 모음 다시 설정(&amp;R)"/>
+		<str id="ids_resetask" val="도구 모음을 다시 설정하시겠습니까?"/>
+		<str id="ids_tctip" val="단추를 추가 하려면 오른쪽에 있는 명령 단추를 도구 모음으로 끕니다.\r\n단추를 제거 하려면 단추를 도구 모음 밖으로 끕니다."/>
+		<str id="ids_kcate" val="범주(&amp;C):"/>
+		<str id="ids_kcmd" val="명령(&amp;O):"/>
+		<str id="ids_krem" val="제거(&amp;R)"/>
+		<str id="ids_kres" val="모두 다시 설정(&amp;S)"/>
+		<str id="ids_kass" val="할당(&amp;A)"/>
+		<str id="ids_kato" val="담당자:"/>
+		<str id="ids_knew" val="새 바로 가기 키 누르기(&amp;N):"/>
+		<str id="ids_kcur" val="현재 키(&amp;U):"/>
+		<str id="ids_unass" val="[할당되지 않음]"/>
+		<str id="ids_kreset" val="변경 내용이 모두 손실됩니다. 키보드 할당을 다시 설정하시겠습니까?"/>
+
+		<str id="ids_imagetype" val="이미지 유형"/>
+
+		<str id="ids_focal" val="초점 길이"/>
+		<str id="ids_temp" val="센서의 온도"/>
+		<str id="ids_longitude" val="경도, 범위 = [-180.0, 180.0], 와 같은15.715, 15.715E, 15°42'9&quot;E"/>
+		<str id="ids_latitude" val="위도, 범위 = [-90.0, 90.0], 와 같은15.715, 15.715N, 15°42'9&quot;N"/>
+
+		<str id="ids_str" val="문자열"/>
+		<str id="ids_int" val="정수"/>
+		<str id="ids_real" val="실수"/>
+
+		<str id="ids_external" val="외부 응용 프로그램"/>
+		<str id="ids_exe" val="프로그램"/>
+
+		<str id="ids_metadescascom" val="이 속성 시트는 FITS 파일 및 EXIF 파일(jpg, png, tiff 등 포함)을 비롯한 다양한 파일 형식의 속성 값을 설정하는 데 사용됩니다. EXIF 열의 빈 항목은 EXIF 파일이 이 정보를 지원하지 않는다는 것을 의미하며 이는 FITS 열과 동일합니다. 값 열의 [자동]은 소프트웨어가 정보를 자동으로 채울 것임을 의미합니다. 값 열이 [자동]이 아닌 다른 항목의 경우 항목을 두 번 클릭하고 값을 설정할 수 있습니다."/>
+		<str id="ids_metadescmicro" val="이 속성 시트는 jpg, png, tiff 등 다양한 파일 형식의 속성 값을 설정하는 데 사용됩니다. 값 열의 [자동]은 소프트웨어가 정보를 자동으로 채운다는 의미입니다. 값 열이 [자동]이 아닌 다른 항목은 더블 클릭하여 값을 설정할 수 있습니다."/>
+
+		<str id="ids_temptint" val="색 온도/색조"/>
+		<str id="ids_rgbgain" val="RGB 게인"/>
+
+		<str id="ids_even" val="짝수를 입력 하십시오."/>
+
+		<str id="ids_report" val="보고서"/>
+		<str id="ids_reportdenied" val="템플릿 파일에 대한 액세스가 거부되었습니다.\n템플릿 파일이 다른 응용 프로그램에 의해 잠겨 있을 수 있으므로 종료하십시오.\n문제가 계속되면 Windows를 로그오프하고 다시 로그인하십시오."/>
+		<str id="ids_reporttip" val="1. 보고서 템플릿은 자리 표시자를 사용하여 교체할 다양한 콘텐츠를 나타냅니다.\r\n2. {{YYYY}}{{mm}}{{DD}}{{HH}}{{MM}}{{SS}}는 각각 년, 월, 일, 시, 분, 초를 나타내는 시간 자리 표시자입니다. {{LD}}{{SD}}는 각각 긴 날짜와 짧은 날짜를 나타냅니다.\r\n3. 대체 텍스트의 제목 또는 설명이 {{IP}}인 이 템플릿의 이미지는 이미지 자리 표시자로 간주되며 숫자는 {{IP1}}, {{IP2}} 등과 같은 이미지 시퀀스를 나타냅니다.\r\n4. {{MT}}의 내용으로 채워진 테이블은 측정 테이블 자리 표시자로 간주됩니다. {{MH}}는 테이블 헤더를 나타냅니다.\r\n5. {{MT.i.x.y}}는 측정 테이블 내용의 자리 표시자입니다. i는 이미지의 인덱스, x는 측정 테이블 항목의 행 인덱스, y는 측정 테이블 항목의 열 인덱스입니다. 보고서에 이미지가 하나만 있는 경우 i는 1로 설정해야 합니다. i, x, y의 시작 값은 1입니다. 예를 들어 {{MT.1.2.3}}은 항목의 내용을 나타내며, 이미지 1의 측정 테이블의 행 2, 열 3 위치. x가 음수 값인 경우 마지막 숫자의 x번째 행을 나타냅니다. 예를 들어 {{MT.1.-2.3}}은 끝에서 두 번째 첫 번째 그림의 측정 테이블의 두 번째 행과 세 번째 열.\r\n6. {{LU}}{{AU}}{{SU}}는 각각 길이, 각도 및 면적 단위에 대한 자리 표시자입니다. {{lu}}{{au}}{{su}}는 약어를 의미합니다.\r\n7. Word/Excel 보고서가 생성되면 이미지 자리 표시자가 해당 콘텐츠로 대체됩니다. 여러 장의 사진 교체는 썸네일 UI의 이미지 선택 순서에 따라 달라집니다.\r\n8. 워드/엑셀 버전은 2007 이상이어야 합니다."/>
+		<str id="ids_reportresall" val="템플릿의 내용이 지워지고 기본 템플릿으로 대체 됩니다. 계속 하 시겠습니까?"/>
+
+		<str id="ids_exportexcel" val="Microsoft Excel 출력"/>
+		<str id="ids_exportcsv" val="CSV 출력"/>
+		<str id="ids_csvplus" val="워크 플로우"/>
+		
+		<str id="ids_toofar" val="너무 멀다"/>
+		<str id="ids_tooclose" val="너무 가깝다"/>
+
+		<str id="ids_webppresetphoto" val="사진"/>
+		<str id="ids_webppresetpicture" val="그림"/>
+		<str id="ids_webppresetdrawing" val="드로잉"/>
+		<str id="ids_webppreseticon" val="아이콘"/>
+
+		<str id="ids_dlpending" val="보류 중인 다운로드가 있습니다. 모두 취소하고 종료하시겠습니까?"/>
+		<str id="ids_dlnormal" val="다운로드중"/>
+		<str id="ids_dlcompleted" val="완료"/>
+		<str id="ids_dlpaused" val="일시정지"/>
+
+		<str id="ids_gpuwin8" val="하드웨어 (GPU) 인코딩은 Windows 8 이상에서만 사용할 수 있습니다."/>
+		<str id="ids_gpuinsu" val="하드웨어(GPU) 인코더는 CPU 사용량을 크게 줄일 수 있지만 해상도가 GPU의 성능을 초과할 경우 자동으로 소프트웨어 인코더로 대체됩니다."/>
+
+		<str id="ids_cursorcross" val="십자선"/>
+
+		<str id="ids_segts" val="세그먼트"/>
+		<str id="ids_edges" val="모서리"/>
+		<str id="ids_avgang" val="평균 각도"/>
+		<str id="ids_seglength" val="세그먼트 길이"/>
+		<str id="ids_avglength" val="평균 길이"/>
+		<str id="ids_ttllength" val="총 길이"/>
+		<str id="ids_randomcon" val="무작위 연결"/>
+		<str id="ids_multicon" val="다 지점 연결"/>
+		<str id="ids_segdistance" val="세그먼트 거리"/>
+		<str id="ids_avgdistance" val="평균 거리"/>
+		<str id="ids_ttldistance" val="총 거리"/>
+
+		<str id="ids_stitchexpand" val="처리 중입니다. 잠시만 기다려 주세요."/>
+		<str id="ids_stitchexpdis" val="타일링하는 동안 자동 노출을 자동으로 비활성화."/>
+		<str id="ids_edfexpdis" val="멀티포커싱하는 동안 자동 노출을 자동으로 비활성화"/>
+		<str id="ids_edfsize" val="비디오 영역 크기"/>
+
+		<str id="ids_exportmea" val="내보내기 &amp; 합치기"/>
+		<str id="ids_exportshowdlg" val="내보내거나 합칠때 &quot;내보내기 옵션&quot; 대화상자 표시"/>
+
+		<str id="ids_cpucore" val="코어 수"/>
+		<str id="ids_cputhrd" val="스레드 수"/>
+
+		<str id="ids_fastest" val="가장 빠른"/>
+		<str id="ids_slowest" val="가장 느린"/>
+
+		<str id="ids_edgelen" val="모서리 길이"/>
+		<str id="ids_avgedge" val="평균 모서리 길이"/>
+
+		<str id="ids_policy" val="정책"/>
+		<str id="ids_ae0" val="노출 Only"/>
+		<str id="ids_ae1" val="노출 선호"/>
+		<str id="ids_ae2" val="게인 Only"/>
+		<str id="ids_ae3" val="게인 선호"/>
+		<str id="ids_aeexpmax" val="최대 노출 시간"/>
+		<str id="ids_aegainmax" val="최대 게인"/>
+
+		<str id="ids_stitchres" val="현재 동영상의 보정 해상도를 스티칭된 결과 이미지에 자동으로 적용합니다. 이 값의 정확도는 여러 요인에 따라 달라집니다."/>
+		<str id="ids_edfres" val="현재 비디오의 보정 해상도를 EDF 결과 이미지에 자동으로 적용합니다. 이 값의 정확도는 여러 요인에 따라 달라집니다."/>
+
+		<str id="ids_miscbmp" val="&quot;빠른 저장&quot;, &quot;일괄 저장&quot;, 등을 위한 파일 유형 선택에 BMP 형식 추가(BMP 형식은 보정 및 측정을 지원하지 않음)"/>
+		<str id="ids_csvutf8" val="CSV에서 UTF8 문자 집합 사용"/>
+
+		<str id="ids_sensor" val="센서"/>
+		<str id="ids_ccdpro" val="순차"/>
+		<str id="ids_ccdint" val="비월 주사"/>
+		<str id="ids_glsh" val="글로벌 셔터"/>
+		<str id="ids_rosh" val="롤링 셔터"/>
+		<str id="ids_isp" val="하드웨어ISP"/>
+
+		<str id="ids_dye" val="염료"/>
+
+		<str id="ids_delay" val="지연"/>
+		<str id="ids_plan" val="계획"/>
+		<str id="ids_seqopt" val="시퀀서"/>
+		<str id="ids_ioctrl" val="IO 컨트롤"/>
+		<str id="ids_ioctrlii" val="분리된 입력"/>
+		<str id="ids_ioctrlio" val="분리된 출력"/>
+		<str id="ids_ioctrlip" val="입력"/>
+		<str id="ids_ioctrlop" val="출력"/>
+		<str id="ids_ioctrlnc" val="연결되지 않음"/>
+		<str id="ids_ioctrlpo" val="상승 에지"/>
+		<str id="ids_ioctrlne" val="하강 에지"/>
+		<str id="ids_ioctrlhl" val="높은 수준"/>
+		<str id="ids_ioctrlll" val="낮은 수준"/>
+		<str id="ids_ioctrlft" val="프레임 트리거 대기"/>
+		<str id="ids_ioctrlea" val="노출 활성"/>
+
+		<str id="ids_imageid" val="이미지 고유 ID"/>
+		<str id="ids_timestamp" val="타임스탬프"/>
+		<str id="ids_timestamptxt" val="카메라 하드웨어가 타임스탬프 기능을 지원하는 경우 타임랩스(자동 캡처) 및 트리거 시 타임스탬프가 자동으로 timestamp.txt에 기록됩니다."/>
+
+		<str id="ids_meanintensity" val="평균 세기"/>
+		<str id="ids_intensity" val="세기"/>
+
+		<str id="ids_typemis" val="유형 불일치"/>
+		<str id="ids_showsub" val="하위 오브젝트 표시"/>
+
+		<str id="ids_connection" val="연결"/>
+
+		<str id="ids_pbslow" val="느린"/>
+		<str id="ids_pbfast" val="빠른"/>
+
+		<str id="ids_network" val="네트워크"/>
+		<str id="ids_multicast" val="멀티캐스트"/>
+		<str id="ids_unicast" val="유니캐스트"/>
+
+		<str id="ids_custommo" val="사용자정의 측정"/>
+
+		<str id="ids_tecpower" val="TEC일률"/>
+
+		<str id="ids_zoomnoctrl" val="마우스 휠을 위아래로 스크롤"/>
+		<str id="ids_zoomctrl" val="Ctrl + 마우스 휠을 위아래로 스크롤"/>
+
+		<str id="ids_lastinput" val="마지막 입력"/>
+		<str id="ids_goto" val="이동"/>
+		<str id="ids_timer" val="시간범위"/>
+		<str id="ids_dbstep1" val="데이터베이스에 연결"/>
+		<str id="ids_dbstep2" val="테이블 정의"/>
+		<str id="ids_odbchandle" val="ODBC: invalid handle."/>
+		<str id="ids_dbver" val="데이터베이스 스키마 불일치."/>
+		<str id="ids_dbdrop" val="경고: 데이터베이스의 모든 콘텐츠와 스키마를 지우시겠습니까?"/>
+		<str id="ids_dbdelc" val="경고: 이 열의 모든 내용을 지우시겠습니까?"/>
+		<str id="ids_sqllike" val="%:\t0개 이상의 문자;\r\n_:\t임의의 단일 문자;\r\n[]:\t지정된 범위([a-f]) 또는 ([abcdef])내의 단일 문자;\r\n[^]:\t지정된 범위([^a-f]) 또는 ([^abcdef])내에 없는 단일 문자"/>
+		<str id="ids_bigint" val="64비트 정수"/>
+		<str id="ids_smallint" val="16비트 정수"/>
+		<str id="ids_int32" val="32비트 정수"/>
+
+		<str id="ids_page" val="페이지"/>
+		<str id="ids_nextp" val="다음 페이지"/>
+		<str id="ids_prevp" val="이전 페이지"/>
+		<str id="ids_firp" val="첫 페이지"/>
+		<str id="ids_lasp" val="마지막 페이지"/>
+
+		<str id="ids_fnew" val="캡처된 이미지를 항상 제일 앞에 표시"/>
+        
+        <str id="ids_stat" val="통계"/>
+		<str id="ids_smax" val="최대"/>
+		<str id="ids_smin" val="최소"/>
+		<str id="ids_savg" val="평균"/>
+		<str id="ids_sstd" val="표준 편차"/>
+
+		<str id="ids_hsty" val="H형"/>
+		<str id="ids_half" val="반"/>
+		<str id="ids_acum" val="누적 모드"/>
+		<str id="ids_comp" val="합치기"/>
+
+		<str id="ids_powerc" val="전력 소비"/>
+
+		<str id="ids_writabledir" val="디렉토리가 없거나 쓸 수 없습니다."/>
+
+		<str id="ids_namepre" val="이름 접두사"/>
+
+		<str id="ids_ea" val="에지 인식(Edge Aware)"/>
+		
+		<str id="ids_cmptip" val="현재와 비교할 항목을 1개 또는 3개 선택하십시오:\r\n&quot;%s&quot;"/>
+
+		<str id="ids_relt" val="결과"/>
+        
+        <str id="ids_exsf" val="현재 설정을 파일로 내보내기(&amp;F)..."/>
+        <str id="ids_exse" val="현재 설정을 &amp;EEPROM으로 내보내기"/>
+        <str id="ids_exsa" val="지정된 주소(&amp;S)..."/>
+        <str id="ids_exs0" val="제로 주소(&amp;Z)"/>
+		<str id="ids_extemp" val="수출 온도 기록(&amp;T)..."/>
+        
+        <str id="ids_cpattern" val="체크 무늬 패턴"/>
+		
+		<str id="ids_ocws" val="분수령"/>
+		<str id="ids_ocsd" val="어두운 OTSU"/>
+		<str id="ids_ocsb" val="밝은 OTSU"/>
+		
+		<str id="ids_ebusy" val="카메라는 다른 응용 프로그램에서 사용합니다."/>
+		
+		<str id="ids_squ" val="시퀀스"/>
+		
+		<str id="ids_littleend" val="리틀 엔디안"/>
+		<str id="ids_bigend" val="빅 엔디안"/>
+		<str id="ids_bnum" val="바이트 수"/>
+		
+		<str id="ids_deqdepth" val="프레임 버퍼 길이"/>
+		<str id="ids_fend" val="프런트엔드"/>
+		<str id="ids_bend" val="백엔드"/>
+		<str id="ids_tecam" val="카메라를 다시 연 후 적용"/>
+		
+		<str id="ids_gridm" val="격자: 개체를 이미지에 고정"/>
+		
+		<str id="ids_motion" val="모션 중"/>
+		<str id="ids_idle" val="게으른"/>
+		
+		<str id="ids_grc" val="일반적인"/>
+		<str id="ids_pta" val="P입자 분석"/>
+		<str id="ids_phc" val="위상 계산"/>
+		<str id="ids_oth" val="다른"/>
+		
+		<str id="ids_farea" val="초점 영역"/>
+		
+		<str id="ids_lowestcpu" val="최저 CPU 사용량"/>
+		<str id="ids_highcpu" val="높은 CPU 사용량"/>
+		<str id="ids_highercpu" val="더 높은 CPU 사용량"/>
+		<str id="ids_highestcpu" val="CPU 사용량이 가장 높음"/>
+		
+		<str id="ids_fscr" val="전체 화면"/>
+		<str id="ids_xfscr" val="전체 화면 닫기"/>
+		
+		<str id="ids_updategige" val="성공적으로 완료되었습니다. 카메라의 전원을 끄고 다시 시작하세요."/>
+		
+		<str id="ids_gainshow" val="노출 이득은 다음과 같이 표현됩니다:"/>
+		<str id="ids_decibel" val="데시벨(dB)"/>
+		
+		<str id="ids_workd" val="작업 거리"/>
+		<str id="ids_efl" val="유효 초점 거리"/>
+		
+		<str id="ids_notcal" val="교정되지 않음"/>
+		
+		<str id="ids_opencom" val="%s을 열지 못했습니다."/>
+		
+		<str id="ids_chamber" val="방"/>
+		<str id="ids_humidity" val="습기"/>
+		
+		<str id="ids_uptm" val="업타임"/>
+	</string>
+
+	<dialog>
+		<str id="ids_man" val="관리"/>
+		<str id="ids_tips" val="팁"/>
+		<str id="ids_clear" val="비우기"/>
+		<str id="ids_snap" val="캡처"/>
+		<str id="ids_reco" val="비디오"/>
+		<str id="ids_qu" val="수량"/>
+		<str id="ids_bf" val="최적"/>
+		<str id="ids_number" val="수량"/>
+		<str id="ids_mode" val="모드"/>
+		<str id="ids_qu100" val="코딩 품질(25-100):"/>
+		<str id="ids_aval" val="불러온"/>
+		<str id="ids_sedl" val="선택된"/>
+		<str id="ids_adgt" val="추가&gt;&gt;"/>
+		<str id="ids_aagt" val="전부 추가"/>
+		<str id="ids_v" val="값:"/>
+		<str id="ids_border" val="바이트 순서:"/>
+		<str id="ids_sm" val="셔터 모드:"/>
+		<str id="ids_unidir" val="단방향"/>
+		<str id="ids_defi" val="정의하다..."/>
+		<str id="ids_tb" val="색표"/>
+		<str id="ids_conmode" val="연속 모드"/>
+		<str id="ids_timeval" val="시간 간격:"/>
+
+		<dlg id="IDD_ABOUTBOX">
+			<str id="up" val="소프트웨어 업그레이드"/>
+		</dlg>
+
+		<dlg id="IDD_AUTO">
+			<str id="dir" val="목록:"/>
+			<str id="for" val="파일 서식:"/>
+			<str id="pre" val="접두:"/>
+			<str id="cm" val="캡처 모드"/>
+			<str id="ef" val="모든 프레임 캡처"/>
+			<str id="time" val="캡처 시간 간격(초)"/>
+			<str id="tt" val="이미지 캡처 개수"/>
+			<str id="so" val="다매 선택"/>
+			<str id="sw" val="창 보이기"/>
+			<str id="sd" val="디스크 저장"/>
+			<str id="base" val="디렉토리:"/>
+			<str id="sub" val="서브디렉토리:"/>
+		</dlg>
+
+		<dlg id="IDD_BATCHSAVE">
+			<str id="tl" val="일괄저장"/>
+			<str id="dir" val="목록:"/>
+			<str id="for" val="파일 서식:"/>
+			<str id="pre" val="접두:"/>
+			<str id="show" val="리네임 창 보이기"/>
+			<str id="base" val="디렉토리:"/>
+			<str id="sub" val="서브디렉토리:"/>
+			<str id="qst" val="1. 위 설정은 '빠른 저장' 메뉴와 도구 모음 바에 적용될 것입니다. '빠른 저장' 이용시 해당 그림은 위와같이 설정된 노선과 규칙에 따라 빨리 저장될 것입니다.\n2. RGB48 형식을 선택하면 tif 또는 png 파일 만 RGB48 형식을 지원할 수 있기 때문에 이미지는 항상 tif 및 png 파일로 저장됩니다."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD">
+			<str id="dir" val="목록:"/>
+			<str id="frm" val="파일 서식:"/>
+			<str id="pf" val="접두:"/>
+			<str id="sh" val="리네임 창 보이기"/>
+			<str id="lm" val="제한"/>
+			<str id="tl" val="시간 제한(초):"/>
+			<str id="fl" val="프레임 개수 제한:"/>
+			<str id="base" val="디렉토리:"/>
+			<str id="sub" val="서브디렉토리:"/>
+			<str id="fo" val="파일 이름 옵션..."/>
+			<str id="do" val="디렉터리 옵션..."/>
+			<str id="tip" val="빠른 레코딩이 활성화되면 기록 마법사가 표시되지 않습니다. 빠른 녹화를 시작할 때:\n1. 파일 이름 및 디렉토리는 &quot;파일 이름 옵션&quot; 및 &quot;디렉터리 옵션&quot;에 따라 자동으로 생성됩니다;\n2. 비트 전송률은 기본 비트 전송률(비디오 너비, 높이 및 프레임 속도를 기준으로 계산됨)에 마지막 녹화에 사용된 비트 전송률 배율 백분율을 곱한 것과 같습니다.;\n3. 다른 것(예: 코덱, 타임랩스 등)은 마지막으로 사용한 것과 동일합니다."/>
+		</dlg>
+
+		<dlg id="IDD_BATCHRECORD">
+			<str id="num" val="녹화 량:"/>
+			<str id="it" val="시간 간격(초):"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_SELECT">
+			<str id="tl" val="멀티포커싱"/>
+			<str id="open" val="열린 그림:"/>
+			<str id="se" val="선택한 그림:"/>
+			<str id="pro" val="처리중:"/>
+			<str id="aa" val="모두 추가"/>
+			<str id="fuse" val="시작"/>
+			<str id="m" val="방식:"/>
+		</dlg>
+
+		<dlg id="IDD_MAG">
+			<str id="cla" val="모두 지우기"/>
+		</dlg>
+
+		<dlg id="IDD_CALIBRATE">
+			<str id="ac" val="실제 길이"/>
+			<str id="pi" val="픽셀 수"/>
+			<str id="pm" val="픽셀/미터"/>
+			<str id="ep" val="끝점"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAEXPOSURE">
+			<str id="ll" val="낮은 밝기 보정"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAHISTOGRAM">
+			<str id="l" val="왼쪽:"/>
+			<str id="r" val="오른쪽:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALS">
+			<str id="ac50" val="교류 전류(50Hz)"/>
+			<str id="ac60" val="교류 전류(60Hz)"/>
+			<str id="dc" val="직류(DC)"/>
+			<str id="desc" val="플리커 현상 방지 기능은 롤링셔터센스를 갖춘 카메라(대부분 cmos)에서만 작동할 수 있습니다. 그리고 자동 노출 기능은 반드시 해제해야 합니다. 이 기능이 적용되면 오직 일부 특정 노출 시간값만 선택할 수 있게 됩니다. 이런 값은 선택한 광원의 교류 주파수와 관련이 있습니다."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAMODE">
+			<str id="color" val="컬러"/>
+			<str id="gray" val="흑백"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERASPEED">
+			<str id="low" val="낮음"/>
+			<str id="com" val="슬라이더를 오른쪽으로 드래그하면 영상 프레임 레이트를 더 빠르게 할 수 있지만 영상은 나타나지 않을 경우에는 왼쪽으로 드래그하세요."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAWB">
+			<str id="tem" val="색 온도:"/>
+			<str id="tint" val="색조:"/>
+			<str id="com" val="화이트 밸런스 버튼을 누르기 전에, ROI(빨간 직사각형)을 샘플의 하얀색 또는 회색 부분으로 이동하세요."/>
+			<str id="auto" val="자동 화이터 밸런스"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAPRESET">
+			<str id="load" val="불러오기"/>
+			<str id="ov" val="덮어쓰기"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERTXT">
+			<str id="tl" val="겹치기"/>
+			<str id="pos" val="위치:"/>
+			<str id="bg" val="배경:"/>
+			<str id="sc" val="축척"/>
+			<str id="show" val="보이기"/>
+			<str id="dt" val="날짜와 시간"/>
+			<str id="cl" val="선명도"/>
+		</dlg>
+
+		<dlg id="IDD_MARKERGEO">
+			<str id="tl" val="표시"/>
+			<str id="sh" val="눈금 표시"/>
+		</dlg>
+
+		<dlg id="IDD_OPENDLG">
+			<str id="imag" val="비디오 정보/미리보기"/>
+			<str id="cur" val="현재 파일:"/>
+		</dlg>
+
+		<dlg id="IDD_PROMTSAVE">
+			<str id="tl" val="파일 저장하기"/>
+			<str id="com" val="파일이 변경되었습니다. 저장하시겠습니까?"/>
+			<str id="yes" val="모두 예"/>
+			<str id="no" val="모두 아니오"/>
+			<str id="bat" val="대량으로 저정하기"/>
+		</dlg>
+
+		<dlg id="IDD_SFT">
+			<str id="tl" val="측정을 지원하는 이미지 형식"/>
+			<str id="com" val="선택하신 형식은 레이어와 측정 저장할 수 없 없습니다. 형식으로 선택하세요:"/>
+			<str id="re" val="다시 경고하지 않음."/>
+			<str id="con" val="계속"/>
+			<str id="res" val="다시 선택"/>
+		</dlg>
+
+		<dlg id="IDD_CAPTURE">
+			<str id="mk" val="캡처시 오버레이 표시와 워트마크 포함"/>
+			<str id="mm" val="캡처시 측정 개체 포함:"/>
+			<str id="g" val="캡처시 그리드 포함"/>
+			<str id="dpi" val="캡처 이미지의 DPI를 다음으로 설정:"/>
+			<str id="sa" val="모노 카메라의 캡처된 이미지를 싱글채널(그레이 스케일 이미지)파일로 저장"/>
+			<str id="48" val="비트 깊이가 8보다 클 경우 캡처 형식을 자동으로 RGB48로 설정"/>
+			<str id="ss" val="(저장 공간 절약)"/>
+		</dlg>
+
+		<dlg id="IDD_GRID">
+			<str id="ru" val="눈금선 색:"/>
+			<str id="cu" val="커서 색:"/>
+			<str id="gr" val="격자"/>
+			<str id="sy" val="스타일:"/>
+			<str id="lis" val="선 스타일:"/>
+			<str id="lic" val="선 색:"/>
+			<str id="re" val="십자선"/>
+			<str id="pm" val="사전 설정 관리..."/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION1">
+			<str id="dr" val="전경 곧게 끌기:"/>
+			<str id="wt" val="투영 유형:"/>
+			<str id="sf" val="이음매 찾기:"/>
+			<str id="ba" val="묶음 조정"/>
+		</dlg>
+
+		<dlg id="IDD_STITCHOPTION2">
+			<str id="mc" val="신뢰도 맞춤:"/>
+			<str id="pc" val="전경 신뢰도:"/>
+			<str id="bs" val="융합 강도"/>
+			<str id="ms" val="맞춤 강도:"/>
+		</dlg>
+
+		<dlg id="IDD_PROGRESS">
+			<str id="tl" val="진도"/>
+		</dlg>
+
+		<dlg id="IDD_WATERMARK">
+			<str id="tl" val="비디오 워터마크"/>
+			<str id="fle" val="이미지 파일:"/>
+            <str id="tra" val="투명도(%):"/>
+			<str id="tip" val="Shift + 상/하, 좌/우 키를 이용하여 워터마크를 이동합니다.\r\nShift + Ctrl + 좌/우 키를 이용하여 워터마크를 회전합니다."/>
+		</dlg>
+
+		<dlg id="IDD_IOPT">
+			<str id="r" val="압축률"/>
+			<str id="los" val="손실없는 압축"/>
+			<str id="qu" val="화질"/>
+			<str id="best" val="최대\n압축"/>
+			<str id="bq" val="최고급\n화질"/>
+			<str id="pr" val="누진 전송"/>
+			<str id="sm" val="매끄럽게"/>
+			<str id="op" val="코딩 최적화"/>
+			<str id="in" val="교차"/>
+			<str id="ap" val="페이지 추가"/>
+			<str id="s" val="제로 패딩:"/>
+			<str id="def" val="설정 저장하기"/>
+			<str id="cl" val="압축 레벨"/>
+			<str id="fs" val="가장\n빠름"/>
+			<str id="hr" val="가장\n느림"/>
+			<str id="fh" val="파일 헤더:"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_HEADER">
+			<str id="tc" val="상기 정보는 모두 선택 가능한 것입니다."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP1">
+			<str id="pl" val="비디오 형식 및 인코더를 선택하세요"/>
+			<str id="h4" val="사용 가능한 하드웨어(GPU) 인코더:"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP2">
+			<str id="name" val="1. 캡처된 비디오 파일에 이름을 붙여주세요:"/>
+			<str id="dir" val="2. 캡처된 비디오를 저장할 목록을 선택하세요:"/>
+			<str id="tc" val="확장자인 .wmv나 .mp4 또는 .avi가 자동으로 파일이름 뒤에 붙여질 것입니다."/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP3">
+			<str id="bitr" val="비트레이트:"/>
+			<str id="key" val="I 프레임 간격:"/>
+			<str id="se" val="초"/>
+			<str id="bb" val="기본 비트레이트:"/>
+			<str id="enc" val="인코더:"/>
+			<str id="cfg" val="설정..."/>
+			<str id="pa" val="코딩 매개변수 설정"/>
+		</dlg>
+
+		<dlg id="IDD_RECORD_STEP4">
+			<str id="t" val="시간 제한(초):"/>
+			<str id="s" val="요약"/>
+			<str id="a" val="시간(초):"/>
+		</dlg>
+
+		<dlg id="IDD_BROADCAST">
+			<str id="port" val="포트:"/>
+			<str id="save" val="동시에 방송 내용을 파일로 저장하기"/>
+		</dlg>
+
+		<dlg id="IDD_OPENBROADCAST">
+			<str id="tl" val="방송 켜기"/>
+			<str id="port" val="포트:"/>
+		</dlg>
+
+		<dlg id="IDD_MOVE">
+			<str id="tl" val="이동"/>
+		</dlg>
+
+		<dlg id="IDD_DIAGNOSE">
+			<str id="tl" val="진단"/>
+		</dlg>
+
+		<dlg id="IDD_CURVE">
+			<str id="tl" val="곡선"/>
+			<str id="gr" val="격자 보이기"/>
+		</dlg>
+
+		<dlg id="IDD_RANGE">
+			<str id="tl" val="범위"/>
+			<str id="in" val="반전"/>
+			<str id="up" val="업데이트"/>
+		</dlg>
+
+		<dlg id="IDD_THRESHOLD">
+			<str id="tl" val="바이너리"/>
+		</dlg>
+
+		<dlg id="IDD_PROPPAGE_MOSAICSET">
+			<str id="fo" val="꼬리말"/>
+			<str id="ar" val="그림 배열"/>
+			<str id="rows" val="행수"/>
+			<str id="col" val="열수"/>
+			<str id="rs" val="줄 간격"/>
+			<str id="cs" val="열 간격"/>
+			<str id="ps" val="용지 크기"/>
+			<str id="ds" val="쪽 크기 지정"/>
+			<str id="pr" val="프린터 쪽 크기로"/>
+			<str id="ch" val="고치기..."/>
+			<str id="use14" val="1/4의 쪽 크기로"/>
+		</dlg>
+
+		<dlg id="IDD_ADJUSTBC">
+			<str id="tl" val="밝기 및 명암 조정"/>
+		</dlg>
+
+		<dlg id="IDD_AUTOSETUP">
+			<str id="tl" val="자동 설정"/>
+			<str id="le" val="자동균형"/>
+			<str id="ct" val="자동 대비"/>
+			<str id="low" val="하한"/>
+			<str id="high" val="상한"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR">
+			<str id="tl" val="색 조정"/>
+			<str id="mo" val="색 모형"/>
+		</dlg>
+
+		<dlg id="IDD_CLRQUANT">
+			<str id="bits" val="색 비트 수"/>
+			<str id="24" val="24비트"/>
+			<str id="8" val="8비트"/>
+			<str id="1" val="1비트"/>
+		</dlg>
+
+		<dlg id="IDD_COLORBITS">
+			<str id="tl" val="그림 색 비트 수 고치기"/>
+			<str id="new" val="새컬러 비트 수"/>
+			<str id="24" val="24비트"/>
+			<str id="8" val="8비트"/>
+			<str id="1" val="1비트"/>
+		</dlg>
+
+		<dlg id="IDD_COLORSELECT">
+			<str id="tl" val="색 고르기"/>
+		</dlg>
+
+		<dlg id="IDD_EDGE">
+			<str id="fil" val="여파기"/>
+			<str id="sc" val="부조"/>
+			<str id="la" val="라프라스"/>
+			<str id="va" val="표준 편차"/>
+			<str id="h" val="수평"/>
+			<str id="v" val="수직"/>
+			<str id="pa" val="반복 횟수"/>
+		</dlg>
+
+		<dlg id="IDD_ENHANCE">
+			<str id="fi" val="여파기"/>
+			<str id="lp" val="로우패스"/>
+			<str id="hp" val="하이패스"/>
+			<str id="g" val="가우스"/>
+			<str id="hg" val="큰 가우스"/>
+			<str id="equ" val="평균화"/>
+			<str id="fl" val="매끈하게"/>
+			<str id="me" val="중간값"/>
+			<str id="rk" val="계단"/>
+			<str id="pa" val="반복 횟수"/>
+			<str id="w" val="창"/>
+		</dlg>
+
+		<dlg id="IDD_FILLDIALOG">
+			<str id="tl" val="채움값"/>
+		</dlg>
+
+		<dlg id="IDD_GRAY">
+			<str id="tl" val="그레이스케일"/>
+			<str id="alg" val="계산법"/>
+			<str id="ave" val="평균법"/>
+			<str id="max" val="최대치법"/>
+			<str id="we" val="가중법"/>
+		</dlg>
+
+		<dlg id="IDD_HISTOGRAM">
+			<str id="tl" val="히스토그램"/>
+			<str id="ch" val="경로"/>
+			<str id="le" val="색값:"/>
+			<str id="co" val="픽셀 수:"/>
+			<str id="px" val="총 픽셀 수:"/>
+			<str id="per" val="백분율:"/>
+		</dlg>
+
+		<dlg id="IDD_KERPAGE">
+			<str id="ker" val="핵"/>
+			<str id="er" val="부식"/>
+			<str id="di" val="확장하기"/>
+			<str id="open" val="오픈"/>
+			<str id="cl" val="닫기"/>
+			<str id="pa" val="반복 횟수"/>
+			<str id="fi" val="여파 유형"/>
+			<str id="conv" val="돌림"/>
+			<str id="morp" val="형태학"/>
+		</dlg>
+
+		<dlg id="IDD_KERSTRUCT">
+			<str id="tl" val="핵 편집"/>
+			<str id="size" val="핵 차원"/>
+			<str id="fill" val="채우기"/>
+		</dlg>
+
+		<dlg id="IDD_MORPAGE">
+			<str id="fil" val="여파기"/>
+			<str id="er" val="부식"/>
+			<str id="di" val="확장하기"/>
+			<str id="open" val="열기"/>
+			<str id="cl" val="닫기"/>
+			<str id="gra" val="경도"/>
+			<str id="dis" val="거리"/>
+			<str id="thi" val="세분화"/>
+			<str id="wat" val=" 분수령법"/>
+			<str id="pa" val="반복 횟수"/>
+			<str id="2x2" val="2 x 2 정사각형"/>
+			<str id="3x1" val="3 x 1 줄"/>
+			<str id="1x3" val="1 x 3 열"/>
+			<str id="3x3" val="3 x 3 포크"/>
+			<str id="5x5" val="5 x 5 원"/>
+			<str id="7x7" val="7 x 7 원"/>
+			<str id="11x11" val="11 x 11 원"/>
+		</dlg>
+
+		<dlg id="IDD_ROTATE">
+			<str id="tl" val="그림 회전"/>
+			<str id="deg" val="도:"/>
+			<str id="qu" val="회전 품질"/>
+			<str id="cw" val="시계 방향"/>
+			<str id="ccw" val="반시계 방향"/>
+			<str id="an" val="각도"/>
+		</dlg>
+
+		<dlg id="IDD_SCALE">
+			<str id="tl" val="이미지 크기"/>
+			<str id="con" val="종횡비 잠금"/>
+			<str id="met" val="줌 방식"/>
+		</dlg>
+
+		<dlg id="IDD_GAMMA">
+			<str id="tl" val="감마조정"/>
+		</dlg>
+
+		<dlg id="IDD_HMS">
+			<str id="tl" val="하이라이터/중간/음영"/>
+		</dlg>
+
+		<dlg id="IDD_CHANNEL">
+			<str id="tl" val="색 선택"/>
+		</dlg>
+
+		<dlg id="IDD_PROFILE">
+			<str id="t" val="절단선"/>
+		</dlg>
+
+		<dlg id="IDD_LAYERNAME">
+			<str id="tl" val="레이어"/>
+		</dlg>
+
+		<dlg id="IDD_AUNIT">
+			<str id="all" val="측정 사이드바에 모두든 각도 단위를 나타내기"/>
+		</dlg>
+
+		<dlg id="IDD_ADDUNIT">
+			<str id="tl" val="단위 추가"/>
+			<str id="sc" val="비례:"/>
+			<str id="sy" val="기호:"/>
+		</dlg>
+
+		<dlg id="IDD_GENERAL">
+			<str id="res" val="계산 결과 보류:"/>
+			<str id="lfs" val="글자 크기 표시:"/>
+			<str id="unit" val="크기 표시시 단위 붙이기"/>
+			<str id="a" val="자동으로 측정 개체 이름 지정"/>
+			<str id="e" val="작은 창 활성화"/>
+			<str id="hm" val="측정 대상을 이동할 때 레이블 숨기기"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_DELETE">
+			<str id="tl" val="레이어 삭제"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_CURRENT">
+			<str id="tl" val="현재 레이어"/>
+		</dlg>
+
+		<dlg id="IDD_LAYER_MANAGE">
+			<str id="tl" val="레이어 보이기/감추기"/>
+		</dlg>
+
+		<dlg id="IDD_MEASURELIST">
+			<str id="col" val="격자 측정하는 열 정의"/>
+			<str id="o" val="사용자 정의 개체..."/>
+			<str id="c" val="사용자 정의 열..."/>
+			<str id="a" val="사용자 정의 계산..."/>
+			<str id="r" val="사용자 정의 행..."/>
+			<str id="s" val="통계(다음 행 추가)"/>
+		</dlg>
+
+		<dlg id="IDD_COLOR_COMPOSITE">
+			<str id="tl" val="컬러 합치기"/>
+			<str id="so" val="소스 그림:"/>
+			<str id="co" val="색:"/>
+			<str id="all" val="모든 그림"/>
+			<str id="se" val="선택한 그림"/>
+			<str id="adj" val="조정하기"/>
+			<str id="reg" val="이동하기"/>
+		</dlg>
+
+		<dlg id="IDD_COMPOSITE_AVA">
+			<str id="so" val="소스 그림"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_SELECT_COLOR">
+			<str id="tl" val="색 선택"/>
+			<str id="fle" val="파일 조정:"/>
+			<str id="se" val="선택한 색:"/>
+			<str id="back" val="바탕 그림"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_DYE_LIST">
+			<str id="tl" val="Dye 목록 편집"/>
+			<str id="rel" val="모두 다시 불러오기"/>
+			<str id="ext" val="여기 파장:"/>
+			<str id="em" val="방출 파장:"/>
+		</dlg>
+
+		<dlg id="IDD_DIALOG_NEW_DYE">
+			<str id="tl" val="새로 만들기"/>
+		</dlg>
+
+		<dlg id="IDD_STACKING">
+			<str id="tl" val="이미지 겹쳐 노이지 제거"/>
+		</dlg>
+
+		<dlg id="IDD_PROP">
+			<str id="set" val="측정 개체의 기본 속성 설정:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_OPTION">
+			<str id="tl" val="카운터 설정"/>
+			<str id="os" val="스타일 윤곽:"/>
+			<str id="ot" val="스타일:"/>
+			<str id="lm" val="방법:"/>
+			<str id="wh" val="구멍 채우기"/>
+			<str id="la" val="표시"/>
+			<str id="min" val="하한선:"/>
+			<str id="max" val="상한선:"/>
+			<str id="sc" val="장면:"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_HISTORGRAM">
+			<str id="tl" val="히스토그램"/>
+			<str id="sa" val="모두 나타나기"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_COLORCUBE">
+			<str id="to" val=" 허용 오차"/>
+		</dlg>
+
+		<dlg id="IDD_NLM">
+			<str id="tl" val="비 부분 평균(NLM)"/>
+			<str id="sw" val="검색 창:"/>
+			<str id="tw" val="템플릿 창:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYD">
+			<str id="d" val="세부 선예도:"/>
+			<str id="o" val="전체 밝기:"/>
+			<str id="b" val="배경 밝기:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_ALIGN">
+			<str id="aa" val="자동 정열"/>
+			<str id="a0" val="없음"/>
+			<str id="a1" val="변위+줌"/>
+			<str id="a2" val="변위+줌+회전"/>
+			<str id="ma" val="최대 각도:"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_FM">
+			<str id="at" val="참조 이미지 자동으로 확인"/>
+		</dlg>
+
+		<dlg id="IDD_EDF_PYDSTACK">
+			<str id="dm" val="피사체 심도 회복:"/>
+			<str id="ri" val="외딴섬 삭제:"/>
+			<str id="lf" val="로우 패스 필터:"/>
+			<str id="hf" val="하이 패스 필터:"/>
+			<str id="ac" val="대비 조정:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERADFC">
+			<str id="tip" val="렌즈를 가린 후, '캡처' 버튼을 눌러 암시야 프레임을 켑처합니다. '적용' 버튼을 선택하여 '다크 필드 보정'."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFFC">
+			<str id="tip" val="시야에서 샘플을 제거합니다. 캡처 버튼을 클릭하여 플랫 필드 보정을 위한 배경을 획득합니다. 플랫 필드 보정 기능을 수행하려면 활성화 버튼을 선택하십시오."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERALIVESTACK">
+			<str id="af" val="프레임 맞춤"/>
+			<str id="pl" val="행성"/>
+			<str id="ds" val="딥 스페이스"/>
+			<str id="in" val="인:"/>
+			<str id="out" val="아웃:"/>
+		</dlg>
+
+		<dlg id="IDD_BF">
+			<str id="tt" val="양측 필터"/>
+			<str id="size" val="값 영역:"/>
+			<str id="s" val="빈 영역:"/>
+		</dlg>
+
+		<dlg id="IDD_CLAHE">
+			<str id="tl" val="히스토그램 균형"/>
+		</dlg>
+
+		<dlg id="IDD_UNSHARPMASK">
+			<str id="tl" val="비선명한 마크"/>
+			<str id="a" val="수량:"/>
+		</dlg>
+
+		<dlg id="IDD_DETAILENHANCE">
+			`<str id="tl" val="세부 강화"/>
+			`<str id="s" val="공간:"/>
+			`<str id="r" val="범위:"/>
+		</dlg>
+
+		<dlg id="IDD_EDGEPRESERVINGSMOOTH">
+			<str id="tl" val="가장자리를 부드럽게"/>
+			<str id="s" val="공간:"/>
+			<str id="r" val="범위:"/>
+			<str id="f" val="필터"/>
+			<str id="re" val="반복"/>
+			<str id="n" val="회선 정규화"/>
+		</dlg>
+
+		<dlg id="IDD_LLC">
+			<str id="tl" val="부분 색 보정"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAFORMAT">
+			<str id="v" val="속성"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERACOOL">
+			<str id="po" val="일률:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERATRIGGER">
+			<str id="vm" val="비디오 모드"/>
+			<str id="tr" val="촉발 모드"/>
+			<str id="live" val="미리보기:"/>
+		</dlg>
+
+		<dlg id="IDD_EXPORTOPTIONS">
+			<str id="t" val="아웃푸트 옵션"/>
+			<str id="d" val="글씨체 기본 사이즈:"/>
+		</dlg>
+
+		<dlg id="IDD_CAMERABINNING">
+			<str id="m" val="방식:"/>
+		</dlg>
+
+		<dlg id="IDD_FITSADD">
+			<str id="a" val="(1~8 알파벳 또는 숫자, A~Z, a~z, 0~9)"/>
+		</dlg>
+
+		<dlg id="IDD_REPORT">
+			<str id="t" val="템플릿"/>
+			<str id="l" val="복제..."/>
+		</dlg>
+
+		<dlg id="IDD_CAMERAAF">
+			<str id="c" val="공액 교정"/>
+			<str id="0" val="C 마운트 0mm"/>
+			<str id="l" val="렌즈:"/>
+			<str id="n" val="가까운"/>
+			<str id="f" val="멀리"/>
+		</dlg>
+
+		<dlg id="IDD_COUNT_MANUAL">
+			<str id="tl" val="수동 카운팅"/>
+			<str id="er" val="지우기"/>
+		</dlg>
+
+		<dlg id="IDD_WAIT">
+			<str id="t" val="기다림"/>
+			<str id="p" val="기다려주세요:"/>
+		</dlg>
+		
+		<dlg id="IDD_GIGENET">
+			<str id="s" val="서브넷 마스크:"/>
+			<str id="g" val="기본 게이트웨이:"/>
+		</dlg>
+		
+		<dlg id="IDD_PSEUDOCOLOR">
+			<str id="s" val="시작 색상:"/>
+			<str id="e" val="끝 색상:"/>
+		</dlg>
+		
+		<dlg id="IDD_NOSE">
+			<str id="s" val="벤더:"/>
+			<str id="e" val="슬롯:"/>
+		</dlg>
+	</dialog>
+
+	<menu>
+		<str id="fle" val="파일(&amp;F)"/>
+		<str id="edt" val="편집(&amp;E)"/>
+		<str id="vew" val="보기(&amp;V)"/>
+		<str id="prss" val="처리(&amp;P)"/>
+		<str id="opns" val="옵션(&amp;O)"/>
+		<str id="wnd" val="창(&amp;W)"/>
+		<str id="hlp" val="도움말(&amp;H)"/>
+		<str id="stup" val="설정(&amp;S)"/>
+		<str id="cptu" val="캡처(&amp;C)"/>
+		<str id="imag" val="이미지(&amp;I)"/>
+		<str id="layr" val="레이어(&amp;L)"/>
+		<str id="meas" val="측정(&amp;M)"/>
+		<str id="brws" val="브라우징(&amp;B)"/>
+		<str id="db" val="데이터베이스(&amp;D)"/>
+
+		<str id="recf" val="최근 작업 파일(&amp;R)"/>
+		<str id="sdbr" val="사이드바(&amp;S)"/>
+		<str id="sort" val="배열(&amp;S)"/>
+		<str id="icns" val="아이콘(&amp;I)"/>
+		<str id="grds" val="격자(&amp;G)"/>
+		<str id="mvwm" val="워터마크 이동 (&amp;M)"/>
+		<str id="rtwm" val="워터마크 회전 (&amp;R)"/>
+		<str id="mode" val="모드(&amp;M)"/>
+		<str id="adj" val="조정(&amp;A)"/>
+		<str id="rtt" val="회전(&amp;T)"/>
+		<str id="line" val="선(&amp;L)"/>
+		<str id="vert" val="수직선(&amp;V)"/>
+		<str id="crcl" val="원(&amp;C)"/>
+		<str id="ccleh" val="원(속이 빔)(&amp;O)"/>
+		<str id="tocls" val="동심원(&amp;S)"/>
+		<str id="zodr" val="레이어 배열순서(&amp;Z)"/>
+		<str id="lunit" val="길이의 단위(&amp;U)"/>
+
+		<str id="oimg" val="그림 불러오기(&amp;O)..."/>
+		<str id="ovid" val="비디오 불러오기(&amp;V)..."/>
+		<str id="obcas" val="방송열기(&amp;C)..."/>
+		<str id="sckin" val="그림 겹쳐 노이즈 제거하기(&amp;S)..."/>
+		<str id="twsel" val="&amp;Twain: 장치 선택..."/>
+		<str id="twac" val="T&amp;wain: 캡처..."/>
+		<str id="batsv" val="일괄 저장(&amp;B)..."/>
+		<str id="qksv" val="빠른 저장(&amp;Q)"/>
+		<str id="psnew" val="새로운 파일로 붙이기(&amp;N)"/>
+		<str id="norec" val="최근 작업 파일 없음"/>
+		<str id="exit" val="끝내기(&amp;X)"/>
+		<str id="cut" val="오려두기(&amp;T)"/>
+		<str id="copy" val="복사하기(&amp;C)"/>
+		<str id="pste" val="붙이기(&amp;P)"/>
+		<str id="passc" val="링크로 붙이기(&amp;S)"/>
+		<str id="selal" val="모두 선택(&amp;A)"/>
+		<str id="ivsel" val="무두 선택 해제(&amp;I)"/>
+		<str id="mshet" val="데이터 시트(&amp;M)"/>
+		<str id="camsb" val="카메라(&amp;C)"/>
+		<str id="fosb" val="디렉토리(&amp;F)"/>
+		<str id="ursb" val="해제/다시 실행(&amp;U)"/>
+		<str id="lydb" val="레이어(&amp;L)"/>
+		<str id="msbar" val="측정(&amp;M)"/>
+		<str id="hsbar" val="히스토그램(&amp;H)"/>
+		<str id="prfs" val="선택 사항(&amp;P)..."/>
+		<str id="mm" val="측정(&amp;M)..."/>
+		<str id="mf" val="배율(&amp;F)..."/>
+		<str id="clbr" val="켈리브레이션(&amp;D)..."/>
+		<str id="edtdy" val="Dye 목록 편집(&amp;E)..."/>
+		<str id="atcor" val="자동으로 교정(&amp;A)..."/>
+		<str id="f1" val="도움말 테마(&amp;H)"/>
+		<str id="ab" val="정보(&amp;A)"/>
+
+		<str id="save" val="저장하기(&amp;S)"/>
+		<str id="svee" val="저장하기(&amp;S)..."/>
+		<str id="svas" val="다른 이름으로 저장하기(&amp;A)..."/>
+		<str id="imgsl" val="이미지 선택(&amp;I)"/>
+		<str id="seln" val="선택 안 함(&amp;N)"/>
+
+		<str id="gno" val="격자 없음(&amp;N)"/>
+		<str id="gda" val="자동 격자(&amp;A)"/>
+		<str id="grm" val="수동 격자(&amp;M)"/>
+		<str id="gdl" val="모든 격자 삭제(&amp;R)"/>
+		<str id="rlset" val="설정(&amp;S)..."/>
+		<str id="fitwi" val="창 맞춤(&amp;E)"/>
+		<str id="asiz" val="실제 크기(&amp;A)"/>
+		<str id="trk" val="손으로 끌기(&amp;K)"/>
+
+		<str id="sith" val="이미지 타일링(&amp;T)..."/>
+		<str id="dldt" val="삭제(&amp;D)"/>
+		<str id="bbro" val="브라우징(&amp;B)"/>
+		<str id="openf" val="오픈(&amp;O)"/>
+
+		<str id="sttp" val="일시정지(&amp;F)"/>
+		<str id="fscr" val="전체 화면(&amp;F)"/>
+		<str id="vwpp" val="진단(&amp;D)"/>
+		<str id="vvl" val="비디오 오버레이(&amp;O)..."/>
+		<str id="vwm" val="비디오 워터마크(&amp;W)..."/>
+		<str id="wmmv" val="이동(&amp;W)..."/>
+		<str id="wmzro" val="이동 &amp;0"/>
+		<str id="wmrot" val="회전(&amp;R)..."/>
+		<str id="wmrz" val="회전 &amp;0"/>
+		<str id="gcal" val="그레이 켈리브레이션(&amp;G)"/>
+		<str id="edf" val="멀티포커싱"/>
+		<str id="cpig" val="이미지 캡처(&amp;C)"/>
+		<str id="tmlps" val="타이머 캡처 시작(&amp;Time-lapse)..."/>
+		<str id="strec" val="녹화 시작/정지(&amp;V)..."/>
+		<str id="brec" val="대량으로 녹화(&amp;B)"/>
+		<str id="acap" val="자동 캡처(&amp;A)"/>
+		<str id="sttb" val="방송 시작/정지(&amp;B)..."/>
+
+		<str id="qtiz" val="색 비트 수(&amp;Q)..."/>
+		<str id="gsca" val="그레이스케일(&amp;G)"/>
+		<str id="curv" val="곡선(&amp;U)..."/>
+		<str id="alvl" val="자동 색상(&amp;L)"/>
+		<str id="acon" val="자동 대비(&amp;T)"/>
+		<str id="eql" val="히스토그램 균형(&amp;Q)..."/>
+		<str id="bc" val="밝기 및 대비도(&amp;A)..."/>
+		<str id="imclr" val="색(&amp;O)..."/>
+		<str id="gamm" val="감마(&amp;G)..."/>
+		<str id="fclr" val="필터 컬러(&amp;F)..."/>
+		<str id="eclr" val="선명하게(&amp;E)..."/>
+		<str id="iclr" val="반전(&amp;I)"/>
+		<str id="r90" val="&amp;90도(시계방향)"/>
+		<str id="r180" val="&amp;180도(시계방향)"/>
+		<str id="r270" val="&amp;270도(시계방향)"/>
+		<str id="rotar" val="임의각도(&amp;A)..."/>
+		<str id="filph" val="수평 회전(&amp;H)"/>
+		<str id="flipv" val="수직 회전(&amp;V)"/>
+		<str id="crop" val="자르기(&amp;C)"/>
+		<str id="imsca" val="이미지 크기(&amp;S)..."/>
+		<str id="hist" val="히스토그램(&amp;H)..."/>
+		<str id="reso" val="해상도(&amp;R)..."/>
+		<str id="ovlsb" val="축척 겹치기(&amp;O)..."/>
+
+		<str id="fi" val="필터(&amp;I)..."/>
+		<str id="rang" val="창너비 및 창 위치(&amp;R)..."/>
+		<str id="biy" val="바이너리(&amp;B)..."/>
+		<str id="psud" val="모조컬러(&amp;P)..."/>
+		<str id="sfac" val="&amp;3-D..."/>
+		<str id="prf" val="절단선(&amp;L)..."/>
+		<str id="mosc" val="모자이크(&amp;O)..."/>
+		<str id="cmps" val="컬러 합성(&amp;M)..."/>
+		<str id="dens" val="노이즈 제거(&amp;D)"/>
+		<str id="nlm" val="비 부분 평균(&amp;NLM)..."/>
+		<str id="bila" val="양측 필터(&amp;B)..."/>
+		<str id="awf" val="셀프 적응하는 위너 여파(&amp;A)"/>
+
+		<str id="lnew" val="새로 만들기(&amp;N)..."/>
+		<str id="lrem" val="삭제(&amp;R)..."/>
+		<str id="lcur" val="레이어 선택(&amp;L)..."/>
+		<str id="lshow" val="보이기/감추기(&amp;S)..."/>
+		<str id="len" val="레이어 이름 바꾸기(&amp;E)..."/>
+		<str id="lexp" val="개체를 이미지에 고정(&amp;M)..."/>
+		<str id="mexp" val="개체를 이미지에 고정(&amp;I)"/>
+		<str id="ldrem" val="삭제(&amp;R)"/>
+		<str id="ldcur" val="현재(&amp;C)"/>
+		<str id="ldshw" val="보이기/감추기(&amp;S)"/>
+
+		<str id="osel" val="측정 개체 선택(&amp;J)"/>
+		<str id="angl" val="각도(&amp;N)"/>
+		<str id="point" val="점(&amp;P)"/>
+		<str id="arbl" val="임의 선(&amp;A)"/>
+		<str id="hline" val="수평 선(&amp;H)"/>
+		<str id="vline" val="수직 선(&amp;V)"/>
+		<str id="parl" val="평행선(&amp;R)"/>
+		<str id="twpar" val="이중 평행선(&amp;O)"/>
+		<str id="pnt5" val="&amp;5점"/>
+		<str id="pnt4" val="&amp;4점"/>
+		<str id="pnt3" val="&amp;3점"/>
+		<str id="pnt3" val="&amp;2점"/>
+		<str id="rctg" val="직사각형(&amp;G)"/>
+		<str id="elps" val="타원(&amp;I)"/>
+		<str id="crad" val="원심+반지름(&amp;R)"/>
+		<str id="alus" val="고리(&amp;U)"/>
+		<str id="arc" val="원호(&amp;A)"/>
+		<str id="text" val="글(&amp;T)"/>
+		<str id="plg" val="임의 다각형(&amp;Y)"/>
+		<str id="ztop" val="맨 위층(&amp;T)"/>
+		<str id="zbtm" val="맨 밑층(&amp;B)"/>
+		<str id="zup" val="한 층으로 올라가기(&amp;U)"/>
+		<str id="zdown" val="한 층으로 내려가기(&amp;D)"/>
+		<str id="sbar" val="스케일바(&amp;B)..."/>
+		<str id="lcv" val="곡선(&amp;E)"/>
+		<str id="mode1" val="무작위 연결(&amp;R)"/>
+		<str id="mode2" val="다 지점 연결(&amp;M)"/>
+		<str id="arrw" val="화살표(&amp;W)"/>
+
+		<str id="call" val="모두 끄기(&amp;C)"/>
+		<str id="rstlo" val="창 배열 초기화(&amp;R)"/>
+		<str id="wnds" val="창(&amp;W)..."/>
+
+		<str id="aunit" val="각도 단위(&amp;A)..."/>
+
+		<str id="nccls" val="끄기(&amp;C)"/>
+		<str id="nccla" val="이 창을 제외하고 모두 끄기(&amp;X)"/>
+		<str id="clsth" val="다른 사람 닫기(&amp;H)"/>
+		<str id="fprop" val="파일 속성(&amp;F)..."/>
+		<str id="cpath" val="파일 위치 복사하기(&amp;Y)"/>
+		<str id="brofo" val="소재 목록에서 찾아보기(&amp;B)"/>
+		<str id="openfo" val="새재 목록 열기(&amp;O)"/>
+		<str id="htbgp" val="수평 탭그룹을 새로 만들기(&amp;H)"/>
+		<str id="vtbgp" val="수직 탭그룹을 새로 만들기(&amp;V)"/>
+		<str id="nxtbg" val="다음 그룹으로 이동(&amp;X)"/>
+		<str id="prebg" val="이전 탭그룹으로 이동(&amp;R)"/>
+		<str id="ftwid" val="폭 맞춤(&amp;I)"/>
+		<str id="fthei" val="높이 맞춤(&amp;H)"/>
+		<str id="fitwi" val="창 맞춤(&amp;W)"/>
+
+		<str id="bronm" val="파일이름순 정열(&amp;N)"/>
+		<str id="brotp" val="형식순 정열(&amp;T)"/>
+		<str id="brosz" val="사이즈순 정열(&amp;S)"/>
+		<str id="browd" val="너비순 정열(&amp;W)"/>
+		<str id="brohe" val="높이순 정열(&amp;H)"/>
+		<str id="brotx" val="형식순 정열(&amp;T)"/>
+		<str id="brofw" val="오름차순(&amp;A)"/>
+		<str id="brorv" val="내림차순(&amp;D)"/>
+		<str id="brol" val="큰 아이콘(&amp;L)"/>
+		<str id="bros" val="작은 아이콘(&amp;S)"/>
+		<str id="brorf" val="새로 고침&amp;R)"/>
+		<str id="bropo" val="속성(&amp;P)..."/>
+
+		<str id="mimp" val="파일 가져오기(&amp;I)..."/>
+		<str id="msav" val="파일 저장(&amp;S)..."/>
+		<str id="mhtm" val="&amp;Html파일로 출력..."/>
+		<str id="mexc" val="&amp;Excel파일로 출력..."/>
+
+		<str id="bstf" val="창 맞춤(&amp;B)"/>
+		<str id="asiz" val="실제 크기(&amp;A)"/>
+
+		<str id="edpn" val="일반(&amp;N)"/>
+		<str id="edph" val="&amp;H형"/>
+
+		<str id="oc" val="분할 및 카운트(&amp;C)"/>
+		<str id="ocws" val="분수령(&amp;W)..."/>
+		<str id="ocsd" val="어두운 OTSU(&amp;D)..."/>
+		<str id="ocsb" val="밝은 OTSU(&amp;B)..."/>
+		<str id="ocrhs" val="&amp;RGB히스토그램..."/>
+		<str id="ochhs" val="&amp;HSV히스토그램..."/>
+		<str id="occc" val="색 블록(&amp;C)..."/>
+
+		<str id="chair" val="십자 못줄(&amp;H)"/>
+		<str id="st4" val="ST&amp;4테스트하기..."/>
+
+		<str id="hdr" val="&amp;HDR..."/>
+
+		<str id="shpn" val="샤프니스(&amp;N)"/>
+		<str id="lshp" val="라프라스 선명하게(&amp;L)"/>
+		<str id="unshp" val="흐리게(&amp;U)..."/>
+
+		<str id="dclr" val="콘트라스트 유지 탈색(&amp;C)"/>
+		<str id="epsm" val="가장자리를 부드럽게(&amp;S)..."/>
+		<str id="denh" val="세부 강화(&amp;D)..."/>
+
+		<str id="llc" val="부분 색 보정(&amp;R)..."/>
+		<str id="cton" val="색조(&amp;G)"/>
+
+		<str id="deil" val="디인터레이스(&amp;A)"/>
+
+		<str id="opnrf" val="녹화 디렉토리 열기(&amp;D)"/>
+		<str id="opnif" val="그림 디렉토리 열기(&amp;I)"/>
+
+		<str id="lined" val="선 (&amp;3점)"/>
+
+		<str id="tnal" val="섬네일(&amp;T)"/>
+		<str id="avw" val="비디오 창 활성화(&amp;V)"/>
+
+		<str id="cust" val="사용자 정의(&amp;C)..."/>
+		<str id="ctool" val="도구 모음 사용자 정의(&amp;C)..."/>
+
+		<str id="man" val="관리(&amp;M)"/>
+		<str id="word" val="현재 보고서(&amp;R)"/>
+		<str id="wors" val="보고서(&amp;M)"/>
+
+		<str id="cent" val="센터(&amp;R)"/>
+		<str id="sernx" val="다음 프레임(&amp;N)"/>
+		<str id="serpv" val="이전 프레임(&amp;V)"/>
+
+		<str id="deep" val="딥 카피(&amp;D)"/>
+
+		<str id="manuc" val="수동(&amp;M)..."/>
+		<str id="expex" val="&amp;Excel 출력"/>
+		<str id="expcb" val="클립보드 출력(&amp;C)"/>
+		<str id="expim" val="이미지 출력(&amp;I)"/>
+
+		<str id="pipe" val="피펫(&amp;P)"/>
+		<str id="preset" val="프리셋(&amp;T)"/>
+
+		<str id="extr" val="엑스트라(&amp;X)"/>
+		<str id="holl" val="&amp;Hollowness"/>
+		<str id="pfdg" val="&amp;프로파일 각도"/>
+		<str id="frat" val="&amp;평탄도 비율"/>
+		<str id="choll" val="&amp;Circle Hollowness"/>
+		<str id="pholl" val="&amp;Polygon Hollowness"/>
+
+		<str id="clhd" val="숨기기(&amp;H)"/>
+		<str id="clsl" val="선택(&amp;S)..."/>
+
+		<str id="whba" val="화이트 밸런스(&amp;W)"/>
+
+		<str id="comb" val="&amp;합치기"/>
+		<str id="ucom" val="&amp;합치기 해제"/>
+
+		<str id="arra" val="배열(&amp;G)"/>
+		<str id="cstm" val="사용자 정의(&amp;M)"/>
+
+		<str id="expt" val="내보내기(&amp;X)"/>
+		<str id="expf" val="내보내기(&amp;X)..."/>
+		<str id="impf" val="가져오기(&amp;I)..."/>
+
+		<str id="copa" val="비교(&amp;M)"/>
+
+		<str id="dstup" val="새로 만들기(&amp;N)..."/>
+		<str id="drop" val="삭제(&amp;D)"/>
+		<str id="clea" val="비우기(&amp;C)"/>
+		<str id="dconn" val="연결(&amp;C)..."/>
+		<str id="disc" val="분리(&amp;D)"/>
+		<str id="opts" val="옵션(&amp;O)..."/>
+		<str id="oima" val="그림 불러오기(&amp;O)"/>
+
+		<str id="rena" val="리네임(&amp;R)..."/>
+		<str id="dye" val="염색(&amp;Y)..."/>
+
+		<str id="item" val="항목(&amp;T)"/>
+		<str id="aitem" val="모든 항목(&amp;L)"/>
+		<str id="aimag" val="모든 이미지(&amp;A)"/>
+
+		<str id="expg" val="노출 및 게인(&amp;E)"/>
+		<str id="load" val="불러오기(&amp;L)"/>
+
+        <str id="clti" val="모든 임시 이미지 닫기(&amp;T)"/>
+
+		<str id="auto" val="자동(&amp;A)..."/>
+		<str id="defu" val="기본값(&amp;D)"/>
+		<str id="rest" val="초기화(&amp;R)"/>
+		
+		<str id="disa" val="비활성화(&amp;D)"/>
+		<str id="b1" val="&amp;1 바이트"/>
+		<str id="b2" val="&amp;2 바이트"/>
+		<str id="b4" val="&amp;4 바이트"/>
+		
+		<str id="ipm" val="&amp;IP 주소..."/>
+		<str id="rtm" val="실시간(&amp;T)"/>
+	</menu>
+</i18n>
